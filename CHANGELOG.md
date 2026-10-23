@@ -1,0 +1,10 @@
+# Changelog / 更新记录
+
+## v0.1.0 — 2026-10-24
+
+- Design four Echinoidea 16S length series from a frozen reference database / 从冻结参考库设计四个海胆16S长度系列。
+- Extend same-locus discovery to complete per-region eligible panels / 同位置搜索扩展至各区域全部可评估标签。
+- Improve exact matching with local pair swaps under explicit risk/coverage constraints / 在风险与覆盖约束下局部替换配对，提高完全匹配。
+- Validate Separate and Pool configurations independently / 分别验证独立PCR与混合方案。
+- Publish Chinese/English methods, primer tables, region figures and reproducible checks / 发布中英双语方法、引物表、区域图及复现检查。
+- Computational candidate prerelease; no wet-lab validation / 计算候选预发布版，尚未经湿实验验证。

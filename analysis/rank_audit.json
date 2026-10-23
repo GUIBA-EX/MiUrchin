@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "n_pairs": 15,
+  "indices": [
+    0,
+    606,
+    10441,
+    12602,
+    20519,
+    21527,
+    23992,
+    25602,
+    26355,
+    36070,
+    37385,
+    56409,
+    57841,
+    63611,
+    63612
+  ],
+  "scope": "C++ risk aggregation vs original Python; not independent sequence scan"
+}

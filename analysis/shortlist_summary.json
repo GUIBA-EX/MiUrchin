@@ -1,0 +1,26 @@
+{
+  "mini": {
+    "n_pairs": 7972,
+    "n_risk_budget_pass": 254,
+    "best_discovery_coverage": 0.6122448979591837,
+    "shortlist": 6
+  },
+  "short": {
+    "n_pairs": 8809,
+    "n_risk_budget_pass": 2460,
+    "best_discovery_coverage": 0.8775510204081634,
+    "shortlist": 8
+  },
+  "medium": {
+    "n_pairs": 13837,
+    "n_risk_budget_pass": 3688,
+    "best_discovery_coverage": 0.8775510204081632,
+    "shortlist": 8
+  },
+  "long": {
+    "n_pairs": 32995,
+    "n_risk_budget_pass": 8381,
+    "best_discovery_coverage": 0.9591836734693877,
+    "shortlist": 8
+  }
+}

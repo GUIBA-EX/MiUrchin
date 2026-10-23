@@ -1,0 +1,18 @@
+{
+  "oligos": 1656,
+  "pairs": 63613,
+  "bands": {
+    "long": 32995,
+    "short": 8809,
+    "medium": 13837,
+    "mini": 7972
+  },
+  "v4_pairs": 0,
+  "rejections": {
+    "degeneracy": 9978,
+    "coverage": 1401,
+    "alignment_support": 1810,
+    "thermal": 937
+  },
+  "status": "discovery_only_not_specificity_validated"
+}

@@ -1,0 +1,3042 @@
+[
+  {
+    "F_ids": [
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0288"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "coverage": 0.9636363636363637,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 4,
+    "total_degeneracy": 5,
+    "locus": "MiUrchin-L",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 1
+  },
+  {
+    "F_ids": [
+      "SL0269",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0288"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 6,
+    "total_degeneracy": 7,
+    "locus": "MiUrchin-L",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 2
+  },
+  {
+    "F_ids": [
+      "SL0269",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0288"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 6,
+    "total_degeneracy": 7,
+    "locus": "MiUrchin-L",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 3
+  },
+  {
+    "F_ids": [
+      "SL0269",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0288"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 6,
+    "total_degeneracy": 7,
+    "locus": "MiUrchin-L",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 4
+  },
+  {
+    "F_ids": [
+      "SL0269",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0288"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 6,
+    "total_degeneracy": 7,
+    "locus": "MiUrchin-L",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 5
+  },
+  {
+    "F_ids": [
+      "SL0269",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0288"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 6,
+    "total_degeneracy": 7,
+    "locus": "MiUrchin-L",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6
+  },
+  {
+    "F_ids": [
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0288"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0275",
+        "SL0288"
+      ]
+    ],
+    "coverage": 0.9636363636363637,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 4,
+    "total_degeneracy": 5,
+    "locus": "MiUrchin-L",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 1
+  },
+  {
+    "F_ids": [
+      "SL0271",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0285"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0271",
+        "SL0283"
+      ],
+      [
+        "SL0271",
+        "SL0285"
+      ],
+      [
+        "SL0275",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0285"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0271",
+        "SL0285"
+      ],
+      [
+        "SL0275",
+        "SL0283"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 10,
+    "total_degeneracy": 7,
+    "locus": "MiUrchin-L",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 2
+  },
+  {
+    "F_ids": [
+      "SL0261",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0284",
+      "SL0286"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0261",
+        "SL0286"
+      ],
+      [
+        "SL0275",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0284"
+      ],
+      [
+        "SL0275",
+        "SL0286"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0275",
+        "SL0286"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 9,
+    "total_degeneracy": 8,
+    "locus": "MiUrchin-L",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 3
+  },
+  {
+    "F_ids": [
+      "SL0261",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0284",
+      "SL0286"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0261",
+        "SL0286"
+      ],
+      [
+        "SL0275",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0284"
+      ],
+      [
+        "SL0275",
+        "SL0286"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0275",
+        "SL0286"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 9,
+    "total_degeneracy": 8,
+    "locus": "MiUrchin-L",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 4
+  },
+  {
+    "F_ids": [
+      "SL0261",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0284",
+      "SL0286"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0261",
+        "SL0286"
+      ],
+      [
+        "SL0275",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0284"
+      ],
+      [
+        "SL0275",
+        "SL0286"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0275",
+        "SL0286"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 9,
+    "total_degeneracy": 8,
+    "locus": "MiUrchin-L",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 5
+  },
+  {
+    "F_ids": [
+      "SL0261",
+      "SL0275"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0284",
+      "SL0286"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0261",
+        "SL0286"
+      ],
+      [
+        "SL0275",
+        "SL0283"
+      ],
+      [
+        "SL0275",
+        "SL0284"
+      ],
+      [
+        "SL0275",
+        "SL0286"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0275",
+        "SL0286"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 9,
+    "total_degeneracy": 8,
+    "locus": "MiUrchin-L",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6
+  },
+  {
+    "F_ids": [
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0228"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.692262888626525,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 1,
+    "total_degeneracy": 26,
+    "locus": "MiUrchin-M",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 1
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0228",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.8413165697678351,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 1,
+    "total_degeneracy": 28,
+    "locus": "MiUrchin-M",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 2
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0228",
+      "SL0250",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9221246505759157,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 1,
+    "total_degeneracy": 29,
+    "locus": "MiUrchin-M",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 3
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0208",
+      "SL0228",
+      "SL0250",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9342458626971278,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 1,
+    "total_degeneracy": 30,
+    "locus": "MiUrchin-M",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 4
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0171",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0208",
+      "SL0214",
+      "SL0228",
+      "SL0250",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0171",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0171",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9463670748183399,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 17,
+    "total_degeneracy": 35,
+    "locus": "MiUrchin-M",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 5
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0171",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0206",
+      "SL0208",
+      "SL0214",
+      "SL0228",
+      "SL0250",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0206"
+      ],
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0171",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0206"
+      ],
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0171",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9529786450662739,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 17,
+    "total_degeneracy": 36,
+    "locus": "MiUrchin-M",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6
+  },
+  {
+    "F_ids": [
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0228"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.692262888626525,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 1,
+    "total_degeneracy": 26,
+    "locus": "MiUrchin-M",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 1
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0228",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0228"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ],
+      [
+        "SL0177",
+        "SL0256"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.8413165697678351,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 1,
+    "total_degeneracy": 28,
+    "locus": "MiUrchin-M",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 2
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0228",
+      "SL0250",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0228"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ],
+      [
+        "SL0177",
+        "SL0250"
+      ],
+      [
+        "SL0177",
+        "SL0256"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9221246505759157,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 1,
+    "total_degeneracy": 29,
+    "locus": "MiUrchin-M",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 3
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0174",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0214",
+      "SL0228",
+      "SL0250",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0214"
+      ],
+      [
+        "SL0166",
+        "SL0228"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0174",
+        "SL0228"
+      ],
+      [
+        "SL0174",
+        "SL0250"
+      ],
+      [
+        "SL0174",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ],
+      [
+        "SL0177",
+        "SL0250"
+      ],
+      [
+        "SL0177",
+        "SL0256"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9420380704893357,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 50,
+    "total_degeneracy": 31,
+    "locus": "MiUrchin-M",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 4
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0174",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0208",
+      "SL0214",
+      "SL0228",
+      "SL0250",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0214"
+      ],
+      [
+        "SL0166",
+        "SL0228"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0208"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0174",
+        "SL0228"
+      ],
+      [
+        "SL0174",
+        "SL0250"
+      ],
+      [
+        "SL0174",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0208"
+      ],
+      [
+        "SL0177",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ],
+      [
+        "SL0177",
+        "SL0250"
+      ],
+      [
+        "SL0177",
+        "SL0256"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9541592826105477,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 50,
+    "total_degeneracy": 32,
+    "locus": "MiUrchin-M",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 5
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0174",
+      "SL0177"
+    ],
+    "R_ids": [
+      "SL0206",
+      "SL0208",
+      "SL0214",
+      "SL0228",
+      "SL0250",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0206"
+      ],
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0214"
+      ],
+      [
+        "SL0166",
+        "SL0228"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0206"
+      ],
+      [
+        "SL0174",
+        "SL0208"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0174",
+        "SL0228"
+      ],
+      [
+        "SL0174",
+        "SL0250"
+      ],
+      [
+        "SL0174",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0206"
+      ],
+      [
+        "SL0177",
+        "SL0208"
+      ],
+      [
+        "SL0177",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ],
+      [
+        "SL0177",
+        "SL0250"
+      ],
+      [
+        "SL0177",
+        "SL0256"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0206"
+      ],
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0250"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0177",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9607708528584817,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 51,
+    "total_degeneracy": 33,
+    "locus": "MiUrchin-M",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6
+  },
+  {
+    "F_ids": [
+      "SL0078"
+    ],
+    "R_ids": [
+      "SL0131"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ]
+    ],
+    "coverage": 0.6951515151515152,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 0,
+    "total_degeneracy": 26,
+    "locus": "MiUrchin-S",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 1
+  },
+  {
+    "F_ids": [
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0131",
+      "SL0157"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.8380111459421805,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 0,
+    "total_degeneracy": 39,
+    "locus": "MiUrchin-S",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 2
+  },
+  {
+    "F_ids": [
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0127",
+      "SL0131",
+      "SL0157"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9188192267502613,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 0,
+    "total_degeneracy": 40,
+    "locus": "MiUrchin-S",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 3
+  },
+  {
+    "F_ids": [
+      "SL0075",
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0108",
+      "SL0127",
+      "SL0131",
+      "SL0157"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0075",
+        "SL0108"
+      ],
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0075",
+        "SL0108"
+      ],
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9370010449320794,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 15,
+    "total_degeneracy": 42,
+    "locus": "MiUrchin-S",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 4
+  },
+  {
+    "F_ids": [
+      "SL0075",
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0108",
+      "SL0121",
+      "SL0127",
+      "SL0157",
+      "SL0163"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0075",
+        "SL0108"
+      ],
+      [
+        "SL0078",
+        "SL0121"
+      ],
+      [
+        "SL0078",
+        "SL0163"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0075",
+        "SL0108"
+      ],
+      [
+        "SL0078",
+        "SL0121"
+      ],
+      [
+        "SL0078",
+        "SL0163"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9491222570532916,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 15,
+    "total_degeneracy": 42,
+    "locus": "MiUrchin-S",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 5
+  },
+  {
+    "F_ids": [
+      "SL0067",
+      "SL0075",
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0108",
+      "SL0121",
+      "SL0127",
+      "SL0132",
+      "SL0157",
+      "SL0163"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0067",
+        "SL0132"
+      ],
+      [
+        "SL0075",
+        "SL0108"
+      ],
+      [
+        "SL0078",
+        "SL0121"
+      ],
+      [
+        "SL0078",
+        "SL0163"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0067",
+        "SL0132"
+      ],
+      [
+        "SL0075",
+        "SL0108"
+      ],
+      [
+        "SL0078",
+        "SL0121"
+      ],
+      [
+        "SL0078",
+        "SL0163"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9612434691745035,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 15,
+    "total_degeneracy": 44,
+    "locus": "MiUrchin-S",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6
+  },
+  {
+    "F_ids": [
+      "SL0078"
+    ],
+    "R_ids": [
+      "SL0131"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ]
+    ],
+    "coverage": 0.6951515151515152,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 0,
+    "total_degeneracy": 26,
+    "locus": "MiUrchin-S",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 1
+  },
+  {
+    "F_ids": [
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0131",
+      "SL0157"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0078",
+        "SL0157"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.8380111459421805,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 0,
+    "total_degeneracy": 39,
+    "locus": "MiUrchin-S",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 2
+  },
+  {
+    "F_ids": [
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0127",
+      "SL0131",
+      "SL0157"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0078",
+        "SL0127"
+      ],
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0078",
+        "SL0157"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9188192267502613,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 0,
+    "total_degeneracy": 40,
+    "locus": "MiUrchin-S",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 3
+  },
+  {
+    "F_ids": [
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0117",
+      "SL0127",
+      "SL0131",
+      "SL0157"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0078",
+        "SL0117"
+      ],
+      [
+        "SL0078",
+        "SL0127"
+      ],
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0078",
+        "SL0157"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9370010449320794,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 34,
+    "total_degeneracy": 41,
+    "locus": "MiUrchin-S",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 4
+  },
+  {
+    "F_ids": [
+      "SL0071",
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0117",
+      "SL0121",
+      "SL0127",
+      "SL0131",
+      "SL0157"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0071",
+        "SL0117"
+      ],
+      [
+        "SL0071",
+        "SL0121"
+      ],
+      [
+        "SL0071",
+        "SL0127"
+      ],
+      [
+        "SL0071",
+        "SL0131"
+      ],
+      [
+        "SL0071",
+        "SL0157"
+      ],
+      [
+        "SL0078",
+        "SL0117"
+      ],
+      [
+        "SL0078",
+        "SL0121"
+      ],
+      [
+        "SL0078",
+        "SL0127"
+      ],
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0078",
+        "SL0157"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0084",
+        "SL0121"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0071",
+        "SL0121"
+      ],
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9491222570532916,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 51,
+    "total_degeneracy": 51,
+    "locus": "MiUrchin-S",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 5
+  },
+  {
+    "F_ids": [
+      "SL0067",
+      "SL0071",
+      "SL0078",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0117",
+      "SL0121",
+      "SL0127",
+      "SL0131",
+      "SL0132",
+      "SL0157"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0067",
+        "SL0117"
+      ],
+      [
+        "SL0067",
+        "SL0121"
+      ],
+      [
+        "SL0067",
+        "SL0127"
+      ],
+      [
+        "SL0067",
+        "SL0131"
+      ],
+      [
+        "SL0067",
+        "SL0132"
+      ],
+      [
+        "SL0067",
+        "SL0157"
+      ],
+      [
+        "SL0071",
+        "SL0117"
+      ],
+      [
+        "SL0071",
+        "SL0121"
+      ],
+      [
+        "SL0071",
+        "SL0127"
+      ],
+      [
+        "SL0071",
+        "SL0131"
+      ],
+      [
+        "SL0071",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0157"
+      ],
+      [
+        "SL0078",
+        "SL0117"
+      ],
+      [
+        "SL0078",
+        "SL0121"
+      ],
+      [
+        "SL0078",
+        "SL0127"
+      ],
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0078",
+        "SL0132"
+      ],
+      [
+        "SL0078",
+        "SL0157"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0084",
+        "SL0121"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0132"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0067",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0121"
+      ],
+      [
+        "SL0078",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0084",
+        "SL0127"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9612434691745035,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 70,
+    "total_degeneracy": 53,
+    "locus": "MiUrchin-S",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6
+  },
+  {
+    "F_ids": [
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0045"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.6545454545454545,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 8,
+    "total_degeneracy": 36,
+    "locus": "MiUrchin-XS",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 1
+  },
+  {
+    "F_ids": [
+      "SL0003",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0045"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.7090909090909091,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 8,
+    "total_degeneracy": 38,
+    "locus": "MiUrchin-XS",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 2
+  },
+  {
+    "F_ids": [
+      "SL0003",
+      "SL0009",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.7636363636363637,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 8,
+    "total_degeneracy": 47,
+    "locus": "MiUrchin-XS",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 3
+  },
+  {
+    "F_ids": [
+      "SL0003",
+      "SL0009",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0047"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0009",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0009",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.8,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 11,
+    "total_degeneracy": 48,
+    "locus": "MiUrchin-XS",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 4
+  },
+  {
+    "F_ids": [
+      "SL0003",
+      "SL0007",
+      "SL0009",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0047",
+      "SL0055"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0009",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0009",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.8363636363636363,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 11,
+    "total_degeneracy": 50,
+    "locus": "MiUrchin-XS",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 5
+  },
+  {
+    "F_ids": [
+      "SL0003",
+      "SL0007",
+      "SL0009",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0047",
+      "SL0055",
+      "SL0059"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0009",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0009",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "coverage": 0.8545454545454546,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 11,
+    "total_degeneracy": 51,
+    "locus": "MiUrchin-XS",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6
+  },
+  {
+    "F_ids": [
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0045"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0025",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.6545454545454545,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 8,
+    "total_degeneracy": 36,
+    "locus": "MiUrchin-XS",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 1
+  },
+  {
+    "F_ids": [
+      "SL0006",
+      "SL0026"
+    ],
+    "R_ids": [
+      "SL0042",
+      "SL0045"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0006",
+        "SL0042"
+      ],
+      [
+        "SL0006",
+        "SL0045"
+      ],
+      [
+        "SL0026",
+        "SL0042"
+      ],
+      [
+        "SL0026",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0006",
+        "SL0042"
+      ],
+      [
+        "SL0026",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.7090909090909091,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 8,
+    "total_degeneracy": 34,
+    "locus": "MiUrchin-XS",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 2
+  },
+  {
+    "F_ids": [
+      "SL0003",
+      "SL0006",
+      "SL0026"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0003",
+        "SL0042"
+      ],
+      [
+        "SL0003",
+        "SL0045"
+      ],
+      [
+        "SL0006",
+        "SL0032"
+      ],
+      [
+        "SL0006",
+        "SL0042"
+      ],
+      [
+        "SL0006",
+        "SL0045"
+      ],
+      [
+        "SL0026",
+        "SL0032"
+      ],
+      [
+        "SL0026",
+        "SL0042"
+      ],
+      [
+        "SL0026",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0006",
+        "SL0042"
+      ],
+      [
+        "SL0026",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.7636363636363637,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 13,
+    "total_degeneracy": 36,
+    "locus": "MiUrchin-XS",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 3
+  },
+  {
+    "F_ids": [
+      "SL0003",
+      "SL0004",
+      "SL0006",
+      "SL0026"
+    ],
+    "R_ids": [
+      "SL0029",
+      "SL0032",
+      "SL0042",
+      "SL0045"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0003",
+        "SL0029"
+      ],
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0003",
+        "SL0042"
+      ],
+      [
+        "SL0003",
+        "SL0045"
+      ],
+      [
+        "SL0004",
+        "SL0029"
+      ],
+      [
+        "SL0004",
+        "SL0032"
+      ],
+      [
+        "SL0004",
+        "SL0042"
+      ],
+      [
+        "SL0004",
+        "SL0045"
+      ],
+      [
+        "SL0006",
+        "SL0029"
+      ],
+      [
+        "SL0006",
+        "SL0032"
+      ],
+      [
+        "SL0006",
+        "SL0042"
+      ],
+      [
+        "SL0006",
+        "SL0045"
+      ],
+      [
+        "SL0026",
+        "SL0029"
+      ],
+      [
+        "SL0026",
+        "SL0032"
+      ],
+      [
+        "SL0026",
+        "SL0042"
+      ],
+      [
+        "SL0026",
+        "SL0045"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0004",
+        "SL0029"
+      ],
+      [
+        "SL0006",
+        "SL0042"
+      ],
+      [
+        "SL0026",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.8,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 22,
+    "total_degeneracy": 38,
+    "locus": "MiUrchin-XS",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 4
+  },
+  {
+    "F_ids": [
+      "SL0003",
+      "SL0004",
+      "SL0006",
+      "SL0007",
+      "SL0026"
+    ],
+    "R_ids": [
+      "SL0029",
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0055"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0003",
+        "SL0029"
+      ],
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0003",
+        "SL0042"
+      ],
+      [
+        "SL0003",
+        "SL0045"
+      ],
+      [
+        "SL0003",
+        "SL0055"
+      ],
+      [
+        "SL0004",
+        "SL0029"
+      ],
+      [
+        "SL0004",
+        "SL0032"
+      ],
+      [
+        "SL0004",
+        "SL0042"
+      ],
+      [
+        "SL0004",
+        "SL0045"
+      ],
+      [
+        "SL0004",
+        "SL0055"
+      ],
+      [
+        "SL0006",
+        "SL0029"
+      ],
+      [
+        "SL0006",
+        "SL0032"
+      ],
+      [
+        "SL0006",
+        "SL0042"
+      ],
+      [
+        "SL0006",
+        "SL0045"
+      ],
+      [
+        "SL0006",
+        "SL0055"
+      ],
+      [
+        "SL0007",
+        "SL0029"
+      ],
+      [
+        "SL0007",
+        "SL0032"
+      ],
+      [
+        "SL0007",
+        "SL0042"
+      ],
+      [
+        "SL0007",
+        "SL0045"
+      ],
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0026",
+        "SL0029"
+      ],
+      [
+        "SL0026",
+        "SL0032"
+      ],
+      [
+        "SL0026",
+        "SL0042"
+      ],
+      [
+        "SL0026",
+        "SL0045"
+      ],
+      [
+        "SL0026",
+        "SL0055"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0004",
+        "SL0029"
+      ],
+      [
+        "SL0006",
+        "SL0042"
+      ],
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0026",
+        "SL0045"
+      ]
+    ],
+    "coverage": 0.8363636363636363,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 31,
+    "total_degeneracy": 40,
+    "locus": "MiUrchin-XS",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 5
+  },
+  {
+    "F_ids": [
+      "SL0001",
+      "SL0003",
+      "SL0004",
+      "SL0007",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0029",
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0055",
+      "SL0059"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0001",
+        "SL0029"
+      ],
+      [
+        "SL0001",
+        "SL0032"
+      ],
+      [
+        "SL0001",
+        "SL0042"
+      ],
+      [
+        "SL0001",
+        "SL0045"
+      ],
+      [
+        "SL0001",
+        "SL0055"
+      ],
+      [
+        "SL0001",
+        "SL0059"
+      ],
+      [
+        "SL0003",
+        "SL0029"
+      ],
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0003",
+        "SL0042"
+      ],
+      [
+        "SL0003",
+        "SL0045"
+      ],
+      [
+        "SL0003",
+        "SL0055"
+      ],
+      [
+        "SL0003",
+        "SL0059"
+      ],
+      [
+        "SL0004",
+        "SL0029"
+      ],
+      [
+        "SL0004",
+        "SL0032"
+      ],
+      [
+        "SL0004",
+        "SL0042"
+      ],
+      [
+        "SL0004",
+        "SL0045"
+      ],
+      [
+        "SL0004",
+        "SL0055"
+      ],
+      [
+        "SL0004",
+        "SL0059"
+      ],
+      [
+        "SL0007",
+        "SL0029"
+      ],
+      [
+        "SL0007",
+        "SL0032"
+      ],
+      [
+        "SL0007",
+        "SL0042"
+      ],
+      [
+        "SL0007",
+        "SL0045"
+      ],
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0007",
+        "SL0059"
+      ],
+      [
+        "SL0025",
+        "SL0029"
+      ],
+      [
+        "SL0025",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0042"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0055"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0001",
+        "SL0042"
+      ],
+      [
+        "SL0003",
+        "SL0032"
+      ],
+      [
+        "SL0004",
+        "SL0029"
+      ],
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "coverage": 0.8545454545454546,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 33,
+    "total_degeneracy": 45,
+    "locus": "MiUrchin-XS",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6
+  }
+]

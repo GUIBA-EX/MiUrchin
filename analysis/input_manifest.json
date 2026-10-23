@@ -1,0 +1,25 @@
+{
+  "target_records": 1401,
+  "background_records": 6045,
+  "full_length_label_haplotypes": 86,
+  "clades": {
+    "Holothuroidea": 1846,
+    "Echinoidea": 1401,
+    "Ophiuroidea": 1736,
+    "Crinoidea": 269,
+    "Asteroidea": 1955,
+    "other_metazoa": 239
+  },
+  "target_annotation": {
+    "annotated": 1391,
+    "title_only": 10
+  },
+  "reference": "NC_001453.1",
+  "source": "MiCucumber/MiStar frozen accession data; reclassified Echinoidea as target",
+  "inputs": {
+    "target.fasta": "489f373a820bb70e4bca2193667c8b215b50f66eefb1cadda025ff05f62543e6",
+    "background.fasta": "1fdf5a27e5effa789e799834b46806858ec11ce03794996b8ab2429df2d11c10",
+    "metadata.tsv": "14fb8d8c092eaffadc2550cee61e036b16175e6b241d7b2d1e7c6364814c7e61"
+  },
+  "fresh_database_download": false
+}

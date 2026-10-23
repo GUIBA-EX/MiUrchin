@@ -1,0 +1,1684 @@
+[
+  {
+    "F_ids": [
+      "SL0261",
+      "SL0264",
+      "SL0266",
+      "SL0269",
+      "SL0274",
+      "SL0276"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0288",
+      "SL0291",
+      "SL0294",
+      "SL0297"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0261",
+        "SL0294"
+      ],
+      [
+        "SL0264",
+        "SL0297"
+      ],
+      [
+        "SL0266",
+        "SL0294"
+      ],
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0274",
+        "SL0291"
+      ],
+      [
+        "SL0276",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0261",
+        "SL0294"
+      ],
+      [
+        "SL0264",
+        "SL0297"
+      ],
+      [
+        "SL0266",
+        "SL0294"
+      ],
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0274",
+        "SL0291"
+      ],
+      [
+        "SL0276",
+        "SL0288"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [
+      "NC_088019.1"
+    ],
+    "GT2_accessions": [
+      "NC_068252.1",
+      "NC_068254.1",
+      "OM313186.1",
+      "OM321037.1"
+    ],
+    "WC4_sum_upper_bound": 27,
+    "total_degeneracy": 27,
+    "locus": "MiUrchin-L",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.4909090909090909,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution",
+    "name": "MiUrchin-L-Separate",
+    "allowed_pair_names": [
+      "MU_combo_030",
+      "MU_combo_031",
+      "MU_combo_032",
+      "MU_combo_033",
+      "MU_combo_034",
+      "MU_combo_035"
+    ],
+    "F_sequences": [
+      "AAATAGGCCCAGAAGCAGCC",
+      "AAGTAGGCCCAGAAGCAGCC",
+      "AAGTAGGCCTAGAAGCAGCC",
+      "GAATAGGCCTAGAAGCAGCC",
+      "GRATAGGCCTAGAAGCAGCC",
+      "RARTAGGCCTARAAGCAGCC"
+    ],
+    "R_sequences": [
+      "CCCTCTTGCCATTCATACTAGTCTCTAA",
+      "CCGTCTTGCCATTCATACTAGTCTCTAT",
+      "CCGTCTTGCCATTCATACYAGTCTCTAT",
+      "CCGTCTTGCCATTCATRCYAGTCTYTAT",
+      "CCGTCTTGCCGTTCATACTAGTCTCTAT"
+    ],
+    "components": [
+      {
+        "F_id": "SL0261",
+        "R_id": "SL0294",
+        "F": "AAATAGGCCCAGAAGCAGCC",
+        "R": "CCGTCTTGCCATTCATRCYAGTCTYTAT"
+      },
+      {
+        "F_id": "SL0264",
+        "R_id": "SL0297",
+        "F": "AAGTAGGCCCAGAAGCAGCC",
+        "R": "CCGTCTTGCCGTTCATACTAGTCTCTAT"
+      },
+      {
+        "F_id": "SL0266",
+        "R_id": "SL0294",
+        "F": "AAGTAGGCCTAGAAGCAGCC",
+        "R": "CCGTCTTGCCATTCATRCYAGTCTYTAT"
+      },
+      {
+        "F_id": "SL0269",
+        "R_id": "SL0283",
+        "F": "GAATAGGCCTAGAAGCAGCC",
+        "R": "CCCTCTTGCCATTCATACTAGTCTCTAA"
+      },
+      {
+        "F_id": "SL0274",
+        "R_id": "SL0291",
+        "F": "GRATAGGCCTAGAAGCAGCC",
+        "R": "CCGTCTTGCCATTCATACYAGTCTCTAT"
+      },
+      {
+        "F_id": "SL0276",
+        "R_id": "SL0288",
+        "F": "RARTAGGCCTARAAGCAGCC",
+        "R": "CCGTCTTGCCATTCATACTAGTCTCTAT"
+      }
+    ]
+  },
+  {
+    "F_ids": [
+      "SL0261",
+      "SL0264",
+      "SL0267",
+      "SL0276",
+      "SL0278",
+      "SL0280"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0284",
+      "SL0290",
+      "SL0294",
+      "SL0297"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0261",
+        "SL0290"
+      ],
+      [
+        "SL0261",
+        "SL0294"
+      ],
+      [
+        "SL0261",
+        "SL0297"
+      ],
+      [
+        "SL0264",
+        "SL0283"
+      ],
+      [
+        "SL0264",
+        "SL0284"
+      ],
+      [
+        "SL0264",
+        "SL0290"
+      ],
+      [
+        "SL0264",
+        "SL0294"
+      ],
+      [
+        "SL0264",
+        "SL0297"
+      ],
+      [
+        "SL0267",
+        "SL0283"
+      ],
+      [
+        "SL0267",
+        "SL0284"
+      ],
+      [
+        "SL0267",
+        "SL0290"
+      ],
+      [
+        "SL0267",
+        "SL0294"
+      ],
+      [
+        "SL0267",
+        "SL0297"
+      ],
+      [
+        "SL0276",
+        "SL0283"
+      ],
+      [
+        "SL0276",
+        "SL0284"
+      ],
+      [
+        "SL0276",
+        "SL0290"
+      ],
+      [
+        "SL0276",
+        "SL0294"
+      ],
+      [
+        "SL0276",
+        "SL0297"
+      ],
+      [
+        "SL0278",
+        "SL0283"
+      ],
+      [
+        "SL0278",
+        "SL0284"
+      ],
+      [
+        "SL0278",
+        "SL0290"
+      ],
+      [
+        "SL0278",
+        "SL0294"
+      ],
+      [
+        "SL0278",
+        "SL0297"
+      ],
+      [
+        "SL0280",
+        "SL0283"
+      ],
+      [
+        "SL0280",
+        "SL0284"
+      ],
+      [
+        "SL0280",
+        "SL0290"
+      ],
+      [
+        "SL0280",
+        "SL0294"
+      ],
+      [
+        "SL0280",
+        "SL0297"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0261",
+        "SL0294"
+      ],
+      [
+        "SL0264",
+        "SL0297"
+      ],
+      [
+        "SL0267",
+        "SL0284"
+      ],
+      [
+        "SL0276",
+        "SL0283"
+      ],
+      [
+        "SL0278",
+        "SL0290"
+      ],
+      [
+        "SL0280",
+        "SL0283"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [
+      "NC_088019.1"
+    ],
+    "GT2_accessions": [
+      "NC_068252.1",
+      "NC_068254.1",
+      "NC_088019.1",
+      "OM313186.1",
+      "OM321037.1"
+    ],
+    "WC4_sum_upper_bound": 102,
+    "total_degeneracy": 25,
+    "locus": "MiUrchin-L",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.7454545454545455,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution",
+    "name": "MiUrchin-L-Pool",
+    "allowed_pair_names": [
+      "MU_combo_036",
+      "MU_combo_037",
+      "MU_combo_038",
+      "MU_combo_030",
+      "MU_combo_039",
+      "MU_combo_040",
+      "MU_combo_041",
+      "MU_combo_042",
+      "MU_combo_043",
+      "MU_combo_031",
+      "MU_combo_044",
+      "MU_combo_045",
+      "MU_combo_046",
+      "MU_combo_047",
+      "MU_combo_048",
+      "MU_combo_049",
+      "MU_combo_050",
+      "MU_combo_051",
+      "MU_combo_052",
+      "MU_combo_053",
+      "MU_combo_054",
+      "MU_combo_055",
+      "MU_combo_056",
+      "MU_combo_057",
+      "MU_combo_058",
+      "MU_combo_059",
+      "MU_combo_060",
+      "MU_combo_061",
+      "MU_combo_062",
+      "MU_combo_063"
+    ],
+    "F_sequences": [
+      "AAATAGGCCCAGAAGCAGCC",
+      "AAGTAGGCCCAGAAGCAGCC",
+      "CAGTAGGCCTAGAAGCAGCC",
+      "RARTAGGCCTARAAGCAGCC",
+      "TAATAGGCCTAGAAGCAGCC",
+      "TAGTAGGCCTAAAAGCAGCC"
+    ],
+    "R_sequences": [
+      "CCCTCTTGCCATTCATACTAGTCTCTAA",
+      "CCGTCTCGCCATTCATACTAGTCTCTAT",
+      "CCGTCTTGCCATTCATACTAGTCTTTAT",
+      "CCGTCTTGCCATTCATRCYAGTCTYTAT",
+      "CCGTCTTGCCGTTCATACTAGTCTCTAT"
+    ],
+    "components": [
+      {
+        "F_id": "SL0261",
+        "R_id": "SL0294",
+        "F": "AAATAGGCCCAGAAGCAGCC",
+        "R": "CCGTCTTGCCATTCATRCYAGTCTYTAT"
+      },
+      {
+        "F_id": "SL0264",
+        "R_id": "SL0297",
+        "F": "AAGTAGGCCCAGAAGCAGCC",
+        "R": "CCGTCTTGCCGTTCATACTAGTCTCTAT"
+      },
+      {
+        "F_id": "SL0267",
+        "R_id": "SL0284",
+        "F": "CAGTAGGCCTAGAAGCAGCC",
+        "R": "CCGTCTCGCCATTCATACTAGTCTCTAT"
+      },
+      {
+        "F_id": "SL0276",
+        "R_id": "SL0283",
+        "F": "RARTAGGCCTARAAGCAGCC",
+        "R": "CCCTCTTGCCATTCATACTAGTCTCTAA"
+      },
+      {
+        "F_id": "SL0278",
+        "R_id": "SL0290",
+        "F": "TAATAGGCCTAGAAGCAGCC",
+        "R": "CCGTCTTGCCATTCATACTAGTCTTTAT"
+      },
+      {
+        "F_id": "SL0280",
+        "R_id": "SL0283",
+        "F": "TAGTAGGCCTAAAAGCAGCC",
+        "R": "CCCTCTTGCCATTCATACTAGTCTCTAA"
+      }
+    ]
+  },
+  {
+    "F_ids": [
+      "SL0176",
+      "SL0177",
+      "SL0185"
+    ],
+    "R_ids": [
+      "SL0206",
+      "SL0208",
+      "SL0214",
+      "SL0228",
+      "SL0255",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0176",
+        "SL0206"
+      ],
+      [
+        "SL0176",
+        "SL0208"
+      ],
+      [
+        "SL0176",
+        "SL0255"
+      ],
+      [
+        "SL0176",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0214"
+      ],
+      [
+        "SL0185",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0176",
+        "SL0206"
+      ],
+      [
+        "SL0176",
+        "SL0208"
+      ],
+      [
+        "SL0176",
+        "SL0255"
+      ],
+      [
+        "SL0176",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0214"
+      ],
+      [
+        "SL0185",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9529786450662739,
+    "WC3_accessions": [
+      "NC_087806.1"
+    ],
+    "GT2_accessions": [
+      "NC_087806.1"
+    ],
+    "WC4_sum_upper_bound": 19,
+    "total_degeneracy": 64,
+    "locus": "MiUrchin-M",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.44833792470156103,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution",
+    "name": "MiUrchin-M-Separate",
+    "allowed_pair_names": [
+      "MU_combo_064",
+      "MU_combo_065",
+      "MU_combo_066",
+      "MU_combo_067",
+      "MU_combo_068",
+      "MU_medium_1"
+    ],
+    "F_sequences": [
+      "CTAAATAGAGACTGGTATGAATGG",
+      "CTAAATAGAGACTGGTATGAAYGG",
+      "CTAAWTARAGACTRGYATGAAYGG"
+    ],
+    "R_sequences": [
+      "CTTTGATCACCTAAGTGGATC",
+      "CTTTGATCACCTAAGTGGATCG",
+      "CTTTGATCACCTTAAGTGGATCA",
+      "CTTTGATCAYCTDRRTGGATCA",
+      "TTTTGATCACTGTGAGTGGATCG",
+      "TTTTGATCACTGTTAGTGGATCA"
+    ],
+    "components": [
+      {
+        "F_id": "SL0176",
+        "R_id": "SL0206",
+        "F": "CTAAATAGAGACTGGTATGAATGG",
+        "R": "CTTTGATCACCTAAGTGGATC"
+      },
+      {
+        "F_id": "SL0176",
+        "R_id": "SL0208",
+        "F": "CTAAATAGAGACTGGTATGAATGG",
+        "R": "CTTTGATCACCTAAGTGGATCG"
+      },
+      {
+        "F_id": "SL0176",
+        "R_id": "SL0255",
+        "F": "CTAAATAGAGACTGGTATGAATGG",
+        "R": "TTTTGATCACTGTGAGTGGATCG"
+      },
+      {
+        "F_id": "SL0176",
+        "R_id": "SL0256",
+        "F": "CTAAATAGAGACTGGTATGAATGG",
+        "R": "TTTTGATCACTGTTAGTGGATCA"
+      },
+      {
+        "F_id": "SL0177",
+        "R_id": "SL0214",
+        "F": "CTAAATAGAGACTGGTATGAAYGG",
+        "R": "CTTTGATCACCTTAAGTGGATCA"
+      },
+      {
+        "F_id": "SL0185",
+        "R_id": "SL0228",
+        "F": "CTAAWTARAGACTRGYATGAAYGG",
+        "R": "CTTTGATCAYCTDRRTGGATCA"
+      }
+    ]
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0174",
+      "SL0185",
+      "SL0187"
+    ],
+    "R_ids": [
+      "SL0206",
+      "SL0208",
+      "SL0214",
+      "SL0228",
+      "SL0255",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0206"
+      ],
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0214"
+      ],
+      [
+        "SL0166",
+        "SL0228"
+      ],
+      [
+        "SL0166",
+        "SL0255"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0206"
+      ],
+      [
+        "SL0174",
+        "SL0208"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0174",
+        "SL0228"
+      ],
+      [
+        "SL0174",
+        "SL0255"
+      ],
+      [
+        "SL0174",
+        "SL0256"
+      ],
+      [
+        "SL0185",
+        "SL0206"
+      ],
+      [
+        "SL0185",
+        "SL0208"
+      ],
+      [
+        "SL0185",
+        "SL0214"
+      ],
+      [
+        "SL0185",
+        "SL0228"
+      ],
+      [
+        "SL0185",
+        "SL0255"
+      ],
+      [
+        "SL0185",
+        "SL0256"
+      ],
+      [
+        "SL0187",
+        "SL0206"
+      ],
+      [
+        "SL0187",
+        "SL0208"
+      ],
+      [
+        "SL0187",
+        "SL0214"
+      ],
+      [
+        "SL0187",
+        "SL0228"
+      ],
+      [
+        "SL0187",
+        "SL0255"
+      ],
+      [
+        "SL0187",
+        "SL0256"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0206"
+      ],
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0185",
+        "SL0255"
+      ],
+      [
+        "SL0187",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9607708528584817,
+    "WC3_accessions": [
+      "NC_087806.1"
+    ],
+    "GT2_accessions": [
+      "EU675501.1",
+      "NC_087806.1"
+    ],
+    "WC4_sum_upper_bound": 71,
+    "total_degeneracy": 64,
+    "locus": "MiUrchin-M",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.45439853076216713,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution",
+    "name": "MiUrchin-M-Pool",
+    "allowed_pair_names": [
+      "MU_combo_069",
+      "MU_combo_070",
+      "MU_combo_071",
+      "MU_combo_072",
+      "MU_combo_073",
+      "MU_combo_074",
+      "MU_combo_075",
+      "MU_combo_076",
+      "MU_combo_077",
+      "MU_combo_078",
+      "MU_combo_079",
+      "MU_combo_080",
+      "MU_combo_081",
+      "MU_combo_082",
+      "MU_combo_083",
+      "MU_medium_1",
+      "MU_combo_084",
+      "MU_combo_085",
+      "MU_combo_086",
+      "MU_combo_087",
+      "MU_combo_088",
+      "MU_combo_089",
+      "MU_combo_090",
+      "MU_combo_091"
+    ],
+    "F_sequences": [
+      "CTAAATAAAGACTGGTATGAATGG",
+      "CTAAATAGAGACTGGTATGAAAGG",
+      "CTAAWTARAGACTRGYATGAAYGG",
+      "TTAAATAGAGACTGGTATGAATGG"
+    ],
+    "R_sequences": [
+      "CTTTGATCACCTAAGTGGATC",
+      "CTTTGATCACCTAAGTGGATCG",
+      "CTTTGATCACCTTAAGTGGATCA",
+      "CTTTGATCAYCTDRRTGGATCA",
+      "TTTTGATCACTGTGAGTGGATCG",
+      "TTTTGATCACTGTTAGTGGATCA"
+    ],
+    "components": [
+      {
+        "F_id": "SL0166",
+        "R_id": "SL0206",
+        "F": "CTAAATAAAGACTGGTATGAATGG",
+        "R": "CTTTGATCACCTAAGTGGATC"
+      },
+      {
+        "F_id": "SL0166",
+        "R_id": "SL0208",
+        "F": "CTAAATAAAGACTGGTATGAATGG",
+        "R": "CTTTGATCACCTAAGTGGATCG"
+      },
+      {
+        "F_id": "SL0166",
+        "R_id": "SL0256",
+        "F": "CTAAATAAAGACTGGTATGAATGG",
+        "R": "TTTTGATCACTGTTAGTGGATCA"
+      },
+      {
+        "F_id": "SL0174",
+        "R_id": "SL0214",
+        "F": "CTAAATAGAGACTGGTATGAAAGG",
+        "R": "CTTTGATCACCTTAAGTGGATCA"
+      },
+      {
+        "F_id": "SL0185",
+        "R_id": "SL0255",
+        "F": "CTAAWTARAGACTRGYATGAAYGG",
+        "R": "TTTTGATCACTGTGAGTGGATCG"
+      },
+      {
+        "F_id": "SL0187",
+        "R_id": "SL0228",
+        "F": "TTAAATAGAGACTGGTATGAATGG",
+        "R": "CTTTGATCAYCTDRRTGGATCA"
+      }
+    ]
+  },
+  {
+    "F_ids": [
+      "SL0069",
+      "SL0071",
+      "SL0073",
+      "SL0079",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0117",
+      "SL0121",
+      "SL0131",
+      "SL0132",
+      "SL0157",
+      "SL0158"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0069",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0117"
+      ],
+      [
+        "SL0073",
+        "SL0158"
+      ],
+      [
+        "SL0079",
+        "SL0121"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0069",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0117"
+      ],
+      [
+        "SL0073",
+        "SL0158"
+      ],
+      [
+        "SL0079",
+        "SL0121"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9612434691745035,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 17,
+    "total_degeneracy": 54,
+    "locus": "MiUrchin-S",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.45878787878787874,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution",
+    "name": "MiUrchin-S-Separate",
+    "allowed_pair_names": [
+      "MU_combo_092",
+      "MU_combo_093",
+      "MU_combo_094",
+      "MU_combo_095",
+      "MU_combo_096",
+      "MU_combo_097"
+    ],
+    "F_sequences": [
+      "CGCTAGACGAGAAGACCCTG",
+      "CGMTAGACGAGAAGACCCTG",
+      "CGTAAGACGAGAAGACCCTG",
+      "CGTTAGACGAGAAGAMCCTG",
+      "CGYHAGACGAGAAGACCCTR"
+    ],
+    "R_sequences": [
+      "CTTTGATCACCTTAAGTGGATCA",
+      "CTTTGATCACCTWRGTGGATCR",
+      "CTTTGATCAYCTDRRTGGATCA",
+      "CTTTGATCGCCTTGGCGGATCA",
+      "TTTTGATCACTGTGAGTGGATCA",
+      "TTTTGATCACTGTGAGTGGATCG"
+    ],
+    "components": [
+      {
+        "F_id": "SL0069",
+        "R_id": "SL0132",
+        "F": "CGCTAGACGAGAAGACCCTG",
+        "R": "CTTTGATCGCCTTGGCGGATCA"
+      },
+      {
+        "F_id": "SL0071",
+        "R_id": "SL0117",
+        "F": "CGMTAGACGAGAAGACCCTG",
+        "R": "CTTTGATCACCTTAAGTGGATCA"
+      },
+      {
+        "F_id": "SL0073",
+        "R_id": "SL0158",
+        "F": "CGTAAGACGAGAAGACCCTG",
+        "R": "TTTTGATCACTGTGAGTGGATCG"
+      },
+      {
+        "F_id": "SL0079",
+        "R_id": "SL0121",
+        "F": "CGTTAGACGAGAAGAMCCTG",
+        "R": "CTTTGATCACCTWRGTGGATCR"
+      },
+      {
+        "F_id": "SL0084",
+        "R_id": "SL0131",
+        "F": "CGYHAGACGAGAAGACCCTR",
+        "R": "CTTTGATCAYCTDRRTGGATCA"
+      },
+      {
+        "F_id": "SL0084",
+        "R_id": "SL0157",
+        "F": "CGYHAGACGAGAAGACCCTR",
+        "R": "TTTTGATCACTGTGAGTGGATCA"
+      }
+    ]
+  },
+  {
+    "F_ids": [
+      "SL0067",
+      "SL0071",
+      "SL0075",
+      "SL0080",
+      "SL0084",
+      "SL0090"
+    ],
+    "R_ids": [
+      "SL0117",
+      "SL0121",
+      "SL0130",
+      "SL0132",
+      "SL0157",
+      "SL0158"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0067",
+        "SL0117"
+      ],
+      [
+        "SL0067",
+        "SL0121"
+      ],
+      [
+        "SL0067",
+        "SL0130"
+      ],
+      [
+        "SL0067",
+        "SL0132"
+      ],
+      [
+        "SL0067",
+        "SL0157"
+      ],
+      [
+        "SL0067",
+        "SL0158"
+      ],
+      [
+        "SL0071",
+        "SL0117"
+      ],
+      [
+        "SL0071",
+        "SL0121"
+      ],
+      [
+        "SL0071",
+        "SL0130"
+      ],
+      [
+        "SL0071",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0157"
+      ],
+      [
+        "SL0071",
+        "SL0158"
+      ],
+      [
+        "SL0075",
+        "SL0117"
+      ],
+      [
+        "SL0075",
+        "SL0121"
+      ],
+      [
+        "SL0075",
+        "SL0130"
+      ],
+      [
+        "SL0075",
+        "SL0132"
+      ],
+      [
+        "SL0075",
+        "SL0157"
+      ],
+      [
+        "SL0075",
+        "SL0158"
+      ],
+      [
+        "SL0080",
+        "SL0117"
+      ],
+      [
+        "SL0080",
+        "SL0121"
+      ],
+      [
+        "SL0080",
+        "SL0130"
+      ],
+      [
+        "SL0080",
+        "SL0132"
+      ],
+      [
+        "SL0080",
+        "SL0157"
+      ],
+      [
+        "SL0080",
+        "SL0158"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0084",
+        "SL0121"
+      ],
+      [
+        "SL0084",
+        "SL0130"
+      ],
+      [
+        "SL0084",
+        "SL0132"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ],
+      [
+        "SL0084",
+        "SL0158"
+      ],
+      [
+        "SL0090",
+        "SL0117"
+      ],
+      [
+        "SL0090",
+        "SL0121"
+      ],
+      [
+        "SL0090",
+        "SL0130"
+      ],
+      [
+        "SL0090",
+        "SL0132"
+      ],
+      [
+        "SL0090",
+        "SL0157"
+      ],
+      [
+        "SL0090",
+        "SL0158"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0067",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0121"
+      ],
+      [
+        "SL0075",
+        "SL0130"
+      ],
+      [
+        "SL0080",
+        "SL0158"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0090",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9612434691745035,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1",
+      "NC_088554.1"
+    ],
+    "WC4_sum_upper_bound": 104,
+    "total_degeneracy": 46,
+    "locus": "MiUrchin-S",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.4727272727272728,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution",
+    "name": "MiUrchin-S-Pool",
+    "allowed_pair_names": [
+      "MU_combo_098",
+      "MU_combo_099",
+      "MU_combo_100",
+      "MU_combo_101",
+      "MU_combo_102",
+      "MU_combo_103",
+      "MU_combo_093",
+      "MU_combo_104",
+      "MU_combo_105",
+      "MU_combo_106",
+      "MU_combo_107",
+      "MU_combo_108",
+      "MU_combo_109",
+      "MU_combo_110",
+      "MU_combo_111",
+      "MU_combo_112",
+      "MU_combo_113",
+      "MU_combo_114",
+      "MU_combo_115",
+      "MU_combo_116",
+      "MU_combo_117",
+      "MU_combo_118",
+      "MU_combo_119",
+      "MU_combo_120",
+      "MU_combo_121",
+      "MU_combo_122",
+      "MU_combo_123",
+      "MU_combo_124",
+      "MU_combo_097",
+      "MU_combo_125",
+      "MU_combo_126",
+      "MU_combo_127",
+      "MU_combo_128",
+      "MU_combo_129",
+      "MU_combo_130",
+      "MU_combo_131"
+    ],
+    "F_sequences": [
+      "CGCCAGACGAGAAGACCCTG",
+      "CGMTAGACGAGAAGACCCTG",
+      "CGTTAGACGAGAAGAACCTG",
+      "CGTTGGACGAGAAGACCCTG",
+      "CGYHAGACGAGAAGACCCTR",
+      "GGTTAGACGAGAAGACCCTG"
+    ],
+    "R_sequences": [
+      "CTTTGATCACCTTAAGTGGATCA",
+      "CTTTGATCACCTWRGTGGATCR",
+      "CTTTGATCAYCKRARTGGATCA",
+      "CTTTGATCGCCTTGGCGGATCA",
+      "TTTTGATCACTGTGAGTGGATCA",
+      "TTTTGATCACTGTGAGTGGATCG"
+    ],
+    "components": [
+      {
+        "F_id": "SL0067",
+        "R_id": "SL0132",
+        "F": "CGCCAGACGAGAAGACCCTG",
+        "R": "CTTTGATCGCCTTGGCGGATCA"
+      },
+      {
+        "F_id": "SL0071",
+        "R_id": "SL0121",
+        "F": "CGMTAGACGAGAAGACCCTG",
+        "R": "CTTTGATCACCTWRGTGGATCR"
+      },
+      {
+        "F_id": "SL0075",
+        "R_id": "SL0130",
+        "F": "CGTTAGACGAGAAGAACCTG",
+        "R": "CTTTGATCAYCKRARTGGATCA"
+      },
+      {
+        "F_id": "SL0080",
+        "R_id": "SL0158",
+        "F": "CGTTGGACGAGAAGACCCTG",
+        "R": "TTTTGATCACTGTGAGTGGATCG"
+      },
+      {
+        "F_id": "SL0084",
+        "R_id": "SL0117",
+        "F": "CGYHAGACGAGAAGACCCTR",
+        "R": "CTTTGATCACCTTAAGTGGATCA"
+      },
+      {
+        "F_id": "SL0090",
+        "R_id": "SL0157",
+        "F": "GGTTAGACGAGAAGACCCTG",
+        "R": "TTTTGATCACTGTGAGTGGATCA"
+      }
+    ]
+  },
+  {
+    "F_ids": [
+      "SL0007",
+      "SL0009",
+      "SL0023",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0047",
+      "SL0055",
+      "SL0059"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0023",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0023",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "coverage": 0.8545454545454546,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 14,
+    "total_degeneracy": 51,
+    "locus": "MiUrchin-XS",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.4181818181818182,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution",
+    "name": "MiUrchin-XS-Separate",
+    "allowed_pair_names": [
+      "MU_combo_132",
+      "MU_combo_133",
+      "MU_combo_134",
+      "MU_combo_135",
+      "MU_combo_136",
+      "MU_combo_137"
+    ],
+    "F_sequences": [
+      "CGTGTATAATGGATTAGCAAGA",
+      "CGTGTATAATGRRTTAACAAGW",
+      "TGTGTATAATGGATTTACAAGA",
+      "YGTGTATAATGGATTAACRAGH"
+    ],
+    "R_sequences": [
+      "GCTTAGCTAACACTAATTTCTTAG",
+      "GCTTAGCTCAGACTAATTTCTTTG",
+      "GCTTAGCTHARACTAATTTYTYGG",
+      "GCTTAGCTTAAACTAATTTCTCGA",
+      "GCTTGGCTTAGACCAATTTTACAA",
+      "GTTTAGCTCAAACTAGTTTCCTGG"
+    ],
+    "components": [
+      {
+        "F_id": "SL0007",
+        "R_id": "SL0055",
+        "F": "CGTGTATAATGGATTAGCAAGA",
+        "R": "GCTTGGCTTAGACCAATTTTACAA"
+      },
+      {
+        "F_id": "SL0009",
+        "R_id": "SL0042",
+        "F": "CGTGTATAATGRRTTAACAAGW",
+        "R": "GCTTAGCTCAGACTAATTTCTTTG"
+      },
+      {
+        "F_id": "SL0023",
+        "R_id": "SL0032",
+        "F": "TGTGTATAATGGATTTACAAGA",
+        "R": "GCTTAGCTAACACTAATTTCTTAG"
+      },
+      {
+        "F_id": "SL0025",
+        "R_id": "SL0045",
+        "F": "YGTGTATAATGGATTAACRAGH",
+        "R": "GCTTAGCTHARACTAATTTYTYGG"
+      },
+      {
+        "F_id": "SL0025",
+        "R_id": "SL0047",
+        "F": "YGTGTATAATGGATTAACRAGH",
+        "R": "GCTTAGCTTAAACTAATTTCTCGA"
+      },
+      {
+        "F_id": "SL0025",
+        "R_id": "SL0059",
+        "F": "YGTGTATAATGGATTAACRAGH",
+        "R": "GTTTAGCTCAAACTAGTTTCCTGG"
+      }
+    ]
+  },
+  {
+    "F_ids": [
+      "SL0001",
+      "SL0012",
+      "SL0020",
+      "SL0021",
+      "SL0023",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0047",
+      "SL0055",
+      "SL0059"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0001",
+        "SL0032"
+      ],
+      [
+        "SL0001",
+        "SL0042"
+      ],
+      [
+        "SL0001",
+        "SL0045"
+      ],
+      [
+        "SL0001",
+        "SL0047"
+      ],
+      [
+        "SL0001",
+        "SL0055"
+      ],
+      [
+        "SL0001",
+        "SL0059"
+      ],
+      [
+        "SL0012",
+        "SL0032"
+      ],
+      [
+        "SL0012",
+        "SL0042"
+      ],
+      [
+        "SL0012",
+        "SL0045"
+      ],
+      [
+        "SL0012",
+        "SL0047"
+      ],
+      [
+        "SL0012",
+        "SL0055"
+      ],
+      [
+        "SL0012",
+        "SL0059"
+      ],
+      [
+        "SL0020",
+        "SL0032"
+      ],
+      [
+        "SL0020",
+        "SL0042"
+      ],
+      [
+        "SL0020",
+        "SL0045"
+      ],
+      [
+        "SL0020",
+        "SL0047"
+      ],
+      [
+        "SL0020",
+        "SL0055"
+      ],
+      [
+        "SL0020",
+        "SL0059"
+      ],
+      [
+        "SL0021",
+        "SL0032"
+      ],
+      [
+        "SL0021",
+        "SL0042"
+      ],
+      [
+        "SL0021",
+        "SL0045"
+      ],
+      [
+        "SL0021",
+        "SL0047"
+      ],
+      [
+        "SL0021",
+        "SL0055"
+      ],
+      [
+        "SL0021",
+        "SL0059"
+      ],
+      [
+        "SL0023",
+        "SL0032"
+      ],
+      [
+        "SL0023",
+        "SL0042"
+      ],
+      [
+        "SL0023",
+        "SL0045"
+      ],
+      [
+        "SL0023",
+        "SL0047"
+      ],
+      [
+        "SL0023",
+        "SL0055"
+      ],
+      [
+        "SL0023",
+        "SL0059"
+      ],
+      [
+        "SL0025",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0042"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0055"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0001",
+        "SL0042"
+      ],
+      [
+        "SL0012",
+        "SL0047"
+      ],
+      [
+        "SL0020",
+        "SL0045"
+      ],
+      [
+        "SL0021",
+        "SL0055"
+      ],
+      [
+        "SL0023",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "coverage": 0.8545454545454546,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "NC_081967.1",
+      "OQ979619.1",
+      "OR142187.1",
+      "PQ424530.1"
+    ],
+    "WC4_sum_upper_bound": 45,
+    "total_degeneracy": 47,
+    "locus": "MiUrchin-XS",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.4909090909090909,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution",
+    "name": "MiUrchin-XS-Pool",
+    "allowed_pair_names": [
+      "MU_combo_138",
+      "MU_combo_139",
+      "MU_combo_140",
+      "MU_combo_141",
+      "MU_combo_142",
+      "MU_combo_143",
+      "MU_combo_144",
+      "MU_combo_145",
+      "MU_combo_146",
+      "MU_combo_147",
+      "MU_combo_148",
+      "MU_combo_149",
+      "MU_combo_150",
+      "MU_combo_151",
+      "MU_combo_152",
+      "MU_combo_153",
+      "MU_combo_154",
+      "MU_combo_155",
+      "MU_combo_156",
+      "MU_combo_157",
+      "MU_combo_158",
+      "MU_combo_159",
+      "MU_combo_160",
+      "MU_combo_161",
+      "MU_combo_134",
+      "MU_combo_162",
+      "MU_combo_163",
+      "MU_combo_164",
+      "MU_combo_165",
+      "MU_combo_166",
+      "MU_combo_167",
+      "MU_combo_168",
+      "MU_combo_135",
+      "MU_combo_136",
+      "MU_combo_169",
+      "MU_combo_137"
+    ],
+    "F_sequences": [
+      "CGTGTATAATGAGTTAACAAGA",
+      "TGCGTATAATGGATTAACRAGA",
+      "TGTGTATAATGGATTAGCAAGA",
+      "TGTGTATAATGGATTGACGAGT",
+      "TGTGTATAATGGATTTACAAGA",
+      "YGTGTATAATGGATTAACRAGH"
+    ],
+    "R_sequences": [
+      "GCTTAGCTAACACTAATTTCTTAG",
+      "GCTTAGCTCAGACTAATTTCTTTG",
+      "GCTTAGCTHARACTAATTTYTYGG",
+      "GCTTAGCTTAAACTAATTTCTCGA",
+      "GCTTGGCTTAGACCAATTTTACAA",
+      "GTTTAGCTCAAACTAGTTTCCTGG"
+    ],
+    "components": [
+      {
+        "F_id": "SL0001",
+        "R_id": "SL0042",
+        "F": "CGTGTATAATGAGTTAACAAGA",
+        "R": "GCTTAGCTCAGACTAATTTCTTTG"
+      },
+      {
+        "F_id": "SL0012",
+        "R_id": "SL0047",
+        "F": "TGCGTATAATGGATTAACRAGA",
+        "R": "GCTTAGCTTAAACTAATTTCTCGA"
+      },
+      {
+        "F_id": "SL0020",
+        "R_id": "SL0045",
+        "F": "TGTGTATAATGGATTAGCAAGA",
+        "R": "GCTTAGCTHARACTAATTTYTYGG"
+      },
+      {
+        "F_id": "SL0021",
+        "R_id": "SL0055",
+        "F": "TGTGTATAATGGATTGACGAGT",
+        "R": "GCTTGGCTTAGACCAATTTTACAA"
+      },
+      {
+        "F_id": "SL0023",
+        "R_id": "SL0032",
+        "F": "TGTGTATAATGGATTTACAAGA",
+        "R": "GCTTAGCTAACACTAATTTCTTAG"
+      },
+      {
+        "F_id": "SL0025",
+        "R_id": "SL0059",
+        "F": "YGTGTATAATGGATTAACRAGH",
+        "R": "GTTTAGCTCAAACTAGTTTCCTGG"
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+ambiguous	clade	le2	le3	le4	model	name
+70	Asteroidea	0	0	8	WC	MiUrchin-L-Separate
+0	Crinoidea	0	0	2	WC	MiUrchin-L-Separate
+0	Holothuroidea	0	0	0	WC	MiUrchin-L-Separate
+0	Ophiuroidea	0	0	0	WC	MiUrchin-L-Separate
+0	other_metazoa	0	1	4	WC	MiUrchin-L-Separate
+72	Asteroidea	0			GT	MiUrchin-L-Separate
+0	Crinoidea	4			GT	MiUrchin-L-Separate
+0	Holothuroidea	0			GT	MiUrchin-L-Separate
+0	Ophiuroidea	0			GT	MiUrchin-L-Separate
+0	other_metazoa	0			GT	MiUrchin-L-Separate
+70	Asteroidea	0	0	11	WC	MiUrchin-L-Pool
+0	Crinoidea	0	0	2	WC	MiUrchin-L-Pool
+0	Holothuroidea	0	0	0	WC	MiUrchin-L-Pool
+0	Ophiuroidea	0	0	0	WC	MiUrchin-L-Pool
+0	other_metazoa	1	1	4	WC	MiUrchin-L-Pool
+72	Asteroidea	0			GT	MiUrchin-L-Pool
+0	Crinoidea	4			GT	MiUrchin-L-Pool
+0	Holothuroidea	0			GT	MiUrchin-L-Pool
+0	Ophiuroidea	0			GT	MiUrchin-L-Pool
+0	other_metazoa	1			GT	MiUrchin-L-Pool
+42	Asteroidea	0	0	17	WC	MiUrchin-M-Separate
+0	Crinoidea	0	0	0	WC	MiUrchin-M-Separate
+0	Holothuroidea	0	0	0	WC	MiUrchin-M-Separate
+0	Ophiuroidea	0	0	0	WC	MiUrchin-M-Separate
+0	other_metazoa	0	1	1	WC	MiUrchin-M-Separate
+40	Asteroidea	0			GT	MiUrchin-M-Separate
+0	Crinoidea	0			GT	MiUrchin-M-Separate
+0	Holothuroidea	0			GT	MiUrchin-M-Separate
+0	Ophiuroidea	0			GT	MiUrchin-M-Separate
+0	other_metazoa	1			GT	MiUrchin-M-Separate
+42	Asteroidea	0	0	17	WC	MiUrchin-M-Pool
+0	Crinoidea	0	0	0	WC	MiUrchin-M-Pool
+0	Holothuroidea	0	0	0	WC	MiUrchin-M-Pool
+0	Ophiuroidea	0	0	0	WC	MiUrchin-M-Pool
+0	other_metazoa	0	1	2	WC	MiUrchin-M-Pool
+40	Asteroidea	1			GT	MiUrchin-M-Pool
+0	Crinoidea	0			GT	MiUrchin-M-Pool
+0	Holothuroidea	0			GT	MiUrchin-M-Pool
+0	Ophiuroidea	0			GT	MiUrchin-M-Pool
+0	other_metazoa	1			GT	MiUrchin-M-Pool
+42	Asteroidea	0	0	17	WC	MiUrchin-S-Separate
+0	Crinoidea	0	0	0	WC	MiUrchin-S-Separate
+0	Holothuroidea	0	0	0	WC	MiUrchin-S-Separate
+0	Ophiuroidea	0	0	0	WC	MiUrchin-S-Separate
+0	other_metazoa	0	0	0	WC	MiUrchin-S-Separate
+41	Asteroidea	1			GT	MiUrchin-S-Separate
+0	Crinoidea	0			GT	MiUrchin-S-Separate
+0	Holothuroidea	0			GT	MiUrchin-S-Separate
+0	Ophiuroidea	0			GT	MiUrchin-S-Separate
+0	other_metazoa	3			GT	MiUrchin-S-Separate
+42	Asteroidea	0	0	17	WC	MiUrchin-S-Pool
+0	Crinoidea	0	0	0	WC	MiUrchin-S-Pool
+0	Holothuroidea	0	0	0	WC	MiUrchin-S-Pool
+0	Ophiuroidea	0	0	0	WC	MiUrchin-S-Pool
+0	other_metazoa	0	0	1	WC	MiUrchin-S-Pool
+41	Asteroidea	1			GT	MiUrchin-S-Pool
+0	Crinoidea	0			GT	MiUrchin-S-Pool
+0	Holothuroidea	0			GT	MiUrchin-S-Pool
+0	Ophiuroidea	0			GT	MiUrchin-S-Pool
+0	other_metazoa	4			GT	MiUrchin-S-Pool
+40	Asteroidea	0	0	8	WC	MiUrchin-XS-Separate
+0	Crinoidea	0	0	0	WC	MiUrchin-XS-Separate
+0	Holothuroidea	0	0	0	WC	MiUrchin-XS-Separate
+0	Ophiuroidea	0	0	0	WC	MiUrchin-XS-Separate
+0	other_metazoa	0	0	0	WC	MiUrchin-XS-Separate
+40	Asteroidea	0			GT	MiUrchin-XS-Separate
+0	Crinoidea	0			GT	MiUrchin-XS-Separate
+0	Holothuroidea	0			GT	MiUrchin-XS-Separate
+0	Ophiuroidea	0			GT	MiUrchin-XS-Separate
+0	other_metazoa	0			GT	MiUrchin-XS-Separate
+40	Asteroidea	0	0	12	WC	MiUrchin-XS-Pool
+0	Crinoidea	0	0	0	WC	MiUrchin-XS-Pool
+0	Holothuroidea	0	0	0	WC	MiUrchin-XS-Pool
+0	Ophiuroidea	0	0	0	WC	MiUrchin-XS-Pool
+0	other_metazoa	0	0	0	WC	MiUrchin-XS-Pool
+40	Asteroidea	4			GT	MiUrchin-XS-Pool
+0	Crinoidea	0			GT	MiUrchin-XS-Pool
+0	Holothuroidea	0			GT	MiUrchin-XS-Pool
+0	Ophiuroidea	0			GT	MiUrchin-XS-Pool
+0	other_metazoa	0			GT	MiUrchin-XS-Pool

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "schemes": 8,
+  "passed": [
+    {
+      "name": "MiUrchin-L-Separate",
+      "max_structure_Tm": 47.525664943918116
+    },
+    {
+      "name": "MiUrchin-L-Pool",
+      "max_structure_Tm": 47.525664943918116
+    },
+    {
+      "name": "MiUrchin-M-Separate",
+      "max_structure_Tm": 47.21948857536637
+    },
+    {
+      "name": "MiUrchin-M-Pool",
+      "max_structure_Tm": 47.21948857536637
+    },
+    {
+      "name": "MiUrchin-S-Separate",
+      "max_structure_Tm": 48.02541109489266
+    },
+    {
+      "name": "MiUrchin-S-Pool",
+      "max_structure_Tm": 48.02541109489266
+    },
+    {
+      "name": "MiUrchin-XS-Separate",
+      "max_structure_Tm": 48.24427680953079
+    },
+    {
+      "name": "MiUrchin-XS-Pool",
+      "max_structure_Tm": 48.24427680953079
+    }
+  ],
+  "failed": [],
+  "scope": "Frozen in-silico candidates; complete allowed-pair unions, both concentration-scenario structure gates and independent scan agreement",
+  "wet_lab_validated": false
+}

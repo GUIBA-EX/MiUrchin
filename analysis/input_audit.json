@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "target": 1401,
+  "background": 6045,
+  "alignment_rows": 1401,
+  "backbone_rows_unchanged": 86,
+  "alignment_columns": 1813,
+  "same_accession_overlap": 0
+}

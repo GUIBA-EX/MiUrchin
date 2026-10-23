@@ -1,0 +1,1088 @@
+[
+  {
+    "F_ids": [
+      "SL0261",
+      "SL0264",
+      "SL0266",
+      "SL0269",
+      "SL0274",
+      "SL0276"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0288",
+      "SL0291",
+      "SL0294",
+      "SL0297"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0261",
+        "SL0294"
+      ],
+      [
+        "SL0264",
+        "SL0297"
+      ],
+      [
+        "SL0266",
+        "SL0294"
+      ],
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0274",
+        "SL0291"
+      ],
+      [
+        "SL0276",
+        "SL0288"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0261",
+        "SL0294"
+      ],
+      [
+        "SL0264",
+        "SL0297"
+      ],
+      [
+        "SL0266",
+        "SL0294"
+      ],
+      [
+        "SL0269",
+        "SL0283"
+      ],
+      [
+        "SL0274",
+        "SL0291"
+      ],
+      [
+        "SL0276",
+        "SL0288"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [
+      "NC_088019.1"
+    ],
+    "GT2_accessions": [
+      "NC_068252.1",
+      "NC_068254.1",
+      "OM313186.1",
+      "OM321037.1"
+    ],
+    "WC4_sum_upper_bound": 27,
+    "total_degeneracy": 27,
+    "locus": "MiUrchin-L",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.4909090909090909,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution"
+  },
+  {
+    "F_ids": [
+      "SL0261",
+      "SL0264",
+      "SL0267",
+      "SL0276",
+      "SL0278",
+      "SL0280"
+    ],
+    "R_ids": [
+      "SL0283",
+      "SL0284",
+      "SL0290",
+      "SL0294",
+      "SL0297"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0261",
+        "SL0283"
+      ],
+      [
+        "SL0261",
+        "SL0284"
+      ],
+      [
+        "SL0261",
+        "SL0290"
+      ],
+      [
+        "SL0261",
+        "SL0294"
+      ],
+      [
+        "SL0261",
+        "SL0297"
+      ],
+      [
+        "SL0264",
+        "SL0283"
+      ],
+      [
+        "SL0264",
+        "SL0284"
+      ],
+      [
+        "SL0264",
+        "SL0290"
+      ],
+      [
+        "SL0264",
+        "SL0294"
+      ],
+      [
+        "SL0264",
+        "SL0297"
+      ],
+      [
+        "SL0267",
+        "SL0283"
+      ],
+      [
+        "SL0267",
+        "SL0284"
+      ],
+      [
+        "SL0267",
+        "SL0290"
+      ],
+      [
+        "SL0267",
+        "SL0294"
+      ],
+      [
+        "SL0267",
+        "SL0297"
+      ],
+      [
+        "SL0276",
+        "SL0283"
+      ],
+      [
+        "SL0276",
+        "SL0284"
+      ],
+      [
+        "SL0276",
+        "SL0290"
+      ],
+      [
+        "SL0276",
+        "SL0294"
+      ],
+      [
+        "SL0276",
+        "SL0297"
+      ],
+      [
+        "SL0278",
+        "SL0283"
+      ],
+      [
+        "SL0278",
+        "SL0284"
+      ],
+      [
+        "SL0278",
+        "SL0290"
+      ],
+      [
+        "SL0278",
+        "SL0294"
+      ],
+      [
+        "SL0278",
+        "SL0297"
+      ],
+      [
+        "SL0280",
+        "SL0283"
+      ],
+      [
+        "SL0280",
+        "SL0284"
+      ],
+      [
+        "SL0280",
+        "SL0290"
+      ],
+      [
+        "SL0280",
+        "SL0294"
+      ],
+      [
+        "SL0280",
+        "SL0297"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0261",
+        "SL0294"
+      ],
+      [
+        "SL0264",
+        "SL0297"
+      ],
+      [
+        "SL0267",
+        "SL0284"
+      ],
+      [
+        "SL0276",
+        "SL0283"
+      ],
+      [
+        "SL0278",
+        "SL0290"
+      ],
+      [
+        "SL0280",
+        "SL0283"
+      ]
+    ],
+    "coverage": 1.0,
+    "WC3_accessions": [
+      "NC_088019.1"
+    ],
+    "GT2_accessions": [
+      "NC_068252.1",
+      "NC_068254.1",
+      "NC_088019.1",
+      "OM313186.1",
+      "OM321037.1"
+    ],
+    "WC4_sum_upper_bound": 102,
+    "total_degeneracy": 25,
+    "locus": "MiUrchin-L",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.7454545454545455,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution"
+  },
+  {
+    "F_ids": [
+      "SL0176",
+      "SL0177",
+      "SL0185"
+    ],
+    "R_ids": [
+      "SL0206",
+      "SL0208",
+      "SL0214",
+      "SL0228",
+      "SL0255",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0176",
+        "SL0206"
+      ],
+      [
+        "SL0176",
+        "SL0208"
+      ],
+      [
+        "SL0176",
+        "SL0255"
+      ],
+      [
+        "SL0176",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0214"
+      ],
+      [
+        "SL0185",
+        "SL0228"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0176",
+        "SL0206"
+      ],
+      [
+        "SL0176",
+        "SL0208"
+      ],
+      [
+        "SL0176",
+        "SL0255"
+      ],
+      [
+        "SL0176",
+        "SL0256"
+      ],
+      [
+        "SL0177",
+        "SL0214"
+      ],
+      [
+        "SL0185",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9529786450662739,
+    "WC3_accessions": [
+      "NC_087806.1"
+    ],
+    "GT2_accessions": [
+      "NC_087806.1"
+    ],
+    "WC4_sum_upper_bound": 19,
+    "total_degeneracy": 64,
+    "locus": "MiUrchin-M",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.44833792470156103,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution"
+  },
+  {
+    "F_ids": [
+      "SL0166",
+      "SL0174",
+      "SL0185",
+      "SL0187"
+    ],
+    "R_ids": [
+      "SL0206",
+      "SL0208",
+      "SL0214",
+      "SL0228",
+      "SL0255",
+      "SL0256"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0166",
+        "SL0206"
+      ],
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0214"
+      ],
+      [
+        "SL0166",
+        "SL0228"
+      ],
+      [
+        "SL0166",
+        "SL0255"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0206"
+      ],
+      [
+        "SL0174",
+        "SL0208"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0174",
+        "SL0228"
+      ],
+      [
+        "SL0174",
+        "SL0255"
+      ],
+      [
+        "SL0174",
+        "SL0256"
+      ],
+      [
+        "SL0185",
+        "SL0206"
+      ],
+      [
+        "SL0185",
+        "SL0208"
+      ],
+      [
+        "SL0185",
+        "SL0214"
+      ],
+      [
+        "SL0185",
+        "SL0228"
+      ],
+      [
+        "SL0185",
+        "SL0255"
+      ],
+      [
+        "SL0185",
+        "SL0256"
+      ],
+      [
+        "SL0187",
+        "SL0206"
+      ],
+      [
+        "SL0187",
+        "SL0208"
+      ],
+      [
+        "SL0187",
+        "SL0214"
+      ],
+      [
+        "SL0187",
+        "SL0228"
+      ],
+      [
+        "SL0187",
+        "SL0255"
+      ],
+      [
+        "SL0187",
+        "SL0256"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0166",
+        "SL0206"
+      ],
+      [
+        "SL0166",
+        "SL0208"
+      ],
+      [
+        "SL0166",
+        "SL0256"
+      ],
+      [
+        "SL0174",
+        "SL0214"
+      ],
+      [
+        "SL0185",
+        "SL0255"
+      ],
+      [
+        "SL0187",
+        "SL0228"
+      ]
+    ],
+    "coverage": 0.9607708528584817,
+    "WC3_accessions": [
+      "NC_087806.1"
+    ],
+    "GT2_accessions": [
+      "EU675501.1",
+      "NC_087806.1"
+    ],
+    "WC4_sum_upper_bound": 71,
+    "total_degeneracy": 64,
+    "locus": "MiUrchin-M",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.45439853076216713,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution"
+  },
+  {
+    "F_ids": [
+      "SL0069",
+      "SL0071",
+      "SL0073",
+      "SL0079",
+      "SL0084"
+    ],
+    "R_ids": [
+      "SL0117",
+      "SL0121",
+      "SL0131",
+      "SL0132",
+      "SL0157",
+      "SL0158"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0069",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0117"
+      ],
+      [
+        "SL0073",
+        "SL0158"
+      ],
+      [
+        "SL0079",
+        "SL0121"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0069",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0117"
+      ],
+      [
+        "SL0073",
+        "SL0158"
+      ],
+      [
+        "SL0079",
+        "SL0121"
+      ],
+      [
+        "SL0084",
+        "SL0131"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9612434691745035,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1"
+    ],
+    "WC4_sum_upper_bound": 17,
+    "total_degeneracy": 54,
+    "locus": "MiUrchin-S",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.45878787878787874,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution"
+  },
+  {
+    "F_ids": [
+      "SL0067",
+      "SL0071",
+      "SL0075",
+      "SL0080",
+      "SL0084",
+      "SL0090"
+    ],
+    "R_ids": [
+      "SL0117",
+      "SL0121",
+      "SL0130",
+      "SL0132",
+      "SL0157",
+      "SL0158"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0067",
+        "SL0117"
+      ],
+      [
+        "SL0067",
+        "SL0121"
+      ],
+      [
+        "SL0067",
+        "SL0130"
+      ],
+      [
+        "SL0067",
+        "SL0132"
+      ],
+      [
+        "SL0067",
+        "SL0157"
+      ],
+      [
+        "SL0067",
+        "SL0158"
+      ],
+      [
+        "SL0071",
+        "SL0117"
+      ],
+      [
+        "SL0071",
+        "SL0121"
+      ],
+      [
+        "SL0071",
+        "SL0130"
+      ],
+      [
+        "SL0071",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0157"
+      ],
+      [
+        "SL0071",
+        "SL0158"
+      ],
+      [
+        "SL0075",
+        "SL0117"
+      ],
+      [
+        "SL0075",
+        "SL0121"
+      ],
+      [
+        "SL0075",
+        "SL0130"
+      ],
+      [
+        "SL0075",
+        "SL0132"
+      ],
+      [
+        "SL0075",
+        "SL0157"
+      ],
+      [
+        "SL0075",
+        "SL0158"
+      ],
+      [
+        "SL0080",
+        "SL0117"
+      ],
+      [
+        "SL0080",
+        "SL0121"
+      ],
+      [
+        "SL0080",
+        "SL0130"
+      ],
+      [
+        "SL0080",
+        "SL0132"
+      ],
+      [
+        "SL0080",
+        "SL0157"
+      ],
+      [
+        "SL0080",
+        "SL0158"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0084",
+        "SL0121"
+      ],
+      [
+        "SL0084",
+        "SL0130"
+      ],
+      [
+        "SL0084",
+        "SL0132"
+      ],
+      [
+        "SL0084",
+        "SL0157"
+      ],
+      [
+        "SL0084",
+        "SL0158"
+      ],
+      [
+        "SL0090",
+        "SL0117"
+      ],
+      [
+        "SL0090",
+        "SL0121"
+      ],
+      [
+        "SL0090",
+        "SL0130"
+      ],
+      [
+        "SL0090",
+        "SL0132"
+      ],
+      [
+        "SL0090",
+        "SL0157"
+      ],
+      [
+        "SL0090",
+        "SL0158"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0067",
+        "SL0132"
+      ],
+      [
+        "SL0071",
+        "SL0121"
+      ],
+      [
+        "SL0075",
+        "SL0130"
+      ],
+      [
+        "SL0080",
+        "SL0158"
+      ],
+      [
+        "SL0084",
+        "SL0117"
+      ],
+      [
+        "SL0090",
+        "SL0157"
+      ]
+    ],
+    "coverage": 0.9612434691745035,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "LC333116.1",
+      "NC_064725.1",
+      "NC_087806.1",
+      "NC_088518.1",
+      "NC_088554.1"
+    ],
+    "WC4_sum_upper_bound": 104,
+    "total_degeneracy": 46,
+    "locus": "MiUrchin-S",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.4727272727272728,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution"
+  },
+  {
+    "F_ids": [
+      "SL0007",
+      "SL0009",
+      "SL0023",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0047",
+      "SL0055",
+      "SL0059"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0023",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0007",
+        "SL0055"
+      ],
+      [
+        "SL0009",
+        "SL0042"
+      ],
+      [
+        "SL0023",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "coverage": 0.8545454545454546,
+    "WC3_accessions": [],
+    "GT2_accessions": [],
+    "WC4_sum_upper_bound": 14,
+    "total_degeneracy": 51,
+    "locus": "MiUrchin-XS",
+    "mode": "separate",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.4181818181818182,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution"
+  },
+  {
+    "F_ids": [
+      "SL0001",
+      "SL0012",
+      "SL0020",
+      "SL0021",
+      "SL0023",
+      "SL0025"
+    ],
+    "R_ids": [
+      "SL0032",
+      "SL0042",
+      "SL0045",
+      "SL0047",
+      "SL0055",
+      "SL0059"
+    ],
+    "allowed_pairs": [
+      [
+        "SL0001",
+        "SL0032"
+      ],
+      [
+        "SL0001",
+        "SL0042"
+      ],
+      [
+        "SL0001",
+        "SL0045"
+      ],
+      [
+        "SL0001",
+        "SL0047"
+      ],
+      [
+        "SL0001",
+        "SL0055"
+      ],
+      [
+        "SL0001",
+        "SL0059"
+      ],
+      [
+        "SL0012",
+        "SL0032"
+      ],
+      [
+        "SL0012",
+        "SL0042"
+      ],
+      [
+        "SL0012",
+        "SL0045"
+      ],
+      [
+        "SL0012",
+        "SL0047"
+      ],
+      [
+        "SL0012",
+        "SL0055"
+      ],
+      [
+        "SL0012",
+        "SL0059"
+      ],
+      [
+        "SL0020",
+        "SL0032"
+      ],
+      [
+        "SL0020",
+        "SL0042"
+      ],
+      [
+        "SL0020",
+        "SL0045"
+      ],
+      [
+        "SL0020",
+        "SL0047"
+      ],
+      [
+        "SL0020",
+        "SL0055"
+      ],
+      [
+        "SL0020",
+        "SL0059"
+      ],
+      [
+        "SL0021",
+        "SL0032"
+      ],
+      [
+        "SL0021",
+        "SL0042"
+      ],
+      [
+        "SL0021",
+        "SL0045"
+      ],
+      [
+        "SL0021",
+        "SL0047"
+      ],
+      [
+        "SL0021",
+        "SL0055"
+      ],
+      [
+        "SL0021",
+        "SL0059"
+      ],
+      [
+        "SL0023",
+        "SL0032"
+      ],
+      [
+        "SL0023",
+        "SL0042"
+      ],
+      [
+        "SL0023",
+        "SL0045"
+      ],
+      [
+        "SL0023",
+        "SL0047"
+      ],
+      [
+        "SL0023",
+        "SL0055"
+      ],
+      [
+        "SL0023",
+        "SL0059"
+      ],
+      [
+        "SL0025",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0042"
+      ],
+      [
+        "SL0025",
+        "SL0045"
+      ],
+      [
+        "SL0025",
+        "SL0047"
+      ],
+      [
+        "SL0025",
+        "SL0055"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "component_pairs": [
+      [
+        "SL0001",
+        "SL0042"
+      ],
+      [
+        "SL0012",
+        "SL0047"
+      ],
+      [
+        "SL0020",
+        "SL0045"
+      ],
+      [
+        "SL0021",
+        "SL0055"
+      ],
+      [
+        "SL0023",
+        "SL0032"
+      ],
+      [
+        "SL0025",
+        "SL0059"
+      ]
+    ],
+    "coverage": 0.8545454545454546,
+    "WC3_accessions": [],
+    "GT2_accessions": [
+      "NC_081967.1",
+      "OQ979619.1",
+      "OR142187.1",
+      "PQ424530.1"
+    ],
+    "WC4_sum_upper_bound": 45,
+    "total_degeneracy": 47,
+    "locus": "MiUrchin-XS",
+    "mode": "pool",
+    "budget_per_model": 5,
+    "max_component_pairs": 6,
+    "exact_coverage": 0.4909090909090909,
+    "selection_method": "one-pair local swaps improve exact coverage; primary coverage retained within 0.5 percentage points of initial solution"
+  }
+]
