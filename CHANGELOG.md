@@ -1,5 +1,13 @@
 # Changelog / 更新记录
 
+## 2026-10-24 — compact candidates
+
+- Added eight one-/two-pair nondegenerate portfolios with independent full-sequence revalidation.
+- 统一S、M、L、XL命名，新增8套单对/两对普通引物方案、逐碱基图及双语说明。
+- Preserved the six-pair and pool baseline evidence.
+
+# Changelog / 更新记录
+
 ## v0.1.0 — 2026-10-24
 
 - Design four Echinoidea 16S length series from a frozen reference database / 从冻结参考库设计四个海胆16S长度系列。

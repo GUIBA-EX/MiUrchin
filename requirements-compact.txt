@@ -1,0 +1,3 @@
+numpy==2.4.6
+biopython==1.87
+primer3-py==2.4.0

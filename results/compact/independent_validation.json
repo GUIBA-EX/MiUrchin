@@ -1,0 +1,6 @@
+{
+  "checks": 1920,
+  "disagreements": 0,
+  "thermal_pass": true,
+  "scope": "Aligned binding-window predictions vs independent full-sequence scan. Published metrics use full scan."
+}

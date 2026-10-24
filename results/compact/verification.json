@@ -1,0 +1,66 @@
+[
+  {
+    "scheme": "S",
+    "aligned_coverage": 40.81632653061224,
+    "scan_coverage": 40.816326530612244,
+    "aligned_exact": 20.40816326530612,
+    "scan_exact": 20.408163265306122,
+    "background_pass": true
+  },
+  {
+    "scheme": "SA+SB",
+    "aligned_coverage": 61.224489795918366,
+    "scan_coverage": 61.224489795918366,
+    "aligned_exact": 20.40816326530612,
+    "scan_exact": 20.408163265306122,
+    "background_pass": true
+  },
+  {
+    "scheme": "M",
+    "aligned_coverage": 36.73469387755102,
+    "scan_coverage": 36.734693877551024,
+    "aligned_exact": 6.122448979591836,
+    "scan_exact": 6.122448979591837,
+    "background_pass": true
+  },
+  {
+    "scheme": "MA+MB",
+    "aligned_coverage": 46.93877551020408,
+    "scan_coverage": 46.93877551020409,
+    "aligned_exact": 8.16326530612245,
+    "scan_exact": 8.163265306122451,
+    "background_pass": true
+  },
+  {
+    "scheme": "L",
+    "aligned_coverage": 75.51020408163265,
+    "scan_coverage": 75.51020408163266,
+    "aligned_exact": 19.387755102040817,
+    "scan_exact": 19.38775510204082,
+    "background_pass": true
+  },
+  {
+    "scheme": "LA+LB",
+    "aligned_coverage": 87.75510204081631,
+    "scan_coverage": 87.75510204081634,
+    "aligned_exact": 19.387755102040817,
+    "scan_exact": 19.38775510204082,
+    "background_pass": true
+  },
+  {
+    "scheme": "XL",
+    "aligned_coverage": 85.71428571428571,
+    "scan_coverage": 85.71428571428572,
+    "aligned_exact": 6.122448979591836,
+    "scan_exact": 6.122448979591837,
+    "background_pass": true
+  },
+  {
+    "scheme": "XLA+XLB",
+    "aligned_coverage": 99.99999999999999,
+    "scan_coverage": 100.0,
+    "aligned_exact": 26.530612244897956,
+    "scan_exact": 26.53061224489796,
+    "background_pass": true
+  }
+]
