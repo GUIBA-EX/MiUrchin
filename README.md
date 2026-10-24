@@ -1,4 +1,6 @@
-![MiUrchin](figures/MiUrchin_overview.png)
+![MiUrchin — representatives of all 11 design-panel orders](figures/MiUrchin_overview.png)
+
+The header illustrates representatives of all 11 order groups in the design panel, informed by real photographs. S/M/L/XL badges show shared reference spans of 188/228/343/440 bp. [Representative species and photo sources](figures/overview_design.md).
 
 # MiUrchin
 

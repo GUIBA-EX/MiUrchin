@@ -1,4 +1,6 @@
-![MiUrchin](figures/MiUrchin_overview.png)
+![MiUrchin — 设计面板11个目的代表](figures/MiUrchin_overview.png)
+
+置顶图依据真实照片绘制，展示设计面板11个目的代表；徽标为S/M/L/XL共同参考跨度188/228/343/440 bp。[代表物种与照片来源](figures/overview_design.md)。
 
 # MiUrchin
 
