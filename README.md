@@ -1,3 +1,5 @@
+![MiUrchin](figures/MiUrchin_overview.png)
+
 # MiUrchin
 
 [中文](README.zh-CN.md)

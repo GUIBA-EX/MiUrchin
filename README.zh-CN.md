@@ -1,3 +1,5 @@
+![MiUrchin](figures/MiUrchin_overview.png)
+
 # MiUrchin
 
 [English](README.md)
