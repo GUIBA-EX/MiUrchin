@@ -1,3 +1,9 @@
+# S/M refinement — 2026-10-24
+
+Added SD/MD and SD+SB/MD+MC comparisons; improved ordinary M while retaining both coverage and exact-match lower bounds. Revalidated 1,920 per-reference outcomes and expanded all degenerate variants for thermal checks.
+
+新增S/M简并及互补方案，普通M的覆盖与完全匹配同时改善；新增逐碱基图与复现证据。
+
 # Changelog / 更新记录
 
 ## 2026-10-24 — compact candidates

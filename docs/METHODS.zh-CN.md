@@ -11,3 +11,14 @@ Primer3条件：单价盐50 mM、Mg²⁺ 1.5 mM、dNTP 0.6 mM、每条引物200 
 最后使用独立完整配对扫描复核目标产物（150–500 bp、内部≥50 nt）及背景。搜索范围有限，不代表全基因组全局最优。原始完整参考、旧分析及复核证据保留在analysis/。
 
 [Miya et al. 2015](https://doi.org/10.1098/rsos.150088)
+
+
+## S/M refinement / S与M补充优化
+
+The S/M round adds previously designed ordinary and degenerate same-locus candidates to the shifted-window pool. Alignment gaps are removed before scanning actual sequence in the seed neighbourhood (±5 nt); the complete paired-product scanner supplies final metrics. Candidates from both existing pools are compared on the same 49-label / 80-haplotype panel. Retain the previous ordinary option’s coverage and exact matching as lower bounds, then maximize coverage, exact matching and parsimony in that order.
+
+S/M补充轮将既有普通与简并同位点候选加入平移窗口候选池。先去除比对缺口，再在种子邻域±5 nt扫描真实序列，最终指标取完整配对产物扫描。共同面板保持49个名称标签、80个单倍型。筛选不低于上一版同对数普通方案的覆盖与完全匹配，随后依次优化覆盖、完全匹配与简并度。
+
+Degenerate thermodynamics expand all variants. Evaluate 50 nM per concrete variant and 200 nM total per direction divided among variants, including hairpins, homodimers, within-direction heterodimers and F/R interactions. Unequal-concentration heterodimers use the larger concentration as an approximation. The structural Tm ceiling remains 55°C. Background limits remain WC≤3 ≤5 and GT≤2 ≤5 per portfolio.
+
+简并热力学展开全部变体：每变体50 nM及每方向总量200 nM分摊两种情景，检查发卡、同源二聚体、同向异源二聚体及F/R相互作用。浓度不等时，二聚体使用较大浓度近似。结构Tm门槛仍为55°C，组合背景门槛仍为WC≤3与GT≤2各≤5条。

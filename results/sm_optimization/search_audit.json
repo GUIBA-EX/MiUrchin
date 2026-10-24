@@ -1,0 +1,58 @@
+[
+  {
+    "scheme": "S",
+    "distinct_candidates": 55,
+    "thermal_rejections": 0,
+    "coverage": 0.4081632653061224,
+    "exact": 0.2040816326530612
+  },
+  {
+    "scheme": "SA+SB",
+    "distinct_candidates": 55,
+    "thermal_rejections": 0,
+    "coverage": 0.6122448979591837,
+    "exact": 0.2040816326530612
+  },
+  {
+    "scheme": "SD",
+    "distinct_candidates": 100,
+    "thermal_rejections": 0,
+    "coverage": 0.6530612244897958,
+    "exact": 0.3877551020408163
+  },
+  {
+    "scheme": "SDA+SDB",
+    "distinct_candidates": 100,
+    "thermal_rejections": 0,
+    "coverage": 0.7959183673469387,
+    "exact": 0.3877551020408163
+  },
+  {
+    "scheme": "M",
+    "distinct_candidates": 160,
+    "thermal_rejections": 0,
+    "coverage": 0.5918367346938775,
+    "exact": 0.16326530612244897
+  },
+  {
+    "scheme": "MA+MB",
+    "distinct_candidates": 160,
+    "thermal_rejections": 0,
+    "coverage": 0.7755102040816326,
+    "exact": 0.16326530612244897
+  },
+  {
+    "scheme": "MD",
+    "distinct_candidates": 385,
+    "thermal_rejections": 0,
+    "coverage": 0.8775510204081631,
+    "exact": 0.4897959183673469
+  },
+  {
+    "scheme": "MDA+MDB",
+    "distinct_candidates": 385,
+    "thermal_rejections": 0,
+    "coverage": 0.9387755102040815,
+    "exact": 0.5510204081632653
+  }
+]

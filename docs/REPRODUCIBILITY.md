@@ -38,3 +38,23 @@ The background site scanner uses a seven-base early-rejection filter: a window i
 `python revalidate.py` reproduces the previous six-pair/mixed-pool validation. Its scope is the retained baseline, not the compact candidate search.
 
 `python revalidate.py`复核保留的6对与混池基线，不执行当前精简搜索。
+
+
+## S/M ordinary–degenerate comparison / 普通与简并比较
+
+[Source bundle](../results/sm_optimization/reproduction_sources.zip). Extract to a fresh directory with `requirements-compact.txt` installed. The frozen candidate pool includes target states and background accession sets; the selection and full-sequence verification can be rerun without fetching databases. It does not rerun the upstream discovery/background-cache generation.
+
+解压至新目录并安装`requirements-compact.txt`。冻结候选池包含目标状态及背景accession集合，可重算组合选择及全序列独立复核；本入口不重新运行上游候选发现和背景缓存生成。
+
+```sh
+python work/miurchin_sm/optimize.py
+mkdir -p work/miurchin_mifish/verify
+c++ -O3 -std=c++17 work/micucumber_nondegenerate/independent_scan.cpp -o work/miurchin_mifish/verify/scanner
+python work/miurchin_sm/verify.py
+python work/miurchin_sm/summarize.py
+python work/miurchin_sm/plot.py
+```
+
+Outputs / 输出：`work/miurchin_sm/release/`.
+
+Run `python scripts/check_current.py` to recalculate current portfolio metrics from the published scan records and verify IUPAC degeneracy and sequence assignments. 使用该命令从发布扫描记录重算当前指标，并检查简并度与配对关系。
