@@ -1,6 +1,8 @@
 ![MiUrchin overview](figures/MiUrchin_overview.png)
 
-Reference seed windows on NC_001453.1: S 188 bp, M 228 bp, L 324 bp and XL 440 bp. The diagram is not to scale; optimized binding positions and product lengths vary.
+![Current binding positions](figures/binding_positions.svg)
+
+Badge spans are 188, 228, 343 and 440 bp for SD, MD, L and XL on the reference. The map uses one linear scale for all current pairs. Coordinates are 1-based on extracted, ungapped NC_001453.1 16S; product lengths vary among taxa.
 
 # MiUrchin
 
@@ -10,7 +12,7 @@ Mitochondrial 16S primers for sea urchins. Four length windows retain one-pair a
 
 Lengths are S, M, L and XL. A single pair uses the region name; the two-pair components use A and B, for example SA and SB, with union metrics labelled SA+SB. All sequences are 5′→3′.
 
-D identifies a degenerate pair. SD+SB and MD+MC combine a degenerate pair with an ordinary supplement; MC is the ordinary supplement selected for MD. There are 12 portfolios and 18 paired entries, with 15 unique pair names / 30 FASTA records after name reuse is deduplicated.
+D identifies a degenerate pair. SD+SB and MD+MB reuse one degenerate pair and one ordinary supplement. There are 12 portfolios and 18 paired entries, with 14 pair names / 28 FASTA records.
 
 ## Portfolio comparison
 
@@ -18,28 +20,30 @@ The common panel contains 49 taxonomic name labels and 80 within-label haplotype
 
 | Scheme | Type | Pairs | Coverage | Exact | WC≤3 | GT≤2 | WC≤4 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| S | ordinary | 1 | 40.82% | 20.41% | 0 | 3 | 4 |
-| SA+SB | ordinary | 2 | 61.22% | 20.41% | 0 | 3 | 7 |
-| SD | degenerate | 1 | 65.31% | 38.78% | 0 | 0 | 8 |
-| SD+SB | mixed | 2 | 79.59% | 38.78% | 0 | 3 | 10 |
-| M | ordinary | 1 | 59.18% | 16.33% | 0 | 0 | 0 |
-| MA+MB | ordinary | 2 | 77.55% | 16.33% | 1 | 1 | 30 |
+| S | ordinary | 1 | 26.53% | 4.08% | 0 | 0 | 1 |
+| SA+SB | ordinary | 2 | 42.86% | 4.08% | 0 | 3 | 7 |
+| SD | degenerate | 1 | 67.35% | 20.41% | 3 | 0 | 18 |
+| SD+SB | mixed | 2 | 77.55% | 20.41% | 3 | 3 | 19 |
+| M | ordinary | 1 | 69.39% | 16.33% | 0 | 0 | 0 |
+| MA+MB | ordinary | 2 | 77.55% | 22.45% | 0 | 1 | 12 |
 | MD | degenerate | 1 | 87.76% | 48.98% | 0 | 1 | 0 |
-| MD+MC | mixed | 2 | 93.88% | 55.10% | 0 | 1 | 17 |
+| MD+MB | mixed | 2 | 91.84% | 55.10% | 0 | 2 | 12 |
 | L | ordinary | 1 | 75.51% | 19.39% | 2 | 1 | 161 |
 | LA+LB | ordinary | 2 | 87.76% | 19.39% | 2 | 1 | 162 |
-| XL | ordinary | 1 | 85.71% | 6.12% | 2 | 1 | 10 |
-| XLA+XLB | ordinary | 2 | 100.00% | 26.53% | 0 | 2 | 9 |
+| XL | ordinary | 1 | 81.63% | 18.37% | 3 | 5 | 11 |
+| XLA+XLB | ordinary | 2 | 97.96% | 26.53% | 0 | 3 | 5 |
 
 Coverage permits up to two mismatches per primer with the terminal three bases exactly matched; exact matching requires zero mismatches in both primers. GT is a separate G–T tolerance sensitivity model, not strict exact matching. Background values count accessions, not experimental amplification fractions.
 
-**Prioritize SD and MD single-pair comparisons.** SD reaches 65.31% coverage and 38.78% exact matching; MD reaches 87.76% and 48.98%. Adding an ordinary pair gives 79.59% coverage for SD+SB, and 93.88% coverage / 55.10% exact matching for MD+MC. These are separate-PCR unions of one degenerate and one ordinary pair.
+**Prioritize MD, adding MB when needed.** MD gives 87.76% coverage / 48.98% exact matching, with F/R degeneracy 6/24; MD+MB gives 91.84% / 55.10%. Ordinary M gives 69.39% / 16.33%, and MA+MB gives 77.55% / 22.45%.
 
-Ordinary M improves to 59.18% coverage / 16.33% exact matching; its two-pair option reaches 77.55% / 16.33%. Ordinary S remains unchanged. SD and MD each have 12-fold F and 24-fold R degeneracy; a fixed directional concentration is divided among concrete variants. Exact matching means IUPAC compatibility, not that every variant matches or that amplification efficiency is established.
+S retains a substantial trade-off: SD gives 67.35% / 20.41%, and SD+SB gives 77.55% / 20.41%; ordinary S coverage remains low. SD F/R degeneracy is 12/12. The terminal correction reduces S exact matching and is not an across-the-board improvement.
+
+Every concrete variant excludes terminal homotriplets, has at least one G/C in the last three bases and 1–4 G/C in the last five, and has no homopolymer longer than four bases. A terminal G/C is not mandatory. Structure Tm and F/R Tm-range midpoint differences pass both concentration scenarios. See [terminal correction and verification](docs/TERMINAL_VALIDATION.md).
 
 ## Sequences and evidence
 
-[Primer pairs](results/current/primer_pairs.csv) · [FASTA](results/current/primers.fasta) · [Comparison](results/current/comparison.csv) · [S/M missed references](results/sm_optimization/missed_references.csv) · [L/XL baseline gaps](results/compact/missed_references.csv) · [Verification](results/sm_optimization/verification.json)
+[Primer pairs](results/current/primer_pairs.csv) · [FASTA](results/current/primers.fasta) · [Comparison](results/current/comparison.csv) · [Binding coordinates](results/current/binding_positions.csv) · [Missed references](results/terminal_optimization/missed_references.csv) · [Terminal audit](results/terminal_optimization/terminal_audit.csv) · [Verification](results/terminal_optimization/verification.json)
 
 ## Base matching
 
@@ -57,7 +61,7 @@ Actual bases are shown: blue = IUPAC-compatible, orange = mismatch, purple = pos
 
 ![XL base matching](figures/base_matching_XL.svg)
 
-[S/M full base alignment](results/sm_optimization/base_matching.html) · [L/XL full base alignment](results/compact/base_matching.html)
+[Full base alignment](results/terminal_optimization/base_matching.html)
 
 ## Evaluation scope
 

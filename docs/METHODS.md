@@ -2,23 +2,30 @@
 
 [中文](METHODS.zh-CN.md)
 
-Using extracted 16S NC_001453.1 coordinates, search 20–30 nt primers within ±15 nt of four seed starts. Generate WC and G–T-compatible consensus sequences from common-panel base frequencies, adding the three most frequent observed binding sequences per window. Filter to 35–65% GC and exclude six-base homopolymers. Target terminal three bases must match exactly.
+## Reference panel and candidate search
 
-Primer3: 50 mM monovalent salt, 1.5 mM Mg²⁺, 0.6 mM dNTP and 200 nM per oligo. Hairpin, homodimer and pair heterodimer Tm must be below 55°C; F/R Tm difference ≤5°C.
+The common panel has 49 taxonomic labels and 80 haplotypes, weighted equally by label and then within label. Frozen target and background FASTA files contain 1,401 and 6,045 records. Coordinates refer to extracted, ungapped NC_001453.1 16S rRNA, not the complete mitogenome.
 
-Background scans cover both strands, correct orientation and 0–1,000 nt internal distance. Each portfolio permits ≤5 WC≤3 and ≤5 GT≤2 accessions. Maximize common-panel coverage, then exact matching. Enumerate feasible single and two-pair states, collapsing identical target/background states.
+The initial pool contains observed and consensus primers from four homologous windows. The terminal-correction round adds 3′ shortening and extension by up to 6 bases around previously selected S/M oligos, retaining lengths 18–32 nt. Extensions use up to three observed flank sequences. IUPAC restrictions can remove concrete variants with long homopolymers without adding a base outside the original ambiguity code. Existing L/XL candidates remain available. This is a bounded candidate search.
 
-Independently rescan complete paired products: target length 150–500 bp with ≥50 nt internal sequence, and background as above. The bounded search does not establish a genome-wide optimum. Frozen references and baseline evidence remain under analysis/.
+## Terminal and thermodynamic constraints
 
-[Miya et al. 2015](https://doi.org/10.1098/rsos.150088)
+Every concrete IUPAC variant must have: no terminal homotriplet; at least one G/C in the final three bases; 1–4 G/C in the final five bases; and no homopolymer longer than four bases anywhere. These are project-specific conservative filters informed by [Thermo Fisher guidance](https://www.thermofisher.com/blog/behindthebench/pcr-primer-design-tips/) and [Primer3 parameters](https://primer3.org/manual.html). A G/C at the very last base is not mandatory. Four-base internal runs can remain.
 
+Primer3 uses 50 mM monovalent salt, 1.5 mM Mg²⁺ and 0.6 mM dNTP. Expand all concrete variants under two scenarios: 50 nM per variant, and 200 nM per direction divided equally among variants. Hairpin, homodimer, within-direction heterodimer and F/R heterodimer Tm must be below 55°C. The difference between F and R Tm-range midpoints must be ≤5°C in both scenarios; this does not constrain every cross-variant Tm difference. Unequal-concentration heterodimers use the larger concentration as an approximation.
 
-## S/M refinement / S与M补充优化
+The terminal audit also reports Primer3 end-stability ΔG at 37°C for each terminal 5-mer against its perfect reverse complement, at the stated salts and 200 nM. Variant minima/maxima are reported in kcal/mol. This descriptive calculation has no fitted pass/fail threshold and is not a prediction of PCR yield.
 
-The S/M round adds previously designed ordinary and degenerate same-locus candidates to the shifted-window pool. Alignment gaps are removed before scanning actual sequence in the seed neighbourhood (±5 nt); the complete paired-product scanner supplies final metrics. Candidates from both existing pools are compared on the same 49-label / 80-haplotype panel. Retain the previous ordinary option’s coverage and exact matching as lower bounds, then maximize coverage, exact matching and parsimony in that order.
+## Selection and independent verification
 
-S/M补充轮将既有普通与简并同位点候选加入平移窗口候选池。先去除比对缺口，再在种子邻域±5 nt扫描真实序列，最终指标取完整配对产物扫描。共同面板保持49个名称标签、80个单倍型。筛选不低于上一版同对数普通方案的覆盖与完全匹配，随后依次优化覆盖、完全匹配与简并度。
+Target coverage permits ≤2 mismatches per primer and requires exact IUPAC compatibility in the last three bases. Exact matching requires zero mismatches in both primers. Target products must be 150–500 bp with ≥50 internal bases. Background scans cover both strands, correct orientation and 0–1,000 nt internal distance. Each portfolio allows at most five WC≤3 and five GT≤2 background accessions; WC≤4 is reported as a more permissive sensitivity result.
 
-Degenerate thermodynamics expand all variants. Evaluate 50 nM per concrete variant and 200 nM total per direction divided among variants, including hairpins, homodimers, within-direction heterodimers and F/R interactions. Unequal-concentration heterodimers use the larger concentration as an approximation. The structural Tm ceiling remains 55°C. Background limits remain WC≤3 ≤5 and GT≤2 ≤5 per portfolio.
+S/M/XL selections maximize the equally weighted sum of coverage and exact matching, then coverage, exact matching, lower total degeneracy and fewer background accessions. This explicitly trades some coverage for exact matching. L retains its coverage-first ranking because the prior selected pairs pass the terminal rules. Two-pair mixed portfolios reuse the selected degenerate single pair plus one ordinary pair. Identical target/background states are reduced to the lowest-degeneracy representative before selection; this bounded reduction is not a proof of global optimality.
 
-简并热力学展开全部变体：每变体50 nM及每方向总量200 nM分摊两种情景，检查发卡、同源二聚体、同向异源二聚体及F/R相互作用。浓度不等时，二聚体使用较大浓度近似。结构Tm门槛仍为55°C，组合背景门槛仍为WC≤3与GT≤2各≤5条。
+A separate C++ all-window paired-product scanner verifies the selected sequences without the candidate scanner's early-rejection filter. The published verification contains 2,880 target-state checks with zero disagreements. The 12 portfolios contain 18 paired rows and 14 pair names / 28 exported oligos. Metrics are separate-PCR unions, not validated multiplex performance. Wet-lab validation is pending.
+
+## Coordinate and base-matching figures
+
+The position map is generated directly from each selected oligo's reference interval on one linear scale. Interval lengths are checked against oligo lengths. Homologous intervals can contain mismatches to NC_001453.1; reference bases and mismatch counts are included in the coordinate table. The representative SD, MD, L and XL spans are 188, 228, 343 and 440 bp, respectively. Base-matching diagrams show actual bases oriented 5′→3′ and mark the terminal three bases.
+
+Design context: [Miya et al. 2015](https://doi.org/10.1098/rsos.150088). [Reproduction](REPRODUCIBILITY.md).

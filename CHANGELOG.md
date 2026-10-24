@@ -1,3 +1,10 @@
+# Terminal correction and coordinate map
+
+- Replace terminal homotriplets and all-AT terminal triplets; check every concrete IUPAC variant, internal homopolymers and two concentration scenarios.
+- Publish 12 portfolios with 14 pair names; reuse SD+SB and MD+MB.
+- Regenerate all base-matching figures and both READMEs.
+- Draw every current binding interval on one linear axis; correct the representative L reference span to 343 bp.
+
 # S/M refinement — 2026-10-24
 
 Added SD/MD and SD+SB/MD+MC comparisons; improved ordinary M while retaining both coverage and exact-match lower bounds. Revalidated 1,920 per-reference outcomes and expanded all degenerate variants for thermal checks.

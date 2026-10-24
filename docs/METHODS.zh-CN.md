@@ -2,23 +2,30 @@
 
 [English](METHODS.md)
 
-以NC_001453.1的16S为坐标参考，在四个窗口起点±15 nt内搜索20–30 nt引物。按共同面板碱基频率构造WC及G–T相容共识，并加入每窗口最常见的3条真实结合序列；过滤GC 35–65%及连续6个相同碱基。目标3′末端3 nt必须完全匹配。
+## 参考面板与候选搜索
 
-Primer3条件：单价盐50 mM、Mg²⁺ 1.5 mM、dNTP 0.6 mM、每条引物200 nM。单引物发卡/同源二聚体及配对异源二聚体Tm<55°C，正反Tm差≤5°C。
+共同面板包含49个分类名称标签、80个单倍型，标签等权、标签内单倍型等权。冻结目标与背景FASTA分别含1,401与6,045条记录。坐标以NC_001453.1提取、去缺口的16S序列为准，不是完整线粒体基因组坐标。
 
-背景全序列双链扫描要求正确方向及0–1,000 nt内部距离。筛选每套组合WC≤3及GT≤2各≤5条记录。优先最大化共同面板覆盖，再最大化完全匹配；穷举通过约束的单对和两对，并合并相同命中状态以减少重复计算。
+初始候选来自四个同源窗口的真实序列与共识序列。本轮在既有S/M候选的3′端尝试最多6个碱基的缩短或延长，保留18–32 nt；延长部分取最多三种实际观察到的侧翼序列。对可能形成长串同碱基的简并序列，限制部分IUPAC位点以去掉这些实际变体，不引入原简并代码以外的碱基。L/XL继续使用既有候选池。搜索范围有限。
 
-最后使用独立完整配对扫描复核目标产物（150–500 bp、内部≥50 nt）及背景。搜索范围有限，不代表全基因组全局最优。原始完整参考、旧分析及复核证据保留在analysis/。
+## 末端与热力学约束
 
-[Miya et al. 2015](https://doi.org/10.1098/rsos.150088)
+展开后的每条实际变体必须满足：3′端不出现三连同碱基；末端3位至少含1个G/C；末端5位含1–4个G/C；整条序列连续同碱基不超过4个。规则参考[Thermo Fisher设计建议](https://www.thermofisher.com/blog/behindthebench/pcr-primer-design-tips/)与[Primer3参数](https://primer3.org/manual.html)，是本项目采用的筛选条件，不是统一实验成功阈值。最后一位不强制为G/C，内部仍可能存在四连同碱基。
 
+Primer3条件为单价盐50 mM、Mg²⁺ 1.5 mM、dNTP 0.6 mM。全部变体分别在每变体50 nM、每方向总量200 nM均分两种情景下评估。发卡、同源二聚体、同向异源二聚体及F/R异源二聚体Tm须低于55°C；两种情景中，F与R的Tm范围中点差均须≤5°C。这不表示任意两个具体变体的Tm差均≤5°C。浓度不等时，二聚体取较大浓度近似。
 
-## S/M refinement / S与M补充优化
+末端审计另列最后5 nt与其完全反向互补序列的Primer3末端稳定性ΔG：37°C、上述盐条件、200 nM，单位kcal/mol，报告全部变体的最小值与最大值。该值用于描述性比较，未设经过实验标定的通过阈值，也不代表PCR产量。
 
-The S/M round adds previously designed ordinary and degenerate same-locus candidates to the shifted-window pool. Alignment gaps are removed before scanning actual sequence in the seed neighbourhood (±5 nt); the complete paired-product scanner supplies final metrics. Candidates from both existing pools are compared on the same 49-label / 80-haplotype panel. Retain the previous ordinary option’s coverage and exact matching as lower bounds, then maximize coverage, exact matching and parsimony in that order.
+## 选择与独立复核
 
-S/M补充轮将既有普通与简并同位点候选加入平移窗口候选池。先去除比对缺口，再在种子邻域±5 nt扫描真实序列，最终指标取完整配对产物扫描。共同面板保持49个名称标签、80个单倍型。筛选不低于上一版同对数普通方案的覆盖与完全匹配，随后依次优化覆盖、完全匹配与简并度。
+覆盖允许每条引物≤2处错配，但末端3位须IUPAC完全相容；完全匹配要求F/R均为零错配。目标产物限制150–500 bp、内部序列≥50 nt。背景扫描两条链，要求方向正确、内部距离0–1,000 nt。每套组合WC≤3及GT≤2各允许最多5条背景accession；另列WC≤4宽松敏感性结果。
 
-Degenerate thermodynamics expand all variants. Evaluate 50 nM per concrete variant and 200 nM total per direction divided among variants, including hairpins, homodimers, within-direction heterodimers and F/R interactions. Unequal-concentration heterodimers use the larger concentration as an approximation. The structural Tm ceiling remains 55°C. Background limits remain WC≤3 ≤5 and GT≤2 ≤5 per portfolio.
+S/M/XL先最大化覆盖率与完全匹配率的等权和，再按覆盖、完全匹配、较低总简并度、较少背景命中排序，允许以部分覆盖换取完全匹配。L的原选配对通过末端规则，因此继续采用覆盖优先排序。混合两对方案复用已选简并单对，加一对普通引物。相同目标/背景命中状态先保留低简并度代表；这种有限候选归并不保证全局最优。
 
-简并热力学展开全部变体：每变体50 nM及每方向总量200 nM分摊两种情景，检查发卡、同源二聚体、同向异源二聚体及F/R相互作用。浓度不等时，二聚体使用较大浓度近似。结构Tm门槛仍为55°C，组合背景门槛仍为WC≤3与GT≤2各≤5条。
+独立C++程序不使用候选扫描的早停过滤，重新扫描完整配对产物；共2,880项目标状态检查，差异为零。当前12套方案、18条配对记录、14个配对名及28条导出序列。两对指标为独立PCR的并集，不是已验证的混池效果；尚待实验验证。
+
+## 位置图与碱基匹配图
+
+位置图直接从每条入选引物的参考区间生成，全部使用同一线性比例，并检查区间长度等于引物长度。参考同源位点可能与该引物存在错配，坐标表列出参考碱基及错配数。SD、MD、L、XL的参考跨度分别为188、228、343、440 bp。碱基图显示5′→3′实际序列并框出末端3位。
+
+设计参考：[Miya等，2015](https://doi.org/10.1098/rsos.150088)。[复现](REPRODUCIBILITY.md)。

@@ -7,7 +7,7 @@ python check_release.py
 python scripts/check_compact.py
 ```
 
-The root checker validates the frozen baseline and manifest; the compact checker validates the current 1–2-pair exports. 根目录检查器校验冻结基线及文件清单；compact检查器校验当前1–2对方案。
+The root checker validates the frozen baseline and manifest; the compact checker validates the retained earlier ordinary-primer exports. 根目录检查器校验冻结基线及文件清单；compact检查器校验保留的早期普通引物方案。
 
 ## Rebuild compact candidates / 重算精简方案
 
@@ -58,3 +58,23 @@ python work/miurchin_sm/plot.py
 Outputs / 输出：`work/miurchin_sm/release/`.
 
 Run `python scripts/check_current.py` to recalculate current portfolio metrics from the published scan records and verify IUPAC degeneracy and sequence assignments. 使用该命令从发布扫描记录重算当前指标，并检查简并度与配对关系。
+
+
+## Current terminal-corrected release / 当前末端修正版
+
+Install `requirements-compact.txt`, then extract [the terminal source bundle](../results/terminal_optimization/reproduction_sources.zip) into a fresh directory. It contains the frozen combined candidate pool, reference sequences, coordinates and scanner source. Selection, independent verification, base-matching and coordinate figures are reproducible without database downloads. / 安装依赖并解压源码包，即可从冻结候选池重算选择、独立复核及图件，不重新下载数据库。
+
+```sh
+OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python work/miurchin_enddesign/optimize_strict.py
+mkdir -p work/miurchin_mifish/verify
+c++ -O3 -std=c++17 work/micucumber_nondegenerate/independent_scan.cpp -o work/miurchin_mifish/verify/scanner
+python work/miurchin_enddesign/verify.py
+python work/miurchin_enddesign/summarize.py
+python work/miurchin_enddesign/plot.py
+python work/miurchin_enddesign/positions.py
+python work/miurchin_enddesign/end_audit.py
+```
+
+Outputs: `work/miurchin_enddesign/release/`. Check the published release with `python scripts/check_current.py`, `python scripts/check_terminal.py` and `python check_release.py`. / 输出位于上述目录；使用三项检查验证当前发布文件。
+
+The optional `extend.py` and `merge_extended.py` regenerate the added candidate pool, using the included `scan_sites.cpp` between them; upstream initial discovery remains frozen. / 扩展脚本可重新生成新增候选，二者之间需运行附带的位点扫描器；更早的初始候选发现仍采用冻结结果。

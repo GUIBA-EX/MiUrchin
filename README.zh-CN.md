@@ -1,6 +1,8 @@
 ![MiUrchin 项目介绍](figures/MiUrchin_overview.png)
 
-图示为 NC_001453.1 上的参考设计窗口：S 188 bp、M 228 bp、L 324 bp、XL 440 bp。示意图不按比例绘制；优化后的结合位置及实际扩增长度可有差异。
+![当前引物结合位置](figures/binding_positions.svg)
+
+图中徽标为SD、MD、L、XL在参考序列上的跨度，分别为188、228、343、440 bp；下图按同一线性比例展示所有当前配对。坐标为NC_001453.1提取的16S序列位置（1起始、去缺口），实际产物长度随类群变化。
 
 # MiUrchin
 
@@ -10,7 +12,7 @@
 
 长度依次为S、M、L、XL；单对直接使用长度名称，两对的具体配对加A、B，例如SA、SB，合用结果记为SA+SB。全部序列按5′→3′书写。
 
-D仅用于简并配对；SD+SB与MD+MC分别表示简并单对加普通补充配对。MC是针对MD的普通补充引物。当前12套方案、18条配对记录，复用名称去重后为15个配对名、30条FASTA记录。
+D表示简并单对；SD+SB、MD+MB分别复用简并单对与一对普通补充引物。当前12套方案、18条配对记录，包含14个配对名、28条FASTA序列。
 
 ## 方案比较
 
@@ -18,28 +20,30 @@ D仅用于简并配对；SD+SB与MD+MC分别表示简并单对加普通补充配
 
 | 方案 | 类型 | 对数 | 覆盖率 | 完全匹配率 | WC≤3 | GT≤2 | WC≤4 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| S | 普通 | 1 | 40.82% | 20.41% | 0 | 3 | 4 |
-| SA+SB | 普通 | 2 | 61.22% | 20.41% | 0 | 3 | 7 |
-| SD | 简并 | 1 | 65.31% | 38.78% | 0 | 0 | 8 |
-| SD+SB | 简并＋普通 | 2 | 79.59% | 38.78% | 0 | 3 | 10 |
-| M | 普通 | 1 | 59.18% | 16.33% | 0 | 0 | 0 |
-| MA+MB | 普通 | 2 | 77.55% | 16.33% | 1 | 1 | 30 |
+| S | 普通 | 1 | 26.53% | 4.08% | 0 | 0 | 1 |
+| SA+SB | 普通 | 2 | 42.86% | 4.08% | 0 | 3 | 7 |
+| SD | 简并 | 1 | 67.35% | 20.41% | 3 | 0 | 18 |
+| SD+SB | 简并＋普通 | 2 | 77.55% | 20.41% | 3 | 3 | 19 |
+| M | 普通 | 1 | 69.39% | 16.33% | 0 | 0 | 0 |
+| MA+MB | 普通 | 2 | 77.55% | 22.45% | 0 | 1 | 12 |
 | MD | 简并 | 1 | 87.76% | 48.98% | 0 | 1 | 0 |
-| MD+MC | 简并＋普通 | 2 | 93.88% | 55.10% | 0 | 1 | 17 |
+| MD+MB | 简并＋普通 | 2 | 91.84% | 55.10% | 0 | 2 | 12 |
 | L | 普通 | 1 | 75.51% | 19.39% | 2 | 1 | 161 |
 | LA+LB | 普通 | 2 | 87.76% | 19.39% | 2 | 1 | 162 |
-| XL | 普通 | 1 | 85.71% | 6.12% | 2 | 1 | 10 |
-| XLA+XLB | 普通 | 2 | 100.00% | 26.53% | 0 | 2 | 9 |
+| XL | 普通 | 1 | 81.63% | 18.37% | 3 | 5 | 11 |
+| XLA+XLB | 普通 | 2 | 97.96% | 26.53% | 0 | 3 | 5 |
 
 覆盖允许每条引物最多2处错配，但3′末端3 nt必须完全匹配；完全匹配要求正反引物均0错配。GT为G–T容忍敏感性模型，单独统计，不算严格完全匹配。背景数字为accession数，非实验扩增比例。
 
-**优先比较SD和MD单对。** SD覆盖65.31%、完全匹配38.78%；MD为87.76%和48.98%。补充普通引物后，SD+SB升至79.59%覆盖，MD+MC升至93.88%覆盖、55.10%完全匹配。两者都是一对简并加一对普通引物的独立PCR并集。
+**优先验证MD单对，必要时补充MB。** MD覆盖87.76%、完全匹配48.98%，F/R简并度为6/24；MD+MB为91.84%/55.10%。普通M单对为69.39%/16.33%，MA+MB为77.55%/22.45%。
 
-M普通单对也提高至59.18%覆盖、16.33%完全匹配；普通两对为77.55%和16.33%。S普通方案尚未改善。SD和MD均为F 12重、R 24重简并；同向总浓度固定时，每种实际序列的浓度会被分摊。完全匹配按IUPAC相容计算，不代表所有变体均匹配，也不等同于实验效率。
+S仍有明显取舍：SD为67.35%/20.41%，SD+SB为77.55%/20.41%；普通S方案覆盖较低。SD的F/R简并度为12/12。末端修正降低了S的完全匹配率，不能将其描述为全面提升。
+
+全部实际变体均排除3′端三连同碱基，末端3位至少含1个G/C，末端5位含1–4个G/C，全序列同碱基连续长度不超过4。末端最后一位不强制为G/C。双浓度情景的结构Tm与正反Tm范围中点差均复核通过。详见[末端修正与验证](docs/TERMINAL_VALIDATION.md)。
 
 ## 序列与证据
 
-[Primer pairs](results/current/primer_pairs.csv) · [FASTA](results/current/primers.fasta) · [Comparison](results/current/comparison.csv) · [S/M missed references](results/sm_optimization/missed_references.csv) · [L/XL baseline gaps](results/compact/missed_references.csv) · [Verification](results/sm_optimization/verification.json)
+[引物配对](results/current/primer_pairs.csv) · [FASTA序列](results/current/primers.fasta) · [方案比较](results/current/comparison.csv) · [结合坐标](results/current/binding_positions.csv) · [漏检参考](results/terminal_optimization/missed_references.csv) · [末端审计](results/terminal_optimization/terminal_audit.csv) · [独立复核](results/terminal_optimization/verification.json)
 
 ## 碱基匹配图
 
@@ -57,7 +61,7 @@ M普通单对也提高至59.18%覆盖、16.33%完全匹配；普通两对为77.5
 
 ![XL base matching](figures/base_matching_XL.svg)
 
-[S/M full base alignment](results/sm_optimization/base_matching.html) · [L/XL full base alignment](results/compact/base_matching.html)
+[完整碱基匹配图](results/terminal_optimization/base_matching.html)
 
 ## 适用范围
 
