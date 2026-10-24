@@ -1,3 +1,7 @@
+![MiUrchin 项目介绍](figures/MiUrchin_overview.png)
+
+图示为 NC_001453.1 上的参考设计窗口：S 188 bp、M 228 bp、L 324 bp、XL 440 bp。示意图不按比例绘制；优化后的结合位置及实际扩增长度可有差异。
+
 # MiUrchin
 
 [English](README.md) · [方法](docs/METHODS.zh-CN.md) · [复现](docs/REPRODUCIBILITY.md)

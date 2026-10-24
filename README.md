@@ -1,3 +1,7 @@
+![MiUrchin overview](figures/MiUrchin_overview.png)
+
+Reference seed windows on NC_001453.1: S 188 bp, M 228 bp, L 324 bp and XL 440 bp. The diagram is not to scale; optimized binding positions and product lengths vary.
+
 # MiUrchin
 
 [中文](README.zh-CN.md) · [Methods](docs/METHODS.md) · [Reproduction](docs/REPRODUCIBILITY.md)
