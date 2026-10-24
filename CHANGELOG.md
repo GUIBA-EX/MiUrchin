@@ -1,3 +1,7 @@
+# 2026-10-25
+
+Retain one enhanced D per length at unchanged shared coordinates; simplify bilingual documentation and independently verify all current portfolios.
+
 # Terminal correction and coordinate map
 
 - Replace terminal homotriplets and all-AT terminal triplets; check every concrete IUPAC variant, internal homopolymers and two concentration scenarios.

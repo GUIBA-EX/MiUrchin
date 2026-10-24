@@ -1,9 +1,6 @@
 scheme,accession,organism,order,weight
 SD,FN562581.1,Echinocardium cordatum,Spatangoida,0.02040816326530612
 SD,KC990834.1,Nacospatangus altus,Spatangoida,0.02040816326530612
-SD,KP070768.1,Temnopleurus hardwickii,Temnopleuroida,0.02040816326530612
-SD,KU302106.1,Temnopleurus reevesii,Temnopleuroida,0.02040816326530612
-SD,KX638403.1,Glyptocidaris crenularis,Phymosomatoida,0.02040816326530612
 SD,MH614961.1,Eucidaris tribuloides,Cidaroida,0.00510204081632653
 SD,MH614962.1,Eucidaris tribuloides,Cidaroida,0.00510204081632653
 SD,MH614963.1,Eucidaris tribuloides,Cidaroida,0.00510204081632653
@@ -14,9 +11,7 @@ SD,MK609486.1,Pseudoboletia maculata,Temnopleuroida,0.02040816326530612
 SD,MN103227.1,Sinaechinocyamus mai,Clypeasteroida,0.02040816326530612
 SD,MW147664.1,Stomopneustes variolaris,Phymosomatoida,0.02040816326530612
 SD,NC_061414.1,Astriclypeus mannii,Clypeasteroida,0.02040816326530612
-SD,NC_065299.1,Aspidodiadema arcitum,Aspidodiadematoida,0.02040816326530612
 SD,NC_065300.1,Caenopedina pulchella,Pedinoida,0.01020408163265306
-SD,NC_065301.1,Phormosoma bursarium,Echinothurioida,0.02040816326530612
 SD,NC_065302.1,Araeosoma owstoni,Echinothurioida,0.02040816326530612
 SD,OR343710.1,Caenopedina pulchella,Pedinoida,0.01020408163265306
 SD,PQ838327.1,Clypeaster virescens,Clypeasteroida,0.02040816326530612
@@ -183,10 +178,7 @@ MA+MB,PX523763.1,Parechinus angulosus,Camarodonta,0.01020408163265306
 MA+MB,X80396.1,Arbacia lixula,Arbacioida,0.02040816326530612
 LD,FN562581.1,Echinocardium cordatum,Spatangoida,0.02040816326530612
 LD,KC990834.1,Nacospatangus altus,Spatangoida,0.02040816326530612
-LD,MW147664.1,Stomopneustes variolaris,Phymosomatoida,0.02040816326530612
-LD,MW354512.1,Pygmaeocidaris prionigera,Arbacioida,0.02040816326530612
 LD,NC_001453.1,Strongylocentrotus purpuratus,Camarodonta,0.02040816326530612
-LD,X80396.1,Arbacia lixula,Arbacioida,0.02040816326530612
 L,FN562581.1,Echinocardium cordatum,Spatangoida,0.02040816326530612
 L,J04815.1,Paracentrotus lividus,Camarodonta,0.00510204081632653
 L,JX888466.1,Loxechinus albus,Camarodonta,0.01020408163265306
@@ -221,19 +213,6 @@ LA+LB,PV804730.1,Paracentrotus lividus,Camarodonta,0.00510204081632653
 LA+LB,PV804731.1,Paracentrotus lividus,Camarodonta,0.00510204081632653
 LA+LB,PX523763.1,Parechinus angulosus,Camarodonta,0.01020408163265306
 LA+LB,X80396.1,Arbacia lixula,Arbacioida,0.02040816326530612
-XLD,J04815.1,Paracentrotus lividus,Camarodonta,0.00510204081632653
-XLD,JX888466.1,Loxechinus albus,Camarodonta,0.01020408163265306
-XLD,KC490910.1,Loxechinus albus,Camarodonta,0.01020408163265306
-XLD,MG676468.1,Lytechinus variegatus,Temnopleuroida,0.01020408163265306
-XLD,MG676469.1,Lytechinus variegatus,Temnopleuroida,0.01020408163265306
-XLD,MK458686.1,Tripneustes kermadecensis,Temnopleuroida,0.02040816326530612
-XLD,NC_088491.1,Parechinus angulosus,Camarodonta,0.01020408163265306
-XLD,PP438737.1,Paracentrotus lividus,Camarodonta,0.00510204081632653
-XLD,PP666882.1,Lytechinus pictus,Temnopleuroida,0.02040816326530612
-XLD,PV804729.1,Echinus esculentus,Camarodonta,0.02040816326530612
-XLD,PV804730.1,Paracentrotus lividus,Camarodonta,0.00510204081632653
-XLD,PV804731.1,Paracentrotus lividus,Camarodonta,0.00510204081632653
-XLD,PX523763.1,Parechinus angulosus,Camarodonta,0.01020408163265306
 XL,FN562581.1,Echinocardium cordatum,Spatangoida,0.02040816326530612
 XL,J04815.1,Paracentrotus lividus,Camarodonta,0.00510204081632653
 XL,JX888466.1,Loxechinus albus,Camarodonta,0.01020408163265306

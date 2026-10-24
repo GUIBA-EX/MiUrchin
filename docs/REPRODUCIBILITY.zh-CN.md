@@ -1,7 +1,5 @@
 # Reproduction / 复现
 
-Extract the source bundle into an empty directory. / 将复现包解压到空目录。
+Extract the reproduction bundle into an empty directory. Current retained sequences are frozen in `work/milily/selected.json` or `work/miurchin_enddesign/selected_strict.json`. Re-run `verify.py`, `summarize.py` and figure scripts against these frozen selections. The earlier `choose_joint.py` selects the baseline and does not reproduce the later Occam retention decisions.
 
-Run `choose_joint.py`, then the independent verification, summary and figure scripts in the project work folder. MiUrchin uses `selected_joint.json`; copy this to `selected_strict.json` before running `verify.py`, `summarize.py`, `positions.py`, `plot.py`, and `end_audit.py`. MiLily uses `selected.json` and runs `verify.py`, `summarize.py`, `figures.py`, `extra_audit.py`.
-
-Validate the published files with `python scripts/check_joint.py`.
+当前保留决策见 `docs/DECISIONS.md`；完整候选比较见 `results/degenerate_expansion`。复现独立扫描后运行 `python scripts/check_joint.py` 检查发布包。
