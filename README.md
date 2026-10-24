@@ -12,7 +12,7 @@ D denotes a degenerate single pair; no suffix denotes an ordinary single pair; A
 
 ## Retention decisions
 
-Retain one D portfolio per length at the existing shared ordinary/A/B/D coordinates; ordinary and A/B pairs are unchanged. Among candidates that do not reduce either coverage or exact matching relative to the original D, prefer lower degeneracy near the best combined score, rather than maximizing matching at any complexity.
+Retain one D portfolio per length at the existing shared ordinary/A/B/D coordinates; ordinary single pairs and D remain unchanged in the A/B re-selection. Among candidates that do not reduce either coverage or exact matching relative to the original D, prefer lower degeneracy near the best combined score, rather than maximizing matching at any complexity.
 
 Retained F/R degeneracies: S 54/48, M 8/96, L 1/16, XL 8/24. S trades some exact matching for lower degeneracy and higher coverage than the 108/96 option; M and L avoid more complex options adding only about two percentage points of exact matching.
 
@@ -22,7 +22,7 @@ Retained F/R degeneracies: S 54/48, M 8/96, L 1/16, XL 8/24. S trades some exact
 |---|---:|---:|---:|---:|---:|
 | SD | 73.47 | 22.45 | 3 | 0 | 22 |
 | S | 26.53 | 4.08 | 0 | 0 | 1 |
-| SA+SB | 26.53 | 4.08 | 0 | 0 | 1 |
+| SA+SB | 41.84 | 6.12 | 0 | 0 | 7 |
 | MD | 87.76 | 67.35 | 0 | 0 | 0 |
 | M | 59.18 | 16.33 | 0 | 0 | 0 |
 | MA+MB | 59.18 | 30.61 | 0 | 0 | 0 |
@@ -43,7 +43,7 @@ Background hits can remain substantial under relaxed mismatch models; see the co
 |---|---|---|
 | SD | `YGTGTATAATGGATTDACDAGH` | `KCTTAGCTHARACTAATTTCTYGR` |
 | S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
-| SA | `CGTGTATAATGGATTAACAAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
+| SA | `TGTGTATAATGGATTAACAAGC` | `GCTTAGCTTAAACTAATTTCTTGG` |
 | SB | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
 
 ![SD base matching](figures/base_matching_SD.svg)
@@ -79,8 +79,8 @@ Background hits can remain substantial under relaxed mismatch models; see the co
 |---|---|---|
 | XLD | `NARTAGGCCTAGAAGCAGCC` | `CCSTCTTGCCATTCATDCYAGTCTY` |
 | XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
-| XLA | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
-| XLB | `AAGTAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTC` |
+| XLA | `AAGTAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTC` |
+| XLB | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
 
 ![XLD base matching](figures/base_matching_XLD.svg)
 
@@ -90,4 +90,5 @@ Independent target checks: 2560; disagreements: 0. Background set checks: 32; di
 
 [Copyright / 著作权声明](COPYRIGHT.md)
 
-A/B complementarity is evaluated from unique coverage and exact-match contributions; two pairs do not necessarily improve on one. [A/B complementarity / 互补性复核](docs/AB_COMPLEMENTARITY.md)
+
+Expanded fixed-coordinate search yields mutual A/B contributions at every length without reducing either union metric. Ordinary single pairs and D are unchanged. Choose a single pair or complementary A/B according to the sample objective. [Complementarity and unique hits](docs/AB_COMPLEMENTARITY.md)

@@ -12,7 +12,7 @@ D表示简并单对；无后缀为普通单对，A/B为同位点普通双对。�
 
 ## 保留理由
 
-每个长度只保留一套D方案，固定普通/A/B/D共同坐标，普通与A/B不变。扩大简并候选后，在覆盖与完全匹配不低于原D的方案中，优先选取接近最佳评分但简并度更低的候选；收益不足以抵偿复杂度时不追求最高评分。
+每个长度只保留一套D方案，固定普通/A/B/D共同坐标，本次A/B重选保留普通单对与D不变。扩大简并候选后，在覆盖与完全匹配不低于原D的方案中，优先选取接近最佳评分但简并度更低的候选；收益不足以抵偿复杂度时不追求最高评分。
 
 S采用54/48，M采用8/96，L采用1/16，XL采用8/24。S舍弃108/96档，以较低简并度和较高覆盖率换取较低完全匹配率；M、L舍弃完全匹配率仅多约2个百分点的更复杂档。
 
@@ -22,7 +22,7 @@ S采用54/48，M采用8/96，L采用1/16，XL采用8/24。S舍弃108/96档，以
 |---|---:|---:|---:|---:|---:|
 | SD | 73.47 | 22.45 | 3 | 0 | 22 |
 | S | 26.53 | 4.08 | 0 | 0 | 1 |
-| SA+SB | 26.53 | 4.08 | 0 | 0 | 1 |
+| SA+SB | 41.84 | 6.12 | 0 | 0 | 7 |
 | MD | 87.76 | 67.35 | 0 | 0 | 0 |
 | M | 59.18 | 16.33 | 0 | 0 | 0 |
 | MA+MB | 59.18 | 30.61 | 0 | 0 | 0 |
@@ -43,7 +43,7 @@ S采用54/48，M采用8/96，L采用1/16，XL采用8/24。S舍弃108/96档，以
 |---|---|---|
 | SD | `YGTGTATAATGGATTDACDAGH` | `KCTTAGCTHARACTAATTTCTYGR` |
 | S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
-| SA | `CGTGTATAATGGATTAACAAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
+| SA | `TGTGTATAATGGATTAACAAGC` | `GCTTAGCTTAAACTAATTTCTTGG` |
 | SB | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
 
 ![SD base matching](figures/base_matching_SD.svg)
@@ -79,8 +79,8 @@ S采用54/48，M采用8/96，L采用1/16，XL采用8/24。S舍弃108/96档，以
 |---|---|---|
 | XLD | `NARTAGGCCTAGAAGCAGCC` | `CCSTCTTGCCATTCATDCYAGTCTY` |
 | XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
-| XLA | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
-| XLB | `AAGTAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTC` |
+| XLA | `AAGTAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTC` |
+| XLB | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
 
 ![XLD base matching](figures/base_matching_XLD.svg)
 
@@ -90,4 +90,5 @@ Independent target checks: 2560; disagreements: 0. Background set checks: 32; di
 
 [Copyright / 著作权声明](COPYRIGHT.md)
 
-A/B按覆盖和完全匹配的独有贡献评估互补性，双对并非必然优于单对。 [A/B complementarity / 互补性复核](docs/AB_COMPLEMENTARITY.md)
+
+扩大同坐标搜索后，各长度A/B均有双方独有贡献；两项并集指标均不低于此前方案。普通单对和D保持不变。依据样本目标选择单对或互补双对。[互补性与独有命中](docs/AB_COMPLEMENTARITY.md)
