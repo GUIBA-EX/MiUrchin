@@ -2,8 +2,8 @@
   ".gitignore": "6ae4b4d169d5cddd3b763cce9d530a5c1a160d909bdadd965d04ee017d2c11b3",
   "CHANGELOG.md": "84f57a143dd0954d2adc135beea5e21f6a425e0a86f1f1b29ba5186568c6d612",
   "COPYRIGHT.md": "ce5f8e1df41133ba261c5f53e0191da5f4add945bbe8ad6e298d5fadad8f2278",
-  "README.md": "399afbb04baaf946ba0e02435d5ef1e8202ecb62ec5a6c21fe4c7f8645a9f8ed",
-  "README.zh-CN.md": "400d06fe9b723cb86e6352e12c1399528e9c4de127fab0e8ead601d7abedf17c",
+  "README.md": "61586f4e1ae32a47780d82afcff280cf5bfb41d77ddf37c583d16962ee80e941",
+  "README.zh-CN.md": "df42ef37d9197ba270e2c0f7c479cf318f6fc4bf74d7c274726853c92143be04",
   "analysis/background.fasta": "001049e9b953295d256ef66024e734d5f9c500f288fda6ff65a12a511db74dfa",
   "analysis/background_class_summary.tsv": "b9b4e69e03bfa579ba4d410adb2bc1284ed46020671886267406fb18062e1cb7",
   "analysis/baseline_risks.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -190,5 +190,8 @@
   "scripts/choose_joint.py": "594b16716522eed420c9a64bdb1c4ab830ad3b524512b4f5469b314827d632ca",
   "sequences/primer_pairs.csv": "f1467291d2fed9a9cd6734d9f0cf7bcf4d56afb3c7ab034b8ab3812d862eae87",
   "sequences/primers.fasta": "94bc4ebefe6b8dfd2656fae181c38e0807296b308751692687c7582aa9ea6c32",
-  "report.html": "2757acf3d6e65f539547c3927197282f33d4f6f7f3cf98425be2ebcb6f66ee40"
+  "report.html": "2757acf3d6e65f539547c3927197282f33d4f6f7f3cf98425be2ebcb6f66ee40",
+  "results/ab_complementarity/summary.csv": "85ff58fc0d1fb17d4fba866a5728b5f84114fa173336cf2f748559c15c153969",
+  "results/ab_complementarity/reselection.csv": "4246aec10d3ef9ed7438d7ed0c734889c95335f445a81f56133069e9d83af1cd",
+  "docs/AB_COMPLEMENTARITY.md": "fed5c54ec59dcdc1903377ccb5bacc71298e99bcc1a5adf82a38f68c389c7a0a"
 }

@@ -89,3 +89,5 @@ Background hits can remain substantial under relaxed mismatch models; see the co
 Independent target checks: 2560; disagreements: 0. Background set checks: 32; disagreements: 0.
 
 [Copyright / 著作权声明](COPYRIGHT.md)
+
+A/B complementarity is evaluated from unique coverage and exact-match contributions; two pairs do not necessarily improve on one. [A/B complementarity / 互补性复核](docs/AB_COMPLEMENTARITY.md)
