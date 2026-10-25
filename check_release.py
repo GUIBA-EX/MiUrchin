@@ -19,3 +19,8 @@ for n in ['README.md','README.zh-CN.md']:
   if not link.startswith(('http','#')):assert (p/link).exists(),link
 for n,h in json.loads((p/'SHA256SUMS.json').read_text()).items():assert hashlib.sha256((p/n).read_bytes()).hexdigest()==h,n
 print('PASS: assignments, sequence orientation, scheme risks/counts, links, evidence and SHA256')
+
+import subprocess,sys
+for name in ['check_D.py','check_current.py','check_terminal.py','check_joint.py','check_ab.py']:
+ subprocess.run([sys.executable,str(p/'scripts'/name)],check=True)
+print('PASS: current MiUrchin D release and unchanged ordinary/A/B controls')

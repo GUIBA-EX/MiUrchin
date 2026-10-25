@@ -1,14 +1,13 @@
 # Validation / 验证
 
-Current exports contain 12 portfolios, 18 paired entries and 15 unique pair names (30 FASTA records). S/M were independently rescanned: all 1,920 per-reference comparisons agree, including ordinary, degenerate and complementary mixed options. L/XL retain their previously validated sequences and metrics.
+Current release: 12 portfolios, 16 pairs, 32 oligos; four fixed windows. Current D pairs and their baselines agree on 1,280 target decisions, 32 strict/exact background sets and 40 background counts across independent C++/Python scans. Ordinary/A/B sequences remain unchanged; their raw-hit and complementarity evidence is retained.
 
-当前导出12套方案、18条配对记录、15个唯一配对名（30条FASTA记录）。S/M普通、简并及互补组合重新独立扫描，1,920项逐参考比较全部一致；L/XL沿用此前通过验证的序列及指标。
+当前发布12套方案、16对、32条序列；新旧D的独立扫描差异0，普通/A/B未变。所有具体变体通过末端与热力学门槛，每长度普通/A/B/D坐标一致。完整计算检查及独立目录复现均在发布前执行。
 
-- [S/M validation](../results/sm_optimization/verification.json)
-- [S/M thermodynamics](../results/sm_optimization/thermal.csv)
-- [S/M raw hits](../results/sm_optimization/independent_hits.tsv)
-- [L/XL and previous compact validation](../results/compact/independent_validation.json)
+- [D verification](../results/D_optimization/verification.json)
+- [Current combined evidence](../results/terminal_optimization/verification.json)
+- [Thermodynamics](../results/terminal_optimization/thermal.csv)
+- [Order metrics](../results/current/taxonomic_comparison.csv)
+- [A/B complementarity](AB_COMPLEMENTARITY.md)
 
-Run `python scripts/check_current.py` to recompute current coverage, exact matching and background counts. 该检查器从原始命中记录重算当前覆盖、完全匹配及背景命中。
-
-Independent implementation agreement is computational verification; references are shared between design and evaluation. No wet-lab validation is claimed. 独立实现一致性属于计算验证，设计与评估复用参考，尚无湿实验验证。
+Historical compact/terminal design snapshots are separate from current evidence. Computational matching is not measured amplification efficiency.

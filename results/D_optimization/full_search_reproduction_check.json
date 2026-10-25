@@ -1,0 +1,19 @@
+{
+  "all_identical": true,
+  "selected_pairs_identical": true,
+  "checks": {
+    "candidate_comparison.csv": {
+      "rows": 10394,
+      "identical": true
+    },
+    "verified_comparison.csv": {
+      "rows": 8,
+      "identical": true
+    },
+    "by_order.csv": {
+      "rows": 88,
+      "identical": true
+    }
+  },
+  "retained_oligos": 400
+}

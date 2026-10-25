@@ -3,5 +3,7 @@
   "disagreements": 0,
   "details": [],
   "background_checks": 32,
-  "background_disagreements": 0
+  "background_disagreements": 0,
+  "current_D_evidence": "../D_optimization/verification.json",
+  "scope": "12 unchanged ordinary/A/B pairs plus 4 independently verified current D pairs"
 }

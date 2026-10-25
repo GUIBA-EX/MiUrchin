@@ -1,0 +1,9 @@
+name,target_checks,background_set_checks,disagreements
+SD-T1,160,4,0
+MD-T2,160,4,0
+LD-T3,160,4,0
+XLD-T4,160,4,0
+SD-before,160,4,0
+MD-before,160,4,0
+LD-before,160,4,0
+XLD-before,160,4,0

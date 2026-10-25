@@ -1,3 +1,7 @@
+# 2026-10-25 — Order-balanced D optimization
+
+Verified WoRMS orders for all 49 labels; searched 10,394 same-coordinate pairs; selected one D per length with independent raw-sequence checks. Updated bilingual README, sequence exports, order/label metrics and base plots. Ordinary/A/B coordinates and sequences unchanged.
+
 # 2026-10-25
 
 Retain one enhanced D per length at unchanged shared coordinates; simplify bilingual documentation and independently verify all current portfolios.

@@ -1,0 +1,25 @@
+{
+  "all_identical": true,
+  "checks": {
+    "verified_comparison.csv": {
+      "rows": 8,
+      "identical": true
+    },
+    "by_order.csv": {
+      "rows": 88,
+      "identical": true
+    },
+    "by_taxon.csv": {
+      "rows": 392,
+      "identical": true
+    },
+    "independent_checks.csv": {
+      "rows": 8,
+      "identical": true
+    },
+    "verified_base_templates.csv": {
+      "rows": 591,
+      "identical": true
+    }
+  }
+}

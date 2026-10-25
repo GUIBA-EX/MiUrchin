@@ -1,96 +1,119 @@
-![MiUrchin — 设计面板11个目的代表](figures/MiUrchin_overview.png)
-
-置顶图依据真实照片绘制，展示设计面板11个目的代表；徽标为S/M/L/XL共同参考跨度188/228/343/440 bp。[代表物种与照片来源](figures/overview_design.md)。
+![MiUrchin — representative echinoid diversity](figures/MiUrchin_overview.png)
 
 # MiUrchin
 
 [English](README.md)
 
+海胆16S rRNA环境DNA候选引物，保留S、M、L、XL四个长度。每个长度的普通、A、B、D起止坐标一致；D为一对简并引物，A/B为普通引物分别PCR后的并集。参考跨度为188、228、343、440 bp。
+
+主指标采用**目间等权**：每目内先计算检出物种标签比例，再对11个目取均值；任一参考命中即可检出该标签，完全匹配采用同一层级。共同面板80条参考、49个标签，目级归属已按WoRMS接受分类核对。三个目各只有一个标签，满覆盖不代表覆盖该目所有物种。
+
+[分类映射 / Taxonomy](results/D_optimization/panel.csv) · [图片来源 / Photo references](figures/overview_design.md)
+
 ![Binding positions](figures/binding_positions.svg)
 
-每个长度联合选择一个共同位点：普通、A、B、D的正反向起止坐标完全相同。位点内按覆盖率与完全匹配率之和选择普通单对、普通A/B并集和简并单对，三类评分等权平均选择位点。背景门槛：MiLily的SD/MD各20条，MiUrchin的XLD各50条，其余方案各5条，均分别应用于WC≤3和GT≤2。所有实际序列变体通过末端规则和两种浓度热力学检查。A/B指标为独立PCR并集，未验证混池；设计与评估共用参考数据，计算覆盖率不代表实测扩增效率。
+## 当前表现
 
-D表示简并单对；无后缀为普通单对，A/B为同位点普通双对。每个项目12套方案、16对记录、32条序列。
+| Scheme | Order coverage % | Order exact % | WC≤3 | GT≤2 | WC≤4 |
+|---|---:|---:|---:|---:|---:|
+| SD | 64.18 | 20.78 | 4 | 0 | 30 |
+| S | 4.22 | 0.65 | 0 | 0 | 1 |
+| SA+SB | 11.04 | 0.97 | 0 | 0 | 7 |
+| MD | 85.39 | 67.53 | 0 | 0 | 1 |
+| M | 47.73 | 6.82 | 0 | 0 | 0 |
+| MA+MB | 47.73 | 9.09 | 0 | 0 | 0 |
+| LD | 90.58 | 16.77 | 12 | 1 | 246 |
+| L | 68.83 | 3.25 | 2 | 1 | 161 |
+| LA+LB | 68.83 | 5.52 | 2 | 1 | 161 |
+| XLD | 100.00 | 80.74 | 12 | 22 | 84 |
+| XL | 77.49 | 2.92 | 3 | 5 | 11 |
+| XLA+XLB | 98.70 | 21.10 | 3 | 5 | 16 |
 
-## 保留理由
+覆盖要求两端各≤2错配且末端3 nt兼容，完全匹配要求两端无错配。WC3/GT2为宽松模型的非目标记录数，不强制末端兼容；背景库6,045条。
 
-每个长度只保留一套D方案，固定普通/A/B/D共同坐标，本次A/B重选保留普通单对与D不变。扩大简并候选后，在覆盖与完全匹配不低于原D的方案中，优先选取接近最佳评分但简并度更低的候选；收益不足以抵偿复杂度时不追求最高评分。
+## D方案的取舍
 
-S采用54/48，M采用8/96，L采用1/16，XL采用8/24。S舍弃108/96档，以较低简并度和较高覆盖率换取较低完全匹配率；M、L舍弃完全匹配率仅多约2个百分点的更复杂档。
+- **SD**：目间覆盖42.10→64.18%；新增7个、丢失5个标签。108/108简并度，覆盖收益伴随变体稀释。
+- **MD**：覆盖不变；完全匹配仍为33/49个标签，但在目间分布更均衡，目间完全匹配41.88→67.53%。
+- **LD**：覆盖不变，增加3个完全匹配标签；反向简并度16→128。
+- **XLD**：保持49/49覆盖，完全匹配28→38/49；目间完全匹配62.01→80.74%。
 
-[完整比较 / Full comparison](docs/DECISIONS.md)
+[D完整选择与逐类群增减 / D selection and taxon changes](docs/D_OPTIMIZATION.md) · [A/B互补性 / A/B complementarity](docs/AB_COMPLEMENTARITY.md)
+
+<details>
+<summary>次要比较：原参考加权口径</summary>
 
 | Scheme | Coverage % | Exact % | WC≤3 | GT≤2 | WC≤4 |
 |---|---:|---:|---:|---:|---:|
-| SD | 73.47 | 22.45 | 3 | 0 | 22 |
+| SD | 77.55 | 22.45 | 4 | 0 | 30 |
 | S | 26.53 | 4.08 | 0 | 0 | 1 |
 | SA+SB | 41.84 | 6.12 | 0 | 0 | 7 |
-| MD | 87.76 | 67.35 | 0 | 0 | 0 |
+| MD | 87.76 | 67.35 | 0 | 0 | 1 |
 | M | 59.18 | 16.33 | 0 | 0 | 0 |
 | MA+MB | 59.18 | 30.61 | 0 | 0 | 0 |
-| LD | 93.88 | 36.73 | 2 | 1 | 228 |
+| LD | 93.88 | 42.86 | 12 | 1 | 246 |
 | L | 75.51 | 19.39 | 2 | 1 | 161 |
 | LA+LB | 75.51 | 33.67 | 2 | 1 | 161 |
-| XLD | 100.00 | 57.14 | 16 | 26 | 47 |
+| XLD | 100.00 | 77.55 | 12 | 22 | 84 |
 | XL | 81.63 | 18.37 | 3 | 5 | 11 |
 | XLA+XLB | 91.84 | 24.49 | 3 | 5 | 16 |
 
-宽松错配模型下的背景命中仍可能较高；完整结果和漏检记录见数据文件。
+该表先按物种标签等权，再在标签内按参考等权，与主表的目间等权不同。
 
-[Sequences](sequences/primer_pairs.csv) · [FASTA](sequences/primers.fasta) · [Results](results/terminal_optimization/comparison.csv) · [Verification](results/terminal_optimization/verification.json) · [Full base matching](results/terminal_optimization/base_matching.html)
+</details>
 
 ## S
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| SD | `YGTGTATAATGGATTDACDAGH` | `KCTTAGCTHARACTAATTTCTYGR` |
+| SD | `YGTGTATAATGGATTDACDASH` | `GCTTAGCTHAVACYAATTTCTYDG` |
 | S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
 | SA | `TGTGTATAATGGATTAACAAGC` | `GCTTAGCTTAAACTAATTTCTTGG` |
 | SB | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
 
 ![SD base matching](figures/base_matching_SD.svg)
 
-![S base matching](figures/base_matching_S.svg)
 ## M
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| MD | `SGYTAGACGAGAAGACCCTR` | `CTTTGRTCAYCKDRRTGGATCA` |
+| MD | `SGYYAGACGAGAAGACCCTR` | `YTTTGATCAYCKDRRTGGATCA` |
 | M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 | MA | `CGCTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 | MB | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 
 ![MD base matching](figures/base_matching_MD.svg)
 
-![M base matching](figures/base_matching_M.svg)
 ## L
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| LD | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCRYC` |
+| LD | `GTCTCCTAAATAGAGACTAGYATGAATGGC` | `RCGGTAACTTRTTYCTYTGRTCRYC` |
 | L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
 | LA | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
 | LB | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTTCTTTGATCACC` |
 
 ![LD base matching](figures/base_matching_LD.svg)
 
-![L base matching](figures/base_matching_L.svg)
 ## XL
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| XLD | `NARTAGGCCTAGAAGCAGCC` | `CCSTCTTGCCATTCATDCYAGTCTY` |
+| XLD | `DRRTAGGCCYARAAGCAGCC` | `CCSTCTYGCCRTTCATRCYAGTCTY` |
 | XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
 | XLA | `AAGTAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTC` |
 | XLB | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
 
 ![XLD base matching](figures/base_matching_XLD.svg)
 
-![XL base matching](figures/base_matching_XL.svg)
+图中每行对应一条参考，按现行目分组；F/R均按引物5′→3′方向显示，方框标记末端3 nt，+n表示参考同源列间插入碱基。左侧E/C表示全序列扫描的完全匹配/覆盖。
 
-Independent target checks: 2560; disagreements: 0. Background set checks: 32; disagreements: 0.
+[全部16对碱基匹配图 / All 16 base plots](results/terminal_optimization/base_matching.html)
+
+## 方法与复核
+
+搜索10,394组同坐标配对，每方向简并度≤128，3′端可简并。目间覆盖优先，同时保护目间及标签完全匹配率；所有具体变体通过末端和两种浓度场景的热力学检查。8对新旧D方案的独立C++/Python扫描完成1,280项目标判定和32个背景集合比较，差异0。当前发布12套方案、16对引物、32条序列。结果来自计算参考库，尚需实验验证。
+
+[Sequences](sequences/primer_pairs.csv) · [FASTA](sequences/primers.fasta) · [Results](results/current/taxonomic_comparison.csv) · [Methods](docs/METHODS.zh-CN.md) · [Reproduction](docs/REPRODUCIBILITY.md) · [Validation](docs/VALIDATION.md)
 
 [Copyright / 著作权声明](COPYRIGHT.md)
-
-
-扩大同坐标搜索后，各长度A/B均有双方独有贡献；两项并集指标均不低于此前方案。普通单对和D保持不变。依据样本目标选择单对或互补双对。[互补性与独有命中](docs/AB_COMPLEMENTARITY.md)

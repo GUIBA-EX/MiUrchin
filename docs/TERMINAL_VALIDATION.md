@@ -1,3 +1,7 @@
+# Historical terminal-design snapshot / 原始末端设计快照
+
+当前方案及验证见[VALIDATION](VALIDATION.md)和[D optimization](D_OPTIMIZATION.md)。下文保留原始阶段的数值，不用于当前主指标。/ The following records the original terminal-design stage, not current primary metrics.
+
 # Terminal correction / 末端修正
 
 ## Material Passport

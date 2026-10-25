@@ -28,5 +28,5 @@ for r in coords:
  assert int(r['reference_span_bp'])==int(r['R_end'])-int(r['F_start'])+1
 assert next(r['reference_span_bp'] for r in coords if r['name']=='L')=='343'
 verification=json.loads((p/'results/terminal_optimization/verification.json').read_text())
-assert verification['checks']==2880 and verification['background_checks']==36 and verification['background_disagreements']==0
-print('PASS: all concrete variant terminal rules, both concentration scenarios, 14 reference intervals, sequence lengths and reference bases')
+assert verification['checks']==len(unique)*80*2 and verification['background_checks']==len(unique)*2 and verification['background_disagreements']==0
+print('PASS: all concrete variant terminal rules, both concentration scenarios, 16 reference intervals, sequence lengths and reference bases')

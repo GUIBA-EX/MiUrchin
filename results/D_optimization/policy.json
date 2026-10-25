@@ -1,0 +1,24 @@
+{
+  "primary": "equal mean of within-order detected label fractions",
+  "taxonomy": "WoRMS accepted species order, retrieved 2026-10-25",
+  "orders": 11,
+  "labels": 49,
+  "panel_records": 80,
+  "degeneracy_per_direction_max": 128,
+  "strict_background_each_max": 20,
+  "broad_background_each_max": 100,
+  "exact_order_and_taxon_not_below_baseline": true,
+  "taxon_coverage_max_loss_percentage_points": 4,
+  "ranking": [
+    "order coverage",
+    "order exact",
+    "taxon coverage",
+    "lower sum degeneracy"
+  ],
+  "selected": {
+    "S": "SD-T1",
+    "M": "MD-T2",
+    "L": "LD-T3",
+    "XL": "XLD-T4"
+  }
+}

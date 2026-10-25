@@ -1,6 +1,6 @@
 # A/B complementarity / A/B互补性
 
-Expanded fixed-coordinate search has been applied to the released sequences. Ordinary single pairs and D are unchanged. All four A/B combinations have contributions from both components, with neither union coverage nor union exact matching below the preceding selection. / 扩大同坐标搜索已落实到正式序列；普通单对和D不变。四个长度的A/B均有双方独有贡献，并集覆盖与完全匹配均不低于此前方案。
+Expanded fixed-coordinate search has been applied to the released sequences. Ordinary single pairs remain unchanged; D has subsequently been optimized under [equal-order scoring](D_OPTIMIZATION.md). All four A/B combinations have contributions from both components, with neither union coverage nor union exact matching below the preceding selection. / 扩大同坐标搜索已落实到正式序列；普通单对不变，D已按[目间等权](D_OPTIMIZATION.md)另行优化。四个长度的A/B均有双方独有贡献，并集覆盖与完全匹配均不低于此前方案。
 
 Changed pairs / 序列更新：SA, XLA, XLB.
 

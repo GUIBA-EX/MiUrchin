@@ -1,16 +1,17 @@
-# MiUrchin
+# Methods / 方法
 
-Each length uses one shared locus: ordinary, A, B and D have identical forward and reverse start/end coordinates. At each locus, ordinary single, ordinary A/B union and degenerate single are selected by coverage plus exact matching; their scores are averaged equally to select the locus. Background gates: MiLily SD/MD ≤20; MiUrchin XLD ≤50; other portfolios ≤5. All concrete variants pass terminal rules and both thermodynamic scenarios. A/B results are separate-PCR unions, not experimentally validated multiplex results. References are reused for design and evaluation; coverage is computational, not measured PCR efficiency.
+Reference: NC_001453.1, extracted ungapped mitochondrial 16S rRNA, 1-based coordinates. Each S–XL window has fixed ordinary/A/B/D endpoints; 188/228/343/440 bp reference spans include primers. Products vary among taxa.
 
-Reference coordinates: NC_001453.1; 1-based, extracted ungapped 16S.
+参考坐标为NC_001453.1提取的无gap 16S序列，1-based；各长度普通/A/B/D坐标一致。参考跨度包含引物，实际产物长度随类群变化。
 
-Terminal: no terminal homotriplet; ≥1 GC in last 3; 1–4 GC in last 5; no homopolymer >4. Primer3: 50 mM monovalent, 1.5 mM Mg, 0.6 mM dNTP; 50 nM per variant and 200 nM per direction. Structure Tm <55°C; F/R midpoint difference ≤5°C. Coverage: ≤2 mismatches per primer and IUPAC-compatible final 3 bases; exact: zero mismatches in both.
+The target library has 1,401 records, the common panel 80 references/49 species labels, and the background 6,045 records. Primary coverage and exact scores equally average within-order label detection over 11 WoRMS orders. Any matching reference detects a label; partial/full within-label states are reported separately. Legacy reference-weighted metrics remain secondary.
 
+主覆盖率与完全匹配率先按目内检出标签比例计算，再对11个目等权；标签有任一参考命中即检出，种内完整/部分匹配另列。旧参考加权指标作次要比较。
 
-Retain one D portfolio per length at the existing shared ordinary/A/B/D coordinates; ordinary single pairs remain unchanged; A/B have since been re-selected. Among candidates that do not reduce either coverage or exact matching relative to the original D, prefer lower degeneracy near the best combined score, rather than maximizing matching at any complexity.
+Coverage: ≤2 mismatches per primer plus IUPAC-compatible final 3 nt. Exact: zero mismatches at both ends. Paired target scans require total 150–500 bp and internal ≥50 bp. Background internal distance is 0–1,000 bp on both strands. Broad WC3/GT2 omit the terminal constraint; strict WC/GT retain it. Counts are records, not PCR fractions.
 
-Retained F/R degeneracies: S 54/48, M 8/96, L 1/16, XL 8/24. S trades some exact matching for lower degeneracy and higher coverage than the 108/96 option; M and L avoid more complex options adding only about two percentage points of exact matching.
+每条具体变体：无末端三连、末端3 nt至少一个GC、末端5 nt含1–4个GC、无超过4 nt的同聚物；允许3′简并。Primer3 uses 50 mM monovalent salt, 1.5 mM Mg²⁺, 0.6 mM dNTP, 50 nM per variant and 200 nM per direction. All intra-/inter-variant structures require Tm<55°C and F/R duplex-Tm midpoint difference ≤5°C. At fixed total concentration, each variant receives 200/degeneracy nM.
 
-Candidates use observed base support ≥1%, fixed random seed 17, per-direction degeneracy caps 8/16/32/64/128, and at most 30 top oligos per direction plus the original D. At 200 nM per direction, each concrete variant receives 200/degeneracy nM. Matching uses the design panel, not an independent validation set.
+Current D: order-balanced search of 10,394 pairs, per-direction degeneracy≤128, strict background≤20 and broad background≤100 records each. Exact matching cannot decrease at order or label level; label coverage can fall at most four percentage points. Ordinary/A/B retain their original sequences and ≤5 broad WC3/GT2 gates. A/B represent separate-PCR unions with mutual contributions.
 
-Current A/B selection / 当前A/B筛选：[expanded same-coordinate search and independent verification / 扩大同坐标搜索与独立复核](AB_COMPLEMENTARITY.md).
+当前D搜索、分类来源、筛选取舍、浓度代价和类群增减详见[D optimization](D_OPTIMIZATION.md)。A/B的原有互补性证据见[AB_COMPLEMENTARITY](AB_COMPLEMENTARITY.md)。独立算法复核同一参考库，不构成独立生物样本验证。
