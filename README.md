@@ -4,14 +4,40 @@
 
 [中文](README.zh-CN.md)
 
+## Abstract
+
 Mitochondrial 16S rRNA primers for echinoid eDNA in five windows: XS, S, M, L and XL. Each window retains an ordinary pair and a degenerate D pair with shared reference endpoints.
 The reference panel contains 165 species; the XS, S, M, L and XL windows have 55, 55, 158, 159 and 55 evaluable species, respectively. Missing windows are not counted as failures. The overview uses the earlier classification; the current panel uses WoRMS order names.
 
+On the 55-species XS panel, XS and XSD cover 19 and 35 species, with 0 and 6 exact matches, respectively. Their specificity and amplification remain to be tested experimentally.
+
+## Introduction
+
+Environmental DNA metabarcoding of echinoids requires a balance between target coverage, primer compatibility and non-target amplification. MiUrchin compares five mitochondrial 16S windows, each with ordinary and degenerate primers at shared reference positions. Marine eDNA metabarcoding studies demonstrate the importance of marker and reference-library choice (Gold et al., 2022); MiFish provides an example of sequence-alignment-based primer design for fishes (Miya et al., 2015). Mitochondrial markers have also been used to investigate sea-urchin DNA in trophic samples (Sutera et al., 2025).
+
 [参考面板 / Reference panel](results/species_qc/panel.csv) · [审核 / Reference curation](results/species_qc/README.md)
 
-![Binding positions](figures/current_regions.en.svg)
+![Reference binding positions](figures/amplicon_regions.en.svg)
 
-## Predicted performance
+## Methods
+
+### Reference datasets and alignment
+
+The target library comprised 1,401 mitochondrial sequence records from echinoids; the non-target library comprised 6,045 reference records. Target records were reviewed for sequence quality and taxonomy, and one representative was retained per identifiable species (165 species). Representatives were selected using binding-window completeness, ambiguous bases and reference-site coverage, without using primer-match outcomes. The retained sequences were realigned with MAFFT 7.526 (Katoh & Standley, 2013) using the ungapped mitochondrial 16S rRNA reference NC_001453.1; positions are reported as 1-based coordinates. For the curated species panels, each binding window had to span the reference region, contain at least 90% of its reference-site count as A/C/G/T, and contain no ambiguous nucleotide; alignment gaps were permitted. The numbers of evaluable species were 55, 55, 158, 159 and 55 for XS, S, M, L and XL, respectively; missing windows were excluded from the corresponding denominator. The [reference audit](results/species_qc/README.md) provides the selection criteria and accession-level records.
+
+### Primer design and screening
+
+Ordinary and degenerate candidates were compared within fixed forward and reverse reference windows. For S–XL, the ordinary and D pairs at each length share the same reference endpoints. D oligonucleotides were limited to eight concrete variants per primer, with IUPAC ambiguity confined to the 3′ half. Terminal screening excluded homotriplet ends and homopolymers longer than four bases and required a G or C in the final three positions. Primer3 (Untergasser et al., 2012) evaluations used 50 mM monovalent salt, 1.5 mM Mg²⁺ and 0.6 mM dNTP, under 50 nM per variant and 200 nM total per direction. The S–XL structural gate required a maximum predicted structure Tm below 55 °C and a forward–reverse duplex-Tm midpoint difference of at most 5 °C. XS and XSD share the observed reference endpoints F 183–204 and R 344–363. The ordinary XS search enumerated substitutions around the reference binding sequences while fixing the final three bases to the reference; candidates were screened for target matching, terminal properties, primer structure and non-target hits. XS target scans used products of 70–500 bp and an internal distance of at least 20 bp.
+
+### In-silico evaluation
+
+Target coverage required at most two mismatches per primer and IUPAC-compatible final 3 nt; exact matching required zero mismatches at both sites. For S–XL, paired target scans required an amplicon of 150–500 bp and an internal distance of at least 50 bp. Background searches allowed an internal distance of 0–1,000 bp. Strict Watson–Crick (WC) and G–T models retained the terminal constraint; WC≤3 and GT≤2 were additional permissive screens without that constraint. Coverage and exact-match percentages weighted evaluable species equally, with results also summarized by order; non-target counts represent reference records. C++ and Python scans were compared on the same sequence data to verify target and strict background hit sets. These are computational predictions and require experimental validation.
+
+[Detailed methods](docs/METHODS.md) · [Validation](docs/VALIDATION.md)
+
+## Results
+
+### Predicted performance
 
 | Name | Coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
 |---|---:|---:|---:|---:|
@@ -30,7 +56,7 @@ Coverage allows at most two mismatches per primer with compatible terminal 3 nt;
 
 Each degenerate primer has at most eight concrete variants, with ambiguity confined to the 3′ half. Predictions require experimental validation.
 
-## XS
+### XS
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
@@ -45,7 +71,7 @@ Both pairs bind at F 183–204 and R 344–363 on NC_001453.1; the reference amp
 
 [XS by order](results/current_primers/XS/XS_by_order.csv) · [XS by species](results/current_primers/XS/XS_by_taxon.csv) · [XSD by order](results/current_primers/XS/XSD_by_order.csv) · [XSD by species](results/current_primers/XS/XSD_by_taxon.csv) · [Candidate comparison](results/current_primers/XS/ordinary_screening.md)
 
-## S
+### S
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
@@ -58,7 +84,7 @@ Both pairs bind at F 183–204 and R 344–363 on NC_001453.1; the reference amp
 
 [S order matches](results/current_primers/S/SD_by_order.csv) · [S species matches](results/current_primers/S/SD_by_taxon.csv)
 
-## M
+### M
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
@@ -71,7 +97,7 @@ Both pairs bind at F 183–204 and R 344–363 on NC_001453.1; the reference amp
 
 [M order matches](results/current_primers/M/MD_by_order.csv) · [M species matches](results/current_primers/M/MD_by_taxon.csv)
 
-## L
+### L
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
@@ -84,7 +110,7 @@ Both pairs bind at F 183–204 and R 344–363 on NC_001453.1; the reference amp
 
 [L order matches](results/current_primers/L/LD_by_order.csv) · [L species matches](results/current_primers/L/LD_by_taxon.csv)
 
-## XL
+### XL
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
@@ -97,6 +123,20 @@ Both pairs bind at F 183–204 and R 344–363 on NC_001453.1; the reference amp
 
 [XL order matches](results/current_primers/XL/XLD_by_order.csv) · [XL species matches](results/current_primers/XL/XLD_by_taxon.csv)
 
-[Methods / 方法](docs/METHODS.md)
+## Discussion
 
-[Validation / 验证](docs/VALIDATION.md) · [Copyright / 著作权](COPYRIGHT.md)
+XS and XSD share a 181-bp reference span but differ in predicted matching: XS covers 19/55 evaluable species with no exact paired matches, whereas XSD covers 35/55 with six exact matches and seven strict G–T background records. XSD therefore offers greater predicted coverage at the cost of additional non-target matches. These predictions use a limited reference panel and do not establish laboratory amplification or environmental detection.
+
+[Copyright / 著作权](COPYRIGHT.md)
+
+## References
+
+1. Gold, Z., Wall, A. R., Schweizer, T. M., et al. (2022). A manager’s guide to using eDNA metabarcoding in marine ecosystems. *PeerJ*, 10, e14071. https://doi.org/10.7717/peerj.14071
+
+2. Miya, M., Sato, Y., Fukunaga, T., et al. (2015). MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. *Royal Society Open Science*, 2, 150088. https://doi.org/10.1098/rsos.150088
+
+3. Sutera, A., Bonaviri, C., Di Trapani, F., et al. (2025). Unravelling hidden trophic interactions among sea urchin juveniles and macroinvertebrates by DNA amplification. *Molecular Ecology*, 34, e70163. https://doi.org/10.1111/mec.70163
+
+4. Katoh, K., & Standley, D. M. (2013). MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution*, 30, 772–780. https://doi.org/10.1093/molbev/mst010
+
+5. Untergasser, A., Cutcutache, I., Koressaar, T., et al. (2012). Primer3—new capabilities and interfaces. *Nucleic Acids Research*, 40, e115. https://doi.org/10.1093/nar/gks596
