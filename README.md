@@ -4,7 +4,7 @@
 
 [中文](README.zh-CN.md)
 
-Mitochondrial 16S rRNA primers for echinoid eDNA in five windows: XS, S, M, L and XL. S–XL each retain an ordinary pair and a degenerate D pair with shared reference endpoints; XS currently has one degenerate candidate, XSD.
+Mitochondrial 16S rRNA primers for echinoid eDNA in five windows: XS, S, M, L and XL. Each window retains an ordinary pair and a degenerate D pair with shared reference endpoints.
 The reference panel contains 165 species; XSD, S, M, L and XL have 55, 55, 158, 159 and 55 evaluable species, respectively. Missing windows are not counted as failures. The overview uses the earlier classification; the current panel uses WoRMS order names.
 
 [参考面板 / Reference panel](results/species_qc/panel.csv) · [审核 / Reference curation](results/species_qc/README.md)
@@ -15,6 +15,7 @@ The reference panel contains 165 species; XSD, S, M, L and XL have 55, 55, 158, 
 
 | Name | Coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
 |---|---:|---:|---:|---:|
+| XS | 19/55 (34.55%) | 0/55 (0%) | 0 / 0 | 0 / 0 |
 | XSD | 35/55 (63.64%) | 6/55 (10.91%) | 0 / 7 | 19 / 7 |
 | S | 13/55 (23.64%) | 2/55 (3.64%) | 0 / 0 | 0 / 0 |
 | SD | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 3 / 0 |
@@ -33,13 +34,16 @@ Each degenerate primer has at most eight concrete variants, with ambiguity confi
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
+| XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` |
 | XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` |
 
-The reference amplicon is 181 bp, 7 bp shorter than S; 55 species are evaluable in this window. R (A/G) at the fourth base from the reverse primer’s 3′ end improves coverage of species-rich Camarodonta. Non-target counts are reference records.
+Both pairs bind at F 183–204 and R 344–363 on NC_001453.1; the reference amplicon is 181 bp, 7 bp shorter than S. XS has no exact pair match in the 55 evaluable species; its predicted coverage allows mismatches. XSD improves coverage, with R (A/G) at the fourth base from the reverse primer’s 3′ end. Non-target counts are reference records.
+
+![XS base matching](results/current_primers/XS/base_matching_XS.svg)
 
 ![XSD base matching](results/current_primers/XS/base_matching_XSD.svg)
 
-[XSD by order](results/current_primers/XS/XSD_by_order.csv) · [XSD by species](results/current_primers/XS/XSD_by_taxon.csv) · [候选比较 / Candidate comparison](results/current_primers/XS/candidate_comparison.md)
+[XS by order](results/current_primers/XS/XS_by_order.csv) · [XS by species](results/current_primers/XS/XS_by_taxon.csv) · [XSD by order](results/current_primers/XS/XSD_by_order.csv) · [XSD by species](results/current_primers/XS/XSD_by_taxon.csv) · [Candidate comparison](results/current_primers/XS/ordinary_screening.md)
 
 ## S
 

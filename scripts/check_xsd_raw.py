@@ -1,13 +1,20 @@
-"""Independently compare XSD's released strict hit sets to raw references."""
+"""Independently compare XS or XSD strict hit sets to raw references."""
 from pathlib import Path
 import csv, sys
 root=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(root/'scripts/species_screening'))
 from xs_raw_helpers import fa,rc,scan
 out=root/'results/current_primers/XS'
-with (out/'XSD_independent_hits.tsv').open() as f: rows=list(csv.DictReader(f,delimiter='\t'))
+name=sys.argv[1] if len(sys.argv)>1 else 'XSD'
+assert name in ('XS','XSD')
+with (out/(name+'_independent_hits.tsv')).open() as f: rows=list(csv.DictReader(f,delimiter='\t'))
 with (root/'results/species_qc/panel_XS.csv').open() as f: target_ids={r['accession'] for r in csv.DictReader(f)}
-F='CTTGTGTATAATGGATTRACRA';R='AAACTAATTTCTTGGRRARC'
+with (root/'sequences/primer_pairs.csv').open() as f: primer=next(r for r in csv.DictReader(f) if r['name']==name)
+F,R=primer['F'],primer['R']
+reference=fa(root/'analysis/target.fasta')['NC_001453.1']
+for side,primer_seq,start in [('F',F,182),('R',R,343)]:
+ matches=scan(reference,primer_seq,side=='R',2,False)
+ assert any(pos==start and not last for pos,mm,last in matches),(name,side,'reference position')
 for role in ('target','background'):
  db=fa(root/'analysis'/(role+'.fasta'))
  if role=='target':db={k:v for k,v in db.items() if k in target_ids};assert len(db)==len(target_ids)

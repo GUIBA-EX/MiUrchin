@@ -4,7 +4,7 @@
 
 [English](README.md)
 
-海胆环境 DNA 线粒体 16S rRNA 引物，包含 XSD、S、M、L、XL 五个长度。S–XL 每个长度保留普通单对和简并单对 D，同一长度使用相同参考坐标；XS 暂保留一对简并候选 XSD。
+海胆环境 DNA 线粒体 16S rRNA 引物，包含 XS、S、M、L、XL 五个长度。每个长度保留普通单对和简并单对 D；同一长度使用相同参考坐标。
 参考面板包含 165 个物种，XSD、S、M、L、XL 分别有 55、55、158、159、55 个可评价物种；缺失结合区域不计为漏检。图示使用旧分类体系，新面板的目级名称以 WoRMS 为准。
 
 [参考面板 / Reference panel](results/species_qc/panel.csv) · [审核 / Reference curation](results/species_qc/README.md)
@@ -15,6 +15,7 @@
 
 | Name | Coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
 |---|---:|---:|---:|---:|
+| XS | 19/55 (34.55%) | 0/55 (0%) | 0 / 0 | 0 / 0 |
 | XSD | 35/55 (63.64%) | 6/55 (10.91%) | 0 / 7 | 19 / 7 |
 | S | 13/55 (23.64%) | 2/55 (3.64%) | 0 / 0 | 0 / 0 |
 | SD | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 3 / 0 |
@@ -33,13 +34,16 @@
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
+| XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` |
 | XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` |
 
-参考序列扩增区间为 181 bp，比 S 短 7 bp；此处可评价 55 个物种。反向引物倒数第 4 位使用 R（A/G），优先提高物种数较多的 Camarodonta 覆盖。非目标数字为参考序列记录数。
+两对引物在 NC_001453.1 上均结合于 F 183–204、R 344–363，参考扩增区间为 181 bp，比 S 短 7 bp。普通 XS 在 55 个可评价物种中没有正反引物均完全匹配的物种；其预测覆盖允许错配。XSD 反向引物倒数第 4 位使用 R（A/G），覆盖率更高。非目标数字为参考序列记录数。
+
+![XS base matching](results/current_primers/XS/base_matching_XS.svg)
 
 ![XSD base matching](results/current_primers/XS/base_matching_XSD.svg)
 
-[XSD 各目匹配](results/current_primers/XS/XSD_by_order.csv) · [XSD 各物种匹配](results/current_primers/XS/XSD_by_taxon.csv) · [候选比较 / Candidate comparison](results/current_primers/XS/candidate_comparison.md)
+[XS 各目匹配](results/current_primers/XS/XS_by_order.csv) · [XS 各物种匹配](results/current_primers/XS/XS_by_taxon.csv) · [XSD 各目匹配](results/current_primers/XS/XSD_by_order.csv) · [XSD 各物种匹配](results/current_primers/XS/XSD_by_taxon.csv) · [普通候选比较](results/current_primers/XS/ordinary_screening.md)
 
 ## S
 

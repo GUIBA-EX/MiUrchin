@@ -1,0 +1,41 @@
+{
+  "method": "all <=2 reference substitutions, last three anchored, terminal gate; flank screen +/-5",
+  "coordinate": "183-204 / 344-363",
+  "side_retained": {
+    "F": 100,
+    "R": 101
+  },
+  "pairs": 10100,
+  "top": [
+    {
+      "F": "CTTGTGTATAATGGATTAACGA",
+      "R": "AAACTAATTTCTTGGGAAAC",
+      "cv": 19,
+      "ex": 0
+    },
+    {
+      "F": "CTCGTGTATAATGGATTAACGA",
+      "R": "AAACTAATTTCTTGGGAAAC",
+      "cv": 19,
+      "ex": 0
+    },
+    {
+      "F": "CTTGTGTATAATGGATTGACGA",
+      "R": "AAACTAATTTCTTGGGAAAC",
+      "cv": 19,
+      "ex": 0
+    },
+    {
+      "F": "CTAGTGTATAATGGATTAACGA",
+      "R": "AAACTAATTTCTTGGGAAAC",
+      "cv": 19,
+      "ex": 0
+    },
+    {
+      "F": "CTTGTGTATAATGGATTCACGA",
+      "R": "AAACTAATTTCTTGGGAAAC",
+      "cv": 19,
+      "ex": 0
+    }
+  ]
+}
