@@ -4,81 +4,82 @@
 
 [中文](README.zh-CN.md)
 
-Candidate mitochondrial 16S rRNA primers for echinoid eDNA across S, M, L and XL windows. One reference per species is retained and evaluable species are weighted equally; results for each order are reported separately.
-The reference panel contains 165 species; S, M, L and XL have 55, 158, 159 and 55 evaluable species, respectively. Missing windows are not counted as failures. The header illustrates representative taxa under the earlier classification; the current panel uses WoRMS order names.
+Mitochondrial 16S rRNA primers for echinoid eDNA in four windows: S, M, L and XL. Each window retains one ordinary pair and one degenerate D pair with shared reference endpoints.
+The reference panel contains 165 species; S, M, L and XL have 55, 158, 159 and 55 evaluable species, respectively. Missing windows are not counted as failures. The overview uses the earlier classification; the current panel uses WoRMS order names.
 
-[参考面板 / Reference panel](results/species_qc/panel.csv) · [参考序列审核 / Reference curation](results/species_qc/README.md) · [S](results/species_refine/S/by_order.csv) · [M](results/species_refine/M/by_order.csv) · [L](results/species_refine/L/by_order.csv) · [XL](results/species_refine/XL/by_order.csv)
+[参考面板 / Reference panel](results/species_qc/panel.csv) · [审核 / Reference curation](results/species_qc/README.md)
 
 ![Binding positions](figures/amplicon_regions.en.svg)
 
-## Current performance
+## Predicted performance
 
-| Candidate | Species coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
+| Name | Coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
 |---|---:|---:|---:|---:|
-| S-R20-coverage | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 0 / 0 |
-| S-R20-exact | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 3 / 0 |
-| M-R20-coverage | 110/158 (69.62%) | 28/158 (17.72%) | 0 / 0 | 0 / 0 |
-| M-R20-exact | 103/158 (65.19%) | 33/158 (20.89%) | 0 / 0 | 0 / 0 |
-| L-R20-coverage | 147/159 (92.45%) | 0/159 (0.00%) | 2 / 12 | 15 / 12 |
-| L-R20-exact | 141/159 (88.68%) | 30/159 (18.87%) | 2 / 12 | 12 / 12 |
-| XL-R20-coverage | 52/55 (94.55%) | 0/55 (0.00%) | 2 / 19 | 10 / 19 |
-| XL-R20-exact | 51/55 (92.73%) | 6/55 (10.91%) | 0 / 4 | 6 / 6 |
-| XL-R100-exact | 51/55 (92.73%) | 10/55 (18.18%) | 2 / 19 | 12 / 21 |
+| S | 13/55 (23.64%) | 2/55 (3.64%) | 0 / 0 | 0 / 0 |
+| SD | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 3 / 0 |
+| M | 85/158 (53.80%) | 12/158 (7.59%) | 0 / 0 | 0 / 0 |
+| MD | 110/158 (69.62%) | 28/158 (17.72%) | 0 / 0 | 0 / 0 |
+| L | 103/159 (64.78%) | 18/159 (11.32%) | 0 / 0 | 2 / 1 |
+| LD | 141/159 (88.68%) | 30/159 (18.87%) | 2 / 12 | 12 / 12 |
+| XL | 41/55 (74.55%) | 9/55 (16.36%) | 2 / 3 | 3 / 5 |
+| XLD | 51/55 (92.73%) | 6/55 (10.91%) | 0 / 4 | 6 / 6 |
 
-Coverage allows at most two mismatches per primer with compatible terminal 3 nt; exact matching requires zero mismatches at both primers. WC≤3 / GT≤2 are permissive background screens without the terminal constraint. Background counts refer to reference records.
+Coverage allows at most two mismatches per primer with compatible terminal 3 nt; exact matching requires zero mismatches in both primers. Strict WC/GT use the terminal constraint; WC≤3 / GT≤2 are permissive background screens without it.
 
-New D oligos have at most eight variants, with ambiguity confined to the 3′ half. Coverage-prioritised and exact-match-prioritised candidates are retained separately.
+Each degenerate primer has at most eight concrete variants, with ambiguity confined to the 3′ half. Predictions require experimental validation.
 
+## S
 
-## Primer sequences (5′→3′)
-
-### S
-
-| Name | F | R |
+| Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| S-R20-coverage | `TGTGTATAATGGATTAACGAGH` | `GCTTAGCTAAAACYAATTTCTYRG` |
-| S-R20-exact | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` |
+| S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
+| SD | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` |
 
-![S-R20-coverage base matching](results/species_refine/S/base_matching_S-R20-coverage.svg)
+![S base matching](results/current_primers/S/base_matching_S.svg)
 
-![S-R20-exact base matching](results/species_refine/S/base_matching_S-R20-exact.svg)
+![SD base matching](results/current_primers/S/base_matching_SD.svg)
 
-### M
+[S order matches](results/current_primers/S/SD_by_order.csv) · [S species matches](results/current_primers/S/SD_by_taxon.csv)
 
-| Name | F | R |
+## M
+
+| Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| M-R20-coverage | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` |
-| M-R20-exact | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCKDAGTGGATCA` |
+| M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
+| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` |
 
-![M-R20-coverage base matching](results/species_refine/M/base_matching_M-R20-coverage.svg)
+![M base matching](results/current_primers/M/base_matching_M.svg)
 
-![M-R20-exact base matching](results/species_refine/M/base_matching_M-R20-exact.svg)
+![MD base matching](results/current_primers/M/base_matching_MD.svg)
 
-### L
+[M order matches](results/current_primers/M/MD_by_order.csv) · [M species matches](results/current_primers/M/MD_by_taxon.csv)
 
-| Name | F | R |
+## L
+
+| Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| L-R20-coverage | `GTCTCCTAAATAAAGACTRGHATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCRCY` |
-| L-R20-exact | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` |
+| L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
+| LD | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` |
 
-![L-R20-coverage base matching](results/species_refine/L/base_matching_L-R20-coverage.svg)
+![L base matching](results/current_primers/L/base_matching_L.svg)
 
-![L-R20-exact base matching](results/species_refine/L/base_matching_L-R20-exact.svg)
+![LD base matching](results/current_primers/L/base_matching_LD.svg)
 
-### XL
+[L order matches](results/current_primers/L/LD_by_order.csv) · [L species matches](results/current_primers/L/LD_by_taxon.csv)
 
-| Name | F | R |
+## XL
+
+| Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| XL-R20-coverage | `AAATAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTY` |
-| XL-R20-exact | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` |
-| XL-R100-exact | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATRCYAGTCTY` |
+| XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
+| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` |
 
-![XL-R20-coverage base matching](results/species_refine/XL/base_matching_XL-R20-coverage.svg)
+![XL base matching](results/current_primers/XL/base_matching_XL.svg)
 
-![XL-R20-exact base matching](results/species_refine/XL/base_matching_XL-R20-exact.svg)
+![XLD base matching](results/current_primers/XL/base_matching_XLD.svg)
 
-![XL-R100-exact base matching](results/species_refine/XL/base_matching_XL-R100-exact.svg)
+[XL order matches](results/current_primers/XL/XLD_by_order.csv) · [XL species matches](results/current_primers/XL/XLD_by_taxon.csv)
 
-Computational predictions require experimental validation.
+[Methods / 方法](docs/METHODS.md)
 
-[Screening / 筛选结果](results/species_refine/README.md) · [Scripts / 脚本](scripts/species_screening/README.md) · [Methods / 方法](docs/METHODS.md) · [Validation / 验证](docs/VALIDATION.md) · [Copyright](COPYRIGHT.md)
+[Validation / 验证](docs/VALIDATION.md) · [Copyright / 著作权](COPYRIGHT.md)

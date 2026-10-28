@@ -1,0 +1,15 @@
+name,order,labels,covered_labels,exact_labels
+M,Arbacioida,4,0,0
+M,Aspidodiadematoida,1,1,0
+M,Camarodonta,59,44,11
+M,Cidaroida,10,9,0
+M,Clypeasteroida,4,3,0
+M,Diadematoida,6,1,0
+M,Echinolampadacea,24,22,0
+M,Echinoneoida,1,1,0
+M,Echinothurioida,6,0,0
+M,Holasteroida,1,1,0
+M,Pedinoida,2,0,0
+M,Salenioida,1,1,0
+M,Spatangoida,37,0,0
+M,Stomopneustoida,2,2,1

@@ -1,0 +1,13 @@
+name,order,labels,covered_labels,exact_labels
+SD,Arbacioida,2,1,0
+SD,Aspidodiadematoida,1,1,0
+SD,Camarodonta,28,23,2
+SD,Cidaroida,3,0,0
+SD,Clypeasteroida,1,0,0
+SD,Diadematoida,4,0,0
+SD,Echinolampadacea,2,0,0
+SD,Echinothurioida,3,2,1
+SD,Holasteroida,6,1,0
+SD,Pedinoida,1,0,0
+SD,Spatangoida,2,0,0
+SD,Stomopneustoida,2,1,0
