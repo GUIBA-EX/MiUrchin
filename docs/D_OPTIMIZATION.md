@@ -1,5 +1,7 @@
 # MiUrchin · 仅3′半段简并、每引物≤8变体
 
+> 历史分析记录；当前引物、指标与验证见 [中文 README](../README.zh-CN.md)、[English README](../README.md) 和 [VALIDATION](VALIDATION.md)。 / Historical analysis; see the linked current README and validation.
+
 计算设计与复核记录，2026-10-28。候选用于研究和实验验证，四个D单对已选为当前方案。
 
 ## 设计要求和搜索范围

@@ -1,5 +1,7 @@
 # Validation / 验证
 
+> 历史分析记录；当前引物、指标与验证见 [中文 README](../README.zh-CN.md)、[English README](../README.md) 和 [VALIDATION](VALIDATION.md)。 / Historical analysis; see the linked current README and validation.
+
 ## Material Passport
 
 - Mode / 模式: computational experiment execution and deterministic validation / 计算实验与确定性复核。

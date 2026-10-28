@@ -1,5 +1,7 @@
 # Reproduction / 复现
 
+> 历史分析记录；当前引物、指标与验证见 [中文 README](../README.zh-CN.md)、[English README](../README.md) 和 [VALIDATION](VALIDATION.md)。 / Historical analysis; see the linked current README and validation.
+
 ## Current D / 当前D
 
 Extract [the frozen verification bundle](../results/D_3prime8/reproduction_sources.zip) into an empty directory and run `python3 verify.py`. Python 3.10+ and a C++17 compiler are required. The bundle independently verifies five 3′-half candidates using the frozen panel and background. / 解压后运行，复核5对候选的参考命中与背景；分类映射和序列已冻结。

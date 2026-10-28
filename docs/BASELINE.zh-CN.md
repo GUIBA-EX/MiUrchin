@@ -1,5 +1,7 @@
 # MiUrchin
 
+> 历史分析记录；当前引物、指标与验证见 [中文 README](../README.zh-CN.md)、[English README](../README.md) 和 [VALIDATION](VALIDATION.md)。 / Historical analysis; see the linked current README and validation.
+
 **海胆纲线粒体16S引物候选，包括规则与不规则海胆。**
 
 [English](../README.md) · [方法说明](../docs/METHODS.zh-CN.md) · [复现](../docs/REPRODUCIBILITY.md) · [著作权声明](../COPYRIGHT.md)
