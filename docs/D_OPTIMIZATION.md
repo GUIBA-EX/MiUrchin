@@ -66,7 +66,6 @@ L-3P8-20 严格 WC 2条、GT 12条背景记录均为海星；XL-3P8-20 的严格
 
 来源：[Anth-28S 论文](https://doi.org/10.7717/peerj.18607)；[edna-primer-design skill](https://github.com/GUIBA-EX/edna_primer_designer/blob/main/SKILL.md)。
 
-正式方案为 SD=S-3P8-20、MD=M-3P8-20、LD=L-3P8-20、XLD=XL-3P8-50。S双对作为探索比较，并非当前正式A/B。
 
 Current D assays: SD=S-3P8-20, MD=M-3P8-20, LD=L-3P8-20, XLD=XL-3P8-50. The S combination is an exploratory separate-PCR comparison.
 

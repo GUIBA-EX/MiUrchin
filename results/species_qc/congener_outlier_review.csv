@@ -1,0 +1,166 @@
+accession,organism,order,closest_congener,other_accession,overlap,identity,review
+X80396.1,Arbacia lixula,Arbacioida,,,0,,not_evaluable
+DQ073743.1,Echinocyamus pusillus,Echinolampadacea,,,0,,not_evaluable
+PV804729.1,Echinus esculentus,Camarodonta,,,0,,not_evaluable
+PV804731.1,Paracentrotus lividus,Camarodonta,,,0,,not_evaluable
+AF279170.1,Psammechinus miliaris,Camarodonta,,,0,,not_evaluable
+AM900391.1,Strongylocentrotus droebachiensis,Camarodonta,Strongylocentrotus pallidus,AM900392.1,1100,0.988182,0
+AM900392.1,Strongylocentrotus pallidus,Camarodonta,Strongylocentrotus droebachiensis,AM900391.1,1100,0.988182,0
+DQ073738.1,Centrostephanus longispinus,Diadematoida,,,0,,not_evaluable
+NC_067855.1,Diadema antillarum,Diadematoida,Diadema savignyi,KJ908847.1,391,0.974425,0
+OZ238552.1,Hygrosoma petersii,Echinothurioida,,,0,,not_evaluable
+OZ238591.1,Phormosoma placenta,Echinothurioida,Phormosoma bursarium,NC_065301.1,393,0.763359,1
+DQ073736.1,Caenopedina cubensis,Pedinoida,Caenopedina pulchella,OR343710.1,391,0.772379,1
+MN868940.1,Brissopsis atlantica,Spatangoida,Brissopsis lyrifera,AY652520.1,459,0.925926,0
+AY652520.1,Brissopsis lyrifera,Spatangoida,Brissopsis atlantica,MN868940.1,459,0.925926,0
+AJ639822.1,Brissus unicolor,Spatangoida,Brissus agassizii,AJ639823.1,424,0.879717,0
+FN562581.1,Echinocardium cordatum,Spatangoida,Echinocardium laevigaster,AJ639813.1,426,0.938967,0
+AY652519.1,Echinocardium flavescens,Spatangoida,Echinocardium cordatum,FN562581.1,455,0.92967,0
+AJ639813.1,Echinocardium laevigaster,Spatangoida,Echinocardium cordatum,FN562581.1,426,0.938967,0
+EF999847.1,Echinocardium mediterraneum,Spatangoida,Echinocardium pennatifidum,EF999845.1,457,0.932166,0
+EF999845.1,Echinocardium pennatifidum,Spatangoida,Echinocardium laevigaster,AJ639813.1,427,0.936768,0
+AY652517.1,Spatangus purpureus,Spatangoida,Spatangus multispinus,AJ639810.1,426,0.964789,0
+AJ639811.1,Spatangus raschi,Spatangoida,Spatangus multispinus,AJ639810.1,427,0.98829,0
+AF279148.1,Genocidaris maculata,Camarodonta,,,0,,not_evaluable
+DQ073749.1,Sphaerechinus granularis,Camarodonta,,,0,,not_evaluable
+MF617490.1,Encope borealis,Echinolampadacea,Encope emarginata,MF617496.1,433,0.993072,0
+DQ073732.1,Araeosoma fenestratum,Echinothurioida,Araeosoma owstoni,NC_065302.1,465,0.965591,0
+KF204886.1,Mellita quinquiesperforata,Echinolampadacea,Mellita isometra,KF205021.1,432,0.939815,0
+AJ639803.1,Abatus cavernosus,Spatangoida,Abatus ingens,EF999838.1,426,0.995305,0
+EF999842.1,Abatus cordatus,Spatangoida,Abatus ingens,EF999838.1,453,0.977925,0
+EF999838.1,Abatus ingens,Spatangoida,Abatus shackletoni,GU226991.1,425,0.997647,0
+GU226991.1,Abatus shackletoni,Spatangoida,Abatus ingens,EF999838.1,425,0.997647,0
+AJ639804.1,Amphipneustes lorioli,Spatangoida,Amphipneustes similis,EF999836.1,427,0.995316,0
+EF999836.1,Amphipneustes similis,Spatangoida,Amphipneustes lorioli,AJ639804.1,427,0.995316,0
+GU226988.1,Ctenocidaris perrieri,Cidaroida,,,0,,not_evaluable
+QB038041.1,Cystechinus wyvillii,Holasteroida,Cystechinus giganteus,QB038039.1,888,0.997748,0
+JX888466.1,Loxechinus albus,Camarodonta,,,0,,not_evaluable
+QB038038.1,Pilematechinus vesica,Holasteroida,,,0,,not_evaluable
+AY957467.1,Plexechinus planus,Holasteroida,,,0,,not_evaluable
+AF279155.1,Pseudechinus novaezealandiae,Camarodonta,Pseudechinus albocinctus,AF279153.1,439,0.897494,0
+HM467251.1,Sterechinus antarcticus,Camarodonta,Sterechinus neumayeri,KJ680295.1,400,0.9875,0
+KJ680295.1,Sterechinus neumayeri,Camarodonta,Sterechinus antarcticus,HM467251.1,400,0.9875,0
+EF999834.1,Tripylus excavatus,Spatangoida,,,0,,not_evaluable
+MK458686.1,Tripneustes australiae,Camarodonta,Tripneustes gratilla,MK609485.1,1092,0.90293,0
+KU302106.1,Temnopleurus reevesii,Camarodonta,Temnopleurus michaelseni,AF279166.1,439,0.917995,0
+MW147664.1,Stomopneustes variolaris,Stomopneustoida,,,0,,not_evaluable
+PQ330103.1,Toxopneustes pileolus,Camarodonta,,,0,,not_evaluable
+MK609485.1,Tripneustes gratilla,Camarodonta,Tripneustes australiae,MK458686.1,1092,0.90293,0
+DQ076658.1,Echinodiscus bisperforatus,Echinolampadacea,,,0,,not_evaluable
+AJ639801.1,Echinoneus cyclostomus,Echinoneoida,,,0,,not_evaluable
+AJ639815.1,Metalia spatagus,Spatangoida,Metalia nobilis,AJ639816.1,424,0.808962,0
+MF077375.1,Eucidaris metularia,Cidaroida,Eucidaris tribuloides,MH614961.1,459,0.834423,0
+KX385835.1,Diadema setosum,Diadematoida,Diadema antillarum,NC_067855.1,1098,0.886157,0
+KJ908847.1,Diadema savignyi,Diadematoida,Diadema antillarum,NC_067855.1,391,0.974425,0
+MK609484.1,Echinothrix calamaris,Diadematoida,Echinothrix diadema,KX385836.1,1094,0.812614,0
+KX385836.1,Echinothrix diadema,Diadematoida,Echinothrix calamaris,MK609484.1,1094,0.812614,0
+OR995750.1,Echinometra mathaei,Camarodonta,,,0,,not_evaluable
+DQ073750.1,Stereocidaris excavata,Cidaroida,,,0,,not_evaluable
+MK609486.1,Pseudoboletia maculata,Camarodonta,,,0,,not_evaluable
+AF279152.1,Mespilia globulus,Camarodonta,,,0,,not_evaluable
+MK609482.1,Prionocidaris baculosa,Cidaroida,Prionocidaris bispinosa,DQ073747.1,475,0.842105,0
+DQ073744.1,Echinolampas crassa,Echinolampadacea,,,0,,not_evaluable
+NC_065301.1,Phormosoma bursarium,Echinothurioida,Phormosoma placenta,OZ238591.1,393,0.763359,1
+EF999844.1,Lovenia elongata,Spatangoida,Lovenia cordiformis,AJ639814.1,425,0.84,0
+KU302105.1,Temnopleurus toreumaticus,Camarodonta,Temnopleurus hardwickii,KP070768.1,1077,0.849582,0
+PX523763.1,Parechinus angulosus,Camarodonta,,,0,,not_evaluable
+NC_001453.1,Strongylocentrotus purpuratus,Camarodonta,Strongylocentrotus fragilis,KC898200.2,1088,0.938419,0
+AF279167.1,Salmacis belli,Camarodonta,Salmacis sphaeroides,KU302103.1,437,0.887872,0
+AJ639820.1,Meoma ventricosa,Spatangoida,,,0,,not_evaluable
+MG676468.1,Lytechinus variegatus,Camarodonta,Lytechinus pictus,PP666882.1,1097,0.942571,0
+JQ322561.1,Clypeaster japonicus,Clypeasteroida,Clypeaster virescens,PQ838327.1,446,0.986547,0
+MH614961.1,Eucidaris tribuloides,Cidaroida,Eucidaris metularia,MF077375.1,459,0.834423,0
+AF279168.1,Amblypneustes elevatus,Camarodonta,Amblypneustes ovum,AF279157.1,444,0.993243,0
+AF279153.1,Pseudechinus albocinctus,Camarodonta,Pseudechinus huttoni,AF279154.1,441,0.988662,0
+AF279154.1,Pseudechinus huttoni,Camarodonta,Pseudechinus albocinctus,AF279153.1,441,0.988662,0
+JF520788.1,Heliocidaris tuberculata,Camarodonta,Heliocidaris crassispina,KC479025.1,441,0.92517,0
+DQ073745.1,Fellaster zelandiae,Clypeasteroida,,,0,,not_evaluable
+AJ639810.1,Spatangus multispinus,Spatangoida,Spatangus raschi,AJ639811.1,427,0.98829,0
+DQ073737.1,Calocidaris micans,Cidaroida,,,0,,not_evaluable
+MN868944.1,Clypeaster euclastus,Clypeasteroida,Clypeaster virescens,PQ838327.1,433,0.877598,0
+MF617477.1,Encope aberrans,Echinolampadacea,Encope michelini,MF617464.1,433,0.990762,0
+MF617464.1,Encope michelini,Echinolampadacea,Encope aberrans,MF617477.1,433,0.990762,0
+KF204863.1,Leodia sexiesperforata,Echinolampadacea,,,0,,not_evaluable
+KF205026.1,Mellita tenuis,Echinolampadacea,Mellita isometra,KF205021.1,432,0.993056,0
+AJ639800.1,Conolampas sigsbei,Echinolampadacea,,,0,,not_evaluable
+AJ639819.1,Linopneustes longispinus,Spatangoida,,,0,,not_evaluable
+AJ639817.1,Plagiobrissus grandis,Spatangoida,,,0,,not_evaluable
+EF999835.1,Hypselaster limicolus,Spatangoida,Hypselaster fragilis,AJ639805.1,397,0.964736,0
+OR343710.1,Caenopedina pulchella,Pedinoida,Caenopedina cubensis,DQ073736.1,391,0.772379,1
+NC_083273.1,Echinocrepis rostrata,Holasteroida,,,0,,not_evaluable
+KF205021.1,Mellita isometra,Echinolampadacea,Mellita tenuis,KF205026.1,432,0.993056,0
+AJ639812.1,Paramaretia multituberculata,Spatangoida,,,0,,not_evaluable
+AJ639802.1,Agassizia scrobiculata,Spatangoida,,,0,,not_evaluable
+AF279165.1,Amblypneustes formosus,Camarodonta,Amblypneustes pallidus,AF279158.1,436,0.997706,0
+AF279171.1,Amblypneustes grandis,Camarodonta,Amblypneustes leucoglobus,AF279173.1,444,0.995495,0
+AF279173.1,Amblypneustes leucoglobus,Camarodonta,Amblypneustes grandis,AF279171.1,444,0.995495,0
+AF279157.1,Amblypneustes ovum,Camarodonta,Amblypneustes leucoglobus,AF279173.1,444,0.995495,0
+AF279158.1,Amblypneustes pallidus,Camarodonta,Amblypneustes formosus,AF279165.1,436,0.997706,0
+NC_065302.1,Araeosoma owstoni,Echinothurioida,Araeosoma fenestratum,DQ073732.1,465,0.965591,0
+NC_065299.1,Aspidodiadema arcitum,Aspidodiadematoida,,,0,,not_evaluable
+PV339712.1,Asthenosoma ijimai,Echinothurioida,,,0,,not_evaluable
+AJ639806.1,Brisaster latifrons,Spatangoida,,,0,,not_evaluable
+AJ639823.1,Brissus agassizii,Spatangoida,Brissus obesus,AJ639821.1,430,0.902326,0
+AJ639821.1,Brissus obesus,Spatangoida,Brissus agassizii,AJ639823.1,430,0.902326,0
+PQ838327.1,Clypeaster virescens,Clypeasteroida,Clypeaster japonicus,JQ322561.1,446,0.986547,0
+DQ073739.1,Coelopleurus floridanus,Arbacioida,Coelopleurus undulatus,JQ322563.1,453,0.98234,0
+JQ322563.1,Coelopleurus undulatus,Arbacioida,Coelopleurus floridanus,DQ073739.1,453,0.98234,0
+QB038042.1,Corystus relictus,Holasteroida,,,0,,not_evaluable
+QB038040.1,Cystocrepis setigera,Holasteroida,,,0,,not_evaluable
+MF617496.1,Encope emarginata,Echinolampadacea,Encope borealis,MF617490.1,433,0.993072,0
+KF204861.1,Encope grandis,Echinolampadacea,Encope borealis,MF617490.1,433,0.981524,0
+MF617528.1,Encope micropora,Echinolampadacea,Encope californica,MF617534.1,433,0.983834,0
+KX638403.1,Glyptocidaris crenularis,Stomopneustoida,,,0,,not_evaluable
+KC479025.1,Heliocidaris crassispina,Camarodonta,Heliocidaris tuberculata,JF520788.1,441,0.92517,0
+JF827332.1,Heliocidaris erythrogramma,Camarodonta,Heliocidaris australiae,JF520786.1,412,0.990291,0
+AJ130798.1,Hemicentrotus pulcherrimus,Camarodonta,,,0,,not_evaluable
+AJ639809.1,Heterobrissus hystrix,Spatangoida,,,0,,not_evaluable
+AF279161.1,Holopneustes inflatus,Camarodonta,Holopneustes purpurascens,AF279160.1,438,0.993151,0
+AF279159.1,Holopneustes porosissimus,Camarodonta,Holopneustes inflatus,AF279161.1,437,0.93135,0
+AJ639805.1,Hypselaster fragilis,Spatangoida,Hypselaster limicolus,EF999835.1,397,0.964736,0
+AJ639814.1,Lovenia cordiformis,Spatangoida,Lovenia elongata,EF999844.1,425,0.84,0
+PP666882.1,Lytechinus pictus,Camarodonta,Lytechinus variegatus,MG676468.1,1097,0.942571,0
+MF617449.1,Mellitella stokesii,Echinolampadacea,,,0,,not_evaluable
+AJ639816.1,Metalia nobilis,Spatangoida,Metalia spatagus,AJ639815.1,424,0.808962,0
+AF279172.1,Microcyphus annulatus,Camarodonta,Microcyphus olivaceus,AF279151.1,422,0.815166,0
+AF279151.1,Microcyphus olivaceus,Camarodonta,Microcyphus annulatus,AF279172.1,422,0.815166,0
+KC990834.1,Nacospatangus altus,Spatangoida,,,0,,not_evaluable
+DQ073740.1,Nudechinus verruculatus,Camarodonta,,,0,,not_evaluable
+AJ639808.1,Paleopneustes cristatus,Spatangoida,,,0,,not_evaluable
+JQ322575.1,Phalacrocidaris japonica,Cidaroida,,,0,,not_evaluable
+MF077372.1,Plococidaris verticillata,Cidaroida,,,0,,not_evaluable
+DQ073747.1,Prionocidaris bispinosa,Cidaroida,Prionocidaris baculosa,MK609482.1,475,0.842105,0
+KC490913.1,Pseudocentrotus depressus,Camarodonta,,,0,,not_evaluable
+MW354512.1,Pygmaeocidaris prionigera,Arbacioida,,,0,,not_evaluable
+AF279163.1,Salmaciella oligopora,Camarodonta,,,0,,not_evaluable
+MF077377.1,Salmacis rubricincta,Camarodonta,Salmacis sphaeroides,KU302103.1,421,0.760095,1
+KU302103.1,Salmacis sphaeroides,Camarodonta,Salmacis belli,AF279167.1,437,0.887872,0
+JQ322579.1,Scaphechinus mirabilis,Echinolampadacea,,,0,,not_evaluable
+KC490912.1,Strongylocentrotus intermedius,Camarodonta,Strongylocentrotus fragilis,KC898200.2,1099,0.973612,0
+MK609483.1,Stylocidaris reini,Cidaroida,,,0,,not_evaluable
+AF279156.1,Temnopleurus alexandri,Camarodonta,Temnopleurus hardwickii,KP070768.1,421,0.833729,0
+KP070768.1,Temnopleurus hardwickii,Camarodonta,Temnopleurus toreumaticus,KU302105.1,1077,0.849582,0
+AF279166.1,Temnopleurus michaelseni,Camarodonta,Temnopleurus reevesii,KU302106.1,439,0.917995,0
+AF279150.1,Temnotrema sculptum,Camarodonta,,,0,,not_evaluable
+GU226989.1,Abatus (Pseudabatus) nimrodi,Spatangoida,Abatus shackletoni,GU226991.1,426,0.976526,0
+OZ238644.1,Gracilechinus alexandri,Camarodonta,,,0,,not_evaluable
+KF204939.1,Mellita kanakoffi,Echinolampadacea,Mellita notabilis,KF204931.1,434,0.995392,0
+KF204931.1,Mellita notabilis,Echinolampadacea,Mellita kanakoffi,KF204939.1,434,0.995392,0
+MF617521.1,Encope galapagensis,Echinolampadacea,Encope emarginata,MF617496.1,433,0.988453,0
+AJ639807.1,Schizaster doederleini,Spatangoida,,,0,,not_evaluable
+KJ680292.1,Heterocentrotus mamillatus,Camarodonta,,,0,,not_evaluable
+MF617534.1,Encope californica,Echinolampadacea,Encope micropora,MF617528.1,433,0.983834,0
+AF279160.1,Holopneustes purpurascens,Camarodonta,Holopneustes inflatus,AF279161.1,438,0.993151,0
+EF999833.1,Ova canalifera,Spatangoida,,,0,,not_evaluable
+KC898200.2,Strongylocentrotus fragilis,Camarodonta,Strongylocentrotus droebachiensis,AM900391.1,1100,0.986364,0
+MN103227.1,Sinaechinocyamus mai,Echinolampadacea,,,0,,not_evaluable
+QB038039.1,Cystechinus giganteus,Holasteroida,Cystechinus wyvillii,QB038041.1,888,0.997748,0
+KJ526170.1,Mesocentrotus franciscanus,Camarodonta,Mesocentrotus nudus,JX263663.1,1099,0.950864,0
+JX263663.1,Mesocentrotus nudus,Camarodonta,Mesocentrotus franciscanus,KJ526170.1,1099,0.950864,0
+MK609487.1,Colobocentrotus (Colobocentrotus) mertensii,Camarodonta,,,0,,not_evaluable
+JF520786.1,Heliocidaris australiae,Camarodonta,Heliocidaris erythrogramma,JF827332.1,412,0.990291,0
+JF520785.1,Heliocidaris bajulus,Camarodonta,Heliocidaris erythrogramma,JF827332.1,412,0.958738,0
+MF077376.1,Bathysalenia cincta,Salenioida,,,0,,not_evaluable
+NC_061414.1,Astriclypeus mannii,Echinolampadacea,,,0,,not_evaluable
+KF204987.1,Lanthonia longifissa,Echinolampadacea,Lanthonia grantii,KF204975.1,432,0.979167,0
+KF204975.1,Lanthonia grantii,Echinolampadacea,Lanthonia longifissa,KF204987.1,432,0.979167,0

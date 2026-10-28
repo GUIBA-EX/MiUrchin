@@ -15,17 +15,13 @@ Scope: candidate redesign, full-sequence verification and coordinate correction.
 | Scheme | Previous coverage / exact | Current coverage / exact |
 |---|---:|---:|
 | S | 40.82% / 20.41% | 26.53% / 4.08% |
-| SA+SB | 61.22% / 20.41% | 42.86% / 4.08% |
 | SD | 65.31% / 38.78% | 67.35% / 20.41% |
 | SD+SB | 79.59% / 38.78% | 77.55% / 20.41% |
 | M | 59.18% / 16.33% | 69.39% / 16.33% |
-| MA+MB | 77.55% / 16.33% | 77.55% / 22.45% |
 | MD | 87.76% / 48.98% | 87.76% / 48.98% |
 | MD+MB | 93.88% / 55.10% | 91.84% / 55.10% |
 | L | 75.51% / 19.39% | 75.51% / 19.39% |
-| LA+LB | 87.76% / 19.39% | 87.76% / 19.39% |
 | XL | 85.71% / 6.12% | 81.63% / 18.37% |
-| XLA+XLB | 100.00% / 26.53% | 97.96% / 26.53% |
 
 All 28 current oligos pass terminal filters across their concrete variants. Nine of the 30 previous named oligos fail at least one new terminal/homopolymer rule. Independent target checks: 2,880; disagreements: 0. / 当前28条引物的实际变体全部通过末端规则；上一版30条命名引物中9条不满足至少一项新规则。独立目标状态检查2,880项，差异0项。
 

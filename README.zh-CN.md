@@ -1,116 +1,89 @@
-![MiUrchin — representative echinoid diversity](figures/MiUrchin_overview.png)
+![MiUrchin](figures/MiUrchin_overview.png)
 
 # MiUrchin
 
 [English](README.md)
 
-海胆16S rRNA环境DNA候选引物，保留S、M、L、XL四个长度。每个长度的普通、A、B、D起止坐标一致；D为一对简并引物，A/B为普通引物分别PCR后的并集。参考跨度为188、228、343、440 bp。
+海胆环境 DNA 线粒体 16S rRNA 候选引物，包含 S、M、L、XL 四个长度。每个物种保留一条参考序列，以可评价物种等权作为主指标；各目结果单独报告。
+参考面板包含 165 个物种；S、M、L、XL 分别有 55、158、159、55 个物种可评价。不可评价并不等于漏检。置顶图为旧分类框架下的代表性示意；新面板的目级名称以 WoRMS 为准。
 
-主指标采用**目间等权**：每目内先计算检出物种标签比例，再对11个目取均值；任一参考命中即可检出该标签，完全匹配采用同一层级。共同面板80条参考、49个标签，目级归属已按WoRMS接受分类核对。三个目各只有一个标签，满覆盖不代表覆盖该目所有物种。
+[参考面板 / Reference panel](results/species_qc/panel.csv) · [参考序列审核 / Reference curation](results/species_qc/README.md) · [S](results/species_refine/S/by_order.csv) · [M](results/species_refine/M/by_order.csv) · [L](results/species_refine/L/by_order.csv) · [XL](results/species_refine/XL/by_order.csv)
 
-[分类映射 / Taxonomy](results/D_3prime8/panel.csv) · [图片来源 / Photo references](figures/overview_design.md)
-
-![Binding positions](figures/binding_positions.svg)
+![Binding positions](figures/amplicon_regions.zh.svg)
 
 ## 当前表现
 
-| Scheme | Order coverage % | Order exact % | WC≤3 | GT≤2 | WC≤4 |
-|---|---:|---:|---:|---:|---:|
-| SD | 43.83 | 0.32 | 0 | 0 | 1 |
-| S | 4.22 | 0.65 | 0 | 0 | 1 |
-| SA+SB | 11.04 | 0.97 | 0 | 0 | 7 |
-| MD | 84.09 | 18.94 | 0 | 0 | 0 |
-| M | 47.73 | 6.82 | 0 | 0 | 0 |
-| MA+MB | 47.73 | 9.09 | 0 | 0 | 0 |
-| LD | 91.56 | 13.85 | 12 | 12 | 247 |
-| L | 68.83 | 3.25 | 2 | 1 | 161 |
-| LA+LB | 68.83 | 5.52 | 2 | 1 | 161 |
-| XLD | 98.70 | 42.42 | 12 | 21 | 49 |
-| XL | 77.49 | 2.92 | 3 | 5 | 11 |
-| XLA+XLB | 98.70 | 21.10 | 3 | 5 | 16 |
+| Candidate | Species coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
+|---|---:|---:|---:|---:|
+| S-R20-coverage | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 0 / 0 |
+| S-R20-exact | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 3 / 0 |
+| M-R20-coverage | 110/158 (69.62%) | 28/158 (17.72%) | 0 / 0 | 0 / 0 |
+| M-R20-exact | 103/158 (65.19%) | 33/158 (20.89%) | 0 / 0 | 0 / 0 |
+| L-R20-coverage | 147/159 (92.45%) | 0/159 (0.00%) | 2 / 12 | 15 / 12 |
+| L-R20-exact | 141/159 (88.68%) | 30/159 (18.87%) | 2 / 12 | 12 / 12 |
+| XL-R20-coverage | 52/55 (94.55%) | 0/55 (0.00%) | 2 / 19 | 10 / 19 |
+| XL-R20-exact | 51/55 (92.73%) | 6/55 (10.91%) | 0 / 4 | 6 / 6 |
+| XL-R100-exact | 51/55 (92.73%) | 10/55 (18.18%) | 2 / 19 | 12 / 21 |
 
-覆盖要求两端各≤2错配且末端3 nt兼容，完全匹配要求两端无错配。WC3/GT2为宽松模型的非目标记录数，不强制末端兼容；背景库6,045条。
+覆盖：正反引物各最多 2 个错配、末端 3 nt 兼容；完全匹配：双引物零错配。WC≤3 / GT≤2 不施加末端约束。非目标统计为参考记录数。
 
-## D方案的取舍
+新 D 引物每条简并度不超过 8，简并位点限于 3′ 半段；覆盖优先和完全匹配优先候选分别保留。原有普通单对保留，其表现未在本轮新面板重新评价。
 
-D引物每条简并度不超过8，简并位点只在3′半段；短片段完全匹配率较低。L的目间覆盖较高，但严格GT背景包含12条海星记录；XL严格GT背景包含19条海百合记录。各目和标签的得失见[选择与验证](docs/D_OPTIMIZATION.md)。
+M-R20-coverage 预测覆盖 110/158 个物种、完全匹配 28 个；原 D 分别为 104 和 21。L-R20-coverage 覆盖 147/159、完全匹配为 0；L-R20-exact 覆盖 141/159、完全匹配 30 个，原 L D 分别为 145 和 28。XL-R100-exact 的序列与原 XL D 相同。原 D 的对照结果保留在筛选表中。
 
-[A/B互补性 / A/B complementarity](docs/AB_COMPLEMENTARITY.md)
+## 引物序列（5′→3′）
 
-<details>
-<summary>次要比较：原参考加权口径</summary>
+### S
 
-| Scheme | Coverage % | Exact % | WC≤3 | GT≤2 | WC≤4 |
-|---|---:|---:|---:|---:|---:|
-| SD | 58.16 | 2.04 | 0 | 0 | 1 |
-| S | 26.53 | 4.08 | 0 | 0 | 1 |
-| SA+SB | 41.84 | 6.12 | 0 | 0 | 7 |
-| MD | 79.59 | 20.41 | 0 | 0 | 0 |
-| M | 59.18 | 16.33 | 0 | 0 | 0 |
-| MA+MB | 59.18 | 30.61 | 0 | 0 | 0 |
-| LD | 85.71 | 25.51 | 12 | 12 | 247 |
-| L | 75.51 | 19.39 | 2 | 1 | 161 |
-| LA+LB | 75.51 | 33.67 | 2 | 1 | 161 |
-| XLD | 91.84 | 16.33 | 12 | 21 | 49 |
-| XL | 81.63 | 18.37 | 3 | 5 | 11 |
-| XLA+XLB | 91.84 | 24.49 | 3 | 5 | 16 |
-
-该表先按物种标签等权，再在标签内按参考等权，与主表的目间等权不同。
-
-</details>
-
-## S
-
-| Name | F (5′→3′) | R (5′→3′) |
+| Name | F | R |
 |---|---|---|
-| SD | `CGTGTATAATGGATTAACRAGH` | `GCTTAGCTCAAACTAATTTCYTDG` |
 | S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
-| SA | `TGTGTATAATGGATTAACAAGC` | `GCTTAGCTTAAACTAATTTCTTGG` |
-| SB | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
+| S-R20-coverage | `TGTGTATAATGGATTAACGAGH` | `GCTTAGCTAAAACYAATTTCTYRG` |
+| S-R20-exact | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` |
 
-![SD base matching](figures/base_matching_SD.svg)
+![S-R20-coverage base matching](results/species_refine/S/base_matching_S-R20-coverage.svg)
 
-## M
+![S-R20-exact base matching](results/species_refine/S/base_matching_S-R20-exact.svg)
 
-| Name | F (5′→3′) | R (5′→3′) |
+### M
+
+| Name | F | R |
 |---|---|---|
-| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCKKRGTGGATCA` |
 | M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
-| MA | `CGCTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
-| MB | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
+| M-R20-coverage | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` |
+| M-R20-exact | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCKDAGTGGATCA` |
 
-![MD base matching](figures/base_matching_MD.svg)
+![M-R20-coverage base matching](results/species_refine/M/base_matching_M-R20-coverage.svg)
 
-## L
+![M-R20-exact base matching](results/species_refine/M/base_matching_M-R20-exact.svg)
 
-| Name | F (5′→3′) | R (5′→3′) |
+### L
+
+| Name | F | R |
 |---|---|---|
-| LD | `GTCTCCTAAATAGAGACTAGYATGAAYGGC` | `GCGGTAACTTGTTCYTTTGATCRCY` |
 | L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
-| LA | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
-| LB | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTTCTTTGATCACC` |
+| L-R20-coverage | `GTCTCCTAAATAAAGACTRGHATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCRCY` |
+| L-R20-exact | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` |
 
-![LD base matching](figures/base_matching_LD.svg)
+![L-R20-coverage base matching](results/species_refine/L/base_matching_L-R20-coverage.svg)
 
-## XL
+![L-R20-exact base matching](results/species_refine/L/base_matching_L-R20-exact.svg)
 
-| Name | F (5′→3′) | R (5′→3′) |
+### XL
+
+| Name | F | R |
 |---|---|---|
-| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATRCYAGTCTY` |
 | XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
-| XLA | `AAGTAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTC` |
-| XLB | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
+| XL-R20-coverage | `AAATAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTY` |
+| XL-R20-exact | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` |
+| XL-R100-exact | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATRCYAGTCTY` |
 
-![XLD base matching](figures/base_matching_XLD.svg)
+![XL-R20-coverage base matching](results/species_refine/XL/base_matching_XL-R20-coverage.svg)
 
-图中每行对应一条参考，按现行目分组；F/R均按引物5′→3′方向显示，方框标记末端3 nt，+n表示参考同源列间插入碱基。左侧E/C表示全序列扫描的完全匹配/覆盖。
+![XL-R20-exact base matching](results/species_refine/XL/base_matching_XL-R20-exact.svg)
 
-[全部16对碱基匹配图 / All 16 base plots](results/terminal_optimization/base_matching.html)
+![XL-R100-exact base matching](results/species_refine/XL/base_matching_XL-R100-exact.svg)
 
-## 方法与复核
+计算预测需要实验验证。
 
-同坐标搜索生成47,638对；优先考虑目间覆盖、完全匹配及背景。简并限制为每条≤8且仅在3′半段。五个候选由独立C++/Python扫描复核，800项目标判定、20个背景集合及25项背景计数无差异。D为单对；A/B为分管并集。所有方案尚待实验验证。
-
-[Sequences](sequences/primer_pairs.csv) · [FASTA](sequences/primers.fasta) · [Results](results/current/taxonomic_comparison.csv) · [Methods](docs/METHODS.zh-CN.md) · [Reproduction](docs/REPRODUCIBILITY.md) · [Validation](docs/VALIDATION.md)
-
-[Copyright / 著作权声明](COPYRIGHT.md)
+[Screening / 筛选结果](results/species_refine/README.md) · [Scripts / 脚本](scripts/species_screening/README.md) · [Methods / 方法](docs/METHODS.md) · [Validation / 验证](docs/VALIDATION.md) · [Copyright](COPYRIGHT.md)

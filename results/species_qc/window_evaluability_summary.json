@@ -1,0 +1,78 @@
+{
+  "S": {
+    "evaluable_species": 55,
+    "unknown_species": 110,
+    "evaluable_by_order": {
+      "Arbacioida": 2,
+      "Camarodonta": 28,
+      "Diadematoida": 4,
+      "Spatangoida": 2,
+      "Holasteroida": 6,
+      "Stomopneustoida": 2,
+      "Cidaroida": 3,
+      "Echinothurioida": 3,
+      "Pedinoida": 1,
+      "Aspidodiadematoida": 1,
+      "Clypeasteroida": 1,
+      "Echinolampadacea": 2
+    }
+  },
+  "M": {
+    "evaluable_species": 158,
+    "unknown_species": 7,
+    "evaluable_by_order": {
+      "Arbacioida": 4,
+      "Echinolampadacea": 24,
+      "Camarodonta": 59,
+      "Diadematoida": 6,
+      "Echinothurioida": 6,
+      "Pedinoida": 2,
+      "Spatangoida": 37,
+      "Cidaroida": 10,
+      "Holasteroida": 1,
+      "Stomopneustoida": 2,
+      "Echinoneoida": 1,
+      "Clypeasteroida": 4,
+      "Aspidodiadematoida": 1,
+      "Salenioida": 1
+    }
+  },
+  "L": {
+    "evaluable_species": 159,
+    "unknown_species": 6,
+    "evaluable_by_order": {
+      "Arbacioida": 4,
+      "Echinolampadacea": 24,
+      "Camarodonta": 59,
+      "Diadematoida": 6,
+      "Echinothurioida": 6,
+      "Pedinoida": 2,
+      "Spatangoida": 38,
+      "Cidaroida": 10,
+      "Holasteroida": 1,
+      "Stomopneustoida": 2,
+      "Echinoneoida": 1,
+      "Clypeasteroida": 4,
+      "Aspidodiadematoida": 1,
+      "Salenioida": 1
+    }
+  },
+  "XL": {
+    "evaluable_species": 55,
+    "unknown_species": 110,
+    "evaluable_by_order": {
+      "Arbacioida": 2,
+      "Camarodonta": 28,
+      "Diadematoida": 4,
+      "Spatangoida": 2,
+      "Holasteroida": 6,
+      "Stomopneustoida": 2,
+      "Cidaroida": 3,
+      "Echinothurioida": 3,
+      "Pedinoida": 1,
+      "Aspidodiadematoida": 1,
+      "Clypeasteroida": 1,
+      "Echinolampadacea": 2
+    }
+  }
+}

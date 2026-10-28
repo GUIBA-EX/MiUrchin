@@ -1,0 +1,5 @@
+name,target_checks,background_set_checks,disagreements
+XL-R20-coverage,110,4,0
+XL-R20-exact,110,4,0
+XL-R100-exact,110,4,0
+XL-baseline,110,4,0

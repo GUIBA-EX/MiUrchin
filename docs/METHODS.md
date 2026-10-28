@@ -1,8 +1,8 @@
 # Methods / 方法
 
-Reference: NC_001453.1, extracted ungapped mitochondrial 16S rRNA, 1-based coordinates. Each S–XL window has fixed ordinary/A/B/D endpoints; 188/228/343/440 bp reference spans include primers. Products vary among taxa.
+Reference: NC_001453.1, extracted ungapped mitochondrial 16S rRNA, 1-based coordinates. Each S–XL window has fixed ordinary and D endpoints; 188/228/343/440 bp reference spans include primers. Products vary among taxa.
 
-参考坐标为NC_001453.1提取的无gap 16S序列，1-based；各长度普通/A/B/D坐标一致。参考跨度包含引物，实际产物长度随类群变化。
+参考坐标为NC_001453.1提取的无gap 16S序列，1-based；各长度普通与 D坐标一致。参考跨度包含引物，实际产物长度随类群变化。
 
 The target library has 1,401 records, the common panel 80 references/49 species labels, and the background 6,045 records. Primary coverage and exact scores equally average within-order label detection over 11 WoRMS orders. Any matching reference detects a label; partial/full within-label states are reported separately. Legacy reference-weighted metrics remain secondary.
 
@@ -12,6 +12,6 @@ Coverage: ≤2 mismatches per primer plus IUPAC-compatible final 3 nt. Exact: ze
 
 每条具体变体：无末端三连、末端3 nt至少一个GC、末端5 nt含1–4个GC、无超过4 nt的同聚物；允许3′简并。Primer3 uses 50 mM monovalent salt, 1.5 mM Mg²⁺, 0.6 mM dNTP, 50 nM per variant and 200 nM per direction. All intra-/inter-variant structures require Tm<55°C and F/R duplex-Tm midpoint difference ≤5°C. At fixed total concentration, each variant receives 200/degeneracy nM.
 
-Current D: fixed-coordinate search generated 47,638 pairs. Each oligo has degeneracy ≤8 and IUPAC ambiguity only in its 3′ half. Strict WC/GT background counts are ≤20 each; broad WC3/GT2 counts are ≤100 each. Ranking prioritizes order coverage and then exact matching. Ordinary A/B remain separate-PCR unions.
+Current D screening uses one reference per species, prioritises coverage across evaluable species, and compares exact matching and each order separately. Each oligo has degeneracy ≤8 with ambiguity confined to its 3′ half. Strict WC/GT background counts are ≤20 each and broad WC3/GT2 counts are ≤100 each. See the main README and results/species_refine for the current candidates.
 
-当前D搜索、分类来源、筛选取舍、浓度代价和类群增减详见[D optimization](D_OPTIMIZATION.md)。A/B的原有互补性证据见[AB_COMPLEMENTARITY](AB_COMPLEMENTARITY.md)。独立算法复核同一参考库，不构成独立生物样本验证。
+原有 D 搜索记录见 [D optimization](D_OPTIMIZATION.md)；当前候选与物种面板见主 README。独立算法复核同一参考库，不构成独立生物样本验证。

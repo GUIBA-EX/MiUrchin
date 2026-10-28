@@ -1,0 +1,18 @@
+{
+  "XL_F": {
+    "observed_binding_templates": 22,
+    "concrete_seeds": 129,
+    "generated_oligos": 194,
+    "retained_oligos": 162,
+    "primer_length": 20,
+    "ambiguous_allowed_start_1based": 11
+  },
+  "XL_R": {
+    "observed_binding_templates": 11,
+    "concrete_seeds": 96,
+    "generated_oligos": 496,
+    "retained_oligos": 179,
+    "primer_length": 25,
+    "ambiguous_allowed_start_1based": 13
+  }
+}

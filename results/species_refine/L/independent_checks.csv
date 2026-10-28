@@ -1,0 +1,4 @@
+name,target_checks,background_set_checks,disagreements
+L-R20-coverage,318,4,0
+L-R20-exact,318,4,0
+L-baseline,318,4,0

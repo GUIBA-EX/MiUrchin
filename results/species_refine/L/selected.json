@@ -1,0 +1,80 @@
+[
+  {
+    "region": "L",
+    "F": "GTCTCCTAAATAAAGACTRGHATGAATGGC",
+    "R": "GCGGTAACTTGTTCCTTTGATCRCY",
+    "F_id": "P00018",
+    "R_id": "P00226",
+    "degeneracy_F": 6,
+    "degeneracy_R": 4,
+    "pred_order_coverage": 89.61933435283125,
+    "pred_order_exact": 0.0,
+    "pred_taxon_coverage": 92.45283018867924,
+    "pred_taxon_exact": 0.0,
+    "WC3": 15,
+    "GT2": 12,
+    "WC4": 259,
+    "strict_WC": 2,
+    "strict_GT": 12,
+    "name": "L-R20-coverage",
+    "tier": 20,
+    "selection_mode": "coverage",
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 59.91118436465166,
+        "F_tm_max": 64.1950092862279,
+        "R_tm_min": 61.766720001935255,
+        "R_tm_max": 64.76154193586927,
+        "structure_max": 40.35818597803683
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 59.52222052940965,
+        "F_tm_max": 63.80314431376945,
+        "R_tm_min": 61.766720001935255,
+        "R_tm_max": 64.76154193586927,
+        "structure_max": 40.35818597803683
+      }
+    ]
+  },
+  {
+    "region": "L",
+    "F": "GTCTCCTAAATAGAGACTAGHATGAATGGC",
+    "R": "GCGGTAACTTGTTYCTTTGRTCACY",
+    "F_id": "P00020",
+    "R_id": "P00241",
+    "degeneracy_F": 3,
+    "degeneracy_R": 8,
+    "pred_order_coverage": 78.71707871373349,
+    "pred_order_exact": 12.433414043583536,
+    "pred_taxon_coverage": 88.67924528301887,
+    "pred_taxon_exact": 18.867924528301888,
+    "WC3": 12,
+    "GT2": 12,
+    "WC4": 240,
+    "strict_WC": 2,
+    "strict_GT": 12,
+    "name": "L-R20-exact",
+    "tier": 20,
+    "selection_mode": "exact",
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 60.78297683606365,
+        "F_tm_max": 63.046411769769236,
+        "R_tm_min": 60.27782796425191,
+        "R_tm_max": 64.41750634543337,
+        "structure_max": 50.84317992581987
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 61.06071102468519,
+        "F_tm_max": 63.32465202860061,
+        "R_tm_min": 59.49404992298662,
+        "R_tm_max": 63.62830756401621,
+        "structure_max": 50.84317992581987
+      }
+    ]
+  }
+]

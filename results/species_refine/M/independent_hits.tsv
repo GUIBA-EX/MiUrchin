@@ -1,0 +1,570 @@
+name	role	model	accession	exact	le2last3	le2	le3	le4	ambiguous	sizes
+M-R20-coverage	target	WC	AF279148.1	0	1	1	1	1	0	227
+M-R20-coverage	target	WC	AF279150.1	1	1	1	1	1	0	227
+M-R20-coverage	target	WC	AF279151.1	0	1	1	1	1	0	223
+M-R20-coverage	target	WC	AF279153.1	0	1	1	1	1	0	228
+M-R20-coverage	target	WC	AF279154.1	0	1	1	1	1	0	230
+M-R20-coverage	target	WC	AF279155.1	1	1	1	1	1	0	228
+M-R20-coverage	target	WC	AF279156.1	0	1	1	1	1	0	221
+M-R20-coverage	target	WC	AF279157.1	1	1	1	1	1	0	230
+M-R20-coverage	target	WC	AF279158.1	1	1	1	1	1	0	224
+M-R20-coverage	target	WC	AF279159.1	0	1	1	1	1	0	224
+M-R20-coverage	target	WC	AF279160.1	1	1	1	1	1	0	225
+M-R20-coverage	target	WC	AF279161.1	1	1	1	1	1	0	225
+M-R20-coverage	target	WC	AF279163.1	1	1	1	1	1	0	223
+M-R20-coverage	target	WC	AF279165.1	1	1	1	1	1	0	224
+M-R20-coverage	target	WC	AF279167.1	0	1	1	1	1	0	225
+M-R20-coverage	target	WC	AF279168.1	1	1	1	1	1	0	230
+M-R20-coverage	target	WC	AF279170.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	AF279171.1	1	1	1	1	1	0	230
+M-R20-coverage	target	WC	AF279172.1	0	0	1	1	1	0	
+M-R20-coverage	target	WC	AF279173.1	1	1	1	1	1	0	230
+M-R20-coverage	target	WC	AJ130798.1	1	1	1	1	1	0	230
+M-R20-coverage	target	WC	AJ639800.1	0	1	1	1	1	0	228
+M-R20-coverage	target	WC	AJ639801.1	0	1	1	1	1	0	240
+M-R20-coverage	target	WC	AM900391.1	1	1	1	1	1	0	229
+M-R20-coverage	target	WC	AM900392.1	1	1	1	1	1	0	229
+M-R20-coverage	target	WC	AY957467.1	0	1	1	1	1	0	225
+M-R20-coverage	target	WC	DQ073732.1	0	1	1	1	1	0	230
+M-R20-coverage	target	WC	DQ073736.1	0	1	1	1	1	0	234
+M-R20-coverage	target	WC	DQ073737.1	0	1	1	1	1	0	250
+M-R20-coverage	target	WC	DQ073738.1	1	1	1	1	1	0	226
+M-R20-coverage	target	WC	DQ073740.1	0	1	1	1	1	0	227
+M-R20-coverage	target	WC	DQ073743.1	1	1	1	1	1	0	229
+M-R20-coverage	target	WC	DQ073744.1	0	1	1	1	1	0	231
+M-R20-coverage	target	WC	DQ073745.1	0	1	1	1	1	0	226
+M-R20-coverage	target	WC	DQ073747.1	0	1	1	1	1	0	241
+M-R20-coverage	target	WC	DQ073749.1	0	1	1	1	1	0	226
+M-R20-coverage	target	WC	DQ073750.1	0	1	1	1	1	0	245
+M-R20-coverage	target	WC	GU226988.1	0	1	1	1	1	0	247
+M-R20-coverage	target	WC	HM467251.1	0	1	1	1	1	0	230
+M-R20-coverage	target	WC	JF520785.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	JF520786.1	1	1	1	1	1	0	226
+M-R20-coverage	target	WC	JF520788.1	1	1	1	1	1	0	227
+M-R20-coverage	target	WC	JF827332.1	1	1	1	1	1	0	226
+M-R20-coverage	target	WC	JQ322561.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	JQ322575.1	0	1	1	1	1	0	247
+M-R20-coverage	target	WC	JQ322579.1	0	1	1	1	1	0	230
+M-R20-coverage	target	WC	JX263663.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	JX888466.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	KC479025.1	1	1	1	1	1	0	226
+M-R20-coverage	target	WC	KC490912.1	1	1	1	1	1	0	229
+M-R20-coverage	target	WC	KC490913.1	1	1	1	1	1	0	229
+M-R20-coverage	target	WC	KC898200.2	1	1	1	1	1	0	229
+M-R20-coverage	target	WC	KF204861.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	KF204863.1	0	1	1	1	1	0	232
+M-R20-coverage	target	WC	KF204886.1	0	1	1	1	1	0	230
+M-R20-coverage	target	WC	KF204931.1	0	1	1	1	1	0	231
+M-R20-coverage	target	WC	KF204939.1	0	1	1	1	1	0	231
+M-R20-coverage	target	WC	KF204975.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	KF204987.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	KF205021.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	KF205026.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	KJ526170.1	1	1	1	1	1	0	228
+M-R20-coverage	target	WC	KJ680292.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	KJ680295.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	KJ908847.1	1	1	1	1	1	0	222
+M-R20-coverage	target	WC	KP070768.1	0	0	1	1	1	0	
+M-R20-coverage	target	WC	KU302103.1	0	0	1	1	1	0	
+M-R20-coverage	target	WC	KU302105.1	0	1	1	1	1	0	225
+M-R20-coverage	target	WC	KX385835.1	0	1	1	1	1	0	222
+M-R20-coverage	target	WC	KX385836.1	1	1	1	1	1	0	225
+M-R20-coverage	target	WC	KX638403.1	1	1	1	1	1	0	234
+M-R20-coverage	target	WC	MF077372.1	0	1	1	1	1	0	248
+M-R20-coverage	target	WC	MF077375.1	0	1	1	1	1	0	250
+M-R20-coverage	target	WC	MF077376.1	0	1	1	1	1	0	227
+M-R20-coverage	target	WC	MF077377.1	0	1	1	1	1	0	228
+M-R20-coverage	target	WC	MF617449.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	MF617464.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	MF617477.1	0	1	1	1	1	0	230
+M-R20-coverage	target	WC	MF617490.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	MF617496.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	MF617521.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	MF617528.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	MF617534.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	MG676468.1	0	1	1	1	1	0	225
+M-R20-coverage	target	WC	MH614961.1	0	1	1	1	1	0	245
+M-R20-coverage	target	WC	MK458686.1	0	1	1	1	1	0	225
+M-R20-coverage	target	WC	MK609482.1	0	1	1	1	1	0	246
+M-R20-coverage	target	WC	MK609483.1	0	1	1	1	1	0	247
+M-R20-coverage	target	WC	MK609484.1	0	1	1	1	1	0	224
+M-R20-coverage	target	WC	MK609485.1	0	1	1	1	1	0	227
+M-R20-coverage	target	WC	MK609486.1	0	1	1	1	1	0	230
+M-R20-coverage	target	WC	MK609487.1	0	1	1	1	1	0	232
+M-R20-coverage	target	WC	MN103227.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	MN868944.1	0	1	1	1	1	0	227
+M-R20-coverage	target	WC	MW147664.1	0	1	1	1	1	0	234
+M-R20-coverage	target	WC	NC_001453.1	0	1	1	1	1	0	228
+M-R20-coverage	target	WC	NC_061414.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	NC_065299.1	0	1	1	1	1	0	235
+M-R20-coverage	target	WC	NC_065301.1	0	1	1	1	1	0	234
+M-R20-coverage	target	WC	NC_065302.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	NC_067855.1	1	1	1	1	1	0	222
+M-R20-coverage	target	WC	OR343710.1	0	1	1	1	1	0	234
+M-R20-coverage	target	WC	OR995750.1	0	1	1	1	1	0	230
+M-R20-coverage	target	WC	OZ238552.1	0	1	1	1	1	0	231
+M-R20-coverage	target	WC	OZ238591.1	0	1	1	1	1	0	234
+M-R20-coverage	target	WC	OZ238644.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	PP666882.1	0	1	1	1	1	0	225
+M-R20-coverage	target	WC	PQ330103.1	0	1	1	1	1	0	224
+M-R20-coverage	target	WC	PQ838327.1	0	1	1	1	1	0	229
+M-R20-coverage	target	WC	PV339712.1	0	1	1	1	1	0	223
+M-R20-coverage	target	WC	PV804729.1	0	1	1	1	1	0	231
+M-R20-coverage	target	WC	PV804731.1	0	1	1	1	1	0	232
+M-R20-coverage	target	WC	PX523763.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	AF279148.1	0	1	1	1	1	0	227
+M-R20-exact	target	WC	AF279150.1	1	1	1	1	1	0	227
+M-R20-exact	target	WC	AF279151.1	0	1	1	1	1	0	223
+M-R20-exact	target	WC	AF279153.1	0	1	1	1	1	0	228
+M-R20-exact	target	WC	AF279154.1	0	1	1	1	1	0	230
+M-R20-exact	target	WC	AF279155.1	1	1	1	1	1	0	228
+M-R20-exact	target	WC	AF279156.1	0	1	1	1	1	0	221
+M-R20-exact	target	WC	AF279157.1	1	1	1	1	1	0	230
+M-R20-exact	target	WC	AF279158.1	1	1	1	1	1	0	224
+M-R20-exact	target	WC	AF279159.1	0	1	1	1	1	0	224
+M-R20-exact	target	WC	AF279160.1	1	1	1	1	1	0	225
+M-R20-exact	target	WC	AF279161.1	1	1	1	1	1	0	225
+M-R20-exact	target	WC	AF279163.1	1	1	1	1	1	0	223
+M-R20-exact	target	WC	AF279165.1	1	1	1	1	1	0	224
+M-R20-exact	target	WC	AF279167.1	0	1	1	1	1	0	225
+M-R20-exact	target	WC	AF279168.1	1	1	1	1	1	0	230
+M-R20-exact	target	WC	AF279171.1	1	1	1	1	1	0	230
+M-R20-exact	target	WC	AF279172.1	0	0	1	1	1	0	
+M-R20-exact	target	WC	AF279173.1	1	1	1	1	1	0	230
+M-R20-exact	target	WC	AJ130798.1	1	1	1	1	1	0	230
+M-R20-exact	target	WC	AJ639800.1	0	1	1	1	1	0	228
+M-R20-exact	target	WC	AJ639801.1	0	1	1	1	1	0	240
+M-R20-exact	target	WC	AM900391.1	1	1	1	1	1	0	229
+M-R20-exact	target	WC	AM900392.1	1	1	1	1	1	0	229
+M-R20-exact	target	WC	AY957467.1	1	1	1	1	1	0	225
+M-R20-exact	target	WC	DQ073732.1	0	1	1	1	1	0	230
+M-R20-exact	target	WC	DQ073736.1	0	1	1	1	1	0	234
+M-R20-exact	target	WC	DQ073737.1	0	1	1	1	1	0	250
+M-R20-exact	target	WC	DQ073738.1	1	1	1	1	1	0	226
+M-R20-exact	target	WC	DQ073740.1	0	1	1	1	1	0	227
+M-R20-exact	target	WC	DQ073743.1	1	1	1	1	1	0	229
+M-R20-exact	target	WC	DQ073744.1	0	1	1	1	1	0	231
+M-R20-exact	target	WC	DQ073745.1	0	1	1	1	1	0	226
+M-R20-exact	target	WC	DQ073749.1	0	1	1	1	1	0	226
+M-R20-exact	target	WC	DQ073750.1	0	1	1	1	1	0	245
+M-R20-exact	target	WC	GU226988.1	0	1	1	1	1	0	247
+M-R20-exact	target	WC	HM467251.1	0	1	1	1	1	0	230
+M-R20-exact	target	WC	JF520785.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	JF520786.1	1	1	1	1	1	0	226
+M-R20-exact	target	WC	JF520788.1	1	1	1	1	1	0	227
+M-R20-exact	target	WC	JF827332.1	1	1	1	1	1	0	226
+M-R20-exact	target	WC	JQ322561.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	JQ322575.1	0	1	1	1	1	0	247
+M-R20-exact	target	WC	JQ322579.1	0	1	1	1	1	0	230
+M-R20-exact	target	WC	JX263663.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	KC479025.1	1	1	1	1	1	0	226
+M-R20-exact	target	WC	KC490912.1	1	1	1	1	1	0	229
+M-R20-exact	target	WC	KC490913.1	1	1	1	1	1	0	229
+M-R20-exact	target	WC	KC898200.2	1	1	1	1	1	0	229
+M-R20-exact	target	WC	KF204861.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	KF204863.1	1	1	1	1	1	0	232
+M-R20-exact	target	WC	KF204886.1	0	1	1	1	1	0	230
+M-R20-exact	target	WC	KF204931.1	0	1	1	1	1	0	231
+M-R20-exact	target	WC	KF204939.1	0	1	1	1	1	0	231
+M-R20-exact	target	WC	KF204975.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	KF204987.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	KF205021.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	KF205026.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	KJ526170.1	1	1	1	1	1	0	228
+M-R20-exact	target	WC	KJ680292.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	KJ680295.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	KJ908847.1	1	1	1	1	1	0	222
+M-R20-exact	target	WC	KP070768.1	0	0	1	1	1	0	
+M-R20-exact	target	WC	KU302103.1	0	0	1	1	1	0	
+M-R20-exact	target	WC	KU302105.1	0	1	1	1	1	0	225
+M-R20-exact	target	WC	KX385835.1	0	1	1	1	1	0	222
+M-R20-exact	target	WC	KX385836.1	1	1	1	1	1	0	225
+M-R20-exact	target	WC	KX638403.1	1	1	1	1	1	0	234
+M-R20-exact	target	WC	MF077372.1	0	1	1	1	1	0	248
+M-R20-exact	target	WC	MF077375.1	0	1	1	1	1	0	250
+M-R20-exact	target	WC	MF077376.1	0	1	1	1	1	0	227
+M-R20-exact	target	WC	MF077377.1	0	1	1	1	1	0	228
+M-R20-exact	target	WC	MF617449.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	MF617464.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	MF617477.1	0	1	1	1	1	0	230
+M-R20-exact	target	WC	MF617490.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	MF617496.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	MF617521.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	MF617528.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	MF617534.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	MG676468.1	0	1	1	1	1	0	225
+M-R20-exact	target	WC	MH614961.1	0	1	1	1	1	0	245
+M-R20-exact	target	WC	MK458686.1	0	1	1	1	1	0	225
+M-R20-exact	target	WC	MK609482.1	0	1	1	1	1	0	246
+M-R20-exact	target	WC	MK609483.1	0	1	1	1	1	0	247
+M-R20-exact	target	WC	MK609484.1	0	1	1	1	1	0	224
+M-R20-exact	target	WC	MK609485.1	0	1	1	1	1	0	227
+M-R20-exact	target	WC	MK609486.1	0	1	1	1	1	0	230
+M-R20-exact	target	WC	MK609487.1	0	1	1	1	1	0	232
+M-R20-exact	target	WC	MN103227.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	MN868944.1	1	1	1	1	1	0	227
+M-R20-exact	target	WC	MW147664.1	0	1	1	1	1	0	234
+M-R20-exact	target	WC	NC_001453.1	0	1	1	1	1	0	228
+M-R20-exact	target	WC	NC_061414.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	NC_065299.1	1	1	1	1	1	0	235
+M-R20-exact	target	WC	NC_065301.1	0	1	1	1	1	0	234
+M-R20-exact	target	WC	NC_065302.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	NC_067855.1	1	1	1	1	1	0	222
+M-R20-exact	target	WC	OR343710.1	0	1	1	1	1	0	234
+M-R20-exact	target	WC	OR995750.1	0	1	1	1	1	0	230
+M-R20-exact	target	WC	OZ238552.1	0	1	1	1	1	0	231
+M-R20-exact	target	WC	OZ238591.1	0	1	1	1	1	0	234
+M-R20-exact	target	WC	PP666882.1	0	1	1	1	1	0	225
+M-R20-exact	target	WC	PQ330103.1	0	1	1	1	1	0	224
+M-R20-exact	target	WC	PQ838327.1	0	1	1	1	1	0	229
+M-R20-exact	target	WC	PV339712.1	1	1	1	1	1	0	223
+M-baseline	target	WC	AF279148.1	0	1	1	1	1	0	227
+M-baseline	target	WC	AF279150.1	0	1	1	1	1	0	227
+M-baseline	target	WC	AF279151.1	0	1	1	1	1	0	223
+M-baseline	target	WC	AF279153.1	1	1	1	1	1	0	228
+M-baseline	target	WC	AF279154.1	0	1	1	1	1	0	230
+M-baseline	target	WC	AF279155.1	1	1	1	1	1	0	228
+M-baseline	target	WC	AF279156.1	0	1	1	1	1	0	221
+M-baseline	target	WC	AF279157.1	0	1	1	1	1	0	230
+M-baseline	target	WC	AF279158.1	0	1	1	1	1	0	224
+M-baseline	target	WC	AF279159.1	0	1	1	1	1	0	224
+M-baseline	target	WC	AF279160.1	0	1	1	1	1	0	225
+M-baseline	target	WC	AF279161.1	0	1	1	1	1	0	225
+M-baseline	target	WC	AF279163.1	1	1	1	1	1	0	223
+M-baseline	target	WC	AF279165.1	0	1	1	1	1	0	224
+M-baseline	target	WC	AF279167.1	0	1	1	1	1	0	225
+M-baseline	target	WC	AF279168.1	0	1	1	1	1	0	230
+M-baseline	target	WC	AF279171.1	0	1	1	1	1	0	230
+M-baseline	target	WC	AF279172.1	0	0	1	1	1	0	
+M-baseline	target	WC	AF279173.1	0	1	1	1	1	0	230
+M-baseline	target	WC	AJ130798.1	1	1	1	1	1	0	230
+M-baseline	target	WC	AJ639800.1	0	1	1	1	1	0	228
+M-baseline	target	WC	AJ639801.1	0	1	1	1	1	0	240
+M-baseline	target	WC	AM900391.1	1	1	1	1	1	0	229
+M-baseline	target	WC	AM900392.1	1	1	1	1	1	0	229
+M-baseline	target	WC	AY957467.1	1	1	1	1	1	0	225
+M-baseline	target	WC	DQ073732.1	0	1	1	1	1	0	230
+M-baseline	target	WC	DQ073736.1	0	1	1	1	1	0	234
+M-baseline	target	WC	DQ073737.1	0	1	1	1	1	0	250
+M-baseline	target	WC	DQ073738.1	1	1	1	1	1	0	226
+M-baseline	target	WC	DQ073740.1	0	1	1	1	1	0	227
+M-baseline	target	WC	DQ073743.1	1	1	1	1	1	0	229
+M-baseline	target	WC	DQ073744.1	0	1	1	1	1	0	231
+M-baseline	target	WC	DQ073745.1	0	1	1	1	1	0	226
+M-baseline	target	WC	DQ073749.1	0	1	1	1	1	0	226
+M-baseline	target	WC	DQ073750.1	0	1	1	1	1	0	245
+M-baseline	target	WC	GU226988.1	0	1	1	1	1	0	247
+M-baseline	target	WC	HM467251.1	0	1	1	1	1	0	230
+M-baseline	target	WC	JF520785.1	0	1	1	1	1	0	229
+M-baseline	target	WC	JF520786.1	1	1	1	1	1	0	226
+M-baseline	target	WC	JF520788.1	1	1	1	1	1	0	227
+M-baseline	target	WC	JF827332.1	1	1	1	1	1	0	226
+M-baseline	target	WC	JQ322561.1	0	1	1	1	1	0	229
+M-baseline	target	WC	JQ322575.1	0	1	1	1	1	0	247
+M-baseline	target	WC	JQ322579.1	0	1	1	1	1	0	230
+M-baseline	target	WC	JX263663.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KC479025.1	1	1	1	1	1	0	226
+M-baseline	target	WC	KC490912.1	1	1	1	1	1	0	229
+M-baseline	target	WC	KC490913.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KC898200.2	1	1	1	1	1	0	229
+M-baseline	target	WC	KF204861.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KF204863.1	1	1	1	1	1	0	232
+M-baseline	target	WC	KF204886.1	0	1	1	1	1	0	230
+M-baseline	target	WC	KF204931.1	0	1	1	1	1	0	231
+M-baseline	target	WC	KF204939.1	0	1	1	1	1	0	231
+M-baseline	target	WC	KF204975.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KF204987.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KF205021.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KF205026.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KJ526170.1	1	1	1	1	1	0	228
+M-baseline	target	WC	KJ680292.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KJ680295.1	0	1	1	1	1	0	229
+M-baseline	target	WC	KJ908847.1	0	1	1	1	1	0	222
+M-baseline	target	WC	KP070768.1	0	0	1	1	1	0	
+M-baseline	target	WC	KU302103.1	0	0	1	1	1	0	
+M-baseline	target	WC	KU302105.1	0	1	1	1	1	0	225
+M-baseline	target	WC	KX385835.1	0	1	1	1	1	0	222
+M-baseline	target	WC	KX385836.1	0	1	1	1	1	0	225
+M-baseline	target	WC	KX638403.1	1	1	1	1	1	0	234
+M-baseline	target	WC	MF077372.1	0	1	1	1	1	0	248
+M-baseline	target	WC	MF077375.1	0	1	1	1	1	0	250
+M-baseline	target	WC	MF077376.1	0	1	1	1	1	0	227
+M-baseline	target	WC	MF077377.1	0	1	1	1	1	0	228
+M-baseline	target	WC	MF617449.1	0	1	1	1	1	0	229
+M-baseline	target	WC	MF617464.1	0	1	1	1	1	0	229
+M-baseline	target	WC	MF617477.1	0	1	1	1	1	0	230
+M-baseline	target	WC	MF617490.1	0	1	1	1	1	0	229
+M-baseline	target	WC	MF617496.1	0	1	1	1	1	0	229
+M-baseline	target	WC	MF617521.1	0	1	1	1	1	0	229
+M-baseline	target	WC	MF617528.1	0	1	1	1	1	0	229
+M-baseline	target	WC	MF617534.1	0	1	1	1	1	0	229
+M-baseline	target	WC	MG676468.1	0	1	1	1	1	0	225
+M-baseline	target	WC	MH614961.1	0	1	1	1	1	0	245
+M-baseline	target	WC	MK458686.1	0	1	1	1	1	0	225
+M-baseline	target	WC	MK609482.1	0	1	1	1	1	0	246
+M-baseline	target	WC	MK609483.1	0	1	1	1	1	0	247
+M-baseline	target	WC	MK609484.1	0	1	1	1	1	0	224
+M-baseline	target	WC	MK609485.1	0	1	1	1	1	0	227
+M-baseline	target	WC	MK609486.1	0	1	1	1	1	0	230
+M-baseline	target	WC	MK609487.1	0	1	1	1	1	0	232
+M-baseline	target	WC	MN103227.1	0	1	1	1	1	0	229
+M-baseline	target	WC	MN868944.1	1	1	1	1	1	0	227
+M-baseline	target	WC	MW147664.1	0	1	1	1	1	0	234
+M-baseline	target	WC	MW354512.1	0	1	1	1	1	0	242
+M-baseline	target	WC	NC_001453.1	0	1	1	1	1	0	228
+M-baseline	target	WC	NC_061414.1	0	1	1	1	1	0	229
+M-baseline	target	WC	NC_065299.1	1	1	1	1	1	0	235
+M-baseline	target	WC	NC_065301.1	0	1	1	1	1	0	234
+M-baseline	target	WC	NC_065302.1	0	1	1	1	1	0	229
+M-baseline	target	WC	NC_067855.1	0	1	1	1	1	0	222
+M-baseline	target	WC	OR343710.1	0	1	1	1	1	0	234
+M-baseline	target	WC	OR995750.1	0	1	1	1	1	0	230
+M-baseline	target	WC	OZ238552.1	0	1	1	1	1	0	231
+M-baseline	target	WC	OZ238591.1	0	1	1	1	1	0	234
+M-baseline	target	WC	PP666882.1	0	1	1	1	1	0	225
+M-baseline	target	WC	PQ330103.1	0	1	1	1	1	0	224
+M-baseline	target	WC	PQ838327.1	0	1	1	1	1	0	229
+M-baseline	target	WC	PV339712.1	1	1	1	1	1	0	223
+M-R20-coverage	background	WC	GQ288557.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288556.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288548.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288547.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288546.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288545.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288544.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288543.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288542.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	GQ288516.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	EU722997.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	EU722995.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	EU722963.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	EU722948.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	EU722940.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	EU722939.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	EU072956.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548879.2	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548869.2	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548867.2	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548862.2	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548870.2	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548865.2	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548864.2	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548882.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548881.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548878.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548877.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548876.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548875.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548874.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548873.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548872.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548871.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548868.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548866.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548863.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548861.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548860.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548859.1	0	0	0	0	0	1	
+M-R20-coverage	background	WC	AY548858.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288557.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288556.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288548.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288547.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288546.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288545.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288544.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288543.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288542.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	GQ288516.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	EU722997.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	EU722995.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	EU722963.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	EU722940.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	EU722939.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	EU072956.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548879.2	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548869.2	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548867.2	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548862.2	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548870.2	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548865.2	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548864.2	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548882.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548881.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548878.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548877.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548876.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548875.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548874.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548873.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548872.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548871.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548868.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548866.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548863.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548861.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548860.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548859.1	0	0	0	0	0	1	
+M-R20-coverage	background	GT	AY548858.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288557.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288556.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288548.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288547.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288546.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288545.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288544.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288543.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288542.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	GQ288516.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	EU722997.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	EU722995.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	EU722963.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	EU722948.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	EU722940.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	EU722939.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	EU072956.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548879.2	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548869.2	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548867.2	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548862.2	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548870.2	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548865.2	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548864.2	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548882.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548881.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548878.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548877.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548876.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548875.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548874.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548873.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548872.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548871.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548868.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548866.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548863.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548861.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548860.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548859.1	0	0	0	0	0	1	
+M-R20-exact	background	WC	AY548858.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288557.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288556.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288548.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288547.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288546.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288545.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288544.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288543.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288542.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	GQ288516.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	EU722997.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	EU722995.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	EU722963.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	EU722940.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	EU722939.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	EU072956.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548879.2	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548869.2	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548867.2	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548862.2	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548870.2	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548865.2	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548864.2	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548882.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548881.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548878.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548877.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548876.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548875.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548874.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548873.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548872.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548871.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548868.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548866.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548863.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548861.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548860.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548859.1	0	0	0	0	0	1	
+M-R20-exact	background	GT	AY548858.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288557.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288556.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288548.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288547.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288546.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288545.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288544.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288543.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288542.1	0	0	0	0	0	1	
+M-baseline	background	WC	GQ288516.1	0	0	0	0	0	1	
+M-baseline	background	WC	EU722997.1	0	0	0	0	0	1	
+M-baseline	background	WC	EU722995.1	0	0	0	0	0	1	
+M-baseline	background	WC	EU722963.1	0	0	0	0	0	1	
+M-baseline	background	WC	EU722948.1	0	0	0	0	0	1	
+M-baseline	background	WC	EU722940.1	0	0	0	0	0	1	
+M-baseline	background	WC	EU722939.1	0	0	0	0	0	1	
+M-baseline	background	WC	EU072956.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548879.2	0	0	0	0	0	1	
+M-baseline	background	WC	AY548869.2	0	0	0	0	0	1	
+M-baseline	background	WC	AY548867.2	0	0	0	0	0	1	
+M-baseline	background	WC	AY548862.2	0	0	0	0	0	1	
+M-baseline	background	WC	AY548870.2	0	0	0	0	0	1	
+M-baseline	background	WC	AY548865.2	0	0	0	0	0	1	
+M-baseline	background	WC	AY548864.2	0	0	0	0	0	1	
+M-baseline	background	WC	AY548882.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548881.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548878.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548877.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548876.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548875.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548874.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548873.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548872.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548871.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548868.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548866.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548863.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548861.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548860.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548859.1	0	0	0	0	0	1	
+M-baseline	background	WC	AY548858.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288557.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288556.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288548.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288547.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288546.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288545.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288544.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288543.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288542.1	0	0	0	0	0	1	
+M-baseline	background	GT	GQ288516.1	0	0	0	0	0	1	
+M-baseline	background	GT	EU722997.1	0	0	0	0	0	1	
+M-baseline	background	GT	EU722995.1	0	0	0	0	0	1	
+M-baseline	background	GT	EU722963.1	0	0	0	0	0	1	
+M-baseline	background	GT	EU722940.1	0	0	0	0	0	1	
+M-baseline	background	GT	EU722939.1	0	0	0	0	0	1	
+M-baseline	background	GT	EU072956.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548879.2	0	0	0	0	0	1	
+M-baseline	background	GT	AY548869.2	0	0	0	0	0	1	
+M-baseline	background	GT	AY548867.2	0	0	0	0	0	1	
+M-baseline	background	GT	AY548862.2	0	0	0	0	0	1	
+M-baseline	background	GT	AY548870.2	0	0	0	0	0	1	
+M-baseline	background	GT	AY548865.2	0	0	0	0	0	1	
+M-baseline	background	GT	AY548864.2	0	0	0	0	0	1	
+M-baseline	background	GT	AY548882.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548881.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548878.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548877.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548876.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548875.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548874.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548873.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548872.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548871.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548868.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548866.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548863.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548861.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548860.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548859.1	0	0	0	0	0	1	
+M-baseline	background	GT	AY548858.1	0	0	0	0	0	1	

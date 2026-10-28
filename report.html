@@ -1,1 +1,420 @@
-<!doctype html><meta charset="utf-8"><title>MiUrchin</title><style>body{font:16px/1.7 system-ui;max-width:1500px;margin:30px auto;color:#173647}img{width:100%}td,th{padding:8px;border-bottom:1px solid #ddd}table{border-collapse:collapse}</style><h1>MiUrchin · 3′ half D primers</h1><p><a href="README.zh-CN.md">中文README</a> · <a href="README.md">English README</a> · <a href="docs/D_OPTIMIZATION.md">候选与取舍</a></p><img src="figures/MiUrchin_overview.png"><p>80 references · 49 labels · 11 WoRMS orders · equal order weighting</p><table><tr><th>Scheme</th><th>Order coverage</th><th>Order exact</th><th>WC3 / GT2</th></tr><tr><td>SD</td><td>43.83%</td><td>0.32%</td><td>0 / 0</td></tr><tr><td>S</td><td>4.22%</td><td>0.65%</td><td>0 / 0</td></tr><tr><td>SA+SB</td><td>11.04%</td><td>0.97%</td><td>0 / 0</td></tr><tr><td>MD</td><td>84.09%</td><td>18.94%</td><td>0 / 0</td></tr><tr><td>M</td><td>47.73%</td><td>6.82%</td><td>0 / 0</td></tr><tr><td>MA+MB</td><td>47.73%</td><td>9.09%</td><td>0 / 0</td></tr><tr><td>LD</td><td>91.56%</td><td>13.85%</td><td>12 / 12</td></tr><tr><td>L</td><td>68.83%</td><td>3.25%</td><td>2 / 1</td></tr><tr><td>LA+LB</td><td>68.83%</td><td>5.52%</td><td>2 / 1</td></tr><tr><td>XLD</td><td>98.70%</td><td>42.42%</td><td>12 / 21</td></tr><tr><td>XL</td><td>77.49%</td><td>2.92%</td><td>3 / 5</td></tr><tr><td>XLA+XLB</td><td>98.70%</td><td>21.10%</td><td>3 / 5</td></tr></table><h2>SD</h2><img src="figures/base_matching_SD.svg"><h2>MD</h2><img src="figures/base_matching_MD.svg"><h2>LD</h2><img src="figures/base_matching_LD.svg"><h2>XLD</h2><img src="figures/base_matching_XLD.svg">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MiUrchin</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">MiUrchin</h1>
+</header>
+<p><img src="figures/MiUrchin_overview.png" alt="MiUrchin" /></p>
+<h1 id="miurchin">MiUrchin</h1>
+<p><a href="README.md">English</a></p>
+<p>海胆环境 DNA 线粒体 16S rRNA 候选引物，包含 S、M、L、XL
+四个长度。每个物种保留一条参考序列，以可评价物种等权作为主指标；各目结果单独报告。
+参考面板包含 165 个物种；S、M、L、XL 分别有 55、158、159、55
+个物种可评价。不可评价并不等于漏检。置顶图为旧分类框架下的代表性示意；新面板的目级名称以
+WoRMS 为准。</p>
+<p><a href="results/species_qc/panel.csv">参考面板 / Reference panel</a>
+· <a href="results/species_qc/README.md">参考序列审核 / Reference
+curation</a> · <a href="results/species_refine/S/by_order.csv">S</a> ·
+<a href="results/species_refine/M/by_order.csv">M</a> · <a
+href="results/species_refine/L/by_order.csv">L</a> · <a
+href="results/species_refine/XL/by_order.csv">XL</a></p>
+<p><img src="figures/amplicon_regions.zh.svg"
+alt="Binding positions" /></p>
+<h2 id="当前表现">当前表现</h2>
+<table>
+<thead>
+<tr>
+<th>Candidate</th>
+<th style="text-align: right;">Species coverage</th>
+<th style="text-align: right;">Exact</th>
+<th style="text-align: right;">Strict WC / GT</th>
+<th style="text-align: right;">WC≤3 / GT≤2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S-R20-coverage</td>
+<td style="text-align: right;">29/55 (52.73%)</td>
+<td style="text-align: right;">3/55 (5.45%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0</td>
+</tr>
+<tr>
+<td>S-R20-exact</td>
+<td style="text-align: right;">29/55 (52.73%)</td>
+<td style="text-align: right;">3/55 (5.45%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">3 / 0</td>
+</tr>
+<tr>
+<td>M-R20-coverage</td>
+<td style="text-align: right;">110/158 (69.62%)</td>
+<td style="text-align: right;">28/158 (17.72%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0</td>
+</tr>
+<tr>
+<td>M-R20-exact</td>
+<td style="text-align: right;">103/158 (65.19%)</td>
+<td style="text-align: right;">33/158 (20.89%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0</td>
+</tr>
+<tr>
+<td>L-R20-coverage</td>
+<td style="text-align: right;">147/159 (92.45%)</td>
+<td style="text-align: right;">0/159 (0.00%)</td>
+<td style="text-align: right;">2 / 12</td>
+<td style="text-align: right;">15 / 12</td>
+</tr>
+<tr>
+<td>L-R20-exact</td>
+<td style="text-align: right;">141/159 (88.68%)</td>
+<td style="text-align: right;">30/159 (18.87%)</td>
+<td style="text-align: right;">2 / 12</td>
+<td style="text-align: right;">12 / 12</td>
+</tr>
+<tr>
+<td>XL-R20-coverage</td>
+<td style="text-align: right;">52/55 (94.55%)</td>
+<td style="text-align: right;">0/55 (0.00%)</td>
+<td style="text-align: right;">2 / 19</td>
+<td style="text-align: right;">10 / 19</td>
+</tr>
+<tr>
+<td>XL-R20-exact</td>
+<td style="text-align: right;">51/55 (92.73%)</td>
+<td style="text-align: right;">6/55 (10.91%)</td>
+<td style="text-align: right;">0 / 4</td>
+<td style="text-align: right;">6 / 6</td>
+</tr>
+<tr>
+<td>XL-R100-exact</td>
+<td style="text-align: right;">51/55 (92.73%)</td>
+<td style="text-align: right;">10/55 (18.18%)</td>
+<td style="text-align: right;">2 / 19</td>
+<td style="text-align: right;">12 / 21</td>
+</tr>
+</tbody>
+</table>
+<p>覆盖：正反引物各最多 2 个错配、末端 3 nt
+兼容；完全匹配：双引物零错配。WC≤3 / GT≤2
+不施加末端约束。非目标统计为参考记录数。</p>
+<p>新 D 引物每条简并度不超过 8，简并位点限于 3′
+半段；覆盖优先和完全匹配优先候选分别保留。原有普通单对保留，其表现未在本轮新面板重新评价。</p>
+<p>M-R20-coverage 预测覆盖 110/158 个物种、完全匹配 28 个；原 D 分别为
+104 和 21。L-R20-coverage 覆盖 147/159、完全匹配为 0；L-R20-exact 覆盖
+141/159、完全匹配 30 个，原 L D 分别为 145 和 28。XL-R100-exact
+的序列与原 XL D 相同。原 D 的对照结果保留在筛选表中。</p>
+<h2 id="引物序列53">引物序列（5′→3′）</h2>
+<h3 id="s">S</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>F</th>
+<th>R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td><code>TGTGTATAATGGATTAACGAGA</code></td>
+<td><code>GCTTAGCTAAAACTAATTTCTTGG</code></td>
+</tr>
+<tr>
+<td>S-R20-coverage</td>
+<td><code>TGTGTATAATGGATTAACGAGH</code></td>
+<td><code>GCTTAGCTAAAACYAATTTCTYRG</code></td>
+</tr>
+<tr>
+<td>S-R20-exact</td>
+<td><code>TGTGTATAATGGATTAACRAGH</code></td>
+<td><code>GCTTAGCTTAAACYAATTTCTYGR</code></td>
+</tr>
+</tbody>
+</table>
+<p><img src="results/species_refine/S/base_matching_S-R20-coverage.svg"
+alt="S-R20-coverage base matching" /></p>
+<p><img src="results/species_refine/S/base_matching_S-R20-exact.svg"
+alt="S-R20-exact base matching" /></p>
+<h3 id="m">M</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>F</th>
+<th>R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M</td>
+<td><code>CGTTAGACGAGAAGACCCTG</code></td>
+<td><code>CTTTGATCACCTTAGTGGATCA</code></td>
+</tr>
+<tr>
+<td>M-R20-coverage</td>
+<td><code>CGTTAGACGAGAAGACCCTR</code></td>
+<td><code>CTTTGATCACCTDARTGGATCA</code></td>
+</tr>
+<tr>
+<td>M-R20-exact</td>
+<td><code>CGTTAGACGAGAAGACCCTR</code></td>
+<td><code>CTTTGATCACCKDAGTGGATCA</code></td>
+</tr>
+</tbody>
+</table>
+<p><img src="results/species_refine/M/base_matching_M-R20-coverage.svg"
+alt="M-R20-coverage base matching" /></p>
+<p><img src="results/species_refine/M/base_matching_M-R20-exact.svg"
+alt="M-R20-exact base matching" /></p>
+<h3 id="l">L</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>F</th>
+<th>R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L</td>
+<td><code>GTCTCCTAAATAGAGACTAGTATGAATGGC</code></td>
+<td><code>GCGGTAACTTGTTCCTTTGATCACC</code></td>
+</tr>
+<tr>
+<td>L-R20-coverage</td>
+<td><code>GTCTCCTAAATAAAGACTRGHATGAATGGC</code></td>
+<td><code>GCGGTAACTTGTTCCTTTGATCRCY</code></td>
+</tr>
+<tr>
+<td>L-R20-exact</td>
+<td><code>GTCTCCTAAATAGAGACTAGHATGAATGGC</code></td>
+<td><code>GCGGTAACTTGTTYCTTTGRTCACY</code></td>
+</tr>
+</tbody>
+</table>
+<p><img src="results/species_refine/L/base_matching_L-R20-coverage.svg"
+alt="L-R20-coverage base matching" /></p>
+<p><img src="results/species_refine/L/base_matching_L-R20-exact.svg"
+alt="L-R20-exact base matching" /></p>
+<h3 id="xl">XL</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>F</th>
+<th>R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XL</td>
+<td><code>GAATAGGCCTAGAAGCAGCC</code></td>
+<td><code>CCGTCTTGCCATTCATACTAGTCTC</code></td>
+</tr>
+<tr>
+<td>XL-R20-coverage</td>
+<td><code>AAATAGGCCTARAAGCAGCC</code></td>
+<td><code>CCGTCTTGCCATTCATACTAGTCTY</code></td>
+</tr>
+<tr>
+<td>XL-R20-exact</td>
+<td><code>AAGTAGGCCTARAAGCAGCC</code></td>
+<td><code>CCGTCTTGCCATTCATACCAGTCTY</code></td>
+</tr>
+<tr>
+<td>XL-R100-exact</td>
+<td><code>AAGTAGGCCTARAAGCAGCC</code></td>
+<td><code>CCGTCTTGCCATTCATRCYAGTCTY</code></td>
+</tr>
+</tbody>
+</table>
+<p><img
+src="results/species_refine/XL/base_matching_XL-R20-coverage.svg"
+alt="XL-R20-coverage base matching" /></p>
+<p><img src="results/species_refine/XL/base_matching_XL-R20-exact.svg"
+alt="XL-R20-exact base matching" /></p>
+<p><img src="results/species_refine/XL/base_matching_XL-R100-exact.svg"
+alt="XL-R100-exact base matching" /></p>
+<p>计算预测需要实验验证。</p>
+<p><a href="results/species_refine/README.md">Screening / 筛选结果</a> ·
+<a href="scripts/species_screening/README.md">Scripts / 脚本</a> · <a
+href="docs/METHODS.md">Methods / 方法</a> · <a
+href="docs/VALIDATION.md">Validation / 验证</a> · <a
+href="COPYRIGHT.md">Copyright</a></p>
+</body>
+</html>
