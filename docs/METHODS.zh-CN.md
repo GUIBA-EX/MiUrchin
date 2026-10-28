@@ -1,17 +1,11 @@
-# Methods / 方法
+# 方法
 
-Reference: NC_001453.1, extracted ungapped mitochondrial 16S rRNA, 1-based coordinates. Each S–XL window has fixed ordinary and D endpoints; 188/228/343/440 bp reference spans include primers. Products vary among taxa.
+参考坐标使用 NC_001453.1 去除空位后的线粒体 16S rRNA，采用 1-based 坐标。每个 S–XL 区域的正反向引物起止坐标固定；含引物的参考跨度依次为 188、228、343、440 bp，实际产物长度随类群变化。
 
-参考坐标为NC_001453.1提取的无gap 16S序列，1-based；各长度普通与 D坐标一致。参考跨度包含引物，实际产物长度随类群变化。
+目标库包含 1,401 条记录。经分类与序列质量审核，每个物种保留一条代表，共 165 个物种；S、M、L、XL 分别有 55、158、159、55 个物种可评价。非目标库包含 6,045 条记录。主覆盖率和完全匹配率对可评价物种等权，各目的结果单列；缺失结合区域不计为漏检。
 
-The target library has 1,401 records, the common panel 80 references/49 species labels, and the background 6,045 records. Primary coverage and exact scores equally average within-order label detection over 11 WoRMS orders. Any matching reference detects a label; partial/full within-label states are reported separately. Legacy reference-weighted metrics remain secondary.
+预测覆盖要求每条引物最多 2 个错配且末端 3 nt 与 IUPAC 碱基兼容；完全匹配要求两条引物均无错配。目标双引物扫描要求产物总长 150–500 bp、引物间内部长度至少 50 bp；非目标扫描允许内部长度 0–1,000 bp。WC3 与 GT2 为不限制末端的宽松筛查，严格 WC 与 GT 保留末端约束。命中数为参考记录数。
 
-主覆盖率与完全匹配率先按目内检出标签比例计算，再对11个目等权；标签有任一参考命中即检出，种内完整/部分匹配另列。旧参考加权指标作次要比较。
+候选引物每条最多 8 个具体变体，简并位点仅在 3′ 半段。末端检查排除末端三连和超过 4 bp 的同聚物，要求末端 3 nt 含 GC。Primer3 使用 50 mM 单价盐、1.5 mM Mg²⁺、0.6 mM dNTP，并评估每变体 50 nM 与每方向总量 200 nM 两种情景；结构 Tm 须低于 55°C，正反向双链 Tm 中点差不超过 5°C。
 
-Coverage: ≤2 mismatches per primer plus IUPAC-compatible final 3 nt. Exact: zero mismatches at both ends. Paired target scans require total 150–500 bp and internal ≥50 bp. Background internal distance is 0–1,000 bp on both strands. Broad WC3/GT2 omit the terminal constraint; strict WC/GT retain it. Counts are records, not PCR fractions.
-
-每条具体变体：无末端三连、末端3 nt至少一个GC、末端5 nt含1–4个GC、无超过4 nt的同聚物；允许3′简并。Primer3 uses 50 mM monovalent salt, 1.5 mM Mg²⁺, 0.6 mM dNTP, 50 nM per variant and 200 nM per direction. All intra-/inter-variant structures require Tm<55°C and F/R duplex-Tm midpoint difference ≤5°C. At fixed total concentration, each variant receives 200/degeneracy nM.
-
-Current D screening uses one reference per species, prioritises coverage across evaluable species, and compares exact matching and each order separately. Each oligo has degeneracy ≤8 with ambiguity confined to its 3′ half. Strict WC/GT background counts are ≤20 each and broad WC3/GT2 counts are ≤100 each. See the main README and results/species_refine for the current candidates.
-
-原有 D 搜索记录见 [D optimization](D_OPTIMIZATION.md)；当前候选与物种面板见主 README。独立算法复核同一参考库，不构成独立生物样本验证。
+C++ 与 Python 独立扫描使用同一参考数据，属于算法复核，不等于独立生物样本验证。[分析脚本](../scripts/species_screening/README.md)作为过程记录保留，实际表现仍需实验验证。

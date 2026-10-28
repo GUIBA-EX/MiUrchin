@@ -27,9 +27,8 @@ The reference panel contains 165 species; S, M, L and XL have 55, 158, 159 and 5
 
 Coverage allows at most two mismatches per primer with compatible terminal 3 nt; exact matching requires zero mismatches at both primers. WC≤3 / GT≤2 are permissive background screens without the terminal constraint. Background counts refer to reference records.
 
-New D oligos have at most eight variants, with ambiguity confined to the 3′ half. Coverage-prioritised and exact-match-prioritised candidates are retained separately. Ordinary single pairs remain available; their performance was not reassessed on this panel.
+New D oligos have at most eight variants, with ambiguity confined to the 3′ half. Coverage-prioritised and exact-match-prioritised candidates are retained separately.
 
-M-R20-coverage matches 110/158 species (28 exactly), compared with 104/158 (21 exactly) for the previous D. L-R20-coverage matches 147/159 but has no exact matches; L-R20-exact matches 141/159 with 30 exact matches. The previous L D matched 145/159 with 28 exact matches. XL-R100-exact is identical to the previous XL D. Previous D results remain in the screening tables for comparison.
 
 ## Primer sequences (5′→3′)
 
@@ -37,7 +36,6 @@ M-R20-coverage matches 110/158 species (28 exactly), compared with 104/158 (21 e
 
 | Name | F | R |
 |---|---|---|
-| S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
 | S-R20-coverage | `TGTGTATAATGGATTAACGAGH` | `GCTTAGCTAAAACYAATTTCTYRG` |
 | S-R20-exact | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` |
 
@@ -49,7 +47,6 @@ M-R20-coverage matches 110/158 species (28 exactly), compared with 104/158 (21 e
 
 | Name | F | R |
 |---|---|---|
-| M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 | M-R20-coverage | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` |
 | M-R20-exact | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCKDAGTGGATCA` |
 
@@ -61,7 +58,6 @@ M-R20-coverage matches 110/158 species (28 exactly), compared with 104/158 (21 e
 
 | Name | F | R |
 |---|---|---|
-| L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
 | L-R20-coverage | `GTCTCCTAAATAAAGACTRGHATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCRCY` |
 | L-R20-exact | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` |
 
@@ -73,7 +69,6 @@ M-R20-coverage matches 110/158 species (28 exactly), compared with 104/158 (21 e
 
 | Name | F | R |
 |---|---|---|
-| XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
 | XL-R20-coverage | `AAATAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTY` |
 | XL-R20-exact | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` |
 | XL-R100-exact | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATRCYAGTCTY` |

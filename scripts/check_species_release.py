@@ -3,7 +3,7 @@ import csv,json,math,re,xml.etree.ElementTree as ET
 p=Path(__file__).resolve().parents[1]
 def read(f):
  with f.open() as h:return list(csv.DictReader(h))
-rows=read(p/'sequences/primer_pairs.csv');names=[r['name'] for r in rows];assert len(names)==len(set(names)) and not any(re.fullmatch(r'(?:S|M|L|XL)[AB]',n) for n in names)
+rows=read(p/'sequences/primer_pairs.csv');names=[r['name'] for r in rows];assert len(rows)==9 and all(r['source']=='species_screening' for r in rows);assert len(names)==len(set(names)) and not any(re.fullmatch(r'(?:S|M|L|XL)[AB]',n) for n in names)
 fa={}
 for line in (p/'sequences/primers.fasta').read_text().splitlines():
  if line.startswith('>'):k=line[1:];assert k not in fa;fa[k]=''

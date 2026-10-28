@@ -27,9 +27,8 @@
 
 覆盖：正反引物各最多 2 个错配、末端 3 nt 兼容；完全匹配：双引物零错配。WC≤3 / GT≤2 不施加末端约束。非目标统计为参考记录数。
 
-新 D 引物每条简并度不超过 8，简并位点限于 3′ 半段；覆盖优先和完全匹配优先候选分别保留。原有普通单对保留，其表现未在本轮新面板重新评价。
+新 D 引物每条简并度不超过 8，简并位点限于 3′ 半段；覆盖优先和完全匹配优先候选分别保留。
 
-M-R20-coverage 预测覆盖 110/158 个物种、完全匹配 28 个；原 D 分别为 104 和 21。L-R20-coverage 覆盖 147/159、完全匹配为 0；L-R20-exact 覆盖 141/159、完全匹配 30 个，原 L D 分别为 145 和 28。XL-R100-exact 的序列与原 XL D 相同。原 D 的对照结果保留在筛选表中。
 
 ## 引物序列（5′→3′）
 
@@ -37,7 +36,6 @@ M-R20-coverage 预测覆盖 110/158 个物种、完全匹配 28 个；原 D 分�
 
 | Name | F | R |
 |---|---|---|
-| S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
 | S-R20-coverage | `TGTGTATAATGGATTAACGAGH` | `GCTTAGCTAAAACYAATTTCTYRG` |
 | S-R20-exact | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` |
 
@@ -49,7 +47,6 @@ M-R20-coverage 预测覆盖 110/158 个物种、完全匹配 28 个；原 D 分�
 
 | Name | F | R |
 |---|---|---|
-| M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 | M-R20-coverage | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` |
 | M-R20-exact | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCKDAGTGGATCA` |
 
@@ -61,7 +58,6 @@ M-R20-coverage 预测覆盖 110/158 个物种、完全匹配 28 个；原 D 分�
 
 | Name | F | R |
 |---|---|---|
-| L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
 | L-R20-coverage | `GTCTCCTAAATAAAGACTRGHATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCRCY` |
 | L-R20-exact | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` |
 
@@ -73,7 +69,6 @@ M-R20-coverage 预测覆盖 110/158 个物种、完全匹配 28 个；原 D 分�
 
 | Name | F | R |
 |---|---|---|
-| XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
 | XL-R20-coverage | `AAATAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTY` |
 | XL-R20-exact | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` |
 | XL-R100-exact | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATRCYAGTCTY` |
@@ -86,4 +81,4 @@ M-R20-coverage 预测覆盖 110/158 个物种、完全匹配 28 个；原 D 分�
 
 计算预测需要实验验证。
 
-[Screening / 筛选结果](results/species_refine/README.md) · [Scripts / 脚本](scripts/species_screening/README.md) · [Methods / 方法](docs/METHODS.md) · [Validation / 验证](docs/VALIDATION.md) · [Copyright](COPYRIGHT.md)
+[Screening / 筛选结果](results/species_refine/README.md) · [Scripts / 脚本](scripts/species_screening/README.md) · [Methods / 方法](docs/METHODS.zh-CN.md) · [Validation / 验证](docs/VALIDATION.md) · [Copyright](COPYRIGHT.md)
