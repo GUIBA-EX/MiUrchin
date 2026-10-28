@@ -1,0 +1,5075 @@
+[
+  {
+    "name": "Allocentrotus fragilis",
+    "record": {
+      "AphiaID": 513096,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513096",
+      "scientificname": "Allocentrotus fragilis",
+      "authority": "(Jackson, 1912)",
+      "status": "unaccepted",
+      "unacceptreason": "unaccepted combination",
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 569742,
+      "valid_name": "Strongylocentrotus fragilis",
+      "valid_authority": "Jackson, 1912",
+      "parentNameUsageID": 512564,
+      "originalNameUsageID": 569742,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Allocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Allocentrotus fragilis (Jackson, 1912). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513096 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513096",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2012-03-14T08:13:38.587Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 123390,
+                              "rank": "Genus",
+                              "scientificname": "Strongylocentrotus",
+                              "child": {
+                                "AphiaID": 569742,
+                                "rank": "Species",
+                                "scientificname": "Strongylocentrotus fragilis",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Allocentrotus%20fragilis?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Araeosoma owstoni",
+    "record": {
+      "AphiaID": 513119,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513119",
+      "scientificname": "Araeosoma owstoni",
+      "authority": "Mortensen, 1904",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513119,
+      "valid_name": "Araeosoma owstoni",
+      "valid_authority": "Mortensen, 1904",
+      "parentNameUsageID": 123396,
+      "originalNameUsageID": 513119,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Echinothurioida",
+      "family": "Echinothuriidae",
+      "genus": "Araeosoma",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Araeosoma owstoni Mortensen, 1904. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513119 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513119",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2011-04-08T07:45:14.800Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 1572005,
+                    "rank": "Superorder",
+                    "scientificname": "Echinothuriacea",
+                    "child": {
+                      "AphiaID": 160732,
+                      "rank": "Order",
+                      "scientificname": "Echinothurioida",
+                      "child": {
+                        "AphiaID": 160734,
+                        "rank": "Family",
+                        "scientificname": "Echinothuriidae",
+                        "child": {
+                          "AphiaID": 559486,
+                          "rank": "Subfamily",
+                          "scientificname": "Echinothuriinae",
+                          "child": {
+                            "AphiaID": 123396,
+                            "rank": "Genus",
+                            "scientificname": "Araeosoma",
+                            "child": {
+                              "AphiaID": 513119,
+                              "rank": "Species",
+                              "scientificname": "Araeosoma owstoni",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Echinothurioida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Araeosoma%20owstoni?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Arbacia lixula",
+    "record": {
+      "AphiaID": 124249,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124249",
+      "scientificname": "Arbacia lixula",
+      "authority": "(Linnaeus, 1758)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 124249,
+      "valid_name": "Arbacia lixula",
+      "valid_authority": "(Linnaeus, 1758)",
+      "parentNameUsageID": 123371,
+      "originalNameUsageID": 124293,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Arbacioida",
+      "family": "Arbaciidae",
+      "genus": "Arbacia",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Arbacia lixula (Linnaeus, 1758). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=124249 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:124249",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 123097,
+                      "rank": "Order",
+                      "scientificname": "Arbacioida",
+                      "child": {
+                        "AphiaID": 123156,
+                        "rank": "Family",
+                        "scientificname": "Arbaciidae",
+                        "child": {
+                          "AphiaID": 123371,
+                          "rank": "Genus",
+                          "scientificname": "Arbacia",
+                          "child": {
+                            "AphiaID": 124249,
+                            "rank": "Species",
+                            "scientificname": "Arbacia lixula",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Arbacioida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Arbacia%20lixula?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Aspidodiadema arcitum",
+    "record": {
+      "AphiaID": 513129,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513129",
+      "scientificname": "Aspidodiadema arcitum",
+      "authority": "Mortensen, 1939",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513129,
+      "valid_name": "Aspidodiadema arcitum",
+      "valid_authority": "Mortensen, 1939",
+      "parentNameUsageID": 123392,
+      "originalNameUsageID": 513129,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Aspidodiadematoida",
+      "family": "Aspidodiadematidae",
+      "genus": "Aspidodiadema",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Aspidodiadema arcitum Mortensen, 1939. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513129 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513129",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 1572005,
+                    "rank": "Superorder",
+                    "scientificname": "Echinothuriacea",
+                    "child": {
+                      "AphiaID": 510515,
+                      "rank": "Order",
+                      "scientificname": "Aspidodiadematoida",
+                      "child": {
+                        "AphiaID": 123162,
+                        "rank": "Family",
+                        "scientificname": "Aspidodiadematidae",
+                        "child": {
+                          "AphiaID": 123392,
+                          "rank": "Genus",
+                          "scientificname": "Aspidodiadema",
+                          "child": {
+                            "AphiaID": 513129,
+                            "rank": "Species",
+                            "scientificname": "Aspidodiadema arcitum",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Aspidodiadematoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Aspidodiadema%20arcitum?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Asthenosoma ijimai",
+    "record": {
+      "AphiaID": 513135,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513135",
+      "scientificname": "Asthenosoma ijimai",
+      "authority": "Yoshiwara, 1897",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513135,
+      "valid_name": "Asthenosoma ijimai",
+      "valid_authority": "Yoshiwara, 1897",
+      "parentNameUsageID": 123397,
+      "originalNameUsageID": 513135,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Echinothurioida",
+      "family": "Echinothuriidae",
+      "genus": "Asthenosoma",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Asthenosoma ijimai Yoshiwara, 1897. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513135 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513135",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2011-04-08T07:45:14.800Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 1572005,
+                    "rank": "Superorder",
+                    "scientificname": "Echinothuriacea",
+                    "child": {
+                      "AphiaID": 160732,
+                      "rank": "Order",
+                      "scientificname": "Echinothurioida",
+                      "child": {
+                        "AphiaID": 160734,
+                        "rank": "Family",
+                        "scientificname": "Echinothuriidae",
+                        "child": {
+                          "AphiaID": 559486,
+                          "rank": "Subfamily",
+                          "scientificname": "Echinothuriinae",
+                          "child": {
+                            "AphiaID": 123397,
+                            "rank": "Genus",
+                            "scientificname": "Asthenosoma",
+                            "child": {
+                              "AphiaID": 513135,
+                              "rank": "Species",
+                              "scientificname": "Asthenosoma ijimai",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Echinothurioida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Asthenosoma%20ijimai?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Astriclypeus mannii",
+    "record": {
+      "AphiaID": 827660,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=827660",
+      "scientificname": "Astriclypeus mannii",
+      "authority": "Verrill, 1867",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 827660,
+      "valid_name": "Astriclypeus mannii",
+      "valid_authority": "Verrill, 1867",
+      "parentNameUsageID": 512721,
+      "originalNameUsageID": 827660,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Echinolampadacea",
+      "family": "Astriclypeidae",
+      "genus": "Astriclypeus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Astriclypeus mannii Verrill, 1867. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=827660 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:827660",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2014-12-14T20:32:29.543Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510499,
+                  "rank": "Infraclass",
+                  "scientificname": "Irregularia",
+                  "child": {
+                    "AphiaID": 510501,
+                    "rank": "Subterclass",
+                    "scientificname": "Neognathostomata",
+                    "child": {
+                      "AphiaID": 1572017,
+                      "rank": "Superorder",
+                      "scientificname": "Luminacea",
+                      "child": {
+                        "AphiaID": 1572018,
+                        "rank": "Order",
+                        "scientificname": "Echinolampadacea",
+                        "child": {
+                          "AphiaID": 1572019,
+                          "rank": "Suborder",
+                          "scientificname": "Scutelloida",
+                          "child": {
+                            "AphiaID": 510561,
+                            "rank": "Infraorder",
+                            "scientificname": "Scutelliformes",
+                            "child": {
+                              "AphiaID": 852321,
+                              "rank": "Superfamily",
+                              "scientificname": "Scutelloidea",
+                              "child": {
+                                "AphiaID": 196259,
+                                "rank": "Family",
+                                "scientificname": "Astriclypeidae",
+                                "child": {
+                                  "AphiaID": 512721,
+                                  "rank": "Genus",
+                                  "scientificname": "Astriclypeus",
+                                  "child": {
+                                    "AphiaID": 827660,
+                                    "rank": "Species",
+                                    "scientificname": "Astriclypeus mannii",
+                                    "child": null
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Echinolampadacea",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Astriclypeus%20mannii?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Caenopedina pulchella",
+    "record": {
+      "AphiaID": 456763,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=456763",
+      "scientificname": "Caenopedina pulchella",
+      "authority": "(A. Agassiz & H.L. Clark, 1907)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 456763,
+      "valid_name": "Caenopedina pulchella",
+      "valid_authority": "(A. Agassiz & H.L. Clark, 1907)",
+      "parentNameUsageID": 123404,
+      "originalNameUsageID": 458851,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Pedinoida",
+      "family": "Pedinidae",
+      "genus": "Caenopedina",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Caenopedina pulchella (A. Agassiz & H.L. Clark, 1907). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=456763 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:456763",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 1572005,
+                    "rank": "Superorder",
+                    "scientificname": "Echinothuriacea",
+                    "child": {
+                      "AphiaID": 123103,
+                      "rank": "Order",
+                      "scientificname": "Pedinoida",
+                      "child": {
+                        "AphiaID": 123165,
+                        "rank": "Family",
+                        "scientificname": "Pedinidae",
+                        "child": {
+                          "AphiaID": 123404,
+                          "rank": "Genus",
+                          "scientificname": "Caenopedina",
+                          "child": {
+                            "AphiaID": 456763,
+                            "rank": "Species",
+                            "scientificname": "Caenopedina pulchella",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Pedinoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Caenopedina%20pulchella?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Clypeaster virescens",
+    "record": {
+      "AphiaID": 513200,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513200",
+      "scientificname": "Clypeaster virescens",
+      "authority": "D\u00f6derlein, 1885",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513200,
+      "valid_name": "Clypeaster virescens",
+      "valid_authority": "D\u00f6derlein, 1885",
+      "parentNameUsageID": 205242,
+      "originalNameUsageID": 513200,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Clypeasteroida",
+      "family": "Clypeasteridae",
+      "genus": "Clypeaster",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Clypeaster virescens D\u00f6derlein, 1885. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513200 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513200",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510499,
+                  "rank": "Infraclass",
+                  "scientificname": "Irregularia",
+                  "child": {
+                    "AphiaID": 510501,
+                    "rank": "Subterclass",
+                    "scientificname": "Neognathostomata",
+                    "child": {
+                      "AphiaID": 1572017,
+                      "rank": "Superorder",
+                      "scientificname": "Luminacea",
+                      "child": {
+                        "AphiaID": 123100,
+                        "rank": "Order",
+                        "scientificname": "Clypeasteroida",
+                        "child": {
+                          "AphiaID": 196261,
+                          "rank": "Suborder",
+                          "scientificname": "Clypeasterina",
+                          "child": {
+                            "AphiaID": 196177,
+                            "rank": "Family",
+                            "scientificname": "Clypeasteridae",
+                            "child": {
+                              "AphiaID": 205242,
+                              "rank": "Genus",
+                              "scientificname": "Clypeaster",
+                              "child": {
+                                "AphiaID": 513200,
+                                "rank": "Species",
+                                "scientificname": "Clypeaster virescens",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Clypeasteroida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Clypeaster%20virescens?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Colobocentrotus mertensii",
+    "record": {
+      "AphiaID": 513208,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513208",
+      "scientificname": "Colobocentrotus mertensii",
+      "authority": "(Brandt, 1835)",
+      "status": "alternative representation",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 591110,
+      "valid_name": "Colobocentrotus (Colobocentrotus) mertensii",
+      "valid_authority": "(Brandt, 1835)",
+      "parentNameUsageID": 179654,
+      "originalNameUsageID": 820808,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Echinometridae",
+      "genus": "Colobocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Colobocentrotus mertensii (Brandt, 1835). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513208 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513208",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2021-01-10T20:04:13.127Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 179653,
+                            "rank": "Family",
+                            "scientificname": "Echinometridae",
+                            "child": {
+                              "AphiaID": 179654,
+                              "rank": "Genus",
+                              "scientificname": "Colobocentrotus",
+                              "child": {
+                                "AphiaID": 591109,
+                                "rank": "Subgenus",
+                                "scientificname": "Colobocentrotus (Colobocentrotus)",
+                                "child": {
+                                  "AphiaID": 591110,
+                                  "rank": "Species",
+                                  "scientificname": "Colobocentrotus (Colobocentrotus) mertensii",
+                                  "child": null
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Colobocentrotus%20mertensii?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Diadema antillarum",
+    "record": {
+      "AphiaID": 124332,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124332",
+      "scientificname": "Diadema antillarum",
+      "authority": "(Philippi, 1845)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 124332,
+      "valid_name": "Diadema antillarum",
+      "valid_authority": "(Philippi, 1845)",
+      "parentNameUsageID": 123395,
+      "originalNameUsageID": 125174,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Diadematoida",
+      "family": "Diadematidae",
+      "genus": "Diadema",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Diadema antillarum (Philippi, 1845). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=124332 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:124332",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2021-01-09T21:30:30.927Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 152528,
+                    "rank": "Superorder",
+                    "scientificname": "Diadematacea",
+                    "child": {
+                      "AphiaID": 510522,
+                      "rank": "Order",
+                      "scientificname": "Diadematoida",
+                      "child": {
+                        "AphiaID": 123163,
+                        "rank": "Family",
+                        "scientificname": "Diadematidae",
+                        "child": {
+                          "AphiaID": 123395,
+                          "rank": "Genus",
+                          "scientificname": "Diadema",
+                          "child": {
+                            "AphiaID": 124332,
+                            "rank": "Species",
+                            "scientificname": "Diadema antillarum",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Diadematoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Diadema%20antillarum?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Diadema setosum",
+    "record": {
+      "AphiaID": 213372,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213372",
+      "scientificname": "Diadema setosum",
+      "authority": "(Leske, 1778)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 213372,
+      "valid_name": "Diadema setosum",
+      "valid_authority": "(Leske, 1778)",
+      "parentNameUsageID": 123395,
+      "originalNameUsageID": 832520,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Diadematoida",
+      "family": "Diadematidae",
+      "genus": "Diadema",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Diadema setosum (Leske, 1778). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=213372 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:213372",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 152528,
+                    "rank": "Superorder",
+                    "scientificname": "Diadematacea",
+                    "child": {
+                      "AphiaID": 510522,
+                      "rank": "Order",
+                      "scientificname": "Diadematoida",
+                      "child": {
+                        "AphiaID": 123163,
+                        "rank": "Family",
+                        "scientificname": "Diadematidae",
+                        "child": {
+                          "AphiaID": 123395,
+                          "rank": "Genus",
+                          "scientificname": "Diadema",
+                          "child": {
+                            "AphiaID": 213372,
+                            "rank": "Species",
+                            "scientificname": "Diadema setosum",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Diadematoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Diadema%20setosum?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Echinocardium cordatum",
+    "record": {
+      "AphiaID": 124392,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124392",
+      "scientificname": "Echinocardium cordatum",
+      "authority": "(Pennant, 1777)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 124392,
+      "valid_name": "Echinocardium cordatum",
+      "valid_authority": "(Pennant, 1777)",
+      "parentNameUsageID": 123426,
+      "originalNameUsageID": 220991,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Spatangoida",
+      "family": "Loveniidae",
+      "genus": "Echinocardium",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Echinocardium cordatum (Pennant, 1777). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=124392 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:124392",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510499,
+                  "rank": "Infraclass",
+                  "scientificname": "Irregularia",
+                  "child": {
+                    "AphiaID": 149864,
+                    "rank": "Subterclass",
+                    "scientificname": "Atelostomata",
+                    "child": {
+                      "AphiaID": 123106,
+                      "rank": "Order",
+                      "scientificname": "Spatangoida",
+                      "child": {
+                        "AphiaID": 510538,
+                        "rank": "Suborder",
+                        "scientificname": "Brissidina",
+                        "child": {
+                          "AphiaID": 852322,
+                          "rank": "Superfamily",
+                          "scientificname": "Spatangoidea",
+                          "child": {
+                            "AphiaID": 123175,
+                            "rank": "Family",
+                            "scientificname": "Loveniidae",
+                            "child": {
+                              "AphiaID": 510892,
+                              "rank": "Subfamily",
+                              "scientificname": "Echinocardiinae",
+                              "child": {
+                                "AphiaID": 123426,
+                                "rank": "Genus",
+                                "scientificname": "Echinocardium",
+                                "child": {
+                                  "AphiaID": 124392,
+                                  "rank": "Species",
+                                  "scientificname": "Echinocardium cordatum",
+                                  "child": null
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Spatangoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Echinocardium%20cordatum?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Echinometra mathaei",
+    "record": {
+      "AphiaID": 213383,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213383",
+      "scientificname": "Echinometra mathaei",
+      "authority": "(Blainville, 1825)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 213383,
+      "valid_name": "Echinometra mathaei",
+      "valid_authority": "(Blainville, 1825)",
+      "parentNameUsageID": 179659,
+      "originalNameUsageID": 220992,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Echinometridae",
+      "genus": "Echinometra",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Echinometra mathaei (Blainville, 1825). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=213383 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:213383",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 179653,
+                            "rank": "Family",
+                            "scientificname": "Echinometridae",
+                            "child": {
+                              "AphiaID": 179659,
+                              "rank": "Genus",
+                              "scientificname": "Echinometra",
+                              "child": {
+                                "AphiaID": 213383,
+                                "rank": "Species",
+                                "scientificname": "Echinometra mathaei",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Echinometra%20mathaei?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Echinothrix calamaris",
+    "record": {
+      "AphiaID": 213377,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213377",
+      "scientificname": "Echinothrix calamaris",
+      "authority": "(Pallas, 1774)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 213377,
+      "valid_name": "Echinothrix calamaris",
+      "valid_authority": "(Pallas, 1774)",
+      "parentNameUsageID": 179636,
+      "originalNameUsageID": 220984,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Diadematoida",
+      "family": "Diadematidae",
+      "genus": "Echinothrix",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Echinothrix calamaris (Pallas, 1774). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=213377 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:213377",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 152528,
+                    "rank": "Superorder",
+                    "scientificname": "Diadematacea",
+                    "child": {
+                      "AphiaID": 510522,
+                      "rank": "Order",
+                      "scientificname": "Diadematoida",
+                      "child": {
+                        "AphiaID": 123163,
+                        "rank": "Family",
+                        "scientificname": "Diadematidae",
+                        "child": {
+                          "AphiaID": 179636,
+                          "rank": "Genus",
+                          "scientificname": "Echinothrix",
+                          "child": {
+                            "AphiaID": 213377,
+                            "rank": "Species",
+                            "scientificname": "Echinothrix calamaris",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Diadematoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Echinothrix%20calamaris?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Echinothrix diadema",
+    "record": {
+      "AphiaID": 213378,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213378",
+      "scientificname": "Echinothrix diadema",
+      "authority": "(Linnaeus, 1758)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 213378,
+      "valid_name": "Echinothrix diadema",
+      "valid_authority": "(Linnaeus, 1758)",
+      "parentNameUsageID": 179636,
+      "originalNameUsageID": 220985,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Diadematoida",
+      "family": "Diadematidae",
+      "genus": "Echinothrix",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Echinothrix diadema (Linnaeus, 1758). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=213378 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:213378",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 152528,
+                    "rank": "Superorder",
+                    "scientificname": "Diadematacea",
+                    "child": {
+                      "AphiaID": 510522,
+                      "rank": "Order",
+                      "scientificname": "Diadematoida",
+                      "child": {
+                        "AphiaID": 123163,
+                        "rank": "Family",
+                        "scientificname": "Diadematidae",
+                        "child": {
+                          "AphiaID": 179636,
+                          "rank": "Genus",
+                          "scientificname": "Echinothrix",
+                          "child": {
+                            "AphiaID": 213378,
+                            "rank": "Species",
+                            "scientificname": "Echinothrix diadema",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Diadematoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Echinothrix%20diadema?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Echinus esculentus",
+    "record": {
+      "AphiaID": 124287,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124287",
+      "scientificname": "Echinus esculentus",
+      "authority": "Linnaeus, 1758",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 124287,
+      "valid_name": "Echinus esculentus",
+      "valid_authority": "Linnaeus, 1758",
+      "parentNameUsageID": 123386,
+      "originalNameUsageID": 124287,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Echinidae",
+      "genus": "Echinus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Echinus esculentus Linnaeus, 1758. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=124287 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:124287",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2010-09-21T21:08:20.590Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 123160,
+                          "rank": "Family",
+                          "scientificname": "Echinidae",
+                          "child": {
+                            "AphiaID": 123386,
+                            "rank": "Genus",
+                            "scientificname": "Echinus",
+                            "child": {
+                              "AphiaID": 124287,
+                              "rank": "Species",
+                              "scientificname": "Echinus esculentus",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Echinus%20esculentus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Eucidaris tribuloides",
+    "record": {
+      "AphiaID": 396741,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=396741",
+      "scientificname": "Eucidaris tribuloides",
+      "authority": "(Lamarck, 1816)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 396741,
+      "valid_name": "Eucidaris tribuloides",
+      "valid_authority": "(Lamarck, 1816)",
+      "parentNameUsageID": 204525,
+      "originalNameUsageID": 568551,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Cidaroida",
+      "family": "Cidaridae",
+      "genus": "Eucidaris",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Eucidaris tribuloides (Lamarck, 1816). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=396741 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:396741",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 510498,
+                "rank": "Subclass",
+                "scientificname": "Cidaroidea",
+                "child": {
+                  "AphiaID": 123099,
+                  "rank": "Order",
+                  "scientificname": "Cidaroida",
+                  "child": {
+                    "AphiaID": 852318,
+                    "rank": "Superfamily",
+                    "scientificname": "Cidaroidea",
+                    "child": {
+                      "AphiaID": 123158,
+                      "rank": "Family",
+                      "scientificname": "Cidaridae",
+                      "child": {
+                        "AphiaID": 852323,
+                        "rank": "Subfamily",
+                        "scientificname": "Cidarinae",
+                        "child": {
+                          "AphiaID": 204525,
+                          "rank": "Genus",
+                          "scientificname": "Eucidaris",
+                          "child": {
+                            "AphiaID": 396741,
+                            "rank": "Species",
+                            "scientificname": "Eucidaris tribuloides",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Cidaroida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Eucidaris%20tribuloides?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Glyptocidaris crenularis",
+    "record": {
+      "AphiaID": 513284,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513284",
+      "scientificname": "Glyptocidaris crenularis",
+      "authority": "A. Agassiz, 1864",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513284,
+      "valid_name": "Glyptocidaris crenularis",
+      "valid_authority": "A. Agassiz, 1864",
+      "parentNameUsageID": 512516,
+      "originalNameUsageID": 513284,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Stomopneustoida",
+      "family": "Glyptocidaridae",
+      "genus": "Glyptocidaris",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Glyptocidaris crenularis A. Agassiz, 1864. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513284 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513284",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2014-10-31T07:01:18.227Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510530,
+                      "rank": "Order",
+                      "scientificname": "Stomopneustoida",
+                      "child": {
+                        "AphiaID": 510741,
+                        "rank": "Family",
+                        "scientificname": "Glyptocidaridae",
+                        "child": {
+                          "AphiaID": 512516,
+                          "rank": "Genus",
+                          "scientificname": "Glyptocidaris",
+                          "child": {
+                            "AphiaID": 513284,
+                            "rank": "Species",
+                            "scientificname": "Glyptocidaris crenularis",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Stomopneustoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Glyptocidaris%20crenularis?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Heliocidaris crassispina",
+    "record": {
+      "AphiaID": 513312,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513312",
+      "scientificname": "Heliocidaris crassispina",
+      "authority": "(A. Agassiz, 1864)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513312,
+      "valid_name": "Heliocidaris crassispina",
+      "valid_authority": "(A. Agassiz, 1864)",
+      "parentNameUsageID": 179681,
+      "originalNameUsageID": 569788,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Echinometridae",
+      "genus": "Heliocidaris",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Heliocidaris crassispina (A. Agassiz, 1864). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513312 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513312",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2014-10-31T07:01:18.227Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 179653,
+                            "rank": "Family",
+                            "scientificname": "Echinometridae",
+                            "child": {
+                              "AphiaID": 179681,
+                              "rank": "Genus",
+                              "scientificname": "Heliocidaris",
+                              "child": {
+                                "AphiaID": 513312,
+                                "rank": "Species",
+                                "scientificname": "Heliocidaris crassispina",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Heliocidaris%20crassispina?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Hemicentrotus pulcherrimus",
+    "record": {
+      "AphiaID": 513318,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513318",
+      "scientificname": "Hemicentrotus pulcherrimus",
+      "authority": "(A. Agassiz, 1864)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513318,
+      "valid_name": "Hemicentrotus pulcherrimus",
+      "valid_authority": "(A. Agassiz, 1864)",
+      "parentNameUsageID": 512565,
+      "originalNameUsageID": 569548,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Hemicentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Hemicentrotus pulcherrimus (A. Agassiz, 1864). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513318 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513318",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2014-10-31T07:01:18.227Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 512565,
+                              "rank": "Genus",
+                              "scientificname": "Hemicentrotus",
+                              "child": {
+                                "AphiaID": 513318,
+                                "rank": "Species",
+                                "scientificname": "Hemicentrotus pulcherrimus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Hemicentrotus%20pulcherrimus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Heterocentrotus mammillatus",
+    "record": {
+      "AphiaID": 213385,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213385",
+      "scientificname": "Heterocentrotus mammillatus",
+      "authority": "(Linnaeus, 1758)",
+      "status": "unaccepted",
+      "unacceptreason": "incorrect subsequent spelling",
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 568045,
+      "valid_name": "Heterocentrotus mamillatus",
+      "valid_authority": "(Linnaeus, 1758)",
+      "parentNameUsageID": 205582,
+      "originalNameUsageID": 568964,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Echinometridae",
+      "genus": "Heterocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Heterocentrotus mammillatus (Linnaeus, 1758). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=213385 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:213385",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2021-01-10T20:04:13.127Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 179653,
+                            "rank": "Family",
+                            "scientificname": "Echinometridae",
+                            "child": {
+                              "AphiaID": 205582,
+                              "rank": "Genus",
+                              "scientificname": "Heterocentrotus",
+                              "child": {
+                                "AphiaID": 568045,
+                                "rank": "Species",
+                                "scientificname": "Heterocentrotus mamillatus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Heterocentrotus%20mammillatus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Loxechinus albus",
+    "record": {
+      "AphiaID": 160809,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=160809",
+      "scientificname": "Loxechinus albus",
+      "authority": "(Molina, 1782)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 160809,
+      "valid_name": "Loxechinus albus",
+      "valid_authority": "(Molina, 1782)",
+      "parentNameUsageID": 160750,
+      "originalNameUsageID": 568906,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Parechinidae",
+      "genus": "Loxechinus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Loxechinus albus (Molina, 1782). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=160809 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:160809",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510797,
+                          "rank": "Family",
+                          "scientificname": "Parechinidae",
+                          "child": {
+                            "AphiaID": 160750,
+                            "rank": "Genus",
+                            "scientificname": "Loxechinus",
+                            "child": {
+                              "AphiaID": 160809,
+                              "rank": "Species",
+                              "scientificname": "Loxechinus albus",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Loxechinus%20albus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Lytechinus pictus",
+    "record": {
+      "AphiaID": 513378,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513378",
+      "scientificname": "Lytechinus pictus",
+      "authority": "(Verrill, 1867)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513378,
+      "valid_name": "Lytechinus pictus",
+      "valid_authority": "(Verrill, 1867)",
+      "parentNameUsageID": 240777,
+      "originalNameUsageID": 569545,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Toxopneustidae",
+      "genus": "Lytechinus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Lytechinus pictus (Verrill, 1867). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513378 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513378",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123179,
+                            "rank": "Family",
+                            "scientificname": "Toxopneustidae",
+                            "child": {
+                              "AphiaID": 240777,
+                              "rank": "Genus",
+                              "scientificname": "Lytechinus",
+                              "child": {
+                                "AphiaID": 513378,
+                                "rank": "Species",
+                                "scientificname": "Lytechinus pictus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Lytechinus%20pictus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Lytechinus variegatus",
+    "record": {
+      "AphiaID": 367850,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=367850",
+      "scientificname": "Lytechinus variegatus",
+      "authority": "(Lamarck, 1816)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 367850,
+      "valid_name": "Lytechinus variegatus",
+      "valid_authority": "(Lamarck, 1816)",
+      "parentNameUsageID": 240777,
+      "originalNameUsageID": 569022,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Toxopneustidae",
+      "genus": "Lytechinus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Lytechinus variegatus (Lamarck, 1816). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=367850 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:367850",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123179,
+                            "rank": "Family",
+                            "scientificname": "Toxopneustidae",
+                            "child": {
+                              "AphiaID": 240777,
+                              "rank": "Genus",
+                              "scientificname": "Lytechinus",
+                              "child": {
+                                "AphiaID": 367850,
+                                "rank": "Species",
+                                "scientificname": "Lytechinus variegatus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Lytechinus%20variegatus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Mesocentrotus franciscanus",
+    "record": {
+      "AphiaID": 591102,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=591102",
+      "scientificname": "Mesocentrotus franciscanus",
+      "authority": "(A. Agassiz, 1863)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 591102,
+      "valid_name": "Mesocentrotus franciscanus",
+      "valid_authority": "(A. Agassiz, 1863)",
+      "parentNameUsageID": 591101,
+      "originalNameUsageID": 569793,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Mesocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Mesocentrotus franciscanus (A. Agassiz, 1863). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=591102 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:591102",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2011-12-19T21:15:59.930Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 591101,
+                              "rank": "Genus",
+                              "scientificname": "Mesocentrotus",
+                              "child": {
+                                "AphiaID": 591102,
+                                "rank": "Species",
+                                "scientificname": "Mesocentrotus franciscanus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Mesocentrotus%20franciscanus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Mesocentrotus nudus",
+    "record": {
+      "AphiaID": 591103,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=591103",
+      "scientificname": "Mesocentrotus nudus",
+      "authority": "(A. Agassiz, 1864)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 591103,
+      "valid_name": "Mesocentrotus nudus",
+      "valid_authority": "(A. Agassiz, 1864)",
+      "parentNameUsageID": 591101,
+      "originalNameUsageID": 569801,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Mesocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Mesocentrotus nudus (A. Agassiz, 1864). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=591103 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:591103",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2014-10-31T07:01:18.227Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 591101,
+                              "rank": "Genus",
+                              "scientificname": "Mesocentrotus",
+                              "child": {
+                                "AphiaID": 591103,
+                                "rank": "Species",
+                                "scientificname": "Mesocentrotus nudus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Mesocentrotus%20nudus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Nacospatangus altus",
+    "record": {
+      "AphiaID": 513408,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513408",
+      "scientificname": "Nacospatangus altus",
+      "authority": "(A. Agassiz, 1864)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513408,
+      "valid_name": "Nacospatangus altus",
+      "valid_authority": "(A. Agassiz, 1864)",
+      "parentNameUsageID": 512882,
+      "originalNameUsageID": 569323,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Spatangoida",
+      "family": "Maretiidae",
+      "genus": "Nacospatangus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Nacospatangus altus (A. Agassiz, 1864). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513408 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513408",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2018-06-19T05:46:46.363Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510499,
+                  "rank": "Infraclass",
+                  "scientificname": "Irregularia",
+                  "child": {
+                    "AphiaID": 149864,
+                    "rank": "Subterclass",
+                    "scientificname": "Atelostomata",
+                    "child": {
+                      "AphiaID": 123106,
+                      "rank": "Order",
+                      "scientificname": "Spatangoida",
+                      "child": {
+                        "AphiaID": 510538,
+                        "rank": "Suborder",
+                        "scientificname": "Brissidina",
+                        "child": {
+                          "AphiaID": 852322,
+                          "rank": "Superfamily",
+                          "scientificname": "Spatangoidea",
+                          "child": {
+                            "AphiaID": 510781,
+                            "rank": "Family",
+                            "scientificname": "Maretiidae",
+                            "child": {
+                              "AphiaID": 512882,
+                              "rank": "Genus",
+                              "scientificname": "Nacospatangus",
+                              "child": {
+                                "AphiaID": 513408,
+                                "rank": "Species",
+                                "scientificname": "Nacospatangus altus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Spatangoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Nacospatangus%20altus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Paracentrotus lividus",
+    "record": {
+      "AphiaID": 124316,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124316",
+      "scientificname": "Paracentrotus lividus",
+      "authority": "(Lamarck, 1816)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 124316,
+      "valid_name": "Paracentrotus lividus",
+      "valid_authority": "(Lamarck, 1816)",
+      "parentNameUsageID": 123387,
+      "originalNameUsageID": 124292,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Parechinidae",
+      "genus": "Paracentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Paracentrotus lividus (Lamarck, 1816). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=124316 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:124316",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2010-11-23T12:45:21.540Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510797,
+                          "rank": "Family",
+                          "scientificname": "Parechinidae",
+                          "child": {
+                            "AphiaID": 123387,
+                            "rank": "Genus",
+                            "scientificname": "Paracentrotus",
+                            "child": {
+                              "AphiaID": 124316,
+                              "rank": "Species",
+                              "scientificname": "Paracentrotus lividus",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Paracentrotus%20lividus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Parechinus angulosus",
+    "record": {
+      "AphiaID": 220995,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220995",
+      "scientificname": "Parechinus angulosus",
+      "authority": "(Leske, 1778)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 220995,
+      "valid_name": "Parechinus angulosus",
+      "valid_authority": "(Leske, 1778)",
+      "parentNameUsageID": 123388,
+      "originalNameUsageID": 568394,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Parechinidae",
+      "genus": "Parechinus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Parechinus angulosus (Leske, 1778). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=220995 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:220995",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510797,
+                          "rank": "Family",
+                          "scientificname": "Parechinidae",
+                          "child": {
+                            "AphiaID": 123388,
+                            "rank": "Genus",
+                            "scientificname": "Parechinus",
+                            "child": {
+                              "AphiaID": 220995,
+                              "rank": "Species",
+                              "scientificname": "Parechinus angulosus",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Parechinus%20angulosus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Phormosoma bursarium",
+    "record": {
+      "AphiaID": 214650,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=214650",
+      "scientificname": "Phormosoma bursarium",
+      "authority": "A. Agassiz, 1881",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 214650,
+      "valid_name": "Phormosoma bursarium",
+      "valid_authority": "A. Agassiz, 1881",
+      "parentNameUsageID": 123401,
+      "originalNameUsageID": 214650,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Echinothurioida",
+      "family": "Phormosomatidae",
+      "genus": "Phormosoma",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Phormosoma bursarium A. Agassiz, 1881. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=214650 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:214650",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2011-04-08T07:45:14.800Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510502,
+                  "rank": "Infraclass",
+                  "scientificname": "Aulodonta",
+                  "child": {
+                    "AphiaID": 1572005,
+                    "rank": "Superorder",
+                    "scientificname": "Echinothuriacea",
+                    "child": {
+                      "AphiaID": 160732,
+                      "rank": "Order",
+                      "scientificname": "Echinothurioida",
+                      "child": {
+                        "AphiaID": 196184,
+                        "rank": "Family",
+                        "scientificname": "Phormosomatidae",
+                        "child": {
+                          "AphiaID": 123401,
+                          "rank": "Genus",
+                          "scientificname": "Phormosoma",
+                          "child": {
+                            "AphiaID": 214650,
+                            "rank": "Species",
+                            "scientificname": "Phormosoma bursarium",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Echinothurioida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Phormosoma%20bursarium?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Prionocidaris baculosa",
+    "record": {
+      "AphiaID": 214642,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=214642",
+      "scientificname": "Prionocidaris baculosa",
+      "authority": "(Lamarck, 1816)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 214642,
+      "valid_name": "Prionocidaris baculosa",
+      "valid_authority": "(Lamarck, 1816)",
+      "parentNameUsageID": 179627,
+      "originalNameUsageID": 568538,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Cidaroida",
+      "family": "Cidaridae",
+      "genus": "Prionocidaris",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Prionocidaris baculosa (Lamarck, 1816). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=214642 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:214642",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 510498,
+                "rank": "Subclass",
+                "scientificname": "Cidaroidea",
+                "child": {
+                  "AphiaID": 123099,
+                  "rank": "Order",
+                  "scientificname": "Cidaroida",
+                  "child": {
+                    "AphiaID": 852318,
+                    "rank": "Superfamily",
+                    "scientificname": "Cidaroidea",
+                    "child": {
+                      "AphiaID": 123158,
+                      "rank": "Family",
+                      "scientificname": "Cidaridae",
+                      "child": {
+                        "AphiaID": 598989,
+                        "rank": "Subfamily",
+                        "scientificname": "Stylocidarinae",
+                        "child": {
+                          "AphiaID": 179627,
+                          "rank": "Genus",
+                          "scientificname": "Prionocidaris",
+                          "child": {
+                            "AphiaID": 214642,
+                            "rank": "Species",
+                            "scientificname": "Prionocidaris baculosa",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Cidaroida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Prionocidaris%20baculosa?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Pseudoboletia maculata",
+    "record": {
+      "AphiaID": 214456,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=214456",
+      "scientificname": "Pseudoboletia maculata",
+      "authority": "Troschel, 1869",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 214456,
+      "valid_name": "Pseudoboletia maculata",
+      "valid_authority": "Troschel, 1869",
+      "parentNameUsageID": 204373,
+      "originalNameUsageID": 214456,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Toxopneustidae",
+      "genus": "Pseudoboletia",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Pseudoboletia maculata Troschel, 1869. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=214456 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:214456",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123179,
+                            "rank": "Family",
+                            "scientificname": "Toxopneustidae",
+                            "child": {
+                              "AphiaID": 204373,
+                              "rank": "Genus",
+                              "scientificname": "Pseudoboletia",
+                              "child": {
+                                "AphiaID": 214456,
+                                "rank": "Species",
+                                "scientificname": "Pseudoboletia maculata",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Pseudoboletia%20maculata?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Pseudocentrotus depressus",
+    "record": {
+      "AphiaID": 513503,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513503",
+      "scientificname": "Pseudocentrotus depressus",
+      "authority": "(A. Agassiz, 1864)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513503,
+      "valid_name": "Pseudocentrotus depressus",
+      "valid_authority": "(A. Agassiz, 1864)",
+      "parentNameUsageID": 512566,
+      "originalNameUsageID": 569789,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Pseudocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Pseudocentrotus depressus (A. Agassiz, 1864). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513503 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513503",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2014-10-31T07:01:18.227Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 512566,
+                              "rank": "Genus",
+                              "scientificname": "Pseudocentrotus",
+                              "child": {
+                                "AphiaID": 513503,
+                                "rank": "Species",
+                                "scientificname": "Pseudocentrotus depressus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Pseudocentrotus%20depressus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Pygmaeocidaris prionigera",
+    "record": {
+      "AphiaID": 513508,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513508",
+      "scientificname": "Pygmaeocidaris prionigera",
+      "authority": "(A. Agassiz, 1879)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513508,
+      "valid_name": "Pygmaeocidaris prionigera",
+      "valid_authority": "(A. Agassiz, 1879)",
+      "parentNameUsageID": 512531,
+      "originalNameUsageID": 569500,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Arbacioida",
+      "family": "Arbaciidae",
+      "genus": "Pygmaeocidaris",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Pygmaeocidaris prionigera (A. Agassiz, 1879). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513508 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513508",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 123097,
+                      "rank": "Order",
+                      "scientificname": "Arbacioida",
+                      "child": {
+                        "AphiaID": 123156,
+                        "rank": "Family",
+                        "scientificname": "Arbaciidae",
+                        "child": {
+                          "AphiaID": 512531,
+                          "rank": "Genus",
+                          "scientificname": "Pygmaeocidaris",
+                          "child": {
+                            "AphiaID": 513508,
+                            "rank": "Species",
+                            "scientificname": "Pygmaeocidaris prionigera",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Arbacioida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Pygmaeocidaris%20prionigera?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Salmacis sphaeroides",
+    "record": {
+      "AphiaID": 513533,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513533",
+      "scientificname": "Salmacis sphaeroides",
+      "authority": "(Linnaeus, 1758)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513533,
+      "valid_name": "Salmacis sphaeroides",
+      "valid_authority": "(Linnaeus, 1758)",
+      "parentNameUsageID": 179699,
+      "originalNameUsageID": 569012,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Temnopleuridae",
+      "genus": "Salmacis",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Salmacis sphaeroides (Linnaeus, 1758). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513533 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513533",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510536,
+                        "rank": "Infraorder",
+                        "scientificname": "Temnopleuridea",
+                        "child": {
+                          "AphiaID": 123178,
+                          "rank": "Family",
+                          "scientificname": "Temnopleuridae",
+                          "child": {
+                            "AphiaID": 179699,
+                            "rank": "Genus",
+                            "scientificname": "Salmacis",
+                            "child": {
+                              "AphiaID": 513533,
+                              "rank": "Species",
+                              "scientificname": "Salmacis sphaeroides",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Salmacis%20sphaeroides?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Sinaechinocyamus mai",
+    "record": {
+      "AphiaID": 570689,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=570689",
+      "scientificname": "Sinaechinocyamus mai",
+      "authority": "(Wang, 1984)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 570689,
+      "valid_name": "Sinaechinocyamus mai",
+      "valid_authority": "(Wang, 1984)",
+      "parentNameUsageID": 512947,
+      "originalNameUsageID": 513030,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Echinolampadacea",
+      "family": "Taiwanasteridae",
+      "genus": "Sinaechinocyamus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Sinaechinocyamus mai (Wang, 1984). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=570689 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:570689",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2011-04-28T10:05:18.087Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510499,
+                  "rank": "Infraclass",
+                  "scientificname": "Irregularia",
+                  "child": {
+                    "AphiaID": 510501,
+                    "rank": "Subterclass",
+                    "scientificname": "Neognathostomata",
+                    "child": {
+                      "AphiaID": 1572017,
+                      "rank": "Superorder",
+                      "scientificname": "Luminacea",
+                      "child": {
+                        "AphiaID": 1572018,
+                        "rank": "Order",
+                        "scientificname": "Echinolampadacea",
+                        "child": {
+                          "AphiaID": 1572019,
+                          "rank": "Suborder",
+                          "scientificname": "Scutelloida",
+                          "child": {
+                            "AphiaID": 510561,
+                            "rank": "Infraorder",
+                            "scientificname": "Scutelliformes",
+                            "child": {
+                              "AphiaID": 510844,
+                              "rank": "Family",
+                              "scientificname": "Taiwanasteridae",
+                              "child": {
+                                "AphiaID": 512947,
+                                "rank": "Genus",
+                                "scientificname": "Sinaechinocyamus",
+                                "child": {
+                                  "AphiaID": 570689,
+                                  "rank": "Species",
+                                  "scientificname": "Sinaechinocyamus mai",
+                                  "child": null
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Echinolampadacea",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Sinaechinocyamus%20mai?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Sterechinus neumayeri",
+    "record": {
+      "AphiaID": 160831,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=160831",
+      "scientificname": "Sterechinus neumayeri",
+      "authority": "(Meissner, 1900)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 160831,
+      "valid_name": "Sterechinus neumayeri",
+      "valid_authority": "(Meissner, 1900)",
+      "parentNameUsageID": 160756,
+      "originalNameUsageID": 568973,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Echinidae",
+      "genus": "Sterechinus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Sterechinus neumayeri (Meissner, 1900). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=160831 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:160831",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 123160,
+                          "rank": "Family",
+                          "scientificname": "Echinidae",
+                          "child": {
+                            "AphiaID": 160756,
+                            "rank": "Genus",
+                            "scientificname": "Sterechinus",
+                            "child": {
+                              "AphiaID": 160831,
+                              "rank": "Species",
+                              "scientificname": "Sterechinus neumayeri",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Sterechinus%20neumayeri?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Stomopneustes variolaris",
+    "record": {
+      "AphiaID": 212440,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212440",
+      "scientificname": "Stomopneustes variolaris",
+      "authority": "(Lamarck, 1816)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 212440,
+      "valid_name": "Stomopneustes variolaris",
+      "valid_authority": "(Lamarck, 1816)",
+      "parentNameUsageID": 206173,
+      "originalNameUsageID": 220982,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Stomopneustoida",
+      "family": "Stomopneustidae",
+      "genus": "Stomopneustes",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Stomopneustes variolaris (Lamarck, 1816). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=212440 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:212440",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510530,
+                      "rank": "Order",
+                      "scientificname": "Stomopneustoida",
+                      "child": {
+                        "AphiaID": 196251,
+                        "rank": "Family",
+                        "scientificname": "Stomopneustidae",
+                        "child": {
+                          "AphiaID": 206173,
+                          "rank": "Genus",
+                          "scientificname": "Stomopneustes",
+                          "child": {
+                            "AphiaID": 212440,
+                            "rank": "Species",
+                            "scientificname": "Stomopneustes variolaris",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Stomopneustoida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Stomopneustes%20variolaris?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Strongylocentrotus droebachiensis",
+    "record": {
+      "AphiaID": 124321,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124321",
+      "scientificname": "Strongylocentrotus droebachiensis",
+      "authority": "(O.F. M\u00fcller, 1776)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 124321,
+      "valid_name": "Strongylocentrotus droebachiensis",
+      "valid_authority": "(O.F. M\u00fcller, 1776)",
+      "parentNameUsageID": 123390,
+      "originalNameUsageID": 568930,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Strongylocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Strongylocentrotus droebachiensis (O.F. M\u00fcller, 1776). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=124321 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:124321",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2012-01-21T20:02:04.437Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 123390,
+                              "rank": "Genus",
+                              "scientificname": "Strongylocentrotus",
+                              "child": {
+                                "AphiaID": 124321,
+                                "rank": "Species",
+                                "scientificname": "Strongylocentrotus droebachiensis",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Strongylocentrotus%20droebachiensis?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Strongylocentrotus intermedius",
+    "record": {
+      "AphiaID": 513570,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513570",
+      "scientificname": "Strongylocentrotus intermedius",
+      "authority": "(A. Agassiz, 1864)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513570,
+      "valid_name": "Strongylocentrotus intermedius",
+      "valid_authority": "(A. Agassiz, 1864)",
+      "parentNameUsageID": 123390,
+      "originalNameUsageID": 569538,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Strongylocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Strongylocentrotus intermedius (A. Agassiz, 1864). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513570 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513570",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2014-10-31T07:01:18.227Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 123390,
+                              "rank": "Genus",
+                              "scientificname": "Strongylocentrotus",
+                              "child": {
+                                "AphiaID": 513570,
+                                "rank": "Species",
+                                "scientificname": "Strongylocentrotus intermedius",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Strongylocentrotus%20intermedius?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Strongylocentrotus pallidus",
+    "record": {
+      "AphiaID": 124324,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124324",
+      "scientificname": "Strongylocentrotus pallidus",
+      "authority": "(Sars G.O., 1872)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 124324,
+      "valid_name": "Strongylocentrotus pallidus",
+      "valid_authority": "(Sars G.O., 1872)",
+      "parentNameUsageID": 123390,
+      "originalNameUsageID": 569822,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Strongylocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Strongylocentrotus pallidus (Sars G.O., 1872). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=124324 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:124324",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2014-10-31T07:01:18.227Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 123390,
+                              "rank": "Genus",
+                              "scientificname": "Strongylocentrotus",
+                              "child": {
+                                "AphiaID": 124324,
+                                "rank": "Species",
+                                "scientificname": "Strongylocentrotus pallidus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Strongylocentrotus%20pallidus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Strongylocentrotus purpuratus",
+    "record": {
+      "AphiaID": 240747,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=240747",
+      "scientificname": "Strongylocentrotus purpuratus",
+      "authority": "(Stimpson, 1857)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 240747,
+      "valid_name": "Strongylocentrotus purpuratus",
+      "valid_authority": "(Stimpson, 1857)",
+      "parentNameUsageID": 123390,
+      "originalNameUsageID": 568996,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Strongylocentrotidae",
+      "genus": "Strongylocentrotus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Strongylocentrotus purpuratus (Stimpson, 1857). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=240747 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:240747",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123161,
+                            "rank": "Family",
+                            "scientificname": "Strongylocentrotidae",
+                            "child": {
+                              "AphiaID": 123390,
+                              "rank": "Genus",
+                              "scientificname": "Strongylocentrotus",
+                              "child": {
+                                "AphiaID": 240747,
+                                "rank": "Species",
+                                "scientificname": "Strongylocentrotus purpuratus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Strongylocentrotus%20purpuratus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Stylocidaris reini",
+    "record": {
+      "AphiaID": 513586,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513586",
+      "scientificname": "Stylocidaris reini",
+      "authority": "(D\u00f6derlein, 1887)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513586,
+      "valid_name": "Stylocidaris reini",
+      "valid_authority": "(D\u00f6derlein, 1887)",
+      "parentNameUsageID": 123383,
+      "originalNameUsageID": 568522,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Cidaroida",
+      "family": "Cidaridae",
+      "genus": "Stylocidaris",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Stylocidaris reini (D\u00f6derlein, 1887). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513586 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513586",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 510498,
+                "rank": "Subclass",
+                "scientificname": "Cidaroidea",
+                "child": {
+                  "AphiaID": 123099,
+                  "rank": "Order",
+                  "scientificname": "Cidaroida",
+                  "child": {
+                    "AphiaID": 852318,
+                    "rank": "Superfamily",
+                    "scientificname": "Cidaroidea",
+                    "child": {
+                      "AphiaID": 123158,
+                      "rank": "Family",
+                      "scientificname": "Cidaridae",
+                      "child": {
+                        "AphiaID": 598989,
+                        "rank": "Subfamily",
+                        "scientificname": "Stylocidarinae",
+                        "child": {
+                          "AphiaID": 123383,
+                          "rank": "Genus",
+                          "scientificname": "Stylocidaris",
+                          "child": {
+                            "AphiaID": 513586,
+                            "rank": "Species",
+                            "scientificname": "Stylocidaris reini",
+                            "child": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Cidaroida",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Stylocidaris%20reini?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Temnopleurus hardwickii",
+    "record": {
+      "AphiaID": 513593,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513593",
+      "scientificname": "Temnopleurus hardwickii",
+      "authority": "(Gray, 1855)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 513593,
+      "valid_name": "Temnopleurus hardwickii",
+      "valid_authority": "(Gray, 1855)",
+      "parentNameUsageID": 179691,
+      "originalNameUsageID": 569782,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Temnopleuridae",
+      "genus": "Temnopleurus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Temnopleurus hardwickii (Gray, 1855). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=513593 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:513593",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510536,
+                        "rank": "Infraorder",
+                        "scientificname": "Temnopleuridea",
+                        "child": {
+                          "AphiaID": 123178,
+                          "rank": "Family",
+                          "scientificname": "Temnopleuridae",
+                          "child": {
+                            "AphiaID": 179691,
+                            "rank": "Genus",
+                            "scientificname": "Temnopleurus",
+                            "child": {
+                              "AphiaID": 513593,
+                              "rank": "Species",
+                              "scientificname": "Temnopleurus hardwickii",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Temnopleurus%20hardwickii?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Temnopleurus reevesii",
+    "record": {
+      "AphiaID": 179693,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=179693",
+      "scientificname": "Temnopleurus reevesii",
+      "authority": "(Gray, 1855)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 179693,
+      "valid_name": "Temnopleurus reevesii",
+      "valid_authority": "(Gray, 1855)",
+      "parentNameUsageID": 179691,
+      "originalNameUsageID": 216210,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Temnopleuridae",
+      "genus": "Temnopleurus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Temnopleurus reevesii (Gray, 1855). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=179693 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:179693",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510536,
+                        "rank": "Infraorder",
+                        "scientificname": "Temnopleuridea",
+                        "child": {
+                          "AphiaID": 123178,
+                          "rank": "Family",
+                          "scientificname": "Temnopleuridae",
+                          "child": {
+                            "AphiaID": 179691,
+                            "rank": "Genus",
+                            "scientificname": "Temnopleurus",
+                            "child": {
+                              "AphiaID": 179693,
+                              "rank": "Species",
+                              "scientificname": "Temnopleurus reevesii",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Temnopleurus%20reevesii?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Temnopleurus toreumaticus",
+    "record": {
+      "AphiaID": 214667,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=214667",
+      "scientificname": "Temnopleurus toreumaticus",
+      "authority": "(Leske, 1778)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 214667,
+      "valid_name": "Temnopleurus toreumaticus",
+      "valid_authority": "(Leske, 1778)",
+      "parentNameUsageID": 179691,
+      "originalNameUsageID": null,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Temnopleuridae",
+      "genus": "Temnopleurus",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Temnopleurus toreumaticus (Leske, 1778). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=214667 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:214667",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510536,
+                        "rank": "Infraorder",
+                        "scientificname": "Temnopleuridea",
+                        "child": {
+                          "AphiaID": 123178,
+                          "rank": "Family",
+                          "scientificname": "Temnopleuridae",
+                          "child": {
+                            "AphiaID": 179691,
+                            "rank": "Genus",
+                            "scientificname": "Temnopleurus",
+                            "child": {
+                              "AphiaID": 214667,
+                              "rank": "Species",
+                              "scientificname": "Temnopleurus toreumaticus",
+                              "child": null
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Temnopleurus%20toreumaticus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Toxopneustes pileolus",
+    "record": {
+      "AphiaID": 212449,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212449",
+      "scientificname": "Toxopneustes pileolus",
+      "authority": "(Lamarck, 1816)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 212449,
+      "valid_name": "Toxopneustes pileolus",
+      "valid_authority": "(Lamarck, 1816)",
+      "parentNameUsageID": 123391,
+      "originalNameUsageID": 220981,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Toxopneustidae",
+      "genus": "Toxopneustes",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Toxopneustes pileolus (Lamarck, 1816). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=212449 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:212449",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2011-01-23T21:47:35.367Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123179,
+                            "rank": "Family",
+                            "scientificname": "Toxopneustidae",
+                            "child": {
+                              "AphiaID": 123391,
+                              "rank": "Genus",
+                              "scientificname": "Toxopneustes",
+                              "child": {
+                                "AphiaID": 212449,
+                                "rank": "Species",
+                                "scientificname": "Toxopneustes pileolus",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Toxopneustes%20pileolus?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Tripneustes gratilla",
+    "record": {
+      "AphiaID": 212453,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212453",
+      "scientificname": "Tripneustes gratilla",
+      "authority": "(Linnaeus, 1758)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 212453,
+      "valid_name": "Tripneustes gratilla",
+      "valid_authority": "(Linnaeus, 1758)",
+      "parentNameUsageID": 206063,
+      "originalNameUsageID": 220979,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Toxopneustidae",
+      "genus": "Tripneustes",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Tripneustes gratilla (Linnaeus, 1758). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=212453 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:212453",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2013-08-26T18:24:18.240Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123179,
+                            "rank": "Family",
+                            "scientificname": "Toxopneustidae",
+                            "child": {
+                              "AphiaID": 206063,
+                              "rank": "Genus",
+                              "scientificname": "Tripneustes",
+                              "child": {
+                                "AphiaID": 212453,
+                                "rank": "Species",
+                                "scientificname": "Tripneustes gratilla",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Tripneustes%20gratilla?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  },
+  {
+    "name": "Tripneustes kermadecensis",
+    "record": {
+      "AphiaID": 1075052,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1075052",
+      "scientificname": "Tripneustes kermadecensis",
+      "authority": "Bronstein, Kroh, Tautscher, Liggins & Haring, 2017",
+      "status": "junior subjective synonym",
+      "unacceptreason": "placed in synonymy of Tripneustes australiae by McLaren et al. 2023: p. 751",
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 1717655,
+      "valid_name": "Tripneustes australiae",
+      "valid_authority": "(Tenison-Woods, 1878)",
+      "parentNameUsageID": 206063,
+      "originalNameUsageID": 1075052,
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Toxopneustidae",
+      "genus": "Tripneustes",
+      "citation": "Kroh, A.; Mooi, R. (2026). World Echinoidea Database. Tripneustes kermadecensis Bronstein, Kroh, Tautscher, Liggins & Haring, 2017. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=1075052 on 2026-10-25",
+      "lsid": "urn:lsid:marinespecies.org:taxname:1075052",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2023-11-10T13:19:05.107Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1806,
+          "rank": "Phylum",
+          "scientificname": "Echinodermata",
+          "child": {
+            "AphiaID": 148744,
+            "rank": "Subphylum",
+            "scientificname": "Echinozoa",
+            "child": {
+              "AphiaID": 123082,
+              "rank": "Class",
+              "scientificname": "Echinoidea",
+              "child": {
+                "AphiaID": 149854,
+                "rank": "Subclass",
+                "scientificname": "Euechinoidea",
+                "child": {
+                  "AphiaID": 510517,
+                  "rank": "Infraclass",
+                  "scientificname": "Carinacea",
+                  "child": {
+                    "AphiaID": 149855,
+                    "rank": "Subterclass",
+                    "scientificname": "Echinacea",
+                    "child": {
+                      "AphiaID": 510518,
+                      "rank": "Order",
+                      "scientificname": "Camarodonta",
+                      "child": {
+                        "AphiaID": 510534,
+                        "rank": "Infraorder",
+                        "scientificname": "Echinidea",
+                        "child": {
+                          "AphiaID": 510604,
+                          "rank": "Superfamily",
+                          "scientificname": "Odontophora",
+                          "child": {
+                            "AphiaID": 123179,
+                            "rank": "Family",
+                            "scientificname": "Toxopneustidae",
+                            "child": {
+                              "AphiaID": 206063,
+                              "rank": "Genus",
+                              "scientificname": "Tripneustes",
+                              "child": {
+                                "AphiaID": 1717655,
+                                "rank": "Species",
+                                "scientificname": "Tripneustes australiae",
+                                "child": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order": "Camarodonta",
+    "source_url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Tripneustes%20kermadecensis?like=false&marine_only=true",
+    "accessed": "2026-10-25"
+  }
+]

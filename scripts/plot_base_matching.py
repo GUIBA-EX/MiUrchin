@@ -3,11 +3,11 @@ import csv,json,html,collections,sys
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.Data.IUPACData import ambiguous_dna_values as I
-repo=Path(__file__).resolve().parents[1];p=repo/'results/D_optimization';from PIL import Image,ImageDraw,ImageFont
+repo=Path(__file__).resolve().parents[1];p=repo/'results/D_3prime8';from PIL import Image,ImageDraw,ImageFont
 import matplotlib
 fontdir=Path(matplotlib.get_data_path())/'fonts/ttf'
 def read(f):return list(csv.DictReader(f.open()))
-sel=json.loads((repo/'results/D_optimization/selected_D.json').read_text());panel=read(p/'panel.csv');al={r.id:str(r.seq).upper() for r in SeqIO.parse(repo/'analysis/target_aligned.fasta','fasta')};cols=[i for i,c in enumerate(al['NC_001453.1']) if c!='-'];coords={r['name']:r for r in read(repo/'results/current/binding_positions.csv')};metrics={r['scheme']:r for r in read(repo/'results/current/taxonomic_comparison.csv')};hits=collections.defaultdict(set)
+sel=json.loads((repo/'results/D_3prime8/selected_D.json').read_text());panel=read(p/'panel.csv');al={r.id:str(r.seq).upper() for r in SeqIO.parse(repo/'analysis/target_aligned.fasta','fasta')};cols=[i for i,c in enumerate(al['NC_001453.1']) if c!='-'];coords={r['name']:r for r in read(repo/'results/current/binding_positions.csv')};metrics={r['scheme']:r for r in read(repo/'results/current/taxonomic_comparison.csv')};hits=collections.defaultdict(set)
 for r in csv.DictReader((repo/'results/terminal_optimization/independent_hits.tsv').open(),delimiter='\t'):
  if r['role']=='target' and r['model']=='WC':
   for k in ['exact','le2last3']:
@@ -51,7 +51,7 @@ for r in read(repo/'sequences/primer_pairs.csv'):
  es.append('</svg>');svg=''.join(es)
  for folder in [repo/'figures',repo/'results/terminal_optimization']:(folder/f'base_matching_{name}.svg').write_text(svg)
  im.save(repo/'figures'/f'base_matching_{name}.png')
-with (repo/'results/D_optimization/base_matching.csv').open('w') as f:
+with (repo/'results/D_3prime8/base_matching.csv').open('w') as f:
  w=csv.DictWriter(f,fieldnames=list(basedata[0]),lineterminator='\n');w.writeheader();w.writerows(basedata)
 # Keep the full gallery, including unchanged ordinary/A/B figures.
 names=[r['name'] for r in read(repo/'sequences/primer_pairs.csv')]

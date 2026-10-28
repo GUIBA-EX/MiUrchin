@@ -1,0 +1,158 @@
+[
+  {
+    "region": "S",
+    "F": "YGTGTATAATGGATTDACDASH",
+    "R": "GCTTAGCTHAVACYAATTTCTYDG",
+    "F_id": "T0000",
+    "R_id": "T0066",
+    "degeneracy_F": 108,
+    "degeneracy_R": 108,
+    "pred_order_coverage": 64.17748917748918,
+    "pred_order_exact": 20.77922077922078,
+    "pred_taxon_coverage": 77.55102040816327,
+    "pred_taxon_exact": 22.448979591836736,
+    "WC3": 4,
+    "GT2": 0,
+    "WC4": 30,
+    "strict_WC": 0,
+    "strict_GT": 0,
+    "background_limit": 20,
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 49.484358759978306,
+        "F_tm_max": 57.36886749860855,
+        "R_tm_min": 52.042423250515924,
+        "R_tm_max": 62.201063516669194,
+        "structure_max": 54.19420530365193
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 45.284527614122396,
+        "F_tm_max": 53.300896227350336,
+        "R_tm_min": 48.2812725719204,
+        "R_tm_max": 58.371120197610196,
+        "structure_max": 54.19420530365193
+      }
+    ],
+    "name": "SD",
+    "source_candidate": "SD-T1"
+  },
+  {
+    "region": "M",
+    "F": "SGYYAGACGAGAAGACCCTR",
+    "R": "YTTTGATCAYCKDRRTGGATCA",
+    "F_id": "T0139",
+    "R_id": "T0171",
+    "degeneracy_F": 16,
+    "degeneracy_R": 96,
+    "pred_order_coverage": 85.3896103896104,
+    "pred_order_exact": 67.53246753246754,
+    "pred_taxon_coverage": 87.75510204081633,
+    "pred_taxon_exact": 67.3469387755102,
+    "WC3": 0,
+    "GT2": 0,
+    "WC4": 1,
+    "strict_WC": 0,
+    "strict_GT": 0,
+    "background_limit": 20,
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 55.410960194070526,
+        "F_tm_max": 62.54961130905485,
+        "R_tm_min": 51.19883678866904,
+        "R_tm_max": 62.332077931283436,
+        "structure_max": 48.02541109489266
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 53.46111094109966,
+        "F_tm_max": 60.626586028024576,
+        "R_tm_min": 47.14181554062941,
+        "R_tm_max": 58.19803338628111,
+        "structure_max": 48.02541109489266
+      }
+    ],
+    "name": "MD",
+    "source_candidate": "MD-T2"
+  },
+  {
+    "region": "L",
+    "F": "GTCTCCTAAATAGAGACTAGYATGAATGGC",
+    "R": "RCGGTAACTTRTTYCTYTGRTCRYC",
+    "F_id": "T0232",
+    "R_id": "T0272",
+    "degeneracy_F": 2,
+    "degeneracy_R": 128,
+    "pred_order_coverage": 90.5844155844156,
+    "pred_order_exact": 16.774891774891778,
+    "pred_taxon_coverage": 93.87755102040816,
+    "pred_taxon_exact": 44.89795918367347,
+    "WC3": 12,
+    "GT2": 1,
+    "WC4": 246,
+    "strict_WC": 0,
+    "strict_GT": 0,
+    "background_limit": 20,
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 60.78297683606365,
+        "F_tm_max": 63.046411769769236,
+        "R_tm_min": 55.72553443057194,
+        "R_tm_max": 67.63973520451714,
+        "structure_max": 50.84317992581987
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 61.45294072597119,
+        "F_tm_max": 63.71759254927298,
+        "R_tm_min": 51.8555856976065,
+        "R_tm_max": 63.72785107783477,
+        "structure_max": 50.84317992581987
+      }
+    ],
+    "name": "LD",
+    "source_candidate": "LD-T3"
+  },
+  {
+    "region": "XL",
+    "F": "DRRTAGGCCYARAAGCAGCC",
+    "R": "CCSTCTYGCCRTTCATRCYAGTCTY",
+    "F_id": "T0317",
+    "R_id": "T0367",
+    "degeneracy_F": 48,
+    "degeneracy_R": 64,
+    "pred_order_coverage": 100.0,
+    "pred_order_exact": 80.73593073593074,
+    "pred_taxon_coverage": 100.0,
+    "pred_taxon_exact": 77.55102040816327,
+    "WC3": 12,
+    "GT2": 22,
+    "WC4": 84,
+    "strict_WC": 3,
+    "strict_GT": 20,
+    "background_limit": 50,
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 55.181222105805944,
+        "F_tm_max": 65.05876017167225,
+        "R_tm_min": 60.1632584723302,
+        "R_tm_max": 69.3350005651912,
+        "structure_max": 53.86528960583445
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 51.695978342387775,
+        "F_tm_max": 61.50155058287021,
+        "R_tm_min": 56.96943583397848,
+        "R_tm_max": 66.21758432720014,
+        "structure_max": 53.86528960583445
+      }
+    ],
+    "name": "XLD",
+    "source_candidate": "XLD-T4"
+  }
+]

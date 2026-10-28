@@ -8,7 +8,7 @@ Candidate mitochondrial 16S rRNA primers for echinoid eDNA in four windows: S, M
 
 Primary metrics use **equal order weighting**: calculate the detected species-label fraction within each order, then average across 11 orders. Any matching reference detects its label; exact matching uses the same hierarchy. The common panel contains 80 references and 49 labels with WoRMS-verified accepted orders. Three orders have one label each; full panel coverage does not imply coverage of every species.
 
-[分类映射 / Taxonomy](results/D_optimization/panel.csv) · [图片来源 / Photo references](figures/overview_design.md)
+[分类映射 / Taxonomy](results/D_3prime8/panel.csv) · [图片来源 / Photo references](figures/overview_design.md)
 
 ![Binding positions](figures/binding_positions.svg)
 
@@ -16,16 +16,16 @@ Primary metrics use **equal order weighting**: calculate the detected species-la
 
 | Scheme | Order coverage % | Order exact % | WC≤3 | GT≤2 | WC≤4 |
 |---|---:|---:|---:|---:|---:|
-| SD | 64.18 | 20.78 | 4 | 0 | 30 |
+| SD | 43.83 | 0.32 | 0 | 0 | 1 |
 | S | 4.22 | 0.65 | 0 | 0 | 1 |
 | SA+SB | 11.04 | 0.97 | 0 | 0 | 7 |
-| MD | 85.39 | 67.53 | 0 | 0 | 1 |
+| MD | 84.09 | 18.94 | 0 | 0 | 0 |
 | M | 47.73 | 6.82 | 0 | 0 | 0 |
 | MA+MB | 47.73 | 9.09 | 0 | 0 | 0 |
-| LD | 90.58 | 16.77 | 12 | 1 | 246 |
+| LD | 91.56 | 13.85 | 12 | 12 | 247 |
 | L | 68.83 | 3.25 | 2 | 1 | 161 |
 | LA+LB | 68.83 | 5.52 | 2 | 1 | 161 |
-| XLD | 100.00 | 80.74 | 12 | 22 | 84 |
+| XLD | 98.70 | 42.42 | 12 | 21 | 49 |
 | XL | 77.49 | 2.92 | 3 | 5 | 11 |
 | XLA+XLB | 98.70 | 21.10 | 3 | 5 | 16 |
 
@@ -33,28 +33,25 @@ Coverage requires ≤2 mismatches per primer and compatible terminal 3 nt; exact
 
 ## D-assay tradeoffs
 
-- **SD**: order coverage rises from 42.10 to 64.18%; seven labels gained and five lost, at 108/108 degeneracy.
-- **MD**: coverage is unchanged. The 33/49 exact labels are more evenly distributed across orders, raising order exact matching from 41.88 to 67.53%.
-- **LD**: coverage is unchanged; three exact labels are gained, with reverse degeneracy increasing from 16 to 128.
-- **XLD**: 49/49 labels remain covered; exact labels rise from 28 to 38/49 and order exact matching from 62.01 to 80.74%.
+Each D oligo has at most eight variants, with ambiguity confined to its 3′ half. Exact matching is limited in the shorter assays. L has 12 strict-GT sea-star background records; XL has 19 strict-GT crinoid records. See [selection and verification](docs/D_OPTIMIZATION.md) for order and label gains and losses.
 
-[D完整选择与逐类群增减 / D selection and taxon changes](docs/D_OPTIMIZATION.md) · [A/B互补性 / A/B complementarity](docs/AB_COMPLEMENTARITY.md)
+[A/B complementarity](docs/AB_COMPLEMENTARITY.md)
 
 <details>
 <summary>Secondary comparison: original reference-weighted metrics</summary>
 
 | Scheme | Coverage % | Exact % | WC≤3 | GT≤2 | WC≤4 |
 |---|---:|---:|---:|---:|---:|
-| SD | 77.55 | 22.45 | 4 | 0 | 30 |
+| SD | 58.16 | 2.04 | 0 | 0 | 1 |
 | S | 26.53 | 4.08 | 0 | 0 | 1 |
 | SA+SB | 41.84 | 6.12 | 0 | 0 | 7 |
-| MD | 87.76 | 67.35 | 0 | 0 | 1 |
+| MD | 79.59 | 20.41 | 0 | 0 | 0 |
 | M | 59.18 | 16.33 | 0 | 0 | 0 |
 | MA+MB | 59.18 | 30.61 | 0 | 0 | 0 |
-| LD | 93.88 | 42.86 | 12 | 1 | 246 |
+| LD | 85.71 | 25.51 | 12 | 12 | 247 |
 | L | 75.51 | 19.39 | 2 | 1 | 161 |
 | LA+LB | 75.51 | 33.67 | 2 | 1 | 161 |
-| XLD | 100.00 | 77.55 | 12 | 22 | 84 |
+| XLD | 91.84 | 16.33 | 12 | 21 | 49 |
 | XL | 81.63 | 18.37 | 3 | 5 | 11 |
 | XLA+XLB | 91.84 | 24.49 | 3 | 5 | 16 |
 
@@ -66,7 +63,7 @@ This table weights labels equally and references equally within labels; it diffe
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| SD | `YGTGTATAATGGATTDACDASH` | `GCTTAGCTHAVACYAATTTCTYDG` |
+| SD | `CGTGTATAATGGATTAACRAGH` | `GCTTAGCTCAAACTAATTTCYTDG` |
 | S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
 | SA | `TGTGTATAATGGATTAACAAGC` | `GCTTAGCTTAAACTAATTTCTTGG` |
 | SB | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
@@ -77,7 +74,7 @@ This table weights labels equally and references equally within labels; it diffe
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| MD | `SGYYAGACGAGAAGACCCTR` | `YTTTGATCAYCKDRRTGGATCA` |
+| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCKKRGTGGATCA` |
 | M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 | MA | `CGCTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 | MB | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
@@ -88,7 +85,7 @@ This table weights labels equally and references equally within labels; it diffe
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| LD | `GTCTCCTAAATAGAGACTAGYATGAATGGC` | `RCGGTAACTTRTTYCTYTGRTCRYC` |
+| LD | `GTCTCCTAAATAGAGACTAGYATGAAYGGC` | `GCGGTAACTTGTTCYTTTGATCRCY` |
 | L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
 | LA | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
 | LB | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTTCTTTGATCACC` |
@@ -99,7 +96,7 @@ This table weights labels equally and references equally within labels; it diffe
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| XLD | `DRRTAGGCCYARAAGCAGCC` | `CCSTCTYGCCRTTCATRCYAGTCTY` |
+| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATRCYAGTCTY` |
 | XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
 | XLA | `AAGTAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTC` |
 | XLB | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
@@ -112,7 +109,7 @@ Each plot row is one reference, grouped by accepted order. F/R are shown in prim
 
 ## Methods and verification
 
-The search compared 10,394 coordinate-fixed pairs with degeneracy ≤128 per direction and allowed 3′ ambiguity. Order coverage takes priority with order- and label-level exact-matching safeguards. All concrete variants pass terminal and two-concentration thermodynamic checks. Independent C++/Python scans of eight baseline/candidate D pairs agree on 1,280 target decisions and 32 background sets. The release contains 12 portfolios, 16 pairs and 32 oligos. These computational results require experimental validation.
+The fixed-coordinate search generated 47,638 pairs; candidates were ranked by order-balanced coverage, exact matching and background. D oligos contain at most eight variants with ambiguity in the 3′ half. Independent C++/Python scans agree on 800 target decisions, 20 background sets and 25 background counts for five candidates. D denotes one pair; A/B denotes a separate-PCR union. All assays await experimental validation.
 
 [Sequences](sequences/primer_pairs.csv) · [FASTA](sequences/primers.fasta) · [Results](results/current/taxonomic_comparison.csv) · [Methods](docs/METHODS.md) · [Reproduction](docs/REPRODUCIBILITY.md) · [Validation](docs/VALIDATION.md)
 

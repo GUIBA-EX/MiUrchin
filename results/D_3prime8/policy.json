@@ -1,0 +1,19 @@
+{
+  "degeneracy_max_per_direction": 8,
+  "degeneracy_positions": "3prime half, ceiling for odd length",
+  "strict_WC_GT_max": 20,
+  "broad_WC_GT_max": 100,
+  "ranking": [
+    "order coverage",
+    "order exact",
+    "label coverage",
+    "lower degeneracy"
+  ],
+  "selected": {
+    "S": "S-3P8-20",
+    "M": "M-3P8-20",
+    "L": "L-3P8-20",
+    "XL": "XL-3P8-50"
+  },
+  "source": "3prime8 expanded bounded search"
+}

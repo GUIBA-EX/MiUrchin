@@ -8,7 +8,7 @@
 
 主指标采用**目间等权**：每目内先计算检出物种标签比例，再对11个目取均值；任一参考命中即可检出该标签，完全匹配采用同一层级。共同面板80条参考、49个标签，目级归属已按WoRMS接受分类核对。三个目各只有一个标签，满覆盖不代表覆盖该目所有物种。
 
-[分类映射 / Taxonomy](results/D_optimization/panel.csv) · [图片来源 / Photo references](figures/overview_design.md)
+[分类映射 / Taxonomy](results/D_3prime8/panel.csv) · [图片来源 / Photo references](figures/overview_design.md)
 
 ![Binding positions](figures/binding_positions.svg)
 
@@ -16,16 +16,16 @@
 
 | Scheme | Order coverage % | Order exact % | WC≤3 | GT≤2 | WC≤4 |
 |---|---:|---:|---:|---:|---:|
-| SD | 64.18 | 20.78 | 4 | 0 | 30 |
+| SD | 43.83 | 0.32 | 0 | 0 | 1 |
 | S | 4.22 | 0.65 | 0 | 0 | 1 |
 | SA+SB | 11.04 | 0.97 | 0 | 0 | 7 |
-| MD | 85.39 | 67.53 | 0 | 0 | 1 |
+| MD | 84.09 | 18.94 | 0 | 0 | 0 |
 | M | 47.73 | 6.82 | 0 | 0 | 0 |
 | MA+MB | 47.73 | 9.09 | 0 | 0 | 0 |
-| LD | 90.58 | 16.77 | 12 | 1 | 246 |
+| LD | 91.56 | 13.85 | 12 | 12 | 247 |
 | L | 68.83 | 3.25 | 2 | 1 | 161 |
 | LA+LB | 68.83 | 5.52 | 2 | 1 | 161 |
-| XLD | 100.00 | 80.74 | 12 | 22 | 84 |
+| XLD | 98.70 | 42.42 | 12 | 21 | 49 |
 | XL | 77.49 | 2.92 | 3 | 5 | 11 |
 | XLA+XLB | 98.70 | 21.10 | 3 | 5 | 16 |
 
@@ -33,28 +33,25 @@
 
 ## D方案的取舍
 
-- **SD**：目间覆盖42.10→64.18%；新增7个、丢失5个标签。108/108简并度，覆盖收益伴随变体稀释。
-- **MD**：覆盖不变；完全匹配仍为33/49个标签，但在目间分布更均衡，目间完全匹配41.88→67.53%。
-- **LD**：覆盖不变，增加3个完全匹配标签；反向简并度16→128。
-- **XLD**：保持49/49覆盖，完全匹配28→38/49；目间完全匹配62.01→80.74%。
+D引物每条简并度不超过8，简并位点只在3′半段；短片段完全匹配率较低。L的目间覆盖较高，但严格GT背景包含12条海星记录；XL严格GT背景包含19条海百合记录。各目和标签的得失见[选择与验证](docs/D_OPTIMIZATION.md)。
 
-[D完整选择与逐类群增减 / D selection and taxon changes](docs/D_OPTIMIZATION.md) · [A/B互补性 / A/B complementarity](docs/AB_COMPLEMENTARITY.md)
+[A/B互补性 / A/B complementarity](docs/AB_COMPLEMENTARITY.md)
 
 <details>
 <summary>次要比较：原参考加权口径</summary>
 
 | Scheme | Coverage % | Exact % | WC≤3 | GT≤2 | WC≤4 |
 |---|---:|---:|---:|---:|---:|
-| SD | 77.55 | 22.45 | 4 | 0 | 30 |
+| SD | 58.16 | 2.04 | 0 | 0 | 1 |
 | S | 26.53 | 4.08 | 0 | 0 | 1 |
 | SA+SB | 41.84 | 6.12 | 0 | 0 | 7 |
-| MD | 87.76 | 67.35 | 0 | 0 | 1 |
+| MD | 79.59 | 20.41 | 0 | 0 | 0 |
 | M | 59.18 | 16.33 | 0 | 0 | 0 |
 | MA+MB | 59.18 | 30.61 | 0 | 0 | 0 |
-| LD | 93.88 | 42.86 | 12 | 1 | 246 |
+| LD | 85.71 | 25.51 | 12 | 12 | 247 |
 | L | 75.51 | 19.39 | 2 | 1 | 161 |
 | LA+LB | 75.51 | 33.67 | 2 | 1 | 161 |
-| XLD | 100.00 | 77.55 | 12 | 22 | 84 |
+| XLD | 91.84 | 16.33 | 12 | 21 | 49 |
 | XL | 81.63 | 18.37 | 3 | 5 | 11 |
 | XLA+XLB | 91.84 | 24.49 | 3 | 5 | 16 |
 
@@ -66,7 +63,7 @@
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| SD | `YGTGTATAATGGATTDACDASH` | `GCTTAGCTHAVACYAATTTCTYDG` |
+| SD | `CGTGTATAATGGATTAACRAGH` | `GCTTAGCTCAAACTAATTTCYTDG` |
 | S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
 | SA | `TGTGTATAATGGATTAACAAGC` | `GCTTAGCTTAAACTAATTTCTTGG` |
 | SB | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
@@ -77,7 +74,7 @@
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| MD | `SGYYAGACGAGAAGACCCTR` | `YTTTGATCAYCKDRRTGGATCA` |
+| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCKKRGTGGATCA` |
 | M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 | MA | `CGCTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
 | MB | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
@@ -88,7 +85,7 @@
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| LD | `GTCTCCTAAATAGAGACTAGYATGAATGGC` | `RCGGTAACTTRTTYCTYTGRTCRYC` |
+| LD | `GTCTCCTAAATAGAGACTAGYATGAAYGGC` | `GCGGTAACTTGTTCYTTTGATCRCY` |
 | L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
 | LA | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
 | LB | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTTCTTTGATCACC` |
@@ -99,7 +96,7 @@
 
 | Name | F (5′→3′) | R (5′→3′) |
 |---|---|---|
-| XLD | `DRRTAGGCCYARAAGCAGCC` | `CCSTCTYGCCRTTCATRCYAGTCTY` |
+| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATRCYAGTCTY` |
 | XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
 | XLA | `AAGTAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTC` |
 | XLB | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
@@ -112,7 +109,7 @@
 
 ## 方法与复核
 
-搜索10,394组同坐标配对，每方向简并度≤128，3′端可简并。目间覆盖优先，同时保护目间及标签完全匹配率；所有具体变体通过末端和两种浓度场景的热力学检查。8对新旧D方案的独立C++/Python扫描完成1,280项目标判定和32个背景集合比较，差异0。当前发布12套方案、16对引物、32条序列。结果来自计算参考库，尚需实验验证。
+同坐标搜索生成47,638对；优先考虑目间覆盖、完全匹配及背景。简并限制为每条≤8且仅在3′半段。五个候选由独立C++/Python扫描复核，800项目标判定、20个背景集合及25项背景计数无差异。D为单对；A/B为分管并集。所有方案尚待实验验证。
 
 [Sequences](sequences/primer_pairs.csv) · [FASTA](sequences/primers.fasta) · [Results](results/current/taxonomic_comparison.csv) · [Methods](docs/METHODS.zh-CN.md) · [Reproduction](docs/REPRODUCIBILITY.md) · [Validation](docs/VALIDATION.md)
 

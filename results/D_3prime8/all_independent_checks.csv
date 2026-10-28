@@ -1,0 +1,10 @@
+name,target_checks,background_set_checks,disagreements
+S-3P8-20,160,4,0
+M-3P8-20,160,4,0
+L-3P8-20,160,4,0
+XL-3P8-20,160,4,0
+XL-3P8-50,160,4,0
+S-3P8-exact,160,4,0
+M-3P8-exact,160,4,0
+S-3P8-combo-A,160,4,0
+S-3P8-combo-B,160,4,0

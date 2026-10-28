@@ -12,6 +12,6 @@ Coverage: ≤2 mismatches per primer plus IUPAC-compatible final 3 nt. Exact: ze
 
 每条具体变体：无末端三连、末端3 nt至少一个GC、末端5 nt含1–4个GC、无超过4 nt的同聚物；允许3′简并。Primer3 uses 50 mM monovalent salt, 1.5 mM Mg²⁺, 0.6 mM dNTP, 50 nM per variant and 200 nM per direction. All intra-/inter-variant structures require Tm<55°C and F/R duplex-Tm midpoint difference ≤5°C. At fixed total concentration, each variant receives 200/degeneracy nM.
 
-Current D: order-balanced search of 10,394 pairs, per-direction degeneracy≤128, strict background≤20 and broad background≤100 records each. Exact matching cannot decrease at order or label level; label coverage can fall at most four percentage points. Ordinary/A/B retain their original sequences and ≤5 broad WC3/GT2 gates. A/B represent separate-PCR unions with mutual contributions.
+Current D: fixed-coordinate search generated 47,638 pairs. Each oligo has degeneracy ≤8 and IUPAC ambiguity only in its 3′ half. Strict WC/GT background counts are ≤20 each; broad WC3/GT2 counts are ≤100 each. Ranking prioritizes order coverage and then exact matching. Ordinary A/B remain separate-PCR unions.
 
 当前D搜索、分类来源、筛选取舍、浓度代价和类群增减详见[D optimization](D_OPTIMIZATION.md)。A/B的原有互补性证据见[AB_COMPLEMENTARITY](AB_COMPLEMENTARITY.md)。独立算法复核同一参考库，不构成独立生物样本验证。

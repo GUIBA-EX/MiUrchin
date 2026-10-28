@@ -1,0 +1,192 @@
+[
+  {
+    "region": "S",
+    "F": "CGTGTATAATGGATTAACRAGH",
+    "R": "GCTTAGCTCAAACTAATTTCYTDG",
+    "F_id": "P00030",
+    "R_id": "P00136",
+    "degeneracy_F": 6,
+    "degeneracy_R": 6,
+    "pred_order_coverage": 43.83116883116883,
+    "pred_order_exact": 0.3246753246753247,
+    "pred_taxon_coverage": 59.183673469387756,
+    "pred_taxon_exact": 2.0408163265306123,
+    "WC3": 0,
+    "GT2": 0,
+    "WC4": 1,
+    "strict_WC": 0,
+    "strict_GT": 0,
+    "name": "S-3P8-20",
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 51.80175835027859,
+        "F_tm_max": 55.199066683019794,
+        "R_tm_min": 54.08269164859962,
+        "R_tm_max": 58.11522940444371,
+        "structure_max": 40.24754935108996
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 51.289772512455954,
+        "F_tm_max": 54.695131119126245,
+        "R_tm_min": 53.61347990338436,
+        "R_tm_max": 57.63853870449486,
+        "structure_max": 40.24754935108996
+      }
+    ],
+    "tier": 20
+  },
+  {
+    "region": "M",
+    "F": "CGTTAGACGAGAAGACCCTR",
+    "R": "CTTTGATCACCKKRGTGGATCA",
+    "F_id": "P00281",
+    "R_id": "P00335",
+    "degeneracy_F": 2,
+    "degeneracy_R": 8,
+    "pred_order_coverage": 84.0909090909091,
+    "pred_order_exact": 18.93939393939394,
+    "pred_taxon_coverage": 79.59183673469387,
+    "pred_taxon_exact": 20.408163265306122,
+    "WC3": 0,
+    "GT2": 0,
+    "WC4": 0,
+    "strict_WC": 0,
+    "strict_GT": 0,
+    "name": "M-3P8-20",
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 55.84087785778462,
+        "F_tm_max": 57.453804541982436,
+        "R_tm_min": 55.53581985491155,
+        "R_tm_max": 62.332077931283436,
+        "structure_max": 46.045744924965106
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 56.81046023046855,
+        "F_tm_max": 58.41113770387187,
+        "R_tm_min": 54.64137117535864,
+        "R_tm_max": 61.421653069880904,
+        "structure_max": 46.045744924965106
+      }
+    ],
+    "tier": 20
+  },
+  {
+    "region": "L",
+    "F": "GTCTCCTAAATAGAGACTAGYATGAAYGGC",
+    "R": "GCGGTAACTTGTTCYTTTGATCRCY",
+    "F_id": "P00462",
+    "R_id": "P00554",
+    "degeneracy_F": 4,
+    "degeneracy_R": 8,
+    "pred_order_coverage": 91.55844155844156,
+    "pred_order_exact": 13.852813852813853,
+    "pred_taxon_coverage": 85.71428571428571,
+    "pred_taxon_exact": 26.53061224489796,
+    "WC3": 12,
+    "GT2": 12,
+    "WC4": 247,
+    "strict_WC": 2,
+    "strict_GT": 12,
+    "name": "L-3P8-20",
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 60.78297683606365,
+        "F_tm_max": 64.64397998370453,
+        "R_tm_min": 60.27782796425191,
+        "R_tm_max": 64.76154193586927,
+        "structure_max": 50.84317992581987
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 60.78297683606365,
+        "F_tm_max": 64.64397998370453,
+        "R_tm_min": 59.49404992298662,
+        "R_tm_max": 63.980553629588314,
+        "structure_max": 50.84317992581987
+      }
+    ],
+    "tier": 20
+  },
+  {
+    "region": "XL",
+    "F": "AAGTAGGCCTARAAGCAGCC",
+    "R": "CCGTCTTGCCATTCATACCAGTCTY",
+    "F_id": "P00686",
+    "R_id": "P00787",
+    "degeneracy_F": 2,
+    "degeneracy_R": 2,
+    "pred_order_coverage": 98.70129870129871,
+    "pred_order_exact": 22.727272727272727,
+    "pred_taxon_coverage": 91.83673469387755,
+    "pred_taxon_exact": 8.16326530612245,
+    "WC3": 6,
+    "GT2": 6,
+    "WC4": 25,
+    "strict_WC": 0,
+    "strict_GT": 4,
+    "name": "XL-3P8-20",
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 57.86972779597272,
+        "F_tm_max": 59.166050542018354,
+        "R_tm_min": 63.102539029435036,
+        "R_tm_max": 63.40981212543858,
+        "structure_max": 47.525664943918116
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 58.85969426444797,
+        "F_tm_max": 60.162490290923415,
+        "R_tm_min": 63.90508548126547,
+        "R_tm_max": 64.20360045248134,
+        "structure_max": 47.525664943918116
+      }
+    ],
+    "tier": 20
+  },
+  {
+    "region": "XL",
+    "F": "AAGTAGGCCTARAAGCAGCC",
+    "R": "CCGTCTTGCCATTCATRCYAGTCTY",
+    "F_id": "P00686",
+    "R_id": "P00776",
+    "degeneracy_F": 2,
+    "degeneracy_R": 8,
+    "pred_order_coverage": 98.70129870129871,
+    "pred_order_exact": 42.42424242424243,
+    "pred_taxon_coverage": 91.83673469387755,
+    "pred_taxon_exact": 16.3265306122449,
+    "WC3": 12,
+    "GT2": 21,
+    "WC4": 49,
+    "strict_WC": 2,
+    "strict_GT": 19,
+    "name": "XL-3P8-50",
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 57.86972779597272,
+        "F_tm_max": 59.166050542018354,
+        "R_tm_min": 60.6824711439113,
+        "R_tm_max": 66.05225482799398,
+        "structure_max": 47.525664943918116
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 58.85969426444797,
+        "F_tm_max": 60.162490290923415,
+        "R_tm_min": 59.88907554186699,
+        "R_tm_max": 65.26057801818206,
+        "structure_max": 47.525664943918116
+      }
+    ],
+    "tier": 50
+  }
+]
