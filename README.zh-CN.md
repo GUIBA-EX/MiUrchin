@@ -4,6 +4,8 @@
 
 [English](README.md)
 
+预印本: [PDF](publications/MiUrchin_preprint.pdf) · [Markdown](publications/MiUrchin_preprint.md) · [Provenance](publications/preprint_provenance.json)
+
 ## 摘要
 
 海胆环境 DNA 线粒体 16S rRNA 引物，包含 XS、S、M、L、XL 五个长度。每个长度保留普通单对和简并单对 D；同一长度使用相同参考坐标。

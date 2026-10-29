@@ -1,0 +1,27 @@
+{
+  "author": "Fei Xia",
+  "date": "2026-10-30",
+  "project": "MiUrchin",
+  "source_commit": "fbd3a1f6d088148526fd43924ac29469ceed0ef7",
+  "common_species": 49,
+  "inputs": {
+    "sequences/primer_pairs.csv": "f3800363f81aff2b8f51888a517a0f94bc41effbb798135425f851b08097cd35",
+    "figures/current_region_coordinates.csv": "0db44e4b082d2d9be945dbe1de8277a620ea93a041bf70c77c5010ea416df297",
+    "results/current_primers/comparison.csv": "671465cd56def3d2f5c9c06d79637948b251b106193615cc434364c18a9b3ea9",
+    "results/computational_evaluation/results/barcode_collisions.csv": "346dd2415e447591f1e5a13bd9058aae394deca1867f0e66cc49757082013200",
+    "results/computational_evaluation/results/barcodes.csv": "31e411adc6e85565a230f56ff2db7a4bdbe29bded9ffc5e3c77edba967125ad2",
+    "results/computational_evaluation/results/by_order.csv": "faa49fdf0e4e5528b647af5a927740d7a40608bd326246ab42caa8caac2a04db",
+    "results/computational_evaluation/results/conflict_exclusion_sensitivity.csv": "9e81d98b7d27fc71f9847b721f6af90ba29d16da5283434ce2233a22122e2d40",
+    "results/computational_evaluation/results/cv_folds.csv": "0008795d8f8d537ee69bb0b4a83d52039601a1f627836f33183190f9253d5723",
+    "results/computational_evaluation/results/cv_predictions.csv": "3b585265d7f9d4860d5a66144c15456403817f1df8f7edbf1514c76ac8c42fb7",
+    "results/computational_evaluation/results/cv_summary.csv": "974c16fccc87f132f1804abe56c1efe701adc08a1440658ae47af7498b49e5cd",
+    "results/computational_evaluation/results/nearest_neighbors.csv": "19a119ea67f6acbe1e29e94b3a4c44c2a1099b428a77e269a4235b0331e31d03",
+    "results/computational_evaluation/results/panel_comparison.csv": "3bd7da8dc6df63dcee0716fa3a4ce3e14a927bdbc430737114c388bd56944607",
+    "results/computational_evaluation/results/resolution.csv": "5183e7b81b3db41640dafb840cf11b09ccc256df8213daee6a75eed57cf0f03d",
+    "results/computational_evaluation/results/manifest.json": "acd1e916f2412fdbdd166868602bcf2eb5bf33b6b9bfff1280acd0e3efb9fc86"
+  },
+  "artifacts": {
+    "MiUrchin_preprint.pdf": "b7d8d8f0981d6e2e53abccb4d173fd0e7725c74acb977c42b28304ffdab03600",
+    "MiUrchin_preprint.md": "d19467d6c76290e395a888a5c63b64107ad8dfac3c37be289dc866c4ee97e531"
+  }
+}
