@@ -190,6 +190,14 @@ Lineage gaps remain substantial in the own-panel data: MD matches 0/37 Spatangoi
 
 [Copyright / 著作权](COPYRIGHT.md)
 
+## Citation
+
+If you use the primers, reference data or analysis code, please cite:
+
+Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S rRNA primers for sea-urchin environmental DNA metabarcoding*. GitHub. https://github.com/GUIBA-EX/MiUrchin
+
+[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib)
+
 ## References
 
 1. Gold, Z., Wall, A. R., Schweizer, T. M., et al. (2022). A manager’s guide to using eDNA metabarcoding in marine ecosystems. *PeerJ*, 10, e14071. https://doi.org/10.7717/peerj.14071
