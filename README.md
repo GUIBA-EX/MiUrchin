@@ -9,7 +9,7 @@
 Mitochondrial 16S rRNA primers for echinoid eDNA in five windows: XS, S, M, L and XL. Each window retains an ordinary pair and a degenerate D pair with shared reference endpoints.
 The reference panel contains 165 species; the XS, S, M, L and XL windows have 55, 55, 158, 159 and 55 evaluable species, respectively. Missing windows are not counted as failures. The overview uses the earlier classification; the current panel uses WoRMS order names.
 
-On the 55-species XS panel, XS and XSD cover 19 and 35 species, with 0 and 6 exact matches, respectively. Their specificity and amplification remain to be tested experimentally.
+On the common 49-species panel, XSD, SD, MD, LD and XLD cover 30, 28, 42, 39 and 45 species, with 6, 3, 11, 19 and 4 exact paired matches. Primer-free barcode identity and a genus-blocked conditional holdout analysis complement the released assay evaluation.
 
 ## Introduction
 
@@ -31,7 +31,15 @@ Ordinary and degenerate candidates were compared within fixed forward and revers
 
 ### In-silico evaluation
 
-Target coverage required at most two mismatches per primer and IUPAC-compatible final 3 nt; exact matching required zero mismatches at both sites. For S–XL, paired target scans required an amplicon of 150–500 bp and an internal distance of at least 50 bp. Background searches allowed an internal distance of 0–1,000 bp. Strict Watson–Crick (WC) and G–T models retained the terminal constraint; WC≤3 and GT≤2 were additional permissive screens without that constraint. Coverage and exact-match percentages weighted evaluable species equally, with results also summarized by order; non-target counts represent reference records. C++ and Python scans were compared on the same sequence data to verify target and strict background hit sets. These are computational predictions and require experimental validation.
+Target coverage required at most two mismatches per primer and IUPAC-compatible final 3 nt; exact matching required zero mismatches at both sites. For S–XL, paired target scans required an amplicon of 150–500 bp and an internal distance of at least 50 bp. Background searches allowed an internal distance of 0–1,000 bp. Strict Watson–Crick (WC) and G–T models retained the terminal constraint; WC≤3 and GT≤2 were additional permissive screens without that constraint. Coverage and exact-match percentages weighted evaluable species equally, with results also summarized by order; non-target counts represent reference records. C++ and Python scans were compared on the same sequence data to verify target and strict background hit sets. These results describe computational template compatibility.
+
+### Common panel, barcode discrimination and genus-blocked holdout
+
+We intersected the five window panels by accession to obtain 49 common species; this panel controls the denominator for length comparisons. Own-panel results retain the larger available reference sets. Primer-free inserts were extracted strictly between the aligned binding windows, with gaps removed and ambiguous inserts excluded. Identity uniqueness was assessed against every available unambiguous insert for the same window, including species outside the common panel. Pairwise unit-cost Levenshtein distances identified each species' nearest other-species neighbor. This separates marker discrimination from primer compatibility, following the joint coverage/discrimination logic of ecoPrimers (Riaz et al., 2011).
+
+For five-fold holdout testing, genera were shuffled with seed 20261030 and assigned to folds; genera sharing identical complete representative sequences were linked to the same fold. Each fold selected new F/R sequences using training representatives only, without seeding from the released primers or global candidate pool. A deterministic greedy search used up to 24 admissible frequent concrete seeds per side, 3′-half ambiguity and ≤8 variants per oligonucleotide. The local search allowed offsets within five alignment columns of the frozen binding intervals while keeping oligonucleotide lengths fixed. Held-out species were evaluated with full-sequence paired scans. This tests sequence selection conditional on previously discovered regions: window discovery preceded splitting, and fold candidates did not undergo the formal thermal/background gates. Fold candidates are diagnostic sequences, not additions to the released primer set.
+
+[Analysis methods and reproduction](results/computational_evaluation/README.md)
 
 [Detailed methods](docs/METHODS.md) · [Validation](docs/VALIDATION.md)
 
@@ -54,7 +62,58 @@ Target coverage required at most two mismatches per primer and IUPAC-compatible 
 
 Coverage allows at most two mismatches per primer with compatible terminal 3 nt; exact matching requires zero mismatches in both primers. Strict WC/GT use the terminal constraint; WC≤3 / GT≤2 are permissive background screens without it.
 
-Each degenerate primer has at most eight concrete variants, with ambiguity confined to the 3′ half. Predictions require experimental validation.
+Each degenerate primer has at most eight concrete variants, with ambiguity confined to the 3′ half. Results describe computational compatibility.
+
+### Comparison on 49 common species
+
+| Name | Coverage | Exact | Covered + identity-unique |
+| --- | --- | --- | --- |
+| XS | 19/49 | 0/49 | 19/49 |
+| XSD | 30/49 | 6/49 | 30/49 |
+| S | 13/49 | 2/49 | 13/49 |
+| SD | 28/49 | 3/49 | 28/49 |
+| M | 29/49 | 8/49 | 29/49 |
+| MD | 42/49 | 11/49 | 41/49 |
+| L | 37/49 | 10/49 | 36/49 |
+| LD | 39/49 | 19/49 | 38/49 |
+| XL | 40/49 | 9/49 | 40/49 |
+| XLD | 45/49 | 4/49 | 45/49 |
+
+Coverage and exact matching use the same 49 species for all ten released assays. The final column counts species that both match the primers and have a reference insert not shared by any other available species in that window. XLD has the highest common-panel coverage (45/49), while LD has the most exact paired matches (19/49). MD covers more common-panel species than LD (42 versus 39), reversing their own-panel percentage ranking.
+
+![Common-panel compatibility and exact matching](results/computational_evaluation/figures/common_panel.svg)
+
+### Primer-free barcode discrimination
+
+| Window | Unambiguous inserts | Identity-unique species | Insert length (bp) |
+| --- | --- | --- | --- |
+| XS | 55 | 55/55 | 137–144 |
+| S | 55 | 55/55 | 140–147 |
+| M | 158 | 150/158 | 179–208 |
+| L | 158 | 150/158 | 280–310 |
+| XL | 55 | 55/55 | 395–413 |
+
+Lengths exclude both primers. The L binding panel has 159 species, but one ambiguous internal insert leaves 158 for barcode analysis. XS, S and XL have no identical inserts between their sampled species representatives; this is reference-set uniqueness, not measured identification accuracy or population-wide resolution. M and L each contain four two-species identity conflicts. These include cross-order records and are flagged for source review rather than interpreted as established biological non-resolution. Common-panel M/L uniqueness is 48/49 when assessed against all available inserts, even though the 49 common-panel sequences differ from each other.
+
+![Reference-barcode uniqueness](results/computational_evaluation/figures/resolution.svg)
+
+[Identical-barcode conflicts](results/computational_evaluation/results/barcode_collisions.csv) · [Nearest-neighbor edit distances](results/computational_evaluation/results/nearest_neighbors.csv) · [Conflict-exclusion sensitivity](results/computational_evaluation/results/conflict_exclusion_sensitivity.csv)
+
+### Genus-blocked conditional holdout
+
+| Window | Held-out coverage | Held-out exact |
+| --- | --- | --- |
+| XS | 47/55 (85.45%) | 3/55 (5.45%) |
+| S | 30/55 (54.55%) | 1/55 (1.82%) |
+| M | 112/158 (70.89%) | 24/158 (15.19%) |
+| L | 156/159 (98.11%) | 114/159 (71.70%) |
+| XL | 53/55 (96.36%) | 15/55 (27.27%) |
+
+These results use 25 fold-specific, training-selected pairs, not the released ordinary/D pairs. Every species is tested once within its window, and identical complete sequences never cross folds. Values measure conditional template compatibility without thermal or background selection; they do not demonstrate that the fold pairs outperform released assays under the full design constraints. All fold sequences, training sizes and held-out predictions are available below.
+
+![Conditional genus-blocked test](results/computational_evaluation/figures/holdout.svg)
+
+[Fold-specific candidates](results/computational_evaluation/results/cv_folds.csv) · [Held-out predictions](results/computational_evaluation/results/cv_predictions.csv) · [Complete comparison tables](results/computational_evaluation/results/panel_comparison.csv)
 
 ### XS
 
@@ -125,7 +184,9 @@ Both pairs bind at F 183–204 and R 344–363 on NC_001453.1; the reference amp
 
 ## Discussion
 
-XS and XSD share a 181-bp reference span but differ in predicted matching: XS covers 19/55 evaluable species with no exact paired matches, whereas XSD covers 35/55 with six exact matches and seven strict G–T background records. XSD therefore offers greater predicted coverage at the cost of additional non-target matches. These predictions use a limited reference panel and do not establish laboratory amplification or environmental detection.
+Common-panel comparison separates length effects from reference availability. XLD favors mismatch-tolerant coverage, while LD favors exact paired matching; neither score alone establishes a universally preferable window. XS shortens the reference span by only 7 bp relative to S, so retaining both should be justified by compatibility and informative variation as well as length.
+
+Lineage gaps remain substantial in the own-panel data: MD matches 0/37 Spatangoida, compared with LD's 36/38; both miss all four evaluable Arbacioida. Barcode identity conflicts and incomplete population sampling also limit inference beyond the frozen references. Genus-blocked sequence selection adds a conditional generalization analysis, while external data or fully nested window discovery would support stronger claims about the full design process. The present study reports computational compatibility and discrimination, with the released primer sequences unchanged.
 
 [Copyright / 著作权](COPYRIGHT.md)
 
@@ -140,3 +201,5 @@ XS and XSD share a 181-bp reference span but differ in predicted matching: XS co
 4. Katoh, K., & Standley, D. M. (2013). MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution*, 30, 772–780. https://doi.org/10.1093/molbev/mst010
 
 5. Untergasser, A., Cutcutache, I., Koressaar, T., et al. (2012). Primer3—new capabilities and interfaces. *Nucleic Acids Research*, 40, e115. https://doi.org/10.1093/nar/gks596
+
+6. Riaz, T., Shehzad, W., Viari, A., et al. (2011). ecoPrimers: inference of new DNA barcode markers from whole genome sequence analysis. *Nucleic Acids Research*, 39, e145. https://doi.org/10.1093/nar/gkr732

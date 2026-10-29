@@ -1,0 +1,33 @@
+{
+  "project": "MiUrchin",
+  "original_sequences": 1401,
+  "retained_species": 165,
+  "retained_by_order": {
+    "Arbacioida": 4,
+    "Echinolampadacea": 24,
+    "Camarodonta": 59,
+    "Diadematoida": 6,
+    "Echinothurioida": 6,
+    "Pedinoida": 2,
+    "Spatangoida": 38,
+    "Cidaroida": 10,
+    "Holasteroida": 7,
+    "Stomopneustoida": 2,
+    "Echinoneoida": 1,
+    "Clypeasteroida": 4,
+    "Aspidodiadematoida": 1,
+    "Salenioida": 1
+  },
+  "statuses": {
+    "excluded_unidentified_or_non_species": 356,
+    "retained": 165,
+    "excluded_no_evaluable_primer_window": 24,
+    "excluded_duplicate_species": 852,
+    "excluded_fewer_than_100_aligned_acgt_bases": 1,
+    "excluded_taxon_unresolved": 3
+  },
+  "additional_alignment_anchor": false,
+  "reference": "NC_001453.1",
+  "quality_policy": "full bound windows, ambiguous bases, aligned position extent and source consistency; no primer-match used for representative selection",
+  "taxonomy": "WoRMS exact name match, valid AphiaID and order; unresolved names excluded"
+}

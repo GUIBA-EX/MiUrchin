@@ -9,7 +9,7 @@
 海胆环境 DNA 线粒体 16S rRNA 引物，包含 XS、S、M、L、XL 五个长度。每个长度保留普通单对和简并单对 D；同一长度使用相同参考坐标。
 参考面板包含 165 个物种，XS、S、M、L、XL 区域分别有 55、55、158、159、55 个可评价物种；缺失结合区域不计为漏检。图示使用旧分类体系，新面板的目级名称以 WoRMS 为准。
 
-在 55 个物种的 XS 面板中，XS 和 XSD 分别覆盖 19 和 35 个物种，完全匹配数分别为 0 和 6；其特异性和扩增表现仍需实验验证。
+在49个共同物种面板上，XSD、SD、MD、LD、XLD分别覆盖30、28、42、39、45种，双端完全匹配分别为6、3、11、19、4种。新增内部条码区分能力与属级条件性留出测试，为正式引物提供补充计算评价。
 
 ## 引言
 
@@ -31,7 +31,15 @@
 
 ### 计算评价
 
-预测覆盖要求每条引物最多 2 个错配，且末端 3 nt 与模板按 IUPAC 规则兼容；完全匹配要求两个结合位点均无错配。S–XL 目标双引物扫描要求产物长 150–500 bp、双引物之间的内部长度至少 50 bp；非目标扫描允许内部距离 0–1,000 bp。严格 Watson–Crick（WC）和 G–T 模型保留末端约束；WC≤3 和 GT≤2 为不施加末端约束的宽松筛查。覆盖率和完全匹配率对可评价物种等权，并分别汇总各目结果；非目标数字为参考记录数。使用 C++ 与 Python 对同一参考数据的目标及严格非目标命中集合进行独立算法复核。结果为计算预测，仍需实验验证。
+预测覆盖要求每条引物最多 2 个错配，且末端 3 nt 与模板按 IUPAC 规则兼容；完全匹配要求两个结合位点均无错配。S–XL 目标双引物扫描要求产物长 150–500 bp、双引物之间的内部长度至少 50 bp；非目标扫描允许内部距离 0–1,000 bp。严格 Watson–Crick（WC）和 G–T 模型保留末端约束；WC≤3 和 GT≤2 为不施加末端约束的宽松筛查。覆盖率和完全匹配率对可评价物种等权，并分别汇总各目结果；非目标数字为参考记录数。使用 C++ 与 Python 对同一参考数据的目标及严格非目标命中集合进行独立算法复核。结果为计算兼容性预测。
+
+### 共同面板、条码分辨率与属级留出测试
+
+按 accession 对五个窗口取交集，得到49个共同物种，用于统一长度比较的分母；各窗口完整面板结果另行保留。条码取正反向结合窗口之间的同源比对列，去除空位，排除内部模糊碱基。唯一性相对于该窗口全部可用的明确条码判断，包括共同面板以外的物种。计算两两单位代价Levenshtein编辑距离，并列出每个物种的最近邻。这将标记分辨率与引物兼容性分开评价，与ecoPrimers同时考虑覆盖和分类区分能力的思路一致（Riaz等，2011）。
+
+属级五折测试使用种子20261030分组；完整代表序列相同的跨属记录绑定在同一折。每折只用训练物种重新选配F/R，不使用正式引物或全数据候选池作为种子。确定性贪心搜索每端最多使用24个符合要求的高频普通序列种子，简并限于3′半段，每条≤8种变体；固定寡核苷酸长度，允许在既定结合区间附近±5个比对列内搜索。留出物种通过完整原始序列成对扫描评价。窗口发现早于划分，且折内候选未执行正式热力学和背景门槛，因此这是既定区域内序列选配的条件性测试；折内序列作为诊断结果，不纳入正式引物集。
+
+[分析方法与复现](results/computational_evaluation/README.zh-CN.md)
 
 [详细方法](docs/METHODS.zh-CN.md) · [验证](docs/VALIDATION.md)
 
@@ -54,7 +62,58 @@
 
 覆盖要求每条引物最多 2 个错配且末端 3 nt 兼容；完全匹配要求两条引物零错配。严格 WC/GT 使用末端约束；WC≤3 / GT≤2 是不施加末端约束的非目标筛查。
 
-简并引物每条最多 8 个具体变体，简并位点限于 3′ 半段。结果为计算预测，仍需实验验证。
+简并引物每条最多 8 个具体变体，简并位点限于 3′ 半段。结果为计算兼容性预测。
+
+### 49个共同物种的比较
+
+| Name | Coverage | Exact | Covered + identity-unique |
+| --- | --- | --- | --- |
+| XS | 19/49 | 0/49 | 19/49 |
+| XSD | 30/49 | 6/49 | 30/49 |
+| S | 13/49 | 2/49 | 13/49 |
+| SD | 28/49 | 3/49 | 28/49 |
+| M | 29/49 | 8/49 | 29/49 |
+| MD | 42/49 | 11/49 | 41/49 |
+| L | 37/49 | 10/49 | 36/49 |
+| LD | 39/49 | 19/49 | 38/49 |
+| XL | 40/49 | 9/49 | 40/49 |
+| XLD | 45/49 | 4/49 | 45/49 |
+
+十对正式引物均使用相同49物种计算覆盖与完全匹配。末列表示既匹配引物、内部条码又不与该窗口其他可用物种重复的物种数。XLD共同面板覆盖最高（45/49），LD完全匹配最多（19/49）。MD在共同面板上覆盖42种，高于LD的39种，与各自面板百分比的排序不同。
+
+![共同面板覆盖与完全匹配](results/computational_evaluation/figures/common_panel.svg)
+
+### 去除引物后的条码分辨率
+
+| Window | Unambiguous inserts | Identity-unique species | Insert length (bp) |
+| --- | --- | --- | --- |
+| XS | 55 | 55/55 | 137–144 |
+| S | 55 | 55/55 | 140–147 |
+| M | 158 | 150/158 | 179–208 |
+| L | 158 | 150/158 | 280–310 |
+| XL | 55 | 55/55 | 395–413 |
+
+长度不含两端引物。L结合窗口面板为159物种，其中一条内部片段含模糊碱基，条码分析保留158条。XS、S、XL的当前单物种代表之间没有相同条码；这表示参考集合内的唯一性，不是实测鉴定准确率或种群范围的分辨率。M和L各有四组双物种同条码冲突，其中涉及跨目记录，已标记来源待核查，未据此认定为生物学上不能区分。共同面板内49条M/L序列彼此不同，但与该窗口全部可用参考比较时，唯一物种数为48/49。
+
+![参考条码唯一性](results/computational_evaluation/figures/resolution.svg)
+
+[同条码冲突](results/computational_evaluation/results/barcode_collisions.csv) · [最近邻编辑距离](results/computational_evaluation/results/nearest_neighbors.csv) · [剔除冲突记录的敏感性结果](results/computational_evaluation/results/conflict_exclusion_sensitivity.csv)
+
+### 属级条件性留出测试
+
+| Window | Held-out coverage | Held-out exact |
+| --- | --- | --- |
+| XS | 47/55 (85.45%) | 3/55 (5.45%) |
+| S | 30/55 (54.55%) | 1/55 (1.82%) |
+| M | 112/158 (70.89%) | 24/158 (15.19%) |
+| L | 156/159 (98.11%) | 114/159 (71.70%) |
+| XL | 53/55 (96.36%) | 15/55 (27.27%) |
+
+此表来自25组逐折训练选配的候选，不是正式普通/D引物的性能表。每个窗口内每种物种仅测试一次，完整序列相同的记录不跨训练和测试折。结果评价未经过热力学与背景筛查的条件性模板兼容性，不能用于认定折内候选在完整设计约束下优于正式方案。折内序列、训练规模和逐物种预测均公开如下。
+
+![属级条件性留出结果](results/computational_evaluation/figures/holdout.svg)
+
+[逐折候选](results/computational_evaluation/results/cv_folds.csv) · [逐物种留出预测](results/computational_evaluation/results/cv_predictions.csv) · [完整面板比较表](results/computational_evaluation/results/panel_comparison.csv)
 
 ### XS
 
@@ -125,7 +184,9 @@
 
 ## 讨论
 
-XS 和 XSD 的参考扩增区间均为 181 bp，但预测匹配不同：XS 覆盖 19/55 个可评价物种且无完全匹配，XSD 覆盖 35/55 个，其中 6 个完全匹配，并有 7 条严格 G–T 非目标记录。XSD 以更多非目标命中换取较高预测覆盖。上述结果基于有限参考面板，不能直接推断实验扩增或环境样品检出情况。
+共同面板比较将长度差异与参考数据可用性分开。XLD偏向容许错配时的覆盖，LD偏向双端完全匹配；单个指标不足以确定普遍最优的窗口。XS的参考跨度只比S短7 bp，保留二者应同时考虑兼容性和信息量。
+
+各自面板仍有明显类群缺口：MD覆盖Spatangoida的0/37，LD为36/38；二者均未覆盖4个可评价Arbacioida。条码来源冲突和种内采样不足也限制了向参考集合外推断。属级选配测试提供条件性泛化分析；完整设计过程的更强推断仍需外部数据或嵌套窗口发现分析。本研究报告计算兼容性与条码区分能力，正式引物序列保持不变。
 
 [Copyright / 著作权](COPYRIGHT.md)
 
@@ -140,3 +201,5 @@ XS 和 XSD 的参考扩增区间均为 181 bp，但预测匹配不同：XS 覆�
 4. Katoh, K., & Standley, D. M. (2013). MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution*, 30, 772–780. https://doi.org/10.1093/molbev/mst010
 
 5. Untergasser, A., Cutcutache, I., Koressaar, T., et al. (2012). Primer3—new capabilities and interfaces. *Nucleic Acids Research*, 40, e115. https://doi.org/10.1093/nar/gks596
+
+6. Riaz, T., Shehzad, W., Viari, A., et al. (2011). ecoPrimers: inference of new DNA barcode markers from whole genome sequence analysis. *Nucleic Acids Research*, 39, e145. https://doi.org/10.1093/nar/gkr732
