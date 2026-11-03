@@ -4,239 +4,98 @@
 
 [English](README.md)
 
-预印本: [PDF](publications/MiUrchin_preprint.pdf) · [Markdown](publications/MiUrchin_preprint.md) · [Provenance](publications/preprint_provenance.json)
+MiUrchin 收录了 26 对用于海胆环境 DNA 宏条形码研究的线粒体候选引物。16S、12S 各有五个窗口，COI 有三个窗口。每个窗口保留一对普通引物和一对简并引物（后缀 D），两对共用相同的参考起止坐标。
 
-## 标记与序列下载
+[下载完整引物 FASTA](sequences/all_markers.fasta) · [预印本 PDF](publications/MiUrchin_preprint.pdf) · [论文 Markdown](publications/MiUrchin_preprint.md)
 
-MiUrchin 包含三个线粒体标记的 26 对候选引物。合并 FASTA 的名称含基因前缀。同一窗口内，普通与 D 引物在 NC_001453.1 相应基因上的起止坐标一致。
+## 如何选择窗口
 
-[全部 26 对引物 FASTA](sequences/all_markers.fasta) · [16S 引物表](sequences/primer_pairs.csv) · [12S、COI 序列、坐标与完整指标](markers/12S_COI/candidates.csv) · [逐对独立复核](markers/12S_COI/final_check.json)
+选择窗口时，可分别考虑预测覆盖和双端完全匹配。每个基因独立建库，同一窗口的普通与 D 引物使用相同物种比较。
 
-| Gene | Window | Span (bp) | N | Ordinary covered / exact | D covered / exact | D strict WC / GT |
-|---|---|---:|---:|---:|---:|---:|
-| 12S | XS | 153 | 67 | 27 / 0 | 32 / 19 | 0 / 0 |
-| 12S | S | 188 | 64 | 27 / 1 | 56 / 19 | 0 / 1 |
-| 12S | M | 249 | 69 | 25 / 0 | 61 / 24 | 2 / 2 |
-| 12S | L | 347 | 69 | 23 / 0 | 56 / 17 | 0 / 3 |
-| 12S | XL | 452 | 67 | 32 / 15 | 40 / 21 | 2 / 3 |
-| COI | XS | 152 | 106 | 34 / 0 | 79 / 3 | 0 / 1 |
-| COI | S | 209 | 105 | 28 / 3 | 63 / 6 | 1 / 1 |
-| COI | M | 248 | 103 | 22 / 0 | 57 / 1 | 0 / 0 |
+- **16S**：在五个窗口均可评价的 49 个物种中，XLD 覆盖最多（45/49），LD 的双端完全匹配最多（19/49）。在各窗口完整面板中，MD 对 Spatangoida 的覆盖为 0/37，LD 为 36/38。
+- **12S**：在 249 bp 的 M 窗口，MD 相比普通 M 将覆盖从 25/69 提高到 61/69，完全匹配从 0 种增至 24 种。严格 GT 非目标命中从 1 种增至 2 种。
+- **COI**：152 bp 的 XSD 覆盖 79/106 种，其中 3 种完全匹配。209 bp 的 SD 覆盖 63/105 种，其中 6 种完全匹配。COI 库有 314 个物种，各保留窗口仅有 103–106 种可评价。本轮 L 和 XL 候选均未通过背景门槛。
 
-每行使用该基因、该窗口的可评价物种数 N。普通与 D 两列分别给出预测覆盖数和双端完全匹配数，末列为 D 的严格非目标物种数。12S 的背景有 459 种，COI 有 1,719 种。12S 的 MD 覆盖 61/69 种，其中 24 种完全匹配。COI 的 XSD 覆盖 79/106 种，其中 3 种完全匹配。COI 库有 314 个物种，各保留窗口只有 103–106 种可评价；本轮 L、XL 未筛得通过背景门槛的候选。下文的 49 物种共同面板和属级留出分析适用于 16S。
+## 引物序列与预测表现
 
-### 结合位置与碱基匹配
+FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示 12S 的 M 窗口简并正向引物。序列均按 5′→3′ 书写。参考跨度按 NC_001453.1 相应基因内部的坐标计算，包含两端引物；内部条码长度仅计算两引物之间的序列。
 
-![12S and COI primer binding positions](markers/12S_COI/figures/positions.svg)
+### 16S
 
-每目展示一个代表，按窗口碱基完整度选择，同分时取 accession 排序第一条。F、R 均按引物 5′→3′ 方向显示，方框为末端三位。绿色表示兼容，橙色表示错配。比对插入不占参考列，右侧标记来自全序列成对扫描。
+| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格 WC / GT | 碱基匹配图 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` | 181 | 19/55 | 0/55 | 0 / 0 | [查看](results/current_primers/XS/base_matching_XS.svg) |
+| XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` | 181 | 35/55 | 6/55 | 0 / 7 | [查看](results/current_primers/XS/base_matching_XSD.svg) |
+| S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` | 188 | 13/55 | 2/55 | 0 / 0 | [查看](results/current_primers/S/base_matching_S.svg) |
+| SD | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` | 188 | 29/55 | 3/55 | 0 / 0 | [查看](results/current_primers/S/base_matching_SD.svg) |
+| M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` | 228 | 85/158 | 12/158 | 0 / 0 | [查看](results/current_primers/M/base_matching_M.svg) |
+| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` | 228 | 110/158 | 28/158 | 0 / 0 | [查看](results/current_primers/M/base_matching_MD.svg) |
+| L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` | 343 | 103/159 | 18/159 | 0 / 0 | [查看](results/current_primers/L/base_matching_L.svg) |
+| LD | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` | 343 | 141/159 | 30/159 | 2 / 12 | [查看](results/current_primers/L/base_matching_LD.svg) |
+| XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` | 440 | 41/55 | 9/55 | 2 / 3 | [查看](results/current_primers/XL/base_matching_XL.svg) |
+| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` | 440 | 51/55 | 6/55 | 0 / 4 | [查看](results/current_primers/XL/base_matching_XLD.svg) |
 
-| Gene | Window | Ordinary | D |
-|---|---|---|---|
-| 12S | XS | [XS](markers/12S_COI/figures/12S_XS.svg) | [XSD](markers/12S_COI/figures/12S_XSD.svg) |
-| 12S | S | [S](markers/12S_COI/figures/12S_S.svg) | [SD](markers/12S_COI/figures/12S_SD.svg) |
-| 12S | M | [M](markers/12S_COI/figures/12S_M.svg) | [MD](markers/12S_COI/figures/12S_MD.svg) |
-| 12S | L | [L](markers/12S_COI/figures/12S_L.svg) | [LD](markers/12S_COI/figures/12S_LD.svg) |
-| 12S | XL | [XL](markers/12S_COI/figures/12S_XL.svg) | [XLD](markers/12S_COI/figures/12S_XLD.svg) |
-| COI | XS | [XS](markers/12S_COI/figures/COI_XS.svg) | [XSD](markers/12S_COI/figures/COI_XSD.svg) |
-| COI | S | [S](markers/12S_COI/figures/COI_S.svg) | [SD](markers/12S_COI/figures/COI_SD.svg) |
-| COI | M | [M](markers/12S_COI/figures/COI_M.svg) | [MD](markers/12S_COI/figures/COI_MD.svg) |
+### 12S
 
-## 16S 评价
+| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格 WC / GT | 碱基匹配图 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `TGCCACATGCAAGCTTATTAG` | `TTTAGCACTGCAGATGTGG` | 153 | 27/67 | 0/67 | 0 / 0 | [查看](markers/12S_COI/figures/12S_XS.svg) |
+| XSD | `TGCCACATGCAAGCYWAYTAG` | `TTTAGCACTGCAGDYGTGG` | 153 | 32/67 | 19/67 | 0 / 0 | [查看](markers/12S_COI/figures/12S_XSD.svg) |
+| S | `GTCCTAGTCCCAATTTTAAC` | `AATGTTTAGCACTGCAGTTG` | 188 | 27/64 | 1/64 | 0 / 1 | [查看](markers/12S_COI/figures/12S_S.svg) |
+| SD | `GTCCTAGTCCCAAYWTTARC` | `AATGTTTAGCACTGCAGDYG` | 188 | 56/64 | 19/64 | 0 / 1 | [查看](markers/12S_COI/figures/12S_SD.svg) |
+| M | `CGGTTTTCCAAACCTCCCT` | `ACTGCTGAATCCAGTTTCT` | 249 | 25/69 | 0/69 | 1 / 1 | [查看](markers/12S_COI/figures/12S_M.svg) |
+| MD | `CGGTTTTCCAWAYCTCCCT` | `ACTGCTGAATCCARTTTCN` | 249 | 61/69 | 24/69 | 2 / 2 | [查看](markers/12S_COI/figures/12S_MD.svg) |
+| L | `ACCCTGTTATACTTAGACGT` | `GCATTCCAGAGCTCTCTTCA` | 347 | 23/69 | 0/69 | 0 / 0 | [查看](markers/12S_COI/figures/12S_L.svg) |
+| LD | `ACCCTGTTATACTTAGMHGT` | `GCATTCCAGAGCTSWYTTCA` | 347 | 56/69 | 17/69 | 0 / 3 | [查看](markers/12S_COI/figures/12S_LD.svg) |
+| XL | `CCACATGCAAGCTAACTAGC` | `AAACCGCCAAGTCCTTTGAG` | 452 | 32/67 | 15/67 | 0 / 0 | [查看](markers/12S_COI/figures/12S_XL.svg) |
+| XLD | `CCACATGCAAGYYAAYTAGC` | `AAACCGCCAARTCCTTTGAR` | 452 | 40/67 | 21/67 | 2 / 3 | [查看](markers/12S_COI/figures/12S_XLD.svg) |
 
-### 摘要
+### COI
 
-海胆环境 DNA 线粒体 16S rRNA 引物，包含 XS、S、M、L、XL 五个长度。每个长度保留普通单对和简并单对 D；同一长度使用相同参考坐标。
-参考面板包含 165 个物种，XS、S、M、L、XL 区域分别有 55、55、158、159、55 个可评价物种；缺失结合区域不计为漏检。图示使用旧分类体系，新面板的目级名称以 WoRMS 为准。
+| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格 WC / GT | 碱基匹配图 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `TCAAACCTACAATGAGAAAC` | `ACATAGTGGAAGTGAGCTAC` | 152 | 34/106 | 0/106 | 0 / 1 | [查看](markers/12S_COI/figures/COI_XS.svg) |
+| XSD | `TCAAACCTACARTGRGARAC` | `ACATAGTGGAAGTGDGCWAC` | 152 | 79/106 | 3/106 | 0 / 1 | [查看](markers/12S_COI/figures/COI_XSD.svg) |
+| S | `CAAGGATCAAACCTACAATG` | `AATCAGTGAGTAAATCCTGC` | 209 | 28/105 | 3/105 | 0 / 0 | [查看](markers/12S_COI/figures/COI_S.svg) |
+| SD | `CAAGGATCAAAYYTACARTG` | `AATCAGTGAGTRAAYCCWGC` | 209 | 63/105 | 6/105 | 1 / 1 | [查看](markers/12S_COI/figures/COI_SD.svg) |
+| M | `TCAAACCTACAATGGGAAAC` | `ACCTTTCCTCATAGTGGGTG` | 248 | 22/103 | 0/103 | 0 / 0 | [查看](markers/12S_COI/figures/COI_M.svg) |
+| MD | `TCAAACCTACARTGRGARAC` | `ACCTTTCCTCAWAGYGGRTG` | 248 | 57/103 | 1/103 | 0 / 0 | [查看](markers/12S_COI/figures/COI_MD.svg) |
 
-在49个共同物种面板上，XSD、SD、MD、LD、XLD分别覆盖30、28、42、39、45种，双端完全匹配分别为6、3、11、19、4种。新增内部条码区分能力与属级条件性留出测试，为正式引物提供补充计算评价。
+**非目标计数单位不同。** 16S 在 6,045 条背景记录中计数；12S 和 COI 分别在 459 种和 1,719 种非目标棘皮动物的代表序列中计数。完整结果表也列出宽松模型命中数。
 
-## 引言
+[16S CSV](results/current_primers/comparison.csv) · [12S / COI CSV](markers/12S_COI/candidates.csv)
 
-海胆环境 DNA 宏条形码引物需要兼顾目标类群覆盖、结合兼容性和非目标扩增。MiUrchin 比较五个线粒体 16S 窗口，每个窗口均包含共享参考坐标的普通和简并引物。 海洋环境 DNA 宏条形码研究显示，标记和参考数据库的选择会影响检测结果（Gold 等，2022）；MiFish 则提供了基于序列比对设计鱼类引物的实例（Miya 等，2015）。线粒体标记也曾用于调查营养关系样品中的海胆 DNA（Sutera 等，2025）。
+## 结合位置与逐碱基匹配
 
-[参考面板 / Reference panel](results/species_qc/panel.csv) · [审核 / Reference curation](results/species_qc/README.md)
+箭头标示正反向引物的结合区，每个基因使用独立坐标轴。上表的碱基图按引物方向显示反向模板，方框标示 3′ 末端三位。12S 和 COI 每目展示一个结合区碱基最完整的代表，同分时按 accession 排序。绿色表示兼容，橙色表示错配，最右列为完整序列成对扫描的结果。
 
-![Reference binding positions](figures/amplicon_regions.zh.svg)
+![16S](figures/amplicon_regions.zh.svg)
 
-## 方法
+![12S / COI](markers/12S_COI/figures/positions.svg)
 
-### 参考数据与序列比对
+## 参考面板与筛选规则
 
-目标数据库包含 1,401 条海胆线粒体序列，非目标数据库包含 6,045 条参考记录。经序列质量和分类审核，每个可确认物种保留一条代表，共 165 个物种。代表序列依据结合窗口完整性、模糊碱基和参考位点覆盖情况选择，不以引物匹配结果为筛选依据。保留序列使用 MAFFT 7.526（Katoh & Standley，2013）重新比对，参考坐标采用去除空位的线粒体 16S rRNA 序列 NC_001453.1，从 1 开始计数。清理后的物种面板中，正、反向窗口均需跨越参考区域，A/C/G/T 数量达到参考位点数的 90% 且无模糊碱基，允许比对空位；符合条件的物种才纳入该窗口的评价分母。可评价物种数为 XS、S、M、L、XL 分别为 55、55、158、159、55 个。缺失窗口不计为漏检，筛选标准及 accession 记录见[参考序列审核](results/species_qc/README.md)。
+16S 目标库含 1,401 条记录，经质控后每种保留一条代表，共 165 种，目级名称依据 WoRMS 核对。12S 和 COI 的 NCBI Nucleotide 检索合计获得 9,988 条去重记录；按基因提取和质控后，分别保留 208 条和 9,392 条合格序列，设计面板分别包含 69 种和 314 种具名物种。每个窗口只统计结合区域可评价的物种。
 
-### 引物设计与筛选
+覆盖要求形成成对产物，每端最多 2 个错配，且各自末端 3 nt 兼容；完全匹配要求双端零错配。每条 D 引物最多包含 8 种具体变体。严格 WC 采用 Watson–Crick 配对，严格 GT 另允许 G–T 配对；宽松 WC≤3 和 GT≤2 取消末端约束。这些指标描述计算预测的模板兼容性。
 
-在固定的正、反向参考窗口内比较普通和简并候选。S–XL 每个长度的普通引物与 D 引物使用相同参考起止坐标。每条 D 引物最多包含 8 种具体序列，IUPAC 简并碱基限于 3′ 半段。末端筛查排除末端三连和超过 4 bp 的同聚物，要求末端 3 nt 至少含一个 G 或 C。Primer3（Untergasser 等，2012）计算采用单价盐 50 mM、Mg²⁺ 1.5 mM、dNTP 0.6 mM，分别评估每变体 50 nM 和每方向总浓度 200 nM 两种情景。S–XL 的结构筛查要求预测结构最高 Tm 低于 55 °C，正、反向双链 Tm 区间中点之差不超过 5 °C。XS 与 XSD 在参考序列上的实际结合坐标均为 F 183–204、R 344–363。普通 XS 搜索在参考结合序列附近枚举碱基替换，固定与参考一致的末端 3 nt，并筛查目标匹配、末端性质、引物结构与非目标命中。XS 目标扫描要求产物长 70–500 bp，双引物之间的内部长度至少 20 bp。
+[16S 方法](docs/METHODS.zh-CN.md) · [16S 参考审核](results/species_qc/README.md) · [12S 与 COI 数据和复核](markers/12S_COI/README.md)
 
-### 计算评价
+## 16S 补充评价
 
-预测覆盖要求每条引物最多 2 个错配，且末端 3 nt 与模板按 IUPAC 规则兼容；完全匹配要求两个结合位点均无错配。S–XL 目标双引物扫描要求产物长 150–500 bp、双引物之间的内部长度至少 50 bp；非目标扫描允许内部距离 0–1,000 bp。严格 Watson–Crick（WC）和 G–T 模型保留末端约束；WC≤3 和 GT≤2 为不施加末端约束的宽松筛查。覆盖率和完全匹配率对可评价物种等权，并分别汇总各目结果；非目标数字为参考记录数。使用 C++ 与 Python 对同一参考数据的目标及严格非目标命中集合进行独立算法复核。结果为计算兼容性预测。
+16S 的 XS、S、M、L、XL 窗口分别有 55、55、158、159 和 55 种可评价，共同面板有 49 种。在共同面板中，XSD、SD、MD、LD、XLD 分别覆盖 30、28、42、39、45 种，完全匹配分别为 6、3、11、19、4 种。统一分母后，MD 的覆盖高于 LD，与各自面板百分比的排序不同。
 
-### 共同面板、条码分辨率与属级留出测试
+去除引物后，在各窗口全部明确的参考条码中，XS、S、XL 各有 55/55 种条码唯一，M 和 L 均为 150/158，各有四组双物种同条码记录待复核。L 有一条内部片段含模糊碱基。这些数值描述冻结参考集合内的条码唯一性。
 
-按 accession 对五个窗口取交集，得到49个共同物种，用于统一长度比较的分母；各窗口完整面板结果另行保留。条码取正反向结合窗口之间的同源比对列，去除空位，排除内部模糊碱基。唯一性相对于该窗口全部可用的明确条码判断，包括共同面板以外的物种。计算两两单位代价Levenshtein编辑距离，并列出每个物种的最近邻。这将标记分辨率与引物兼容性分开评价，与ecoPrimers同时考虑覆盖和分类区分能力的思路一致（Riaz等，2011）。
+属级五折留出评价既定 16S 区域内的序列选配。每折仅用训练物种生成候选，完整代表序列相同的属绑定在同一折。留出结果描述折内候选在热力学与背景筛查之前的表现。
 
-属级五折测试使用种子20261030分组；完整代表序列相同的跨属记录绑定在同一折。每折只用训练物种重新选配F/R，不使用正式引物或全数据候选池作为种子。确定性贪心搜索每端最多使用24个符合要求的高频普通序列种子，简并限于3′半段，每条≤8种变体；固定寡核苷酸长度，允许在既定结合区间附近±5个比对列内搜索。留出物种通过完整原始序列成对扫描评价。窗口发现早于划分，且折内候选未执行正式热力学和背景门槛，因此这是既定区域内序列选配的条件性测试；折内序列作为诊断结果，不纳入正式引物集。
+[共同面板图](results/computational_evaluation/figures/common_panel.svg) · [条码分辨率图](results/computational_evaluation/figures/resolution.svg) · [留出测试结果](results/computational_evaluation/results/cv_summary.csv) · [完整数据与复现](results/computational_evaluation/README.zh-CN.md)
 
-[分析方法与复现](results/computational_evaluation/README.zh-CN.md)
+## 引用与著作权
 
-[详细方法](docs/METHODS.zh-CN.md) · [验证](docs/VALIDATION.md)
+Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S, 12S and COI primers for sea-urchin environmental DNA metabarcoding*. GitHub.
 
-## 16S 结果
-
-### 预测表现
-
-| Name | Coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
-|---|---:|---:|---:|---:|
-| XS | 19/55 (34.55%) | 0/55 (0%) | 0 / 0 | 0 / 0 |
-| XSD | 35/55 (63.64%) | 6/55 (10.91%) | 0 / 7 | 19 / 7 |
-| S | 13/55 (23.64%) | 2/55 (3.64%) | 0 / 0 | 0 / 0 |
-| SD | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 3 / 0 |
-| M | 85/158 (53.80%) | 12/158 (7.59%) | 0 / 0 | 0 / 0 |
-| MD | 110/158 (69.62%) | 28/158 (17.72%) | 0 / 0 | 0 / 0 |
-| L | 103/159 (64.78%) | 18/159 (11.32%) | 0 / 0 | 2 / 1 |
-| LD | 141/159 (88.68%) | 30/159 (18.87%) | 2 / 12 | 12 / 12 |
-| XL | 41/55 (74.55%) | 9/55 (16.36%) | 2 / 3 | 3 / 5 |
-| XLD | 51/55 (92.73%) | 6/55 (10.91%) | 0 / 4 | 6 / 6 |
-
-覆盖要求每条引物最多 2 个错配且末端 3 nt 兼容；完全匹配要求两条引物零错配。严格 WC/GT 使用末端约束；WC≤3 / GT≤2 是不施加末端约束的非目标筛查。
-
-简并引物每条最多 8 个具体变体，简并位点限于 3′ 半段。结果为计算兼容性预测。
-
-### 49个共同物种的比较
-
-| Name | Coverage | Exact | Covered + identity-unique |
-| --- | --- | --- | --- |
-| XS | 19/49 | 0/49 | 19/49 |
-| XSD | 30/49 | 6/49 | 30/49 |
-| S | 13/49 | 2/49 | 13/49 |
-| SD | 28/49 | 3/49 | 28/49 |
-| M | 29/49 | 8/49 | 29/49 |
-| MD | 42/49 | 11/49 | 41/49 |
-| L | 37/49 | 10/49 | 36/49 |
-| LD | 39/49 | 19/49 | 38/49 |
-| XL | 40/49 | 9/49 | 40/49 |
-| XLD | 45/49 | 4/49 | 45/49 |
-
-十对正式引物均使用相同49物种计算覆盖与完全匹配。末列表示既匹配引物、内部条码又不与该窗口其他可用物种重复的物种数。XLD共同面板覆盖最高（45/49），LD完全匹配最多（19/49）。MD在共同面板上覆盖42种，高于LD的39种，与各自面板百分比的排序不同。
-
-![共同面板覆盖与完全匹配](results/computational_evaluation/figures/common_panel.svg)
-
-### 去除引物后的条码分辨率
-
-| Window | Unambiguous inserts | Identity-unique species | Insert length (bp) |
-| --- | --- | --- | --- |
-| XS | 55 | 55/55 | 137–144 |
-| S | 55 | 55/55 | 140–147 |
-| M | 158 | 150/158 | 179–208 |
-| L | 158 | 150/158 | 280–310 |
-| XL | 55 | 55/55 | 395–413 |
-
-长度不含两端引物。L结合窗口面板为159物种，其中一条内部片段含模糊碱基，条码分析保留158条。XS、S、XL的当前单物种代表之间没有相同条码；这表示参考集合内的唯一性，不是实测鉴定准确率或种群范围的分辨率。M和L各有四组双物种同条码冲突，其中涉及跨目记录，已标记来源待核查，未据此认定为生物学上不能区分。共同面板内49条M/L序列彼此不同，但与该窗口全部可用参考比较时，唯一物种数为48/49。
-
-![参考条码唯一性](results/computational_evaluation/figures/resolution.svg)
-
-[同条码冲突](results/computational_evaluation/results/barcode_collisions.csv) · [最近邻编辑距离](results/computational_evaluation/results/nearest_neighbors.csv) · [剔除冲突记录的敏感性结果](results/computational_evaluation/results/conflict_exclusion_sensitivity.csv)
-
-### 属级条件性留出测试
-
-| Window | Held-out coverage | Held-out exact |
-| --- | --- | --- |
-| XS | 47/55 (85.45%) | 3/55 (5.45%) |
-| S | 30/55 (54.55%) | 1/55 (1.82%) |
-| M | 112/158 (70.89%) | 24/158 (15.19%) |
-| L | 156/159 (98.11%) | 114/159 (71.70%) |
-| XL | 53/55 (96.36%) | 15/55 (27.27%) |
-
-此表来自25组逐折训练选配的候选，不是正式普通/D引物的性能表。每个窗口内每种物种仅测试一次，完整序列相同的记录不跨训练和测试折。结果评价未经过热力学与背景筛查的条件性模板兼容性，不能用于认定折内候选在完整设计约束下优于正式方案。折内序列、训练规模和逐物种预测均公开如下。
-
-![属级条件性留出结果](results/computational_evaluation/figures/holdout.svg)
-
-[逐折候选](results/computational_evaluation/results/cv_folds.csv) · [逐物种留出预测](results/computational_evaluation/results/cv_predictions.csv) · [完整面板比较表](results/computational_evaluation/results/panel_comparison.csv)
-
-### XS
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` |
-| XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` |
-
-两对引物在 NC_001453.1 上均结合于 F 183–204、R 344–363，参考扩增区间为 181 bp，比 S 短 7 bp。普通 XS 在 55 个可评价物种中没有正反引物均完全匹配的物种；其预测覆盖允许错配。XSD 反向引物倒数第 4 位使用 R（A/G），覆盖率更高。非目标数字为参考序列记录数。
-
-![XS base matching](results/current_primers/XS/base_matching_XS.svg)
-
-![XSD base matching](results/current_primers/XS/base_matching_XSD.svg)
-
-[XS 各目匹配](results/current_primers/XS/XS_by_order.csv) · [XS 各物种匹配](results/current_primers/XS/XS_by_taxon.csv) · [XSD 各目匹配](results/current_primers/XS/XSD_by_order.csv) · [XSD 各物种匹配](results/current_primers/XS/XSD_by_taxon.csv) · [普通候选比较](results/current_primers/XS/ordinary_screening.md)
-
-### S
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
-| SD | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` |
-
-![S base matching](results/current_primers/S/base_matching_S.svg)
-
-![SD base matching](results/current_primers/S/base_matching_SD.svg)
-
-[S 各目匹配](results/current_primers/S/SD_by_order.csv) · [S 各物种匹配](results/current_primers/S/SD_by_taxon.csv)
-
-### M
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
-| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` |
-
-![M base matching](results/current_primers/M/base_matching_M.svg)
-
-![MD base matching](results/current_primers/M/base_matching_MD.svg)
-
-[M 各目匹配](results/current_primers/M/MD_by_order.csv) · [M 各物种匹配](results/current_primers/M/MD_by_taxon.csv)
-
-### L
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
-| LD | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` |
-
-![L base matching](results/current_primers/L/base_matching_L.svg)
-
-![LD base matching](results/current_primers/L/base_matching_LD.svg)
-
-[L 各目匹配](results/current_primers/L/LD_by_order.csv) · [L 各物种匹配](results/current_primers/L/LD_by_taxon.csv)
-
-### XL
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
-| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` |
-
-![XL base matching](results/current_primers/XL/base_matching_XL.svg)
-
-![XLD base matching](results/current_primers/XL/base_matching_XLD.svg)
-
-[XL 各目匹配](results/current_primers/XL/XLD_by_order.csv) · [XL 各物种匹配](results/current_primers/XL/XLD_by_taxon.csv)
-
-## 讨论
-
-共同面板比较将长度差异与参考数据可用性分开。XLD偏向容许错配时的覆盖，LD偏向双端完全匹配；单个指标不足以确定普遍最优的窗口。XS的参考跨度只比S短7 bp，保留二者应同时考虑兼容性和信息量。
-
-各自面板仍有明显类群缺口：MD覆盖Spatangoida的0/37，LD为36/38；二者均未覆盖4个可评价Arbacioida。条码来源冲突和种内采样不足也限制了向参考集合外推断。属级选配测试提供条件性泛化分析；完整设计过程的更强推断仍需外部数据或嵌套窗口发现分析。本研究报告计算兼容性与条码区分能力，正式引物序列保持不变。
-
-[Copyright / 著作权](COPYRIGHT.md)
-
-## 引用方式
-
-使用本项目引物、参考数据或分析代码时，请引用：
-
-Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S, 12S and COI primers for sea-urchin environmental DNA metabarcoding*. GitHub. https://github.com/GUIBA-EX/MiUrchin
-
-[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib)
+[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [著作权与使用声明](COPYRIGHT.md)
 
 ## 参考文献
 

@@ -4,239 +4,98 @@
 
 [中文](README.zh-CN.md)
 
-Preprint: [PDF](publications/MiUrchin_preprint.pdf) · [Markdown](publications/MiUrchin_preprint.md) · [Provenance](publications/preprint_provenance.json)
+MiUrchin is a collection of 26 mitochondrial primer pairs for computational studies of sea-urchin environmental DNA. It covers five 16S windows, five 12S windows and three COI windows. Each window has an ordinary pair and a degenerate pair (D) with identical reference endpoints.
 
-## Marker guide
+[Download all primer sequences (FASTA)](sequences/all_markers.fasta) · [Preprint (PDF)](publications/MiUrchin_preprint.pdf) · [Manuscript (Markdown)](publications/MiUrchin_preprint.md)
 
-MiUrchin includes 26 candidate pairs across three mitochondrial markers. FASTA identifiers in the combined catalog include the gene name. Within each window, the ordinary and D pairs have identical reference endpoints on the corresponding gene of NC_001453.1.
+## Choosing a window
 
-[All 26 pairs (FASTA)](sequences/all_markers.fasta) · [16S sequences](sequences/primer_pairs.csv) · [12S and COI sequences, coordinates and metrics](markers/12S_COI/candidates.csv) · [Independent verification](markers/12S_COI/final_check.json)
+The strongest candidate depends on whether the priority is broad compatibility or an exact match at both binding sites. Each gene has its own reference panel. Counts within a window compare ordinary and D pairs on the same species.
 
-| Gene | Window | Span (bp) | N | Ordinary covered / exact | D covered / exact | D strict WC / GT |
-|---|---|---:|---:|---:|---:|---:|
-| 12S | XS | 153 | 67 | 27 / 0 | 32 / 19 | 0 / 0 |
-| 12S | S | 188 | 64 | 27 / 1 | 56 / 19 | 0 / 1 |
-| 12S | M | 249 | 69 | 25 / 0 | 61 / 24 | 2 / 2 |
-| 12S | L | 347 | 69 | 23 / 0 | 56 / 17 | 0 / 3 |
-| 12S | XL | 452 | 67 | 32 / 15 | 40 / 21 | 2 / 3 |
-| COI | XS | 152 | 106 | 34 / 0 | 79 / 3 | 0 / 1 |
-| COI | S | 209 | 105 | 28 / 3 | 63 / 6 | 1 / 1 |
-| COI | M | 248 | 103 | 22 / 0 | 57 / 1 | 0 / 0 |
+- **16S.** On the 49 species evaluable across all five windows, XLD covers the most species (45/49), while LD has the most exact matches (19/49). On their larger window-specific panels, MD matches 0/37 Spatangoida and LD matches 36/38.
+- **12S.** At 249 bp, MD improves coverage from 25/69 to 61/69 relative to ordinary M and raises exact matches from zero to 24. Strict GT background hits increase from one species to two.
+- **COI.** The 152 bp XSD covers 79/106 species, including three exact matches. The 209 bp SD covers 63/105, with six exact matches. Of 314 species in the COI library, only 103–106 have evaluable binding sites in each retained window. No L or XL candidate met the background thresholds in this search.
 
-Each row uses its own evaluable-species denominator. Strict WC/GT values count background species for 12S (459) and COI (1,719). The 12S MD pair covers 61/69 species with 24 exact matches. The COI XSD pair covers 79/106 with three exact matches. Only 103–106 of the 314 COI species span each retained window. COI L and XL yielded no candidates within the screening thresholds. The 49-species common panel and genus holdout reported below apply to 16S.
+## Sequences and predicted performance
 
-### Binding positions and base matching
+FASTA identifiers include the gene, assay and direction. For example, `MiUrchin-12S_MD_F` is the forward primer of the degenerate 12S M pair. Sequences run 5′ to 3′. Window lengths include both primers and use gene-relative coordinates on NC_001453.1. Insert length excludes the primers.
 
-![12S and COI primer binding positions](markers/12S_COI/figures/positions.svg)
+### 16S
 
-Each order contributes one representative, selected by the number of concrete binding-site bases and then accession. Both primers read 5′ to 3′. Boxes mark the terminal three bases, green indicates compatibility and orange indicates mismatch. Insertions are omitted from reference columns. The rightmost labels summarize the paired full-sequence scan.
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict WC / GT | Base matching |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` | 181 | 19/55 | 0/55 | 0 / 0 | [View](results/current_primers/XS/base_matching_XS.svg) |
+| XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` | 181 | 35/55 | 6/55 | 0 / 7 | [View](results/current_primers/XS/base_matching_XSD.svg) |
+| S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` | 188 | 13/55 | 2/55 | 0 / 0 | [View](results/current_primers/S/base_matching_S.svg) |
+| SD | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` | 188 | 29/55 | 3/55 | 0 / 0 | [View](results/current_primers/S/base_matching_SD.svg) |
+| M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` | 228 | 85/158 | 12/158 | 0 / 0 | [View](results/current_primers/M/base_matching_M.svg) |
+| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` | 228 | 110/158 | 28/158 | 0 / 0 | [View](results/current_primers/M/base_matching_MD.svg) |
+| L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` | 343 | 103/159 | 18/159 | 0 / 0 | [View](results/current_primers/L/base_matching_L.svg) |
+| LD | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` | 343 | 141/159 | 30/159 | 2 / 12 | [View](results/current_primers/L/base_matching_LD.svg) |
+| XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` | 440 | 41/55 | 9/55 | 2 / 3 | [View](results/current_primers/XL/base_matching_XL.svg) |
+| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` | 440 | 51/55 | 6/55 | 0 / 4 | [View](results/current_primers/XL/base_matching_XLD.svg) |
 
-| Gene | Window | Ordinary | D |
-|---|---|---|---|
-| 12S | XS | [XS](markers/12S_COI/figures/12S_XS.svg) | [XSD](markers/12S_COI/figures/12S_XSD.svg) |
-| 12S | S | [S](markers/12S_COI/figures/12S_S.svg) | [SD](markers/12S_COI/figures/12S_SD.svg) |
-| 12S | M | [M](markers/12S_COI/figures/12S_M.svg) | [MD](markers/12S_COI/figures/12S_MD.svg) |
-| 12S | L | [L](markers/12S_COI/figures/12S_L.svg) | [LD](markers/12S_COI/figures/12S_LD.svg) |
-| 12S | XL | [XL](markers/12S_COI/figures/12S_XL.svg) | [XLD](markers/12S_COI/figures/12S_XLD.svg) |
-| COI | XS | [XS](markers/12S_COI/figures/COI_XS.svg) | [XSD](markers/12S_COI/figures/COI_XSD.svg) |
-| COI | S | [S](markers/12S_COI/figures/COI_S.svg) | [SD](markers/12S_COI/figures/COI_SD.svg) |
-| COI | M | [M](markers/12S_COI/figures/COI_M.svg) | [MD](markers/12S_COI/figures/COI_MD.svg) |
+### 12S
 
-## 16S evaluation
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict WC / GT | Base matching |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `TGCCACATGCAAGCTTATTAG` | `TTTAGCACTGCAGATGTGG` | 153 | 27/67 | 0/67 | 0 / 0 | [View](markers/12S_COI/figures/12S_XS.svg) |
+| XSD | `TGCCACATGCAAGCYWAYTAG` | `TTTAGCACTGCAGDYGTGG` | 153 | 32/67 | 19/67 | 0 / 0 | [View](markers/12S_COI/figures/12S_XSD.svg) |
+| S | `GTCCTAGTCCCAATTTTAAC` | `AATGTTTAGCACTGCAGTTG` | 188 | 27/64 | 1/64 | 0 / 1 | [View](markers/12S_COI/figures/12S_S.svg) |
+| SD | `GTCCTAGTCCCAAYWTTARC` | `AATGTTTAGCACTGCAGDYG` | 188 | 56/64 | 19/64 | 0 / 1 | [View](markers/12S_COI/figures/12S_SD.svg) |
+| M | `CGGTTTTCCAAACCTCCCT` | `ACTGCTGAATCCAGTTTCT` | 249 | 25/69 | 0/69 | 1 / 1 | [View](markers/12S_COI/figures/12S_M.svg) |
+| MD | `CGGTTTTCCAWAYCTCCCT` | `ACTGCTGAATCCARTTTCN` | 249 | 61/69 | 24/69 | 2 / 2 | [View](markers/12S_COI/figures/12S_MD.svg) |
+| L | `ACCCTGTTATACTTAGACGT` | `GCATTCCAGAGCTCTCTTCA` | 347 | 23/69 | 0/69 | 0 / 0 | [View](markers/12S_COI/figures/12S_L.svg) |
+| LD | `ACCCTGTTATACTTAGMHGT` | `GCATTCCAGAGCTSWYTTCA` | 347 | 56/69 | 17/69 | 0 / 3 | [View](markers/12S_COI/figures/12S_LD.svg) |
+| XL | `CCACATGCAAGCTAACTAGC` | `AAACCGCCAAGTCCTTTGAG` | 452 | 32/67 | 15/67 | 0 / 0 | [View](markers/12S_COI/figures/12S_XL.svg) |
+| XLD | `CCACATGCAAGYYAAYTAGC` | `AAACCGCCAARTCCTTTGAR` | 452 | 40/67 | 21/67 | 2 / 3 | [View](markers/12S_COI/figures/12S_XLD.svg) |
 
-### Abstract
+### COI
 
-Mitochondrial 16S rRNA primers for echinoid eDNA in five windows: XS, S, M, L and XL. Each window retains an ordinary pair and a degenerate D pair with shared reference endpoints.
-The reference panel contains 165 species; the XS, S, M, L and XL windows have 55, 55, 158, 159 and 55 evaluable species, respectively. Missing windows are not counted as failures. The overview uses the earlier classification; the current panel uses WoRMS order names.
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict WC / GT | Base matching |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `TCAAACCTACAATGAGAAAC` | `ACATAGTGGAAGTGAGCTAC` | 152 | 34/106 | 0/106 | 0 / 1 | [View](markers/12S_COI/figures/COI_XS.svg) |
+| XSD | `TCAAACCTACARTGRGARAC` | `ACATAGTGGAAGTGDGCWAC` | 152 | 79/106 | 3/106 | 0 / 1 | [View](markers/12S_COI/figures/COI_XSD.svg) |
+| S | `CAAGGATCAAACCTACAATG` | `AATCAGTGAGTAAATCCTGC` | 209 | 28/105 | 3/105 | 0 / 0 | [View](markers/12S_COI/figures/COI_S.svg) |
+| SD | `CAAGGATCAAAYYTACARTG` | `AATCAGTGAGTRAAYCCWGC` | 209 | 63/105 | 6/105 | 1 / 1 | [View](markers/12S_COI/figures/COI_SD.svg) |
+| M | `TCAAACCTACAATGGGAAAC` | `ACCTTTCCTCATAGTGGGTG` | 248 | 22/103 | 0/103 | 0 / 0 | [View](markers/12S_COI/figures/COI_M.svg) |
+| MD | `TCAAACCTACARTGRGARAC` | `ACCTTTCCTCAWAGYGGRTG` | 248 | 57/103 | 1/103 | 0 / 0 | [View](markers/12S_COI/figures/COI_MD.svg) |
 
-On the common 49-species panel, XSD, SD, MD, LD and XLD cover 30, 28, 42, 39 and 45 species, with 6, 3, 11, 19 and 4 exact paired matches. Primer-free barcode identity and a genus-blocked conditional holdout analysis complement the released assay evaluation.
+**Background counts.** The 16S screen counts hits among 6,045 records. The 12S and COI screens count hits among 459 and 1,719 non-target echinoderm species representatives, respectively. Complete tables also include relaxed screening results.
 
-## Introduction
+[16S CSV](results/current_primers/comparison.csv) · [12S / COI CSV](markers/12S_COI/candidates.csv)
 
-Environmental DNA metabarcoding of echinoids requires a balance between target coverage, primer compatibility and non-target amplification. MiUrchin compares five mitochondrial 16S windows, each with ordinary and degenerate primers at shared reference positions. Marine eDNA metabarcoding studies demonstrate the importance of marker and reference-library choice (Gold et al., 2022); MiFish provides an example of sequence-alignment-based primer design for fishes (Miya et al., 2015). Mitochondrial markers have also been used to investigate sea-urchin DNA in trophic samples (Sutera et al., 2025).
+## Binding positions and base matching
 
-[参考面板 / Reference panel](results/species_qc/panel.csv) · [审核 / Reference curation](results/species_qc/README.md)
+The arrows show forward and reverse binding sites. Each gene uses its own coordinate axis. In the base diagrams linked above, the reverse template is shown in primer orientation. The box marks the terminal three bases. The 12S and COI diagrams show one representative per order selected by binding-site completeness, with accession as the tie-breaker. Their green cells indicate compatible bases, orange cells indicate mismatches and the rightmost label gives the paired full-sequence scan outcome.
 
-![Reference binding positions](figures/amplicon_regions.en.svg)
+![16S](figures/amplicon_regions.en.svg)
 
-## Methods
+![12S / COI](markers/12S_COI/figures/positions.svg)
 
-### Reference datasets and alignment
+## Reference panels and screening rules
 
-The target library comprised 1,401 mitochondrial sequence records from echinoids; the non-target library comprised 6,045 reference records. Target records were reviewed for sequence quality and taxonomy, and one representative was retained per identifiable species (165 species). Representatives were selected using binding-window completeness, ambiguous bases and reference-site coverage, without using primer-match outcomes. The retained sequences were realigned with MAFFT 7.526 (Katoh & Standley, 2013) using the ungapped mitochondrial 16S rRNA reference NC_001453.1; positions are reported as 1-based coordinates. For the curated species panels, each binding window had to span the reference region, contain at least 90% of its reference-site count as A/C/G/T, and contain no ambiguous nucleotide; alignment gaps were permitted. The numbers of evaluable species were 55, 55, 158, 159 and 55 for XS, S, M, L and XL, respectively; missing windows were excluded from the corresponding denominator. The [reference audit](results/species_qc/README.md) provides the selection criteria and accession-level records.
+The 16S library contains 1,401 target records. Curation retained one representative per species (165 species) and resolved order names against WoRMS. The 12S and COI searches of NCBI Nucleotide yielded 9,988 distinct accession records after deduplication. Sequence extraction and quality checks retained 208 eligible 12S sequences and 9,392 COI sequences, representing 69 and 314 named species on their respective design panels. Missing binding windows are excluded from the corresponding denominator.
 
-### Primer design and screening
+Coverage requires a paired product with ≤2 mismatches per primer and compatible terminal three bases. Exact matching requires zero mismatches at both ends. Each D oligonucleotide has ≤8 concrete variants. Strict WC uses Watson–Crick compatibility and strict GT also permits G–T pairing. Relaxed WC≤3 and GT≤2 omit the terminal constraint. These counts describe computational template compatibility.
 
-Ordinary and degenerate candidates were compared within fixed forward and reverse reference windows. For S–XL, the ordinary and D pairs at each length share the same reference endpoints. D oligonucleotides were limited to eight concrete variants per primer, with IUPAC ambiguity confined to the 3′ half. Terminal screening excluded homotriplet ends and homopolymers longer than four bases and required a G or C in the final three positions. Primer3 (Untergasser et al., 2012) evaluations used 50 mM monovalent salt, 1.5 mM Mg²⁺ and 0.6 mM dNTP, under 50 nM per variant and 200 nM total per direction. The S–XL structural gate required a maximum predicted structure Tm below 55 °C and a forward–reverse duplex-Tm midpoint difference of at most 5 °C. XS and XSD share the observed reference endpoints F 183–204 and R 344–363. The ordinary XS search enumerated substitutions around the reference binding sequences while fixing the final three bases to the reference; candidates were screened for target matching, terminal properties, primer structure and non-target hits. XS target scans used products of 70–500 bp and an internal distance of at least 20 bp.
+[16S methods](docs/METHODS.md) · [16S reference audit](results/species_qc/README.md) · [12S and COI data and verification](markers/12S_COI/README.md)
 
-### In-silico evaluation
+## Additional evaluation of 16S
 
-Target coverage required at most two mismatches per primer and IUPAC-compatible final 3 nt; exact matching required zero mismatches at both sites. For S–XL, paired target scans required an amplicon of 150–500 bp and an internal distance of at least 50 bp. Background searches allowed an internal distance of 0–1,000 bp. Strict Watson–Crick (WC) and G–T models retained the terminal constraint; WC≤3 and GT≤2 were additional permissive screens without that constraint. Coverage and exact-match percentages weighted evaluable species equally, with results also summarized by order; non-target counts represent reference records. C++ and Python scans were compared on the same sequence data to verify target and strict background hit sets. These results describe computational template compatibility.
+The five 16S windows contain 55, 55, 158, 159 and 55 evaluable species, respectively. Their intersection contains 49 species. On this common panel, XSD, SD, MD, LD and XLD cover 30, 28, 42, 39 and 45 species and exactly match 6, 3, 11, 19 and 4. Using this shared denominator reverses the own-panel coverage ranking of MD and LD.
 
-### Common panel, barcode discrimination and genus-blocked holdout
+Primer-free inserts were compared against all unambiguous representatives for each window. XS, S and XL each had 55/55 identity-unique representatives. M and L each had 150/158, with four shared-barcode species pairs flagged for source review. One L insert contained ambiguous bases. These values describe identity in the frozen reference set.
 
-We intersected the five window panels by accession to obtain 49 common species; this panel controls the denominator for length comparisons. Own-panel results retain the larger available reference sets. Primer-free inserts were extracted strictly between the aligned binding windows, with gaps removed and ambiguous inserts excluded. Identity uniqueness was assessed against every available unambiguous insert for the same window, including species outside the common panel. Pairwise unit-cost Levenshtein distances identified each species' nearest other-species neighbor. This separates marker discrimination from primer compatibility, following the joint coverage/discrimination logic of ecoPrimers (Riaz et al., 2011).
+Five-fold genus holdout evaluated sequence selection within the predefined 16S regions. Each fold selected candidates from training species only. Genera sharing an identical complete representative were assigned to the same fold. The resulting scores describe fold-specific candidates before thermal and background screening.
 
-For five-fold holdout testing, genera were shuffled with seed 20261030 and assigned to folds; genera sharing identical complete representative sequences were linked to the same fold. Each fold selected new F/R sequences using training representatives only, without seeding from the released primers or global candidate pool. A deterministic greedy search used up to 24 admissible frequent concrete seeds per side, 3′-half ambiguity and ≤8 variants per oligonucleotide. The local search allowed offsets within five alignment columns of the frozen binding intervals while keeping oligonucleotide lengths fixed. Held-out species were evaluated with full-sequence paired scans. This tests sequence selection conditional on previously discovered regions: window discovery preceded splitting, and fold candidates did not undergo the formal thermal/background gates. Fold candidates are diagnostic sequences, not additions to the released primer set.
+[Common-panel figure](results/computational_evaluation/figures/common_panel.svg) · [Barcode resolution](results/computational_evaluation/figures/resolution.svg) · [Holdout results](results/computational_evaluation/results/cv_summary.csv) · [Data and reproduction](results/computational_evaluation/README.md)
 
-[Analysis methods and reproduction](results/computational_evaluation/README.md)
+## Citation and permissions
 
-[Detailed methods](docs/METHODS.md) · [Validation](docs/VALIDATION.md)
+Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S, 12S and COI primers for sea-urchin environmental DNA metabarcoding*. GitHub.
 
-## 16S results
-
-### Predicted performance
-
-| Name | Coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
-|---|---:|---:|---:|---:|
-| XS | 19/55 (34.55%) | 0/55 (0%) | 0 / 0 | 0 / 0 |
-| XSD | 35/55 (63.64%) | 6/55 (10.91%) | 0 / 7 | 19 / 7 |
-| S | 13/55 (23.64%) | 2/55 (3.64%) | 0 / 0 | 0 / 0 |
-| SD | 29/55 (52.73%) | 3/55 (5.45%) | 0 / 0 | 3 / 0 |
-| M | 85/158 (53.80%) | 12/158 (7.59%) | 0 / 0 | 0 / 0 |
-| MD | 110/158 (69.62%) | 28/158 (17.72%) | 0 / 0 | 0 / 0 |
-| L | 103/159 (64.78%) | 18/159 (11.32%) | 0 / 0 | 2 / 1 |
-| LD | 141/159 (88.68%) | 30/159 (18.87%) | 2 / 12 | 12 / 12 |
-| XL | 41/55 (74.55%) | 9/55 (16.36%) | 2 / 3 | 3 / 5 |
-| XLD | 51/55 (92.73%) | 6/55 (10.91%) | 0 / 4 | 6 / 6 |
-
-Coverage allows at most two mismatches per primer with compatible terminal 3 nt; exact matching requires zero mismatches in both primers. Strict WC/GT use the terminal constraint; WC≤3 / GT≤2 are permissive background screens without it.
-
-Each degenerate primer has at most eight concrete variants, with ambiguity confined to the 3′ half. Results describe computational compatibility.
-
-### Comparison on 49 common species
-
-| Name | Coverage | Exact | Covered + identity-unique |
-| --- | --- | --- | --- |
-| XS | 19/49 | 0/49 | 19/49 |
-| XSD | 30/49 | 6/49 | 30/49 |
-| S | 13/49 | 2/49 | 13/49 |
-| SD | 28/49 | 3/49 | 28/49 |
-| M | 29/49 | 8/49 | 29/49 |
-| MD | 42/49 | 11/49 | 41/49 |
-| L | 37/49 | 10/49 | 36/49 |
-| LD | 39/49 | 19/49 | 38/49 |
-| XL | 40/49 | 9/49 | 40/49 |
-| XLD | 45/49 | 4/49 | 45/49 |
-
-Coverage and exact matching use the same 49 species for all ten released assays. The final column counts species that both match the primers and have a reference insert not shared by any other available species in that window. XLD has the highest common-panel coverage (45/49), while LD has the most exact paired matches (19/49). MD covers more common-panel species than LD (42 versus 39), reversing their own-panel percentage ranking.
-
-![Common-panel compatibility and exact matching](results/computational_evaluation/figures/common_panel.svg)
-
-### Primer-free barcode discrimination
-
-| Window | Unambiguous inserts | Identity-unique species | Insert length (bp) |
-| --- | --- | --- | --- |
-| XS | 55 | 55/55 | 137–144 |
-| S | 55 | 55/55 | 140–147 |
-| M | 158 | 150/158 | 179–208 |
-| L | 158 | 150/158 | 280–310 |
-| XL | 55 | 55/55 | 395–413 |
-
-Lengths exclude both primers. The L binding panel has 159 species, but one ambiguous internal insert leaves 158 for barcode analysis. XS, S and XL have no identical inserts between their sampled species representatives; this is reference-set uniqueness, not measured identification accuracy or population-wide resolution. M and L each contain four two-species identity conflicts. These include cross-order records and are flagged for source review rather than interpreted as established biological non-resolution. Common-panel M/L uniqueness is 48/49 when assessed against all available inserts, even though the 49 common-panel sequences differ from each other.
-
-![Reference-barcode uniqueness](results/computational_evaluation/figures/resolution.svg)
-
-[Identical-barcode conflicts](results/computational_evaluation/results/barcode_collisions.csv) · [Nearest-neighbor edit distances](results/computational_evaluation/results/nearest_neighbors.csv) · [Conflict-exclusion sensitivity](results/computational_evaluation/results/conflict_exclusion_sensitivity.csv)
-
-### Genus-blocked conditional holdout
-
-| Window | Held-out coverage | Held-out exact |
-| --- | --- | --- |
-| XS | 47/55 (85.45%) | 3/55 (5.45%) |
-| S | 30/55 (54.55%) | 1/55 (1.82%) |
-| M | 112/158 (70.89%) | 24/158 (15.19%) |
-| L | 156/159 (98.11%) | 114/159 (71.70%) |
-| XL | 53/55 (96.36%) | 15/55 (27.27%) |
-
-These results use 25 fold-specific, training-selected pairs, not the released ordinary/D pairs. Every species is tested once within its window, and identical complete sequences never cross folds. Values measure conditional template compatibility without thermal or background selection; they do not demonstrate that the fold pairs outperform released assays under the full design constraints. All fold sequences, training sizes and held-out predictions are available below.
-
-![Conditional genus-blocked test](results/computational_evaluation/figures/holdout.svg)
-
-[Fold-specific candidates](results/computational_evaluation/results/cv_folds.csv) · [Held-out predictions](results/computational_evaluation/results/cv_predictions.csv) · [Complete comparison tables](results/computational_evaluation/results/panel_comparison.csv)
-
-### XS
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` |
-| XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` |
-
-Both pairs bind at F 183–204 and R 344–363 on NC_001453.1; the reference amplicon is 181 bp, 7 bp shorter than S. XS has no exact pair match in the 55 evaluable species; its predicted coverage allows mismatches. XSD improves coverage, with R (A/G) at the fourth base from the reverse primer’s 3′ end. Non-target counts are reference records.
-
-![XS base matching](results/current_primers/XS/base_matching_XS.svg)
-
-![XSD base matching](results/current_primers/XS/base_matching_XSD.svg)
-
-[XS by order](results/current_primers/XS/XS_by_order.csv) · [XS by species](results/current_primers/XS/XS_by_taxon.csv) · [XSD by order](results/current_primers/XS/XSD_by_order.csv) · [XSD by species](results/current_primers/XS/XSD_by_taxon.csv) · [Candidate comparison](results/current_primers/XS/ordinary_screening.md)
-
-### S
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` |
-| SD | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` |
-
-![S base matching](results/current_primers/S/base_matching_S.svg)
-
-![SD base matching](results/current_primers/S/base_matching_SD.svg)
-
-[S order matches](results/current_primers/S/SD_by_order.csv) · [S species matches](results/current_primers/S/SD_by_taxon.csv)
-
-### M
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` |
-| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` |
-
-![M base matching](results/current_primers/M/base_matching_M.svg)
-
-![MD base matching](results/current_primers/M/base_matching_MD.svg)
-
-[M order matches](results/current_primers/M/MD_by_order.csv) · [M species matches](results/current_primers/M/MD_by_taxon.csv)
-
-### L
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` |
-| LD | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` |
-
-![L base matching](results/current_primers/L/base_matching_L.svg)
-
-![LD base matching](results/current_primers/L/base_matching_LD.svg)
-
-[L order matches](results/current_primers/L/LD_by_order.csv) · [L species matches](results/current_primers/L/LD_by_taxon.csv)
-
-### XL
-
-| Name | F (5′→3′) | R (5′→3′) |
-|---|---|---|
-| XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` |
-| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` |
-
-![XL base matching](results/current_primers/XL/base_matching_XL.svg)
-
-![XLD base matching](results/current_primers/XL/base_matching_XLD.svg)
-
-[XL order matches](results/current_primers/XL/XLD_by_order.csv) · [XL species matches](results/current_primers/XL/XLD_by_taxon.csv)
-
-## Discussion
-
-Common-panel comparison separates length effects from reference availability. XLD favors mismatch-tolerant coverage, while LD favors exact paired matching; neither score alone establishes a universally preferable window. XS shortens the reference span by only 7 bp relative to S, so retaining both should be justified by compatibility and informative variation as well as length.
-
-Lineage gaps remain substantial in the own-panel data: MD matches 0/37 Spatangoida, compared with LD's 36/38; both miss all four evaluable Arbacioida. Barcode identity conflicts and incomplete population sampling also limit inference beyond the frozen references. Genus-blocked sequence selection adds a conditional generalization analysis, while external data or fully nested window discovery would support stronger claims about the full design process. The present study reports computational compatibility and discrimination, with the released primer sequences unchanged.
-
-[Copyright / 著作权](COPYRIGHT.md)
-
-## Citation
-
-If you use the primers, reference data or analysis code, please cite:
-
-Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S, 12S and COI primers for sea-urchin environmental DNA metabarcoding*. GitHub. https://github.com/GUIBA-EX/MiUrchin
-
-[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib)
+[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Copyright and permissions](COPYRIGHT.md)
 
 ## References
 
