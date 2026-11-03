@@ -2,7 +2,7 @@
   "author": "Fei Xia",
   "date": "2026-11-04",
   "project": "MiUrchin",
-  "source_commit": "64ccc44d8c13736d81b40bfc2b34ed5dcfea29b0",
+  "source_commit": "29b51b1cb1cd88827e008feb97c7e0809d887937",
   "common_species": 49,
   "inputs": {
     "markers/12S_COI/candidates.csv": "afe0391b5a669b72ffc7516e1d958d6a812994f5c77b1330ed9536ba9523cd68",
@@ -24,7 +24,7 @@
     "results/computational_evaluation/results/manifest.json": "acd1e916f2412fdbdd166868602bcf2eb5bf33b6b9bfff1280acd0e3efb9fc86"
   },
   "artifacts": {
-    "MiUrchin_preprint.pdf": "bbf1dc6cb7f98e8803d4317bde7072de9c18ace99320bf0e21972b65f3e80ebc",
-    "MiUrchin_preprint.md": "d6b92f604a344687c0a858550dcf3fe73170b157a82191c65380a7db9fb636b7"
+    "MiUrchin_preprint.pdf": "6fafdfebb33c260143ccf68b0b1917fd0c78bdb9b20f4e869ae5bd88d0f74173",
+    "MiUrchin_preprint.md": "8985d4baa7dbb599acd1954eb0a83eb3d150aed57ad5ceec2af9bbe333b6e9cd"
   }
 }

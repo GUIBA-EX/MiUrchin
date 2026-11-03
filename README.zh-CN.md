@@ -25,6 +25,23 @@ MiUrchin 包含三个线粒体标记的 26 对候选引物。合并 FASTA 的名
 
 每行使用该基因、该窗口的可评价物种数 N。普通与 D 两列分别给出预测覆盖数和双端完全匹配数，末列为 D 的严格非目标物种数。12S 的背景有 459 种，COI 有 1,719 种。12S 的 MD 覆盖 61/69 种，其中 24 种完全匹配。COI 的 XSD 覆盖 79/106 种，其中 3 种完全匹配。COI 库有 314 个物种，各保留窗口只有 103–106 种可评价；本轮 L、XL 未筛得通过背景门槛的候选。下文的 49 物种共同面板和属级留出分析适用于 16S。
 
+### 结合位置与碱基匹配
+
+![12S and COI primer binding positions](markers/12S_COI/figures/positions.svg)
+
+每目展示一个代表，按窗口碱基完整度选择，同分时取 accession 排序第一条。F、R 均按引物 5′→3′ 方向显示，方框为末端三位。绿色表示兼容，橙色表示错配。比对插入不占参考列，右侧标记来自全序列成对扫描。
+
+| Gene | Window | Ordinary | D |
+|---|---|---|---|
+| 12S | XS | [XS](markers/12S_COI/figures/12S_XS.svg) | [XSD](markers/12S_COI/figures/12S_XSD.svg) |
+| 12S | S | [S](markers/12S_COI/figures/12S_S.svg) | [SD](markers/12S_COI/figures/12S_SD.svg) |
+| 12S | M | [M](markers/12S_COI/figures/12S_M.svg) | [MD](markers/12S_COI/figures/12S_MD.svg) |
+| 12S | L | [L](markers/12S_COI/figures/12S_L.svg) | [LD](markers/12S_COI/figures/12S_LD.svg) |
+| 12S | XL | [XL](markers/12S_COI/figures/12S_XL.svg) | [XLD](markers/12S_COI/figures/12S_XLD.svg) |
+| COI | XS | [XS](markers/12S_COI/figures/COI_XS.svg) | [XSD](markers/12S_COI/figures/COI_XSD.svg) |
+| COI | S | [S](markers/12S_COI/figures/COI_S.svg) | [SD](markers/12S_COI/figures/COI_SD.svg) |
+| COI | M | [M](markers/12S_COI/figures/COI_M.svg) | [MD](markers/12S_COI/figures/COI_MD.svg) |
+
 ## 16S 评价
 
 ### 摘要

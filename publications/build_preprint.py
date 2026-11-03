@@ -47,7 +47,7 @@ MiLily XS was supplied as a manual design and retained unchanged: F TTGGGGCAACCD
 
 ''' if lily else ''
 chinese=f'本研究对{name}五个线粒体16S窗口进行纯计算评价，使用每个物种一条代表的冻结参考面板。共同面板包含{n}个物种，覆盖最多的方案为{"、".join(cvnames)}（{bestcv["covered"]}/{n}），双端完全匹配最多的方案为{"、".join(exnames)}（{bestexact["exact"]}/{n}）。分析区分引物兼容性、去引物内部条码唯一性及属级条件性留出表现。折内候选不作为正式替换方案，跨物种相同条码保留来源待核查。'
-s=f'''# {name}: in silico design and evaluation of mitochondrial 16S, 12S and COI primers for environmental DNA metabarcoding of {taxon}
+s=f'''# MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin
 
 Fei Xia
 
@@ -208,6 +208,8 @@ The 12S M window shows a gain from 25 to 61 compatible species and from zero to 
 
 ## 4. Discussion""")
 s=s.replace('## References','### Additional mitochondrial primer sequences\n\n'+marker_seqs+'\n\n## References')
+shutil.copyfile(repo/'markers/12S_COI/figures/positions.png',figdir/'marker_positions.png')
+s=s.replace('## 4. Discussion','![Figure 4. Reference binding windows for the ordinary and D pairs. Coordinates are 1-based within the respective mitochondrial gene.](figures/marker_positions.png)\n\n## 4. Discussion')
 (out/f'{name}_preprint.md').write_text(s)
 # Typeset Markdown subset with ReportLab; figures are rasterized from the data at 220 dpi.
 from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Table,TableStyle,Image,KeepTogether
@@ -245,7 +247,7 @@ for line in s.splitlines():
 flush()
 def footer(c,doc):
  c.setFont('Body',7);c.setFillColor(colors.HexColor('#53636d'));c.drawString(50,28,f'{name} | Fei Xia | Computational preprint | 4 November 2026');c.drawRightString(545,28,str(doc.page));c.setFont('Body',5.8);c.drawString(50,17,'Copyright © 2026 Fei Xia. All rights reserved. Third-party source conditions apply; see repository COPYRIGHT.md.')
-pdf=out/f'{name}_preprint.pdf';doc=SimpleDocTemplate(str(pdf),pagesize=(595.28,841.89),rightMargin=50,leftMargin=50,topMargin=45,bottomMargin=48,title=f'{name}: computational primer evaluation',author='Fei Xia');doc.build(story,onFirstPage=footer,onLaterPages=footer)
+pdf=out/f'{name}_preprint.pdf';doc=SimpleDocTemplate(str(pdf),pagesize=(595.28,841.89),rightMargin=50,leftMargin=50,topMargin=45,bottomMargin=48,title='MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin',author='Fei Xia');doc.build(story,onFirstPage=footer,onLaterPages=footer)
 inputs=['markers/12S_COI/candidates.csv','markers/12S_COI/final_check.json','sequences/all_markers.fasta','sequences/primer_pairs.csv','figures/current_region_coordinates.csv','results/current_primers/comparison.csv']+[str(f.relative_to(repo)) for f in sorted(res.glob('*.csv'))]+['results/computational_evaluation/results/manifest.json']
 prov=dict(author='Fei Xia',date='2026-11-04',project=name,source_commit=subprocess.check_output(['git','-C',str(repo),'rev-parse','HEAD']).decode().strip(),common_species=int(n),inputs={f:hashlib.sha256((repo/f).read_bytes()).hexdigest() for f in inputs},artifacts={pdf.name:hashlib.sha256(pdf.read_bytes()).hexdigest(),f'{name}_preprint.md':hashlib.sha256((out/f'{name}_preprint.md').read_bytes()).hexdigest()})
 (out/'preprint_provenance.json').write_text(json.dumps(prov,indent=2)+'\n');print(name,'PDF and Markdown generated')

@@ -1,4 +1,4 @@
-# MiUrchin: in silico design and evaluation of mitochondrial 16S, 12S and COI primers for environmental DNA metabarcoding of sea urchins
+# MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin
 
 Fei Xia
 
@@ -170,6 +170,8 @@ Table 6. Predicted compatibility and strict background-species counts in the ind
 | COI | MD | 248 | 57/103 | 1/103 | 0/0 |
 
 The 12S M window shows a gain from 25 to 61 compatible species and from zero to 24 exactly matched species after introducing degeneracy. The COI panel includes many partial records. The three retained windows each have only 103–106 evaluable species, and attempts to move into more widely sequenced regions increased non-target matching. The common-panel discrimination and genus-blocked sequence-selection tests in Sections 3.2–3.4 were performed for 16S.
+
+![Figure 4. Reference binding windows for the ordinary and D pairs. Coordinates are 1-based within the respective mitochondrial gene.](figures/marker_positions.png)
 
 ## 4. Discussion
 

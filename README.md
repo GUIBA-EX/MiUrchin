@@ -25,6 +25,23 @@ MiUrchin includes 26 candidate pairs across three mitochondrial markers. FASTA i
 
 Each row uses its own evaluable-species denominator. Strict WC/GT values count background species for 12S (459) and COI (1,719). The 12S MD pair covers 61/69 species with 24 exact matches. The COI XSD pair covers 79/106 with three exact matches. Only 103–106 of the 314 COI species span each retained window. COI L and XL yielded no candidates within the screening thresholds. The 49-species common panel and genus holdout reported below apply to 16S.
 
+### Binding positions and base matching
+
+![12S and COI primer binding positions](markers/12S_COI/figures/positions.svg)
+
+Each order contributes one representative, selected by the number of concrete binding-site bases and then accession. Both primers read 5′ to 3′. Boxes mark the terminal three bases, green indicates compatibility and orange indicates mismatch. Insertions are omitted from reference columns. The rightmost labels summarize the paired full-sequence scan.
+
+| Gene | Window | Ordinary | D |
+|---|---|---|---|
+| 12S | XS | [XS](markers/12S_COI/figures/12S_XS.svg) | [XSD](markers/12S_COI/figures/12S_XSD.svg) |
+| 12S | S | [S](markers/12S_COI/figures/12S_S.svg) | [SD](markers/12S_COI/figures/12S_SD.svg) |
+| 12S | M | [M](markers/12S_COI/figures/12S_M.svg) | [MD](markers/12S_COI/figures/12S_MD.svg) |
+| 12S | L | [L](markers/12S_COI/figures/12S_L.svg) | [LD](markers/12S_COI/figures/12S_LD.svg) |
+| 12S | XL | [XL](markers/12S_COI/figures/12S_XL.svg) | [XLD](markers/12S_COI/figures/12S_XLD.svg) |
+| COI | XS | [XS](markers/12S_COI/figures/COI_XS.svg) | [XSD](markers/12S_COI/figures/COI_XSD.svg) |
+| COI | S | [S](markers/12S_COI/figures/COI_S.svg) | [SD](markers/12S_COI/figures/COI_SD.svg) |
+| COI | M | [M](markers/12S_COI/figures/COI_M.svg) | [MD](markers/12S_COI/figures/COI_MD.svg) |
+
 ## 16S evaluation
 
 ### Abstract
