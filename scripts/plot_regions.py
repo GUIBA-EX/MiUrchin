@@ -5,13 +5,17 @@ import matplotlib
 matplotlib.use('Agg')
 from matplotlib import pyplot as plt,font_manager,ticker
 p=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser();parser.add_argument('--cjk-font',default='/System/Library/Fonts/STHeiti Medium.ttc');parser.add_argument('--language',choices=['en','zh','zh-TW']);args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--cjk-font',default='/System/Library/Fonts/STHeiti Medium.ttc');parser.add_argument('--language',choices=['en','zh','zh-TW']);parser.add_argument('--gene',choices=['16S','12S','COI','28S']);args=parser.parse_args()
 font_manager.fontManager.addfont(args.cjk_font);cjk=font_manager.FontProperties(fname=args.cjk_font).get_name()
 rows=list(csv.DictReader((p/'figures/current_region_coordinates.csv').open()));ref=rows[0]['reference'];project=p.name
 assert all(r['reference']==ref for r in rows)
-for gene in ['16S','12S','COI']:
+for gene in ([args.gene] if args.gene else ['16S','12S','COI','28S']):
  if gene=='16S':
   folder=p/'figures';prefix='amplicon_regions'
+ elif gene=='28S':
+  folder=p/'markers/28S/figures';prefix='positions_28S';ref='XR_004063668.1'
+  with (folder.parent/'selected.csv').open() as handle:
+   rows=[dict(locus=r['name'],F_start=r['start'],F_end=int(r['start'])+len(r['F'])-1,R_start=int(r['end'])-len(r['R'])+1,R_end=r['end'],reference_span_bp=int(r['end'])-int(r['start'])+1) for r in csv.DictReader(handle) if r['name']==r['region']]
  else:
   source=p/'markers/12S_COI';folder=source/'figures';prefix=f'positions_{gene}'
   with (source/gene/'pairs.csv').open() as handle:
@@ -41,7 +45,7 @@ for gene in ['16S','12S','COI']:
    if ext=='svg':target.write_text('\n'.join(line.rstrip() for line in target.read_text().splitlines())+'\n')
   plt.close(fig)
 
-if args.language:raise SystemExit(0)
+if args.language or args.gene:raise SystemExit(0)
 # Preserve the combined figure path used by earlier releases.
 from PIL import Image
 from base64 import b64encode

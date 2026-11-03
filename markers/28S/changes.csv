@@ -1,0 +1,871 @@
+id,metric,direction,accession,species
+S1,exact,gained,MW324711.1,Astropyga pulvinata
+S1,exact,gained,MW324745.1,Echinothrix calamaris
+S1,exact,gained,MW325160.1,Echinothrix diadema
+S1,exact,gained,XR_011709749.1,Diadema antillarum
+S1,exact,gained,XR_011902521.1,Diadema setosum
+S2,exact,gained,MW324711.1,Astropyga pulvinata
+S2,exact,gained,MW324745.1,Echinothrix calamaris
+S2,exact,gained,MW325160.1,Echinothrix diadema
+S2,exact,gained,XR_011709749.1,Diadema antillarum
+S2,exact,gained,XR_011902521.1,Diadema setosum
+S3,exact,gained,MW324711.1,Astropyga pulvinata
+S3,exact,gained,MW324745.1,Echinothrix calamaris
+S3,exact,gained,MW325160.1,Echinothrix diadema
+S3,exact,gained,XR_011709749.1,Diadema antillarum
+S3,exact,gained,XR_011902521.1,Diadema setosum
+S4,exact,gained,MW324711.1,Astropyga pulvinata
+S4,exact,gained,MW324745.1,Echinothrix calamaris
+S4,exact,gained,MW325160.1,Echinothrix diadema
+S4,exact,gained,XR_011709749.1,Diadema antillarum
+S4,exact,gained,XR_011902521.1,Diadema setosum
+S5,exact,gained,MW324711.1,Astropyga pulvinata
+S5,exact,gained,MW324745.1,Echinothrix calamaris
+S5,exact,gained,MW325160.1,Echinothrix diadema
+S5,exact,gained,XR_011709749.1,Diadema antillarum
+S5,exact,gained,XR_011902521.1,Diadema setosum
+M1,coverage,gained,AJ639790.1,Lovenia cordiformis
+M1,coverage,gained,AY026367.1,Arbacia punctulata
+M1,coverage,gained,DQ073755.1,Caenopedina cubensis
+M1,coverage,gained,JN091883.1,Histocidaris elegans
+M1,exact,gained,DQ073751.1,Heliocidaris crassispina
+M1,exact,gained,DQ073758.1,Coelopleurus floridanus
+M1,exact,gained,DQ073759.1,Nudechinus verruculatus
+M1,exact,gained,DQ073762.1,Echinocyamus pusillus
+M1,exact,gained,DQ073768.1,Psammechinus miliaris
+M1,exact,gained,DQ073769.1,Rumphia orbicularis
+M1,exact,gained,DQ073770.1,Salmacis sphaeroides
+M1,exact,gained,DQ073771.1,Sphaerechinus granularis
+M1,exact,gained,JN091883.1,Histocidaris elegans
+M1,exact,gained,JQ322595.1,Coelopleurus undulatus
+M1,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M1,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M1,exact,gained,JQ322616.1,Mesocentrotus nudus
+M1,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M1,exact,gained,JQ322625.1,Toxopneustes pileolus
+M1,exact,gained,MW324745.1,Echinothrix calamaris
+M1,exact,gained,MW325160.1,Echinothrix diadema
+M1,exact,gained,PV588637.1,Echinus esculentus
+M1,exact,gained,PV588638.1,Paracentrotus lividus
+M1,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M1,exact,gained,XR_010298410.1,Lytechinus pictus
+M1,exact,gained,XR_011709749.1,Diadema antillarum
+M1,exact,gained,XR_011902521.1,Diadema setosum
+M1,strictGT,gained,EU167534.1,
+M1,GT2,gained,DQ354307.1,
+M1,GT2,gained,EU167534.1,
+M2,coverage,gained,AJ639790.1,Lovenia cordiformis
+M2,coverage,gained,AY026367.1,Arbacia punctulata
+M2,coverage,gained,DQ073755.1,Caenopedina cubensis
+M2,coverage,gained,JN091883.1,Histocidaris elegans
+M2,exact,gained,AJ639778.1,Echinoneus cyclostomus
+M2,exact,gained,AJ639790.1,Lovenia cordiformis
+M2,exact,gained,DQ073751.1,Heliocidaris crassispina
+M2,exact,gained,DQ073759.1,Nudechinus verruculatus
+M2,exact,gained,DQ073762.1,Echinocyamus pusillus
+M2,exact,gained,DQ073768.1,Psammechinus miliaris
+M2,exact,gained,DQ073769.1,Rumphia orbicularis
+M2,exact,gained,DQ073770.1,Salmacis sphaeroides
+M2,exact,gained,DQ073771.1,Sphaerechinus granularis
+M2,exact,gained,JN091883.1,Histocidaris elegans
+M2,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M2,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M2,exact,gained,JQ322616.1,Mesocentrotus nudus
+M2,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M2,exact,gained,JQ322625.1,Toxopneustes pileolus
+M2,exact,gained,MW324745.1,Echinothrix calamaris
+M2,exact,gained,MW325160.1,Echinothrix diadema
+M2,exact,gained,PV588637.1,Echinus esculentus
+M2,exact,gained,PV588638.1,Paracentrotus lividus
+M2,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M2,exact,gained,XR_010298410.1,Lytechinus pictus
+M2,exact,gained,XR_011709749.1,Diadema antillarum
+M2,exact,gained,XR_011902521.1,Diadema setosum
+M2,strictGT,gained,EU167534.1,
+M2,strictGT,gained,MG878949.1,
+M2,WC3,gained,KU895480.1,
+M2,WC3,gained,KU895482.1,
+M2,WC3,gained,Z80943.1,
+M2,GT2,gained,DQ354307.1,
+M2,GT2,gained,EU167534.1,
+M2,GT2,gained,KU895463.1,
+M2,GT2,gained,KU895472.1,
+M2,GT2,gained,KU895480.1,
+M2,GT2,gained,KU895482.1,
+M2,GT2,gained,KU895485.1,
+M2,GT2,gained,KU895490.1,
+M2,GT2,gained,KU895502.1,
+M2,GT2,gained,MG878949.1,
+M2,GT2,gained,MN170901.1,
+M2,GT2,gained,MN170902.1,
+M2,GT2,gained,MN170916.1,
+M2,GT2,gained,MN170931.1,
+M2,GT2,gained,Z80943.1,
+M3,coverage,gained,AJ639790.1,Lovenia cordiformis
+M3,coverage,gained,AY026367.1,Arbacia punctulata
+M3,coverage,gained,DQ073755.1,Caenopedina cubensis
+M3,coverage,gained,JN091883.1,Histocidaris elegans
+M3,coverage,gained,JQ322603.1,Glyptocidaris crenularis
+M3,exact,gained,DQ073751.1,Heliocidaris crassispina
+M3,exact,gained,DQ073759.1,Nudechinus verruculatus
+M3,exact,gained,DQ073762.1,Echinocyamus pusillus
+M3,exact,gained,DQ073768.1,Psammechinus miliaris
+M3,exact,gained,DQ073769.1,Rumphia orbicularis
+M3,exact,gained,DQ073770.1,Salmacis sphaeroides
+M3,exact,gained,DQ073771.1,Sphaerechinus granularis
+M3,exact,gained,JN091883.1,Histocidaris elegans
+M3,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M3,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M3,exact,gained,JQ322616.1,Mesocentrotus nudus
+M3,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M3,exact,gained,JQ322625.1,Toxopneustes pileolus
+M3,exact,gained,MW324745.1,Echinothrix calamaris
+M3,exact,gained,MW325160.1,Echinothrix diadema
+M3,exact,gained,PV588637.1,Echinus esculentus
+M3,exact,gained,PV588638.1,Paracentrotus lividus
+M3,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M3,exact,gained,XR_010298410.1,Lytechinus pictus
+M3,exact,gained,XR_011709749.1,Diadema antillarum
+M3,exact,gained,XR_011902521.1,Diadema setosum
+M3,strictGT,gained,EU167534.1,
+M3,strictGT,gained,LC685041.1,
+M3,GT2,gained,DQ029073.1,
+M3,GT2,gained,DQ354307.1,
+M3,GT2,gained,EU167534.1,
+M3,GT2,gained,KU895495.1,
+M3,GT2,gained,KU895496.1,
+M3,GT2,gained,LC685041.1,
+M4,coverage,gained,AJ639790.1,Lovenia cordiformis
+M4,coverage,gained,AY026367.1,Arbacia punctulata
+M4,coverage,gained,DQ073755.1,Caenopedina cubensis
+M4,coverage,gained,JN091883.1,Histocidaris elegans
+M4,coverage,gained,JQ322608.1,Phalacrocidaris japonica
+M4,exact,gained,DQ073751.1,Heliocidaris crassispina
+M4,exact,gained,DQ073759.1,Nudechinus verruculatus
+M4,exact,gained,DQ073762.1,Echinocyamus pusillus
+M4,exact,gained,DQ073768.1,Psammechinus miliaris
+M4,exact,gained,DQ073769.1,Rumphia orbicularis
+M4,exact,gained,DQ073770.1,Salmacis sphaeroides
+M4,exact,gained,DQ073771.1,Sphaerechinus granularis
+M4,exact,gained,JN091883.1,Histocidaris elegans
+M4,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M4,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M4,exact,gained,JQ322616.1,Mesocentrotus nudus
+M4,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M4,exact,gained,JQ322625.1,Toxopneustes pileolus
+M4,exact,gained,MW324745.1,Echinothrix calamaris
+M4,exact,gained,MW325160.1,Echinothrix diadema
+M4,exact,gained,PV588637.1,Echinus esculentus
+M4,exact,gained,PV588638.1,Paracentrotus lividus
+M4,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M4,exact,gained,XR_010298410.1,Lytechinus pictus
+M4,exact,gained,XR_011709749.1,Diadema antillarum
+M4,exact,gained,XR_011902521.1,Diadema setosum
+M4,strictGT,gained,EU167534.1,
+M4,GT2,gained,DQ354307.1,
+M4,GT2,gained,EU167534.1,
+M5,coverage,gained,AJ639790.1,Lovenia cordiformis
+M5,coverage,gained,AY026367.1,Arbacia punctulata
+M5,coverage,gained,DQ073755.1,Caenopedina cubensis
+M5,coverage,gained,JN091883.1,Histocidaris elegans
+M5,exact,gained,DQ073751.1,Heliocidaris crassispina
+M5,exact,gained,DQ073758.1,Coelopleurus floridanus
+M5,exact,gained,DQ073759.1,Nudechinus verruculatus
+M5,exact,gained,DQ073762.1,Echinocyamus pusillus
+M5,exact,gained,DQ073768.1,Psammechinus miliaris
+M5,exact,gained,DQ073769.1,Rumphia orbicularis
+M5,exact,gained,DQ073770.1,Salmacis sphaeroides
+M5,exact,gained,DQ073771.1,Sphaerechinus granularis
+M5,exact,gained,JN091883.1,Histocidaris elegans
+M5,exact,gained,JQ322595.1,Coelopleurus undulatus
+M5,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M5,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M5,exact,gained,JQ322616.1,Mesocentrotus nudus
+M5,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M5,exact,gained,JQ322625.1,Toxopneustes pileolus
+M5,exact,gained,MW324745.1,Echinothrix calamaris
+M5,exact,gained,MW325160.1,Echinothrix diadema
+M5,exact,gained,PV588637.1,Echinus esculentus
+M5,exact,gained,PV588638.1,Paracentrotus lividus
+M5,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M5,exact,gained,XR_010298410.1,Lytechinus pictus
+M5,exact,gained,XR_011709749.1,Diadema antillarum
+M5,exact,gained,XR_011902521.1,Diadema setosum
+M5,strictGT,gained,EU167534.1,
+M5,GT2,gained,DQ354307.1,
+M5,GT2,gained,EU167534.1,
+M6,coverage,gained,AJ639790.1,Lovenia cordiformis
+M6,coverage,gained,AY026367.1,Arbacia punctulata
+M6,coverage,gained,DQ073755.1,Caenopedina cubensis
+M6,coverage,gained,JN091883.1,Histocidaris elegans
+M6,exact,gained,AJ639778.1,Echinoneus cyclostomus
+M6,exact,gained,AJ639790.1,Lovenia cordiformis
+M6,exact,gained,DQ073751.1,Heliocidaris crassispina
+M6,exact,gained,DQ073759.1,Nudechinus verruculatus
+M6,exact,gained,DQ073762.1,Echinocyamus pusillus
+M6,exact,gained,DQ073768.1,Psammechinus miliaris
+M6,exact,gained,DQ073769.1,Rumphia orbicularis
+M6,exact,gained,DQ073770.1,Salmacis sphaeroides
+M6,exact,gained,DQ073771.1,Sphaerechinus granularis
+M6,exact,gained,JN091883.1,Histocidaris elegans
+M6,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M6,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M6,exact,gained,JQ322616.1,Mesocentrotus nudus
+M6,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M6,exact,gained,JQ322625.1,Toxopneustes pileolus
+M6,exact,gained,MW324745.1,Echinothrix calamaris
+M6,exact,gained,MW325160.1,Echinothrix diadema
+M6,exact,gained,PV588637.1,Echinus esculentus
+M6,exact,gained,PV588638.1,Paracentrotus lividus
+M6,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M6,exact,gained,XR_010298410.1,Lytechinus pictus
+M6,exact,gained,XR_011709749.1,Diadema antillarum
+M6,exact,gained,XR_011902521.1,Diadema setosum
+M6,strictGT,gained,EU167534.1,
+M6,strictGT,gained,MG878949.1,
+M6,WC3,gained,KU895480.1,
+M6,WC3,gained,KU895482.1,
+M6,WC3,gained,Z80943.1,
+M6,GT2,gained,DQ354307.1,
+M6,GT2,gained,EU167534.1,
+M6,GT2,gained,KU895463.1,
+M6,GT2,gained,KU895472.1,
+M6,GT2,gained,KU895480.1,
+M6,GT2,gained,KU895482.1,
+M6,GT2,gained,KU895485.1,
+M6,GT2,gained,KU895490.1,
+M6,GT2,gained,KU895502.1,
+M6,GT2,gained,MG878949.1,
+M6,GT2,gained,MN170901.1,
+M6,GT2,gained,MN170902.1,
+M6,GT2,gained,MN170916.1,
+M6,GT2,gained,MN170931.1,
+M6,GT2,gained,Z80943.1,
+M7,coverage,gained,AJ639790.1,Lovenia cordiformis
+M7,coverage,gained,AY026367.1,Arbacia punctulata
+M7,coverage,gained,DQ073755.1,Caenopedina cubensis
+M7,coverage,gained,JN091883.1,Histocidaris elegans
+M7,exact,gained,DQ073751.1,Heliocidaris crassispina
+M7,exact,gained,DQ073758.1,Coelopleurus floridanus
+M7,exact,gained,DQ073759.1,Nudechinus verruculatus
+M7,exact,gained,DQ073762.1,Echinocyamus pusillus
+M7,exact,gained,DQ073768.1,Psammechinus miliaris
+M7,exact,gained,DQ073769.1,Rumphia orbicularis
+M7,exact,gained,DQ073770.1,Salmacis sphaeroides
+M7,exact,gained,DQ073771.1,Sphaerechinus granularis
+M7,exact,gained,JN091883.1,Histocidaris elegans
+M7,exact,gained,JQ322595.1,Coelopleurus undulatus
+M7,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M7,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M7,exact,gained,JQ322616.1,Mesocentrotus nudus
+M7,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M7,exact,gained,JQ322625.1,Toxopneustes pileolus
+M7,exact,gained,MW324745.1,Echinothrix calamaris
+M7,exact,gained,MW325160.1,Echinothrix diadema
+M7,exact,gained,PV588637.1,Echinus esculentus
+M7,exact,gained,PV588638.1,Paracentrotus lividus
+M7,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M7,exact,gained,XR_010298410.1,Lytechinus pictus
+M7,exact,gained,XR_011709749.1,Diadema antillarum
+M7,exact,gained,XR_011902521.1,Diadema setosum
+M7,strictGT,gained,EU167534.1,
+M7,GT2,gained,DQ354307.1,
+M7,GT2,gained,EU167534.1,
+M8,coverage,gained,AJ639790.1,Lovenia cordiformis
+M8,coverage,gained,AY026367.1,Arbacia punctulata
+M8,coverage,gained,DQ073755.1,Caenopedina cubensis
+M8,coverage,gained,JN091883.1,Histocidaris elegans
+M8,exact,gained,AJ639778.1,Echinoneus cyclostomus
+M8,exact,gained,AJ639790.1,Lovenia cordiformis
+M8,exact,gained,DQ073751.1,Heliocidaris crassispina
+M8,exact,gained,DQ073759.1,Nudechinus verruculatus
+M8,exact,gained,DQ073762.1,Echinocyamus pusillus
+M8,exact,gained,DQ073768.1,Psammechinus miliaris
+M8,exact,gained,DQ073769.1,Rumphia orbicularis
+M8,exact,gained,DQ073770.1,Salmacis sphaeroides
+M8,exact,gained,DQ073771.1,Sphaerechinus granularis
+M8,exact,gained,JN091883.1,Histocidaris elegans
+M8,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M8,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M8,exact,gained,JQ322616.1,Mesocentrotus nudus
+M8,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M8,exact,gained,JQ322625.1,Toxopneustes pileolus
+M8,exact,gained,MW324745.1,Echinothrix calamaris
+M8,exact,gained,MW325160.1,Echinothrix diadema
+M8,exact,gained,PV588637.1,Echinus esculentus
+M8,exact,gained,PV588638.1,Paracentrotus lividus
+M8,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M8,exact,gained,XR_010298410.1,Lytechinus pictus
+M8,exact,gained,XR_011709749.1,Diadema antillarum
+M8,exact,gained,XR_011902521.1,Diadema setosum
+M8,strictGT,gained,EU167534.1,
+M8,strictGT,gained,MG878949.1,
+M8,WC3,gained,KU895480.1,
+M8,WC3,gained,KU895482.1,
+M8,WC3,gained,Z80943.1,
+M8,GT2,gained,DQ354307.1,
+M8,GT2,gained,EU167534.1,
+M8,GT2,gained,KU895463.1,
+M8,GT2,gained,KU895472.1,
+M8,GT2,gained,KU895480.1,
+M8,GT2,gained,KU895482.1,
+M8,GT2,gained,KU895485.1,
+M8,GT2,gained,KU895490.1,
+M8,GT2,gained,KU895502.1,
+M8,GT2,gained,MG878949.1,
+M8,GT2,gained,MN170901.1,
+M8,GT2,gained,MN170902.1,
+M8,GT2,gained,MN170916.1,
+M8,GT2,gained,MN170931.1,
+M8,GT2,gained,Z80943.1,
+M9,coverage,gained,AJ639790.1,Lovenia cordiformis
+M9,coverage,gained,AY026367.1,Arbacia punctulata
+M9,coverage,gained,DQ073755.1,Caenopedina cubensis
+M9,coverage,gained,JN091883.1,Histocidaris elegans
+M9,exact,gained,DQ073751.1,Heliocidaris crassispina
+M9,exact,gained,DQ073758.1,Coelopleurus floridanus
+M9,exact,gained,DQ073759.1,Nudechinus verruculatus
+M9,exact,gained,DQ073762.1,Echinocyamus pusillus
+M9,exact,gained,DQ073768.1,Psammechinus miliaris
+M9,exact,gained,DQ073769.1,Rumphia orbicularis
+M9,exact,gained,DQ073770.1,Salmacis sphaeroides
+M9,exact,gained,DQ073771.1,Sphaerechinus granularis
+M9,exact,gained,JN091883.1,Histocidaris elegans
+M9,exact,gained,JQ322595.1,Coelopleurus undulatus
+M9,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M9,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M9,exact,gained,JQ322616.1,Mesocentrotus nudus
+M9,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M9,exact,gained,JQ322625.1,Toxopneustes pileolus
+M9,exact,gained,MW324745.1,Echinothrix calamaris
+M9,exact,gained,MW325160.1,Echinothrix diadema
+M9,exact,gained,PV588637.1,Echinus esculentus
+M9,exact,gained,PV588638.1,Paracentrotus lividus
+M9,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M9,exact,gained,XR_010298410.1,Lytechinus pictus
+M9,exact,gained,XR_011709749.1,Diadema antillarum
+M9,exact,gained,XR_011902521.1,Diadema setosum
+M9,strictGT,gained,EU167534.1,
+M9,GT2,gained,DQ354307.1,
+M9,GT2,gained,EU167534.1,
+M10,coverage,gained,AJ639790.1,Lovenia cordiformis
+M10,coverage,gained,AY026367.1,Arbacia punctulata
+M10,coverage,gained,DQ073755.1,Caenopedina cubensis
+M10,coverage,gained,JN091883.1,Histocidaris elegans
+M10,exact,gained,AJ639778.1,Echinoneus cyclostomus
+M10,exact,gained,AJ639790.1,Lovenia cordiformis
+M10,exact,gained,DQ073751.1,Heliocidaris crassispina
+M10,exact,gained,DQ073759.1,Nudechinus verruculatus
+M10,exact,gained,DQ073762.1,Echinocyamus pusillus
+M10,exact,gained,DQ073768.1,Psammechinus miliaris
+M10,exact,gained,DQ073769.1,Rumphia orbicularis
+M10,exact,gained,DQ073770.1,Salmacis sphaeroides
+M10,exact,gained,DQ073771.1,Sphaerechinus granularis
+M10,exact,gained,JN091883.1,Histocidaris elegans
+M10,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M10,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M10,exact,gained,JQ322616.1,Mesocentrotus nudus
+M10,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M10,exact,gained,JQ322625.1,Toxopneustes pileolus
+M10,exact,gained,MW324745.1,Echinothrix calamaris
+M10,exact,gained,MW325160.1,Echinothrix diadema
+M10,exact,gained,PV588637.1,Echinus esculentus
+M10,exact,gained,PV588638.1,Paracentrotus lividus
+M10,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M10,exact,gained,XR_010298410.1,Lytechinus pictus
+M10,exact,gained,XR_011709749.1,Diadema antillarum
+M10,exact,gained,XR_011902521.1,Diadema setosum
+M10,strictGT,gained,EU167534.1,
+M10,strictGT,gained,MG878949.1,
+M10,WC3,gained,KU895480.1,
+M10,WC3,gained,KU895482.1,
+M10,WC3,gained,Z80943.1,
+M10,GT2,gained,DQ354307.1,
+M10,GT2,gained,EU167534.1,
+M10,GT2,gained,KU895463.1,
+M10,GT2,gained,KU895472.1,
+M10,GT2,gained,KU895480.1,
+M10,GT2,gained,KU895482.1,
+M10,GT2,gained,KU895485.1,
+M10,GT2,gained,KU895490.1,
+M10,GT2,gained,KU895502.1,
+M10,GT2,gained,MG878949.1,
+M10,GT2,gained,MN170901.1,
+M10,GT2,gained,MN170902.1,
+M10,GT2,gained,MN170916.1,
+M10,GT2,gained,MN170931.1,
+M10,GT2,gained,Z80943.1,
+M11,coverage,gained,AY026367.1,Arbacia punctulata
+M11,coverage,gained,DQ073755.1,Caenopedina cubensis
+M11,coverage,gained,JN091883.1,Histocidaris elegans
+M11,exact,gained,DQ073751.1,Heliocidaris crassispina
+M11,exact,gained,DQ073758.1,Coelopleurus floridanus
+M11,exact,gained,DQ073759.1,Nudechinus verruculatus
+M11,exact,gained,DQ073762.1,Echinocyamus pusillus
+M11,exact,gained,DQ073768.1,Psammechinus miliaris
+M11,exact,gained,DQ073769.1,Rumphia orbicularis
+M11,exact,gained,DQ073770.1,Salmacis sphaeroides
+M11,exact,gained,DQ073771.1,Sphaerechinus granularis
+M11,exact,gained,JN091883.1,Histocidaris elegans
+M11,exact,gained,JQ322595.1,Coelopleurus undulatus
+M11,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M11,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M11,exact,gained,JQ322616.1,Mesocentrotus nudus
+M11,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M11,exact,gained,JQ322625.1,Toxopneustes pileolus
+M11,exact,gained,MW324745.1,Echinothrix calamaris
+M11,exact,gained,MW325160.1,Echinothrix diadema
+M11,exact,gained,PV588637.1,Echinus esculentus
+M11,exact,gained,PV588638.1,Paracentrotus lividus
+M11,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M11,exact,gained,XR_010298410.1,Lytechinus pictus
+M11,exact,gained,XR_011709749.1,Diadema antillarum
+M11,exact,gained,XR_011902521.1,Diadema setosum
+M11,strictGT,gained,EU167534.1,
+M11,GT2,gained,DQ354307.1,
+M11,GT2,gained,EU167534.1,
+M12,coverage,gained,AJ639790.1,Lovenia cordiformis
+M12,coverage,gained,AY026367.1,Arbacia punctulata
+M12,coverage,gained,DQ073755.1,Caenopedina cubensis
+M12,coverage,gained,JN091883.1,Histocidaris elegans
+M12,exact,gained,DQ073751.1,Heliocidaris crassispina
+M12,exact,gained,DQ073759.1,Nudechinus verruculatus
+M12,exact,gained,DQ073762.1,Echinocyamus pusillus
+M12,exact,gained,DQ073768.1,Psammechinus miliaris
+M12,exact,gained,DQ073769.1,Rumphia orbicularis
+M12,exact,gained,DQ073770.1,Salmacis sphaeroides
+M12,exact,gained,DQ073771.1,Sphaerechinus granularis
+M12,exact,gained,JN091883.1,Histocidaris elegans
+M12,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M12,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M12,exact,gained,JQ322616.1,Mesocentrotus nudus
+M12,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M12,exact,gained,JQ322625.1,Toxopneustes pileolus
+M12,exact,gained,MW324745.1,Echinothrix calamaris
+M12,exact,gained,MW325160.1,Echinothrix diadema
+M12,exact,gained,PV588637.1,Echinus esculentus
+M12,exact,gained,PV588638.1,Paracentrotus lividus
+M12,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M12,exact,gained,XR_010298410.1,Lytechinus pictus
+M12,exact,gained,XR_011709749.1,Diadema antillarum
+M12,exact,gained,XR_011902521.1,Diadema setosum
+M12,strictGT,gained,EU167534.1,
+M12,GT2,gained,DQ354307.1,
+M12,GT2,gained,EU167534.1,
+M13,coverage,gained,AJ639790.1,Lovenia cordiformis
+M13,coverage,gained,AY026367.1,Arbacia punctulata
+M13,coverage,gained,DQ073755.1,Caenopedina cubensis
+M13,coverage,gained,JN091883.1,Histocidaris elegans
+M13,coverage,gained,JQ322603.1,Glyptocidaris crenularis
+M13,exact,gained,DQ073751.1,Heliocidaris crassispina
+M13,exact,gained,DQ073759.1,Nudechinus verruculatus
+M13,exact,gained,DQ073762.1,Echinocyamus pusillus
+M13,exact,gained,DQ073768.1,Psammechinus miliaris
+M13,exact,gained,DQ073769.1,Rumphia orbicularis
+M13,exact,gained,DQ073770.1,Salmacis sphaeroides
+M13,exact,gained,DQ073771.1,Sphaerechinus granularis
+M13,exact,gained,JN091883.1,Histocidaris elegans
+M13,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M13,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M13,exact,gained,JQ322616.1,Mesocentrotus nudus
+M13,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M13,exact,gained,JQ322625.1,Toxopneustes pileolus
+M13,exact,gained,MW324745.1,Echinothrix calamaris
+M13,exact,gained,MW325160.1,Echinothrix diadema
+M13,exact,gained,PV588637.1,Echinus esculentus
+M13,exact,gained,PV588638.1,Paracentrotus lividus
+M13,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M13,exact,gained,XR_010298410.1,Lytechinus pictus
+M13,exact,gained,XR_011709749.1,Diadema antillarum
+M13,exact,gained,XR_011902521.1,Diadema setosum
+M13,strictGT,gained,EU167534.1,
+M13,strictGT,gained,LC685041.1,
+M13,GT2,gained,DQ029073.1,
+M13,GT2,gained,DQ354307.1,
+M13,GT2,gained,EU167534.1,
+M13,GT2,gained,KU895495.1,
+M13,GT2,gained,KU895496.1,
+M13,GT2,gained,LC685041.1,
+M14,coverage,gained,AJ639790.1,Lovenia cordiformis
+M14,coverage,gained,AY026367.1,Arbacia punctulata
+M14,coverage,gained,DQ073755.1,Caenopedina cubensis
+M14,coverage,gained,JN091883.1,Histocidaris elegans
+M14,coverage,gained,JQ322608.1,Phalacrocidaris japonica
+M14,exact,gained,DQ073751.1,Heliocidaris crassispina
+M14,exact,gained,DQ073759.1,Nudechinus verruculatus
+M14,exact,gained,DQ073762.1,Echinocyamus pusillus
+M14,exact,gained,DQ073768.1,Psammechinus miliaris
+M14,exact,gained,DQ073769.1,Rumphia orbicularis
+M14,exact,gained,DQ073770.1,Salmacis sphaeroides
+M14,exact,gained,DQ073771.1,Sphaerechinus granularis
+M14,exact,gained,JN091883.1,Histocidaris elegans
+M14,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M14,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M14,exact,gained,JQ322616.1,Mesocentrotus nudus
+M14,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M14,exact,gained,JQ322625.1,Toxopneustes pileolus
+M14,exact,gained,MW324745.1,Echinothrix calamaris
+M14,exact,gained,MW325160.1,Echinothrix diadema
+M14,exact,gained,PV588637.1,Echinus esculentus
+M14,exact,gained,PV588638.1,Paracentrotus lividus
+M14,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M14,exact,gained,XR_010298410.1,Lytechinus pictus
+M14,exact,gained,XR_011709749.1,Diadema antillarum
+M14,exact,gained,XR_011902521.1,Diadema setosum
+M14,strictGT,gained,EU167534.1,
+M14,GT2,gained,DQ354307.1,
+M14,GT2,gained,EU167534.1,
+M15,coverage,gained,AJ639790.1,Lovenia cordiformis
+M15,coverage,gained,AY026367.1,Arbacia punctulata
+M15,coverage,gained,DQ073755.1,Caenopedina cubensis
+M15,coverage,gained,JN091883.1,Histocidaris elegans
+M15,coverage,gained,JQ322603.1,Glyptocidaris crenularis
+M15,exact,gained,DQ073751.1,Heliocidaris crassispina
+M15,exact,gained,DQ073759.1,Nudechinus verruculatus
+M15,exact,gained,DQ073762.1,Echinocyamus pusillus
+M15,exact,gained,DQ073768.1,Psammechinus miliaris
+M15,exact,gained,DQ073769.1,Rumphia orbicularis
+M15,exact,gained,DQ073770.1,Salmacis sphaeroides
+M15,exact,gained,DQ073771.1,Sphaerechinus granularis
+M15,exact,gained,JN091883.1,Histocidaris elegans
+M15,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M15,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M15,exact,gained,JQ322616.1,Mesocentrotus nudus
+M15,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M15,exact,gained,JQ322625.1,Toxopneustes pileolus
+M15,exact,gained,MW324745.1,Echinothrix calamaris
+M15,exact,gained,MW325160.1,Echinothrix diadema
+M15,exact,gained,PV588637.1,Echinus esculentus
+M15,exact,gained,PV588638.1,Paracentrotus lividus
+M15,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M15,exact,gained,XR_010298410.1,Lytechinus pictus
+M15,exact,gained,XR_011709749.1,Diadema antillarum
+M15,exact,gained,XR_011902521.1,Diadema setosum
+M15,strictGT,gained,EU167534.1,
+M15,strictGT,gained,LC685041.1,
+M15,GT2,gained,DQ029073.1,
+M15,GT2,gained,DQ354307.1,
+M15,GT2,gained,EU167534.1,
+M15,GT2,gained,KU895495.1,
+M15,GT2,gained,KU895496.1,
+M15,GT2,gained,LC685041.1,
+M16,coverage,gained,AJ639790.1,Lovenia cordiformis
+M16,coverage,gained,AY026367.1,Arbacia punctulata
+M16,coverage,gained,DQ073755.1,Caenopedina cubensis
+M16,coverage,gained,JN091883.1,Histocidaris elegans
+M16,coverage,gained,JQ322608.1,Phalacrocidaris japonica
+M16,exact,gained,DQ073751.1,Heliocidaris crassispina
+M16,exact,gained,DQ073759.1,Nudechinus verruculatus
+M16,exact,gained,DQ073762.1,Echinocyamus pusillus
+M16,exact,gained,DQ073768.1,Psammechinus miliaris
+M16,exact,gained,DQ073769.1,Rumphia orbicularis
+M16,exact,gained,DQ073770.1,Salmacis sphaeroides
+M16,exact,gained,DQ073771.1,Sphaerechinus granularis
+M16,exact,gained,JN091883.1,Histocidaris elegans
+M16,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M16,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M16,exact,gained,JQ322616.1,Mesocentrotus nudus
+M16,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M16,exact,gained,JQ322625.1,Toxopneustes pileolus
+M16,exact,gained,MW324745.1,Echinothrix calamaris
+M16,exact,gained,MW325160.1,Echinothrix diadema
+M16,exact,gained,PV588637.1,Echinus esculentus
+M16,exact,gained,PV588638.1,Paracentrotus lividus
+M16,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M16,exact,gained,XR_010298410.1,Lytechinus pictus
+M16,exact,gained,XR_011709749.1,Diadema antillarum
+M16,exact,gained,XR_011902521.1,Diadema setosum
+M16,strictGT,gained,EU167534.1,
+M16,GT2,gained,DQ354307.1,
+M16,GT2,gained,EU167534.1,
+M17,coverage,gained,AJ639790.1,Lovenia cordiformis
+M17,coverage,gained,AY026367.1,Arbacia punctulata
+M17,coverage,gained,DQ073755.1,Caenopedina cubensis
+M17,coverage,gained,JN091883.1,Histocidaris elegans
+M17,coverage,gained,JQ322603.1,Glyptocidaris crenularis
+M17,exact,gained,DQ073751.1,Heliocidaris crassispina
+M17,exact,gained,DQ073759.1,Nudechinus verruculatus
+M17,exact,gained,DQ073762.1,Echinocyamus pusillus
+M17,exact,gained,DQ073768.1,Psammechinus miliaris
+M17,exact,gained,DQ073769.1,Rumphia orbicularis
+M17,exact,gained,DQ073770.1,Salmacis sphaeroides
+M17,exact,gained,DQ073771.1,Sphaerechinus granularis
+M17,exact,gained,JN091883.1,Histocidaris elegans
+M17,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M17,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M17,exact,gained,JQ322616.1,Mesocentrotus nudus
+M17,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M17,exact,gained,JQ322625.1,Toxopneustes pileolus
+M17,exact,gained,MW324745.1,Echinothrix calamaris
+M17,exact,gained,MW325160.1,Echinothrix diadema
+M17,exact,gained,PV588637.1,Echinus esculentus
+M17,exact,gained,PV588638.1,Paracentrotus lividus
+M17,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M17,exact,gained,XR_010298410.1,Lytechinus pictus
+M17,exact,gained,XR_011709749.1,Diadema antillarum
+M17,exact,gained,XR_011902521.1,Diadema setosum
+M17,strictGT,gained,EU167534.1,
+M17,strictGT,gained,LC685041.1,
+M17,GT2,gained,DQ029073.1,
+M17,GT2,gained,DQ354307.1,
+M17,GT2,gained,EU167534.1,
+M17,GT2,gained,KU895495.1,
+M17,GT2,gained,KU895496.1,
+M17,GT2,gained,LC685041.1,
+M18,coverage,gained,AJ639790.1,Lovenia cordiformis
+M18,coverage,gained,AY026367.1,Arbacia punctulata
+M18,coverage,gained,DQ073755.1,Caenopedina cubensis
+M18,coverage,gained,JN091883.1,Histocidaris elegans
+M18,coverage,gained,JQ322608.1,Phalacrocidaris japonica
+M18,exact,gained,DQ073751.1,Heliocidaris crassispina
+M18,exact,gained,DQ073759.1,Nudechinus verruculatus
+M18,exact,gained,DQ073762.1,Echinocyamus pusillus
+M18,exact,gained,DQ073768.1,Psammechinus miliaris
+M18,exact,gained,DQ073769.1,Rumphia orbicularis
+M18,exact,gained,DQ073770.1,Salmacis sphaeroides
+M18,exact,gained,DQ073771.1,Sphaerechinus granularis
+M18,exact,gained,JN091883.1,Histocidaris elegans
+M18,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M18,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M18,exact,gained,JQ322616.1,Mesocentrotus nudus
+M18,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M18,exact,gained,JQ322625.1,Toxopneustes pileolus
+M18,exact,gained,MW324745.1,Echinothrix calamaris
+M18,exact,gained,MW325160.1,Echinothrix diadema
+M18,exact,gained,PV588637.1,Echinus esculentus
+M18,exact,gained,PV588638.1,Paracentrotus lividus
+M18,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M18,exact,gained,XR_010298410.1,Lytechinus pictus
+M18,exact,gained,XR_011709749.1,Diadema antillarum
+M18,exact,gained,XR_011902521.1,Diadema setosum
+M18,strictGT,gained,EU167534.1,
+M18,GT2,gained,DQ354307.1,
+M18,GT2,gained,EU167534.1,
+M19,coverage,gained,AY026367.1,Arbacia punctulata
+M19,coverage,gained,DQ073755.1,Caenopedina cubensis
+M19,coverage,gained,JN091883.1,Histocidaris elegans
+M19,exact,gained,DQ073751.1,Heliocidaris crassispina
+M19,exact,gained,DQ073758.1,Coelopleurus floridanus
+M19,exact,gained,DQ073759.1,Nudechinus verruculatus
+M19,exact,gained,DQ073762.1,Echinocyamus pusillus
+M19,exact,gained,DQ073768.1,Psammechinus miliaris
+M19,exact,gained,DQ073769.1,Rumphia orbicularis
+M19,exact,gained,DQ073770.1,Salmacis sphaeroides
+M19,exact,gained,DQ073771.1,Sphaerechinus granularis
+M19,exact,gained,JN091883.1,Histocidaris elegans
+M19,exact,gained,JQ322595.1,Coelopleurus undulatus
+M19,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M19,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M19,exact,gained,JQ322616.1,Mesocentrotus nudus
+M19,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M19,exact,gained,JQ322625.1,Toxopneustes pileolus
+M19,exact,gained,MW324745.1,Echinothrix calamaris
+M19,exact,gained,MW325160.1,Echinothrix diadema
+M19,exact,gained,PV588637.1,Echinus esculentus
+M19,exact,gained,PV588638.1,Paracentrotus lividus
+M19,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M19,exact,gained,XR_010298410.1,Lytechinus pictus
+M19,exact,gained,XR_011709749.1,Diadema antillarum
+M19,exact,gained,XR_011902521.1,Diadema setosum
+M19,strictGT,gained,EU167534.1,
+M19,GT2,gained,DQ354307.1,
+M19,GT2,gained,EU167534.1,
+M20,coverage,gained,AY026367.1,Arbacia punctulata
+M20,coverage,gained,DQ073755.1,Caenopedina cubensis
+M20,coverage,gained,JN091883.1,Histocidaris elegans
+M20,exact,gained,DQ073751.1,Heliocidaris crassispina
+M20,exact,gained,DQ073758.1,Coelopleurus floridanus
+M20,exact,gained,DQ073759.1,Nudechinus verruculatus
+M20,exact,gained,DQ073762.1,Echinocyamus pusillus
+M20,exact,gained,DQ073768.1,Psammechinus miliaris
+M20,exact,gained,DQ073769.1,Rumphia orbicularis
+M20,exact,gained,DQ073770.1,Salmacis sphaeroides
+M20,exact,gained,DQ073771.1,Sphaerechinus granularis
+M20,exact,gained,JN091883.1,Histocidaris elegans
+M20,exact,gained,JQ322595.1,Coelopleurus undulatus
+M20,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M20,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M20,exact,gained,JQ322616.1,Mesocentrotus nudus
+M20,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M20,exact,gained,JQ322625.1,Toxopneustes pileolus
+M20,exact,gained,MW324745.1,Echinothrix calamaris
+M20,exact,gained,MW325160.1,Echinothrix diadema
+M20,exact,gained,PV588637.1,Echinus esculentus
+M20,exact,gained,PV588638.1,Paracentrotus lividus
+M20,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M20,exact,gained,XR_010298410.1,Lytechinus pictus
+M20,exact,gained,XR_011709749.1,Diadema antillarum
+M20,exact,gained,XR_011902521.1,Diadema setosum
+M20,strictGT,gained,EU167534.1,
+M20,GT2,gained,DQ354307.1,
+M20,GT2,gained,EU167534.1,
+M21,coverage,gained,AY026367.1,Arbacia punctulata
+M21,coverage,gained,DQ073755.1,Caenopedina cubensis
+M21,coverage,gained,JN091883.1,Histocidaris elegans
+M21,exact,gained,DQ073751.1,Heliocidaris crassispina
+M21,exact,gained,DQ073758.1,Coelopleurus floridanus
+M21,exact,gained,DQ073759.1,Nudechinus verruculatus
+M21,exact,gained,DQ073762.1,Echinocyamus pusillus
+M21,exact,gained,DQ073768.1,Psammechinus miliaris
+M21,exact,gained,DQ073769.1,Rumphia orbicularis
+M21,exact,gained,DQ073770.1,Salmacis sphaeroides
+M21,exact,gained,DQ073771.1,Sphaerechinus granularis
+M21,exact,gained,JN091883.1,Histocidaris elegans
+M21,exact,gained,JQ322595.1,Coelopleurus undulatus
+M21,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M21,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M21,exact,gained,JQ322616.1,Mesocentrotus nudus
+M21,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M21,exact,gained,JQ322625.1,Toxopneustes pileolus
+M21,exact,gained,MW324745.1,Echinothrix calamaris
+M21,exact,gained,MW325160.1,Echinothrix diadema
+M21,exact,gained,PV588637.1,Echinus esculentus
+M21,exact,gained,PV588638.1,Paracentrotus lividus
+M21,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M21,exact,gained,XR_010298410.1,Lytechinus pictus
+M21,exact,gained,XR_011709749.1,Diadema antillarum
+M21,exact,gained,XR_011902521.1,Diadema setosum
+M21,strictGT,gained,EU167534.1,
+M21,GT2,gained,DQ354307.1,
+M21,GT2,gained,EU167534.1,
+M22,coverage,gained,AY026367.1,Arbacia punctulata
+M22,coverage,gained,DQ073755.1,Caenopedina cubensis
+M22,coverage,gained,JN091883.1,Histocidaris elegans
+M22,coverage,gained,JQ322603.1,Glyptocidaris crenularis
+M22,exact,gained,DQ073751.1,Heliocidaris crassispina
+M22,exact,gained,DQ073759.1,Nudechinus verruculatus
+M22,exact,gained,DQ073762.1,Echinocyamus pusillus
+M22,exact,gained,DQ073768.1,Psammechinus miliaris
+M22,exact,gained,DQ073769.1,Rumphia orbicularis
+M22,exact,gained,DQ073770.1,Salmacis sphaeroides
+M22,exact,gained,DQ073771.1,Sphaerechinus granularis
+M22,exact,gained,JN091883.1,Histocidaris elegans
+M22,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M22,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M22,exact,gained,JQ322616.1,Mesocentrotus nudus
+M22,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M22,exact,gained,JQ322625.1,Toxopneustes pileolus
+M22,exact,gained,MW324745.1,Echinothrix calamaris
+M22,exact,gained,MW325160.1,Echinothrix diadema
+M22,exact,gained,PV588637.1,Echinus esculentus
+M22,exact,gained,PV588638.1,Paracentrotus lividus
+M22,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M22,exact,gained,XR_010298410.1,Lytechinus pictus
+M22,exact,gained,XR_011709749.1,Diadema antillarum
+M22,exact,gained,XR_011902521.1,Diadema setosum
+M22,strictGT,gained,EU167534.1,
+M22,strictGT,gained,LC685041.1,
+M22,GT2,gained,DQ029073.1,
+M22,GT2,gained,DQ354307.1,
+M22,GT2,gained,EU167534.1,
+M22,GT2,gained,KU895495.1,
+M22,GT2,gained,KU895496.1,
+M22,GT2,gained,LC685041.1,
+M23,coverage,gained,AY026367.1,Arbacia punctulata
+M23,coverage,gained,DQ073755.1,Caenopedina cubensis
+M23,coverage,gained,JN091883.1,Histocidaris elegans
+M23,coverage,gained,JQ322608.1,Phalacrocidaris japonica
+M23,exact,gained,DQ073751.1,Heliocidaris crassispina
+M23,exact,gained,DQ073759.1,Nudechinus verruculatus
+M23,exact,gained,DQ073762.1,Echinocyamus pusillus
+M23,exact,gained,DQ073768.1,Psammechinus miliaris
+M23,exact,gained,DQ073769.1,Rumphia orbicularis
+M23,exact,gained,DQ073770.1,Salmacis sphaeroides
+M23,exact,gained,DQ073771.1,Sphaerechinus granularis
+M23,exact,gained,JN091883.1,Histocidaris elegans
+M23,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M23,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M23,exact,gained,JQ322616.1,Mesocentrotus nudus
+M23,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M23,exact,gained,JQ322625.1,Toxopneustes pileolus
+M23,exact,gained,MW324745.1,Echinothrix calamaris
+M23,exact,gained,MW325160.1,Echinothrix diadema
+M23,exact,gained,PV588637.1,Echinus esculentus
+M23,exact,gained,PV588638.1,Paracentrotus lividus
+M23,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M23,exact,gained,XR_010298410.1,Lytechinus pictus
+M23,exact,gained,XR_011709749.1,Diadema antillarum
+M23,exact,gained,XR_011902521.1,Diadema setosum
+M23,strictGT,gained,EU167534.1,
+M23,GT2,gained,DQ354307.1,
+M23,GT2,gained,EU167534.1,
+M24,coverage,gained,AJ639790.1,Lovenia cordiformis
+M24,coverage,gained,AY026367.1,Arbacia punctulata
+M24,coverage,gained,DQ073755.1,Caenopedina cubensis
+M24,coverage,gained,JN091883.1,Histocidaris elegans
+M24,coverage,gained,JQ322603.1,Glyptocidaris crenularis
+M24,coverage,gained,JQ322608.1,Phalacrocidaris japonica
+M24,exact,gained,DQ073751.1,Heliocidaris crassispina
+M24,exact,gained,DQ073759.1,Nudechinus verruculatus
+M24,exact,gained,DQ073762.1,Echinocyamus pusillus
+M24,exact,gained,DQ073768.1,Psammechinus miliaris
+M24,exact,gained,DQ073769.1,Rumphia orbicularis
+M24,exact,gained,DQ073770.1,Salmacis sphaeroides
+M24,exact,gained,DQ073771.1,Sphaerechinus granularis
+M24,exact,gained,JN091883.1,Histocidaris elegans
+M24,exact,gained,JQ322607.1,Hemicentrotus pulcherrimus
+M24,exact,gained,JQ322608.1,Phalacrocidaris japonica
+M24,exact,gained,JQ322609.1,Pseudocentrotus depressus
+M24,exact,gained,JQ322616.1,Mesocentrotus nudus
+M24,exact,gained,JQ322618.1,Strongylocentrotus pallidus
+M24,exact,gained,JQ322625.1,Toxopneustes pileolus
+M24,exact,gained,PV588637.1,Echinus esculentus
+M24,exact,gained,PV588638.1,Paracentrotus lividus
+M24,exact,gained,XR_004063668.1,Strongylocentrotus purpuratus
+M24,exact,gained,XR_010298410.1,Lytechinus pictus
+M24,strictGT,gained,EU167534.1,
+M24,strictGT,gained,LC685041.1,
+M24,GT2,gained,DQ029073.1,
+M24,GT2,gained,DQ354307.1,
+M24,GT2,gained,EU167534.1,
+M24,GT2,gained,KU895495.1,
+M24,GT2,gained,KU895496.1,
+M24,GT2,gained,LC685041.1,
+L1,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L1,GT2,gained,OR257914.1,
+L2,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L2,GT2,gained,OR257914.1,
+L3,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L3,GT2,gained,OR257914.1,
+L4,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L4,GT2,gained,OR257914.1,
+L5,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L5,GT2,gained,OR257914.1,
+L6,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L6,GT2,gained,OR257914.1,
+L7,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L7,GT2,gained,OR257914.1,
+L8,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L8,GT2,gained,OR257914.1,
+L9,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L9,GT2,gained,OR257914.1,
+L10,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L10,GT2,gained,OR257914.1,
+L11,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L11,GT2,gained,OR257914.1,
+L12,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L12,GT2,gained,OR257914.1,
+L13,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L13,GT2,gained,OR257914.1,
+L14,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L14,GT2,gained,OR257914.1,
+L15,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L15,GT2,gained,OR257914.1,
+L16,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L16,GT2,gained,OR257914.1,
+L17,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L17,GT2,gained,OR257914.1,
+L18,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L18,GT2,gained,OR257914.1,
+L19,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L19,GT2,gained,OR257914.1,
+L20,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L20,GT2,gained,OR257914.1,
+L21,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L21,GT2,gained,OR257914.1,
+L22,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L22,GT2,gained,OR257914.1,
+L23,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L23,GT2,gained,OR257914.1,
+L24,coverage,gained,DQ073774.1,Temnopleurus toreumaticus
+L24,GT2,gained,OR257914.1,

@@ -4,7 +4,7 @@
 
 [正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-MiUrchin is a collection of 26 mitochondrial primer pairs for computational studies of sea-urchin environmental DNA. It covers five 16S windows, five 12S windows and three COI windows. Each window has an ordinary pair and a degenerate pair (D) with identical reference endpoints.
+MiUrchin contains 32 candidate primer pairs for sea-urchin environmental DNA. The collection spans five windows each in mitochondrial 16S and 12S, three in mitochondrial COI and three in nuclear 28S. Each window has an ordinary and a degenerate (D) pair with identical binding coordinates.
 
 [Download all primer sequences (FASTA)](sequences/all_markers.fasta) · [Preprint (PDF)](publications/MiUrchin_preprint.pdf) · [Manuscript (Markdown)](publications/MiUrchin_preprint.md)
 
@@ -15,10 +15,11 @@ The strongest candidate depends on whether the priority is broad compatibility o
 - **16S.** On the 49 species evaluable across all five windows, XLD covers the most species (45/49), while LD has the most exact matches (19/49). On their larger window-specific panels, MD matches 0/37 Spatangoida and LD matches 36/38.
 - **12S.** At 249 bp, MD improves coverage from 25/69 to 61/69 relative to ordinary M and raises exact matches from zero to 24. Strict background hits allowing guanine–thymine pairing increase from one species to two.
 - **COI.** The 152 bp XSD covers 79/106 species, including three exact matches. The 209 bp SD covers 63/105, with six exact matches. Of 314 species in the COI library, only 103–106 have evaluable binding sites in each retained window. No L or XL candidate met the background thresholds in this search.
+- **28S.** Nuclear 28S MD covers 108 of 111 evaluable species and matches both sites exactly in 72. The shorter SD can detect sea urchins, but only eight of the 99 species with a recovered barcode have a unique internal sequence.
 
 ## Sequences and predicted performance
 
-FASTA identifiers include the gene, assay and direction. For example, `MiUrchin-12S_MD_F` is the forward primer of the degenerate 12S M pair. Sequences run 5′ to 3′. Window lengths include both primers and use gene-relative coordinates on NC_001453.1. Insert length excludes the primers.
+FASTA identifiers include the gene, assay and direction. For example, `MiUrchin-12S_MD_F` is the forward primer of the degenerate 12S M pair. Sequences run 5′ to 3′. Window lengths include both primers and use gene-relative coordinates. Insert length excludes the primers. Mitochondrial coordinates refer to NC_001453.1 and nuclear 28S coordinates to XR_004063668.1.
 
 **Reading the tables.** Covered and Exact give the number of matching species over all species evaluable for that window. Strict off-target hits are two counts in this order: **Watson–Crick pairing only / also allowing guanine–thymine pairing**. For example, 0 / 7 for 16S XSD means that the first model matched zero background records and the second matched seven.
 
@@ -69,7 +70,20 @@ Off-target counts use one reference from each of 1,719 background echinoderm spe
 | M | `TCAAACCTACAATGGGAAAC` | `ACCTTTCCTCATAGTGGGTG` | 248 | 22/103 | 0/103 | 0 / 0 | [View](markers/12S_COI/figures/COI_M.svg) |
 | MD | `TCAAACCTACARTGRGARAC` | `ACCTTTCCTCAWAGYGGRTG` | 248 | 57/103 | 1/103 | 0 / 0 | [View](markers/12S_COI/figures/COI_MD.svg) |
 
-[16S CSV](results/current_primers/comparison.csv) · [12S / COI CSV](markers/12S_COI/candidates.csv)
+### 28S
+
+The 28S panel retains one sequence per named sea-urchin species (122 total). Observed target variants informed ambiguity codes in the 3′ half of each primer. The 832 background records include the other four echinoderm classes and common marine animals. Only three to four sea-cucumber records span both sites per window. Base diagrams show all 122 templates; NA denotes an unevaluable record.
+
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict off-target hits | Base matching |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| S | `GCCTGGAGCCACCAAGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 102 | 99/101 | 78/101 | 0 / 0 | [Base matching](markers/28S/figures/S.svg) |
+| SD | `GCCTGGAGCCRCCAAGARTC` | `TTGTCTGCTATCGGTCTCGT` | 102 | 99/101 | 83/101 | 0 / 0 | [Base matching](markers/28S/figures/SD.svg) |
+| M | `AAGAGCCCATCGCTGAATCC` | `CCGACTCTTGGTGGCTCCAG` | 176 | 104/111 | 49/111 | 0 / 1 | [Base matching](markers/28S/figures/M.svg) |
+| MD | `AAGAGCCCATCGCYGAATCS` | `CCGACTCTTGGYGRCTCCMG` | 176 | 108/111 | 72/111 | 0 / 2 | [Base matching](markers/28S/figures/MD.svg) |
+| L | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 282 | 88/91 | 82/91 | 0 / 0 | [Base matching](markers/28S/figures/L.svg) |
+| LD | `AAGCTGGGCGCCTGYTCGAC` | `AATCGCTGCGGACCTCCACC` | 282 | 89/91 | 82/91 | 0 / 0 | [Base matching](markers/28S/figures/LD.svg) |
+
+[16S CSV](results/current_primers/comparison.csv) · [12S / COI CSV](markers/12S_COI/candidates.csv) · [28S CSV](markers/28S/selected.csv)
 
 ## Binding positions and base matching
 
@@ -80,6 +94,8 @@ The arrows show forward and reverse binding sites. Each gene uses its own coordi
 ![12S](markers/12S_COI/figures/positions_12S.en.svg)
 
 ![COI](markers/12S_COI/figures/positions_COI.en.svg)
+
+![28S](markers/28S/figures/positions_28S.en.svg)
 
 ## Reference panels and screening rules
 
@@ -118,3 +134,5 @@ Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding envi
 5. Untergasser, A., Cutcutache, I., Koressaar, T., et al. (2012). Primer3—new capabilities and interfaces. *Nucleic Acids Research*, 40, e115. https://doi.org/10.1093/nar/gks596
 
 6. Riaz, T., Shehzad, W., Viari, A., et al. (2011). ecoPrimers: inference of new DNA barcode markers from whole genome sequence analysis. *Nucleic Acids Research*, 39, e145. https://doi.org/10.1093/nar/gkr732
+
+7. McCartin et al. (2024). Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. [PeerJ](https://doi.org/10.7717/peerj.18607).

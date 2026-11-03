@@ -21,6 +21,20 @@ for n,h in json.loads((p/'SHA256SUMS.json').read_text()).items():assert hashlib.
 print('PASS: assignments, sequence orientation, scheme risks/counts, links, evidence and SHA256')
 
 import subprocess,sys
-for name in ['check_D.py','check_current.py','check_terminal.py','check_joint.py','check_ab.py']:
- subprocess.run([sys.executable,str(p/'scripts'/name)],check=True)
-print('PASS: current MiUrchin D release and unchanged ordinary/A/B controls')
+# The published 16S assignments use the curated species panel.
+subprocess.run([sys.executable,str(p/'scripts/check_species_release.py')],check=True)
+subprocess.run([sys.executable,str(p/'markers/28S/verify_and_plot.py')],check=True)
+from Bio import SeqIO
+total=list(SeqIO.parse(p/'sequences/all_markers.fasta','fasta'))
+assert len(total)==len({r.id for r in total})==64
+catalog={r.id:str(r.seq) for r in total}
+windows={}
+for r in rows('markers/28S/selected.csv'):
+    endpoints=(int(r['start']),int(r['start'])+len(r['F'])-1,int(r['end'])-len(r['R'])+1,int(r['end']))
+    assert endpoints==windows.setdefault(r['region'],endpoints)
+    for side in ('F','R'):
+        assert catalog[f"MiUrchin-28S-{r['name']}_{side}"]==r[side]
+    for filename in ('README.md','README.zh-CN.md','README.en.md'):
+        section=(p/filename).read_text().split('### 28S')[1].split('## ')[0]
+        assert f"| {r['name']} | `{r['F']}` | `{r['R']}` |" in section
+print('PASS: current 16S and nuclear 28S panels, coordinates, FASTA and multilingual tables')

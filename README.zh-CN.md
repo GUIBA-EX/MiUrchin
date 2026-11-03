@@ -4,7 +4,7 @@
 
 [正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-MiUrchin 收录了 26 对用于海胆环境 DNA 宏条形码研究的线粒体候选引物。16S、12S 各有五个窗口，COI 有三个窗口。每个窗口保留一对普通引物和一对简并引物（后缀 D），两对共用相同的参考起止坐标。
+MiUrchin 收录 32 对海胆环境 DNA 候选引物，涵盖线粒体 16S、12S、COI 和核糖体 28S。16S 和 12S 各有五个窗口，COI 和 28S 各有三个。每个窗口的普通和简并（D）引物共用相同的结合坐标。
 
 [下载完整引物 FASTA](sequences/all_markers.fasta) · [预印本 PDF](publications/MiUrchin_preprint.pdf) · [论文 Markdown](publications/MiUrchin_preprint.md)
 
@@ -15,10 +15,11 @@ MiUrchin 收录了 26 对用于海胆环境 DNA 宏条形码研究的线粒体�
 - **16S**：在五个窗口均可评价的 49 个物种中，XLD 覆盖最多（45/49），LD 的双端完全匹配最多（19/49）。在各窗口完整面板中，MD 对 Spatangoida 的覆盖为 0/37，LD 为 36/38。
 - **12S**：在 249 bp 的 M 窗口，MD 相比普通 M 将覆盖从 25/69 提高到 61/69，完全匹配从 0 种增至 24 种。允许鸟嘌呤–胸腺嘧啶配对的严格非目标命中从 1 种增至 2 种。
 - **COI**：152 bp 的 XSD 覆盖 79/106 种，其中 3 种完全匹配。209 bp 的 SD 覆盖 63/105 种，其中 6 种完全匹配。COI 库有 314 个物种，各保留窗口仅有 103–106 种可评价。本轮 L 和 XL 候选均未通过背景门槛。
+- **28S.** 核 28S 的 MD 在 111 个可评价物种中覆盖 108 种，双端完全匹配 72 种。短片段 SD 适合检出海胆，但在 99 个取得条码的物种中，仅 8 种具有独有的内部序列。
 
 ## 引物序列与预测表现
 
-FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示 12S 的 M 窗口简并正向引物。序列均按 5′→3′ 书写。参考跨度按 NC_001453.1 相应基因内部的坐标计算，包含两端引物；内部条码长度仅计算两引物之间的序列。
+FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示 12S 的 M 窗口简并正向引物。序列均按 5′→3′ 书写。参考跨度按相应基因内部的坐标计算，包含两端引物；内部条码长度仅计算两引物之间的序列。 线粒体使用 NC_001453.1，核 28S 使用 XR_004063668.1。
 
 **读表说明。** “覆盖”和“完全匹配”均为命中物种数 / 该窗口可评价物种数。“严格非目标”栏的两个数依次表示 **仅沃森–克里克配对 / 另允许鸟嘌呤–胸腺嘧啶配对** 下的命中数。例如，0 / 7 表示第一种模型命中 0 条、第二种模型命中 7 条（16S XSD）。
 
@@ -69,7 +70,20 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 | M | `TCAAACCTACAATGGGAAAC` | `ACCTTTCCTCATAGTGGGTG` | 248 | 22/103 | 0/103 | 0 / 0 | [查看](markers/12S_COI/figures/COI_M.svg) |
 | MD | `TCAAACCTACARTGRGARAC` | `ACCTTTCCTCAWAGYGGRTG` | 248 | 57/103 | 1/103 | 0 / 0 | [查看](markers/12S_COI/figures/COI_MD.svg) |
 
-[16S CSV](results/current_primers/comparison.csv) · [12S / COI CSV](markers/12S_COI/candidates.csv)
+### 28S
+
+28S 面板按 122 个海胆双名各取一条序列，依据目标模板的变异在引物后半段加入简并位点。832 条非目标序列包含其他四纲棘皮动物和常见海洋动物。海参仅有 3–4 条序列完整覆盖各窗口两端。匹配图显示全部 122 条模板，NA 表示不可评价。
+
+| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格非目标 | 碱基匹配图 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| S | `GCCTGGAGCCACCAAGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 102 | 99/101 | 78/101 | 0 / 0 | [碱基匹配](markers/28S/figures/S.svg) |
+| SD | `GCCTGGAGCCRCCAAGARTC` | `TTGTCTGCTATCGGTCTCGT` | 102 | 99/101 | 83/101 | 0 / 0 | [碱基匹配](markers/28S/figures/SD.svg) |
+| M | `AAGAGCCCATCGCTGAATCC` | `CCGACTCTTGGTGGCTCCAG` | 176 | 104/111 | 49/111 | 0 / 1 | [碱基匹配](markers/28S/figures/M.svg) |
+| MD | `AAGAGCCCATCGCYGAATCS` | `CCGACTCTTGGYGRCTCCMG` | 176 | 108/111 | 72/111 | 0 / 2 | [碱基匹配](markers/28S/figures/MD.svg) |
+| L | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 282 | 88/91 | 82/91 | 0 / 0 | [碱基匹配](markers/28S/figures/L.svg) |
+| LD | `AAGCTGGGCGCCTGYTCGAC` | `AATCGCTGCGGACCTCCACC` | 282 | 89/91 | 82/91 | 0 / 0 | [碱基匹配](markers/28S/figures/LD.svg) |
+
+[16S CSV](results/current_primers/comparison.csv) · [12S / COI CSV](markers/12S_COI/candidates.csv) · [28S CSV](markers/28S/selected.csv)
 
 ## 结合位置与逐碱基匹配
 
@@ -80,6 +94,8 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 ![12S](markers/12S_COI/figures/positions_12S.zh.svg)
 
 ![COI](markers/12S_COI/figures/positions_COI.zh.svg)
+
+![28S](markers/28S/figures/positions_28S.zh.svg)
 
 ## 参考面板与筛选规则
 
@@ -118,3 +134,5 @@ Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding envi
 5. Untergasser, A., Cutcutache, I., Koressaar, T., et al. (2012). Primer3—new capabilities and interfaces. *Nucleic Acids Research*, 40, e115. https://doi.org/10.1093/nar/gks596
 
 6. Riaz, T., Shehzad, W., Viari, A., et al. (2011). ecoPrimers: inference of new DNA barcode markers from whole genome sequence analysis. *Nucleic Acids Research*, 39, e145. https://doi.org/10.1093/nar/gkr732
+
+7. McCartin et al. (2024). Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. [PeerJ](https://doi.org/10.7717/peerj.18607).
