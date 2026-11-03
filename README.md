@@ -101,7 +101,7 @@ Five-fold genus holdout evaluated sequence selection within the predefined 16S r
 
 ## Citation and permissions
 
-Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S, 12S and COI primers for sea-urchin environmental DNA metabarcoding*. GitHub.
+Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin*. GitHub.
 
 [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Copyright and permissions](COPYRIGHT.md)
 
