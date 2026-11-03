@@ -2,7 +2,7 @@
 
 # MiUrchin
 
-[English](README.md)
+[正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
 MiUrchin 收录了 26 对用于海胆环境 DNA 宏条形码研究的线粒体候选引物。16S、12S 各有五个窗口，COI 有三个窗口。每个窗口保留一对普通引物和一对简并引物（后缀 D），两对共用相同的参考起止坐标。
 

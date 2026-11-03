@@ -30,7 +30,7 @@ for r in rows:
   thermal=json.loads((d/(name+'_thermal.json')).read_text());assert all(v['structure_max']<55 and abs((v['F_tm_min']+v['F_tm_max']-v['R_tm_min']-v['R_tm_max'])/2)<=5 for v in thermal)
 xs=read(p/'results/current_primers/XS/XS_coordinates.csv')[0];xsd=read(p/'results/current_primers/XS/XSD_coordinates.csv')[0]
 assert all(xs[k]==xsd[k] for k in ('reference','F_start','F_end','R_start','R_end','reference_span_bp'))
-for name in ('README.md','README.zh-CN.md'):
+for name in ('README.md','README.en.md','README.zh-CN.md'):
  f=p/name;s=f.read_text()
  for r in rows:assert f"| {r['name']} | `{r['F']}` | `{r['R']}` |" in s
  for link in re.findall(r'\]\(([^)]+)\)',s):
