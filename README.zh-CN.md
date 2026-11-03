@@ -6,7 +6,28 @@
 
 预印本: [PDF](publications/MiUrchin_preprint.pdf) · [Markdown](publications/MiUrchin_preprint.md) · [Provenance](publications/preprint_provenance.json)
 
-## 摘要
+## 标记与序列下载
+
+MiUrchin 包含三个线粒体标记的 26 对候选引物。合并 FASTA 的名称含基因前缀。同一窗口内，普通与 D 引物在 NC_001453.1 相应基因上的起止坐标一致。
+
+[全部 26 对引物 FASTA](sequences/all_markers.fasta) · [16S 引物表](sequences/primer_pairs.csv) · [12S、COI 序列、坐标与完整指标](markers/12S_COI/candidates.csv) · [逐对独立复核](markers/12S_COI/final_check.json)
+
+| Gene | Window | Span (bp) | N | Ordinary covered / exact | D covered / exact | D strict WC / GT |
+|---|---|---:|---:|---:|---:|---:|
+| 12S | XS | 153 | 67 | 27 / 0 | 32 / 19 | 0 / 0 |
+| 12S | S | 188 | 64 | 27 / 1 | 56 / 19 | 0 / 1 |
+| 12S | M | 249 | 69 | 25 / 0 | 61 / 24 | 2 / 2 |
+| 12S | L | 347 | 69 | 23 / 0 | 56 / 17 | 0 / 3 |
+| 12S | XL | 452 | 67 | 32 / 15 | 40 / 21 | 2 / 3 |
+| COI | XS | 152 | 106 | 34 / 0 | 79 / 3 | 0 / 1 |
+| COI | S | 209 | 105 | 28 / 3 | 63 / 6 | 1 / 1 |
+| COI | M | 248 | 103 | 22 / 0 | 57 / 1 | 0 / 0 |
+
+每行使用该基因、该窗口的可评价物种数 N。普通与 D 两列分别给出预测覆盖数和双端完全匹配数，末列为 D 的严格非目标物种数。12S 的背景有 459 种，COI 有 1,719 种。12S 的 MD 覆盖 61/69 种，其中 24 种完全匹配。COI 的 XSD 覆盖 79/106 种，其中 3 种完全匹配。COI 库有 314 个物种，各保留窗口只有 103–106 种可评价；本轮 L、XL 未筛得通过背景门槛的候选。下文的 49 物种共同面板和属级留出分析适用于 16S。
+
+## 16S 评价
+
+### 摘要
 
 海胆环境 DNA 线粒体 16S rRNA 引物，包含 XS、S、M、L、XL 五个长度。每个长度保留普通单对和简并单对 D；同一长度使用相同参考坐标。
 参考面板包含 165 个物种，XS、S、M、L、XL 区域分别有 55、55、158、159、55 个可评价物种；缺失结合区域不计为漏检。图示使用旧分类体系，新面板的目级名称以 WoRMS 为准。
@@ -45,7 +66,7 @@
 
 [详细方法](docs/METHODS.zh-CN.md) · [验证](docs/VALIDATION.md)
 
-## 结果
+## 16S 结果
 
 ### 预测表现
 
@@ -196,7 +217,7 @@
 
 使用本项目引物、参考数据或分析代码时，请引用：
 
-Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S rRNA primers for sea-urchin environmental DNA metabarcoding*. GitHub. https://github.com/GUIBA-EX/MiUrchin
+Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S, 12S and COI primers for sea-urchin environmental DNA metabarcoding*. GitHub. https://github.com/GUIBA-EX/MiUrchin
 
 [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib)
 

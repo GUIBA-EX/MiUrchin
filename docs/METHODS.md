@@ -11,3 +11,8 @@ Coverage requires at most two mismatches per primer and IUPAC-compatible final 3
 Candidate oligos have at most eight concrete variants and ambiguity confined to the 3′ half. Terminal checks exclude homotriplet ends and homopolymers longer than four bases and require GC in the final 3 nt. Primer3 evaluates 50 mM monovalent salt, 1.5 mM Mg²⁺, 0.6 mM dNTP, 50 nM per variant and 200 nM total per direction. Structure Tm must be below 55°C and the difference between forward and reverse duplex-Tm midpoints at most 5°C.
 
 Independent C++ and Python scans evaluate the same reference data; they are algorithmic verification rather than independent biological validation. Scripts are retained as [analysis provenance](../scripts/species_screening/README.md). Experimental validation remains necessary.
+
+
+### 12S and COI
+
+[Independent reference panels, coordinates and verification](../markers/12S_COI/README.md). The preceding methods describe the 16S evaluation.

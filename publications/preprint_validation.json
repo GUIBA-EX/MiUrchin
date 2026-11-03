@@ -1,7 +1,7 @@
 {
   "project": "MiUrchin",
   "author": "Fei Xia",
-  "pages": 8,
+  "pages": 10,
   "checks": [
     "source input hashes",
     "artifact hashes",

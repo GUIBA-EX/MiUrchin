@@ -1,18 +1,22 @@
-# MiUrchin: in silico design and evaluation of mitochondrial 16S rRNA primers for environmental DNA metabarcoding of sea urchins
+# MiUrchin: in silico design and evaluation of mitochondrial 16S, 12S and COI primers for environmental DNA metabarcoding of sea urchins
 
 Fei Xia
 
-Computational preprint · 30 October 2026
+Computational preprint · 4 November 2026
 
 ## Abstract
 
-Taxon-focused metabarcoding requires a balance between primer compatibility, marker discrimination and non-target susceptibility. We evaluated five mitochondrial 16S rRNA windows (XS, S, M, L and XL) for sea urchins using a curated frozen panel of 165 species. Each S–XL region contains an ordinary and low-degeneracy D pair at shared reference endpoints. XS also contains ordinary and D pairs. On the common 49-species panel, the largest predicted coverage was 45/49 (XLD), and the largest number of exact paired matches was 19/49 (LD). We extracted primer-free homologous inserts, recorded interspecific identity conflicts and nearest-neighbor edit distances, and performed five-fold genus-blocked sequence selection. Each fold used training species only, with identical complete representatives bound to the same genus block. Region discovery preceded splitting, so the test estimates sequence-selection generalization conditional on the chosen regions. Fold candidates were not screened against formal thermal and background gates and do not replace released assays. The resulting data resource separates coverage, exact compatibility and reference-barcode discrimination while exposing lineage and reference-data limitations.
+Taxon-focused metabarcoding requires a balance between primer compatibility, marker discrimination and non-target susceptibility. We screened mitochondrial 12S and COI independently and evaluated five mitochondrial 16S rRNA windows (XS, S, M, L and XL) for sea urchins using a curated frozen panel of 165 species. Each S–XL region contains an ordinary and low-degeneracy D pair at shared reference endpoints. XS also contains ordinary and D pairs. On the common 49-species panel, the largest predicted coverage was 45/49 (XLD), and the largest number of exact paired matches was 19/49 (LD). We extracted primer-free homologous inserts, recorded interspecific identity conflicts and nearest-neighbor edit distances, and performed five-fold genus-blocked sequence selection. Each fold used training species only, with identical complete representatives bound to the same genus block. Region discovery preceded splitting, so the test estimates sequence-selection generalization conditional on the chosen regions. Fold candidates were not screened against formal thermal and background gates and do not replace released assays. The resulting data resource separates coverage, exact compatibility and reference-barcode discrimination while exposing lineage and reference-data limitations.
+
+The 12S MD candidate covered 61/69 species with 24 exact matches. COI XSD covered 79/106 with three exact matches. Background counts and reference completeness are reported per marker.
 
 Keywords: Echinoidea; environmental DNA; mitochondrial 16S; primer degeneracy; barcode discrimination; grouped holdout
 
 ## 中文摘要
 
 本研究对MiUrchin五个线粒体16S窗口进行纯计算评价，使用每个物种一条代表的冻结参考面板。共同面板包含49个物种，覆盖最多的方案为XLD（45/49），双端完全匹配最多的方案为LD（19/49）。分析区分引物兼容性、去引物内部条码唯一性及属级条件性留出表现。折内候选不作为正式替换方案，跨物种相同条码保留来源待核查。
+
+补充的12S与COI各自建库。12S MD覆盖61/69种，完全匹配24种；COI XSD覆盖79/106种，完全匹配3种。以下共同面板和属级留出结果专属16S。
 
 ## 1. Introduction
 
@@ -140,6 +144,33 @@ Each row pools five folds. Fold membership, genus counts, candidate sequences an
 
 ![Figure 3. Conditional genus-blocked test predictions. Fold-specific training sequences differ from the released ordinary/D assays.](figures/holdout.png)
 
+### 3.5 Independent 12S and COI screens
+
+The search of NCBI Nucleotide retrieved 9,988 distinct accessions across both loci. Annotated features were extracted in strand orientation and screened for length, ambiguity and nuclear or pseudogene annotations. Independent design panels contained 69 named species for 12S and 314 for COI. Candidate binding windows were evaluated on each gene's own alignment. Ordinary primers were chosen from the concrete variants of each retained D pair at the same reference endpoints. Each oligonucleotide has degeneracy ≤8. The 12S search prioritized exact matches and the COI search prioritized the number of species spanning the region. Raw paired scans allowed 100–500 bp target products with an internal insert of at least 50 bp. The near-relative background consisted of 459 species for 12S and 1,719 for COI. Thresholds were ≤10 strict hits per model and ≤50 relaxed hits per model. Independent seed-and-extend matching verified 32,382 record/model comparisons across 16 primer pairs.
+
+Table 6. Predicted compatibility and strict background-species counts in the independent 12S and COI panels.
+
+| Gene | Assay | Span bp | Covered/N | Exact/N | WC/GT |
+| --- | --- | --- | --- | --- | --- |
+| 12S | XS | 153 | 27/67 | 0/67 | 0/0 |
+| 12S | XSD | 153 | 32/67 | 19/67 | 0/0 |
+| 12S | S | 188 | 27/64 | 1/64 | 0/1 |
+| 12S | SD | 188 | 56/64 | 19/64 | 0/1 |
+| 12S | M | 249 | 25/69 | 0/69 | 1/1 |
+| 12S | MD | 249 | 61/69 | 24/69 | 2/2 |
+| 12S | L | 347 | 23/69 | 0/69 | 0/0 |
+| 12S | LD | 347 | 56/69 | 17/69 | 0/3 |
+| 12S | XL | 452 | 32/67 | 15/67 | 0/0 |
+| 12S | XLD | 452 | 40/67 | 21/67 | 2/3 |
+| COI | XS | 152 | 34/106 | 0/106 | 0/1 |
+| COI | XSD | 152 | 79/106 | 3/106 | 0/1 |
+| COI | S | 209 | 28/105 | 3/105 | 0/0 |
+| COI | SD | 209 | 63/105 | 6/105 | 1/1 |
+| COI | M | 248 | 22/103 | 0/103 | 0/0 |
+| COI | MD | 248 | 57/103 | 1/103 | 0/0 |
+
+The 12S M window shows a gain from 25 to 61 compatible species and from zero to 24 exactly matched species after introducing degeneracy. The COI panel includes many partial records. The three retained windows each have only 103–106 evaluable species, and attempts to move into more widely sequenced regions increased non-target matching. The common-panel discrimination and genus-blocked sequence-selection tests in Sections 3.2–3.4 were performed for 16S.
+
 ## 4. Discussion
 
 The analysis separates three questions: whether a primer pair matches the target reference, whether the paired sites match exactly, and whether the internal sequence distinguishes that reference from other named species. On the common 49-species panel, the largest predicted coverage was 45/49 (XLD), and the largest number of exact paired matches was 19/49 (LD). These properties need not favor the same design. Coverage improvements from controlled degeneracy should therefore be interpreted alongside exact matches, lineage changes and non-target susceptibility rather than a single aggregate percentage.
@@ -178,6 +209,27 @@ All sequences are written 5′ to 3′. Deg F/R gives the number of concrete var
 | LD | GTCTCCTAAATAGAGACTAGHATGAATGGC | GCGGTAACTTGTTYCTTTGRTCACY | 3/8 |
 | XL | GAATAGGCCTAGAAGCAGCC | CCGTCTTGCCATTCATACTAGTCTC | 1/1 |
 | XLD | AAGTAGGCCTARAAGCAGCC | CCGTCTTGCCATTCATACCAGTCTY | 2/2 |
+
+### Additional mitochondrial primer sequences
+
+| Assay | F, 5′–3′ | R, 5′–3′ | Deg F/R |
+| --- | --- | --- | --- |
+| 12S XS | TGCCACATGCAAGCTTATTAG | TTTAGCACTGCAGATGTGG | 1/1 |
+| 12S XSD | TGCCACATGCAAGCYWAYTAG | TTTAGCACTGCAGDYGTGG | 8/6 |
+| 12S S | GTCCTAGTCCCAATTTTAAC | AATGTTTAGCACTGCAGTTG | 1/1 |
+| 12S SD | GTCCTAGTCCCAAYWTTARC | AATGTTTAGCACTGCAGDYG | 8/6 |
+| 12S M | CGGTTTTCCAAACCTCCCT | ACTGCTGAATCCAGTTTCT | 1/1 |
+| 12S MD | CGGTTTTCCAWAYCTCCCT | ACTGCTGAATCCARTTTCN | 4/8 |
+| 12S L | ACCCTGTTATACTTAGACGT | GCATTCCAGAGCTCTCTTCA | 1/1 |
+| 12S LD | ACCCTGTTATACTTAGMHGT | GCATTCCAGAGCTSWYTTCA | 6/8 |
+| 12S XL | CCACATGCAAGCTAACTAGC | AAACCGCCAAGTCCTTTGAG | 1/1 |
+| 12S XLD | CCACATGCAAGYYAAYTAGC | AAACCGCCAARTCCTTTGAR | 8/4 |
+| COI XS | TCAAACCTACAATGAGAAAC | ACATAGTGGAAGTGAGCTAC | 1/1 |
+| COI XSD | TCAAACCTACARTGRGARAC | ACATAGTGGAAGTGDGCWAC | 8/6 |
+| COI S | CAAGGATCAAACCTACAATG | AATCAGTGAGTAAATCCTGC | 1/1 |
+| COI SD | CAAGGATCAAAYYTACARTG | AATCAGTGAGTRAAYCCWGC | 8/8 |
+| COI M | TCAAACCTACAATGGGAAAC | ACCTTTCCTCATAGTGGGTG | 1/1 |
+| COI MD | TCAAACCTACARTGRGARAC | ACCTTTCCTCAWAGYGGRTG | 8/8 |
 
 ## References
 

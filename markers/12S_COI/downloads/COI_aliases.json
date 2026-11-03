@@ -1,0 +1,24 @@
+{
+  "query": "Echinoidea[Organism] AND (COX1[Title] OR COXI[Title] OR MT-CO1[Title] OR MT-CO1[Gene] OR cytochrome c oxidase subunit 1[Title] OR cytochrome c oxidase subunit one[Title] OR cytochrome oxidase subunit one[Title])",
+  "count": 4211,
+  "additional_uids": [
+    "354922955",
+    "354922957",
+    "354922959",
+    "354922961",
+    "354922963",
+    "354922965",
+    "354922967",
+    "354922969",
+    "354922971",
+    "354922973",
+    "354922975",
+    "354922977",
+    "354922979",
+    "354922981",
+    "354922983",
+    "354922985",
+    "392056687",
+    "57938739"
+  ]
+}

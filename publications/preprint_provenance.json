@@ -1,10 +1,13 @@
 {
   "author": "Fei Xia",
-  "date": "2026-10-30",
+  "date": "2026-11-04",
   "project": "MiUrchin",
-  "source_commit": "fbd3a1f6d088148526fd43924ac29469ceed0ef7",
+  "source_commit": "64ccc44d8c13736d81b40bfc2b34ed5dcfea29b0",
   "common_species": 49,
   "inputs": {
+    "markers/12S_COI/candidates.csv": "afe0391b5a669b72ffc7516e1d958d6a812994f5c77b1330ed9536ba9523cd68",
+    "markers/12S_COI/final_check.json": "bb95dea45da266b12aee3c6426d79c1a64b449ab2cfa2b9020aca89801af4193",
+    "sequences/all_markers.fasta": "fca491726c2241dda3908aa399db3d88ee77d35eb9f07b44d475cc50eaa94a2b",
     "sequences/primer_pairs.csv": "f3800363f81aff2b8f51888a517a0f94bc41effbb798135425f851b08097cd35",
     "figures/current_region_coordinates.csv": "0db44e4b082d2d9be945dbe1de8277a620ea93a041bf70c77c5010ea416df297",
     "results/current_primers/comparison.csv": "671465cd56def3d2f5c9c06d79637948b251b106193615cc434364c18a9b3ea9",
@@ -21,7 +24,7 @@
     "results/computational_evaluation/results/manifest.json": "acd1e916f2412fdbdd166868602bcf2eb5bf33b6b9bfff1280acd0e3efb9fc86"
   },
   "artifacts": {
-    "MiUrchin_preprint.pdf": "b7d8d8f0981d6e2e53abccb4d173fd0e7725c74acb977c42b28304ffdab03600",
-    "MiUrchin_preprint.md": "d19467d6c76290e395a888a5c63b64107ad8dfac3c37be289dc866c4ee97e531"
+    "MiUrchin_preprint.pdf": "bbf1dc6cb7f98e8803d4317bde7072de9c18ace99320bf0e21972b65f3e80ebc",
+    "MiUrchin_preprint.md": "d6b92f604a344687c0a858550dcf3fe73170b157a82191c65380a7db9fb636b7"
   }
 }

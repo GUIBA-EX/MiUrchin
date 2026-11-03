@@ -6,7 +6,28 @@
 
 Preprint: [PDF](publications/MiUrchin_preprint.pdf) · [Markdown](publications/MiUrchin_preprint.md) · [Provenance](publications/preprint_provenance.json)
 
-## Abstract
+## Marker guide
+
+MiUrchin includes 26 candidate pairs across three mitochondrial markers. FASTA identifiers in the combined catalog include the gene name. Within each window, the ordinary and D pairs have identical reference endpoints on the corresponding gene of NC_001453.1.
+
+[All 26 pairs (FASTA)](sequences/all_markers.fasta) · [16S sequences](sequences/primer_pairs.csv) · [12S and COI sequences, coordinates and metrics](markers/12S_COI/candidates.csv) · [Independent verification](markers/12S_COI/final_check.json)
+
+| Gene | Window | Span (bp) | N | Ordinary covered / exact | D covered / exact | D strict WC / GT |
+|---|---|---:|---:|---:|---:|---:|
+| 12S | XS | 153 | 67 | 27 / 0 | 32 / 19 | 0 / 0 |
+| 12S | S | 188 | 64 | 27 / 1 | 56 / 19 | 0 / 1 |
+| 12S | M | 249 | 69 | 25 / 0 | 61 / 24 | 2 / 2 |
+| 12S | L | 347 | 69 | 23 / 0 | 56 / 17 | 0 / 3 |
+| 12S | XL | 452 | 67 | 32 / 15 | 40 / 21 | 2 / 3 |
+| COI | XS | 152 | 106 | 34 / 0 | 79 / 3 | 0 / 1 |
+| COI | S | 209 | 105 | 28 / 3 | 63 / 6 | 1 / 1 |
+| COI | M | 248 | 103 | 22 / 0 | 57 / 1 | 0 / 0 |
+
+Each row uses its own evaluable-species denominator. Strict WC/GT values count background species for 12S (459) and COI (1,719). The 12S MD pair covers 61/69 species with 24 exact matches. The COI XSD pair covers 79/106 with three exact matches. Only 103–106 of the 314 COI species span each retained window. COI L and XL yielded no candidates within the screening thresholds. The 49-species common panel and genus holdout reported below apply to 16S.
+
+## 16S evaluation
+
+### Abstract
 
 Mitochondrial 16S rRNA primers for echinoid eDNA in five windows: XS, S, M, L and XL. Each window retains an ordinary pair and a degenerate D pair with shared reference endpoints.
 The reference panel contains 165 species; the XS, S, M, L and XL windows have 55, 55, 158, 159 and 55 evaluable species, respectively. Missing windows are not counted as failures. The overview uses the earlier classification; the current panel uses WoRMS order names.
@@ -45,7 +66,7 @@ For five-fold holdout testing, genera were shuffled with seed 20261030 and assig
 
 [Detailed methods](docs/METHODS.md) · [Validation](docs/VALIDATION.md)
 
-## Results
+## 16S results
 
 ### Predicted performance
 
@@ -196,7 +217,7 @@ Lineage gaps remain substantial in the own-panel data: MD matches 0/37 Spatangoi
 
 If you use the primers, reference data or analysis code, please cite:
 
-Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S rRNA primers for sea-urchin environmental DNA metabarcoding*. GitHub. https://github.com/GUIBA-EX/MiUrchin
+Xia, F. (2026). *MiUrchin: candidate mitochondrial 16S, 12S and COI primers for sea-urchin environmental DNA metabarcoding*. GitHub. https://github.com/GUIBA-EX/MiUrchin
 
 [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib)
 

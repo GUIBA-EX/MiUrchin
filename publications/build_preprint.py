@@ -47,11 +47,11 @@ MiLily XS was supplied as a manual design and retained unchanged: F TTGGGGCAACCD
 
 ''' if lily else ''
 chinese=f'本研究对{name}五个线粒体16S窗口进行纯计算评价，使用每个物种一条代表的冻结参考面板。共同面板包含{n}个物种，覆盖最多的方案为{"、".join(cvnames)}（{bestcv["covered"]}/{n}），双端完全匹配最多的方案为{"、".join(exnames)}（{bestexact["exact"]}/{n}）。分析区分引物兼容性、去引物内部条码唯一性及属级条件性留出表现。折内候选不作为正式替换方案，跨物种相同条码保留来源待核查。'
-s=f'''# {name}: in silico design and evaluation of mitochondrial 16S rRNA primers for environmental DNA metabarcoding of {taxon}
+s=f'''# {name}: in silico design and evaluation of mitochondrial 16S, 12S and COI primers for environmental DNA metabarcoding of {taxon}
 
 Fei Xia
 
-Computational preprint · 30 October 2026
+Computational preprint · 4 November 2026
 
 ## Abstract
 
@@ -191,6 +191,23 @@ All sequences are written 5′ to 3′. Deg F/R gives the number of concrete var
 
 Copyright © 2026 Fei Xia. Existing project copyright and third-party source conditions apply; see COPYRIGHT.md at the repository root.
 '''
+additional=rd(repo/'markers/12S_COI/candidates.csv')
+marker_table=table(['Gene','Assay','Span bp','Covered/N','Exact/N','WC/GT'],[[x['gene'],x['name'],x['span'],x['covered']+'/'+x['evaluable'],x['exact']+'/'+x['evaluable'],x['WC']+'/'+x['GT']] for x in additional])
+marker_seqs=table(['Assay','F, 5′–3′','R, 5′–3′','Deg F/R'],[[x['gene']+' '+x['name'],x['F'],x['R'],x['deg_F']+'/'+x['deg_R']] for x in additional])
+s=s.replace('We evaluated five mitochondrial 16S rRNA windows','We screened mitochondrial 12S and COI independently and evaluated five mitochondrial 16S rRNA windows').replace('Keywords:','The 12S MD candidate covered 61/69 species with 24 exact matches. COI XSD covered 79/106 with three exact matches. Background counts and reference completeness are reported per marker.\n\nKeywords:')
+s=s.replace('## 1. Introduction','补充的12S与COI各自建库。12S MD覆盖61/69种，完全匹配24种；COI XSD覆盖79/106种，完全匹配3种。以下共同面板和属级留出结果专属16S。\n\n## 1. Introduction')
+s=s.replace('## 4. Discussion',"""### 3.5 Independent 12S and COI screens
+
+The search of NCBI Nucleotide retrieved 9,988 distinct accessions across both loci. Annotated features were extracted in strand orientation and screened for length, ambiguity and nuclear or pseudogene annotations. Independent design panels contained 69 named species for 12S and 314 for COI. Candidate binding windows were evaluated on each gene's own alignment. Ordinary primers were chosen from the concrete variants of each retained D pair at the same reference endpoints. Each oligonucleotide has degeneracy ≤8. The 12S search prioritized exact matches and the COI search prioritized the number of species spanning the region. Raw paired scans allowed 100–500 bp target products with an internal insert of at least 50 bp. The near-relative background consisted of 459 species for 12S and 1,719 for COI. Thresholds were ≤10 strict hits per model and ≤50 relaxed hits per model. Independent seed-and-extend matching verified 32,382 record/model comparisons across 16 primer pairs.
+
+Table 6. Predicted compatibility and strict background-species counts in the independent 12S and COI panels.
+
+"""+marker_table+"""
+
+The 12S M window shows a gain from 25 to 61 compatible species and from zero to 24 exactly matched species after introducing degeneracy. The COI panel includes many partial records. The three retained windows each have only 103–106 evaluable species, and attempts to move into more widely sequenced regions increased non-target matching. The common-panel discrimination and genus-blocked sequence-selection tests in Sections 3.2–3.4 were performed for 16S.
+
+## 4. Discussion""")
+s=s.replace('## References','### Additional mitochondrial primer sequences\n\n'+marker_seqs+'\n\n## References')
 (out/f'{name}_preprint.md').write_text(s)
 # Typeset Markdown subset with ReportLab; figures are rasterized from the data at 220 dpi.
 from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Table,TableStyle,Image,KeepTogether
@@ -227,8 +244,8 @@ for line in s.splitlines():
  else:paragraph.append(line)
 flush()
 def footer(c,doc):
- c.setFont('Body',7);c.setFillColor(colors.HexColor('#53636d'));c.drawString(50,28,f'{name} | Fei Xia | Computational preprint | 30 October 2026');c.drawRightString(545,28,str(doc.page));c.setFont('Body',5.8);c.drawString(50,17,'Copyright © 2026 Fei Xia. All rights reserved. Third-party source conditions apply; see repository COPYRIGHT.md.')
+ c.setFont('Body',7);c.setFillColor(colors.HexColor('#53636d'));c.drawString(50,28,f'{name} | Fei Xia | Computational preprint | 4 November 2026');c.drawRightString(545,28,str(doc.page));c.setFont('Body',5.8);c.drawString(50,17,'Copyright © 2026 Fei Xia. All rights reserved. Third-party source conditions apply; see repository COPYRIGHT.md.')
 pdf=out/f'{name}_preprint.pdf';doc=SimpleDocTemplate(str(pdf),pagesize=(595.28,841.89),rightMargin=50,leftMargin=50,topMargin=45,bottomMargin=48,title=f'{name}: computational primer evaluation',author='Fei Xia');doc.build(story,onFirstPage=footer,onLaterPages=footer)
-inputs=['sequences/primer_pairs.csv','figures/current_region_coordinates.csv','results/current_primers/comparison.csv']+[str(f.relative_to(repo)) for f in sorted(res.glob('*.csv'))]+['results/computational_evaluation/results/manifest.json']
-prov=dict(author='Fei Xia',date='2026-10-30',project=name,source_commit=subprocess.check_output(['git','-C',str(repo),'rev-parse','HEAD']).decode().strip(),common_species=int(n),inputs={f:hashlib.sha256((repo/f).read_bytes()).hexdigest() for f in inputs},artifacts={pdf.name:hashlib.sha256(pdf.read_bytes()).hexdigest(),f'{name}_preprint.md':hashlib.sha256((out/f'{name}_preprint.md').read_bytes()).hexdigest()})
+inputs=['markers/12S_COI/candidates.csv','markers/12S_COI/final_check.json','sequences/all_markers.fasta','sequences/primer_pairs.csv','figures/current_region_coordinates.csv','results/current_primers/comparison.csv']+[str(f.relative_to(repo)) for f in sorted(res.glob('*.csv'))]+['results/computational_evaluation/results/manifest.json']
+prov=dict(author='Fei Xia',date='2026-11-04',project=name,source_commit=subprocess.check_output(['git','-C',str(repo),'rev-parse','HEAD']).decode().strip(),common_species=int(n),inputs={f:hashlib.sha256((repo/f).read_bytes()).hexdigest() for f in inputs},artifacts={pdf.name:hashlib.sha256(pdf.read_bytes()).hexdigest(),f'{name}_preprint.md':hashlib.sha256((out/f'{name}_preprint.md').read_bytes()).hexdigest()})
 (out/'preprint_provenance.json').write_text(json.dumps(prov,indent=2)+'\n');print(name,'PDF and Markdown generated')
