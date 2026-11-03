@@ -26,7 +26,7 @@ savefig('resolution')
 a=cv;xs=list(range(len(a)));fig,ax=plt.subplots(figsize=(7.2,3.5));ax.bar([x-.18 for x in xs],[float(x['coverage_pct']) for x in a],.36,color='#3287a8',label='Held-out compatible');ax.bar([x+.18 for x in xs],[float(x['exact_pct']) for x in a],.36,color='#e7a54c',label='Held-out exact');ax.set_xticks(xs,[x['region'] for x in a]);ax.set(ylim=(0,108),ylabel='Held-out species (%)');ax.legend(fontsize=8);savefig('holdout')
 ct=table(['Assay','Covered','Exact','Covered + unique'],[[x['name'],f"{x['covered']}/{n}",f"{x['exact']}/{n}",f"{x['covered_identity_unique']}/{n}"] for x in cmp if x['panel']=='common'])
 formal=rd(repo/'results/current_primers/comparison.csv');fm={x['name']:x for x in formal}
-ot=table(['Assay','Own-panel N','Covered','Exact','Strict WC / GT'],[[x['name'],x['n'],x['covered'],x['exact'],f"{fm[x['name']]['strict_WC']} / {fm[x['name']]['strict_GT']}" if x['name'] in fm else '18 / not tabulated'] for x in cmp if x['panel']=='own'])
+ot=table(['Assay','Own-panel N','Covered','Exact','Strict background hits¹'],[[x['name'],x['n'],x['covered'],x['exact'],f"{fm[x['name']]['strict_WC']} / {fm[x['name']]['strict_GT']}" if x['name'] in fm else '18 / not tabulated'] for x in cmp if x['panel']=='own'])
 rr=[]
 for x in resol:
  if x['panel']=='own':
@@ -89,7 +89,7 @@ Within S–XL, ordinary and D sequences share reference start and end positions.
 
 Coverage requires no more than two mismatches per primer and IUPAC compatibility in each terminal three nucleotides. Exact matching requires zero mismatches at both binding sites. S–XL paired target scans allow total products of 150–500 bp with at least 50 bp between primers. XS scans allow 70–500 bp products with at least 20 bp between primers. Both sequence orientations are considered. Species contribute equally; per-order counts accompany aggregate values.
 
-Released background screens allow an internal spacing of 0–1,000 bp. Strict WC and G–T models retain the terminal constraint; permissive WC≤3 and GT≤2 screens omit it. These counts describe reference records, not experimental amplification frequencies. C++ and Python implementations were previously compared on the same frozen data to check target and strict-background hit sets. Such implementation agreement is distinct from held-out reference evaluation.
+Released background screens allow an internal spacing of 0–1,000 bp. Strict screens retain the terminal constraint for both models. Permissive screens allow up to three mismatches per primer with Watson–Crick pairing alone and up to two when guanine–thymine pairing is also allowed. These counts describe reference records, not experimental amplification frequencies. C++ and Python implementations were previously compared on the same frozen data to check target and strict-background hit sets. Such implementation agreement is distinct from held-out reference evaluation.
 
 ### 2.4 Primer-free barcode discrimination
 
@@ -113,7 +113,7 @@ The frozen computational bundle contains input hashes, source sequences, window 
 
 ### 3.1 Released assays on their available panels
 
-Table 2. Frozen own-panel target results and inherited strict background counts. {'The manual XS background assessment has a different original source panel; its GT value is not tabulated here.' if lily else ''}
+Table 2. Frozen own-panel target results and inherited strict background counts. ¹ Counts give Watson–Crick pairing alone first, followed by the model that also allows guanine–thymine pairing. {'The manual XS background assessment has a different original source panel; its GT value is not tabulated here.' if lily else ''}
 
 {ot}
 
@@ -192,7 +192,7 @@ All sequences are written 5′ to 3′. Deg F/R gives the number of concrete var
 Copyright © 2026 Fei Xia. Existing project copyright and third-party source conditions apply; see COPYRIGHT.md at the repository root.
 '''
 additional=rd(repo/'markers/12S_COI/candidates.csv')
-marker_table=table(['Gene','Assay','Span bp','Covered/N','Exact/N','WC/GT'],[[x['gene'],x['name'],x['span'],x['covered']+'/'+x['evaluable'],x['exact']+'/'+x['evaluable'],x['WC']+'/'+x['GT']] for x in additional])
+marker_table=table(['Gene','Assay','Span bp','Covered/N','Exact/N','Strict background hits¹'],[[x['gene'],x['name'],x['span'],x['covered']+'/'+x['evaluable'],x['exact']+'/'+x['evaluable'],x['WC']+'/'+x['GT']] for x in additional])
 marker_seqs=table(['Assay','F, 5′–3′','R, 5′–3′','Deg F/R'],[[x['gene']+' '+x['name'],x['F'],x['R'],x['deg_F']+'/'+x['deg_R']] for x in additional])
 s=s.replace('We evaluated five mitochondrial 16S rRNA windows','We screened mitochondrial 12S and COI independently and evaluated five mitochondrial 16S rRNA windows').replace('Keywords:','The 12S MD candidate covered 61/69 species with 24 exact matches. COI XSD covered 79/106 with three exact matches. Background counts and reference completeness are reported per marker.\n\nKeywords:')
 s=s.replace('## 1. Introduction','补充的12S与COI各自建库。12S MD覆盖61/69种，完全匹配24种；COI XSD覆盖79/106种，完全匹配3种。以下共同面板和属级留出结果专属16S。\n\n## 1. Introduction')
@@ -200,7 +200,7 @@ s=s.replace('## 4. Discussion',"""### 3.5 Independent 12S and COI screens
 
 The search of NCBI Nucleotide retrieved 9,988 distinct accessions across both loci. Annotated features were extracted in strand orientation and screened for length, ambiguity and nuclear or pseudogene annotations. Independent design panels contained 69 named species for 12S and 314 for COI. Candidate binding windows were evaluated on each gene's own alignment. Ordinary primers were chosen from the concrete variants of each retained D pair at the same reference endpoints. Each oligonucleotide has degeneracy ≤8. The 12S search prioritized exact matches and the COI search prioritized the number of species spanning the region. Raw paired scans allowed 100–500 bp target products with an internal insert of at least 50 bp. The near-relative background consisted of 459 species for 12S and 1,719 for COI. Thresholds were ≤10 strict hits per model and ≤50 relaxed hits per model. Independent seed-and-extend matching verified 32,382 record/model comparisons across 16 primer pairs.
 
-Table 6. Predicted compatibility and strict background-species counts in the independent 12S and COI panels.
+Table 6. Predicted compatibility and strict background-species counts (¹ Watson–Crick pairing alone / also allowing guanine–thymine pairing) in the independent 12S and COI panels.
 
 """+marker_table+"""
 
@@ -208,8 +208,10 @@ The 12S M window shows a gain from 25 to 61 compatible species and from zero to 
 
 ## 4. Discussion""")
 s=s.replace('## References','### Additional mitochondrial primer sequences\n\n'+marker_seqs+'\n\n## References')
+for gene in ('12S','COI'):
+ shutil.copyfile(repo/f'markers/12S_COI/figures/positions_{gene}.en.png',figdir/f'{gene}_positions.png')
 shutil.copyfile(repo/'markers/12S_COI/figures/positions.png',figdir/'marker_positions.png')
-s=s.replace('## 4. Discussion','![Figure 4. Reference binding windows for the ordinary and D pairs. Coordinates are 1-based within the respective mitochondrial gene.](figures/marker_positions.png)\n\n## 4. Discussion')
+s=s.replace('## 4. Discussion','![Figure 4a. Ordinary and degenerate primer windows on the 12S reference.](figures/12S_positions.png)\n\n![Figure 4b. Ordinary and degenerate primer windows on the COI reference.](figures/COI_positions.png)\n\n## 4. Discussion')
 (out/f'{name}_preprint.md').write_text(s)
 # Typeset Markdown subset with ReportLab; figures are rasterized from the data at 220 dpi.
 from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Table,TableStyle,Image,KeepTogether

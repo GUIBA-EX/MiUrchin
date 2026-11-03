@@ -50,7 +50,7 @@ Within S–XL, ordinary and D sequences share reference start and end positions.
 
 Coverage requires no more than two mismatches per primer and IUPAC compatibility in each terminal three nucleotides. Exact matching requires zero mismatches at both binding sites. S–XL paired target scans allow total products of 150–500 bp with at least 50 bp between primers. XS scans allow 70–500 bp products with at least 20 bp between primers. Both sequence orientations are considered. Species contribute equally; per-order counts accompany aggregate values.
 
-Released background screens allow an internal spacing of 0–1,000 bp. Strict WC and G–T models retain the terminal constraint; permissive WC≤3 and GT≤2 screens omit it. These counts describe reference records, not experimental amplification frequencies. C++ and Python implementations were previously compared on the same frozen data to check target and strict-background hit sets. Such implementation agreement is distinct from held-out reference evaluation.
+Released background screens allow an internal spacing of 0–1,000 bp. Strict screens retain the terminal constraint for both models. Permissive screens allow up to three mismatches per primer with Watson–Crick pairing alone and up to two when guanine–thymine pairing is also allowed. These counts describe reference records, not experimental amplification frequencies. C++ and Python implementations were previously compared on the same frozen data to check target and strict-background hit sets. Such implementation agreement is distinct from held-out reference evaluation.
 
 ### 2.4 Primer-free barcode discrimination
 
@@ -74,9 +74,9 @@ The frozen computational bundle contains input hashes, source sequences, window 
 
 ### 3.1 Released assays on their available panels
 
-Table 2. Frozen own-panel target results and inherited strict background counts. 
+Table 2. Frozen own-panel target results and inherited strict background counts. ¹ Counts give Watson–Crick pairing alone first, followed by the model that also allows guanine–thymine pairing. 
 
-| Assay | Own-panel N | Covered | Exact | Strict WC / GT |
+| Assay | Own-panel N | Covered | Exact | Strict background hits¹ |
 | --- | --- | --- | --- | --- |
 | XS | 55 | 19 | 0 | 0 / 0 |
 | XSD | 55 | 35 | 6 | 0 / 7 |
@@ -148,9 +148,9 @@ Each row pools five folds. Fold membership, genus counts, candidate sequences an
 
 The search of NCBI Nucleotide retrieved 9,988 distinct accessions across both loci. Annotated features were extracted in strand orientation and screened for length, ambiguity and nuclear or pseudogene annotations. Independent design panels contained 69 named species for 12S and 314 for COI. Candidate binding windows were evaluated on each gene's own alignment. Ordinary primers were chosen from the concrete variants of each retained D pair at the same reference endpoints. Each oligonucleotide has degeneracy ≤8. The 12S search prioritized exact matches and the COI search prioritized the number of species spanning the region. Raw paired scans allowed 100–500 bp target products with an internal insert of at least 50 bp. The near-relative background consisted of 459 species for 12S and 1,719 for COI. Thresholds were ≤10 strict hits per model and ≤50 relaxed hits per model. Independent seed-and-extend matching verified 32,382 record/model comparisons across 16 primer pairs.
 
-Table 6. Predicted compatibility and strict background-species counts in the independent 12S and COI panels.
+Table 6. Predicted compatibility and strict background-species counts (¹ Watson–Crick pairing alone / also allowing guanine–thymine pairing) in the independent 12S and COI panels.
 
-| Gene | Assay | Span bp | Covered/N | Exact/N | WC/GT |
+| Gene | Assay | Span bp | Covered/N | Exact/N | Strict background hits¹ |
 | --- | --- | --- | --- | --- | --- |
 | 12S | XS | 153 | 27/67 | 0/67 | 0/0 |
 | 12S | XSD | 153 | 32/67 | 19/67 | 0/0 |
@@ -171,7 +171,9 @@ Table 6. Predicted compatibility and strict background-species counts in the ind
 
 The 12S M window shows a gain from 25 to 61 compatible species and from zero to 24 exactly matched species after introducing degeneracy. The COI panel includes many partial records. The three retained windows each have only 103–106 evaluable species, and attempts to move into more widely sequenced regions increased non-target matching. The common-panel discrimination and genus-blocked sequence-selection tests in Sections 3.2–3.4 were performed for 16S.
 
-![Figure 4. Reference binding windows for the ordinary and D pairs. Coordinates are 1-based within the respective mitochondrial gene.](figures/marker_positions.png)
+![Figure 4a. Ordinary and degenerate primer windows on the 12S reference.](figures/12S_positions.png)
+
+![Figure 4b. Ordinary and degenerate primer windows on the COI reference.](figures/COI_positions.png)
 
 ## 4. Discussion
 

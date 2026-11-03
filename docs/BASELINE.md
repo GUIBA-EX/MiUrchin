@@ -10,7 +10,7 @@ MiUrchin adapts the MiStar/MiCucumber workflow to a new target group: target-bal
 
 ## Final candidates
 
-| Scheme / 方案 | F + R | PCR mode / 模式 | Common coverage / 共同覆盖 | Region coverage / 区域覆盖 | Region exact / 区域完全匹配 | Product bp / 产物 | WC≤3 / GT≤2 / WC≤4 |
+| Scheme / 方案 | F + R | PCR mode / 模式 | Common coverage / 共同覆盖 | Region coverage / 区域覆盖 | Region exact / 区域完全匹配 | Product bp / 产物 | Watson–Crick pairing≤3 / pairing allowing guanine–thymine matches≤2 / Watson–Crick pairing≤4 |
 |---|---:|---|---:|---:|---:|---:|---:|
 | MiUrchin-XS-Separate | 4 + 6 | 6 separate | 87.76% | 85.45% (55 labels) | 41.82% | 188–193 | 0 / 0 / 8 |
 | MiUrchin-XS-Pool | 6 + 6 | 1 pool / 36 combinations | 87.76% | 85.45% (55 labels) | 49.09% | 188–193 | 0 / 4 / 12 |
@@ -25,7 +25,7 @@ The common panel contains **49 name labels / 80 haplotypes**. Each locus also ha
 
 Coverage permits ≤2 mismatches per primer with the terminal three 3′ bases perfectly matched; exact coverage requires zero mismatches in both primers. Product ranges include primer sequences, exclude adapters, and describe observed predicted hits in each region panel. They are not universal sizes for all sea urchins.
 
-Background counts are accession unions among **6,045 records**, not species counts or sequencing-read fractions. WC≤3 / WC≤4 allow at most 3 / 4 mismatches per primer; GT≤2 is the inherited G:T-tolerance sensitivity model plus up to two other mismatches. Ambiguous-template candidates are listed separately. Complete schemes remain within ≤5 WC≤3 and ≤5 GT≤2 records; small residual risk was accepted to improve coverage and exact matching.
+Background counts are accession unions among **6,045 records**, not species counts or sequencing-read fractions. Watson–Crick pairing≤3 / Watson–Crick pairing≤4 allow at most 3 / 4 mismatches per primer; pairing allowing guanine–thymine matches≤2 is the inherited G:T-tolerance sensitivity model plus up to two other mismatches. Ambiguous-template candidates are listed separately. Complete schemes remain within ≤5 Watson–Crick pairing≤3 and ≤5 pairing allowing guanine–thymine matches≤2 records; small residual risk was accepted to improve coverage and exact matching.
 
 ## Get the sequences
 

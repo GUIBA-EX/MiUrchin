@@ -13,7 +13,7 @@ MiUrchin is a collection of 26 mitochondrial primer pairs for computational stud
 The strongest candidate depends on whether the priority is broad compatibility or an exact match at both binding sites. Each gene has its own reference panel. Counts within a window compare ordinary and D pairs on the same species.
 
 - **16S.** On the 49 species evaluable across all five windows, XLD covers the most species (45/49), while LD has the most exact matches (19/49). On their larger window-specific panels, MD matches 0/37 Spatangoida and LD matches 36/38.
-- **12S.** At 249 bp, MD improves coverage from 25/69 to 61/69 relative to ordinary M and raises exact matches from zero to 24. Strict GT background hits increase from one species to two.
+- **12S.** At 249 bp, MD improves coverage from 25/69 to 61/69 relative to ordinary M and raises exact matches from zero to 24. Strict background hits allowing guanine–thymine pairing increase from one species to two.
 - **COI.** The 152 bp XSD covers 79/106 species, including three exact matches. The 209 bp SD covers 63/105, with six exact matches. Of 314 species in the COI library, only 103–106 have evaluable binding sites in each retained window. No L or XL candidate met the background thresholds in this search.
 
 ## Sequences and predicted performance
@@ -22,7 +22,7 @@ FASTA identifiers include the gene, assay and direction. For example, `MiUrchin-
 
 ### 16S
 
-| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict WC / GT | Base matching |
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict hits: Watson–Crick only / also allowing guanine–thymine pairing | Base matching |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` | 181 | 19/55 | 0/55 | 0 / 0 | [View](results/current_primers/XS/base_matching_XS.svg) |
 | XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` | 181 | 35/55 | 6/55 | 0 / 7 | [View](results/current_primers/XS/base_matching_XSD.svg) |
@@ -37,7 +37,7 @@ FASTA identifiers include the gene, assay and direction. For example, `MiUrchin-
 
 ### 12S
 
-| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict WC / GT | Base matching |
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict hits: Watson–Crick only / also allowing guanine–thymine pairing | Base matching |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | XS | `TGCCACATGCAAGCTTATTAG` | `TTTAGCACTGCAGATGTGG` | 153 | 27/67 | 0/67 | 0 / 0 | [View](markers/12S_COI/figures/12S_XS.svg) |
 | XSD | `TGCCACATGCAAGCYWAYTAG` | `TTTAGCACTGCAGDYGTGG` | 153 | 32/67 | 19/67 | 0 / 0 | [View](markers/12S_COI/figures/12S_XSD.svg) |
@@ -52,7 +52,7 @@ FASTA identifiers include the gene, assay and direction. For example, `MiUrchin-
 
 ### COI
 
-| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict WC / GT | Base matching |
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict hits: Watson–Crick only / also allowing guanine–thymine pairing | Base matching |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | XS | `TCAAACCTACAATGAGAAAC` | `ACATAGTGGAAGTGAGCTAC` | 152 | 34/106 | 0/106 | 0 / 1 | [View](markers/12S_COI/figures/COI_XS.svg) |
 | XSD | `TCAAACCTACARTGRGARAC` | `ACATAGTGGAAGTGDGCWAC` | 152 | 79/106 | 3/106 | 0 / 1 | [View](markers/12S_COI/figures/COI_XSD.svg) |
@@ -71,13 +71,15 @@ The arrows show forward and reverse binding sites. Each gene uses its own coordi
 
 ![16S](figures/amplicon_regions.en.svg)
 
-![12S / COI](markers/12S_COI/figures/positions.svg)
+![12S](markers/12S_COI/figures/positions_12S.en.svg)
+
+![COI](markers/12S_COI/figures/positions_COI.en.svg)
 
 ## Reference panels and screening rules
 
 The 16S library contains 1,401 target records. Curation retained one representative per species (165 species) and resolved order names against WoRMS. The 12S and COI searches of NCBI Nucleotide yielded 9,988 distinct accession records after deduplication. Sequence extraction and quality checks retained 208 eligible 12S sequences and 9,392 COI sequences, representing 69 and 314 named species on their respective design panels. Missing binding windows are excluded from the corresponding denominator.
 
-Coverage requires a paired product with ≤2 mismatches per primer and compatible terminal three bases. Exact matching requires zero mismatches at both ends. Each D oligonucleotide has ≤8 concrete variants. Strict WC uses Watson–Crick compatibility and strict GT also permits G–T pairing. Relaxed WC≤3 and GT≤2 omit the terminal constraint. These counts describe computational template compatibility.
+Coverage requires a paired product with ≤2 mismatches per primer and compatible terminal three bases. Exact matching requires zero mismatches at both ends. Each D oligonucleotide has ≤8 concrete variants. The first strict count uses Watson–Crick pairing alone. The second also allows guanine–thymine pairing. Relaxed scans omit the terminal constraint and allow up to three and two mismatches per primer, respectively. These counts describe computational template compatibility.
 
 [16S methods](docs/METHODS.md) · [16S reference audit](results/species_qc/README.md) · [12S and COI data and verification](markers/12S_COI/README.md)
 

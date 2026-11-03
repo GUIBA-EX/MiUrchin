@@ -2,7 +2,7 @@
 
 Fixed reference positions are NC_001453.1 F 183–204 and R 344–363. The ordinary XS and XSD share these endpoints; their 181 bp reference span includes both primers. The ordinary pair is a concrete variant of XSD.
 
-| Candidate | F (5′→3′) | R (5′→3′) | Coverage | Exact | Strict WC / GT | WC≤3 / GT≤2 |
+| Candidate | F (5′→3′) | R (5′→3′) | Coverage | Exact | Strict Watson–Crick pairing / pairing allowing guanine–thymine matches | Watson–Crick pairing≤3 / pairing allowing guanine–thymine matches≤2 |
 |---|---|---|---:|---:|---:|---:|
 | XS, coverage priority | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` | 19/55 | 0/55 | 0 / 0 | 0 / 0 |
 | Alternative, exact priority | `CTCGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGGAAC` | 16/55 | 1/55 | 0 / 0 | 0 / 0 |

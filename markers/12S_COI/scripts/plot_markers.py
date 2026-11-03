@@ -27,8 +27,7 @@ def alignment(path):
     return seqs
 
 OUT.mkdir(exist_ok=True)
-figmap, axes = plt.subplots(2,1,figsize=(10,6),layout='constrained')
-for gene,axis in zip(('12S','COI'),axes):
+for gene in ('12S','COI'):
     d = ROOT / gene
     seqs = alignment(d/'aligned.fasta')
     cols = [i for i,b in enumerate(seqs[(d/'anchor.txt').read_text().strip()]) if b!='-']
@@ -37,17 +36,6 @@ for gene,axis in zip(('12S','COI'),axes):
         groups[row['order']].append(row)
     hits = {(h['name'],h['accession']):h for h in read(d/'hits.csv') if h['role']=='target' and h['model']=='WC'}
     assays = read(d/'pairs.csv')
-    windows = [r for r in assays if r['name']==r['window']]
-    for y,row in enumerate(windows):
-        f0,f1,r0,r1 = [int(row[k]) for k in ('F_start','F_end','R_start','R_end')]
-        color = COLORS[row['window']]
-        axis.plot([f0,r1],[y,y],color=color,lw=2)
-        for left,right in [(f0,f1),(r1,r0)]:
-            axis.annotate('',(right,y),(left,y),arrowprops=dict(arrowstyle='-|>',color=color,lw=2,shrinkA=0,shrinkB=0))
-        axis.text(r1+12,y,f'{f0}–{f1} / {r0}–{r1}   ({row["span"]} bp)',va='center',fontsize=8)
-    axis.set(yticks=range(len(windows)),yticklabels=[r['window'] for r in windows],xlim=(0,len(cols)+300),ylim=(len(windows)-.5,-.5),xlabel='NC_001453.1 position within gene (bp)',title=gene)
-    axis.spines[['right','top','left']].set_visible(False)
-    axis.grid(axis='x',alpha=.15)
     for row in assays:
         name=row['name']
         bounds=[int(row[k])-1 for k in ('F_start','F_end','R_start','R_end')]
@@ -87,6 +75,3 @@ for gene,axis in zip(('12S','COI'),axes):
         ax.text(-43,len(picked)+1.3,'Green: compatible   Orange: mismatch   Grey: gap or missing   Box: terminal 3 nt   Right: full-sequence paired scan',fontsize=8)
         fig.savefig(OUT/f'{gene}_{name}.svg',bbox_inches='tight')
         plt.close(fig)
-figmap.savefig(OUT/'positions.svg',bbox_inches='tight')
-figmap.savefig(OUT/'positions.png',dpi=200,bbox_inches='tight')
-plt.close(figmap)
