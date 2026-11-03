@@ -1,15 +1,7 @@
 {
   "project": "MiUrchin",
   "author": "Fei Xia",
-  "pages": 11,
-  "checks": [
-    "source input hashes",
-    "artifact hashes",
-    "all released primer sequences in PDF and Markdown",
-    "common-panel table against CSV",
-    "conditional holdout table against CSV",
-    "figure files",
-    "no near-empty final page"
-  ],
+  "pages": 7,
+  "oligos": 64,
   "status": "PASS"
 }

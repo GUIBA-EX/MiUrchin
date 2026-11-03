@@ -8,6 +8,8 @@ MiUrchin 收录 32 对海胆环境 DNA 候选引物，涵盖线粒体 16S、12S�
 
 [下载完整引物 FASTA](sequences/all_markers.fasta) · [预印本 PDF](publications/MiUrchin_preprint.pdf) · [论文 Markdown](publications/MiUrchin_preprint.md)
 
+**预印本 v1.0 · 2026 年 11 月 4 日 · 未经同行评审。** [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.0) · [Citation](CITATION.cff)
+
 ## 如何选择窗口
 
 选择窗口时，可分别考虑预测覆盖和双端完全匹配。每个基因独立建库，同一窗口的普通与 D 引物使用相同物种比较。

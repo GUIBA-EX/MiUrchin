@@ -1,22 +1,10 @@
 # MiUrchin computational preprint
 
-Author / 作者: **Fei Xia**. Updated / 更新: **4 November 2026**.
+Fei Xia · [Manuscript](MiUrchin_preprint.md) · [PDF](MiUrchin_preprint.pdf) · [Versioned releases](https://github.com/GUIBA-EX/MiUrchin/releases)
 
-- [PDF](MiUrchin_preprint.pdf)
-- [Editable Markdown / Markdown稿](MiUrchin_preprint.md)
-- [Input provenance / 输入来源与校验](preprint_provenance.json)
-- [Validation / 验证](preprint_validation.json)
-
-The manuscript covers 16S, 12S and COI with gene-specific evaluation panels. Released primer sequences are unchanged. Genus-blocked fold candidates are diagnostic sequences, not replacement recommendations.
-稿件使用最新版冻结计算结果，正式引物不变。属级折内候选为诊断序列，不作为替换推荐。
-
-From the repository root / 在仓库根目录运行：
+The paper reports mitochondrial 16S, 12S and COI and nuclear 28S. The common-panel and genus-blocked analyses are specific to 16S. Tables 1 and 2 cover all 32 assays. To reproduce the PDF from the repository root, install pandoc, Poppler and Chrome or Chromium, set CHROME to the executable if needed, then run:
 
 ```sh
-python3 -m pip install -r publications/requirements-preprint.txt
 python3 publications/build_preprint.py
 python3 publications/check_preprint.py
 ```
-
-Figures are regenerated from committed result tables. The source-data commit and input hashes are recorded in the provenance file. Repository upload is distinct from submission to a preprint server.
-图表由已提交结果表重绘，来源提交与输入哈希见provenance。仓库发布不代表已向预印本平台投稿。

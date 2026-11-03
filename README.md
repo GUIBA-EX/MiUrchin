@@ -8,6 +8,8 @@ MiUrchin 收錄 32 對海膽環境 DNA 候選引子，涵蓋粒線體 16S、12S�
 
 [下載完整引子 FASTA](sequences/all_markers.fasta) · [預印本 PDF](publications/MiUrchin_preprint.pdf) · [論文 Markdown](publications/MiUrchin_preprint.md)
 
+**預印本 v1.0 · 2026 年 11 月 4 日 · 尚未經同儕審查。** [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.0) · [Citation](CITATION.cff)
+
 ## 如何選擇擴增區段
 
 可依研究目的選擇涵蓋較多物種的引子，或優先考慮兩端都與模板完全相符的引子。每個基因使用獨立的參考資料集；同一區段的兩種引子則用相同物種比較。

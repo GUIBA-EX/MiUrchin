@@ -8,6 +8,8 @@ MiUrchin contains 32 candidate primer pairs for sea-urchin environmental DNA. Th
 
 [Download all primer sequences (FASTA)](sequences/all_markers.fasta) · [Preprint (PDF)](publications/MiUrchin_preprint.pdf) · [Manuscript (Markdown)](publications/MiUrchin_preprint.md)
 
+**Preprint v1.0 · 4 November 2026 · Not peer reviewed.** [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.0) · [Citation](CITATION.cff)
+
 ## Choosing a window
 
 The strongest candidate depends on whether the priority is broad compatibility or an exact match at both binding sites. Each gene has its own reference panel. Counts within a window compare ordinary and D pairs on the same species.
