@@ -20,9 +20,13 @@ MiUrchin 收录了 26 对用于海胆环境 DNA 宏条形码研究的线粒体�
 
 FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示 12S 的 M 窗口简并正向引物。序列均按 5′→3′ 书写。参考跨度按 NC_001453.1 相应基因内部的坐标计算，包含两端引物；内部条码长度仅计算两引物之间的序列。
 
+**读表说明。** “覆盖”和“完全匹配”均为命中物种数 / 该窗口可评价物种数。“严格非目标”栏的两个数依次表示 **仅沃森–克里克配对 / 另允许鸟嘌呤–胸腺嘧啶配对** 下的命中数。例如，0 / 7 表示第一种模型命中 0 条、第二种模型命中 7 条（16S XSD）。
+
 ### 16S
 
-| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格命中（仅沃森–克里克配对 / 另允许鸟嘌呤–胸腺嘧啶配对） | 碱基匹配图 |
+非目标背景为 6,045 条参考记录。
+
+| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格非目标 | 碱基匹配图 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` | 181 | 19/55 | 0/55 | 0 / 0 | [查看](results/current_primers/XS/base_matching_XS.svg) |
 | XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` | 181 | 35/55 | 6/55 | 0 / 7 | [查看](results/current_primers/XS/base_matching_XSD.svg) |
@@ -37,7 +41,9 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 
 ### 12S
 
-| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格命中（仅沃森–克里克配对 / 另允许鸟嘌呤–胸腺嘧啶配对） | 碱基匹配图 |
+非目标背景为 459 种棘皮动物，每种取一条代表序列。
+
+| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格非目标 | 碱基匹配图 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | XS | `TGCCACATGCAAGCTTATTAG` | `TTTAGCACTGCAGATGTGG` | 153 | 27/67 | 0/67 | 0 / 0 | [查看](markers/12S_COI/figures/12S_XS.svg) |
 | XSD | `TGCCACATGCAAGCYWAYTAG` | `TTTAGCACTGCAGDYGTGG` | 153 | 32/67 | 19/67 | 0 / 0 | [查看](markers/12S_COI/figures/12S_XSD.svg) |
@@ -52,7 +58,9 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 
 ### COI
 
-| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格命中（仅沃森–克里克配对 / 另允许鸟嘌呤–胸腺嘧啶配对） | 碱基匹配图 |
+非目标背景为 1,719 种棘皮动物，每种取一条代表序列。
+
+| 方案 | F（5′→3′） | R（5′→3′） | 跨度（bp） | 覆盖 | 完全匹配 | 严格非目标 | 碱基匹配图 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | XS | `TCAAACCTACAATGAGAAAC` | `ACATAGTGGAAGTGAGCTAC` | 152 | 34/106 | 0/106 | 0 / 1 | [查看](markers/12S_COI/figures/COI_XS.svg) |
 | XSD | `TCAAACCTACARTGRGARAC` | `ACATAGTGGAAGTGDGCWAC` | 152 | 79/106 | 3/106 | 0 / 1 | [查看](markers/12S_COI/figures/COI_XSD.svg) |
@@ -60,8 +68,6 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 | SD | `CAAGGATCAAAYYTACARTG` | `AATCAGTGAGTRAAYCCWGC` | 209 | 63/105 | 6/105 | 1 / 1 | [查看](markers/12S_COI/figures/COI_SD.svg) |
 | M | `TCAAACCTACAATGGGAAAC` | `ACCTTTCCTCATAGTGGGTG` | 248 | 22/103 | 0/103 | 0 / 0 | [查看](markers/12S_COI/figures/COI_M.svg) |
 | MD | `TCAAACCTACARTGRGARAC` | `ACCTTTCCTCAWAGYGGRTG` | 248 | 57/103 | 1/103 | 0 / 0 | [查看](markers/12S_COI/figures/COI_MD.svg) |
-
-**非目标计数单位不同。** 16S 在 6,045 条背景记录中计数；12S 和 COI 分别在 459 种和 1,719 种非目标棘皮动物的代表序列中计数。完整结果表也列出宽松模型命中数。
 
 [16S CSV](results/current_primers/comparison.csv) · [12S / COI CSV](markers/12S_COI/candidates.csv)
 
@@ -79,7 +85,7 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 
 16S 目标库含 1,401 条记录，经质控后每种保留一条代表，共 165 种，目级名称依据 WoRMS 核对。12S 和 COI 的 NCBI Nucleotide 检索合计获得 9,988 条去重记录；按基因提取和质控后，分别保留 208 条和 9,392 条合格序列，设计面板分别包含 69 种和 314 种具名物种。每个窗口只统计结合区域可评价的物种。
 
-覆盖要求形成成对产物，每端最多 2 个错配，且各自末端 3 nt 兼容；完全匹配要求双端零错配。每条 D 引物最多包含 8 种具体变体。严格筛查的第一项仅允许沃森–克里克配对，第二项另允许鸟嘌呤–胸腺嘧啶配对。宽松筛查取消末端约束，两种模型分别允许每端最多三个和两个错配。这些指标描述计算预测的模板兼容性。
+覆盖要求形成成对产物，每端最多 2 个错配，且各自末端 3 nt 兼容；完全匹配要求双端零错配。每条 D 引物最多包含 8 种具体变体。宽松筛查取消末端约束，按表注中的模型顺序分别允许每端最多三个和两个错配。这些指标描述计算预测的模板兼容性。
 
 [16S 方法](docs/METHODS.zh-CN.md) · [16S 参考审核](results/species_qc/README.md) · [12S 与 COI 数据和复核](markers/12S_COI/README.md)
 
