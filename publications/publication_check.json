@@ -1,9 +1,9 @@
 {
   "project": "MiUrchin",
-  "version": "1.1",
+  "version": "1.2",
   "date": "2026-11-04",
   "author": "Fei Xia",
-  "pages": 6,
+  "pages": 16,
   "oligos": 64,
   "status": "PASS",
   "checks": [
@@ -16,8 +16,8 @@
     "nonempty pages"
   ],
   "artifacts": {
-    "publications/MiUrchin_preprint.md": "ab2417d282bd8f2dfc8195cdb0bddce2f013f80ee5711fd7e9f674ddebd2811f",
-    "publications/MiUrchin_preprint.pdf": "30118443e75a2b7c4f0bd4d7b3239d862d6277d3f3ce75e18d22e7b4da464a80",
+    "publications/MiUrchin_preprint.md": "26a444121e20a4c6f16878c5d0ec1d36a6fed880bdb9f8f4714860d995381d9f",
+    "publications/MiUrchin_preprint.pdf": "ed261d076b12865b42b27756efede14ac9f9e76e52818b51afdc7e1e99dce722",
     "sequences/all_markers.fasta": "840bedb22c2fe384b13f77095e5151d52862d2b36f7db51b27163dd662d4be58"
   }
 }

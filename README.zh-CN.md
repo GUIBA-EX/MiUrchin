@@ -1,16 +1,18 @@
 ![MiUrchin](figures/MiUrchin_overview.png)
 
-# MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin
+# MiUrchin: in silico design and evaluation of mitochondrial and nuclear primers for sea urchin (Echinoidea) eDNA metabarcoding
 
 **Fei Xia**
 
 [正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
 <!-- publication:start -->
-**预印本 v1.1 · 2026 年 11 月 4 日 · 未经同行评审。**
+**预印本 v1.2 · 2026 年 11 月 4 日 · 未经同行评审。**
 
-[PDF](publications/MiUrchin_preprint.pdf) · [论文 Markdown](publications/MiUrchin_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+[PDF](publications/MiUrchin_preprint.pdf) · [论文 Markdown](publications/MiUrchin_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.2) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
 <!-- publication:end -->
+
+新版[预印本](publications/MiUrchin_preprint.pdf)采用 MiAnemone 的论文格式，补全方法细节、六幅图、引物性质表和[补充材料](publications/MiUrchin_supplement.md)。16 组普通／D 配对中，14 组的 D 包含对应普通序列；16S S/SD 与 XL/XLD 同时涉及固定碱基替换，不能将全部差异归因于简并。共同面板和属级留出分析适用于 16S。本次论文重写保留现有引物序列。
 
 MiUrchin 收录 32 对海胆环境 DNA 候选引物，涵盖线粒体 16S、12S、COI 和核糖体 28S。16S 和 12S 各有五个窗口，COI 和 28S 各有三个。每个窗口的普通和简并（D）引物共用相同的结合坐标。
 
@@ -123,7 +125,7 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 
 ## 引用与著作权
 
-Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin*. Computational preprint v1.1. [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.1).
+Xia, F. (2026). *MiUrchin: in silico design and evaluation of mitochondrial and nuclear primers for sea urchin (Echinoidea) eDNA metabarcoding*. Computational preprint v1.2. [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.2).
 
 [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [著作权与使用声明](COPYRIGHT.md)
 

@@ -39,6 +39,8 @@ jobs:
           CHROME: /usr/bin/google-chrome
         run: |
           python scripts/stamp_preprint.py "$VERSION"
+          python publications/prepare_paper_evidence.py
+          python publications/plot_paper.py
           python publications/build_preprint.py
       - name: Validate scientific tables and publication consistency
         run: |

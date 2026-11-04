@@ -10,6 +10,8 @@ Install Python 3, Pandoc, Poppler and Google Chrome or Chromium. Set `CHROME` to
 
 ```sh
 python3 -m pip install -r publications/requirements-preprint.txt biopython
+python3 publications/prepare_paper_evidence.py
+python3 publications/plot_paper.py
 python3 publications/build_preprint.py
 python3 publications/check_preprint.py
 python3 scripts/check_publication.py
@@ -25,4 +27,4 @@ The release contains the PDF, matching primer FASTA and SHA-256 checksums. Exist
 
 ## Consistency checks
 
-`release.json` holds the title, version, date, README editions and primer FASTA path. `scripts/stamp_preprint.py` synchronizes the manuscript and citation formats. `scripts/check_publication.py` verifies metadata, local links, visible figure captions and every oligo in the PDF and manuscript. Project-specific checks separately verify scientific tables against their source CSV files. `publication_check.json` records the checked version, page and oligo counts, and output hashes.
+`release.json` holds the title, version, date, README editions and primer FASTA path. `scripts/stamp_preprint.py` synchronizes the manuscript and citation formats. The manuscript follows the MiAnemone v1.4 layout, including six numbered figures, oligo-property and performance tables, a sequence-inclusion audit and linked supplementary material. The archived scientific results remain marker-specific. `scripts/check_publication.py` verifies metadata, local links, visible figure captions and every oligo in the PDF and manuscript. Project-specific checks separately verify scientific tables against their source CSV files. `publication_check.json` records the checked version, page and oligo counts, and output hashes.

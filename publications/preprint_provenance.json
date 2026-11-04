@@ -4,13 +4,16 @@
     "results/current_primers/comparison.csv": "671465cd56def3d2f5c9c06d79637948b251b106193615cc434364c18a9b3ea9",
     "markers/12S_COI/candidates.csv": "afe0391b5a669b72ffc7516e1d958d6a812994f5c77b1330ed9536ba9523cd68",
     "markers/28S/selected.csv": "750a2dd1eb241d6323d1ba994603124b65a4e3bd2f33d4b7ae4ba5dee71cad2a",
+    "publications/evidence/oligo_properties.csv": "18cc6fad6af23ca2dd89e4761f1f3d0b408aadd0f52bab588c61ae5d8155d82f",
+    "publications/evidence/nesting.csv": "84a0958ceee410729942d0a561bab334fb0db46a428abcbe353defa3d592f34d",
+    "publications/evidence/site_profiles.csv": "1dcc5928090aac703d8f721e3119456a5b4b15238fedfed35aed8ebb217ed872",
     "results/computational_evaluation/results/panel_comparison.csv": "3bd7da8dc6df63dcee0716fa3a4ce3e14a927bdbc430737114c388bd56944607",
     "results/computational_evaluation/results/by_order.csv": "faa49fdf0e4e5528b647af5a927740d7a40608bd326246ab42caa8caac2a04db",
     "results/computational_evaluation/results/resolution.csv": "5183e7b81b3db41640dafb840cf11b09ccc256df8213daee6a75eed57cf0f03d",
     "results/computational_evaluation/results/cv_summary.csv": "974c16fccc87f132f1804abe56c1efe701adc08a1440658ae47af7498b49e5cd"
   },
   "artifacts": {
-    "MiUrchin_preprint.md": "ab2417d282bd8f2dfc8195cdb0bddce2f013f80ee5711fd7e9f674ddebd2811f",
-    "MiUrchin_preprint.pdf": "30118443e75a2b7c4f0bd4d7b3239d862d6277d3f3ce75e18d22e7b4da464a80"
+    "MiUrchin_preprint.md": "26a444121e20a4c6f16878c5d0ec1d36a6fed880bdb9f8f4714860d995381d9f",
+    "MiUrchin_preprint.pdf": "ed261d076b12865b42b27756efede14ac9f9e76e52818b51afdc7e1e99dce722"
   }
 }

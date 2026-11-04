@@ -1,0 +1,17 @@
+gene,pair,nested,excluded,n,ordinary_covered,D_covered,ordinary_exact,D_exact
+16S,XSD,Yes,None,55,19,35,0,6
+16S,SD,No,R9: A>T,55,13,29,2,3
+16S,MD,Yes,None,158,85,110,12,28
+16S,LD,Yes,None,159,103,141,18,30
+16S,XLD,No,F1: G>A; F3: A>G; R19: T>C,55,41,51,9,6
+12S,XSD,Yes,None,67,27,32,0,19
+12S,SD,Yes,None,64,27,56,1,19
+12S,MD,Yes,None,69,25,61,0,24
+12S,LD,Yes,None,69,23,56,0,17
+12S,XLD,Yes,None,67,32,40,15,21
+COI,XSD,Yes,None,106,34,79,0,3
+COI,SD,Yes,None,105,28,63,3,6
+COI,MD,Yes,None,103,22,57,0,1
+28S,SD,Yes,None,101,99,99,78,83
+28S,MD,Yes,None,111,104,108,49,72
+28S,LD,Yes,None,91,88,89,82,82
