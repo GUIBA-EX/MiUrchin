@@ -1,14 +1,18 @@
 ![MiUrchin](figures/MiUrchin_overview.png)
 
-# MiUrchin
+# MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin
+
+**Fei Xia**
 
 [正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
+<!-- publication:start -->
+**预印本 v1.1 · 2026 年 11 月 4 日 · 未经同行评审。**
+
+[PDF](publications/MiUrchin_preprint.pdf) · [论文 Markdown](publications/MiUrchin_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+<!-- publication:end -->
+
 MiUrchin 收录 32 对海胆环境 DNA 候选引物，涵盖线粒体 16S、12S、COI 和核糖体 28S。16S 和 12S 各有五个窗口，COI 和 28S 各有三个。每个窗口的普通和简并（D）引物共用相同的结合坐标。
-
-[下载完整引物 FASTA](sequences/all_markers.fasta) · [预印本 PDF](publications/MiUrchin_preprint.pdf) · [论文 Markdown](publications/MiUrchin_preprint.md)
-
-**预印本 v1.0 · 2026 年 11 月 4 日 · 未经同行评审。** [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.0) · [Citation](CITATION.cff)
 
 ## 如何选择窗口
 
@@ -119,7 +123,7 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 
 ## 引用与著作权
 
-Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin*. GitHub.
+Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin*. Computational preprint v1.1. [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.1).
 
 [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [著作权与使用声明](COPYRIGHT.md)
 

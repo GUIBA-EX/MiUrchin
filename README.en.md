@@ -1,14 +1,18 @@
 ![MiUrchin](figures/MiUrchin_overview.png)
 
-# MiUrchin
+# MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin
+
+**Fei Xia**
 
 [正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
+<!-- publication:start -->
+**Preprint v1.1 · 4 November 2026 · Not peer reviewed.**
+
+[PDF](publications/MiUrchin_preprint.pdf) · [Manuscript](publications/MiUrchin_preprint.md) · [Versioned release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Build and updates](publications/README.md)
+<!-- publication:end -->
+
 MiUrchin contains 32 candidate primer pairs for sea-urchin environmental DNA. The collection spans five windows each in mitochondrial 16S and 12S, three in mitochondrial COI and three in nuclear 28S. Each window has an ordinary and a degenerate (D) pair with identical binding coordinates.
-
-[Download all primer sequences (FASTA)](sequences/all_markers.fasta) · [Preprint (PDF)](publications/MiUrchin_preprint.pdf) · [Manuscript (Markdown)](publications/MiUrchin_preprint.md)
-
-**Preprint v1.0 · 4 November 2026 · Not peer reviewed.** [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.0) · [Citation](CITATION.cff)
 
 ## Choosing a window
 
@@ -119,7 +123,7 @@ Five-fold genus holdout evaluated sequence selection within the predefined 16S r
 
 ## Citation and permissions
 
-Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin*. GitHub.
+Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin*. Computational preprint v1.1. [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.1).
 
 [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Copyright and permissions](COPYRIGHT.md)
 

@@ -1,14 +1,18 @@
 ![MiUrchin](figures/MiUrchin_overview.png)
 
-# MiUrchin
+# MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin
+
+**Fei Xia**
 
 [正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
+<!-- publication:start -->
+**預印本 v1.1 · 2026 年 11 月 4 日 · 尚未經同儕審查。**
+
+[PDF](publications/MiUrchin_preprint.pdf) · [論文 Markdown](publications/MiUrchin_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+<!-- publication:end -->
+
 MiUrchin 收錄 32 對海膽環境 DNA 候選引子，涵蓋粒線體 16S、12S、COI 與核糖體 28S。16S 與 12S 各有五個區段，COI 與 28S 各有三個。每個區段的非簡併與簡併（D）引子共用相同的結合座標。
-
-[下載完整引子 FASTA](sequences/all_markers.fasta) · [預印本 PDF](publications/MiUrchin_preprint.pdf) · [論文 Markdown](publications/MiUrchin_preprint.md)
-
-**預印本 v1.0 · 2026 年 11 月 4 日 · 尚未經同儕審查。** [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.0) · [Citation](CITATION.cff)
 
 ## 如何選擇擴增區段
 
@@ -119,7 +123,7 @@ FASTA 名稱依序標示基因、引子名稱與方向。例如，`MiUrchin-12S_
 
 ## 引用方式與著作權
 
-Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin*. GitHub.
+Xia, F. (2026). *MiUrchin, a set of universal PCR primers for metabarcoding environmental DNA from sea urchin*. Computational preprint v1.1. [GitHub Release](https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.1).
 
 [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [著作權與使用聲明](COPYRIGHT.md)
 
