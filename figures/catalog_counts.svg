@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="520" height="260" preserveAspectRatio="xMinYMin meet" viewBox="0 0 520 260" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="520" height="260"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-260)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="35" y="235" style="font-family: Times-Roman; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,470) scale(1,-1)">Adopted assay entries by marker</text>
+			<text x="35" y="217" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,434) scale(1,-1)">Entries, not unique sequences or independent biological replicates</text>
+			<rect x="70" y="50" width="42" height="102" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,48%,56%); fill-rule: evenodd;"/>
+			<rect x="70" y="152" width="42" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,58%,19%); fill-rule: evenodd;"/>
+			<text x="70" y="32" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,64) scale(1,-1)">16S</text>
+			<text x="78" y="169" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,338) scale(1,-1)">19</text>
+			<rect x="185" y="50" width="42" height="102" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,48%,56%); fill-rule: evenodd;"/>
+			<rect x="185" y="152" width="42" height="30" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,58%,19%); fill-rule: evenodd;"/>
+			<text x="185" y="32" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,64) scale(1,-1)">12S</text>
+			<text x="193" y="187" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,374) scale(1,-1)">22</text>
+			<rect x="300" y="50" width="42" height="54" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,48%,56%); fill-rule: evenodd;"/>
+			<rect x="300" y="104" width="42" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,58%,19%); fill-rule: evenodd;"/>
+			<text x="300" y="32" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,64) scale(1,-1)">COI</text>
+			<text x="308" y="127" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">12</text>
+			<rect x="415" y="50" width="42" height="132" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,48%,56%); fill-rule: evenodd;"/>
+			<rect x="415" y="182" width="42" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,58%,19%); fill-rule: evenodd;"/>
+			<text x="415" y="32" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,64) scale(1,-1)">28S</text>
+			<text x="423" y="193" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,386) scale(1,-1)">23</text>
+			<rect x="55" y="10" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,48%,56%); fill-rule: evenodd;"/>
+			<text x="70" y="10" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">Priority (65)</text>
+			<rect x="175" y="10" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,58%,19%); fill-rule: evenodd;"/>
+			<text x="190" y="10" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">Conditional (11)</text>
+		</g>
+	</g>
+</svg>

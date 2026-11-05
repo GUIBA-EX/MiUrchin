@@ -1,12 +1,7 @@
 {
-  "project": "MiUrchin",
-  "title": "MiUrchin: in silico design and evaluation of mitochondrial and nuclear primers for sea urchin (Echinoidea) eDNA metabarcoding",
-  "version": "1.2",
-  "date": "2026-11-04",
-  "readmes": {
-    "README.md": "zh-Hant",
-    "README.en.md": "en",
-    "README.zh-CN.md": "zh"
-  },
-  "fasta": "sequences/all_markers.fasta"
+  "version": "2.0.0",
+  "date": "2026-11-05",
+  "status": "local-unpublished",
+  "title": "MiUrchin: terminal-triplet-first, branch-limited primer candidates for sea-urchin eDNA",
+  "author": "Fei Xia"
 }

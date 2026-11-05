@@ -1,0 +1,215 @@
+[
+  {
+    "gene": "12S",
+    "parent": "LD",
+    "max_cross_structure_tm": 20.42371411345715,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 3,
+    "mix_recommended": false
+  },
+  {
+    "gene": "12S",
+    "parent": "M",
+    "max_cross_structure_tm": -2.4174609829831866,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "12S",
+    "parent": "MD",
+    "max_cross_structure_tm": 5.761571211877822,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "12S",
+    "parent": "SD",
+    "max_cross_structure_tm": 23.34666329868037,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 1,
+    "mix_recommended": false
+  },
+  {
+    "gene": "16S",
+    "parent": "LD",
+    "max_cross_structure_tm": 12.500583778470286,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "16S",
+    "parent": "MD",
+    "max_cross_structure_tm": 38.011819427263504,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "16S",
+    "parent": "SD",
+    "max_cross_structure_tm": 9.054556305794847,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 4,
+    "mix_recommended": false
+  },
+  {
+    "gene": "28S",
+    "parent": "L",
+    "max_cross_structure_tm": 2.230436669598305,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "28S",
+    "parent": "LD",
+    "max_cross_structure_tm": 2.230436669598305,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "28S",
+    "parent": "M",
+    "max_cross_structure_tm": 14.811503355771322,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 1,
+    "mix_recommended": false
+  },
+  {
+    "gene": "28S",
+    "parent": "MD",
+    "max_cross_structure_tm": 24.148006344564635,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 2,
+    "mix_recommended": false
+  },
+  {
+    "gene": "28S",
+    "parent": "S",
+    "max_cross_structure_tm": -2.4115751318544767,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "28S",
+    "parent": "SD",
+    "max_cross_structure_tm": 6.499304455053732,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "COI",
+    "parent": "SD",
+    "max_cross_structure_tm": 21.89321598997344,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 1,
+    "mix_recommended": false
+  },
+  {
+    "gene": "COI",
+    "parent": "XSD",
+    "max_cross_structure_tm": 29.320061780125343,
+    "structure_pass": true,
+    "cross_background_WC": 0,
+    "cross_background_GT": 0,
+    "mix_recommended": false
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "structure_max": 2.962668456587892,
+    "structure_pass": true,
+    "structure_max_200nM_upper_bound": 7.7425380427110895,
+    "cross_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 2
+    }
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "structure_max": 16.25616340507605,
+    "structure_pass": true,
+    "structure_max_200nM_upper_bound": 20.07869923966848,
+    "cross_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 2,
+      "GT_le2": 2
+    }
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "structure_max": -2.7211052714234825,
+    "structure_pass": true,
+    "structure_max_200nM_upper_bound": 0.5840647945075261,
+    "cross_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 1,
+      "WC_le3": 9,
+      "GT_le2": 37
+    }
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "structure_max": 21.184306022851104,
+    "structure_pass": true,
+    "structure_max_200nM_upper_bound": 25.394274276519468,
+    "cross_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 40,
+      "GT_le2": 12
+    }
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "structure_max": 12.546840535695537,
+    "structure_pass": true,
+    "structure_max_200nM_upper_bound": 15.85781107503135,
+    "cross_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 0
+    }
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "structure_max": 22.67060710952427,
+    "structure_pass": true,
+    "structure_max_200nM_upper_bound": 25.6658952664053,
+    "cross_background": {
+      "WC_le2last3": 26,
+      "GT_le2last3": 135,
+      "WC_le3": 317,
+      "GT_le2": 185
+    }
+  }
+]

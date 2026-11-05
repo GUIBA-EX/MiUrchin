@@ -1,0 +1,8 @@
+{
+  "pages": 5,
+  "author": "Fei Xia",
+  "status": "PASS",
+  "visual_review": "All 5 rendered pages inspected; headings, figures, bilingual text, captions and references readable",
+  "pdf_sha256": "7e85d0c75460c0a218d3a69caf8bd3083aa0eedcfac8e10b7dd8f2ccfd22479b",
+  "manuscript_sha256": "122af5b9f7f61c40b2a51ccdca1e052b247330a8e2a0782d2d467925a68dc712"
+}

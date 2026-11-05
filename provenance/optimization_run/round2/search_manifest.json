@@ -1,0 +1,1008 @@
+[
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Irregularia",
+    "n": 11,
+    "F_passing": 13,
+    "R_passing": 14,
+    "pairs_passing": 130,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Holasteroida",
+    "n": 6,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 152,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Echinacea",
+    "n": 32,
+    "F_passing": 0,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Camarodonta",
+    "n": 28,
+    "F_passing": 0,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Aulodonta",
+    "n": 9,
+    "F_passing": 6,
+    "R_passing": 14,
+    "pairs_passing": 1,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Echinothurioida",
+    "n": 3,
+    "F_passing": 6,
+    "R_passing": 14,
+    "pairs_passing": 79,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Diadematoida",
+    "n": 4,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 84,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Cidaroidea",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 125,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "clade": "Cidaroida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 125,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Irregularia",
+    "n": 11,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 13,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Holasteroida",
+    "n": 6,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Echinacea",
+    "n": 32,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 91,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Camarodonta",
+    "n": 28,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 77,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Aulodonta",
+    "n": 9,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 188,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Echinothurioida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 91,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Diadematoida",
+    "n": 4,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 31,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Cidaroidea",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 70,
+    "anchor_failed": []
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "clade": "Cidaroida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 70,
+    "anchor_failed": []
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "clade": "Echinacea",
+    "n": 31,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1",
+      "OR178380.1",
+      "PQ838327.1",
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "clade": "Camarodonta",
+    "n": 18,
+    "F_passing": 0,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1",
+      "OR178380.1",
+      "PQ838327.1",
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "clade": "Temnopleuroida",
+    "n": 11,
+    "F_passing": 0,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1",
+      "OR178380.1",
+      "PQ838327.1",
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "clade": "Irregularia",
+    "n": 19,
+    "F_passing": 0,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1",
+      "OR178380.1",
+      "PQ838327.1",
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "clade": "Aulodonta",
+    "n": 10,
+    "F_passing": 0,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1",
+      "OR178380.1",
+      "PQ838327.1",
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "clade": "Diadematoida",
+    "n": 4,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 122,
+    "anchor_failed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1",
+      "OR178380.1",
+      "PQ838327.1",
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "clade": "Echinothurioida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 155,
+    "anchor_failed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1",
+      "OR178380.1",
+      "PQ838327.1",
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "clade": "Holasteroida",
+    "n": 16,
+    "F_passing": 12,
+    "R_passing": 14,
+    "pairs_passing": 131,
+    "anchor_failed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1",
+      "OR178380.1",
+      "PQ838327.1",
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Echinacea",
+    "n": 31,
+    "F_passing": 3,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Camarodonta",
+    "n": 18,
+    "F_passing": 12,
+    "R_passing": 14,
+    "pairs_passing": 129,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Temnopleuroida",
+    "n": 11,
+    "F_passing": 6,
+    "R_passing": 14,
+    "pairs_passing": 30,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Cidaroidea",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 90,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Cidaroida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 90,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Irregularia",
+    "n": 19,
+    "F_passing": 6,
+    "R_passing": 14,
+    "pairs_passing": 55,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Clypeasteroida",
+    "n": 3,
+    "F_passing": 6,
+    "R_passing": 14,
+    "pairs_passing": 73,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Aulodonta",
+    "n": 10,
+    "F_passing": 10,
+    "R_passing": 14,
+    "pairs_passing": 81,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Diadematoida",
+    "n": 4,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 82,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Echinothurioida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 154,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "clade": "Holasteroida",
+    "n": 14,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 125,
+    "anchor_failed": [
+      "QB038042.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Echinacea",
+    "n": 31,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 16,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Camarodonta",
+    "n": 18,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 22,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Temnopleuroida",
+    "n": 11,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 7,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Cidaroidea",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 37,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Cidaroida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 37,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Irregularia",
+    "n": 23,
+    "F_passing": 9,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Clypeasteroida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 4,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Aulodonta",
+    "n": 5,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "clade": "Holasteroida",
+    "n": 18,
+    "F_passing": 14,
+    "R_passing": 7,
+    "pairs_passing": 75,
+    "anchor_failed": [
+      "MW147664.1",
+      "NC_050274.1",
+      "PV339712.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Cidaroidea",
+    "n": 7,
+    "F_passing": 6,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Cidaroida",
+    "n": 7,
+    "F_passing": 6,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Echinacea",
+    "n": 43,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Temnopleuroida",
+    "n": 15,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Camarodonta",
+    "n": 24,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Irregularia",
+    "n": 39,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Clypeasteroida",
+    "n": 31,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Arbacioida",
+    "n": 4,
+    "F_passing": 0,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Aulodonta",
+    "n": 15,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Diadematoida",
+    "n": 8,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Echinothurioida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 13,
+    "pairs_passing": 125,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "clade": "Holasteroida",
+    "n": 6,
+    "F_passing": 14,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "AY275549.1",
+      "X80396.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Cidaroidea",
+    "n": 7,
+    "F_passing": 6,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Cidaroida",
+    "n": 7,
+    "F_passing": 6,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Echinacea",
+    "n": 44,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Temnopleuroida",
+    "n": 15,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Camarodonta",
+    "n": 24,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Irregularia",
+    "n": 39,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Clypeasteroida",
+    "n": 31,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Arbacioida",
+    "n": 5,
+    "F_passing": 0,
+    "R_passing": 14,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Aulodonta",
+    "n": 14,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Diadematoida",
+    "n": 7,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Echinothurioida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Holasteroida",
+    "n": 6,
+    "F_passing": 14,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Cidaroidea",
+    "n": 7,
+    "F_passing": 6,
+    "R_passing": 6,
+    "pairs_passing": 35,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Cidaroida",
+    "n": 7,
+    "F_passing": 6,
+    "R_passing": 6,
+    "pairs_passing": 35,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Echinacea",
+    "n": 42,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Temnopleuroida",
+    "n": 15,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Irregularia",
+    "n": 39,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Clypeasteroida",
+    "n": 31,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Arbacioida",
+    "n": 5,
+    "F_passing": 0,
+    "R_passing": 3,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Camarodonta",
+    "n": 22,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Aulodonta",
+    "n": 14,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Diadematoida",
+    "n": 7,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Echinothurioida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "clade": "Holasteroida",
+    "n": 6,
+    "F_passing": 14,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": []
+  }
+]

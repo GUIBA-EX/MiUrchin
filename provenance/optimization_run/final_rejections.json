@@ -1,0 +1,886 @@
+[
+  {
+    "id": "16S_MD_Cidaroidea",
+    "gene": "16S",
+    "parent": "MD",
+    "clade": "Cidaroidea",
+    "F": "CGCTAGACGAGAAGACCCTG",
+    "R": "YTTTGATCAYCTDRRTGGATCA",
+    "panel": [
+      "DQ073737.1",
+      "GU226988.1",
+      "MF077375.1",
+      "MH614961.1",
+      "JQ322575.1",
+      "MF077372.1",
+      "MK609482.1",
+      "DQ073747.1",
+      "DQ073750.1",
+      "MK609483.1"
+    ],
+    "n_design": 10,
+    "thermal": {
+      "F_tm": [
+        59.62103757339696,
+        59.62103757339696
+      ],
+      "R_tm": [
+        51.19883678866904,
+        60.02598111340643
+      ],
+      "structure_max": 48.02541109489266,
+      "FR_heterodimer_max": -11.808529964822867,
+      "delta_mid_tm": 4.008628622359225,
+      "pass_gate": true,
+      "deg_F": 1,
+      "deg_R": 48
+    },
+    "covered": 10,
+    "original_covered": 10,
+    "exact": 10,
+    "original_exact": 0,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 0
+    },
+    "original_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 0
+    },
+    "reasons": [
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "thermal_200nM_total": {
+      "F_tm": [
+        61.55059721813939,
+        61.55059721813939
+      ],
+      "R_tm": [
+        48.01799164657183,
+        56.785600698545124
+      ],
+      "structure_max": 48.02541109489266,
+      "delta_mid_tm": 9.14880104558091
+    }
+  },
+  {
+    "id": "28S_MD_Irregularia",
+    "gene": "28S",
+    "parent": "MD",
+    "clade": "Irregularia",
+    "F": "AAKAGCCYATCGCYGAATCS",
+    "R": "CCGACTCTTGGTGGCTCCAG",
+    "panel": [
+      "DQ073761.1",
+      "MF617769.1",
+      "AJ639798.1",
+      "MF617774.1",
+      "MF617779.1",
+      "AJ639784.1",
+      "JQ322592.1",
+      "AJ639796.1",
+      "OR178329.1",
+      "AJ639787.1",
+      "AJ639783.1",
+      "OR178317.1",
+      "OR178312.1",
+      "AJ639782.1",
+      "AJ639781.1",
+      "OR178314.1",
+      "AJ639791.1",
+      "OR178309.1",
+      "AJ225810.1",
+      "OR178324.1",
+      "AJ639790.1",
+      "AJ639795.1",
+      "AY957469.1",
+      "DQ073765.1",
+      "AJ639779.1",
+      "AJ639797.1",
+      "AJ639794.1",
+      "AJ639792.1",
+      "OR178320.1",
+      "AJ639776.1",
+      "AJ639786.1",
+      "OR178316.1",
+      "OR178328.1",
+      "AJ639789.1",
+      "AJ639788.1",
+      "AJ639793.1",
+      "OR178306.1",
+      "AJ639780.1"
+    ],
+    "n_design": 38,
+    "thermal": {
+      "F_tm": [
+        54.78883305161253,
+        62.978451798712854
+      ],
+      "R_tm": [
+        62.51302649383882,
+        62.51302649383882
+      ],
+      "structure_max": 52.18797404430211,
+      "FR_heterodimer_max": 7.39460662008139,
+      "delta_mid_tm": 3.6293840686761314,
+      "pass_gate": true,
+      "deg_F": 16,
+      "deg_R": 1
+    },
+    "covered": 38,
+    "original_covered": 38,
+    "exact": 36,
+    "original_exact": 31,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 1,
+      "WC_le3": 0,
+      "GT_le2": 3
+    },
+    "original_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 2,
+      "WC_le3": 0,
+      "GT_le2": 5
+    },
+    "reasons": [
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "thermal_200nM_total": {
+      "F_tm": [
+        52.8526869047879,
+        61.0457352268611
+      ],
+      "R_tm": [
+        64.48635575056227,
+        64.48635575056227
+      ],
+      "structure_max": 52.18797404430211,
+      "delta_mid_tm": 7.537144684737768
+    }
+  },
+  {
+    "id": "16S_MD_Cidaroida_local",
+    "gene": "16S",
+    "parent": "MD",
+    "clade": "Cidaroida",
+    "F": "CGCTAGACGAGAAGACCCTG",
+    "R": "TTTGATCACCTDRGTGGATCA",
+    "panel": [
+      "MH614961.1",
+      "MK609483.1",
+      "MK609482.1",
+      "MF077375.1",
+      "MF077372.1",
+      "JQ322575.1",
+      "GU226988.1",
+      "DQ073750.1",
+      "DQ073747.1",
+      "DQ073737.1"
+    ],
+    "n_design": 10,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        59.62103757339696,
+        59.62103757339696
+      ],
+      "R_tm": [
+        54.25293515279719,
+        59.008187412143
+      ],
+      "structure_max": 48.02541109489266,
+      "delta_mid_tm": 2.990476290926864,
+      "pass_gate": true,
+      "deg_F": 1,
+      "deg_R": 6
+    },
+    "covered": 10,
+    "original_covered": 10,
+    "exact": 9,
+    "original_exact": 0,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 0
+    },
+    "original_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 0
+    },
+    "reasons": [
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "locus_unconfirmed": [],
+    "thermal_200nM_total": {
+      "F_tm": [
+        61.55059721813939,
+        61.55059721813939
+      ],
+      "R_tm": [
+        53.699921068390495,
+        58.4447788509284
+      ],
+      "structure_max": 48.02541109489266,
+      "delta_mid_tm": 5.478247258479939
+    }
+  },
+  {
+    "id": "12S_XSD_Clypeasteroida_local",
+    "gene": "12S",
+    "parent": "XSD",
+    "clade": "Clypeasteroida",
+    "F": "GCCACATGCAAGCCATTMDK",
+    "R": "TTTAGCACTGCAGTTGTGG",
+    "panel": [
+      "MN103227.1",
+      "NC_061414.1",
+      "PQ838327.1"
+    ],
+    "n_design": 3,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        57.39236899343672,
+        62.894239969524165
+      ],
+      "R_tm": [
+        56.05312597295324,
+        56.05312597295324
+      ],
+      "structure_max": 40.77398465815082,
+      "delta_mid_tm": 4.090178508527202,
+      "pass_gate": true,
+      "deg_F": 12,
+      "deg_R": 1
+    },
+    "covered": 3,
+    "original_covered": 0,
+    "exact": 2,
+    "original_exact": 0,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 3,
+      "GT_le2": 0
+    },
+    "original_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 7,
+      "GT_le2": 0
+    },
+    "reasons": [
+      "原始序列定位与参考末端8位不一致"
+    ],
+    "locus_unconfirmed": [
+      "PQ838327.1"
+    ],
+    "thermal_200nM_total": {
+      "F_tm": [
+        55.85285109343528,
+        61.36912115618787
+      ],
+      "R_tm": [
+        58.093722394342706,
+        58.093722394342706
+      ],
+      "structure_max": 40.77398465815082,
+      "delta_mid_tm": 0.5172637304688692
+    }
+  },
+  {
+    "id": "12S_MD_Camarodonta_local",
+    "gene": "12S",
+    "parent": "MD",
+    "clade": "Camarodonta",
+    "F": "GGTTTTCCAHACCTCCCT",
+    "R": "ACTRCTGAATCCAAHTTCY",
+    "panel": [
+      "JX888466.1",
+      "KC898198.2",
+      "KC898200.2",
+      "KC898201.2",
+      "KC898202.2",
+      "KC898203.2",
+      "NC_001453.1",
+      "NC_009940.1",
+      "NC_009941.1",
+      "NC_023774.1",
+      "NC_024177.1",
+      "NC_027063.1",
+      "NC_034767.1",
+      "NC_034768.1",
+      "NC_050276.1",
+      "NC_088491.1",
+      "PP438737.1",
+      "PV804729.1"
+    ],
+    "n_design": 18,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        52.93054264585578,
+        56.313503453785984
+      ],
+      "R_tm": [
+        48.306516086928696,
+        55.08327299255723
+      ],
+      "structure_max": 41.62694342496138,
+      "delta_mid_tm": 2.927128510077921,
+      "pass_gate": true,
+      "deg_F": 3,
+      "deg_R": 12
+    },
+    "covered": 18,
+    "original_covered": 18,
+    "exact": 18,
+    "original_exact": 10,
+    "background": {
+      "WC_le2last3": 1,
+      "GT_le2last3": 1,
+      "WC_le3": 16,
+      "GT_le2": 2
+    },
+    "original_background": {
+      "WC_le2last3": 2,
+      "GT_le2last3": 2,
+      "WC_le3": 48,
+      "GT_le2": 6
+    },
+    "reasons": [
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "locus_unconfirmed": [],
+    "thermal_200nM_total": {
+      "F_tm": [
+        53.38817621353621,
+        56.772056976614806
+      ],
+      "R_tm": [
+        46.68487670349549,
+        53.46484808283532
+      ],
+      "structure_max": 41.62694342496138,
+      "delta_mid_tm": 5.005254201910105
+    }
+  },
+  {
+    "id": "12S_LD_Diadematoida_local",
+    "gene": "12S",
+    "parent": "LD",
+    "clade": "Diadematoida",
+    "F": "ATCCTGCTATACTYRRAART",
+    "R": "GCATTCCAGAGCTAAGKTTC",
+    "panel": [
+      "NC_033522.1",
+      "NC_033523.1",
+      "NC_050274.1",
+      "NC_067855.1"
+    ],
+    "n_design": 4,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        46.81028956230659,
+        55.131827319950105
+      ],
+      "R_tm": [
+        54.38820587934896,
+        56.20495479179971
+      ],
+      "structure_max": 42.91311659270781,
+      "delta_mid_tm": 4.325521894445984,
+      "pass_gate": true,
+      "deg_F": 16,
+      "deg_R": 2
+    },
+    "covered": 4,
+    "original_covered": 0,
+    "exact": 4,
+    "original_exact": 0,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 0
+    },
+    "original_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 3,
+      "WC_le3": 0,
+      "GT_le2": 3
+    },
+    "reasons": [
+      "原始序列定位与参考末端8位不一致",
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "locus_unconfirmed": [
+      "NC_033522.1",
+      "NC_033523.1",
+      "NC_050274.1",
+      "NC_067855.1"
+    ],
+    "thermal_200nM_total": {
+      "F_tm": [
+        44.8692445204814,
+        53.159412875544035
+      ],
+      "R_tm": [
+        55.34673843151819,
+        57.173537556267604
+      ],
+      "structure_max": 42.91311659270781,
+      "delta_mid_tm": 7.2458092958801785
+    }
+  },
+  {
+    "id": "12S_XLD_Cidaroidea_local",
+    "gene": "12S",
+    "parent": "XLD",
+    "clade": "Cidaroidea",
+    "F": "CCACATGCAAGCTAAHMYAA",
+    "R": "AAACCGCCAAGTCCTTTRAG",
+    "panel": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1"
+    ],
+    "n_design": 3,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        50.96585775386433,
+        58.74411755996846
+      ],
+      "R_tm": [
+        56.24489705120209,
+        58.68142360896553
+      ],
+      "structure_max": 39.209134179452406,
+      "delta_mid_tm": 2.6081726731674166,
+      "pass_gate": true,
+      "deg_F": 12,
+      "deg_R": 2
+    },
+    "covered": 3,
+    "original_covered": 0,
+    "exact": 2,
+    "original_exact": 0,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 7,
+      "GT_le2": 1
+    },
+    "original_background": {
+      "WC_le2last3": 2,
+      "GT_le2last3": 3,
+      "WC_le3": 12,
+      "GT_le2": 4
+    },
+    "reasons": [
+      "原始序列定位与参考末端8位不一致",
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "locus_unconfirmed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1"
+    ],
+    "thermal_200nM_total": {
+      "F_tm": [
+        49.445240677651384,
+        57.19201180073054
+      ],
+      "R_tm": [
+        57.22131137638394,
+        59.66210549868015
+      ],
+      "structure_max": 39.209134179452406,
+      "delta_mid_tm": 5.123082198341081
+    }
+  },
+  {
+    "id": "12S_XLD_Cidaroida_local",
+    "gene": "12S",
+    "parent": "XLD",
+    "clade": "Cidaroida",
+    "F": "CCACATGCAAGCTAAHMYAA",
+    "R": "AAACCGCCAAGTCCTTTRAG",
+    "panel": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1"
+    ],
+    "n_design": 3,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        50.96585775386433,
+        58.74411755996846
+      ],
+      "R_tm": [
+        56.24489705120209,
+        58.68142360896553
+      ],
+      "structure_max": 39.209134179452406,
+      "delta_mid_tm": 2.6081726731674166,
+      "pass_gate": true,
+      "deg_F": 12,
+      "deg_R": 2
+    },
+    "covered": 3,
+    "original_covered": 0,
+    "exact": 2,
+    "original_exact": 0,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 7,
+      "GT_le2": 1
+    },
+    "original_background": {
+      "WC_le2last3": 2,
+      "GT_le2last3": 3,
+      "WC_le3": 12,
+      "GT_le2": 4
+    },
+    "reasons": [
+      "原始序列定位与参考末端8位不一致",
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "locus_unconfirmed": [
+      "MH614964.1",
+      "NC_050272.1",
+      "NC_050273.1"
+    ],
+    "thermal_200nM_total": {
+      "F_tm": [
+        49.445240677651384,
+        57.19201180073054
+      ],
+      "R_tm": [
+        57.22131137638394,
+        59.66210549868015
+      ],
+      "structure_max": 39.209134179452406,
+      "delta_mid_tm": 5.123082198341081
+    }
+  },
+  {
+    "id": "12S_XLD_Diadematoida_local",
+    "gene": "12S",
+    "parent": "XLD",
+    "clade": "Diadematoida",
+    "F": "CCACATGCMAGYYAAYTAGC",
+    "R": "AAACCGCCAAGTCCTTTGAG",
+    "panel": [
+      "NC_033522.1",
+      "NC_033523.1",
+      "NC_050274.1",
+      "NC_067855.1"
+    ],
+    "n_design": 4,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        52.91902515816162,
+        61.66055979999885
+      ],
+      "R_tm": [
+        58.68142360896553,
+        58.68142360896553
+      ],
+      "structure_max": 49.36870553209275,
+      "delta_mid_tm": 1.3916311298852975,
+      "pass_gate": true,
+      "deg_F": 16,
+      "deg_R": 1
+    },
+    "covered": 4,
+    "original_covered": 4,
+    "exact": 4,
+    "original_exact": 1,
+    "background": {
+      "WC_le2last3": 2,
+      "GT_le2last3": 3,
+      "WC_le3": 12,
+      "GT_le2": 4
+    },
+    "original_background": {
+      "WC_le2last3": 2,
+      "GT_le2last3": 3,
+      "WC_le3": 12,
+      "GT_le2": 4
+    },
+    "reasons": [
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "locus_unconfirmed": [],
+    "thermal_200nM_total": {
+      "F_tm": [
+        51.030748105838256,
+        59.72002835453435
+      ],
+      "R_tm": [
+        60.64860110949343,
+        60.64860110949343
+      ],
+      "structure_max": 49.36870553209275,
+      "delta_mid_tm": 5.273212879307124
+    }
+  },
+  {
+    "id": "28S_MD_Arbacioida_local",
+    "gene": "28S",
+    "parent": "MD",
+    "clade": "Arbacioida",
+    "F": "RAGCCCATCGCCGAATCC",
+    "R": "GACTCTTGGTGRCTCCAG",
+    "panel": [
+      "AY026367.1",
+      "DQ073758.1",
+      "JQ322595.1"
+    ],
+    "n_design": 3,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        60.203209474545304,
+        60.66652561155871
+      ],
+      "R_tm": [
+        53.90169642221508,
+        56.97143680144944
+      ],
+      "structure_max": 47.84494250262361,
+      "delta_mid_tm": 4.998300931219745,
+      "pass_gate": true,
+      "deg_F": 2,
+      "deg_R": 2
+    },
+    "covered": 3,
+    "original_covered": 3,
+    "exact": 3,
+    "original_exact": 2,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 2,
+      "WC_le3": 0,
+      "GT_le2": 5
+    },
+    "original_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 2,
+      "WC_le3": 0,
+      "GT_le2": 5
+    },
+    "reasons": [
+      "每方向总浓度200nM情景未过门槛"
+    ],
+    "locus_unconfirmed": [],
+    "thermal_200nM_total": {
+      "F_tm": [
+        61.28835405681417,
+        61.735741307097726
+      ],
+      "R_tm": [
+        54.96960931560665,
+        58.05014045278813
+      ],
+      "structure_max": 47.84494250262361,
+      "delta_mid_tm": 5.002172797758561
+    }
+  },
+  {
+    "id": "28S_LD_Irregularia_local",
+    "gene": "28S",
+    "parent": "LD",
+    "clade": "Irregularia",
+    "F": "AGCTGGGCGCCTGCTCGAC",
+    "R": "AATCGCTGCGGACCTCCACM",
+    "panel": [
+      "DQ073761.1",
+      "MF617769.1",
+      "AJ639798.1",
+      "MF617774.1",
+      "MF617779.1",
+      "AJ639784.1",
+      "OQ308839.1",
+      "AJ639796.1",
+      "OR178329.1",
+      "AJ639787.1",
+      "AJ639783.1",
+      "OR178317.1",
+      "AJ639799.1",
+      "OR178312.1",
+      "AJ639782.1",
+      "AJ639781.1",
+      "OR178314.1",
+      "AJ639791.1",
+      "OR178309.1",
+      "OR178324.1",
+      "AJ639790.1",
+      "AJ639795.1",
+      "AY957469.1",
+      "DQ073765.1",
+      "AJ639779.1",
+      "AJ639797.1",
+      "AJ639794.1",
+      "AJ639792.1",
+      "OR178320.1",
+      "AJ639776.1",
+      "AJ639786.1",
+      "OR178316.1",
+      "OR178328.1",
+      "AJ639789.1",
+      "AJ639788.1",
+      "AJ639793.1",
+      "OR178306.1",
+      "AJ639780.1"
+    ],
+    "n_design": 38,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        67.70385429931883,
+        67.70385429931883
+      ],
+      "R_tm": [
+        64.31358762704747,
+        64.98434290143723
+      ],
+      "structure_max": 52.536691763958515,
+      "delta_mid_tm": 3.054889035076485,
+      "pass_gate": true,
+      "deg_F": 1,
+      "deg_R": 2
+    },
+    "covered": 38,
+    "original_covered": 36,
+    "exact": 31,
+    "original_exact": 31,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 0
+    },
+    "original_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 1
+    },
+    "reasons": [
+      "原始序列定位与参考末端8位不一致"
+    ],
+    "locus_unconfirmed": [
+      "AJ639779.1"
+    ],
+    "thermal_200nM_total": {
+      "F_tm": [
+        69.78114253377436,
+        69.78114253377436
+      ],
+      "R_tm": [
+        65.31048677140961,
+        65.97451597058671
+      ],
+      "structure_max": 52.536691763958515,
+      "delta_mid_tm": 4.138641162776196
+    }
+  },
+  {
+    "id": "28S_LD_Spatangoida_local",
+    "gene": "28S",
+    "parent": "LD",
+    "clade": "Spatangoida",
+    "F": "AARCTGGGCGCCTGCTCGAC",
+    "R": "AATCGCTGCGGACCTCCACM",
+    "panel": [
+      "DQ073761.1",
+      "AJ639798.1",
+      "AJ639784.1",
+      "AJ639796.1",
+      "AJ639787.1",
+      "AJ639783.1",
+      "AJ639799.1",
+      "AJ639782.1",
+      "AJ639781.1",
+      "AJ639791.1",
+      "AJ639790.1",
+      "AJ639795.1",
+      "AJ639779.1",
+      "AJ639797.1",
+      "AJ639794.1",
+      "AJ639792.1",
+      "AJ639776.1",
+      "AJ639786.1",
+      "AJ639789.1",
+      "AJ639788.1",
+      "AJ639793.1",
+      "AJ639780.1"
+    ],
+    "n_design": 22,
+    "locus_method": "unique best raw pair within 60–650 bp, <=10 total mismatches to original; reference-locus identity not independently established",
+    "thermal": {
+      "F_tm": [
+        65.77190607674504,
+        67.92611365504945
+      ],
+      "R_tm": [
+        64.31358762704747,
+        64.98434290143723
+      ],
+      "structure_max": 52.536691763958515,
+      "delta_mid_tm": 2.200044601654895,
+      "pass_gate": true,
+      "deg_F": 2,
+      "deg_R": 2
+    },
+    "covered": 22,
+    "original_covered": 21,
+    "exact": 22,
+    "original_exact": 21,
+    "background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 0
+    },
+    "original_background": {
+      "WC_le2last3": 0,
+      "GT_le2last3": 0,
+      "WC_le3": 0,
+      "GT_le2": 1
+    },
+    "reasons": [
+      "原始序列定位与参考末端8位不一致"
+    ],
+    "locus_unconfirmed": [
+      "AJ639779.1"
+    ],
+    "thermal_200nM_total": {
+      "F_tm": [
+        66.75373891580625,
+        68.91252725136297
+      ],
+      "R_tm": [
+        65.31048677140961,
+        65.97451597058671
+      ],
+      "structure_max": 52.536691763958515,
+      "delta_mid_tm": 2.190631712586452
+    }
+  }
+]

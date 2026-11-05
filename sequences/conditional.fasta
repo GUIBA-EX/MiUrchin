@@ -1,0 +1,44 @@
+>12S_LD_Holasteroida_local_F | conditional | separate_PCR
+ACCCTGYTATACTTAGMYGT
+>12S_LD_Holasteroida_local_R | conditional | separate_PCR
+GTATTCCAGAGCTSTYTTCA
+>12S_LD_Cidaroidea_F | conditional | separate_PCR
+ACCCTGTTATACTTAGCCGT
+>12S_LD_Cidaroidea_R | conditional | separate_PCR
+GCATYCCAGAGCTRRCTTCA
+>12S_M_Cidaroidea_F | conditional | separate_PCR
+CGGTTTCCCAAACCTACCT
+>12S_M_Cidaroidea_R | conditional | separate_PCR
+ACTGCTGAATCCAGTTTCA
+>12S_MD_Cidaroidea_F | conditional | separate_PCR
+CGGTTTCCCAAAYCTACCT
+>12S_MD_Cidaroidea_R | conditional | separate_PCR
+ACTGCTGAATCCAGTTTCA
+>12S_XSD_Echinothurioida_local_F | conditional | separate_PCR
+TGCCACATGCAAGYYAACTAG
+>12S_XSD_Echinothurioida_local_R | conditional | separate_PCR
+TYTAGCACTGCAGWTGTGR
+>16S_MD_Irregularia_F | conditional | separate_PCR
+CGYYAGACGAGAAGACCCTR
+>16S_MD_Irregularia_R | conditional | separate_PCR
+CTTTGATCACCDDRGTGGATCA
+>16S_MD_Aulodonta_F | conditional | separate_PCR
+CGYYAGACGAGAAGACCCTR
+>16S_MD_Aulodonta_R | conditional | separate_PCR
+YTTTGATCACCKDRRTGGATCA
+>28S_MD_Holasteroida_local_F | conditional | separate_PCR
+AAGAGCCYATCGCYGAATCC
+>28S_MD_Holasteroida_local_R | conditional | separate_PCR
+CCGACTCTTGGTGGCTCCAG
+>COI_MD_Cidaroidea_local_F | conditional | separate_PCR
+TCAAACCTTCAATGAGARAC
+>COI_MD_Cidaroidea_local_R | conditional | separate_PCR
+ACCTTTCTTCABAGDGGGTG
+>COI_SD_Cidaroidea_F | conditional | separate_PCR
+CARGGVTCAAAYCTYCAATG
+>COI_SD_Cidaroidea_R | conditional | separate_PCR
+AATCARTGWGARAAYCCDGC
+>COI_XSD_Cidaroidea_local_F | conditional | separate_PCR
+TCAAACCTTCAATGAGARAC
+>COI_XSD_Cidaroidea_local_R | conditional | separate_PCR
+CRTAGTGRAAGTGGGCHAC

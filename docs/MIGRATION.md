@@ -1,0 +1,3 @@
+# v1.2 → v2.0.0
+
+32 historical assays → 76 branch/taxon-specific entries, including 65 priority and 11 conditional entries. The catalog contains 152 named directional records; identical sequences across entries are allowed and are not additional independent discoveries. All 32 historical parent schemes now have at least one limited candidate, not whole-clade coverage. Historical source files are unchanged under legacy/v1.2. Old check scripts and auto-publication logic are archived. Existing untracked ResearchGate material is preserved as historical user material and is not part of current release claims.

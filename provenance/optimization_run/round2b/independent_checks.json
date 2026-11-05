@@ -1,0 +1,42 @@
+[
+  {
+    "id": "COI_S_Holasteroida_shift5",
+    "n": 6,
+    "full_scan_covered": 6,
+    "full_scan_exact": 2,
+    "anchored_exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_S_genus_Lytechinus_shift0",
+    "n": 5,
+    "full_scan_covered": 5,
+    "full_scan_exact": 4,
+    "anchored_exact": 4,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_S_genus_Echinometra_shift6",
+    "n": 4,
+    "full_scan_covered": 4,
+    "full_scan_exact": 3,
+    "anchored_exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_S_genus_Clypeaster_shift6",
+    "n": 4,
+    "full_scan_covered": 4,
+    "full_scan_exact": 2,
+    "anchored_exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_S_genus_Temnopleurus_shift1",
+    "n": 3,
+    "full_scan_covered": 3,
+    "full_scan_exact": 1,
+    "anchored_exact": 1,
+    "disagreements": 0
+  }
+]

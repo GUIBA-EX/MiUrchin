@@ -1,0 +1,3 @@
+# As-run optimization provenance
+
+These are the source snapshots of the two adopted optimization rounds. They retain the original execution layout and machine-specific paths; they are evidence snapshots, not the current portable command-line interface. Some scripts execute on import and must not be imported into current builds. The frozen pre-integration source they referenced is now archived at ../../legacy/v1.2 (relative to project root: legacy/v1.2). Current validation is portable through scripts/revalidate.py and reads only data/ and results/catalog.json. Candidate selection used finite heuristic searches on the same panels; no global optimum or held-out evaluation is claimed.

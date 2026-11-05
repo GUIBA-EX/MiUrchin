@@ -1,0 +1,326 @@
+[
+  {
+    "id": "12S_LD_Holasteroida_local",
+    "covered": 18,
+    "exact": 18,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_LD_Clypeasteroida_local",
+    "covered": 3,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_LD_Cidaroidea",
+    "covered": 3,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_M_Diadematoida_local",
+    "covered": 4,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_M_Cidaroidea",
+    "covered": 3,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_MD_Diadematoida_local",
+    "covered": 4,
+    "exact": 4,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_MD_Cidaroidea",
+    "covered": 3,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_SD_Aulodonta_terminal",
+    "covered": 10,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_SD_Cidaroidea_terminal",
+    "covered": 3,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_XL_Echinothurioida_local",
+    "covered": 3,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_XLD_Echinothurioida_local",
+    "covered": 3,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "12S_XSD_Echinothurioida_local",
+    "covered": 3,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_L_Arbacioida_local",
+    "covered": 4,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_LD_Aulodonta_terminal",
+    "covered": 15,
+    "exact": 0,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_LD_Cidaroidea_trim",
+    "covered": 10,
+    "exact": 10,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_LD_Arbacioida_local",
+    "covered": 4,
+    "exact": 4,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_M_Clypeasteroida_local",
+    "covered": 4,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_MD_Irregularia",
+    "covered": 29,
+    "exact": 27,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_MD_Aulodonta",
+    "covered": 15,
+    "exact": 13,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_S_Diadematoida_local",
+    "covered": 4,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_SD_Camarodonta_local",
+    "covered": 28,
+    "exact": 14,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_SD_Diadematoida_local",
+    "covered": 4,
+    "exact": 4,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_SD_Cidaroidea_local",
+    "covered": 3,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_SD_Echinothurioida_local",
+    "covered": 3,
+    "exact": 0,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_XS_Holasteroida_local",
+    "covered": 6,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "16S_XSD_Diadematoida_local",
+    "covered": 4,
+    "exact": 4,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_L_Echinacea",
+    "covered": 12,
+    "exact": 12,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_L_Aulodonta",
+    "covered": 9,
+    "exact": 8,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_L_Clypeasteroida_local",
+    "covered": 5,
+    "exact": 5,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_L_Cidaroidea",
+    "covered": 3,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_LD_Echinacea",
+    "covered": 12,
+    "exact": 12,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_LD_Aulodonta_terminal",
+    "covered": 9,
+    "exact": 8,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_LD_Clypeasteroida_local",
+    "covered": 5,
+    "exact": 5,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_LD_Cidaroidea",
+    "covered": 3,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_M_Echinacea",
+    "covered": 12,
+    "exact": 9,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_M_Holasteroida_local",
+    "covered": 11,
+    "exact": 9,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_M_Diadematoida_local",
+    "covered": 6,
+    "exact": 4,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_M_Clypeasteroida_local",
+    "covered": 5,
+    "exact": 3,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_MD_Cidaroidea_terminal",
+    "covered": 17,
+    "exact": 15,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_MD_Echinacea",
+    "covered": 12,
+    "exact": 12,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_MD_Holasteroida_local",
+    "covered": 11,
+    "exact": 11,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_MD_Diadematoida_local",
+    "covered": 6,
+    "exact": 6,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_MD_Clypeasteroida_local",
+    "covered": 5,
+    "exact": 5,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_S_Irregularia",
+    "covered": 40,
+    "exact": 35,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_S_Echinacea",
+    "covered": 12,
+    "exact": 10,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_S_Diadematoida_local",
+    "covered": 6,
+    "exact": 5,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_SD_Irregularia_terminal",
+    "covered": 40,
+    "exact": 35,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_SD_Echinacea",
+    "covered": 12,
+    "exact": 12,
+    "disagreements": 0
+  },
+  {
+    "id": "28S_SD_Aulodonta_local",
+    "covered": 9,
+    "exact": 8,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_MD_Cidaroidea_local",
+    "covered": 7,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_SD_Cidaroidea",
+    "covered": 7,
+    "exact": 5,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_SD_Echinothurioida_local",
+    "covered": 3,
+    "exact": 1,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_XSD_Cidaroidea_local",
+    "covered": 7,
+    "exact": 2,
+    "disagreements": 0
+  },
+  {
+    "id": "COI_XSD_Echinothurioida_local",
+    "covered": 3,
+    "exact": 0,
+    "disagreements": 0
+  }
+]

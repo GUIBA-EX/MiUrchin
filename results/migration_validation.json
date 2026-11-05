@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "historical_commit": "976d3094ed1e089be19591643dd903b942413fcf",
+  "historical_files_verified": 639,
+  "untracked_files_preserved": [
+    ".DS_Store",
+    "publications/MiUrchin_Method_ResearchGate.md",
+    "publications/MiUrchin_Method_ResearchGate.pdf",
+    "publications/manuscript_provenance.json",
+    "publications/validation.json"
+  ]
+}

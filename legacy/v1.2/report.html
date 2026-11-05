@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MiUrchin</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">MiUrchin</h1>
+</header>
+<p><img src="figures/MiUrchin_overview.png" alt="MiUrchin" /></p>
+<h1 id="miurchin">MiUrchin</h1>
+<p><a href="README.md">English</a></p>
+<p>海胆环境 DNA 线粒体 16S rRNA 引物，包含 S、M、L、XL
+四个长度。每个长度保留普通单对和简并单对
+D；同一长度的引物使用相同参考坐标。 参考面板包含 165
+个物种，各长度分别有 55、158、159、55
+个可评价物种；缺失结合区域不计为漏检。图示使用旧分类体系，新面板的目级名称以
+WoRMS 为准。</p>
+<p><a href="results/species_qc/panel.csv">参考面板 / Reference panel</a>
+· <a href="results/species_qc/README.md">审核 / Reference
+curation</a></p>
+<p><img src="figures/amplicon_regions.zh.svg"
+alt="Binding positions" /></p>
+<h2 id="预测表现">预测表现</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: right;">Coverage</th>
+<th style="text-align: right;">Exact</th>
+<th style="text-align: right;">Strict WC / GT</th>
+<th style="text-align: right;">WC≤3 / GT≤2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td style="text-align: right;">13/55 (23.64%)</td>
+<td style="text-align: right;">2/55 (3.64%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0</td>
+</tr>
+<tr>
+<td>SD</td>
+<td style="text-align: right;">29/55 (52.73%)</td>
+<td style="text-align: right;">3/55 (5.45%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">3 / 0</td>
+</tr>
+<tr>
+<td>M</td>
+<td style="text-align: right;">85/158 (53.80%)</td>
+<td style="text-align: right;">12/158 (7.59%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0</td>
+</tr>
+<tr>
+<td>MD</td>
+<td style="text-align: right;">110/158 (69.62%)</td>
+<td style="text-align: right;">28/158 (17.72%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0</td>
+</tr>
+<tr>
+<td>L</td>
+<td style="text-align: right;">103/159 (64.78%)</td>
+<td style="text-align: right;">18/159 (11.32%)</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">2 / 1</td>
+</tr>
+<tr>
+<td>LD</td>
+<td style="text-align: right;">141/159 (88.68%)</td>
+<td style="text-align: right;">30/159 (18.87%)</td>
+<td style="text-align: right;">2 / 12</td>
+<td style="text-align: right;">12 / 12</td>
+</tr>
+<tr>
+<td>XL</td>
+<td style="text-align: right;">41/55 (74.55%)</td>
+<td style="text-align: right;">9/55 (16.36%)</td>
+<td style="text-align: right;">2 / 3</td>
+<td style="text-align: right;">3 / 5</td>
+</tr>
+<tr>
+<td>XLD</td>
+<td style="text-align: right;">51/55 (92.73%)</td>
+<td style="text-align: right;">6/55 (10.91%)</td>
+<td style="text-align: right;">0 / 4</td>
+<td style="text-align: right;">6 / 6</td>
+</tr>
+</tbody>
+</table>
+<p>覆盖要求每条引物最多 2 个错配且末端 3 nt
+兼容；完全匹配要求两条引物零错配。严格 WC/GT 使用末端约束；WC≤3 / GT≤2
+是不施加末端约束的非目标筛查。</p>
+<p>简并引物每条最多 8 个具体变体，简并位点限于 3′
+半段。结果为计算预测，仍需实验验证。</p>
+<h2 id="s">S</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>F (5′→3′)</th>
+<th>R (5′→3′)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td><code>TGTGTATAATGGATTAACGAGA</code></td>
+<td><code>GCTTAGCTAAAACTAATTTCTTGG</code></td>
+</tr>
+<tr>
+<td>SD</td>
+<td><code>TGTGTATAATGGATTAACRAGH</code></td>
+<td><code>GCTTAGCTTAAACYAATTTCTYGR</code></td>
+</tr>
+</tbody>
+</table>
+<p><img src="results/current_primers/S/base_matching_S.svg"
+alt="S base matching" /></p>
+<p><img src="results/current_primers/S/base_matching_SD.svg"
+alt="SD base matching" /></p>
+<p><a href="results/current_primers/S/SD_by_order.csv">S 各目匹配</a> ·
+<a href="results/current_primers/S/SD_by_taxon.csv">S 各物种匹配</a></p>
+<h2 id="m">M</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>F (5′→3′)</th>
+<th>R (5′→3′)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M</td>
+<td><code>CGTTAGACGAGAAGACCCTG</code></td>
+<td><code>CTTTGATCACCTTAGTGGATCA</code></td>
+</tr>
+<tr>
+<td>MD</td>
+<td><code>CGTTAGACGAGAAGACCCTR</code></td>
+<td><code>CTTTGATCACCTDARTGGATCA</code></td>
+</tr>
+</tbody>
+</table>
+<p><img src="results/current_primers/M/base_matching_M.svg"
+alt="M base matching" /></p>
+<p><img src="results/current_primers/M/base_matching_MD.svg"
+alt="MD base matching" /></p>
+<p><a href="results/current_primers/M/MD_by_order.csv">M 各目匹配</a> ·
+<a href="results/current_primers/M/MD_by_taxon.csv">M 各物种匹配</a></p>
+<h2 id="l">L</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>F (5′→3′)</th>
+<th>R (5′→3′)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L</td>
+<td><code>GTCTCCTAAATAGAGACTAGTATGAATGGC</code></td>
+<td><code>GCGGTAACTTGTTCCTTTGATCACC</code></td>
+</tr>
+<tr>
+<td>LD</td>
+<td><code>GTCTCCTAAATAGAGACTAGHATGAATGGC</code></td>
+<td><code>GCGGTAACTTGTTYCTTTGRTCACY</code></td>
+</tr>
+</tbody>
+</table>
+<p><img src="results/current_primers/L/base_matching_L.svg"
+alt="L base matching" /></p>
+<p><img src="results/current_primers/L/base_matching_LD.svg"
+alt="LD base matching" /></p>
+<p><a href="results/current_primers/L/LD_by_order.csv">L 各目匹配</a> ·
+<a href="results/current_primers/L/LD_by_taxon.csv">L 各物种匹配</a></p>
+<h2 id="xl">XL</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>F (5′→3′)</th>
+<th>R (5′→3′)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XL</td>
+<td><code>GAATAGGCCTAGAAGCAGCC</code></td>
+<td><code>CCGTCTTGCCATTCATACTAGTCTC</code></td>
+</tr>
+<tr>
+<td>XLD</td>
+<td><code>AAGTAGGCCTARAAGCAGCC</code></td>
+<td><code>CCGTCTTGCCATTCATACCAGTCTY</code></td>
+</tr>
+</tbody>
+</table>
+<p><img src="results/current_primers/XL/base_matching_XL.svg"
+alt="XL base matching" /></p>
+<p><img src="results/current_primers/XL/base_matching_XLD.svg"
+alt="XLD base matching" /></p>
+<p><a href="results/current_primers/XL/XLD_by_order.csv">XL 各目匹配</a>
+· <a href="results/current_primers/XL/XLD_by_taxon.csv">XL
+各物种匹配</a></p>
+<p><a href="docs/METHODS.zh-CN.md">Methods / 方法</a></p>
+<p><a href="docs/VALIDATION.md">Validation / 验证</a> · <a
+href="COPYRIGHT.md">Copyright / 著作权</a></p>
+</body>
+</html>

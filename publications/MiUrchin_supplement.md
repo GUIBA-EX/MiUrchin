@@ -1,118 +1,82 @@
-# MiUrchin supplementary material
+# MiUrchin v2.0.0 supplementary catalog
 
-**Fei Xia**
+76 provenance-defined assay entries. Record-based in-sample comparisons; use separate PCR. The 11 conditional entries are not elevated to priority. Complete numeric thermal and background evidence is in ../results/catalog.json.
 
-## Table S1. Oligo properties at a fixed total concentration
-
-Each direction contains 200 nM total primer, divided equally among its concrete variants. Calculations use 50 mM monovalent salt, 1.5 mM Mg²⁺ and 0.6 mM dNTP. These descriptive properties do not replace archived pairwise structure screening.
-
-| Gene | Oligo | Variants | Tm °C |
-| --- | --- | --- | --- |
-| 16S | XS-F | 1 | 53.6 |
-| 16S | XS-R | 1 | 51.3 |
-| 16S | XSD-F | 4 | 49.9–54.0 |
-| 16S | XSD-R | 8 | 46.6–52.4 |
-| 16S | S-F | 1 | 54.3 |
-| 16S | S-R | 1 | 56.2 |
-| 16S | SD-F | 6 | 50.1–53.6 |
-| 16S | SD-R | 8 | 52.9–57.9 |
-| 16S | M-F | 1 | 59.4 |
-| 16S | M-R | 1 | 57.3 |
-| 16S | MD-F | 2 | 56.8–58.4 |
-| 16S | MD-R | 6 | 53.4–57.3 |
-| 16S | L-F | 1 | 62.1 |
-| 16S | L-R | 1 | 64.1 |
-| 16S | LD-F | 3 | 61.1–63.3 |
-| 16S | LD-R | 8 | 59.5–63.6 |
-| 16S | XL-F | 1 | 59.8 |
-| 16S | XL-R | 1 | 62.6 |
-| 16S | XLD-F | 2 | 58.9–60.2 |
-| 16S | XLD-R | 2 | 63.9–64.2 |
-| 12S | XS-F | 1 | 58.8 |
-| 12S | XS-R | 1 | 57.6 |
-| 12S | XSD-F | 8 | 56.0–60.6 |
-| 12S | XSD-R | 6 | 54.9–60.4 |
-| 12S | S-F | 1 | 53.1 |
-| 12S | S-R | 1 | 56.7 |
-| 12S | SD-F | 8 | 49.0–54.3 |
-| 12S | SD-R | 6 | 53.7–58.9 |
-| 12S | M-F | 1 | 59.7 |
-| 12S | M-R | 1 | 56.0 |
-| 12S | MD-F | 4 | 53.9–57.6 |
-| 12S | MD-R | 8 | 51.0–54.5 |
-| 12S | L-F | 1 | 54.8 |
-| 12S | L-R | 1 | 59.3 |
-| 12S | LD-F | 6 | 49.5–55.1 |
-| 12S | LD-R | 8 | 55.1–56.9 |
-| 12S | XL-F | 1 | 58.8 |
-| 12S | XL-R | 1 | 60.6 |
-| 12S | XLD-F | 8 | 52.0–58.9 |
-| 12S | XLD-R | 4 | 56.4–58.7 |
-| COI | XS-F | 1 | 52.9 |
-| COI | XS-R | 1 | 56.2 |
-| COI | XSD-F | 8 | 50.0–55.5 |
-| COI | XSD-R | 6 | 53.6–57.2 |
-| COI | S-F | 1 | 53.8 |
-| COI | S-R | 1 | 54.9 |
-| COI | SD-F | 8 | 47.3–52.7 |
-| COI | SD-R | 8 | 52.0–56.8 |
-| COI | M-F | 1 | 55.3 |
-| COI | M-R | 1 | 58.5 |
-| COI | MD-F | 8 | 50.0–55.5 |
-| COI | MD-R | 8 | 53.1–59.6 |
-| 28S | S-F | 1 | 64.8 |
-| 28S | S-R | 1 | 60.5 |
-| 28S | SD-F | 4 | 61.0–65.6 |
-| 28S | SD-R | 1 | 60.5 |
-| 28S | M-F | 1 | 62.2 |
-| 28S | M-R | 1 | 64.5 |
-| 28S | MD-F | 4 | 60.2–63.0 |
-| 28S | MD-R | 8 | 58.8–66.7 |
-| 28S | L-F | 1 | 69.9 |
-| 28S | L-R | 1 | 67.0 |
-| 28S | LD-F | 2 | 66.8–68.9 |
-| 28S | LD-R | 1 | 67.0 |
-
-## Table S2. Conditional genus-blocked sequence-selection outcomes at 16S
-
-Window discovery preceded the folds. Fold candidates use local alignment offsets and were not filtered by the complete release chemistry and background criteria.
-
-| Window | Test species | Covered | Exact |
-| --- | --- | --- | --- |
-| XS | 55 | 47 | 3 |
-| S | 55 | 30 | 1 |
-| M | 158 | 112 | 24 |
-| L | 159 | 156 | 114 |
-| XL | 55 | 53 | 15 |
-
-## Table S3. 16S reference-insert uniqueness
-
-The common row restricts queries to the 49-species intersection but retains uniqueness defined against all evaluable, unambiguous same-window inserts. It is not a reclassification using only the common panel.
-
-| Window | Panel | N | Unique | Insert range bp |
-| --- | --- | --- | --- | --- |
-| XS | own | 55 | 55 | 137–144 |
-| XS | common | 49 | 49 | 137–144 |
-| S | own | 55 | 55 | 140–147 |
-| S | common | 49 | 49 | 140–147 |
-| M | own | 158 | 150 | 179–208 |
-| M | common | 49 | 48 | 180–205 |
-| L | own | 158 | 150 | 280–310 |
-| L | common | 49 | 48 | 282–307 |
-| XL | own | 55 | 55 | 395–413 |
-| XL | common | 49 | 49 | 395–413 |
-
-## Table S4. Nuclear 28S barcode diagnostics
-
-Barcoded and unique counts reproduce the archived assay-specific target-barcode table. They are conditional on recovered inserts and use different species subsets from the 16S comparison.
-
-| Pair | Evaluable | Covered | Barcoded | Unique |
-| --- | --- | --- | --- | --- |
-| S | 101 | 99 | 99 | 8 |
-| SD | 101 | 99 | 99 | 8 |
-| M | 111 | 104 | 102 | 55 |
-| MD | 111 | 108 | 106 | 59 |
-| L | 91 | 88 | 83 | 50 |
-| LD | 91 | 89 | 84 | 51 |
-
-[All order-level 16S results](../results/computational_evaluation/results/by_order.csv) · [Fold sequences](../results/computational_evaluation/results/cv_folds.csv) · [Accession-level nearest neighbors](../results/computational_evaluation/results/nearest_neighbors.csv) · [Oligo properties](evidence/oligo_properties.csv) · [Input hashes](evidence/manifest.json)
+| ID / target group | Tier | F (5′–3′) | R (5′–3′) | n records | Covered original → current | Exact original → current |
+| --- | --- | --- | --- | --- | --- | --- |
+| 12S_LD_Holasteroida_local / Holasteroida | conditional | `ACCCTGYTATACTTAGMYGT` | `GTATTCCAGAGCTSTYTTCA` | 18 | 18 → 18 | 0 → 18 |
+| 12S_LD_Clypeasteroida_local / Clypeasteroida | priority | `ACCCTGCTATACTCAGAMGT` | `GCATTYCAGAGCTCTYTTCA` | 3 | 3 → 3 | 0 → 3 |
+| 12S_LD_Cidaroidea / Cidaroidea | conditional | `ACCCTGTTATACTTAGCCGT` | `GCATYCCAGAGCTRRCTTCA` | 3 | 3 → 3 | 0 → 3 |
+| 12S_M_Diadematoida_local / Diadematoida | priority | `CGGTTTTCCATATCTACCT` | `ACTACTGAATCCGATTTCA` | 4 | 0 → 4 | 0 → 3 |
+| 12S_M_Cidaroidea / Cidaroidea | conditional | `CGGTTTCCCAAACCTACCT` | `ACTGCTGAATCCAGTTTCA` | 3 | 0 → 3 | 0 → 2 |
+| 12S_MD_Diadematoida_local / Diadematoida | priority | `CGGTTTTCCAWATCTACCT` | `ACTACTGAATCCGRTTTCA` | 4 | 4 → 4 | 0 → 4 |
+| 12S_MD_Cidaroidea / Cidaroidea | conditional | `CGGTTTCCCAAAYCTACCT` | `ACTGCTGAATCCAGTTTCA` | 3 | 3 → 3 | 0 → 3 |
+| 12S_SD_Aulodonta_terminal / Aulodonta | priority | `GTCCTAGTCCCAACTTTARC` | `AATGTTTAGCACTGCAGWYG` | 10 | 10 → 10 | 4 → 3 |
+| 12S_SD_Cidaroidea_terminal / Cidaroidea | priority | `GTCCTAGTCCCGATCTTAAC` | `AATGTTTAGCACTGCAGRTG` | 3 | 3 → 3 | 0 → 2 |
+| 12S_XL_Echinothurioida_local / Echinothurioida | priority | `CCACATGCAAGCTAACTAGC` | `AAACCGCCAAGTCCTTTGAG` | 3 | 3 → 3 | 2 → 2 |
+| 12S_XLD_Echinothurioida_local / Echinothurioida | priority | `CCACATGCAAGYYAACTAGC` | `AAACCGCCAAGTCCTTTGAG` | 3 | 3 → 3 | 3 → 3 |
+| 12S_XSD_Echinothurioida_local / Echinothurioida | conditional | `TGCCACATGCAAGYYAACTAG` | `TYTAGCACTGCAGWTGTGR` | 3 | 2 → 3 | 1 → 3 |
+| 16S_L_Arbacioida_local / Arbacioida | priority | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTTTTCCTTTAATCGCC` | 4 | 0 → 4 | 0 → 2 |
+| 16S_LD_Aulodonta_terminal / Aulodonta | priority | `GTCTCCTAAATAGAGACTAGCATGAATGGC` | `GCGGTAACTTTTTCCTTTGATCAYC` | 15 | 14 → 15 | 0 → 0 |
+| 16S_LD_Cidaroidea_trim / Cidaroidea | priority | `TCTCCTAAATAGAGACTAGYATGAAYGGC` | `GCGGTAACTTRTTCYTTTGATCAYC` | 10 | 9 → 10 | 3 → 10 |
+| 16S_LD_Arbacioida_local / Arbacioida | priority | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTDTTCCTTTRATCGCC` | 4 | 0 → 4 | 0 → 4 |
+| 16S_M_Clypeasteroida_local / Clypeasteroida | priority | `GCCAGACGAGAAGACCCTG` | `CTTTGATCACCTAAGTGGATCA` | 4 | 3 → 4 | 0 → 2 |
+| 16S_MD_Irregularia / Irregularia | conditional | `CGYYAGACGAGAAGACCCTR` | `CTTTGATCACCDDRGTGGATCA` | 29 | 29 → 29 | 1 → 27 |
+| 16S_MD_Aulodonta / Aulodonta | conditional | `CGYYAGACGAGAAGACCCTR` | `YTTTGATCACCKDRRTGGATCA` | 15 | 15 → 15 | 4 → 13 |
+| 16S_S_Diadematoida_local / Diadematoida | priority | `TGTGTATAATGGATTGACTAGA` | `GGCTAAGACCAATTTCTCGG` | 4 | 0 → 4 | 0 → 2 |
+| 16S_SD_Camarodonta_local / Camarodonta | priority | `GTGTATAATGGATTAACRAGH` | `TTAGCTYARACTAATTTYTYGG` | 28 | 23 → 28 | 2 → 14 |
+| 16S_SD_Diadematoida_local / Diadematoida | priority | `TGTGTATAATGGATTRACTAGA` | `GCTAAGACCAATTTCTCGG` | 4 | 0 → 4 | 0 → 4 |
+| 16S_SD_Cidaroidea_local / Cidaroidea | priority | `GTGTATAATGGATTAGCAAGA` | `GGCTTAGACCAATTTTRCRA` | 3 | 0 → 3 | 0 → 3 |
+| 16S_SD_Echinothurioida_local / Echinothurioida | priority | `TGTGTATAATGGATTAACAAGW` | `GCTTAGCTTAGACTAATTTCTYRR` | 3 | 2 → 3 | 1 → 0 |
+| 16S_XS_Holasteroida_local / Holasteroida | priority | `CTCGTGTATAATGGATTAACAA` | `AAGCTAATTTTTTGGGGAAC` | 6 | 0 → 6 | 0 → 2 |
+| 16S_XSD_Diadematoida_local / Diadematoida | priority | `CTTGTGTATAATGGATTRACTA` | `ACCAATTTCTCGGYGAAC` | 4 | 0 → 4 | 0 → 4 |
+| 28S_L_Echinacea / Echinacea | priority | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 12 | 12 → 12 | 12 → 12 |
+| 28S_L_Aulodonta / Aulodonta | priority | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 9 | 9 → 9 | 8 → 8 |
+| 28S_L_Clypeasteroida_local / Clypeasteroida | priority | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 5 | 5 → 5 | 5 → 5 |
+| 28S_L_Cidaroidea / Cidaroidea | priority | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 3 | 3 → 3 | 3 → 3 |
+| 28S_LD_Echinacea / Echinacea | priority | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 12 | 12 → 12 | 12 → 12 |
+| 28S_LD_Aulodonta_terminal / Aulodonta | priority | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 9 | 9 → 9 | 8 → 8 |
+| 28S_LD_Clypeasteroida_local / Clypeasteroida | priority | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 5 | 5 → 5 | 5 → 5 |
+| 28S_LD_Cidaroidea / Cidaroidea | priority | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 3 | 3 → 3 | 3 → 3 |
+| 28S_M_Echinacea / Echinacea | priority | `AAGAGCCCATCGCCGAATCC` | `CCGACTCTTGGTGGCTCCAG` | 12 | 11 → 12 | 0 → 9 |
+| 28S_M_Holasteroida_local / Holasteroida | priority | `AAGAGCCCATCGCTGAATCC` | `CCGACTCTTGGTGGCTCCAG` | 11 | 11 → 11 | 9 → 9 |
+| 28S_M_Diadematoida_local / Diadematoida | priority | `AAGAGCCCATCGCCGAATCC` | `CCGACTCTTGGCGGCTCCAG` | 6 | 6 → 6 | 1 → 4 |
+| 28S_M_Clypeasteroida_local / Clypeasteroida | priority | `AATAGCCCATCGCTGAATCC` | `CCGACTCTTGGTGGCTCCAG` | 5 | 5 → 5 | 2 → 3 |
+| 28S_MD_Cidaroidea_terminal / Cidaroidea | priority | `AAGAGCCCATCGCTGAATCC` | `CCGACTCTTGGTGGCTCCMR` | 17 | 16 → 17 | 15 → 15 |
+| 28S_MD_Echinacea / Echinacea | priority | `AWRAGCCCATCGCCGAATCC` | `CYGACTCTTGGTGRCTCCAG` | 12 | 12 → 12 | 11 → 12 |
+| 28S_MD_Holasteroida_local / Holasteroida | conditional | `AAGAGCCYATCGCYGAATCC` | `CCGACTCTTGGTGGCTCCAG` | 11 | 11 → 11 | 9 → 11 |
+| 28S_MD_Diadematoida_local / Diadematoida | priority | `AAGAGCCCAKCGCYGAATCC` | `CCGACTCTTGGYGGCTCCAG` | 6 | 6 → 6 | 5 → 6 |
+| 28S_MD_Clypeasteroida_local / Clypeasteroida | priority | `AAKAGCCCATCGCTGAATCC` | `CCGACTCTTGGTGGCTCCAG` | 5 | 5 → 5 | 2 → 5 |
+| 28S_S_Irregularia / Irregularia | priority | `GCCTGGAGCCACCAAGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 40 | 40 → 40 | 35 → 35 |
+| 28S_S_Echinacea / Echinacea | priority | `GCCTGGAGCCACCAAGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 12 | 12 → 12 | 10 → 10 |
+| 28S_S_Diadematoida_local / Diadematoida | priority | `CCTGGAGCCGCCAAGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 6 | 6 → 6 | 1 → 5 |
+| 28S_SD_Irregularia_terminal / Irregularia | priority | `GCCTGGAGCCACCAAGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 40 | 40 → 40 | 35 → 35 |
+| 28S_SD_Echinacea / Echinacea | priority | `GCCTGGAGYCACCAAGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 12 | 12 → 12 | 10 → 12 |
+| 28S_SD_Aulodonta_local / Aulodonta | priority | `CCTGGARCCRCCRWGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 9 | 8 → 9 | 7 → 8 |
+| COI_MD_Cidaroidea_local / Cidaroidea | conditional | `TCAAACCTTCAATGAGARAC` | `ACCTTTCTTCABAGDGGGTG` | 7 | 4 → 7 | 0 → 2 |
+| COI_SD_Cidaroidea / Cidaroidea | conditional | `CARGGVTCAAAYCTYCAATG` | `AATCARTGWGARAAYCCDGC` | 7 | 3 → 7 | 0 → 5 |
+| COI_SD_Echinothurioida_local / Echinothurioida | priority | `CAAGGGTCYAAYCTRCARTG` | `AATCAGTGGGTRAAKCCDGC` | 3 | 1 → 3 | 0 → 1 |
+| COI_XSD_Cidaroidea_local / Cidaroidea | conditional | `TCAAACCTTCAATGAGARAC` | `CRTAGTGRAAGTGGGCHAC` | 7 | 6 → 7 | 0 → 2 |
+| COI_XSD_Echinothurioida_local / Echinothurioida | priority | `TCTAACCTACAATGAGARAC` | `ACGTAATGAAAGTGTGCWAC` | 3 | 2 → 3 | 0 → 0 |
+| 12S_L_Holasteroida_shift0 / Holasteroida | priority | `GATTAGATACCCTGCTATACTTAG` | `CGTATTCCAGAGCTGTCTTCA` | 18 | 9 → 18 | 0 → 8 |
+| 12S_L_Cidaroidea_shift3 / Cidaroidea | priority | `GATACCCTGTTATACTTAGCCGTAAAC` | `GAGTGACGGGCGATGTGTACG` | 3 | 1 → 3 | 0 → 3 |
+| 12S_S_Irregularia_shift6 / Irregularia | priority | `CCGATTTGGTCCTAGTCCC` | `TCTAATGTTTAGCACTGCAGT` | 19 | 10 → 19 | 0 → 11 |
+| 12S_S_Temnopleuroida_shift1 / Temnopleuroida | priority | `CGATTTGGTCCTAGTCCC` | `CACTGCAGTTGTGGCGTAT` | 11 | 3 → 11 | 1 → 7 |
+| 12S_S_Diadematoida_shift5 / Diadematoida | priority | `GTCCCAACTTTAACTAGCT` | `AATGTTTAGCACTGCAGA` | 4 | 0 → 4 | 0 → 3 |
+| 12S_S_Cidaroidea_shift2 / Cidaroidea | priority | `CGATTTGGTCCTAGTCCCGATCTTAAC` | `CTCTAATTGTCTAATGTTTAGCACTGC` | 3 | 0 → 3 | 0 → 2 |
+| 12S_S_Echinothurioida_shift0 / Echinothurioida | priority | `CCGATTTGGTCCTAGTCCCA` | `CCTGATTGTCTAATGTTTAGCACTGC` | 3 | 0 → 3 | 0 → 1 |
+| 12S_XS_Holasteroida_shift0 / Holasteroida | priority | `GCCACATGCAAGCTAACTAGC` | `TCTAATGTTTAGCACTGCAGT` | 16 | 14 → 16 | 0 → 8 |
+| 12S_XS_Diadematoida_shift0 / Diadematoida | priority | `AACTAGCAAACCAGTGAAGT` | `CCCTAATTGTCCAATGTTTAGCACT` | 4 | 1 → 4 | 0 → 3 |
+| 12S_XS_Echinothurioida_shift0 / Echinothurioida | priority | `CCACATGCAAGCTAACTAG` | `CCTGATTGTCTAATGTTTAGCACTG` | 3 | 1 → 3 | 0 → 1 |
+| 16S_XL_Diadematoida_shift2 / Diadematoida | priority | `GGCCTAGAAGCAGCCACTTCAG` | `CCCGTCTTGCCATTCATGCCAGTCTC` | 4 | 4 → 4 | 0 → 3 |
+| 16S_XL_Cidaroidea_shift0 / Cidaroidea | priority | `CCAAGTAGGCCTAGAAGCAGC` | `GACAGTTTAGTTCCGTCTTGCC` | 3 | 2 → 3 | 0 → 2 |
+| 16S_XLD_Irregularia_shift6 / Irregularia | priority | `GTAGGCCTARAAGCAGCCRACTWW` | `GYTCCGTCTTGCCATTCATDCCAGTC` | 11 | 11 → 11 | 5 → 10 |
+| 16S_XLD_Diadematoida_shift0 / Diadematoida | priority | `GGCCYAGAAGCAGCCACTTCAGH` | `CCCCGTCTTGCCATTCATGCCAGTCTC` | 4 | 4 → 4 | 0 → 4 |
+| 16S_XLD_Cidaroidea_shift5 / Cidaroidea | priority | `GCCYAGAAGCAGCCAACYT` | `GACAGTTTAGTTCCGTCTTGCCRTT` | 3 | 3 → 3 | 0 → 3 |
+| COI_M_Cidaroidea_shift0 / Cidaroidea | priority | `AGGATCAAACCTTCAATG` | `CCTTTCTTCATAGAGGGTG` | 7 | 4 → 7 | 0 → 0 |
+| COI_XS_Echinothurioida_shift0 / Echinothurioida | priority | `GTCTAACCTACAATGAGA` | `CTACATAGTAAGTGTCGTGA` | 3 | 0 → 3 | 0 → 0 |
+| COI_S_Holasteroida_shift5 / Holasteroida | priority | `TCAAACCTCCAATGAGAAAC` | `GCCAAATACAGCACCCAT` | 6 | 4 → 6 | 0 → 2 |
+| COI_S_genus_Lytechinus_shift0 / genus_Lytechinus | priority | `TTCAGATGAATGGCCACACTACAAGG` | `GCGGGTGTAGGCTGTATCC` | 5 | 3 → 5 | 0 → 4 |
+| COI_S_genus_Echinometra_shift6 / genus_Echinometra | priority | `ATGGCAACCCTTCAAGGCTCAAA` | `AGTGGGTGTAGGTTGTATCCAGAGAAT` | 4 | 0 → 4 | 0 → 3 |
+| COI_S_genus_Clypeaster_shift6 / genus_Clypeaster | priority | `TCAAACCTTCAATGAGAAAC` | `ACAGCTCCCATGGATAGT` | 4 | 3 → 4 | 0 → 2 |
+| COI_S_genus_Temnopleurus_shift1 / genus_Temnopleurus | priority | `TCCAACAGGAATTAAGGT` | `CTTCATAGGGGGTGTAAACTATA` | 3 | 2 → 3 | 0 → 1 |

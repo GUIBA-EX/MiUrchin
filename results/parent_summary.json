@@ -1,0 +1,398 @@
+[
+  {
+    "gene": "16S",
+    "parent": "XS",
+    "pairs": 1,
+    "groups": [
+      "Holasteroida"
+    ],
+    "n": 6,
+    "old": 0,
+    "new": 6
+  },
+  {
+    "gene": "16S",
+    "parent": "XSD",
+    "pairs": 1,
+    "groups": [
+      "Diadematoida"
+    ],
+    "n": 4,
+    "old": 0,
+    "new": 4
+  },
+  {
+    "gene": "16S",
+    "parent": "S",
+    "pairs": 1,
+    "groups": [
+      "Diadematoida"
+    ],
+    "n": 4,
+    "old": 0,
+    "new": 4
+  },
+  {
+    "gene": "16S",
+    "parent": "SD",
+    "pairs": 4,
+    "groups": [
+      "Camarodonta",
+      "Diadematoida",
+      "Cidaroidea",
+      "Echinothurioida"
+    ],
+    "n": 38,
+    "old": 25,
+    "new": 38
+  },
+  {
+    "gene": "16S",
+    "parent": "M",
+    "pairs": 1,
+    "groups": [
+      "Clypeasteroida"
+    ],
+    "n": 4,
+    "old": 3,
+    "new": 4
+  },
+  {
+    "gene": "16S",
+    "parent": "MD",
+    "pairs": 2,
+    "groups": [
+      "Irregularia",
+      "Aulodonta"
+    ],
+    "n": 44,
+    "old": 44,
+    "new": 44
+  },
+  {
+    "gene": "16S",
+    "parent": "L",
+    "pairs": 1,
+    "groups": [
+      "Arbacioida"
+    ],
+    "n": 4,
+    "old": 0,
+    "new": 4
+  },
+  {
+    "gene": "16S",
+    "parent": "LD",
+    "pairs": 3,
+    "groups": [
+      "Aulodonta",
+      "Cidaroidea",
+      "Arbacioida"
+    ],
+    "n": 29,
+    "old": 23,
+    "new": 29
+  },
+  {
+    "gene": "16S",
+    "parent": "XL",
+    "pairs": 2,
+    "groups": [
+      "Diadematoida",
+      "Cidaroidea"
+    ],
+    "n": 7,
+    "old": 6,
+    "new": 7
+  },
+  {
+    "gene": "16S",
+    "parent": "XLD",
+    "pairs": 3,
+    "groups": [
+      "Irregularia",
+      "Diadematoida",
+      "Cidaroidea"
+    ],
+    "n": 18,
+    "old": 18,
+    "new": 18
+  },
+  {
+    "gene": "12S",
+    "parent": "XS",
+    "pairs": 3,
+    "groups": [
+      "Holasteroida",
+      "Diadematoida",
+      "Echinothurioida"
+    ],
+    "n": 23,
+    "old": 16,
+    "new": 23
+  },
+  {
+    "gene": "12S",
+    "parent": "XSD",
+    "pairs": 1,
+    "groups": [
+      "Echinothurioida"
+    ],
+    "n": 3,
+    "old": 2,
+    "new": 3
+  },
+  {
+    "gene": "12S",
+    "parent": "S",
+    "pairs": 5,
+    "groups": [
+      "Irregularia",
+      "Temnopleuroida",
+      "Diadematoida",
+      "Cidaroidea",
+      "Echinothurioida"
+    ],
+    "n": 40,
+    "old": 13,
+    "new": 40
+  },
+  {
+    "gene": "12S",
+    "parent": "SD",
+    "pairs": 2,
+    "groups": [
+      "Aulodonta",
+      "Cidaroidea"
+    ],
+    "n": 13,
+    "old": 13,
+    "new": 13
+  },
+  {
+    "gene": "12S",
+    "parent": "M",
+    "pairs": 2,
+    "groups": [
+      "Diadematoida",
+      "Cidaroidea"
+    ],
+    "n": 7,
+    "old": 0,
+    "new": 7
+  },
+  {
+    "gene": "12S",
+    "parent": "MD",
+    "pairs": 2,
+    "groups": [
+      "Diadematoida",
+      "Cidaroidea"
+    ],
+    "n": 7,
+    "old": 7,
+    "new": 7
+  },
+  {
+    "gene": "12S",
+    "parent": "L",
+    "pairs": 2,
+    "groups": [
+      "Holasteroida",
+      "Cidaroidea"
+    ],
+    "n": 21,
+    "old": 10,
+    "new": 21
+  },
+  {
+    "gene": "12S",
+    "parent": "LD",
+    "pairs": 3,
+    "groups": [
+      "Holasteroida",
+      "Clypeasteroida",
+      "Cidaroidea"
+    ],
+    "n": 24,
+    "old": 24,
+    "new": 24
+  },
+  {
+    "gene": "12S",
+    "parent": "XL",
+    "pairs": 1,
+    "groups": [
+      "Echinothurioida"
+    ],
+    "n": 3,
+    "old": 3,
+    "new": 3
+  },
+  {
+    "gene": "12S",
+    "parent": "XLD",
+    "pairs": 1,
+    "groups": [
+      "Echinothurioida"
+    ],
+    "n": 3,
+    "old": 3,
+    "new": 3
+  },
+  {
+    "gene": "COI",
+    "parent": "XS",
+    "pairs": 1,
+    "groups": [
+      "Echinothurioida"
+    ],
+    "n": 3,
+    "old": 0,
+    "new": 3
+  },
+  {
+    "gene": "COI",
+    "parent": "XSD",
+    "pairs": 2,
+    "groups": [
+      "Cidaroidea",
+      "Echinothurioida"
+    ],
+    "n": 10,
+    "old": 8,
+    "new": 10
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "pairs": 5,
+    "groups": [
+      "Holasteroida",
+      "genus_Lytechinus",
+      "genus_Echinometra",
+      "genus_Clypeaster",
+      "genus_Temnopleurus"
+    ],
+    "n": 22,
+    "old": 12,
+    "new": 22
+  },
+  {
+    "gene": "COI",
+    "parent": "SD",
+    "pairs": 2,
+    "groups": [
+      "Cidaroidea",
+      "Echinothurioida"
+    ],
+    "n": 10,
+    "old": 4,
+    "new": 10
+  },
+  {
+    "gene": "COI",
+    "parent": "M",
+    "pairs": 1,
+    "groups": [
+      "Cidaroidea"
+    ],
+    "n": 7,
+    "old": 4,
+    "new": 7
+  },
+  {
+    "gene": "COI",
+    "parent": "MD",
+    "pairs": 1,
+    "groups": [
+      "Cidaroidea"
+    ],
+    "n": 7,
+    "old": 4,
+    "new": 7
+  },
+  {
+    "gene": "28S",
+    "parent": "S",
+    "pairs": 3,
+    "groups": [
+      "Irregularia",
+      "Echinacea",
+      "Diadematoida"
+    ],
+    "n": 58,
+    "old": 58,
+    "new": 58
+  },
+  {
+    "gene": "28S",
+    "parent": "SD",
+    "pairs": 3,
+    "groups": [
+      "Irregularia",
+      "Echinacea",
+      "Aulodonta"
+    ],
+    "n": 61,
+    "old": 60,
+    "new": 61
+  },
+  {
+    "gene": "28S",
+    "parent": "M",
+    "pairs": 4,
+    "groups": [
+      "Echinacea",
+      "Holasteroida",
+      "Diadematoida",
+      "Clypeasteroida"
+    ],
+    "n": 34,
+    "old": 33,
+    "new": 34
+  },
+  {
+    "gene": "28S",
+    "parent": "MD",
+    "pairs": 5,
+    "groups": [
+      "Cidaroidea",
+      "Echinacea",
+      "Holasteroida",
+      "Diadematoida",
+      "Clypeasteroida"
+    ],
+    "n": 51,
+    "old": 50,
+    "new": 51
+  },
+  {
+    "gene": "28S",
+    "parent": "L",
+    "pairs": 4,
+    "groups": [
+      "Echinacea",
+      "Aulodonta",
+      "Clypeasteroida",
+      "Cidaroidea"
+    ],
+    "n": 29,
+    "old": 29,
+    "new": 29
+  },
+  {
+    "gene": "28S",
+    "parent": "LD",
+    "pairs": 4,
+    "groups": [
+      "Echinacea",
+      "Aulodonta",
+      "Clypeasteroida",
+      "Cidaroidea"
+    ],
+    "n": 29,
+    "old": 29,
+    "new": 29
+  }
+]

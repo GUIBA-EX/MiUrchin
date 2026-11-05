@@ -1,21 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this project's primers, data or analysis code, please cite the versioned preprint."
+message: "Cite the exact catalog version used; v2.0.0 is a local unpublished revision."
 type: software
-title: "MiUrchin: in silico design and evaluation of mitochondrial and nuclear primers for sea urchin (Echinoidea) eDNA metabarcoding"
+title: "MiUrchin: branch-limited sea-urchin primer candidates"
 authors:
-  - family-names: "Xia"
-    given-names: "Fei"
-date-released: "2026-11-04"
-url: "https://github.com/GUIBA-EX/MiUrchin"
+  - family-names: Xia
+    given-names: Fei
+version: "2.0.0"
 repository-code: "https://github.com/GUIBA-EX/MiUrchin"
-version: "1.2"
-preferred-citation:
-  type: unpublished
-  title: "MiUrchin: in silico design and evaluation of mitochondrial and nuclear primers for sea urchin (Echinoidea) eDNA metabarcoding"
-  authors:
-    - family-names: Xia
-      given-names: Fei
-  year: 2026
-  version: "1.2"
-  notes: "Computational preprint, version 1.2. Published on GitHub."
-  url: "https://github.com/GUIBA-EX/MiUrchin/releases/tag/preprint-v1.2"

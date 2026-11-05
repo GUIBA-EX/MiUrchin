@@ -1,15 +1,17 @@
-# Reproduction / 复现
+# Reproducibility
 
-> 历史分析记录；当前引物、指标与验证见 [中文 README](../README.zh-CN.md)、[English README](../README.md) 和 [VALIDATION](VALIDATION.md)。 / Historical analysis; see the linked current README and validation.
+Current source of truth: `results/catalog.json`. Inputs: `data/<gene>/{target,background}.fasta`. Adopted evidence: `results/evidence/round1.json` and `round2.json`. Current tables and FASTA are generated, not edited independently.
 
-## Current D / 当前D
-
-Extract [the frozen verification bundle](../results/D_3prime8/reproduction_sources.zip) into an empty directory and run `python3 verify.py`. Python 3.10+ and a C++17 compiler are required. The bundle independently verifies five 3′-half candidates using the frozen panel and background. / 解压后运行，复核5对候选的参考命中与背景；分类映射和序列已冻结。
+Install `requirements.txt` with Python 3.12 and provide a C++17 compiler. Run from the project root:
 
 ```sh
-python3 check_release.py
+python scripts/revalidate.py --thermal
+python scripts/build_release.py
+python scripts/build_paper.py
+python scripts/stamp_checksums.py
+python check_release.py
 ```
 
-`python3 scripts/plot_base_matching.py` regenerates the 16 plots and base table with biopython, Pillow and matplotlib. / 可重绘16对碱基图。
+`revalidate.py` writes only a validation report and uses a temporary directory for compiled scans. It verifies all 76 candidate pairs, their 32 original comparators on the same accession sets, four background counts, a separate target-matching implementation and both thermodynamic scenarios. It does not rerun an exhaustive global primer-design search. Finite-search candidate histories are retained in the two evidence JSON files; historical design tools are archived under `legacy/v1.2/`.
 
-The prior [D optimization bundle](../results/D_optimization/reproduction_sources.zip) and [full-search bundle](../results/D_optimization/search_reproduction.zip) document the earlier design and do not reproduce current D. / 旧复现包仅对应历史方案。The current exploratory search scripts and input hashes are archived in [D_3prime8](../results/D_3prime8); their workspace imports and paths require adaptation before reuse. / 当前搜索脚本依赖工作区路径。
+Publication and remote tagging are manual. The validation workflow has read-only repository permissions and does not push commits or create releases. v2.0.0 denotes the local integrated revision until explicitly published.

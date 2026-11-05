@@ -1,40 +1,304 @@
->MiUrchin-XS_F
-CTTGTGTATAATGGATTAACGA
->MiUrchin-XS_R
-AAACTAATTTCTTGGGAAAC
->MiUrchin-XSD_F
-CTTGTGTATAATGGATTRACRA
->MiUrchin-XSD_R
-AAACTAATTTCTTGGRRARC
->MiUrchin-S_F
-TGTGTATAATGGATTAACGAGA
->MiUrchin-S_R
-GCTTAGCTAAAACTAATTTCTTGG
->MiUrchin-SD_F
-TGTGTATAATGGATTAACRAGH
->MiUrchin-SD_R
-GCTTAGCTTAAACYAATTTCTYGR
->MiUrchin-M_F
-CGTTAGACGAGAAGACCCTG
->MiUrchin-M_R
-CTTTGATCACCTTAGTGGATCA
->MiUrchin-MD_F
-CGTTAGACGAGAAGACCCTR
->MiUrchin-MD_R
-CTTTGATCACCTDARTGGATCA
->MiUrchin-L_F
+>12S_LD_Holasteroida_local_F | conditional | separate_PCR
+ACCCTGYTATACTTAGMYGT
+>12S_LD_Holasteroida_local_R | conditional | separate_PCR
+GTATTCCAGAGCTSTYTTCA
+>12S_LD_Clypeasteroida_local_F | priority | separate_PCR
+ACCCTGCTATACTCAGAMGT
+>12S_LD_Clypeasteroida_local_R | priority | separate_PCR
+GCATTYCAGAGCTCTYTTCA
+>12S_LD_Cidaroidea_F | conditional | separate_PCR
+ACCCTGTTATACTTAGCCGT
+>12S_LD_Cidaroidea_R | conditional | separate_PCR
+GCATYCCAGAGCTRRCTTCA
+>12S_M_Diadematoida_local_F | priority | separate_PCR
+CGGTTTTCCATATCTACCT
+>12S_M_Diadematoida_local_R | priority | separate_PCR
+ACTACTGAATCCGATTTCA
+>12S_M_Cidaroidea_F | conditional | separate_PCR
+CGGTTTCCCAAACCTACCT
+>12S_M_Cidaroidea_R | conditional | separate_PCR
+ACTGCTGAATCCAGTTTCA
+>12S_MD_Diadematoida_local_F | priority | separate_PCR
+CGGTTTTCCAWATCTACCT
+>12S_MD_Diadematoida_local_R | priority | separate_PCR
+ACTACTGAATCCGRTTTCA
+>12S_MD_Cidaroidea_F | conditional | separate_PCR
+CGGTTTCCCAAAYCTACCT
+>12S_MD_Cidaroidea_R | conditional | separate_PCR
+ACTGCTGAATCCAGTTTCA
+>12S_SD_Aulodonta_terminal_F | priority | separate_PCR
+GTCCTAGTCCCAACTTTARC
+>12S_SD_Aulodonta_terminal_R | priority | separate_PCR
+AATGTTTAGCACTGCAGWYG
+>12S_SD_Cidaroidea_terminal_F | priority | separate_PCR
+GTCCTAGTCCCGATCTTAAC
+>12S_SD_Cidaroidea_terminal_R | priority | separate_PCR
+AATGTTTAGCACTGCAGRTG
+>12S_XL_Echinothurioida_local_F | priority | separate_PCR
+CCACATGCAAGCTAACTAGC
+>12S_XL_Echinothurioida_local_R | priority | separate_PCR
+AAACCGCCAAGTCCTTTGAG
+>12S_XLD_Echinothurioida_local_F | priority | separate_PCR
+CCACATGCAAGYYAACTAGC
+>12S_XLD_Echinothurioida_local_R | priority | separate_PCR
+AAACCGCCAAGTCCTTTGAG
+>12S_XSD_Echinothurioida_local_F | conditional | separate_PCR
+TGCCACATGCAAGYYAACTAG
+>12S_XSD_Echinothurioida_local_R | conditional | separate_PCR
+TYTAGCACTGCAGWTGTGR
+>16S_L_Arbacioida_local_F | priority | separate_PCR
 GTCTCCTAAATAGAGACTAGTATGAATGGC
->MiUrchin-L_R
-GCGGTAACTTGTTCCTTTGATCACC
->MiUrchin-LD_F
-GTCTCCTAAATAGAGACTAGHATGAATGGC
->MiUrchin-LD_R
-GCGGTAACTTGTTYCTTTGRTCACY
->MiUrchin-XL_F
-GAATAGGCCTAGAAGCAGCC
->MiUrchin-XL_R
-CCGTCTTGCCATTCATACTAGTCTC
->MiUrchin-XLD_F
-AAGTAGGCCTARAAGCAGCC
->MiUrchin-XLD_R
-CCGTCTTGCCATTCATACCAGTCTY
+>16S_L_Arbacioida_local_R | priority | separate_PCR
+GCGGTAACTTTTTCCTTTAATCGCC
+>16S_LD_Aulodonta_terminal_F | priority | separate_PCR
+GTCTCCTAAATAGAGACTAGCATGAATGGC
+>16S_LD_Aulodonta_terminal_R | priority | separate_PCR
+GCGGTAACTTTTTCCTTTGATCAYC
+>16S_LD_Cidaroidea_trim_F | priority | separate_PCR
+TCTCCTAAATAGAGACTAGYATGAAYGGC
+>16S_LD_Cidaroidea_trim_R | priority | separate_PCR
+GCGGTAACTTRTTCYTTTGATCAYC
+>16S_LD_Arbacioida_local_F | priority | separate_PCR
+GTCTCCTAAATAGAGACTAGTATGAATGGC
+>16S_LD_Arbacioida_local_R | priority | separate_PCR
+GCGGTAACTTDTTCCTTTRATCGCC
+>16S_M_Clypeasteroida_local_F | priority | separate_PCR
+GCCAGACGAGAAGACCCTG
+>16S_M_Clypeasteroida_local_R | priority | separate_PCR
+CTTTGATCACCTAAGTGGATCA
+>16S_MD_Irregularia_F | conditional | separate_PCR
+CGYYAGACGAGAAGACCCTR
+>16S_MD_Irregularia_R | conditional | separate_PCR
+CTTTGATCACCDDRGTGGATCA
+>16S_MD_Aulodonta_F | conditional | separate_PCR
+CGYYAGACGAGAAGACCCTR
+>16S_MD_Aulodonta_R | conditional | separate_PCR
+YTTTGATCACCKDRRTGGATCA
+>16S_S_Diadematoida_local_F | priority | separate_PCR
+TGTGTATAATGGATTGACTAGA
+>16S_S_Diadematoida_local_R | priority | separate_PCR
+GGCTAAGACCAATTTCTCGG
+>16S_SD_Camarodonta_local_F | priority | separate_PCR
+GTGTATAATGGATTAACRAGH
+>16S_SD_Camarodonta_local_R | priority | separate_PCR
+TTAGCTYARACTAATTTYTYGG
+>16S_SD_Diadematoida_local_F | priority | separate_PCR
+TGTGTATAATGGATTRACTAGA
+>16S_SD_Diadematoida_local_R | priority | separate_PCR
+GCTAAGACCAATTTCTCGG
+>16S_SD_Cidaroidea_local_F | priority | separate_PCR
+GTGTATAATGGATTAGCAAGA
+>16S_SD_Cidaroidea_local_R | priority | separate_PCR
+GGCTTAGACCAATTTTRCRA
+>16S_SD_Echinothurioida_local_F | priority | separate_PCR
+TGTGTATAATGGATTAACAAGW
+>16S_SD_Echinothurioida_local_R | priority | separate_PCR
+GCTTAGCTTAGACTAATTTCTYRR
+>16S_XS_Holasteroida_local_F | priority | separate_PCR
+CTCGTGTATAATGGATTAACAA
+>16S_XS_Holasteroida_local_R | priority | separate_PCR
+AAGCTAATTTTTTGGGGAAC
+>16S_XSD_Diadematoida_local_F | priority | separate_PCR
+CTTGTGTATAATGGATTRACTA
+>16S_XSD_Diadematoida_local_R | priority | separate_PCR
+ACCAATTTCTCGGYGAAC
+>28S_L_Echinacea_F | priority | separate_PCR
+AAGCTGGGCGCCTGCTCGAC
+>28S_L_Echinacea_R | priority | separate_PCR
+AATCGCTGCGGACCTCCACC
+>28S_L_Aulodonta_F | priority | separate_PCR
+AAGCTGGGCGCCTGCTCGAC
+>28S_L_Aulodonta_R | priority | separate_PCR
+AATCGCTGCGGACCTCCACC
+>28S_L_Clypeasteroida_local_F | priority | separate_PCR
+AAGCTGGGCGCCTGCTCGAC
+>28S_L_Clypeasteroida_local_R | priority | separate_PCR
+AATCGCTGCGGACCTCCACC
+>28S_L_Cidaroidea_F | priority | separate_PCR
+AAGCTGGGCGCCTGCTCGAC
+>28S_L_Cidaroidea_R | priority | separate_PCR
+AATCGCTGCGGACCTCCACC
+>28S_LD_Echinacea_F | priority | separate_PCR
+AAGCTGGGCGCCTGCTCGAC
+>28S_LD_Echinacea_R | priority | separate_PCR
+AATCGCTGCGGACCTCCACC
+>28S_LD_Aulodonta_terminal_F | priority | separate_PCR
+AAGCTGGGCGCCTGCTCGAC
+>28S_LD_Aulodonta_terminal_R | priority | separate_PCR
+AATCGCTGCGGACCTCCACC
+>28S_LD_Clypeasteroida_local_F | priority | separate_PCR
+AAGCTGGGCGCCTGCTCGAC
+>28S_LD_Clypeasteroida_local_R | priority | separate_PCR
+AATCGCTGCGGACCTCCACC
+>28S_LD_Cidaroidea_F | priority | separate_PCR
+AAGCTGGGCGCCTGCTCGAC
+>28S_LD_Cidaroidea_R | priority | separate_PCR
+AATCGCTGCGGACCTCCACC
+>28S_M_Echinacea_F | priority | separate_PCR
+AAGAGCCCATCGCCGAATCC
+>28S_M_Echinacea_R | priority | separate_PCR
+CCGACTCTTGGTGGCTCCAG
+>28S_M_Holasteroida_local_F | priority | separate_PCR
+AAGAGCCCATCGCTGAATCC
+>28S_M_Holasteroida_local_R | priority | separate_PCR
+CCGACTCTTGGTGGCTCCAG
+>28S_M_Diadematoida_local_F | priority | separate_PCR
+AAGAGCCCATCGCCGAATCC
+>28S_M_Diadematoida_local_R | priority | separate_PCR
+CCGACTCTTGGCGGCTCCAG
+>28S_M_Clypeasteroida_local_F | priority | separate_PCR
+AATAGCCCATCGCTGAATCC
+>28S_M_Clypeasteroida_local_R | priority | separate_PCR
+CCGACTCTTGGTGGCTCCAG
+>28S_MD_Cidaroidea_terminal_F | priority | separate_PCR
+AAGAGCCCATCGCTGAATCC
+>28S_MD_Cidaroidea_terminal_R | priority | separate_PCR
+CCGACTCTTGGTGGCTCCMR
+>28S_MD_Echinacea_F | priority | separate_PCR
+AWRAGCCCATCGCCGAATCC
+>28S_MD_Echinacea_R | priority | separate_PCR
+CYGACTCTTGGTGRCTCCAG
+>28S_MD_Holasteroida_local_F | conditional | separate_PCR
+AAGAGCCYATCGCYGAATCC
+>28S_MD_Holasteroida_local_R | conditional | separate_PCR
+CCGACTCTTGGTGGCTCCAG
+>28S_MD_Diadematoida_local_F | priority | separate_PCR
+AAGAGCCCAKCGCYGAATCC
+>28S_MD_Diadematoida_local_R | priority | separate_PCR
+CCGACTCTTGGYGGCTCCAG
+>28S_MD_Clypeasteroida_local_F | priority | separate_PCR
+AAKAGCCCATCGCTGAATCC
+>28S_MD_Clypeasteroida_local_R | priority | separate_PCR
+CCGACTCTTGGTGGCTCCAG
+>28S_S_Irregularia_F | priority | separate_PCR
+GCCTGGAGCCACCAAGAGTC
+>28S_S_Irregularia_R | priority | separate_PCR
+TTGTCTGCTATCGGTCTCGT
+>28S_S_Echinacea_F | priority | separate_PCR
+GCCTGGAGCCACCAAGAGTC
+>28S_S_Echinacea_R | priority | separate_PCR
+TTGTCTGCTATCGGTCTCGT
+>28S_S_Diadematoida_local_F | priority | separate_PCR
+CCTGGAGCCGCCAAGAGTC
+>28S_S_Diadematoida_local_R | priority | separate_PCR
+TTGTCTGCTATCGGTCTCGT
+>28S_SD_Irregularia_terminal_F | priority | separate_PCR
+GCCTGGAGCCACCAAGAGTC
+>28S_SD_Irregularia_terminal_R | priority | separate_PCR
+TTGTCTGCTATCGGTCTCGT
+>28S_SD_Echinacea_F | priority | separate_PCR
+GCCTGGAGYCACCAAGAGTC
+>28S_SD_Echinacea_R | priority | separate_PCR
+TTGTCTGCTATCGGTCTCGT
+>28S_SD_Aulodonta_local_F | priority | separate_PCR
+CCTGGARCCRCCRWGAGTC
+>28S_SD_Aulodonta_local_R | priority | separate_PCR
+TTGTCTGCTATCGGTCTCGT
+>COI_MD_Cidaroidea_local_F | conditional | separate_PCR
+TCAAACCTTCAATGAGARAC
+>COI_MD_Cidaroidea_local_R | conditional | separate_PCR
+ACCTTTCTTCABAGDGGGTG
+>COI_SD_Cidaroidea_F | conditional | separate_PCR
+CARGGVTCAAAYCTYCAATG
+>COI_SD_Cidaroidea_R | conditional | separate_PCR
+AATCARTGWGARAAYCCDGC
+>COI_SD_Echinothurioida_local_F | priority | separate_PCR
+CAAGGGTCYAAYCTRCARTG
+>COI_SD_Echinothurioida_local_R | priority | separate_PCR
+AATCAGTGGGTRAAKCCDGC
+>COI_XSD_Cidaroidea_local_F | conditional | separate_PCR
+TCAAACCTTCAATGAGARAC
+>COI_XSD_Cidaroidea_local_R | conditional | separate_PCR
+CRTAGTGRAAGTGGGCHAC
+>COI_XSD_Echinothurioida_local_F | priority | separate_PCR
+TCTAACCTACAATGAGARAC
+>COI_XSD_Echinothurioida_local_R | priority | separate_PCR
+ACGTAATGAAAGTGTGCWAC
+>12S_L_Holasteroida_shift0_F | priority | separate_PCR
+GATTAGATACCCTGCTATACTTAG
+>12S_L_Holasteroida_shift0_R | priority | separate_PCR
+CGTATTCCAGAGCTGTCTTCA
+>12S_L_Cidaroidea_shift3_F | priority | separate_PCR
+GATACCCTGTTATACTTAGCCGTAAAC
+>12S_L_Cidaroidea_shift3_R | priority | separate_PCR
+GAGTGACGGGCGATGTGTACG
+>12S_S_Irregularia_shift6_F | priority | separate_PCR
+CCGATTTGGTCCTAGTCCC
+>12S_S_Irregularia_shift6_R | priority | separate_PCR
+TCTAATGTTTAGCACTGCAGT
+>12S_S_Temnopleuroida_shift1_F | priority | separate_PCR
+CGATTTGGTCCTAGTCCC
+>12S_S_Temnopleuroida_shift1_R | priority | separate_PCR
+CACTGCAGTTGTGGCGTAT
+>12S_S_Diadematoida_shift5_F | priority | separate_PCR
+GTCCCAACTTTAACTAGCT
+>12S_S_Diadematoida_shift5_R | priority | separate_PCR
+AATGTTTAGCACTGCAGA
+>12S_S_Cidaroidea_shift2_F | priority | separate_PCR
+CGATTTGGTCCTAGTCCCGATCTTAAC
+>12S_S_Cidaroidea_shift2_R | priority | separate_PCR
+CTCTAATTGTCTAATGTTTAGCACTGC
+>12S_S_Echinothurioida_shift0_F | priority | separate_PCR
+CCGATTTGGTCCTAGTCCCA
+>12S_S_Echinothurioida_shift0_R | priority | separate_PCR
+CCTGATTGTCTAATGTTTAGCACTGC
+>12S_XS_Holasteroida_shift0_F | priority | separate_PCR
+GCCACATGCAAGCTAACTAGC
+>12S_XS_Holasteroida_shift0_R | priority | separate_PCR
+TCTAATGTTTAGCACTGCAGT
+>12S_XS_Diadematoida_shift0_F | priority | separate_PCR
+AACTAGCAAACCAGTGAAGT
+>12S_XS_Diadematoida_shift0_R | priority | separate_PCR
+CCCTAATTGTCCAATGTTTAGCACT
+>12S_XS_Echinothurioida_shift0_F | priority | separate_PCR
+CCACATGCAAGCTAACTAG
+>12S_XS_Echinothurioida_shift0_R | priority | separate_PCR
+CCTGATTGTCTAATGTTTAGCACTG
+>16S_XL_Diadematoida_shift2_F | priority | separate_PCR
+GGCCTAGAAGCAGCCACTTCAG
+>16S_XL_Diadematoida_shift2_R | priority | separate_PCR
+CCCGTCTTGCCATTCATGCCAGTCTC
+>16S_XL_Cidaroidea_shift0_F | priority | separate_PCR
+CCAAGTAGGCCTAGAAGCAGC
+>16S_XL_Cidaroidea_shift0_R | priority | separate_PCR
+GACAGTTTAGTTCCGTCTTGCC
+>16S_XLD_Irregularia_shift6_F | priority | separate_PCR
+GTAGGCCTARAAGCAGCCRACTWW
+>16S_XLD_Irregularia_shift6_R | priority | separate_PCR
+GYTCCGTCTTGCCATTCATDCCAGTC
+>16S_XLD_Diadematoida_shift0_F | priority | separate_PCR
+GGCCYAGAAGCAGCCACTTCAGH
+>16S_XLD_Diadematoida_shift0_R | priority | separate_PCR
+CCCCGTCTTGCCATTCATGCCAGTCTC
+>16S_XLD_Cidaroidea_shift5_F | priority | separate_PCR
+GCCYAGAAGCAGCCAACYT
+>16S_XLD_Cidaroidea_shift5_R | priority | separate_PCR
+GACAGTTTAGTTCCGTCTTGCCRTT
+>COI_M_Cidaroidea_shift0_F | priority | separate_PCR
+AGGATCAAACCTTCAATG
+>COI_M_Cidaroidea_shift0_R | priority | separate_PCR
+CCTTTCTTCATAGAGGGTG
+>COI_XS_Echinothurioida_shift0_F | priority | separate_PCR
+GTCTAACCTACAATGAGA
+>COI_XS_Echinothurioida_shift0_R | priority | separate_PCR
+CTACATAGTAAGTGTCGTGA
+>COI_S_Holasteroida_shift5_F | priority | separate_PCR
+TCAAACCTCCAATGAGAAAC
+>COI_S_Holasteroida_shift5_R | priority | separate_PCR
+GCCAAATACAGCACCCAT
+>COI_S_genus_Lytechinus_shift0_F | priority | separate_PCR
+TTCAGATGAATGGCCACACTACAAGG
+>COI_S_genus_Lytechinus_shift0_R | priority | separate_PCR
+GCGGGTGTAGGCTGTATCC
+>COI_S_genus_Echinometra_shift6_F | priority | separate_PCR
+ATGGCAACCCTTCAAGGCTCAAA
+>COI_S_genus_Echinometra_shift6_R | priority | separate_PCR
+AGTGGGTGTAGGTTGTATCCAGAGAAT
+>COI_S_genus_Clypeaster_shift6_F | priority | separate_PCR
+TCAAACCTTCAATGAGAAAC
+>COI_S_genus_Clypeaster_shift6_R | priority | separate_PCR
+ACAGCTCCCATGGATAGT
+>COI_S_genus_Temnopleurus_shift1_F | priority | separate_PCR
+TCCAACAGGAATTAAGGT
+>COI_S_genus_Temnopleurus_shift1_R | priority | separate_PCR
+CTTCATAGGGGGTGTAAACTATA

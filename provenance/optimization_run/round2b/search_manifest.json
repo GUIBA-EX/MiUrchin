@@ -1,0 +1,288 @@
+[
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Cidaroidea",
+    "n": 7,
+    "F_passing": 14,
+    "R_passing": 6,
+    "pairs_passing": 76,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Cidaroida",
+    "n": 7,
+    "F_passing": 14,
+    "R_passing": 6,
+    "pairs_passing": 76,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Eucidaris",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 124,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Echinacea",
+    "n": 44,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Temnopleuroida",
+    "n": 15,
+    "F_passing": 6,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Lytechinus",
+    "n": 5,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 162,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Camarodonta",
+    "n": 24,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Echinometra",
+    "n": 4,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 68,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Irregularia",
+    "n": 39,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Clypeasteroida",
+    "n": 31,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Clypeaster",
+    "n": 4,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 91,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Arbacioida",
+    "n": 5,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 153,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Arbacia",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 140,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Encope",
+    "n": 11,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 191,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Mellita",
+    "n": 5,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 154,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Aulodonta",
+    "n": 14,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Strongylocentrotus",
+    "n": 4,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 175,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Temnopleurus",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 142,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Diadematoida",
+    "n": 7,
+    "F_passing": 0,
+    "R_passing": 0,
+    "pairs_passing": 0,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "genus_Diadema",
+    "n": 4,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 111,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Echinothurioida",
+    "n": 3,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 167,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  },
+  {
+    "gene": "COI",
+    "parent": "S",
+    "clade": "Holasteroida",
+    "n": 6,
+    "F_passing": 14,
+    "R_passing": 14,
+    "pairs_passing": 117,
+    "anchor_failed": [
+      "OR569171.1",
+      "PQ505255.1"
+    ]
+  }
+]

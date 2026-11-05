@@ -1,0 +1,17 @@
+name: Validate current branch catalog
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Recompute raw and thermal evidence without changing the tracked report
+        run: python scripts/revalidate.py --thermal --output /tmp/miurchin-validation.json
+      - name: Check adopted catalog and release integrity
+        run: python check_release.py
