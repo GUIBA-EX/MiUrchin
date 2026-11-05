@@ -234,3 +234,7 @@ Untergasser A et al. (2012). Primer3—new capabilities and interfaces. Nucleic 
 (P/'CITATION.bib').write_text('@unpublished{Xia2026MiUrchin,\n author={Xia, Fei},\n title={MiUrchin: terminal-triplet-first, branch-limited primer candidates for sea-urchin eDNA},\n year={2026},\n note={Local integrated computational manuscript, version 2.0.0; not remotely published or peer reviewed}\n}\n')
 (P/'CHANGELOG.md').write_text('# Changelog\n\n## 2.0.0 — 2026-11-05 (local integrated revision)\n\nAdopted 76 branch/taxon-limited pairs, retaining 65 priority and 11 conditional tiers. Unified catalog, raw revalidation, generated FASTA, three-language entry pages, current figures and rewritten manuscript. Archived v1.2 tracked source unchanged. Replaced legacy auto-publication with read-only validation. No remote push, tag or release. Historical user drafts preserved.\n')
 print('Generated catalog/documentation/figures/manuscript:',len(R),'entries;',unique_pairs,'distinct pairs;',unique_oligos,'distinct oligos')
+
+# Preserve the project's established README presentation.
+import runpy
+runpy.run_path(str(P/"scripts/build_readmes.py"),run_name="__main__")
