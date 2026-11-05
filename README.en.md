@@ -6,15 +6,98 @@
 
 [正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-> Original overview artwork; its bp labels describe the historical 16S windows, not every current branch assay.
+**Original non-partitioned collection first · Branch candidates as supplements**
 
-<!-- publication:start -->
-**Integrated version 2.0.0 · Computational preprint · Not peer reviewed.**
+The original **32 non-taxon-partitioned pairs (ordinary and D)** remain the primary collection and are shown first below. Their sequences and original evaluation results are unchanged. The 76 branch/taxon-limited entries are retained as supplementary optimization candidates, not replacements.
 
-[PDF](publications/MiUrchin_preprint.pdf) · [Markdown](publications/MiUrchin_preprint.md) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Supplement](publications/MiUrchin_supplement.md)
-<!-- publication:end -->
+[Primary collection FASTA](sequences/non_partitioned.fasta) · [Primary collection CSV](sequences/non_partitioned_pairs.csv) · [Original manuscript](legacy/v1.2/publications/MiUrchin_preprint.pdf)
 
-MiUrchin contains 76 branch/taxon-limited pairs across 16S, 12S, COI and 28S: 65 priority and 11 conditional entries. Use each pairing in a separate PCR.
+Original tables use their original evaluable-species denominators. Supplementary branch tables use selected design-record panels; these percentages are not directly interchangeable. Neither collection is wet-lab validated here.
+
+## Choosing a window
+
+The strongest candidate depends on whether the priority is broad compatibility or an exact match at both binding sites. Each gene has its own reference panel. Counts within a window compare ordinary and D pairs on the same species.
+
+- **16S.** On the 49 species evaluable across all five windows, XLD covers the most species (45/49), while LD has the most exact matches (19/49). On their larger window-specific panels, MD matches 0/37 Spatangoida and LD matches 36/38.
+- **12S.** At 249 bp, MD improves coverage from 25/69 to 61/69 relative to ordinary M and raises exact matches from zero to 24. Strict background hits allowing guanine–thymine pairing increase from one species to two.
+- **COI.** The 152 bp XSD covers 79/106 species, including three exact matches. The 209 bp SD covers 63/105, with six exact matches. Of 314 species in the COI library, only 103–106 have evaluable binding sites in each retained window. No L or XL candidate met the background thresholds in this search.
+- **28S.** Nuclear 28S MD covers 108 of 111 evaluable species and matches both sites exactly in 72. The shorter SD can detect sea urchins, but only eight of the 99 species with a recovered barcode have a unique internal sequence.
+
+## Sequences and predicted performance
+
+FASTA identifiers include the gene, assay and direction. For example, `MiUrchin-12S_MD_F` is the forward primer of the degenerate 12S M pair. Sequences run 5′ to 3′. Window lengths include both primers and use gene-relative coordinates. Insert length excludes the primers. Mitochondrial coordinates refer to NC_001453.1 and nuclear 28S coordinates to XR_004063668.1.
+
+**Reading the tables.** Covered and Exact give the number of matching species over all species evaluable for that window. Strict off-target hits are two counts in this order: **Watson–Crick pairing only / also allowing guanine–thymine pairing**. For example, 0 / 7 for 16S XSD means that the first model matched zero background records and the second matched seven.
+
+### 16S
+
+Off-target counts use 6,045 background records.
+
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict off-target hits | Base matching |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `CTTGTGTATAATGGATTAACGA` | `AAACTAATTTCTTGGGAAAC` | 181 | 19/55 | 0/55 | 0 / 0 | [View](legacy/v1.2/results/current_primers/XS/base_matching_XS.svg) |
+| XSD | `CTTGTGTATAATGGATTRACRA` | `AAACTAATTTCTTGGRRARC` | 181 | 35/55 | 6/55 | 0 / 7 | [View](legacy/v1.2/results/current_primers/XS/base_matching_XSD.svg) |
+| S | `TGTGTATAATGGATTAACGAGA` | `GCTTAGCTAAAACTAATTTCTTGG` | 188 | 13/55 | 2/55 | 0 / 0 | [View](legacy/v1.2/results/current_primers/S/base_matching_S.svg) |
+| SD | `TGTGTATAATGGATTAACRAGH` | `GCTTAGCTTAAACYAATTTCTYGR` | 188 | 29/55 | 3/55 | 0 / 0 | [View](legacy/v1.2/results/current_primers/S/base_matching_SD.svg) |
+| M | `CGTTAGACGAGAAGACCCTG` | `CTTTGATCACCTTAGTGGATCA` | 228 | 85/158 | 12/158 | 0 / 0 | [View](legacy/v1.2/results/current_primers/M/base_matching_M.svg) |
+| MD | `CGTTAGACGAGAAGACCCTR` | `CTTTGATCACCTDARTGGATCA` | 228 | 110/158 | 28/158 | 0 / 0 | [View](legacy/v1.2/results/current_primers/M/base_matching_MD.svg) |
+| L | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTGTTCCTTTGATCACC` | 343 | 103/159 | 18/159 | 0 / 0 | [View](legacy/v1.2/results/current_primers/L/base_matching_L.svg) |
+| LD | `GTCTCCTAAATAGAGACTAGHATGAATGGC` | `GCGGTAACTTGTTYCTTTGRTCACY` | 343 | 141/159 | 30/159 | 2 / 12 | [View](legacy/v1.2/results/current_primers/L/base_matching_LD.svg) |
+| XL | `GAATAGGCCTAGAAGCAGCC` | `CCGTCTTGCCATTCATACTAGTCTC` | 440 | 41/55 | 9/55 | 2 / 3 | [View](legacy/v1.2/results/current_primers/XL/base_matching_XL.svg) |
+| XLD | `AAGTAGGCCTARAAGCAGCC` | `CCGTCTTGCCATTCATACCAGTCTY` | 440 | 51/55 | 6/55 | 0 / 4 | [View](legacy/v1.2/results/current_primers/XL/base_matching_XLD.svg) |
+
+### 12S
+
+Off-target counts use one reference from each of 459 background echinoderm species.
+
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict off-target hits | Base matching |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `TGCCACATGCAAGCTTATTAG` | `TTTAGCACTGCAGATGTGG` | 153 | 27/67 | 0/67 | 0 / 0 | [View](legacy/v1.2/markers/12S_COI/figures/12S_XS.svg) |
+| XSD | `TGCCACATGCAAGCYWAYTAG` | `TTTAGCACTGCAGDYGTGG` | 153 | 32/67 | 19/67 | 0 / 0 | [View](legacy/v1.2/markers/12S_COI/figures/12S_XSD.svg) |
+| S | `GTCCTAGTCCCAATTTTAAC` | `AATGTTTAGCACTGCAGTTG` | 188 | 27/64 | 1/64 | 0 / 1 | [View](legacy/v1.2/markers/12S_COI/figures/12S_S.svg) |
+| SD | `GTCCTAGTCCCAAYWTTARC` | `AATGTTTAGCACTGCAGDYG` | 188 | 56/64 | 19/64 | 0 / 1 | [View](legacy/v1.2/markers/12S_COI/figures/12S_SD.svg) |
+| M | `CGGTTTTCCAAACCTCCCT` | `ACTGCTGAATCCAGTTTCT` | 249 | 25/69 | 0/69 | 1 / 1 | [View](legacy/v1.2/markers/12S_COI/figures/12S_M.svg) |
+| MD | `CGGTTTTCCAWAYCTCCCT` | `ACTGCTGAATCCARTTTCN` | 249 | 61/69 | 24/69 | 2 / 2 | [View](legacy/v1.2/markers/12S_COI/figures/12S_MD.svg) |
+| L | `ACCCTGTTATACTTAGACGT` | `GCATTCCAGAGCTCTCTTCA` | 347 | 23/69 | 0/69 | 0 / 0 | [View](legacy/v1.2/markers/12S_COI/figures/12S_L.svg) |
+| LD | `ACCCTGTTATACTTAGMHGT` | `GCATTCCAGAGCTSWYTTCA` | 347 | 56/69 | 17/69 | 0 / 3 | [View](legacy/v1.2/markers/12S_COI/figures/12S_LD.svg) |
+| XL | `CCACATGCAAGCTAACTAGC` | `AAACCGCCAAGTCCTTTGAG` | 452 | 32/67 | 15/67 | 0 / 0 | [View](legacy/v1.2/markers/12S_COI/figures/12S_XL.svg) |
+| XLD | `CCACATGCAAGYYAAYTAGC` | `AAACCGCCAARTCCTTTGAR` | 452 | 40/67 | 21/67 | 2 / 3 | [View](legacy/v1.2/markers/12S_COI/figures/12S_XLD.svg) |
+
+### COI
+
+Off-target counts use one reference from each of 1,719 background echinoderm species.
+
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict off-target hits | Base matching |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| XS | `TCAAACCTACAATGAGAAAC` | `ACATAGTGGAAGTGAGCTAC` | 152 | 34/106 | 0/106 | 0 / 1 | [View](legacy/v1.2/markers/12S_COI/figures/COI_XS.svg) |
+| XSD | `TCAAACCTACARTGRGARAC` | `ACATAGTGGAAGTGDGCWAC` | 152 | 79/106 | 3/106 | 0 / 1 | [View](legacy/v1.2/markers/12S_COI/figures/COI_XSD.svg) |
+| S | `CAAGGATCAAACCTACAATG` | `AATCAGTGAGTAAATCCTGC` | 209 | 28/105 | 3/105 | 0 / 0 | [View](legacy/v1.2/markers/12S_COI/figures/COI_S.svg) |
+| SD | `CAAGGATCAAAYYTACARTG` | `AATCAGTGAGTRAAYCCWGC` | 209 | 63/105 | 6/105 | 1 / 1 | [View](legacy/v1.2/markers/12S_COI/figures/COI_SD.svg) |
+| M | `TCAAACCTACAATGGGAAAC` | `ACCTTTCCTCATAGTGGGTG` | 248 | 22/103 | 0/103 | 0 / 0 | [View](legacy/v1.2/markers/12S_COI/figures/COI_M.svg) |
+| MD | `TCAAACCTACARTGRGARAC` | `ACCTTTCCTCAWAGYGGRTG` | 248 | 57/103 | 1/103 | 0 / 0 | [View](legacy/v1.2/markers/12S_COI/figures/COI_MD.svg) |
+
+### 28S
+
+The 28S panel retains one sequence per named sea-urchin species (122 total). Observed target variants informed ambiguity codes in the 3′ half of each primer. The 832 background records include the other four echinoderm classes and common marine animals. Only three to four sea-cucumber records span both sites per window. Base diagrams show all 122 templates; NA denotes an unevaluable record.
+
+| Assay | F (5′→3′) | R (5′→3′) | Span (bp) | Covered | Exact | Strict off-target hits | Base matching |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| S | `GCCTGGAGCCACCAAGAGTC` | `TTGTCTGCTATCGGTCTCGT` | 102 | 99/101 | 78/101 | 0 / 0 | [Base matching](legacy/v1.2/markers/28S/figures/S.svg) |
+| SD | `GCCTGGAGCCRCCAAGARTC` | `TTGTCTGCTATCGGTCTCGT` | 102 | 99/101 | 83/101 | 0 / 0 | [Base matching](legacy/v1.2/markers/28S/figures/SD.svg) |
+| M | `AAGAGCCCATCGCTGAATCC` | `CCGACTCTTGGTGGCTCCAG` | 176 | 104/111 | 49/111 | 0 / 1 | [Base matching](legacy/v1.2/markers/28S/figures/M.svg) |
+| MD | `AAGAGCCCATCGCYGAATCS` | `CCGACTCTTGGYGRCTCCMG` | 176 | 108/111 | 72/111 | 0 / 2 | [Base matching](legacy/v1.2/markers/28S/figures/MD.svg) |
+| L | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 282 | 88/91 | 82/91 | 0 / 0 | [Base matching](legacy/v1.2/markers/28S/figures/L.svg) |
+| LD | `AAGCTGGGCGCCTGYTCGAC` | `AATCGCTGCGGACCTCCACC` | 282 | 89/91 | 82/91 | 0 / 0 | [Base matching](legacy/v1.2/markers/28S/figures/LD.svg) |
+
+[16S CSV](legacy/v1.2/results/current_primers/comparison.csv) · [12S / COI CSV](legacy/v1.2/markers/12S_COI/candidates.csv) · [28S CSV](legacy/v1.2/markers/28S/selected.csv)
+
+
+## Supplementary branch-specific optimization
+
+[Branch manuscript](publications/MiUrchin_preprint.pdf) · [Branch catalog](results/catalog.json)
+
+<details>
+<summary>Expand the 76 supplementary branch assays and methods</summary>
 
 ## Choosing an assay
 
@@ -143,3 +226,5 @@ Final three bases must match under WC; each end allows at most two total mismatc
 ## References
 
 [MiFish](https://doi.org/10.1098/rsos.150088) · [Anth-28S](https://doi.org/10.7717/peerj.18607) · [Echinoid phylogenomics](https://doi.org/10.7554/eLife.72460)
+
+</details>

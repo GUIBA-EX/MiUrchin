@@ -3,6 +3,10 @@ from pathlib import Path
 import json,shutil
 P=Path(__file__).resolve().parents[1];rows=json.loads((P/'results/catalog.json').read_text())['assays']
 shutil.copyfile(P/'legacy/v1.2/figures/MiUrchin_overview.png',P/'figures/MiUrchin_overview.png')
+shutil.copyfile(P/'legacy/v1.2/sequences/all_markers.fasta',P/'sequences/non_partitioned.fasta')
+import csv
+with (P/'sequences/non_partitioned_pairs.csv').open('w') as f:
+ w=csv.DictWriter(f,fieldnames=['id','gene','parent','F','R'],lineterminator='\n');w.writeheader();w.writerows(json.loads((P/'results/catalog.json').read_text())['originals'])
 for name,lang in [('README.md','tw'),('README.zh-CN.md','cn'),('README.en.md','en')]:
  en=lang=='en';old=(P/'legacy/v1.2'/name).read_text();head=old.split('<!-- publication:start -->')[0]
  text=head+('> Original overview artwork; its bp labels describe the historical 16S windows, not every current branch assay.\n\n' if en else '> 保留原版概览图；图中 bp 数为历史 16S 窗口长度，不代表所有新版分支引物的产物长度。\n\n')
@@ -21,4 +25,20 @@ for name,lang in [('README.md','tw'),('README.zh-CN.md','cn'),('README.en.md','e
  text+=('## Citation and copyright\n\n' if en else '## 引用与著作权\n\n')+'[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [COPYRIGHT](COPYRIGHT.md)\n\n'+('## References\n\n' if en else '## 参考文献\n\n')+'[MiFish](https://doi.org/10.1098/rsos.150088) · [Anth-28S](https://doi.org/10.7717/peerj.18607) · [Echinoid phylogenomics](https://doi.org/10.7554/eLife.72460)\n'
  if lang=='tw':
   for a,b in [('引物','引子'),('概览','概覽'),('图','圖'),('历史','歷史'),('数','數'),('为','為'),('窗口','區段'),('当前','目前'),('记录','紀錄'),('优先','優先'),('验证','驗證'),('条件','條件'),('备选','備選'),('对','對'),('实验','實驗'),('匹配','匹配'),('与','與'),('分类','分類'),('选择','選擇'),('结','結'),('规','規'),('则','則'),('说明','說明'),('复','複'),('据','據'),('标','標'),('评','評'),('计','計'),('应','應'),('码','碼'),('筛','篩'),('经','經'),('独','獨'),('发','發'),('补','補')]:text=text.replace(a,b)
+ # Put the unchanged original, non-taxon-partitioned assays first.
+ start={'en':'## Choosing a window','cn':'## 如何选择窗口','tw':'## 如何選擇擴增區段'}[lang]
+ end={'en':'## Binding','cn':'## 结合位置','tw':'## 結合位置'}[lang]
+ original=old[old.index(start):]
+ original=original[:original.index(end)]
+ import re
+ original=re.sub(r'\]\((?!https?:|#)([^)]+)\)',lambda m:'](legacy/v1.2/'+m[1]+')',original)
+ intro=(
+ 'The original **32 non-taxon-partitioned pairs (ordinary and D)** remain the primary collection and are shown first below. Their sequences and original evaluation results are unchanged. The 76 branch/taxon-limited entries are retained as supplementary optimization candidates, not replacements.\n\n[Primary collection FASTA](sequences/non_partitioned.fasta) · [Primary collection CSV](sequences/non_partitioned_pairs.csv) · [Original manuscript](legacy/v1.2/publications/MiUrchin_preprint.pdf)\n\nOriginal tables use their original evaluable-species denominators. Supplementary branch tables use selected design-record panels; these percentages are not directly interchangeable. Neither collection is wet-lab validated here.\n\n'
+ if en else
+ '原来的 **32 对不按分类群拆分的引物（普通及 D）**继续作为主方案保留，优先展示如下，序列及原始评价结果均保持不变。76 对分支／分类群限定引物作为补充优化方案保留，不替代原方案。\n\n[主方案 FASTA](sequences/non_partitioned.fasta) · [主方案 CSV](sequences/non_partitioned_pairs.csv) · [原方案预印本](legacy/v1.2/publications/MiUrchin_preprint.pdf)\n\n原方案表格使用原有可评价物种分母；补充分支方案使用筛选后的设计记录面板，两者百分比不能直接互换。这里不宣称两套方案已经湿实验验证。\n\n')
+ branch=text[text.index('## Choosing an assay' if en else ('## 如何選擇' if lang=='tw' else '## 如何选择窗口')):]
+ pub=head+('**Original non-partitioned collection first · Branch candidates as supplements**\n\n' if en else '**原始不分分类群方案优先展示 · 分支方案作为补充**\n\n')
+ text=pub+intro+original+'\n## '+('Supplementary branch-specific optimization' if en else '补充：分支／分类群优化方案')+'\n\n'+('[Branch manuscript](publications/MiUrchin_preprint.pdf) · [Branch catalog](results/catalog.json)\n\n' if en else '[分支优化预印本](publications/MiUrchin_preprint.pdf) · [分支证据清单](results/catalog.json)\n\n')+'<details>\n<summary>'+('Expand the 76 supplementary branch assays and methods' if en else '展开 76 对补充分支引物及方法说明')+'</summary>\n\n'+branch+'\n</details>\n'
+ if lang=='tw':
+  for a,b in [('原来的','原來的'),('对','對'),('分类','分類'),('优先','優先'),('补充','補充'),('序列及原始评价结果均保持不变','序列及原始評價結果均保持不變'),('引物','引子'),('记录','紀錄'),('验证','驗證'),('实验','實驗'),('预印本','預印本'),('方案优先展示','方案優先展示'),('优化','優化'),('证据','證據'),('清单','清單'),('展开','展開'),('与','與'),('筛选','篩選')]:text=text.replace(a,b)
  (P/name).write_text(text)
