@@ -1,0 +1,97 @@
+{
+  "method": "Independent regex terminal-triplet and two-mismatch matching; up to 1000 internal bases; both orientations.",
+  "sampling": "First 10 records plus up to 10 lexically sorted records with archived strict hits per marker; deterministic, not representative.",
+  "markers": {
+    "16S": {
+      "accessions": [
+        "AM404181.1",
+        "AY370729.1",
+        "AY370733.1",
+        "AY370738.1",
+        "DQ068951.1",
+        "EU072951.1",
+        "EU722950.1",
+        "EU722963.1",
+        "GQ288538.1",
+        "HM543140.1",
+        "OQ503508.1",
+        "OR420052.2",
+        "PV842032.1",
+        "PV842033.1",
+        "PV842034.1",
+        "PV842035.1",
+        "PV842036.1",
+        "PV842037.1",
+        "PV842038.1",
+        "PV842039.1"
+      ],
+      "assay_model_checks": 58,
+      "background_sha256": "001049e9b953295d256ef66024e734d5f9c500f288fda6ff65a12a511db74dfa",
+      "status": "PASS"
+    },
+    "12S": {
+      "accessions": [
+        "AB084563.1",
+        "AB084564.1",
+        "AB084572.1",
+        "AB125598.1",
+        "AY125578.1",
+        "AY370697.1",
+        "AY370701.1",
+        "AY370703.1",
+        "AY370708.1",
+        "AY574860.1",
+        "DQ273745.1",
+        "FJ171842.1",
+        "KX856665.1",
+        "MT444490.1",
+        "NC_005929.1",
+        "ON685890.1",
+        "OR473301.1",
+        "PV804723.1"
+      ],
+      "assay_model_checks": 64,
+      "background_sha256": "0fbe4cd5d2340d4a69cb71913feb79664586680bbf2b47151684b9b34d790fca",
+      "status": "PASS"
+    },
+    "COI": {
+      "accessions": [
+        "AB758754.1",
+        "AB758755.1",
+        "AB758756.1",
+        "AB758757.1",
+        "AB758759.1",
+        "AB758760.1",
+        "AB758761.1",
+        "AB758762.1",
+        "AB758763.1",
+        "AB758765.1",
+        "NC_051929.1",
+        "PP853087.1"
+      ],
+      "assay_model_checks": 36,
+      "background_sha256": "0506133fc3d0727407ab440317225c64589ef87d46426053d5185ff2d27bd58b",
+      "status": "PASS"
+    },
+    "28S": {
+      "accessions": [
+        "EU167534.1",
+        "OP088679.1",
+        "PZ035878.1",
+        "XM_084027086.1",
+        "XR_013626971.1",
+        "XR_014122453.1",
+        "XR_014740781.1",
+        "XR_015092537.1",
+        "XR_015710182.1",
+        "XR_015718278.1",
+        "XR_015848806.1",
+        "XR_016086580.1"
+      ],
+      "assay_model_checks": 58,
+      "background_sha256": "7eada29744275fbc2c9d91e611adde21b11c61847cf370b39af453327a892a39",
+      "status": "PASS"
+    }
+  },
+  "status": "PASS"
+}

@@ -1,3 +1,5 @@
-# v1.2 → v2.0.0
+# Catalog history and current presentation
 
-32 historical assays → 76 branch/taxon-specific entries, including 65 priority and 11 conditional entries. The catalog contains 152 named directional records; identical sequences across entries are allowed and are not additional independent discoveries. All 32 historical parent schemes now have at least one limited candidate, not whole-clade coverage. Historical source files are unchanged under legacy/v1.2. Old check scripts and auto-publication logic are archived. Existing untracked ResearchGate material is preserved as historical user material and is not part of current release claims.
+The original 32 non-partitioned ordinary/D pairs remain the primary collection. The later v2.0.0 branch-focused catalog added 76 branch/taxon-limited candidate entries (65 priority and 11 conditional), retained as supplementary rather than replacements. Its 152 directional records include repeated sequences; these are not 152 independent discoveries. Each of the 32 original parent schemes has at least one limited candidate, which does not establish clade-wide coverage.
+
+The unchanged v1.2 sources remain under `legacy/v1.2` for reproducibility. The primary FASTA, CSV and alias mapping are in `sequences/`; see the [current manuscript](../publications/README.md) and [review evidence](../results/reviewer_revision/README.md) for their scope. Existing ResearchGate drafts are separate historical user files.

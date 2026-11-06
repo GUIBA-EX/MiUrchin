@@ -1,20 +1,32 @@
-![MiUrchin](figures/MiUrchin_overview.png)
+<div align="center">
 
-# MiUrchin: in silico design and evaluation of mitochondrial and nuclear primers for sea urchin (Echinoidea) eDNA metabarcoding
+# MiUrchin
 
-**Fei Xia**
+**eDNA primer design for sea urchins**
 
-[正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
+16S · 12S · COI · 28S  |  Computational study
 
-**Original non-partitioned collection first · Branch candidates as supplements**
+[繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-Revised manuscript (6 November 2026) · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) · [Markdown](publications/manuscript_20261106/MiUrchin_manuscript.md)
+</div>
 
-The original **32 non-taxon-partitioned pairs (ordinary and D)** remain the primary collection and are shown first below. Their sequences and original evaluation results are unchanged. The 76 branch/taxon-limited entries are retained as supplementary optimization candidates, not replacements.
+![MiUrchin overview](figures/MiUrchin_overview.png)
 
-[Primary collection FASTA](sequences/non_partitioned.fasta) · [Primary collection CSV](sequences/non_partitioned_pairs.csv) · [Original manuscript](legacy/v1.2/publications/MiUrchin_preprint.pdf)
+<sub>Illustration labels show historical 16S window lengths; other markers and supplementary assays can differ.</sub>
 
-Original tables use their original evaluable-species denominators. Supplementary branch tables use selected design-record panels; these percentages are not directly interchangeable. Neither collection is wet-lab validated here.
+**32 original primer pairs** form the primary collection. **76 clade- or taxon-limited candidates** are supplementary and do not replace the original pairs.
+
+## Explore MiUrchin
+
+| Primary primer collection | Manuscript | Evidence & methods |
+| :--- | :--- | :--- |
+| [FASTA](sequences/non_partitioned.fasta) · [Pair table](sequences/non_partitioned_pairs.csv) · [Name aliases](sequences/primary_name_aliases.csv) | [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) | [Methods](docs/METHODS.md) · [Results & limitations](results/reviewer_revision/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md) |
+
+[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [Supplementary catalog](report.html) · [Citation](CITATION.cff)
+
+> **Before use:** Predictions are computational, not wet-lab validated. Supplementary design panels have a median of 5 records; candidate unions lost at least one original match in 26 of 32 comparisons. Background libraries and independent evaluation remain limited. Use supplementary candidates in separate PCRs. [Evidence and limitations](results/reviewer_revision/README.md).
+
+For the primary collection, all 32 pairs passed the basic modeled structure gates, but five had less than a 5 °C minimum structure margin in at least one concentration scenario. In particular, 16S SD had a negative margin. These calculations do not establish PCR performance; check the [pair-level results](results/reviewer_revision/primary_pair_structures.csv) before selection.
 
 ## Choosing a window
 
@@ -23,7 +35,7 @@ The strongest candidate depends on whether the priority is broad compatibility o
 - **16S.** On the 49 species evaluable across all five windows, XLD covers the most species (45/49), while LD has the most exact matches (19/49). On their larger window-specific panels, MD matches 0/37 Spatangoida and LD matches 36/38.
 - **12S.** At 249 bp, MD improves coverage from 25/69 to 61/69 relative to ordinary M and raises exact matches from zero to 24. Strict background hits allowing guanine–thymine pairing increase from one species to two.
 - **COI.** The 152 bp XSD covers 79/106 species, including three exact matches. The 209 bp SD covers 63/105, with six exact matches. Of 314 species in the COI library, only 103–106 have evaluable binding sites in each retained window. No L or XL candidate met the background thresholds in this search.
-- **28S.** Nuclear 28S MD covers 108 of 111 evaluable species and matches both sites exactly in 72. The shorter SD can detect sea urchins, but only eight of the 99 species with a recovered barcode have a unique internal sequence.
+- **28S.** Nuclear 28S MD covers 108 of 111 evaluable species and matches both sites exactly in 72. The short SD pair is a computational detection candidate; only eight of the 99 recovered barcodes have a unique internal sequence among the recovered references.
 
 ## Sequences and predicted performance
 
@@ -103,7 +115,7 @@ The 28S panel retains one sequence per named sea-urchin species (122 total). Obs
 
 ## Choosing an assay
 
-Choose the target group first, then marker and parent scheme. Priority entries have at least a 5°C modeled structure margin; conditional entries require additional assessment. The 32 parent schemes do not imply identical binding coordinates or ordinary/D sequence inclusion.
+Choose the target group first, then marker and parent scheme. Priority entries have at least a 5°C modeled structure margin; conditional entries require additional assessment. Supplementary candidates can shift the binding sites; a D sequence does not necessarily include the ordinary sequence.
 
 ## Primer sequences and predicted performance
 

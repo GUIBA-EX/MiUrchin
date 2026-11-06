@@ -1,9 +1,8 @@
 cff-version: 1.2.0
-message: "Cite the exact catalog version used; v2.0.0 is a local unpublished revision."
+message: "Cite the exact commit or archived release used; this computational study is not peer reviewed."
 type: software
-title: "MiUrchin: branch-limited sea-urchin primer candidates"
+title: "MiUrchin: computational design and evaluation of sea-urchin eDNA primers"
 authors:
   - family-names: Xia
     given-names: Fei
-version: "2.0.0"
 repository-code: "https://github.com/GUIBA-EX/MiUrchin"

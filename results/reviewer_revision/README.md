@@ -37,3 +37,11 @@ The per-gene folders and `benchmark_COI/` retain raw hits and inserts. No ambigu
 - Experimental performance if detection, efficiency or field sensitivity claims are intended.
 
 The scientific conclusions must retain these boundaries even when all implementation checks pass.
+
+## Independent background spot check
+
+Run `python scripts/check_background_sample.py` for a deterministic cross-check of the archived strict WC and GT background hits. Per marker, the sample combines the first 10 input records with up to 10 sorted records having an archived strict hit. All 108 primary and supplementary entries are evaluated under both models; the sample is hit-enriched and is not an exhaustive or representative specificity assessment. See `background_sample_verification.json` for sampled identifiers and input hashes. The historical manuscript S9 snapshot predates this additional check.
+
+## Complete archived background cross-check
+
+Run `python scripts/check_background_sample.py --full` to check every background record using the separate regex/motif implementation under the strict WC and GT final-three-base rule (at most two mismatches per primer; up to 1,000 internal bases). The 16S, 12S, COI and 28S libraries contain 6,045, 459, 1,719 and 832 records respectively. All 108 assay entries were checked in both models (216 assay-model checks); accession-level sets agreed. See `background_full_verification.json` for input hashes and record identifiers. This checks software agreement on frozen inputs, not biological specificity, completeness of non-target sampling, relaxed mismatch counts or external validation. The earlier manuscript S9 snapshot predates this check.

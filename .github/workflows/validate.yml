@@ -1,4 +1,4 @@
-name: Validate current branch catalog
+name: Validate primary and supplementary primer catalogs
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -13,5 +13,7 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - name: Recompute raw and thermal evidence without changing the tracked report
         run: python scripts/revalidate.py --thermal --output /tmp/miurchin-validation.json
-      - name: Check adopted catalog and release integrity
+      - name: Cross-check all archived WC and GT background hits
+        run: python scripts/check_background_sample.py --full
+      - name: Check primary and supplementary catalogs and release integrity
         run: python check_release.py

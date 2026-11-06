@@ -1,3 +1,5 @@
-# Historical evidence
+# Archived v1.2 and current primary evidence
 
-v1.2 is the unchanged tracked project at commit 976d3094ed1e089be19591643dd903b942413fcf. Its sequences, figures, claims, validation counts and manuscript concern the historical assays. They are not current branch-assay results. Historical workflows are archived here and do not run for the current release.
+The unchanged v1.2 snapshot preserves the original 32 non-partitioned primer pairs and the data, figures and methods supporting their original evaluation. Those sequences remain the current primary collection; the current primary FASTA and CSV are checked against this snapshot. Historical workflows, claims and frozen results retain their original context and do not validate the 76 supplementary candidates.
+
+The snapshot at commit `976d3094ed1e089be19591643dd903b942413fcf` is retained at its original paths for reproducibility and existing links. See the [current manuscript](../publications/manuscript_20261106/MiUrchin_manuscript.md) and [review revision evidence](../results/reviewer_revision/README.md) for later analyses and limitations.

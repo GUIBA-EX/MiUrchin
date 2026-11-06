@@ -1,20 +1,32 @@
-![MiUrchin](figures/MiUrchin_overview.png)
+<div align="center">
 
-# MiUrchin: in silico design and evaluation of mitochondrial and nuclear primers for sea urchin (Echinoidea) eDNA metabarcoding
+# MiUrchin
 
-**Fei Xia**
+**海胆 eDNA 引物设计与计算评价**
+
+16S · 12S · COI · 28S  |  计算研究
 
 [正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-**原始不分分类群方案优先展示 · 分支方案作为补充**
+</div>
 
-修订稿件（2026-11-06） · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) · [Markdown](publications/manuscript_20261106/MiUrchin_manuscript.md)
+![MiUrchin 总览](figures/MiUrchin_overview.png)
 
-原来的 **32 对不按分类群拆分的引物（普通及 D）**继续作为主方案保留，优先展示如下，序列及原始评价结果均保持不变。76 对分支／分类群限定引物作为补充优化方案保留，不替代原方案。
+<sub>图中长度为历史 16S 窗口长度，其他基因和补充候选可能不同。</sub>
 
-[主方案 FASTA](sequences/non_partitioned.fasta) · [主方案 CSV](sequences/non_partitioned_pairs.csv) · [原方案预印本](legacy/v1.2/publications/MiUrchin_preprint.pdf)
+**32 对原始引物**为主方案；**76 对分支或分类群限定候选**为补充，不替代原方案。
 
-原方案表格使用原有可评价物种分母；补充分支方案使用筛选后的设计记录面板，两者百分比不能直接互换。这里不宣称两套方案已经湿实验验证。
+## 快速入口
+
+| 主方案引物 | 稿件 | 证据与方法 |
+| :--- | :--- | :--- |
+| [FASTA](sequences/non_partitioned.fasta) · [配对表](sequences/non_partitioned_pairs.csv) · [名称对照](sequences/primary_name_aliases.csv) | [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) | [方法](docs/METHODS.zh-CN.md) · [结果与局限](results/reviewer_revision/README.md) · [重现说明](docs/REPRODUCIBILITY.zh-CN.md) |
+
+[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [补充方案目录](report.html) · [引用](CITATION.cff)
+
+> **使用前须知：**结果均为计算预测，尚未进行湿实验验证。补充分支设计面板中位数为 5 条记录；32 组比较中有 26 组候选并集丢失至少一条原方案匹配记录。非目标库和独立评价仍有限；补充候选须分别 PCR。[证据与局限](results/reviewer_revision/README.md)。
+
+主方案 32 对均通过基本结构计算门槛，但其中 5 对在至少一种浓度情景下的最小结构余量不足 5 °C；16S SD 的余量为负。计算结果不能证明 PCR 表现，选择前请查看[逐对结果](results/reviewer_revision/primary_pair_structures.csv)。
 
 ## 如何选择窗口
 
@@ -23,7 +35,7 @@
 - **16S**：在五个窗口均可评价的 49 个物种中，XLD 覆盖最多（45/49），LD 的双端完全匹配最多（19/49）。在各窗口完整面板中，MD 对 Spatangoida 的覆盖为 0/37，LD 为 36/38。
 - **12S**：在 249 bp 的 M 窗口，MD 相比普通 M 将覆盖从 25/69 提高到 61/69，完全匹配从 0 种增至 24 种。允许鸟嘌呤–胸腺嘧啶配对的严格非目标命中从 1 种增至 2 种。
 - **COI**：152 bp 的 XSD 覆盖 79/106 种，其中 3 种完全匹配。209 bp 的 SD 覆盖 63/105 种，其中 6 种完全匹配。COI 库有 314 个物种，各保留窗口仅有 103–106 种可评价。本轮 L 和 XL 候选均未通过背景门槛。
-- **28S.** 核 28S 的 MD 在 111 个可评价物种中覆盖 108 种，双端完全匹配 72 种。短片段 SD 适合检出海胆，但在 99 个取得条码的物种中，仅 8 种具有独有的内部序列。
+- **28S.** 核 28S 的 MD 在 111 个可评价物种中覆盖 108 种，双端完全匹配 72 种。短片段 SD 是计算筛选出的检出候选；在 99 条取得的条码中，仅 8 条在已取得的参考序列内具有独有的内部序列。
 
 ## 引物序列与预测表现
 
@@ -103,7 +115,7 @@ FASTA 名称包含基因、方案和方向。例如，`MiUrchin-12S_MD_F` 表示
 
 ## 如何选择窗口
 
-先选择适用分类群，再选择基因和原方案。优先方案在两种浓度下的结构温度余量均至少为 5°C；条件备选需要进一步评估。32 组原方案不再意味着普通／D引物具有相同坐标或包含关系。
+先选择适用分类群，再选择基因和原方案。优先方案在两种浓度下的结构温度余量均至少为 5°C；条件备选需要进一步评估。补充候选的结合位置可能移动；D 引物不一定包含对应的普通引物序列。
 
 ## 引物序列与预测表现
 

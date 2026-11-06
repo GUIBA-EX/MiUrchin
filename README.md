@@ -1,20 +1,32 @@
-![MiUrchin](figures/MiUrchin_overview.png)
+<div align="center">
 
-# MiUrchin: in silico design and evaluation of mitochondrial and nuclear primers for sea urchin (Echinoidea) eDNA metabarcoding
+# MiUrchin
 
-**Fei Xia**
+**海膽 eDNA 引子設計與計算評價**
 
-[正體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
+16S · 12S · COI · 28S  |  計算研究
 
-**原始不分分類群方案優先展示 · 分支方案作为補充**
+[正體中文](README.md) · [English](README.en.md) · [簡體中文](README.zh-CN.md)
 
-修订稿件（2026-11-06） · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) · [Markdown](publications/manuscript_20261106/MiUrchin_manuscript.md)
+</div>
 
-原來的 **32 對不按分類群拆分的引子（普通及 D）**继续作为主方案保留，優先展示如下，序列及原始評價結果均保持不變。76 對分支／分類群限定引子作为補充優化方案保留，不替代原方案。
+![MiUrchin 總覽](figures/MiUrchin_overview.png)
 
-[主方案 FASTA](sequences/non_partitioned.fasta) · [主方案 CSV](sequences/non_partitioned_pairs.csv) · [原方案預印本](legacy/v1.2/publications/MiUrchin_preprint.pdf)
+<sub>圖中長度為歷史 16S 窗口長度，其他基因和補充候選可能不同。</sub>
 
-原方案表格使用原有可评价物种分母；補充分支方案使用篩選后的设计紀錄面板，两者百分比不能直接互换。这里不宣称两套方案已经湿實驗驗證。
+**32 對原始引子**為主方案；**76 對分支或分類群限定候選**為補充，不替代原方案。
+
+## 快速入口
+
+| 主方案引子 | 稿件 | 證據與方法 |
+| :--- | :--- | :--- |
+| [FASTA](sequences/non_partitioned.fasta) · [配對表](sequences/non_partitioned_pairs.csv) · [名稱對照](sequences/primary_name_aliases.csv) | [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) | [方法](docs/METHODS.zh-CN.md) · [結果與局限](results/reviewer_revision/README.md) · [重現說明](docs/REPRODUCIBILITY.zh-CN.md) |
+
+[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [補充方案目錄](report.html) · [引用](CITATION.cff)
+
+> **使用前須知：**結果均為計算預測，尚未進行濕實驗驗證。補充分支設計面板中位數為 5 條紀錄；32 組比較中有 26 組候選並集丟失至少一條原方案匹配紀錄。非目標庫和獨立評價仍有限；補充候選須分別 PCR。[證據與局限](results/reviewer_revision/README.md)。
+
+主方案 32 對均通過基本結構計算門檻，但其中 5 對在至少一種濃度情景下的最小結構餘量不足 5 °C；16S SD 的餘量為負。計算結果不能證明 PCR 表現，選擇前請查看[逐對結果](results/reviewer_revision/primary_pair_structures.csv)。
 
 ## 如何選擇擴增區段
 
@@ -23,7 +35,7 @@
 - **16S**　在五個區段都可評估的 49 種海膽中，XLD 涵蓋最多物種（45/49），LD 的雙端完全匹配數最高（19/49）。若關注 Spatangoida，MD 在其可評估資料集中涵蓋 0/37 種，LD 則涵蓋 36/38 種。
 - **12S**　在 249 bp 的 M 區段，改用 MD 後，涵蓋物種由 25/69 增為 61/69，雙端完全匹配由 0 種增為 24 種。允許鳥嘌呤與胸腺嘧啶配對時，符合嚴格條件的非目標物種由 1 種增為 2 種。
 - **COI**　152 bp 的 XSD 涵蓋 79/106 種，其中 3 種雙端完全匹配。209 bp 的 SD 涵蓋 63/105 種，其中 6 種雙端完全匹配。COI 參考資料集共有 314 種，但各保留區段僅有 103–106 種具備可評估的結合位置。此次篩選的 L 與 XL 候選均未通過非目標篩選門檻。
-- **28S.** 核 28S 的 MD 在 111 個可評估物種中涵蓋 108 種，雙端完全匹配 72 種。短區段 SD 適合檢出海膽，但在 99 個取得條碼的物種中，只有 8 種具有獨有的內部序列。
+- **28S.** 核 28S 的 MD 在 111 個可評估物種中涵蓋 108 種，雙端完全匹配 72 種。短區段 SD 是計算篩選出的檢出候選；在 99 條取得的條碼中，僅 8 條在已取得的參考序列內具有獨有的內部序列。
 
 ## 引子序列與預測結果
 
@@ -99,19 +111,19 @@ FASTA 名稱依序標示基因、引子名稱與方向。例如，`MiUrchin-12S_
 [分支優化預印本](publications/MiUrchin_preprint.pdf) · [分支證據清單](results/catalog.json)
 
 <details>
-<summary>展開 76 對補充分支引子及方法说明</summary>
+<summary>展開 76 對補充分支引子及方法說明</summary>
 
 ## 如何選擇區段
 
-先選擇适用分類群，再選擇基因和原方案。優先方案在两种浓度下的結构温度余量均至少為 5°C；條件備選需要进一步評估。32 组原方案不再意味着普通／D引子具有相同坐標或包含关系。
+先選擇適用分類群，再選擇基因和原方案。優先方案在兩種濃度下的結構溫度餘量均至少為 5°C；條件備選需要進一步評估。補充候選的結合位置可能移動；D 引子不一定包含對應的普通引子序列。
 
-## 引子序列與预测表现
+## 引子序列與預測表現
 
-序列均按 5′→3′ 书写。“覆盖”和“完全匹配”為各行设計面板的参考紀錄數；“严格非目標”為 WC / GT 两种模型的計數。面板内計算匹配不等于實驗检出率。
+序列均按 5′→3′ 書寫。“覆蓋”和“完全匹配”為各行設計面板的參考紀錄數；“嚴格非目標”為 WC / GT 兩種模型的計數。面板內計算匹配不等於實驗檢出率。
 
 ### 16S
 
-| 方案／分類群 | 分级 | F（5′→3′） | R（5′→3′） | 覆盖 | 完全匹配 | 严格非目標 |
+| 方案／分類群 | 分級 | F（5′→3′） | R（5′→3′） | 覆蓋 | 完全匹配 | 嚴格非目標 |
 | --- | --- | --- | --- | --- | --- | --- |
 | L / Arbacioida | 優先 | `GTCTCCTAAATAGAGACTAGTATGAATGGC` | `GCGGTAACTTTTTCCTTTAATCGCC` | 4/4 | 2/4 | 0 / 0 |
 | LD / Aulodonta | 優先 | `GTCTCCTAAATAGAGACTAGCATGAATGGC` | `GCGGTAACTTTTTCCTTTGATCAYC` | 15/15 | 0/15 | 0 / 0 |
@@ -135,7 +147,7 @@ FASTA 名稱依序標示基因、引子名稱與方向。例如，`MiUrchin-12S_
 
 ### 12S
 
-| 方案／分類群 | 分级 | F（5′→3′） | R（5′→3′） | 覆盖 | 完全匹配 | 严格非目標 |
+| 方案／分類群 | 分級 | F（5′→3′） | R（5′→3′） | 覆蓋 | 完全匹配 | 嚴格非目標 |
 | --- | --- | --- | --- | --- | --- | --- |
 | LD / Holasteroida | 條件備選 | `ACCCTGYTATACTTAGMYGT` | `GTATTCCAGAGCTSTYTTCA` | 18/18 | 18/18 | 0 / 1 |
 | LD / Clypeasteroida | 優先 | `ACCCTGCTATACTCAGAMGT` | `GCATTYCAGAGCTCTYTTCA` | 3/3 | 3/3 | 0 / 0 |
@@ -162,7 +174,7 @@ FASTA 名稱依序標示基因、引子名稱與方向。例如，`MiUrchin-12S_
 
 ### COI
 
-| 方案／分類群 | 分级 | F（5′→3′） | R（5′→3′） | 覆盖 | 完全匹配 | 严格非目標 |
+| 方案／分類群 | 分級 | F（5′→3′） | R（5′→3′） | 覆蓋 | 完全匹配 | 嚴格非目標 |
 | --- | --- | --- | --- | --- | --- | --- |
 | MD / Cidaroidea | 條件備選 | `TCAAACCTTCAATGAGARAC` | `ACCTTTCTTCABAGDGGGTG` | 7/7 | 2/7 | 0 / 0 |
 | SD / Cidaroidea | 條件備選 | `CARGGVTCAAAYCTYCAATG` | `AATCARTGWGARAAYCCDGC` | 7/7 | 5/7 | 0 / 1 |
@@ -179,7 +191,7 @@ FASTA 名稱依序標示基因、引子名稱與方向。例如，`MiUrchin-12S_
 
 ### 28S
 
-| 方案／分類群 | 分级 | F（5′→3′） | R（5′→3′） | 覆盖 | 完全匹配 | 严格非目標 |
+| 方案／分類群 | 分級 | F（5′→3′） | R（5′→3′） | 覆蓋 | 完全匹配 | 嚴格非目標 |
 | --- | --- | --- | --- | --- | --- | --- |
 | L / Echinacea | 優先 | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 12/12 | 12/12 | 0 / 0 |
 | L / Aulodonta | 優先 | `AAGCTGGGCGCCTGCTCGAC` | `AATCGCTGCGGACCTCCACC` | 9/9 | 8/9 | 0 / 0 |
@@ -207,25 +219,25 @@ FASTA 名稱依序標示基因、引子名稱與方向。例如，`MiUrchin-12S_
 
 [CSV](sequences/primer_pairs.csv) · [FASTA](sequences/all_markers.fasta) · [Priority FASTA](sequences/priority.fasta) · [Conditional FASTA](sequences/conditional.fasta)
 
-## 結合位置與逐碱基匹配
+## 結合位置與逐鹼基匹配
 
-移动后的結合位置依各自参考紀錄核验。详见[完整证據清單](results/catalog.json)與[原版／新版比较](report.html)；歷史坐標和匹配圖不作為新引子的結果。
+移動後的結合位置依各自參考紀錄核驗。詳見[完整證據清單](results/catalog.json)與[原版／新版比較](report.html)；歷史座標和匹配圖不作為新引子的結果。
 
 ![Exact comparison](figures/exact_comparison.svg)
 
-## 参考面板與篩选規則
+## 參考面板與篩選規則
 
-双端最后三位须严格 WC 匹配，每端总错配最多两处；四项非目標計數不得高于原引子。全部简并变体在两种浓度下检查結构。[中文方法](docs/METHODS.zh-CN.md) · [重现說明](docs/REPRODUCIBILITY.zh-CN.md)。
+雙端最後三位須嚴格 WC 匹配，每端總錯配最多兩處；四項非目標計數不得高於原引子。全部簡併變體在兩種濃度下檢查結構。[中文方法](docs/METHODS.zh-CN.md) · [重現說明](docs/REPRODUCIBILITY.zh-CN.md)。
 
-## 16S 補充評价
+## 16S 補充評價
 
-[歷史 v1.2](legacy/v1.2/README.zh-CN.md)保留旧版共同面板、留出與条碼分析，不用于驗證新序列。目前尚无獨立留出或湿實驗驗證。子引子不可直接混合，交叉配對仍可命中非目標。
+[歷史 v1.2](legacy/v1.2/README.zh-CN.md)保留舊版共同面板、留出與條碼分析，不用於驗證新序列。目前尚無獨立留出或濕實驗驗證。子引子不可直接混合，交叉配對仍可命中非目標。
 
-## 引用與著作权
+## 引用與著作權
 
 [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [COPYRIGHT](COPYRIGHT.md)
 
-## 参考文献
+## 參考文獻
 
 [MiFish](https://doi.org/10.1098/rsos.150088) · [Anth-28S](https://doi.org/10.7717/peerj.18607) · [Echinoid phylogenomics](https://doi.org/10.7554/eLife.72460)
 
