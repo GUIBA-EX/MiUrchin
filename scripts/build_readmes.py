@@ -67,6 +67,7 @@ for name,lang in [('README.md','tw'),('README.zh-CN.md','cn'),('README.en.md','e
    '**32 original primer pairs** form the primary collection. **76 clade- or taxon-limited candidates** are supplementary and do not replace the original pairs.\n\n'
    '## Explore MiUrchin\n\n'
    '**Primary primers** · [FASTA](sequences/non_partitioned.fasta) · [Pair table](sequences/non_partitioned_pairs.csv) · [Name aliases](sequences/primary_name_aliases.csv)\n\n'
+   '**Regional resource** · [Hong Kong interactive map](https://guiba-ex.github.io/MiUrchin/) · [Data notes](resources/hong-kong-sea-urchins/README.md)\n\n'
    '**Manuscript** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)\n\n'
    '**Evidence** · [Methods](docs/METHODS.md) · [Results & limitations](results/reviewer_revision/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md)\n\n'
    '[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [Supplementary catalog](sequences/primer_pairs.csv) · [Citation](CITATION.cff)\n\n')
@@ -82,6 +83,7 @@ for name,lang in [('README.md','tw'),('README.zh-CN.md','cn'),('README.en.md','e
    '**32 对原始引物**为主方案；**76 对分支或分类群限定候选**为补充，不替代原方案。\n\n'
    '## 快速入口\n\n'
    '**主方案引物** · [FASTA](sequences/non_partitioned.fasta) · [配对表](sequences/non_partitioned_pairs.csv) · [名称对照](sequences/primary_name_aliases.csv)\n\n'
+   '**区域资源** · [香港海胆交互地图](https://guiba-ex.github.io/MiUrchin/) · [数据说明](resources/hong-kong-sea-urchins/README.md)\n\n'
    '**稿件** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)\n\n'
    '**证据与方法** · [方法](docs/METHODS.zh-CN.md) · [结果与局限](results/reviewer_revision/README.md) · [重现说明](docs/REPRODUCIBILITY.zh-CN.md)\n\n'
    '[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [补充方案目录](sequences/primer_pairs.csv) · [引用](CITATION.cff)\n\n')
@@ -91,7 +93,7 @@ for name,lang in [('README.md','tw'),('README.zh-CN.md','cn'),('README.en.md','e
  if lang=='tw':
   # Character map fixes residual simplified text after composing every section.
   for a,b in [('這里','這裡'),('余量','餘量'),('關系','關係'),('簡並','簡併'),('坐標','座標'),('移動窗口','移動區段')]: text=text.replace(a,b)
-  text=text.translate(str.maketrans({'历': '歷', '图': '圖', '录': '錄', '胆': '膽', '览': '覽', '长': '長', '择': '擇', '槛': '檻', '请': '請', '负': '負', '过': '過', '门': '門', '丢': '丟', '别': '別', '库': '庫', '数': '數', '标': '標', '独': '獨', '结': '結', '两': '兩', '严': '嚴', '为': '為', '书': '書', '于': '於', '价': '價', '体': '體', '关': '關', '内': '內', '写': '寫', '动': '動', '参': '參', '双': '雙', '变': '變', '后': '後', '处': '處', '并': '並', '总': '總', '换': '換', '无': '無', '旧': '舊', '权': '權', '条': '條', '构': '構', '检': '檢', '测': '測', '浓': '濃', '温': '溫', '湿': '濕', '献': '獻', '现': '現', '盖': '蓋', '着': '著', '碱': '鹼', '种': '種', '称': '稱', '简': '簡', '级': '級', '组': '組', '经': '經', '继': '繼', '续': '續', '见': '見', '计': '計', '订': '訂', '设': '設', '证': '證', '评': '評', '详': '詳', '说': '說', '较': '較', '这': '這', '进': '進', '适': '適', '选': '選', '错': '錯', '项': '項', '须': '須', '预': '預', '验': '驗'}))
+  text=text.translate(str.maketrans({'区': '區', '资': '資', '载': '載', '历': '歷', '图': '圖', '录': '錄', '胆': '膽', '览': '覽', '长': '長', '择': '擇', '槛': '檻', '请': '請', '负': '負', '过': '過', '门': '門', '丢': '丟', '别': '別', '库': '庫', '数': '數', '标': '標', '独': '獨', '结': '結', '两': '兩', '严': '嚴', '为': '為', '书': '書', '于': '於', '价': '價', '体': '體', '关': '關', '内': '內', '写': '寫', '动': '動', '参': '參', '双': '雙', '变': '變', '后': '後', '处': '處', '并': '並', '总': '總', '换': '換', '无': '無', '旧': '舊', '权': '權', '条': '條', '构': '構', '检': '檢', '测': '測', '浓': '濃', '温': '溫', '湿': '濕', '献': '獻', '现': '現', '盖': '蓋', '着': '著', '碱': '鹼', '种': '種', '称': '稱', '简': '簡', '级': '級', '组': '組', '经': '經', '继': '繼', '续': '續', '见': '見', '计': '計', '订': '訂', '设': '設', '证': '證', '评': '評', '详': '詳', '说': '說', '较': '較', '这': '這', '进': '進', '适': '適', '选': '選', '错': '錯', '项': '項', '须': '須', '预': '預', '验': '驗'}))
  if lang=='tw':
   for a,b in [('這里','這裡'),('余量','餘量'),('關系','關係'),('簡並','簡併'),('坐標','座標')]: text=text.replace(a,b)
  (P/name).write_text(text)

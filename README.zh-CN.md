@@ -20,6 +20,8 @@
 
 **主方案引物** · [FASTA](sequences/non_partitioned.fasta) · [配对表](sequences/non_partitioned_pairs.csv) · [名称对照](sequences/primary_name_aliases.csv)
 
+**区域资源** · [香港海胆交互地图](https://guiba-ex.github.io/MiUrchin/) · [数据说明](resources/hong-kong-sea-urchins/README.md)
+
 **稿件** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)
 
 **证据与方法** · [方法](docs/METHODS.zh-CN.md) · [结果与局限](results/reviewer_revision/README.md) · [重现说明](docs/REPRODUCIBILITY.zh-CN.md)

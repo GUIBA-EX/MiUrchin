@@ -20,6 +20,8 @@
 
 **Primary primers** · [FASTA](sequences/non_partitioned.fasta) · [Pair table](sequences/non_partitioned_pairs.csv) · [Name aliases](sequences/primary_name_aliases.csv)
 
+**Regional resource** · [Hong Kong interactive map](https://guiba-ex.github.io/MiUrchin/) · [Data notes](resources/hong-kong-sea-urchins/README.md)
+
 **Manuscript** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)
 
 **Evidence** · [Methods](docs/METHODS.md) · [Results & limitations](results/reviewer_revision/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md)
