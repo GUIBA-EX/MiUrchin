@@ -1,3 +1,14 @@
-# Current manuscript
+# MiUrchin manuscripts
 
-MiUrchin_preprint.md/PDF describe the v2.0.0 branch-limited catalog. The prior v1.2 paper is archived under ../legacy/v1.2/publications. Existing untracked ResearchGate drafts in this folder are historical user files, not regenerated or endorsed by this revision. Build with scripts/build_paper.py, then inspect rendered pages. This is a local manuscript, not a remotely published release.
+The revised manuscript presents the original **32 non-partitioned ordinary/D pairs first**, followed by 76 supplementary branch- or taxon-limited entries. It is a computational study, not peer reviewed; author declarations remain to be completed before journal submission.
+
+- [Revised manuscript PDF](manuscript_20261106/MiUrchin_manuscript.pdf)
+- [Editable Word manuscript](manuscript_20261106/MiUrchin_manuscript.docx)
+- [Markdown manuscript and figures](manuscript_20261106/MiUrchin_manuscript.md)
+- [Supplementary data](manuscript_20261106/supplementary)
+- [Chinese assembly notes](manuscript_20261106/MiUrchin_中文组装说明.pdf)
+- [Provenance manifest](manuscript_20261106/assembly_manifest.json)
+
+The revision draws on the design/evaluation frameworks of Bae (2025) and Marquina, Andersson and Ronquist (2019). No sequences, analysis results or experimental validation were added in this editorial revision. S7/S8 retain archival wording and relative paths; resolve these against the source commit recorded in the manifest.
+
+The [earlier branch-focused manuscript](MiUrchin_preprint.md) and its [PDF](MiUrchin_preprint.pdf) remain available. `scripts/build_paper.py` rebuilds that earlier manuscript only; it does not regenerate the revised Word/PDF package. The [v1.2 manuscript](../legacy/v1.2/publications/MiUrchin_preprint.md) preserves the primary-panel analysis. Existing ResearchGate drafts are separate historical user files.

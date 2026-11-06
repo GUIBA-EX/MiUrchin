@@ -8,6 +8,8 @@
 
 **原始不分分类群方案优先展示 · 分支方案作为补充**
 
+修订稿件（2026-11-06） · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) · [Markdown](publications/manuscript_20261106/MiUrchin_manuscript.md)
+
 原来的 **32 对不按分类群拆分的引物（普通及 D）**继续作为主方案保留，优先展示如下，序列及原始评价结果均保持不变。76 对分支／分类群限定引物作为补充优化方案保留，不替代原方案。
 
 [主方案 FASTA](sequences/non_partitioned.fasta) · [主方案 CSV](sequences/non_partitioned_pairs.csv) · [原方案预印本](legacy/v1.2/publications/MiUrchin_preprint.pdf)

@@ -8,6 +8,8 @@
 
 **原始不分分類群方案優先展示 · 分支方案作为補充**
 
+修订稿件（2026-11-06） · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) · [Markdown](publications/manuscript_20261106/MiUrchin_manuscript.md)
+
 原來的 **32 對不按分類群拆分的引子（普通及 D）**继续作为主方案保留，優先展示如下，序列及原始評價結果均保持不變。76 對分支／分類群限定引子作为補充優化方案保留，不替代原方案。
 
 [主方案 FASTA](sequences/non_partitioned.fasta) · [主方案 CSV](sequences/non_partitioned_pairs.csv) · [原方案預印本](legacy/v1.2/publications/MiUrchin_preprint.pdf)

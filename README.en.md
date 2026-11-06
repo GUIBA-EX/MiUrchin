@@ -8,6 +8,8 @@
 
 **Original non-partitioned collection first · Branch candidates as supplements**
 
+Revised manuscript (6 November 2026) · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) · [Markdown](publications/manuscript_20261106/MiUrchin_manuscript.md)
+
 The original **32 non-taxon-partitioned pairs (ordinary and D)** remain the primary collection and are shown first below. Their sequences and original evaluation results are unchanged. The 76 branch/taxon-limited entries are retained as supplementary optimization candidates, not replacements.
 
 [Primary collection FASTA](sequences/non_partitioned.fasta) · [Primary collection CSV](sequences/non_partitioned_pairs.csv) · [Original manuscript](legacy/v1.2/publications/MiUrchin_preprint.pdf)

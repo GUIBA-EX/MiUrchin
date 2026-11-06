@@ -1,0 +1,6114 @@
+{
+  "version": "2.0.0",
+  "date": "2026-11-05",
+  "status": "local integrated computational release; not remotely published",
+  "baseline_commit": "976d3094ed1e089be19591643dd903b942413fcf",
+  "assays": [
+    {
+      "id": "12S_LD_Holasteroida_local",
+      "gene": "12S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Holasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "ACCCTGYTATACTTAGMYGT",
+      "R": "GTATTCCAGAGCTSTYTTCA",
+      "panel": [
+        "NC_083273.1",
+        "OR178356.1",
+        "OR178360.1",
+        "OR178362.1",
+        "OR178364.1",
+        "OR178365.1",
+        "OR178366.1",
+        "OR178367.1",
+        "OR178369.1",
+        "OR178374.1",
+        "OR178378.1",
+        "OR178379.1",
+        "OR178380.1",
+        "QB038038.1",
+        "QB038039.1",
+        "QB038040.1",
+        "QB038041.1",
+        "QB038042.1"
+      ],
+      "n_records": 18,
+      "covered": 18,
+      "exact": 18,
+      "original_covered": 18,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 2
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 3,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            50.1723448760456,
+            57.916371773305684
+          ],
+          "R_tm": [
+            52.618079076338915,
+            54.498905328551984
+          ],
+          "structure_max": 48.972024770629105,
+          "delta_mid_tm": 0.4858661222301919,
+          "pass_gate": true,
+          "deg_F": 8,
+          "deg_R": 4
+        },
+        {
+          "F_tm": [
+            49.18515132349415,
+            56.92098022424881
+          ],
+          "R_tm": [
+            52.618079076338915,
+            54.498905328551984
+          ],
+          "structure_max": 48.972024770629105,
+          "delta_mid_tm": 0.5054264285739691
+        }
+      ],
+      "minimum_structure_margin": 0.21312655286504878,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_LD_Holasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_LD_Clypeasteroida_local",
+      "gene": "12S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Clypeasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "ACCCTGCTATACTCAGAMGT",
+      "R": "GCATTYCAGAGCTCTYTTCA",
+      "panel": [
+        "MN103227.1",
+        "NC_061414.1",
+        "PQ838327.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 3,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            54.942986379794036,
+            57.561200090814
+          ],
+          "R_tm": [
+            54.20389304700734,
+            57.312299755415495
+          ],
+          "structure_max": 39.657929359107584,
+          "delta_mid_tm": 0.49399683409259865,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 4
+        },
+        {
+          "F_tm": [
+            55.94575654953189,
+            58.557818116173166
+          ],
+          "R_tm": [
+            54.20389304700734,
+            57.312299755415495
+          ],
+          "structure_max": 39.657929359107584,
+          "delta_mid_tm": 1.4936909316411118
+        }
+      ],
+      "minimum_structure_margin": 14.545963687899757,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_LD_Clypeasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_LD_Cidaroidea",
+      "gene": "12S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "ACCCTGTTATACTTAGCCGT",
+      "R": "GCATYCCAGAGCTRRCTTCA",
+      "panel": [
+        "MH614964.1",
+        "NC_050272.1",
+        "NC_050273.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 1
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 3,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            55.645844753438155,
+            55.645844753438155
+          ],
+          "R_tm": [
+            55.454009396561844,
+            62.547640350332586
+          ],
+          "structure_max": 49.92009739180497,
+          "FR_heterodimer_max": -13.703957954733085,
+          "delta_mid_tm": 3.35498012000906,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 8
+        },
+        {
+          "F_tm": [
+            57.64449260810528,
+            57.64449260810528
+          ],
+          "R_tm": [
+            54.484850811375225,
+            61.55500962461713
+          ],
+          "structure_max": 49.92009739180497,
+          "delta_mid_tm": 0.3754376098908949
+        }
+      ],
+      "minimum_structure_margin": 4.564753419570252,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_LD_Cidaroidea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_M_Diadematoida_local",
+      "gene": "12S",
+      "parent": "M",
+      "mode": "ordinary",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "CGGTTTTCCATATCTACCT",
+      "R": "ACTACTGAATCCGATTTCA",
+      "panel": [
+        "NC_033522.1",
+        "NC_033523.1",
+        "NC_050274.1",
+        "NC_067855.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 3,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 1,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 1,
+        "GT_le2last3": 1,
+        "WC_le3": 11,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            51.31734163041847,
+            51.31734163041847
+          ],
+          "R_tm": [
+            50.84113329763261,
+            50.84113329763261
+          ],
+          "structure_max": 40.69839335090353,
+          "delta_mid_tm": 0.47620833278585906,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            53.372518043884156,
+            53.372518043884156
+          ],
+          "R_tm": [
+            52.89754917812195,
+            52.89754917812195
+          ],
+          "structure_max": 40.69839335090353,
+          "delta_mid_tm": 0.4749688657622073
+        }
+      ],
+      "minimum_structure_margin": 10.14273994672908,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_M_Diadematoida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_M_Cidaroidea",
+      "gene": "12S",
+      "parent": "M",
+      "mode": "ordinary",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "CGGTTTCCCAAACCTACCT",
+      "R": "ACTGCTGAATCCAGTTTCA",
+      "panel": [
+        "MH614964.1",
+        "NC_050272.1",
+        "NC_050273.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 2,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 1,
+        "GT_le2last3": 1,
+        "WC_le3": 11,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            56.95436659835491,
+            56.95436659835491
+          ],
+          "R_tm": [
+            54.271607473732615,
+            54.271607473732615
+          ],
+          "structure_max": 54.793426902362114,
+          "FR_heterodimer_max": -13.051151533540462,
+          "delta_mid_tm": 2.6827591246222937,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            59.044767254596934,
+            59.044767254596934
+          ],
+          "R_tm": [
+            56.351234618750595,
+            56.351234618750595
+          ],
+          "structure_max": 54.793426902362114,
+          "delta_mid_tm": 2.6935326358463385
+        }
+      ],
+      "minimum_structure_margin": -0.5218194286294988,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_M_Cidaroidea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_MD_Diadematoida_local",
+      "gene": "12S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "CGGTTTTCCAWATCTACCT",
+      "R": "ACTACTGAATCCGRTTTCA",
+      "panel": [
+        "NC_033522.1",
+        "NC_033523.1",
+        "NC_050274.1",
+        "NC_067855.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 4,
+      "original_covered": 4,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 15,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 2,
+        "GT_le2last3": 2,
+        "WC_le3": 48,
+        "GT_le2": 6
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            51.31734163041847,
+            52.50718984918575
+          ],
+          "R_tm": [
+            50.84113329763261,
+            53.355101924470944
+          ],
+          "structure_max": 40.69839335090353,
+          "delta_mid_tm": 0.1858518712496675,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 2
+        },
+        {
+          "F_tm": [
+            52.34168573893095,
+            53.528966609943154
+          ],
+          "R_tm": [
+            51.86608847278228,
+            54.3887223581678
+          ],
+          "structure_max": 40.69839335090353,
+          "delta_mid_tm": 0.19207924103798746
+        }
+      ],
+      "minimum_structure_margin": 10.14273994672908,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_MD_Diadematoida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_MD_Cidaroidea",
+      "gene": "12S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "CGGTTTCCCAAAYCTACCT",
+      "R": "ACTGCTGAATCCAGTTTCA",
+      "panel": [
+        "MH614964.1",
+        "NC_050272.1",
+        "NC_050273.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 1,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 2,
+        "GT_le2last3": 2,
+        "WC_le3": 48,
+        "GT_le2": 6
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            54.44539381225911,
+            56.95436659835491
+          ],
+          "R_tm": [
+            54.271607473732615,
+            54.271607473732615
+          ],
+          "structure_max": 54.793426902362114,
+          "FR_heterodimer_max": -13.051151533540462,
+          "delta_mid_tm": 1.4282727315743955,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            55.4786658040191,
+            57.9962679829319
+          ],
+          "R_tm": [
+            56.351234618750595,
+            56.351234618750595
+          ],
+          "structure_max": 54.793426902362114,
+          "delta_mid_tm": 0.38623227472490385
+        }
+      ],
+      "minimum_structure_margin": -0.5218194286294988,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_MD_Cidaroidea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_SD_Aulodonta_terminal",
+      "gene": "12S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Aulodonta",
+      "group_type": "higher_taxon_label",
+      "F": "GTCCTAGTCCCAACTTTARC",
+      "R": "AATGTTTAGCACTGCAGWYG",
+      "panel": [
+        "MW147664.1",
+        "NC_033522.1",
+        "NC_033523.1",
+        "NC_050274.1",
+        "NC_065299.1",
+        "NC_065300.1",
+        "NC_065301.1",
+        "NC_065302.1",
+        "NC_067855.1",
+        "PV339712.1"
+      ],
+      "n_records": 10,
+      "covered": 10,
+      "exact": 3,
+      "original_covered": 10,
+      "original_exact": 4,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 1,
+        "GT_le2": 1
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 10,
+        "GT_le2": 2
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            52.942093419545756,
+            55.17194950380406
+          ],
+          "R_tm": [
+            54.273764914100354,
+            56.740566419850836
+          ],
+          "structure_max": 36.922159509293465,
+          "FR_heterodimer_max": -20.510484547076942,
+          "delta_mid_tm": 1.4501442053006883,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 4
+        },
+        {
+          "F_tm": [
+            53.910384562313595,
+            56.14518332629797
+          ],
+          "R_tm": [
+            54.273764914100354,
+            56.740566419850836
+          ],
+          "structure_max": 36.922159509293465,
+          "delta_mid_tm": 0.4793817226698138
+        }
+      ],
+      "minimum_structure_margin": 16.01993391025229,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_SD_Aulodonta_terminal",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_SD_Cidaroidea_terminal",
+      "gene": "12S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "GTCCTAGTCCCGATCTTAAC",
+      "R": "AATGTTTAGCACTGCAGRTG",
+      "panel": [
+        "MH614964.1",
+        "NC_050272.1",
+        "NC_050273.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 2,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 2,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 10,
+        "GT_le2": 2
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            54.4061964229673,
+            54.4061964229673
+          ],
+          "R_tm": [
+            54.273764914100354,
+            56.61937158733144
+          ],
+          "structure_max": 47.81727302809992,
+          "FR_heterodimer_max": -48.11291880030171,
+          "delta_mid_tm": 1.0403718277486007,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 2
+        },
+        {
+          "F_tm": [
+            56.34677640917954,
+            56.34677640917954
+          ],
+          "R_tm": [
+            55.23914193148613,
+            57.59228922548385
+          ],
+          "structure_max": 47.81727302809992,
+          "delta_mid_tm": 0.06893916930545174
+        }
+      ],
+      "minimum_structure_margin": 6.456491886000435,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_SD_Cidaroidea_terminal",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_XL_Echinothurioida_local",
+      "gene": "12S",
+      "parent": "XL",
+      "mode": "ordinary",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "CCACATGCAAGCTAACTAGC",
+      "R": "AAACCGCCAAGTCCTTTGAG",
+      "panel": [
+        "NC_065301.1",
+        "NC_065302.1",
+        "PV339712.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 2,
+      "original_covered": 3,
+      "original_exact": 2,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 3,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 3,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            56.877435674492745,
+            56.877435674492745
+          ],
+          "R_tm": [
+            58.68142360896553,
+            58.68142360896553
+          ],
+          "structure_max": 49.36870553209275,
+          "delta_mid_tm": 1.8039879344727865,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            58.80447304152318,
+            58.80447304152318
+          ],
+          "R_tm": [
+            60.64860110949343,
+            60.64860110949343
+          ],
+          "structure_max": 49.36870553209275,
+          "delta_mid_tm": 1.8441280679702459
+        }
+      ],
+      "minimum_structure_margin": 7.5087301423999975,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_XL_Echinothurioida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_XLD_Echinothurioida_local",
+      "gene": "12S",
+      "parent": "XLD",
+      "mode": "D",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "CCACATGCAAGYYAACTAGC",
+      "R": "AAACCGCCAAGTCCTTTGAG",
+      "panel": [
+        "NC_065301.1",
+        "NC_065302.1",
+        "PV339712.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 3,
+      "original_exact": 3,
+      "background": {
+        "WC_le2last3": 1,
+        "GT_le2last3": 1,
+        "WC_le3": 5,
+        "GT_le2": 2
+      },
+      "original_background": {
+        "WC_le2last3": 2,
+        "GT_le2last3": 3,
+        "WC_le3": 12,
+        "GT_le2": 4
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            54.69047152203137,
+            59.8280971128961
+          ],
+          "R_tm": [
+            58.68142360896553,
+            58.68142360896553
+          ],
+          "structure_max": 49.36870553209275,
+          "delta_mid_tm": 1.422139291501793,
+          "pass_gate": true,
+          "deg_F": 4,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            54.69047152203137,
+            59.8280971128961
+          ],
+          "R_tm": [
+            60.64860110949343,
+            60.64860110949343
+          ],
+          "structure_max": 49.36870553209275,
+          "delta_mid_tm": 3.389316792029689
+        }
+      ],
+      "minimum_structure_margin": 5.321765989938626,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_XLD_Echinothurioida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_XSD_Echinothurioida_local",
+      "gene": "12S",
+      "parent": "XSD",
+      "mode": "D",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "TGCCACATGCAAGYYAACTAG",
+      "R": "TYTAGCACTGCAGWTGTGR",
+      "panel": [
+        "NC_065301.1",
+        "NC_065302.1",
+        "PV339712.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 2,
+      "original_exact": 1,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 4,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 7,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            56.53042076211091,
+            61.49173182946487
+          ],
+          "R_tm": [
+            54.402291098381795,
+            57.387483258840746
+          ],
+          "structure_max": 50.002845616612206,
+          "delta_mid_tm": 3.116189117176617,
+          "pass_gate": true,
+          "deg_F": 4,
+          "deg_R": 8
+        },
+        {
+          "F_tm": [
+            56.53042076211091,
+            61.49173182946487
+          ],
+          "R_tm": [
+            53.38143943357295,
+            56.36976391689018
+          ],
+          "structure_max": 50.002845616612206,
+          "delta_mid_tm": 4.135474620556323
+        }
+      ],
+      "minimum_structure_margin": 3.378593816960745,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "12S_XSD_Echinothurioida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_L_Arbacioida_local",
+      "gene": "16S",
+      "parent": "L",
+      "mode": "ordinary",
+      "target_group": "Arbacioida",
+      "group_type": "higher_taxon_label",
+      "F": "GTCTCCTAAATAGAGACTAGTATGAATGGC",
+      "R": "GCGGTAACTTTTTCCTTTAATCGCC",
+      "panel": [
+        "MW354512.1",
+        "JQ322563.1",
+        "DQ073739.1",
+        "X80396.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 2,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 1
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 2,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.78297683606365,
+            60.78297683606365
+          ],
+          "R_tm": [
+            61.40186849649456,
+            61.40186849649456
+          ],
+          "structure_max": 50.84317992581987,
+          "delta_mid_tm": 0.6188916604309043,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            62.12559829382286,
+            62.12559829382286
+          ],
+          "R_tm": [
+            62.96465836281328,
+            62.96465836281328
+          ],
+          "structure_max": 50.84317992581987,
+          "delta_mid_tm": 0.8390600689904204
+        }
+      ],
+      "minimum_structure_margin": 9.939796910243786,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_L_Arbacioida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_LD_Aulodonta_terminal",
+      "gene": "16S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Aulodonta",
+      "group_type": "higher_taxon_label",
+      "F": "GTCTCCTAAATAGAGACTAGCATGAATGGC",
+      "R": "GCGGTAACTTTTTCCTTTGATCAYC",
+      "panel": [
+        "NC_065299.1",
+        "DQ073738.1",
+        "NC_067855.1",
+        "KJ908847.1",
+        "KX385835.1",
+        "MK609484.1",
+        "KX385836.1",
+        "DQ073732.1",
+        "NC_065302.1",
+        "PV339712.1",
+        "OZ238552.1",
+        "NC_065301.1",
+        "OZ238591.1",
+        "DQ073736.1",
+        "OR343710.1"
+      ],
+      "n_records": 15,
+      "covered": 15,
+      "exact": 0,
+      "original_covered": 14,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 12,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 2,
+        "GT_le2last3": 12,
+        "WC_le3": 12,
+        "GT_le2": 12
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            63.046411769769236,
+            63.046411769769236
+          ],
+          "R_tm": [
+            59.199561645862445,
+            61.071927826136346
+          ],
+          "structure_max": 50.84317992581987,
+          "FR_heterodimer_max": -28.496971773030026,
+          "delta_mid_tm": 2.9106670337698404,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 2
+        },
+        {
+          "F_tm": [
+            64.3914585732661,
+            64.3914585732661
+          ],
+          "R_tm": [
+            59.98034471870409,
+            61.8575116161291
+          ],
+          "structure_max": 50.84317992581987,
+          "delta_mid_tm": 3.4725304058495112
+        }
+      ],
+      "minimum_structure_margin": 8.356381720042577,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_LD_Aulodonta_terminal",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_LD_Cidaroidea_trim",
+      "gene": "16S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "TCTCCTAAATAGAGACTAGYATGAAYGGC",
+      "R": "GCGGTAACTTRTTCYTTTGATCAYC",
+      "panel": [
+        "DQ073737.1",
+        "GU226988.1",
+        "MF077375.1",
+        "MH614961.1",
+        "JQ322575.1",
+        "MF077372.1",
+        "MK609482.1",
+        "DQ073747.1",
+        "DQ073750.1",
+        "MK609483.1"
+      ],
+      "n_records": 10,
+      "covered": 10,
+      "exact": 10,
+      "original_covered": 9,
+      "original_exact": 3,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 2,
+        "GT_le2": 1
+      },
+      "original_background": {
+        "WC_le2last3": 2,
+        "GT_le2last3": 12,
+        "WC_le3": 12,
+        "GT_le2": 12
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            59.8808922381329,
+            63.928521187658134
+          ],
+          "R_tm": [
+            56.871597851100546,
+            62.544706981098045
+          ],
+          "structure_max": 35.45737153812121,
+          "delta_mid_tm": 2.196554296796222,
+          "pass_gate": true,
+          "deg_F": 4,
+          "deg_R": 8
+        },
+        {
+          "F_tm": [
+            59.8808922381329,
+            63.928521187658134
+          ],
+          "R_tm": [
+            56.099385238255365,
+            61.76028607529105
+          ],
+          "structure_max": 35.45737153812121,
+          "delta_mid_tm": 2.9748710561223106
+        }
+      ],
+      "minimum_structure_margin": 20.642013700134157,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_LD_Cidaroidea_trim",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_LD_Arbacioida_local",
+      "gene": "16S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Arbacioida",
+      "group_type": "higher_taxon_label",
+      "F": "GTCTCCTAAATAGAGACTAGTATGAATGGC",
+      "R": "GCGGTAACTTDTTCCTTTRATCGCC",
+      "panel": [
+        "MW354512.1",
+        "JQ322563.1",
+        "DQ073739.1",
+        "X80396.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 4,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 2,
+        "GT_le2": 12
+      },
+      "original_background": {
+        "WC_le2last3": 2,
+        "GT_le2last3": 12,
+        "WC_le3": 12,
+        "GT_le2": 12
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.78297683606365,
+            60.78297683606365
+          ],
+          "R_tm": [
+            60.559607905307814,
+            64.76154193586927
+          ],
+          "structure_max": 50.84317992581987,
+          "delta_mid_tm": 1.877598084524891,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 6
+        },
+        {
+          "F_tm": [
+            62.12559829382286,
+            62.12559829382286
+          ],
+          "R_tm": [
+            60.10433607442525,
+            64.30425441313179
+          ],
+          "structure_max": 50.84317992581987,
+          "delta_mid_tm": 0.07869694995565624
+        }
+      ],
+      "minimum_structure_margin": 9.26115614860538,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_LD_Arbacioida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_M_Clypeasteroida_local",
+      "gene": "16S",
+      "parent": "M",
+      "mode": "ordinary",
+      "target_group": "Clypeasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "GCCAGACGAGAAGACCCTG",
+      "R": "CTTTGATCACCTAAGTGGATCA",
+      "panel": [
+        "PQ838327.1",
+        "MN868944.1",
+        "JQ322561.1",
+        "DQ073745.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 2,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            59.78328991863111,
+            59.78328991863111
+          ],
+          "R_tm": [
+            55.53581985491155,
+            55.53581985491155
+          ],
+          "structure_max": 44.64401961005956,
+          "delta_mid_tm": 4.247470063719561,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            61.832711508078376,
+            61.832711508078376
+          ],
+          "R_tm": [
+            57.33944173615333,
+            57.33944173615333
+          ],
+          "structure_max": 44.64401961005956,
+          "delta_mid_tm": 4.493269771925043
+        }
+      ],
+      "minimum_structure_margin": 10.891800244851993,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_M_Clypeasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_MD_Irregularia",
+      "gene": "16S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Irregularia",
+      "group_type": "higher_taxon_label",
+      "F": "CGYYAGACGAGAAGACCCTR",
+      "R": "CTTTGATCACCDDRGTGGATCA",
+      "panel": [
+        "MN868944.1",
+        "JQ322561.1",
+        "PQ838327.1",
+        "DQ073745.1",
+        "NC_061414.1",
+        "AJ639800.1",
+        "DQ073743.1",
+        "DQ073744.1",
+        "MF617477.1",
+        "MF617490.1",
+        "MF617534.1",
+        "MF617496.1",
+        "MF617521.1",
+        "KF204861.1",
+        "MF617464.1",
+        "MF617528.1",
+        "KF204975.1",
+        "KF204987.1",
+        "KF204863.1",
+        "KF205021.1",
+        "KF204939.1",
+        "KF204931.1",
+        "KF204886.1",
+        "KF205026.1",
+        "MF617449.1",
+        "JQ322579.1",
+        "MN103227.1",
+        "AJ639801.1",
+        "AY957467.1"
+      ],
+      "n_records": 29,
+      "covered": 29,
+      "exact": 27,
+      "original_covered": 29,
+      "original_exact": 1,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            55.84087785778462,
+            62.54961130905485
+          ],
+          "R_tm": [
+            55.53581985491155,
+            62.332077931283436
+          ],
+          "structure_max": 50.30400552949186,
+          "FR_heterodimer_max": 7.113461268745198,
+          "delta_mid_tm": 0.26129569032224254,
+          "pass_gate": true,
+          "deg_F": 8,
+          "deg_R": 18
+        },
+        {
+          "F_tm": [
+            54.876976987874,
+            61.58533678824716
+          ],
+          "R_tm": [
+            53.601092897730325,
+            60.36277663694119
+          ],
+          "structure_max": 50.30400552949186,
+          "delta_mid_tm": 1.2492221207248235
+        }
+      ],
+      "minimum_structure_margin": 3.297087368238465,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_MD_Irregularia",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_MD_Aulodonta",
+      "gene": "16S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Aulodonta",
+      "group_type": "higher_taxon_label",
+      "F": "CGYYAGACGAGAAGACCCTR",
+      "R": "YTTTGATCACCKDRRTGGATCA",
+      "panel": [
+        "NC_065299.1",
+        "DQ073738.1",
+        "NC_067855.1",
+        "KJ908847.1",
+        "KX385835.1",
+        "MK609484.1",
+        "KX385836.1",
+        "DQ073732.1",
+        "NC_065302.1",
+        "PV339712.1",
+        "OZ238552.1",
+        "NC_065301.1",
+        "OZ238591.1",
+        "DQ073736.1",
+        "OR343710.1"
+      ],
+      "n_records": 15,
+      "covered": 15,
+      "exact": 13,
+      "original_covered": 15,
+      "original_exact": 4,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            55.84087785778462,
+            62.54961130905485
+          ],
+          "R_tm": [
+            53.40121024783673,
+            62.332077931283436
+          ],
+          "structure_max": 48.02541109489266,
+          "FR_heterodimer_max": 3.0963619226968717,
+          "delta_mid_tm": 1.3286004938596534,
+          "pass_gate": true,
+          "deg_F": 8,
+          "deg_R": 48
+        },
+        {
+          "F_tm": [
+            54.876976987874,
+            61.58533678824716
+          ],
+          "R_tm": [
+            50.196857384877546,
+            59.09097534905192
+          ],
+          "structure_max": 48.02541109489266,
+          "delta_mid_tm": 3.5872405210958505
+        }
+      ],
+      "minimum_structure_margin": 2.1714462899848854,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_MD_Aulodonta",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_S_Diadematoida_local",
+      "gene": "16S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "TGTGTATAATGGATTGACTAGA",
+      "R": "GGCTAAGACCAATTTCTCGG",
+      "panel": [
+        "NC_067855.1",
+        "KX385835.1",
+        "MK609484.1",
+        "KX385836.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 2,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            51.79049620029383,
+            51.79049620029383
+          ],
+          "R_tm": [
+            56.215092811278055,
+            56.215092811278055
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.424596610984224,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            53.59805174890619,
+            53.59805174890619
+          ],
+          "R_tm": [
+            58.15305157335723,
+            58.15305157335723
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.554999824451045
+        }
+      ],
+      "minimum_structure_margin": 51.79049620029383,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_S_Diadematoida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_SD_Camarodonta_local",
+      "gene": "16S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Camarodonta",
+      "group_type": "higher_taxon_label",
+      "F": "GTGTATAATGGATTAACRAGH",
+      "R": "TTAGCTYARACTAATTTYTYGG",
+      "panel": [
+        "PV804731.1",
+        "PV804729.1",
+        "PX523763.1",
+        "PQ330103.1",
+        "PP666882.1",
+        "OR995750.1",
+        "NC_001453.1",
+        "MK458686.1",
+        "MK609487.1",
+        "MK609486.1",
+        "MK609485.1",
+        "KC898200.2",
+        "MG676468.1",
+        "KJ680295.1",
+        "KJ680292.1",
+        "KU302106.1",
+        "KU302105.1",
+        "KU302103.1",
+        "JX888466.1",
+        "KP070768.1",
+        "KJ526170.1",
+        "KC479025.1",
+        "KC490913.1",
+        "KC490912.1",
+        "JX263663.1",
+        "AM900392.1",
+        "AM900391.1",
+        "AJ130798.1"
+      ],
+      "n_records": 28,
+      "covered": 28,
+      "exact": 14,
+      "original_covered": 23,
+      "original_exact": 2,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 3,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 3,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            48.60081324592721,
+            52.27660027350413
+          ],
+          "R_tm": [
+            48.99379789616961,
+            55.39743335700035
+          ],
+          "structure_max": 35.11948319309505,
+          "delta_mid_tm": 1.7569088668693098,
+          "pass_gate": true,
+          "deg_F": 6,
+          "deg_R": 16
+        },
+        {
+          "F_tm": [
+            48.06465264155662,
+            51.7491512970916
+          ],
+          "R_tm": [
+            47.25485854947817,
+            53.636008340874355
+          ],
+          "structure_max": 35.11948319309505,
+          "delta_mid_tm": 0.5385314758521531
+        }
+      ],
+      "minimum_structure_margin": 12.135375356383122,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_SD_Camarodonta_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_SD_Diadematoida_local",
+      "gene": "16S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "TGTGTATAATGGATTRACTAGA",
+      "R": "GCTAAGACCAATTTCTCGG",
+      "panel": [
+        "NC_067855.1",
+        "KX385835.1",
+        "MK609484.1",
+        "KX385836.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 4,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 3,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            49.484358759978306,
+            51.79049620029383
+          ],
+          "R_tm": [
+            53.49184091233241,
+            53.49184091233241
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 2.8544134321963384,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            50.381763495319944,
+            52.69176721192048
+          ],
+          "R_tm": [
+            55.50208529800358,
+            55.50208529800358
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 3.965319944383367
+        }
+      ],
+      "minimum_structure_margin": 49.484358759978306,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_SD_Diadematoida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_SD_Cidaroidea_local",
+      "gene": "16S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "GTGTATAATGGATTAGCAAGA",
+      "R": "GGCTTAGACCAATTTTRCRA",
+      "panel": [
+        "MH614961.1",
+        "MK609483.1",
+        "MK609482.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 3,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            50.75729816504503,
+            50.75729816504503
+          ],
+          "R_tm": [
+            51.31041889848382,
+            56.70542165135896
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 3.2506221098763604,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 4
+        },
+        {
+          "F_tm": [
+            52.61332602127038,
+            52.61332602127038
+          ],
+          "R_tm": [
+            51.31041889848382,
+            56.70542165135896
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 1.3945942536510074
+        }
+      ],
+      "minimum_structure_margin": 50.75729816504503,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_SD_Cidaroidea_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_SD_Echinothurioida_local",
+      "gene": "16S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "TGTGTATAATGGATTAACAAGW",
+      "R": "GCTTAGCTTAGACTAATTTCTYRR",
+      "panel": [
+        "PV339712.1",
+        "NC_065301.1",
+        "NC_065302.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 0,
+      "original_covered": 2,
+      "original_exact": 1,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 3,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 3,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            50.6085998138463,
+            50.87945535474944
+          ],
+          "R_tm": [
+            52.66443343335948,
+            57.242974263672124
+          ],
+          "structure_max": 40.24754935108996,
+          "delta_mid_tm": 4.209676264217933,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 8
+        },
+        {
+          "F_tm": [
+            51.504427777935405,
+            51.77567266586635
+          ],
+          "R_tm": [
+            51.85464884348801,
+            56.43708023533128
+          ],
+          "structure_max": 40.24754935108996,
+          "delta_mid_tm": 2.505814317508765
+        }
+      ],
+      "minimum_structure_margin": 10.361050462756339,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_SD_Echinothurioida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_XS_Holasteroida_local",
+      "gene": "16S",
+      "parent": "XS",
+      "mode": "ordinary",
+      "target_group": "Holasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "CTCGTGTATAATGGATTAACAA",
+      "R": "AAGCTAATTTTTTGGGGAAC",
+      "panel": [
+        "QB038042.1",
+        "QB038041.1",
+        "QB038040.1",
+        "QB038039.1",
+        "QB038038.1",
+        "NC_083273.1"
+      ],
+      "n_records": 6,
+      "covered": 6,
+      "exact": 2,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            51.80175835027859,
+            51.80175835027859
+          ],
+          "R_tm": [
+            52.13910621601025,
+            52.13910621601025
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 0.3373478657316582,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            53.56452274085035,
+            53.56452274085035
+          ],
+          "R_tm": [
+            54.09785096808287,
+            54.09785096808287
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 0.5333282272325164
+        }
+      ],
+      "minimum_structure_margin": 51.80175835027859,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_XS_Holasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "16S_XSD_Diadematoida_local",
+      "gene": "16S",
+      "parent": "XSD",
+      "mode": "D",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "CTTGTGTATAATGGATTRACTA",
+      "R": "ACCAATTTCTCGGYGAAC",
+      "panel": [
+        "NC_067855.1",
+        "KX385835.1",
+        "MK609484.1",
+        "KX385836.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 4,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 2,
+        "WC_le3": 0,
+        "GT_le2": 2
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 7,
+        "WC_le3": 19,
+        "GT_le2": 7
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            48.836458689479514,
+            51.11287311283456
+          ],
+          "R_tm": [
+            52.47290999104558,
+            55.697176347790275
+          ],
+          "structure_max": 33.880939641070086,
+          "delta_mid_tm": 4.110377268260891,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 2
+        },
+        {
+          "F_tm": [
+            49.71975269264982,
+            51.99993833151632
+          ],
+          "R_tm": [
+            53.5376721143997,
+            56.75613945276399
+          ],
+          "structure_max": 33.880939641070086,
+          "delta_mid_tm": 4.287060271498774
+        }
+      ],
+      "minimum_structure_margin": 14.955519048409428,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "16S_XSD_Diadematoida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_L_Echinacea",
+      "gene": "28S",
+      "parent": "L",
+      "mode": "ordinary",
+      "target_group": "Echinacea",
+      "group_type": "higher_taxon_label",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC",
+      "panel": [
+        "XR_004063668.1",
+        "PQ507427.1",
+        "AY026367.1",
+        "PV588638.1",
+        "PQ507433.1",
+        "PQ507436.1",
+        "OR569199.1",
+        "PQ507447.1",
+        "DQ073768.1",
+        "OR569205.1",
+        "DQ073751.1",
+        "PV588637.1"
+      ],
+      "n_records": 12,
+      "covered": 12,
+      "exact": 12,
+      "original_covered": 12,
+      "original_exact": 12,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            67.92611365504945,
+            67.92611365504945
+          ],
+          "R_tm": [
+            64.98434290143723,
+            64.98434290143723
+          ],
+          "structure_max": 52.536691763958515,
+          "FR_heterodimer_max": 2.230436669598305,
+          "delta_mid_tm": 2.941770753612218,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            69.90466293677724,
+            69.90466293677724
+          ],
+          "R_tm": [
+            66.9705052026398,
+            66.9705052026398
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.934157734137443
+        }
+      ],
+      "minimum_structure_margin": 12.447651137478715,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_L_Echinacea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_L_Aulodonta",
+      "gene": "28S",
+      "parent": "L",
+      "mode": "ordinary",
+      "target_group": "Aulodonta",
+      "group_type": "higher_taxon_label",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC",
+      "panel": [
+        "DQ073752.1",
+        "MW325160.1",
+        "MW324745.1",
+        "XR_011902521.1",
+        "XR_011709749.1",
+        "DQ073755.1",
+        "MW324711.1",
+        "DQ073757.1",
+        "DQ073754.1"
+      ],
+      "n_records": 9,
+      "covered": 9,
+      "exact": 8,
+      "original_covered": 9,
+      "original_exact": 8,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            67.92611365504945,
+            67.92611365504945
+          ],
+          "R_tm": [
+            64.98434290143723,
+            64.98434290143723
+          ],
+          "structure_max": 52.536691763958515,
+          "FR_heterodimer_max": 2.230436669598305,
+          "delta_mid_tm": 2.941770753612218,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            69.90466293677724,
+            69.90466293677724
+          ],
+          "R_tm": [
+            66.9705052026398,
+            66.9705052026398
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.934157734137443
+        }
+      ],
+      "minimum_structure_margin": 12.447651137478715,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_L_Aulodonta",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_L_Clypeasteroida_local",
+      "gene": "28S",
+      "parent": "L",
+      "mode": "ordinary",
+      "target_group": "Clypeasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC",
+      "panel": [
+        "MF617769.1",
+        "MF617774.1",
+        "MF617779.1",
+        "OQ308839.1",
+        "DQ073765.1"
+      ],
+      "n_records": 5,
+      "covered": 5,
+      "exact": 5,
+      "original_covered": 5,
+      "original_exact": 5,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            67.92611365504945,
+            67.92611365504945
+          ],
+          "R_tm": [
+            64.98434290143723,
+            64.98434290143723
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.941770753612218,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            69.90466293677724,
+            69.90466293677724
+          ],
+          "R_tm": [
+            66.9705052026398,
+            66.9705052026398
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.934157734137443
+        }
+      ],
+      "minimum_structure_margin": 12.447651137478715,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_L_Clypeasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_L_Cidaroidea",
+      "gene": "28S",
+      "parent": "L",
+      "mode": "ordinary",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC",
+      "panel": [
+        "DQ073756.1",
+        "DQ073767.1",
+        "DQ073772.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 3,
+      "original_exact": 3,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            67.92611365504945,
+            67.92611365504945
+          ],
+          "R_tm": [
+            64.98434290143723,
+            64.98434290143723
+          ],
+          "structure_max": 52.536691763958515,
+          "FR_heterodimer_max": 2.230436669598305,
+          "delta_mid_tm": 2.941770753612218,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            69.90466293677724,
+            69.90466293677724
+          ],
+          "R_tm": [
+            66.9705052026398,
+            66.9705052026398
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.934157734137443
+        }
+      ],
+      "minimum_structure_margin": 12.447651137478715,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_L_Cidaroidea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_LD_Echinacea",
+      "gene": "28S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Echinacea",
+      "group_type": "higher_taxon_label",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC",
+      "panel": [
+        "XR_004063668.1",
+        "PQ507427.1",
+        "AY026367.1",
+        "PV588638.1",
+        "PQ507433.1",
+        "PQ507436.1",
+        "OR569199.1",
+        "PQ507447.1",
+        "DQ073768.1",
+        "OR569205.1",
+        "DQ073751.1",
+        "PV588637.1"
+      ],
+      "n_records": 12,
+      "covered": 12,
+      "exact": 12,
+      "original_covered": 12,
+      "original_exact": 12,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            67.92611365504945,
+            67.92611365504945
+          ],
+          "R_tm": [
+            64.98434290143723,
+            64.98434290143723
+          ],
+          "structure_max": 52.536691763958515,
+          "FR_heterodimer_max": 2.230436669598305,
+          "delta_mid_tm": 2.941770753612218,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            69.90466293677724,
+            69.90466293677724
+          ],
+          "R_tm": [
+            66.9705052026398,
+            66.9705052026398
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.934157734137443
+        }
+      ],
+      "minimum_structure_margin": 12.447651137478715,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_LD_Echinacea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_LD_Aulodonta_terminal",
+      "gene": "28S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Aulodonta",
+      "group_type": "higher_taxon_label",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC",
+      "panel": [
+        "DQ073752.1",
+        "MW325160.1",
+        "MW324745.1",
+        "XR_011902521.1",
+        "XR_011709749.1",
+        "DQ073755.1",
+        "MW324711.1",
+        "DQ073757.1",
+        "DQ073754.1"
+      ],
+      "n_records": 9,
+      "covered": 9,
+      "exact": 8,
+      "original_covered": 9,
+      "original_exact": 8,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            67.92611365504945,
+            67.92611365504945
+          ],
+          "R_tm": [
+            64.98434290143723,
+            64.98434290143723
+          ],
+          "structure_max": 52.536691763958515,
+          "FR_heterodimer_max": 2.230436669598305,
+          "delta_mid_tm": 2.941770753612218,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            69.90466293677724,
+            69.90466293677724
+          ],
+          "R_tm": [
+            66.9705052026398,
+            66.9705052026398
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.934157734137443
+        }
+      ],
+      "minimum_structure_margin": 12.447651137478715,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_LD_Aulodonta_terminal",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_LD_Clypeasteroida_local",
+      "gene": "28S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Clypeasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC",
+      "panel": [
+        "MF617769.1",
+        "MF617774.1",
+        "MF617779.1",
+        "OQ308839.1",
+        "DQ073765.1"
+      ],
+      "n_records": 5,
+      "covered": 5,
+      "exact": 5,
+      "original_covered": 5,
+      "original_exact": 5,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            67.92611365504945,
+            67.92611365504945
+          ],
+          "R_tm": [
+            64.98434290143723,
+            64.98434290143723
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.941770753612218,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            69.90466293677724,
+            69.90466293677724
+          ],
+          "R_tm": [
+            66.9705052026398,
+            66.9705052026398
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.934157734137443
+        }
+      ],
+      "minimum_structure_margin": 12.447651137478715,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_LD_Clypeasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_LD_Cidaroidea",
+      "gene": "28S",
+      "parent": "LD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC",
+      "panel": [
+        "DQ073756.1",
+        "DQ073767.1",
+        "DQ073772.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 3,
+      "original_exact": 3,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            67.92611365504945,
+            67.92611365504945
+          ],
+          "R_tm": [
+            64.98434290143723,
+            64.98434290143723
+          ],
+          "structure_max": 52.536691763958515,
+          "FR_heterodimer_max": 2.230436669598305,
+          "delta_mid_tm": 2.941770753612218,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            69.90466293677724,
+            69.90466293677724
+          ],
+          "R_tm": [
+            66.9705052026398,
+            66.9705052026398
+          ],
+          "structure_max": 52.536691763958515,
+          "delta_mid_tm": 2.934157734137443
+        }
+      ],
+      "minimum_structure_margin": 12.447651137478715,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_LD_Cidaroidea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_M_Echinacea",
+      "gene": "28S",
+      "parent": "M",
+      "mode": "ordinary",
+      "target_group": "Echinacea",
+      "group_type": "higher_taxon_label",
+      "F": "AAGAGCCCATCGCCGAATCC",
+      "R": "CCGACTCTTGGTGGCTCCAG",
+      "panel": [
+        "XR_004063668.1",
+        "AY026367.1",
+        "PV588638.1",
+        "DQ073758.1",
+        "JQ322616.1",
+        "JQ322609.1",
+        "JQ322595.1",
+        "JQ322607.1",
+        "DQ073768.1",
+        "JQ322618.1",
+        "DQ073751.1",
+        "PV588637.1"
+      ],
+      "n_records": 12,
+      "covered": 12,
+      "exact": 9,
+      "original_covered": 11,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            62.66659587288228,
+            62.66659587288228
+          ],
+          "R_tm": [
+            62.51302649383882,
+            62.51302649383882
+          ],
+          "structure_max": 47.84494250262361,
+          "FR_heterodimer_max": 4.652560608603949,
+          "delta_mid_tm": 0.15356937904346069,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            64.65056675773599,
+            64.65056675773599
+          ],
+          "R_tm": [
+            64.48635575056227,
+            64.48635575056227
+          ],
+          "structure_max": 47.84494250262361,
+          "delta_mid_tm": 0.16421100717371928
+        }
+      ],
+      "minimum_structure_margin": 14.668083991215212,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_M_Echinacea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_M_Holasteroida_local",
+      "gene": "28S",
+      "parent": "M",
+      "mode": "ordinary",
+      "target_group": "Holasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "AAGAGCCCATCGCTGAATCC",
+      "R": "CCGACTCTTGGTGGCTCCAG",
+      "panel": [
+        "OR178329.1",
+        "OR178317.1",
+        "OR178312.1",
+        "OR178314.1",
+        "OR178309.1",
+        "OR178324.1",
+        "AY957469.1",
+        "OR178320.1",
+        "OR178316.1",
+        "OR178328.1",
+        "OR178306.1"
+      ],
+      "n_records": 11,
+      "covered": 11,
+      "exact": 9,
+      "original_covered": 11,
+      "original_exact": 9,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.17903436827709,
+            60.17903436827709
+          ],
+          "R_tm": [
+            62.51302649383882,
+            62.51302649383882
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 2.3339921255617355,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            62.16277482592682,
+            62.16277482592682
+          ],
+          "R_tm": [
+            64.48635575056227,
+            64.48635575056227
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 2.3235809246354506
+        }
+      ],
+      "minimum_structure_margin": 7.991060323974978,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_M_Holasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_M_Diadematoida_local",
+      "gene": "28S",
+      "parent": "M",
+      "mode": "ordinary",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "AAGAGCCCATCGCCGAATCC",
+      "R": "CCGACTCTTGGCGGCTCCAG",
+      "panel": [
+        "MW325160.1",
+        "MW324745.1",
+        "XR_011902521.1",
+        "XR_011709749.1",
+        "MW324711.1",
+        "DQ073757.1"
+      ],
+      "n_records": 6,
+      "covered": 6,
+      "exact": 4,
+      "original_covered": 6,
+      "original_exact": 1,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            62.66659587288228,
+            62.66659587288228
+          ],
+          "R_tm": [
+            65.27186651332255,
+            65.27186651332255
+          ],
+          "structure_max": 47.43935485231367,
+          "delta_mid_tm": 2.605270640440267,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            64.65056675773599,
+            64.65056675773599
+          ],
+          "R_tm": [
+            67.23419226523987,
+            67.23419226523987
+          ],
+          "structure_max": 47.43935485231367,
+          "delta_mid_tm": 2.583625507503882
+        }
+      ],
+      "minimum_structure_margin": 15.227241020568613,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_M_Diadematoida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_M_Clypeasteroida_local",
+      "gene": "28S",
+      "parent": "M",
+      "mode": "ordinary",
+      "target_group": "Clypeasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "AATAGCCCATCGCTGAATCC",
+      "R": "CCGACTCTTGGTGGCTCCAG",
+      "panel": [
+        "MF617769.1",
+        "MF617774.1",
+        "MF617779.1",
+        "JQ322592.1",
+        "DQ073765.1"
+      ],
+      "n_records": 5,
+      "covered": 5,
+      "exact": 3,
+      "original_covered": 5,
+      "original_exact": 2,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            57.80887229991225,
+            57.80887229991225
+          ],
+          "R_tm": [
+            62.51302649383882,
+            62.51302649383882
+          ],
+          "structure_max": 50.74244555609391,
+          "delta_mid_tm": 4.70415419392657,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            59.78491112494169,
+            59.78491112494169
+          ],
+          "R_tm": [
+            64.48635575056227,
+            64.48635575056227
+          ],
+          "structure_max": 50.74244555609391,
+          "delta_mid_tm": 4.7014446256205815
+        }
+      ],
+      "minimum_structure_margin": 7.06642674381834,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_M_Clypeasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_MD_Cidaroidea_terminal",
+      "gene": "28S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "AAGAGCCCATCGCTGAATCC",
+      "R": "CCGACTCTTGGTGGCTCCMR",
+      "panel": [
+        "JN091883.1",
+        "AJ225838.1",
+        "JN091885.1",
+        "JN091884.1",
+        "JN091880.1",
+        "JN091888.1",
+        "JN091887.1",
+        "JN091873.1",
+        "JN091881.1",
+        "JN091877.1",
+        "JN091879.1",
+        "DQ073756.1",
+        "JN091876.1",
+        "DQ073767.1",
+        "JN091886.1",
+        "JQ322608.1",
+        "DQ073772.1"
+      ],
+      "n_records": 17,
+      "covered": 17,
+      "exact": 15,
+      "original_covered": 16,
+      "original_exact": 15,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 2,
+        "WC_le3": 0,
+        "GT_le2": 5
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 2,
+        "WC_le3": 0,
+        "GT_le2": 5
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.17903436827709,
+            60.17903436827709
+          ],
+          "R_tm": [
+            62.11199912943334,
+            64.95400195660716
+          ],
+          "structure_max": 52.18797404430211,
+          "FR_heterodimer_max": 4.652560608603949,
+          "delta_mid_tm": 3.3539661747431637,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 4
+        },
+        {
+          "F_tm": [
+            62.16277482592682,
+            62.16277482592682
+          ],
+          "R_tm": [
+            62.11199912943334,
+            64.95400195660716
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 1.370225717093433
+        }
+      ],
+      "minimum_structure_margin": 7.991060323974978,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_MD_Cidaroidea_terminal",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_MD_Echinacea",
+      "gene": "28S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Echinacea",
+      "group_type": "higher_taxon_label",
+      "F": "AWRAGCCCATCGCCGAATCC",
+      "R": "CYGACTCTTGGTGRCTCCAG",
+      "panel": [
+        "XR_004063668.1",
+        "AY026367.1",
+        "PV588638.1",
+        "DQ073758.1",
+        "JQ322616.1",
+        "JQ322609.1",
+        "JQ322595.1",
+        "JQ322607.1",
+        "DQ073768.1",
+        "JQ322618.1",
+        "DQ073751.1",
+        "PV588637.1"
+      ],
+      "n_records": 12,
+      "covered": 12,
+      "exact": 12,
+      "original_covered": 12,
+      "original_exact": 11,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 2,
+        "WC_le3": 0,
+        "GT_le2": 5
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.321652503670975,
+            62.738212911773644
+          ],
+          "R_tm": [
+            57.260115184975234,
+            62.51302649383882
+          ],
+          "structure_max": 47.84494250262361,
+          "FR_heterodimer_max": 5.480139534216619,
+          "delta_mid_tm": 1.6433618683152815,
+          "pass_gate": true,
+          "deg_F": 4,
+          "deg_R": 4
+        },
+        {
+          "F_tm": [
+            60.321652503670975,
+            62.738212911773644
+          ],
+          "R_tm": [
+            57.260115184975234,
+            62.51302649383882
+          ],
+          "structure_max": 47.84494250262361,
+          "delta_mid_tm": 1.6433618683152815
+        }
+      ],
+      "minimum_structure_margin": 9.415172682351624,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_MD_Echinacea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_MD_Holasteroida_local",
+      "gene": "28S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Holasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "AAGAGCCYATCGCYGAATCC",
+      "R": "CCGACTCTTGGTGGCTCCAG",
+      "panel": [
+        "OR178329.1",
+        "OR178317.1",
+        "OR178312.1",
+        "OR178314.1",
+        "OR178309.1",
+        "OR178324.1",
+        "AY957469.1",
+        "OR178320.1",
+        "OR178316.1",
+        "OR178328.1",
+        "OR178306.1"
+      ],
+      "n_records": 11,
+      "covered": 11,
+      "exact": 11,
+      "original_covered": 11,
+      "original_exact": 9,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 2,
+        "WC_le3": 0,
+        "GT_le2": 5
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            57.17025890647079,
+            62.66659587288228
+          ],
+          "R_tm": [
+            62.51302649383882,
+            62.51302649383882
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 2.5945991041622847,
+          "pass_gate": true,
+          "deg_F": 4,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            57.17025890647079,
+            62.66659587288228
+          ],
+          "R_tm": [
+            64.48635575056227,
+            64.48635575056227
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 4.56792836088573
+        }
+      ],
+      "minimum_structure_margin": 4.982284862168683,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_MD_Holasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_MD_Diadematoida_local",
+      "gene": "28S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "AAGAGCCCAKCGCYGAATCC",
+      "R": "CCGACTCTTGGYGGCTCCAG",
+      "panel": [
+        "MW325160.1",
+        "MW324745.1",
+        "XR_011902521.1",
+        "XR_011709749.1",
+        "MW324711.1",
+        "DQ073757.1"
+      ],
+      "n_records": 6,
+      "covered": 6,
+      "exact": 6,
+      "original_covered": 6,
+      "original_exact": 5,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 2,
+        "WC_le3": 0,
+        "GT_le2": 5
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.17903436827709,
+            65.3365778539258
+          ],
+          "R_tm": [
+            62.51302649383882,
+            65.27186651332255
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 1.1346403924792412,
+          "pass_gate": true,
+          "deg_F": 4,
+          "deg_R": 2
+        },
+        {
+          "F_tm": [
+            60.17903436827709,
+            65.3365778539258
+          ],
+          "R_tm": [
+            63.49679937117702,
+            66.25019299565531
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 2.1156900723147203
+        }
+      ],
+      "minimum_structure_margin": 7.991060323974978,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_MD_Diadematoida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_MD_Clypeasteroida_local",
+      "gene": "28S",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Clypeasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "AAKAGCCCATCGCTGAATCC",
+      "R": "CCGACTCTTGGTGGCTCCAG",
+      "panel": [
+        "MF617769.1",
+        "MF617774.1",
+        "MF617779.1",
+        "JQ322592.1",
+        "DQ073765.1"
+      ],
+      "n_records": 5,
+      "covered": 5,
+      "exact": 5,
+      "original_covered": 5,
+      "original_exact": 2,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 0,
+        "GT_le2": 3
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 2,
+        "WC_le3": 0,
+        "GT_le2": 5
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            57.80887229991225,
+            60.17903436827709
+          ],
+          "R_tm": [
+            62.51302649383882,
+            62.51302649383882
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 3.5190731597441527,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            58.793950933694305,
+            61.16796189583107
+          ],
+          "R_tm": [
+            64.48635575056227,
+            64.48635575056227
+          ],
+          "structure_max": 52.18797404430211,
+          "delta_mid_tm": 4.505399335799581
+        }
+      ],
+      "minimum_structure_margin": 5.620898255610143,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_MD_Clypeasteroida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_S_Irregularia",
+      "gene": "28S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Irregularia",
+      "group_type": "higher_taxon_label",
+      "F": "GCCTGGAGCCACCAAGAGTC",
+      "R": "TTGTCTGCTATCGGTCTCGT",
+      "panel": [
+        "DQ073761.1",
+        "MF617769.1",
+        "AJ639798.1",
+        "MF617774.1",
+        "MF617779.1",
+        "AJ639784.1",
+        "OQ308839.1",
+        "JQ322592.1",
+        "AJ639796.1",
+        "OR178329.1",
+        "AJ639787.1",
+        "AJ639783.1",
+        "OR178317.1",
+        "AJ639799.1",
+        "OR178312.1",
+        "AJ639782.1",
+        "AJ639781.1",
+        "OR178314.1",
+        "AJ639791.1",
+        "OR178309.1",
+        "AJ225810.1",
+        "OR178324.1",
+        "AJ639790.1",
+        "AJ639795.1",
+        "AY957469.1",
+        "DQ073765.1",
+        "AJ639779.1",
+        "AJ639797.1",
+        "AJ639794.1",
+        "AJ639792.1",
+        "OR178320.1",
+        "AJ639776.1",
+        "AJ639786.1",
+        "OR178316.1",
+        "OR178328.1",
+        "AJ639789.1",
+        "AJ639788.1",
+        "AJ639793.1",
+        "OR178306.1",
+        "AJ639780.1"
+      ],
+      "n_records": 40,
+      "covered": 40,
+      "exact": 35,
+      "original_covered": 40,
+      "original_exact": 35,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            62.81154235644982,
+            62.81154235644982
+          ],
+          "R_tm": [
+            58.53949582354289,
+            58.53949582354289
+          ],
+          "structure_max": 49.07699297570292,
+          "FR_heterodimer_max": -43.58214664711036,
+          "delta_mid_tm": 4.272046532906927,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            64.7985003501222,
+            64.7985003501222
+          ],
+          "R_tm": [
+            60.50498593533689,
+            60.50498593533689
+          ],
+          "structure_max": 49.07699297570292,
+          "delta_mid_tm": 4.293514414785307
+        }
+      ],
+      "minimum_structure_margin": 9.462502847839971,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_S_Irregularia",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_S_Echinacea",
+      "gene": "28S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Echinacea",
+      "group_type": "higher_taxon_label",
+      "F": "GCCTGGAGCCACCAAGAGTC",
+      "R": "TTGTCTGCTATCGGTCTCGT",
+      "panel": [
+        "XR_004063668.1",
+        "AY026367.1",
+        "PV588638.1",
+        "DQ073758.1",
+        "JQ322616.1",
+        "JQ322609.1",
+        "JQ322595.1",
+        "JQ322607.1",
+        "DQ073768.1",
+        "JQ322618.1",
+        "DQ073751.1",
+        "PV588637.1"
+      ],
+      "n_records": 12,
+      "covered": 12,
+      "exact": 10,
+      "original_covered": 12,
+      "original_exact": 10,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            62.81154235644982,
+            62.81154235644982
+          ],
+          "R_tm": [
+            58.53949582354289,
+            58.53949582354289
+          ],
+          "structure_max": 49.07699297570292,
+          "FR_heterodimer_max": -43.58214664711036,
+          "delta_mid_tm": 4.272046532906927,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            64.7985003501222,
+            64.7985003501222
+          ],
+          "R_tm": [
+            60.50498593533689,
+            60.50498593533689
+          ],
+          "structure_max": 49.07699297570292,
+          "delta_mid_tm": 4.293514414785307
+        }
+      ],
+      "minimum_structure_margin": 9.462502847839971,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_S_Echinacea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_S_Diadematoida_local",
+      "gene": "28S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "CCTGGAGCCGCCAAGAGTC",
+      "R": "TTGTCTGCTATCGGTCTCGT",
+      "panel": [
+        "MW325160.1",
+        "MW324745.1",
+        "XR_011902521.1",
+        "XR_011709749.1",
+        "MW324711.1",
+        "DQ073757.1"
+      ],
+      "n_records": 6,
+      "covered": 6,
+      "exact": 5,
+      "original_covered": 6,
+      "original_exact": 1,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            62.672295084485086,
+            62.672295084485086
+          ],
+          "R_tm": [
+            58.53949582354289,
+            58.53949582354289
+          ],
+          "structure_max": 48.653036908977754,
+          "delta_mid_tm": 4.132799260942193,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            64.74088719510735,
+            64.74088719510735
+          ],
+          "R_tm": [
+            60.50498593533689,
+            60.50498593533689
+          ],
+          "structure_max": 48.653036908977754,
+          "delta_mid_tm": 4.235901259770458
+        }
+      ],
+      "minimum_structure_margin": 9.88645891456514,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_S_Diadematoida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_SD_Irregularia_terminal",
+      "gene": "28S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Irregularia",
+      "group_type": "higher_taxon_label",
+      "F": "GCCTGGAGCCACCAAGAGTC",
+      "R": "TTGTCTGCTATCGGTCTCGT",
+      "panel": [
+        "DQ073761.1",
+        "MF617769.1",
+        "AJ639798.1",
+        "MF617774.1",
+        "MF617779.1",
+        "AJ639784.1",
+        "OQ308839.1",
+        "JQ322592.1",
+        "AJ639796.1",
+        "OR178329.1",
+        "AJ639787.1",
+        "AJ639783.1",
+        "OR178317.1",
+        "AJ639799.1",
+        "OR178312.1",
+        "AJ639782.1",
+        "AJ639781.1",
+        "OR178314.1",
+        "AJ639791.1",
+        "OR178309.1",
+        "AJ225810.1",
+        "OR178324.1",
+        "AJ639790.1",
+        "AJ639795.1",
+        "AY957469.1",
+        "DQ073765.1",
+        "AJ639779.1",
+        "AJ639797.1",
+        "AJ639794.1",
+        "AJ639792.1",
+        "OR178320.1",
+        "AJ639776.1",
+        "AJ639786.1",
+        "OR178316.1",
+        "OR178328.1",
+        "AJ639789.1",
+        "AJ639788.1",
+        "AJ639793.1",
+        "OR178306.1",
+        "AJ639780.1"
+      ],
+      "n_records": 40,
+      "covered": 40,
+      "exact": 35,
+      "original_covered": 40,
+      "original_exact": 35,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            62.81154235644982,
+            62.81154235644982
+          ],
+          "R_tm": [
+            58.53949582354289,
+            58.53949582354289
+          ],
+          "structure_max": 49.07699297570292,
+          "FR_heterodimer_max": -43.58214664711036,
+          "delta_mid_tm": 4.272046532906927,
+          "pass_gate": true,
+          "deg_F": 1,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            64.7985003501222,
+            64.7985003501222
+          ],
+          "R_tm": [
+            60.50498593533689,
+            60.50498593533689
+          ],
+          "structure_max": 49.07699297570292,
+          "delta_mid_tm": 4.293514414785307
+        }
+      ],
+      "minimum_structure_margin": 9.462502847839971,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_SD_Irregularia_terminal",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_SD_Echinacea",
+      "gene": "28S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Echinacea",
+      "group_type": "higher_taxon_label",
+      "F": "GCCTGGAGYCACCAAGAGTC",
+      "R": "TTGTCTGCTATCGGTCTCGT",
+      "panel": [
+        "XR_004063668.1",
+        "AY026367.1",
+        "PV588638.1",
+        "DQ073758.1",
+        "JQ322616.1",
+        "JQ322609.1",
+        "JQ322595.1",
+        "JQ322607.1",
+        "DQ073768.1",
+        "JQ322618.1",
+        "DQ073751.1",
+        "PV588637.1"
+      ],
+      "n_records": 12,
+      "covered": 12,
+      "exact": 12,
+      "original_covered": 12,
+      "original_exact": 10,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.0368584804134,
+            62.81154235644982
+          ],
+          "R_tm": [
+            58.53949582354289,
+            58.53949582354289
+          ],
+          "structure_max": 49.07699297570292,
+          "FR_heterodimer_max": -43.58214664711036,
+          "delta_mid_tm": 2.884704594888717,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            61.01859692344783,
+            63.80209217741793
+          ],
+          "R_tm": [
+            60.50498593533689,
+            60.50498593533689
+          ],
+          "structure_max": 49.07699297570292,
+          "delta_mid_tm": 1.9053586150959916
+        }
+      ],
+      "minimum_structure_margin": 9.462502847839971,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_SD_Echinacea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "28S_SD_Aulodonta_local",
+      "gene": "28S",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Aulodonta",
+      "group_type": "higher_taxon_label",
+      "F": "CCTGGARCCRCCRWGAGTC",
+      "R": "TTGTCTGCTATCGGTCTCGT",
+      "panel": [
+        "DQ073752.1",
+        "MW325160.1",
+        "MW324745.1",
+        "XR_011902521.1",
+        "XR_011709749.1",
+        "DQ073755.1",
+        "MW324711.1",
+        "DQ073757.1",
+        "DQ073754.1"
+      ],
+      "n_records": 9,
+      "covered": 9,
+      "exact": 8,
+      "original_covered": 8,
+      "original_exact": 7,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            57.366639462500984,
+            65.19395971238612
+          ],
+          "R_tm": [
+            58.53949582354289,
+            58.53949582354289
+          ],
+          "structure_max": 49.07699297570292,
+          "delta_mid_tm": 2.740803763900658,
+          "pass_gate": true,
+          "deg_F": 16,
+          "deg_R": 1
+        },
+        {
+          "F_tm": [
+            55.32254294283126,
+            63.163897861545195
+          ],
+          "R_tm": [
+            60.50498593533689,
+            60.50498593533689
+          ],
+          "structure_max": 49.07699297570292,
+          "delta_mid_tm": 1.2617655331486617
+        }
+      ],
+      "minimum_structure_margin": 6.2455499671283405,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "28S_SD_Aulodonta_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "COI_MD_Cidaroidea_local",
+      "gene": "COI",
+      "parent": "MD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "TCAAACCTTCAATGAGARAC",
+      "R": "ACCTTTCTTCABAGDGGGTG",
+      "panel": [
+        "AF063313.1",
+        "AF063363.1",
+        "JX139899.1",
+        "NC_050252.1",
+        "NC_050272.1",
+        "NC_050273.1",
+        "OQ339146.1"
+      ],
+      "n_records": 7,
+      "covered": 7,
+      "exact": 2,
+      "original_covered": 4,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            51.57143337510348,
+            52.8436190940634
+          ],
+          "R_tm": [
+            54.042713674532365,
+            59.521493206925754
+          ],
+          "structure_max": 49.32302350516596,
+          "delta_mid_tm": 4.574577206145619,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 9
+        },
+        {
+          "F_tm": [
+            52.53669504493894,
+            53.815178737173596
+          ],
+          "R_tm": [
+            52.891388766278226,
+            58.35088958286025
+          ],
+          "structure_max": 49.32302350516596,
+          "delta_mid_tm": 2.4452022835129696
+        }
+      ],
+      "minimum_structure_margin": 2.248409869937518,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "COI_MD_Cidaroidea_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "COI_SD_Cidaroidea",
+      "gene": "COI",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "CARGGVTCAAAYCTYCAATG",
+      "R": "AATCARTGWGARAAYCCDGC",
+      "panel": [
+        "AF063313.1",
+        "AF063363.1",
+        "JX139899.1",
+        "NC_050252.1",
+        "NC_050272.1",
+        "NC_050273.1",
+        "OQ339146.1"
+      ],
+      "n_records": 7,
+      "covered": 7,
+      "exact": 5,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 13,
+        "GT_le2": 1
+      },
+      "original_background": {
+        "WC_le2last3": 1,
+        "GT_le2last3": 1,
+        "WC_le3": 40,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            50.06738756892304,
+            58.819971164957394
+          ],
+          "R_tm": [
+            51.753972765791616,
+            60.321652503670975
+          ],
+          "structure_max": 47.91778709977257,
+          "FR_heterodimer_max": 15.198352259058822,
+          "delta_mid_tm": 1.5941332677910793,
+          "pass_gate": true,
+          "deg_F": 24,
+          "deg_R": 48
+        },
+        {
+          "F_tm": [
+            47.627681496023285,
+            56.30299258688092
+          ],
+          "R_tm": [
+            48.32501328028212,
+            56.836538608649846
+          ],
+          "structure_max": 47.91778709977257,
+          "delta_mid_tm": 0.6154389030138816
+        }
+      ],
+      "minimum_structure_margin": -0.2901056037492822,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "COI_SD_Cidaroidea",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "COI_SD_Echinothurioida_local",
+      "gene": "COI",
+      "parent": "SD",
+      "mode": "D",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "CAAGGGTCYAAYCTRCARTG",
+      "R": "AATCAGTGGGTRAAKCCDGC",
+      "panel": [
+        "NC_065301.1",
+        "NC_065302.1",
+        "PV339712.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 1,
+      "original_covered": 1,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 1,
+        "GT_le2last3": 1,
+        "WC_le3": 40,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            50.63483469013056,
+            61.17471180489525
+          ],
+          "R_tm": [
+            55.392269681849996,
+            63.10423980390857
+          ],
+          "structure_max": 40.86931031522187,
+          "delta_mid_tm": 3.343481495366376,
+          "pass_gate": true,
+          "deg_F": 16,
+          "deg_R": 12
+        },
+        {
+          "F_tm": [
+            48.726077476690705,
+            59.22137818879207
+          ],
+          "R_tm": [
+            53.83920323003207,
+            61.54045413247951
+          ],
+          "structure_max": 40.86931031522187,
+          "delta_mid_tm": 3.716100848514401
+        }
+      ],
+      "minimum_structure_margin": 7.856767161468838,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "COI_SD_Echinothurioida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "COI_XSD_Cidaroidea_local",
+      "gene": "COI",
+      "parent": "XSD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "TCAAACCTTCAATGAGARAC",
+      "R": "CRTAGTGRAAGTGGGCHAC",
+      "panel": [
+        "AF063313.1",
+        "AF063363.1",
+        "JX139899.1",
+        "NC_050252.1",
+        "NC_050272.1",
+        "NC_050273.1",
+        "OQ339146.1"
+      ],
+      "n_records": 7,
+      "covered": 7,
+      "exact": 2,
+      "original_covered": 6,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 1,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 6,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            51.57143337510348,
+            52.8436190940634
+          ],
+          "R_tm": [
+            52.751415066907896,
+            60.37552348764331
+          ],
+          "structure_max": 52.68511262817037,
+          "delta_mid_tm": 4.355943042692161,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 12
+        },
+        {
+          "F_tm": [
+            52.53669504493894,
+            53.815178737173596
+          ],
+          "R_tm": [
+            51.16349741959971,
+            58.766618275724625
+          ],
+          "structure_max": 52.68511262817037,
+          "delta_mid_tm": 1.789120956605899
+        }
+      ],
+      "minimum_structure_margin": -1.5216152085706653,
+      "tier": "conditional",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "COI_XSD_Cidaroidea_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "COI_XSD_Echinothurioida_local",
+      "gene": "COI",
+      "parent": "XSD",
+      "mode": "D",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "TCTAACCTACAATGAGARAC",
+      "R": "ACGTAATGAAAGTGTGCWAC",
+      "panel": [
+        "NC_065301.1",
+        "NC_065302.1",
+        "PV339712.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 0,
+      "original_covered": 2,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 1,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 6,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            49.776009689422835,
+            51.05263625536895
+          ],
+          "R_tm": [
+            53.69574489046977,
+            54.852587019561554
+          ],
+          "structure_max": 37.347782158775374,
+          "delta_mid_tm": 3.8598429826197673,
+          "pass_gate": true,
+          "deg_F": 2,
+          "deg_R": 2
+        },
+        {
+          "F_tm": [
+            50.74282029773377,
+            52.025807514685255
+          ],
+          "R_tm": [
+            54.65022288123612,
+            55.805191772331625
+          ],
+          "structure_max": 37.347782158775374,
+          "delta_mid_tm": 3.8433934205743583
+        }
+      ],
+      "minimum_structure_margin": 12.428227530647462,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round1",
+      "source_id": "COI_XSD_Echinothurioida_local",
+      "F_3prime_shift": null,
+      "R_3prime_shift": null,
+      "product_lengths": null,
+      "anchored_exact": null,
+      "coordinate_status": "fixed_or_raw_anchor_terminal8_checked"
+    },
+    {
+      "id": "12S_L_Holasteroida_shift0",
+      "gene": "12S",
+      "parent": "L",
+      "mode": "ordinary",
+      "target_group": "Holasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "GATTAGATACCCTGCTATACTTAG",
+      "R": "CGTATTCCAGAGCTGTCTTCA",
+      "panel": [
+        "NC_083273.1",
+        "OR178356.1",
+        "OR178360.1",
+        "OR178362.1",
+        "OR178364.1",
+        "OR178365.1",
+        "OR178366.1",
+        "OR178367.1",
+        "OR178369.1",
+        "OR178374.1",
+        "OR178378.1",
+        "OR178379.1",
+        "OR178380.1",
+        "QB038038.1",
+        "QB038039.1",
+        "QB038040.1",
+        "QB038041.1",
+        "QB038042.1"
+      ],
+      "n_records": 18,
+      "covered": 18,
+      "exact": 8,
+      "original_covered": 9,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            53.41776745308442,
+            53.41776745308442
+          ],
+          "R_tm": [
+            57.4896122858558,
+            57.4896122858558
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.071844832771376,
+          "margin": 53.41776745308442
+        },
+        {
+          "F_tm": [
+            55.060743975383275,
+            55.060743975383275
+          ],
+          "R_tm": [
+            59.353203590934584,
+            59.353203590934584
+          ],
+          "structure_max": 0.5840647945074693,
+          "delta_mid_tm": 4.292459615551309,
+          "margin": 54.476679180875806
+        }
+      ],
+      "minimum_structure_margin": 53.41776745308442,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_L_Holasteroida_shift0",
+      "F_3prime_shift": -4,
+      "R_3prime_shift": 0,
+      "product_lengths": [
+        377,
+        378,
+        379,
+        380
+      ],
+      "anchored_exact": 8,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_L_Cidaroidea_shift3",
+      "gene": "12S",
+      "parent": "L",
+      "mode": "ordinary",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "GATACCCTGTTATACTTAGCCGTAAAC",
+      "R": "GAGTGACGGGCGATGTGTACG",
+      "panel": [
+        "MH614964.1",
+        "NC_050272.1",
+        "NC_050273.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 1,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            59.40337907608807,
+            59.40337907608807
+          ],
+          "R_tm": [
+            63.337429257149836,
+            63.337429257149836
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 3.934050181061764,
+          "margin": 59.40337907608807
+        },
+        {
+          "F_tm": [
+            60.87230837065948,
+            60.87230837065948
+          ],
+          "R_tm": [
+            65.16372661951783,
+            65.16372661951783
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.291418248858349,
+          "margin": 60.87230837065948
+        }
+      ],
+      "minimum_structure_margin": 59.40337907608807,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_L_Cidaroidea_shift3",
+      "F_3prime_shift": 4,
+      "R_3prime_shift": -19,
+      "product_lengths": [
+        396,
+        397,
+        398
+      ],
+      "anchored_exact": 3,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_S_Irregularia_shift6",
+      "gene": "12S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Irregularia",
+      "group_type": "higher_taxon_label",
+      "F": "CCGATTTGGTCCTAGTCCC",
+      "R": "TCTAATGTTTAGCACTGCAGT",
+      "panel": [
+        "MN103227.1",
+        "NC_013881.1",
+        "NC_023255.1",
+        "NC_061414.1",
+        "NC_083273.1",
+        "OR178356.1",
+        "OR178360.1",
+        "OR178362.1",
+        "OR178364.1",
+        "OR178365.1",
+        "OR178367.1",
+        "OR178378.1",
+        "OR178379.1",
+        "OR178380.1",
+        "PQ838327.1",
+        "QB038038.1",
+        "QB038039.1",
+        "QB038040.1",
+        "QB038041.1"
+      ],
+      "n_records": 19,
+      "covered": 19,
+      "exact": 11,
+      "original_covered": 10,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 4,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 5,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            56.91480536890907,
+            56.91480536890907
+          ],
+          "R_tm": [
+            55.24286168964886,
+            55.24286168964886
+          ],
+          "structure_max": 15.247924826123096,
+          "delta_mid_tm": 1.6719436792602096,
+          "margin": 39.994936863525766
+        },
+        {
+          "F_tm": [
+            58.98167278598896,
+            58.98167278598896
+          ],
+          "R_tm": [
+            57.12302789753926,
+            57.12302789753926
+          ],
+          "structure_max": 19.506404277022,
+          "delta_mid_tm": 1.858644888449703,
+          "margin": 37.61662362051726
+        }
+      ],
+      "minimum_structure_margin": 37.61662362051726,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_S_Irregularia_shift6",
+      "F_3prime_shift": -9,
+      "R_3prime_shift": -2,
+      "product_lengths": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        193,
+        196,
+        198,
+        200
+      ],
+      "anchored_exact": 11,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_S_Temnopleuroida_shift1",
+      "gene": "12S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Temnopleuroida",
+      "group_type": "higher_taxon_label",
+      "F": "CGATTTGGTCCTAGTCCC",
+      "R": "CACTGCAGTTGTGGCGTAT",
+      "panel": [
+        "KY268294.1",
+        "NC_026200.1",
+        "NC_033528.1",
+        "NC_033529.1",
+        "NC_033530.1",
+        "NC_034769.1",
+        "NC_037785.1",
+        "NC_050275.1",
+        "NC_069158.1",
+        "PP666882.1",
+        "PQ330103.1"
+      ],
+      "n_records": 11,
+      "covered": 11,
+      "exact": 7,
+      "original_covered": 3,
+      "original_exact": 1,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 5,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            54.04327531236737,
+            54.04327531236737
+          ],
+          "R_tm": [
+            58.45642164400812,
+            58.45642164400812
+          ],
+          "structure_max": 18.93996799895001,
+          "delta_mid_tm": 4.413146331640746,
+          "margin": 35.10330731341736
+        },
+        {
+          "F_tm": [
+            56.192649302754546,
+            56.192649302754546
+          ],
+          "R_tm": [
+            60.49085594409007,
+            60.49085594409007
+          ],
+          "structure_max": 23.19818630819941,
+          "delta_mid_tm": 4.2982066413355255,
+          "margin": 32.994462994555136
+        }
+      ],
+      "minimum_structure_margin": 32.994462994555136,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_S_Temnopleuroida_shift1",
+      "F_3prime_shift": -9,
+      "R_3prime_shift": 8,
+      "product_lengths": [
+        176,
+        177,
+        178,
+        179,
+        182
+      ],
+      "anchored_exact": 7,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_S_Diadematoida_shift5",
+      "gene": "12S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "GTCCCAACTTTAACTAGCT",
+      "R": "AATGTTTAGCACTGCAGA",
+      "panel": [
+        "NC_033522.1",
+        "NC_033523.1",
+        "NC_050274.1",
+        "NC_067855.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 3,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 5,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            51.79159535399958,
+            51.79159535399958
+          ],
+          "R_tm": [
+            51.65398138665694,
+            51.65398138665694
+          ],
+          "structure_max": 23.34666329868037,
+          "delta_mid_tm": 0.13761396734264508,
+          "margin": 28.30731808797657
+        },
+        {
+          "F_tm": [
+            53.84552506509499,
+            53.84552506509499
+          ],
+          "R_tm": [
+            53.81288788376463,
+            53.81288788376463
+          ],
+          "structure_max": 27.509017824967884,
+          "delta_mid_tm": 0.03263718133035809,
+          "margin": 26.303870058796747
+        }
+      ],
+      "minimum_structure_margin": 26.303870058796747,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_S_Diadematoida_shift5",
+      "F_3prime_shift": 5,
+      "R_3prime_shift": -2,
+      "product_lengths": [
+        173,
+        174
+      ],
+      "anchored_exact": 3,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_S_Cidaroidea_shift2",
+      "gene": "12S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "CGATTTGGTCCTAGTCCCGATCTTAAC",
+      "R": "CTCTAATTGTCTAATGTTTAGCACTGC",
+      "panel": [
+        "MH614964.1",
+        "NC_050272.1",
+        "NC_050273.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 2,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 5,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            63.00950519625661,
+            63.00950519625661
+          ],
+          "R_tm": [
+            58.88077445430207,
+            58.88077445430207
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.128730741954541,
+          "margin": 58.88077445430207
+        },
+        {
+          "F_tm": [
+            64.48772601541884,
+            64.48772601541884
+          ],
+          "R_tm": [
+            60.336656184299045,
+            60.336656184299045
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.151069831119798,
+          "margin": 60.336656184299045
+        }
+      ],
+      "minimum_structure_margin": 58.88077445430207,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_S_Cidaroidea_shift2",
+      "F_3prime_shift": 0,
+      "R_3prime_shift": -5,
+      "product_lengths": [
+        208,
+        211,
+        214
+      ],
+      "anchored_exact": 2,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_S_Echinothurioida_shift0",
+      "gene": "12S",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "CCGATTTGGTCCTAGTCCCA",
+      "R": "CCTGATTGTCTAATGTTTAGCACTGC",
+      "panel": [
+        "NC_065301.1",
+        "NC_065302.1",
+        "PV339712.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 1,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 5,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            58.799480910284274,
+            58.799480910284274
+          ],
+          "R_tm": [
+            60.676456450937565,
+            60.676456450937565
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 1.8769755406532909,
+          "margin": 58.799480910284274
+        },
+        {
+          "F_tm": [
+            60.80314951964323,
+            60.80314951964323
+          ],
+          "R_tm": [
+            62.1947497109565,
+            62.1947497109565
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 1.3916001913132732,
+          "margin": 60.80314951964323
+        }
+      ],
+      "minimum_structure_margin": 58.799480910284274,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_S_Echinothurioida_shift0",
+      "F_3prime_shift": -8,
+      "R_3prime_shift": -5,
+      "product_lengths": [
+        200,
+        201
+      ],
+      "anchored_exact": 1,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_XS_Holasteroida_shift0",
+      "gene": "12S",
+      "parent": "XS",
+      "mode": "ordinary",
+      "target_group": "Holasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "GCCACATGCAAGCTAACTAGC",
+      "R": "TCTAATGTTTAGCACTGCAGT",
+      "panel": [
+        "NC_083273.1",
+        "OR178356.1",
+        "OR178360.1",
+        "OR178362.1",
+        "OR178364.1",
+        "OR178365.1",
+        "OR178366.1",
+        "OR178367.1",
+        "OR178369.1",
+        "OR178374.1",
+        "OR178378.1",
+        "OR178379.1",
+        "QB038038.1",
+        "QB038039.1",
+        "QB038040.1",
+        "QB038041.1"
+      ],
+      "n_records": 16,
+      "covered": 16,
+      "exact": 8,
+      "original_covered": 14,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 1,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            59.93534576464282,
+            59.93534576464282
+          ],
+          "R_tm": [
+            55.24286168964886,
+            55.24286168964886
+          ],
+          "structure_max": 44.22790031193631,
+          "delta_mid_tm": 4.692484074993956,
+          "margin": 11.014961377712552
+        },
+        {
+          "F_tm": [
+            61.78211366898523,
+            61.78211366898523
+          ],
+          "R_tm": [
+            57.12302789753926,
+            57.12302789753926
+          ],
+          "structure_max": 44.22790031193631,
+          "delta_mid_tm": 4.659085771445973,
+          "margin": 12.89512758560295
+        }
+      ],
+      "minimum_structure_margin": 11.014961377712552,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_XS_Holasteroida_shift0",
+      "F_3prime_shift": 1,
+      "R_3prime_shift": -5,
+      "product_lengths": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        153,
+        156
+      ],
+      "anchored_exact": 8,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_XS_Diadematoida_shift0",
+      "gene": "12S",
+      "parent": "XS",
+      "mode": "ordinary",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "AACTAGCAAACCAGTGAAGT",
+      "R": "CCCTAATTGTCCAATGTTTAGCACT",
+      "panel": [
+        "NC_033522.1",
+        "NC_033523.1",
+        "NC_050274.1",
+        "NC_067855.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 3,
+      "original_covered": 1,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 1,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            54.803869424812376,
+            54.803869424812376
+          ],
+          "R_tm": [
+            59.58116041324445,
+            59.58116041324445
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.777290988432071,
+          "margin": 54.803869424812376
+        },
+        {
+          "F_tm": [
+            56.784288199751074,
+            56.784288199751074
+          ],
+          "R_tm": [
+            61.18972982363783,
+            61.18972982363783
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.405441623886759,
+          "margin": 56.784288199751074
+        }
+      ],
+      "minimum_structure_margin": 54.803869424812376,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_XS_Diadematoida_shift0",
+      "F_3prime_shift": 14,
+      "R_3prime_shift": -10,
+      "product_lengths": [
+        145,
+        146
+      ],
+      "anchored_exact": 3,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "12S_XS_Echinothurioida_shift0",
+      "gene": "12S",
+      "parent": "XS",
+      "mode": "ordinary",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "CCACATGCAAGCTAACTAG",
+      "R": "CCTGATTGTCTAATGTTTAGCACTG",
+      "panel": [
+        "NC_065301.1",
+        "NC_065302.1",
+        "PV339712.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 1,
+      "original_covered": 1,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 1,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            53.478441262705246,
+            53.478441262705246
+          ],
+          "R_tm": [
+            58.220882883357376,
+            58.220882883357376
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.74244162065213,
+          "margin": 53.478441262705246
+        },
+        {
+          "F_tm": [
+            55.4926533361662,
+            55.4926533361662
+          ],
+          "R_tm": [
+            59.793075678962225,
+            59.793075678962225
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.3004223427960255,
+          "margin": 55.4926533361662
+        }
+      ],
+      "minimum_structure_margin": 53.478441262705246,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "12S_XS_Echinothurioida_shift0",
+      "F_3prime_shift": 0,
+      "R_3prime_shift": -9,
+      "product_lengths": [
+        159,
+        160
+      ],
+      "anchored_exact": 1,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "16S_XL_Diadematoida_shift2",
+      "gene": "16S",
+      "parent": "XL",
+      "mode": "ordinary",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "GGCCTAGAAGCAGCCACTTCAG",
+      "R": "CCCGTCTTGCCATTCATGCCAGTCTC",
+      "panel": [
+        "NC_067855.1",
+        "KX385835.1",
+        "MK609484.1",
+        "KX385836.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 3,
+      "original_covered": 4,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 2,
+        "GT_le2last3": 3,
+        "WC_le3": 3,
+        "GT_le2": 5
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            63.199858802419044,
+            63.199858802419044
+          ],
+          "R_tm": [
+            67.73300745967305,
+            67.73300745967305
+          ],
+          "structure_max": 46.974058250864914,
+          "delta_mid_tm": 4.533148657254003,
+          "margin": 16.22580055155413
+        },
+        {
+          "F_tm": [
+            65.00772097897351,
+            65.00772097897351
+          ],
+          "R_tm": [
+            69.28109449658388,
+            69.28109449658388
+          ],
+          "structure_max": 46.974058250864914,
+          "delta_mid_tm": 4.273373517610366,
+          "margin": 18.033662728108595
+        }
+      ],
+      "minimum_structure_margin": 16.22580055155413,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "16S_XL_Diadematoida_shift2",
+      "F_3prime_shift": 7,
+      "R_3prime_shift": 0,
+      "product_lengths": [
+        446,
+        447,
+        448
+      ],
+      "anchored_exact": 3,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "16S_XL_Cidaroidea_shift0",
+      "gene": "16S",
+      "parent": "XL",
+      "mode": "ordinary",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "CCAAGTAGGCCTAGAAGCAGC",
+      "R": "GACAGTTTAGTTCCGTCTTGCC",
+      "panel": [
+        "MH614961.1",
+        "MK609483.1",
+        "MK609482.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 2,
+      "original_covered": 2,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 2,
+        "WC_le3": 2,
+        "GT_le2": 2
+      },
+      "original_background": {
+        "WC_le2last3": 2,
+        "GT_le2last3": 3,
+        "WC_le3": 3,
+        "GT_le2": 5
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.474142590774704,
+            60.474142590774704
+          ],
+          "R_tm": [
+            59.520725492721226,
+            59.520725492721226
+          ],
+          "structure_max": 14.376904226243141,
+          "delta_mid_tm": 0.9534170980534782,
+          "margin": 45.143821266478085
+        },
+        {
+          "F_tm": [
+            62.35648146554763,
+            62.35648146554763
+          ],
+          "R_tm": [
+            61.28607747406846,
+            61.28607747406846
+          ],
+          "structure_max": 18.706057660027056,
+          "delta_mid_tm": 1.0704039914791679,
+          "margin": 42.58001981404141
+        }
+      ],
+      "minimum_structure_margin": 42.58001981404141,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "16S_XL_Cidaroidea_shift0",
+      "F_3prime_shift": -1,
+      "R_3prime_shift": -15,
+      "product_lengths": [
+        469,
+        470,
+        472
+      ],
+      "anchored_exact": 2,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "16S_XLD_Irregularia_shift6",
+      "gene": "16S",
+      "parent": "XLD",
+      "mode": "D",
+      "target_group": "Irregularia",
+      "group_type": "higher_taxon_label",
+      "F": "GTAGGCCTARAAGCAGCCRACTWW",
+      "R": "GYTCCGTCTTGCCATTCATDCCAGTC",
+      "panel": [
+        "QB038042.1",
+        "QB038041.1",
+        "QB038040.1",
+        "QB038039.1",
+        "QB038038.1",
+        "PQ838327.1",
+        "NC_083273.1",
+        "NC_061414.1",
+        "MN103227.1",
+        "KC990834.1",
+        "FN562581.1"
+      ],
+      "n_records": 11,
+      "covered": 11,
+      "exact": 10,
+      "original_covered": 11,
+      "original_exact": 5,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 2,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 4,
+        "WC_le3": 6,
+        "GT_le2": 6
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            60.92776200931297,
+            64.50803778838167
+          ],
+          "R_tm": [
+            63.95632589071647,
+            68.16641652995713
+          ],
+          "structure_max": 51.480318597667804,
+          "delta_mid_tm": 3.3434713114894805,
+          "margin": 9.447443411645168
+        },
+        {
+          "F_tm": [
+            59.267049123178026,
+            62.84750730529362
+          ],
+          "R_tm": [
+            63.51138764343739,
+            67.71900001456015
+          ],
+          "structure_max": 51.480318597667804,
+          "delta_mid_tm": 4.557915614762948,
+          "margin": 7.786730525510222
+        }
+      ],
+      "minimum_structure_margin": 7.786730525510222,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "16S_XLD_Irregularia_shift6",
+      "F_3prime_shift": 6,
+      "R_3prime_shift": -2,
+      "product_lengths": [
+        444,
+        445,
+        447,
+        448,
+        449,
+        450,
+        451,
+        453,
+        454
+      ],
+      "anchored_exact": 10,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "16S_XLD_Diadematoida_shift0",
+      "gene": "16S",
+      "parent": "XLD",
+      "mode": "D",
+      "target_group": "Diadematoida",
+      "group_type": "higher_taxon_label",
+      "F": "GGCCYAGAAGCAGCCACTTCAGH",
+      "R": "CCCCGTCTTGCCATTCATGCCAGTCTC",
+      "panel": [
+        "NC_067855.1",
+        "KX385835.1",
+        "MK609484.1",
+        "KX385836.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 4,
+      "original_covered": 4,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 4,
+        "WC_le3": 6,
+        "GT_le2": 6
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            64.38575811815758,
+            68.32055677635503
+          ],
+          "R_tm": [
+            69.30400403238275,
+            69.30400403238275
+          ],
+          "structure_max": 46.974058250864914,
+          "delta_mid_tm": 2.950846585126442,
+          "margin": 17.41169986729267
+        },
+        {
+          "F_tm": [
+            63.87460329940717,
+            67.81242139350337
+          ],
+          "R_tm": [
+            70.80822321935409,
+            70.80822321935409
+          ],
+          "structure_max": 46.974058250864914,
+          "delta_mid_tm": 4.96471087289882,
+          "margin": 16.900545048542256
+        }
+      ],
+      "minimum_structure_margin": 16.900545048542256,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "16S_XLD_Diadematoida_shift0",
+      "F_3prime_shift": 8,
+      "R_3prime_shift": 0,
+      "product_lengths": [
+        447,
+        448,
+        449
+      ],
+      "anchored_exact": 4,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "16S_XLD_Cidaroidea_shift5",
+      "gene": "16S",
+      "parent": "XLD",
+      "mode": "D",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "GCCYAGAAGCAGCCAACYT",
+      "R": "GACAGTTTAGTTCCGTCTTGCCRTT",
+      "panel": [
+        "MH614961.1",
+        "MK609483.1",
+        "MK609482.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 3,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 2
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 4,
+        "WC_le3": 6,
+        "GT_le2": 6
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            57.7437190242876,
+            62.87551023230441
+          ],
+          "R_tm": [
+            61.766720001935255,
+            63.674272070061136
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 2.410881407702192,
+          "margin": 57.7437190242876
+        },
+        {
+          "F_tm": [
+            57.7437190242876,
+            62.87551023230441
+          ],
+          "R_tm": [
+            62.560848757388726,
+            64.4640855675438
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 3.202852534170262,
+          "margin": 57.7437190242876
+        }
+      ],
+      "minimum_structure_margin": 57.7437190242876,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "16S_XLD_Cidaroidea_shift5",
+      "F_3prime_shift": 5,
+      "R_3prime_shift": -12,
+      "product_lengths": [
+        461,
+        462,
+        464
+      ],
+      "anchored_exact": 3,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "COI_M_Cidaroidea_shift0",
+      "gene": "COI",
+      "parent": "M",
+      "mode": "ordinary",
+      "target_group": "Cidaroidea",
+      "group_type": "higher_taxon_label",
+      "F": "AGGATCAAACCTTCAATG",
+      "R": "CCTTTCTTCATAGAGGGTG",
+      "panel": [
+        "AF063313.1",
+        "AF063363.1",
+        "JX139899.1",
+        "NC_050252.1",
+        "NC_050272.1",
+        "NC_050273.1",
+        "OQ339146.1"
+      ],
+      "n_records": 7,
+      "covered": 7,
+      "exact": 0,
+      "original_covered": 4,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            49.27141482987963,
+            49.27141482987963
+          ],
+          "R_tm": [
+            51.973567872467925,
+            51.973567872467925
+          ],
+          "structure_max": 36.85650110468151,
+          "delta_mid_tm": 2.702153042588293,
+          "margin": 12.414913725198119
+        },
+        {
+          "F_tm": [
+            51.42749147562125,
+            51.42749147562125
+          ],
+          "R_tm": [
+            54.02113013361685,
+            54.02113013361685
+          ],
+          "structure_max": 36.85650110468151,
+          "delta_mid_tm": 2.593638657995598,
+          "margin": 14.57099037093974
+        }
+      ],
+      "minimum_structure_margin": 12.414913725198119,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "COI_M_Cidaroidea_shift0",
+      "F_3prime_shift": -6,
+      "R_3prime_shift": 0,
+      "product_lengths": [
+        251
+      ],
+      "anchored_exact": 0,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "COI_XS_Echinothurioida_shift0",
+      "gene": "COI",
+      "parent": "XS",
+      "mode": "ordinary",
+      "target_group": "Echinothurioida",
+      "group_type": "higher_taxon_label",
+      "F": "GTCTAACCTACAATGAGA",
+      "R": "CTACATAGTAAGTGTCGTGA",
+      "panel": [
+        "NC_065301.1",
+        "NC_065302.1",
+        "PV339712.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 0,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 1,
+        "WC_le3": 4,
+        "GT_le2": 1
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            47.292893076903,
+            47.292893076903
+          ],
+          "R_tm": [
+            51.57381070009609,
+            51.57381070009609
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.2809176231930905,
+          "margin": 47.292893076903
+        },
+        {
+          "F_tm": [
+            49.430549580934496,
+            49.430549580934496
+          ],
+          "R_tm": [
+            53.4934816920661,
+            53.4934816920661
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.062932111131602,
+          "margin": 49.430549580934496
+        }
+      ],
+      "minimum_structure_margin": 47.292893076903,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "COI_XS_Echinothurioida_shift0",
+      "F_3prime_shift": -3,
+      "R_3prime_shift": 19,
+      "product_lengths": [
+        134
+      ],
+      "anchored_exact": 0,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "COI_S_Holasteroida_shift5",
+      "gene": "COI",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "Holasteroida",
+      "group_type": "higher_taxon_label",
+      "F": "TCAAACCTCCAATGAGAAAC",
+      "R": "GCCAAATACAGCACCCAT",
+      "panel": [
+        "NC_083273.1",
+        "QB038038.1",
+        "QB038039.1",
+        "QB038040.1",
+        "QB038041.1",
+        "QB038042.1"
+      ],
+      "n_records": 6,
+      "covered": 6,
+      "exact": 2,
+      "original_covered": 4,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 11,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            53.40285270755237,
+            53.40285270755237
+          ],
+          "R_tm": [
+            55.256683153711776,
+            55.256683153711776
+          ],
+          "structure_max": 41.42075973665817,
+          "delta_mid_tm": 1.8538304461594066,
+          "margin": 11.9820929708942
+        },
+        {
+          "F_tm": [
+            55.359795737415084,
+            55.359795737415084
+          ],
+          "R_tm": [
+            57.4363803032702,
+            57.4363803032702
+          ],
+          "structure_max": 41.42075973665817,
+          "delta_mid_tm": 2.0765845658551143,
+          "margin": 13.939036000756914
+        }
+      ],
+      "minimum_structure_margin": 11.9820929708942,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "COI_S_Holasteroida_shift5",
+      "F_3prime_shift": 6,
+      "R_3prime_shift": 24,
+      "product_lengths": [
+        177
+      ],
+      "anchored_exact": 2,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "COI_S_genus_Lytechinus_shift0",
+      "gene": "COI",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "genus_Lytechinus",
+      "group_type": "genus_label",
+      "F": "TTCAGATGAATGGCCACACTACAAGG",
+      "R": "GCGGGTGTAGGCTGTATCC",
+      "panel": [
+        "AY183158.1",
+        "AY183198.1",
+        "AY183217.1",
+        "NC_037785.1",
+        "PP666882.1"
+      ],
+      "n_records": 5,
+      "covered": 5,
+      "exact": 4,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 11,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            63.19692152409999,
+            63.19692152409999
+          ],
+          "R_tm": [
+            59.93074186621135,
+            59.93074186621135
+          ],
+          "structure_max": 10.87819733336994,
+          "delta_mid_tm": 3.2661796578886424,
+          "margin": 49.05254453284141
+        },
+        {
+          "F_tm": [
+            64.75523838104527,
+            64.75523838104527
+          ],
+          "R_tm": [
+            61.986123614158544,
+            61.986123614158544
+          ],
+          "structure_max": 14.107589329594987,
+          "delta_mid_tm": 2.76911476688673,
+          "margin": 47.87853428456356
+        }
+      ],
+      "minimum_structure_margin": 47.87853428456356,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "COI_S_genus_Lytechinus_shift0",
+      "F_3prime_shift": -15,
+      "R_3prime_shift": -33,
+      "product_lengths": [
+        262
+      ],
+      "anchored_exact": 4,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "COI_S_genus_Echinometra_shift6",
+      "gene": "COI",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "genus_Echinometra",
+      "group_type": "genus_label",
+      "F": "ATGGCAACCCTTCAAGGCTCAAA",
+      "R": "AGTGGGTGTAGGTTGTATCCAGAGAAT",
+      "panel": [
+        "AY262883.1",
+        "AY262904.1",
+        "NC_034767.1",
+        "OR097777.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 3,
+      "original_covered": 0,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 11,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            63.176956620566614,
+            63.176956620566614
+          ],
+          "R_tm": [
+            63.11722384750908,
+            63.11722384750908
+          ],
+          "structure_max": 32.73354432645675,
+          "delta_mid_tm": 0.059732773057532995,
+          "margin": 30.38367952105233
+        },
+        {
+          "F_tm": [
+            64.95771189141828,
+            64.95771189141828
+          ],
+          "R_tm": [
+            64.65253564747064,
+            64.65253564747064
+          ],
+          "structure_max": 32.73354432645675,
+          "delta_mid_tm": 0.305176243947642,
+          "margin": 31.91899132101389
+        }
+      ],
+      "minimum_structure_margin": 30.38367952105233,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "COI_S_genus_Echinometra_shift6",
+      "F_3prime_shift": -9,
+      "R_3prime_shift": -26,
+      "product_lengths": [
+        254
+      ],
+      "anchored_exact": 3,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "COI_S_genus_Clypeaster_shift6",
+      "gene": "COI",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "genus_Clypeaster",
+      "group_type": "genus_label",
+      "F": "TCAAACCTTCAATGAGAAAC",
+      "R": "ACAGCTCCCATGGATAGT",
+      "panel": [
+        "EU669853.1",
+        "MH837530.1",
+        "OQ339141.1",
+        "PQ838327.1"
+      ],
+      "n_records": 4,
+      "covered": 4,
+      "exact": 2,
+      "original_covered": 3,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 11,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            51.57143337510348,
+            51.57143337510348
+          ],
+          "R_tm": [
+            54.37166047567081,
+            54.37166047567081
+          ],
+          "structure_max": 35.399073773838495,
+          "delta_mid_tm": 2.8002271005673265,
+          "margin": 16.172359601264986
+        },
+        {
+          "F_tm": [
+            53.50771246661907,
+            53.50771246661907
+          ],
+          "R_tm": [
+            56.610209554224184,
+            56.610209554224184
+          ],
+          "structure_max": 35.399073773838495,
+          "delta_mid_tm": 3.1024970876051157,
+          "margin": 18.108638692780573
+        }
+      ],
+      "minimum_structure_margin": 16.172359601264986,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "COI_S_genus_Clypeaster_shift6",
+      "F_3prime_shift": 6,
+      "R_3prime_shift": 31,
+      "product_lengths": [
+        170
+      ],
+      "anchored_exact": 2,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    },
+    {
+      "id": "COI_S_genus_Temnopleurus_shift1",
+      "gene": "COI",
+      "parent": "S",
+      "mode": "ordinary",
+      "target_group": "genus_Temnopleurus",
+      "group_type": "genus_label",
+      "F": "TCCAACAGGAATTAAGGT",
+      "R": "CTTCATAGGGGGTGTAAACTATA",
+      "panel": [
+        "NC_026200.1",
+        "NC_033529.1",
+        "NC_033530.1"
+      ],
+      "n_records": 3,
+      "covered": 3,
+      "exact": 1,
+      "original_covered": 2,
+      "original_exact": 0,
+      "background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 0,
+        "GT_le2": 0
+      },
+      "original_background": {
+        "WC_le2last3": 0,
+        "GT_le2last3": 0,
+        "WC_le3": 11,
+        "GT_le2": 0
+      },
+      "thermal": [
+        {
+          "F_tm": [
+            49.94327194080989,
+            49.94327194080989
+          ],
+          "R_tm": [
+            54.66332756269685,
+            54.66332756269685
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.7200556218869565,
+          "margin": 49.94327194080989
+        },
+        {
+          "F_tm": [
+            52.149911237358424,
+            52.149911237358424
+          ],
+          "R_tm": [
+            56.41076155585267,
+            56.41076155585267
+          ],
+          "structure_max": 0.0,
+          "delta_mid_tm": 4.260850318494249,
+          "margin": 52.149911237358424
+        }
+      ],
+      "minimum_structure_margin": 49.94327194080989,
+      "tier": "priority",
+      "use": "separate_PCR",
+      "source": "round2",
+      "source_id": "COI_S_genus_Temnopleurus_shift1",
+      "F_3prime_shift": -42,
+      "R_3prime_shift": -36,
+      "product_lengths": [
+        288
+      ],
+      "anchored_exact": 1,
+      "coordinate_status": "shifted_raw_sites_independently_verified"
+    }
+  ],
+  "originals": [
+    {
+      "id": "16S_XS_original",
+      "gene": "16S",
+      "parent": "XS",
+      "F": "CTTGTGTATAATGGATTAACGA",
+      "R": "AAACTAATTTCTTGGGAAAC"
+    },
+    {
+      "id": "16S_XSD_original",
+      "gene": "16S",
+      "parent": "XSD",
+      "F": "CTTGTGTATAATGGATTRACRA",
+      "R": "AAACTAATTTCTTGGRRARC"
+    },
+    {
+      "id": "16S_S_original",
+      "gene": "16S",
+      "parent": "S",
+      "F": "TGTGTATAATGGATTAACGAGA",
+      "R": "GCTTAGCTAAAACTAATTTCTTGG"
+    },
+    {
+      "id": "16S_SD_original",
+      "gene": "16S",
+      "parent": "SD",
+      "F": "TGTGTATAATGGATTAACRAGH",
+      "R": "GCTTAGCTTAAACYAATTTCTYGR"
+    },
+    {
+      "id": "16S_M_original",
+      "gene": "16S",
+      "parent": "M",
+      "F": "CGTTAGACGAGAAGACCCTG",
+      "R": "CTTTGATCACCTTAGTGGATCA"
+    },
+    {
+      "id": "16S_MD_original",
+      "gene": "16S",
+      "parent": "MD",
+      "F": "CGTTAGACGAGAAGACCCTR",
+      "R": "CTTTGATCACCTDARTGGATCA"
+    },
+    {
+      "id": "16S_L_original",
+      "gene": "16S",
+      "parent": "L",
+      "F": "GTCTCCTAAATAGAGACTAGTATGAATGGC",
+      "R": "GCGGTAACTTGTTCCTTTGATCACC"
+    },
+    {
+      "id": "16S_LD_original",
+      "gene": "16S",
+      "parent": "LD",
+      "F": "GTCTCCTAAATAGAGACTAGHATGAATGGC",
+      "R": "GCGGTAACTTGTTYCTTTGRTCACY"
+    },
+    {
+      "id": "16S_XL_original",
+      "gene": "16S",
+      "parent": "XL",
+      "F": "GAATAGGCCTAGAAGCAGCC",
+      "R": "CCGTCTTGCCATTCATACTAGTCTC"
+    },
+    {
+      "id": "16S_XLD_original",
+      "gene": "16S",
+      "parent": "XLD",
+      "F": "AAGTAGGCCTARAAGCAGCC",
+      "R": "CCGTCTTGCCATTCATACCAGTCTY"
+    },
+    {
+      "id": "12S_XS_original",
+      "gene": "12S",
+      "parent": "XS",
+      "F": "TGCCACATGCAAGCTTATTAG",
+      "R": "TTTAGCACTGCAGATGTGG"
+    },
+    {
+      "id": "12S_XSD_original",
+      "gene": "12S",
+      "parent": "XSD",
+      "F": "TGCCACATGCAAGCYWAYTAG",
+      "R": "TTTAGCACTGCAGDYGTGG"
+    },
+    {
+      "id": "12S_S_original",
+      "gene": "12S",
+      "parent": "S",
+      "F": "GTCCTAGTCCCAATTTTAAC",
+      "R": "AATGTTTAGCACTGCAGTTG"
+    },
+    {
+      "id": "12S_SD_original",
+      "gene": "12S",
+      "parent": "SD",
+      "F": "GTCCTAGTCCCAAYWTTARC",
+      "R": "AATGTTTAGCACTGCAGDYG"
+    },
+    {
+      "id": "12S_M_original",
+      "gene": "12S",
+      "parent": "M",
+      "F": "CGGTTTTCCAAACCTCCCT",
+      "R": "ACTGCTGAATCCAGTTTCT"
+    },
+    {
+      "id": "12S_MD_original",
+      "gene": "12S",
+      "parent": "MD",
+      "F": "CGGTTTTCCAWAYCTCCCT",
+      "R": "ACTGCTGAATCCARTTTCN"
+    },
+    {
+      "id": "12S_L_original",
+      "gene": "12S",
+      "parent": "L",
+      "F": "ACCCTGTTATACTTAGACGT",
+      "R": "GCATTCCAGAGCTCTCTTCA"
+    },
+    {
+      "id": "12S_LD_original",
+      "gene": "12S",
+      "parent": "LD",
+      "F": "ACCCTGTTATACTTAGMHGT",
+      "R": "GCATTCCAGAGCTSWYTTCA"
+    },
+    {
+      "id": "12S_XL_original",
+      "gene": "12S",
+      "parent": "XL",
+      "F": "CCACATGCAAGCTAACTAGC",
+      "R": "AAACCGCCAAGTCCTTTGAG"
+    },
+    {
+      "id": "12S_XLD_original",
+      "gene": "12S",
+      "parent": "XLD",
+      "F": "CCACATGCAAGYYAAYTAGC",
+      "R": "AAACCGCCAARTCCTTTGAR"
+    },
+    {
+      "id": "COI_XS_original",
+      "gene": "COI",
+      "parent": "XS",
+      "F": "TCAAACCTACAATGAGAAAC",
+      "R": "ACATAGTGGAAGTGAGCTAC"
+    },
+    {
+      "id": "COI_XSD_original",
+      "gene": "COI",
+      "parent": "XSD",
+      "F": "TCAAACCTACARTGRGARAC",
+      "R": "ACATAGTGGAAGTGDGCWAC"
+    },
+    {
+      "id": "COI_S_original",
+      "gene": "COI",
+      "parent": "S",
+      "F": "CAAGGATCAAACCTACAATG",
+      "R": "AATCAGTGAGTAAATCCTGC"
+    },
+    {
+      "id": "COI_SD_original",
+      "gene": "COI",
+      "parent": "SD",
+      "F": "CAAGGATCAAAYYTACARTG",
+      "R": "AATCAGTGAGTRAAYCCWGC"
+    },
+    {
+      "id": "COI_M_original",
+      "gene": "COI",
+      "parent": "M",
+      "F": "TCAAACCTACAATGGGAAAC",
+      "R": "ACCTTTCCTCATAGTGGGTG"
+    },
+    {
+      "id": "COI_MD_original",
+      "gene": "COI",
+      "parent": "MD",
+      "F": "TCAAACCTACARTGRGARAC",
+      "R": "ACCTTTCCTCAWAGYGGRTG"
+    },
+    {
+      "id": "28S_S_original",
+      "gene": "28S",
+      "parent": "S",
+      "F": "GCCTGGAGCCACCAAGAGTC",
+      "R": "TTGTCTGCTATCGGTCTCGT"
+    },
+    {
+      "id": "28S_SD_original",
+      "gene": "28S",
+      "parent": "SD",
+      "F": "GCCTGGAGCCRCCAAGARTC",
+      "R": "TTGTCTGCTATCGGTCTCGT"
+    },
+    {
+      "id": "28S_M_original",
+      "gene": "28S",
+      "parent": "M",
+      "F": "AAGAGCCCATCGCTGAATCC",
+      "R": "CCGACTCTTGGTGGCTCCAG"
+    },
+    {
+      "id": "28S_MD_original",
+      "gene": "28S",
+      "parent": "MD",
+      "F": "AAGAGCCCATCGCYGAATCS",
+      "R": "CCGACTCTTGGYGRCTCCMG"
+    },
+    {
+      "id": "28S_L_original",
+      "gene": "28S",
+      "parent": "L",
+      "F": "AAGCTGGGCGCCTGCTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC"
+    },
+    {
+      "id": "28S_LD_original",
+      "gene": "28S",
+      "parent": "LD",
+      "F": "AAGCTGGGCGCCTGYTCGAC",
+      "R": "AATCGCTGCGGACCTCCACC"
+    }
+  ]
+}
