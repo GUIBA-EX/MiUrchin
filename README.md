@@ -20,7 +20,7 @@
 
 **主方案引子** · [FASTA](sequences/non_partitioned.fasta) · [配對表](sequences/non_partitioned_pairs.csv) · [名稱對照](sequences/primary_name_aliases.csv)
 
-**區域資源** · [香港海膽交互地圖](https://guiba-ex.github.io/MiUrchin/) · [數据說明](resources/hong-kong-sea-urchins/README.md)
+**區域資源** · [香港海膽交互地圖](https://guiba-ex.github.io/MiUrchin/) · [數據說明](resources/hong-kong-sea-urchins/README.md)
 
 **稿件** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)
 
