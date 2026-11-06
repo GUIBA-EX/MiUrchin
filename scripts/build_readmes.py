@@ -41,7 +41,7 @@ for name,lang in [('README.md','tw'),('README.zh-CN.md','cn'),('README.en.md','e
  pub+=('Revised manuscript (6 November 2026)' if en else '修订稿件（2026-11-06）')+' · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) · [Markdown](publications/manuscript_20261106/MiUrchin_manuscript.md)\n\n'
  notice = (
   '> **Before use:** Predictions are computational, not wet-lab validated. Supplementary design panels have a median of 5 records; candidate unions lost at least one original match in 26 of 32 comparisons. Background libraries and independent evaluation remain limited. Use supplementary candidates in separate PCRs. [Evidence and limitations](results/reviewer_revision/README.md).\n\n' if en else
-  '> **使用前须知：**结果均为计算预测，尚未进行湿实验验证。补充分支设计面板中位数为 5 条记录；32 组比较中有 26 组候选并集丢失至少一条原方案匹配记录。非目标库和独立评价仍有限；补充候选须分别 PCR。[证据与局限](results/reviewer_revision/README.md)。\n\n')
+  '> **使用前须知：** 结果均为计算预测，尚未进行湿实验验证。补充分支设计面板中位数为 5 条记录；32 组比较中有 26 组候选并集丢失至少一条原方案匹配记录。非目标库和独立评价仍有限；补充候选须分别 PCR。[证据与局限](results/reviewer_revision/README.md)。\n\n')
  # Keep the established primary tables while correcting language that implies measured detection.
  if en:
   original=original.replace('The shorter SD can detect sea urchins, but only eight of the 99 species with a recovered barcode have a unique internal sequence.', 'The short SD pair is a computational detection candidate; only eight of the 99 recovered barcodes have a unique internal sequence among the recovered references.')
@@ -66,10 +66,10 @@ for name,lang in [('README.md','tw'),('README.zh-CN.md','cn'),('README.en.md','e
    '<sub>Illustration labels show historical 16S window lengths; other markers and supplementary assays can differ.</sub>\n\n'
    '**32 original primer pairs** form the primary collection. **76 clade- or taxon-limited candidates** are supplementary and do not replace the original pairs.\n\n'
    '## Explore MiUrchin\n\n'
-   '| Primary primer collection | Manuscript | Evidence & methods |\n'
-   '| :--- | :--- | :--- |\n'
-   '| [FASTA](sequences/non_partitioned.fasta) · [Pair table](sequences/non_partitioned_pairs.csv) · [Name aliases](sequences/primary_name_aliases.csv) | [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) | [Methods](docs/METHODS.md) · [Results & limitations](results/reviewer_revision/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md) |\n\n'
-   '[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [Supplementary catalog](report.html) · [Citation](CITATION.cff)\n\n')
+   '**Primary primers** · [FASTA](sequences/non_partitioned.fasta) · [Pair table](sequences/non_partitioned_pairs.csv) · [Name aliases](sequences/primary_name_aliases.csv)\n\n'
+   '**Manuscript** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)\n\n'
+   '**Evidence** · [Methods](docs/METHODS.md) · [Results & limitations](results/reviewer_revision/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md)\n\n'
+   '[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [Supplementary catalog](sequences/primer_pairs.csv) · [Citation](CITATION.cff)\n\n')
  else:
   hero = (
    '<div align="center">\n\n# MiUrchin\n\n'
@@ -81,10 +81,10 @@ for name,lang in [('README.md','tw'),('README.zh-CN.md','cn'),('README.en.md','e
    '<sub>图中长度为历史 16S 窗口长度，其他基因和补充候选可能不同。</sub>\n\n'
    '**32 对原始引物**为主方案；**76 对分支或分类群限定候选**为补充，不替代原方案。\n\n'
    '## 快速入口\n\n'
-   '| 主方案引物 | 稿件 | 证据与方法 |\n'
-   '| :--- | :--- | :--- |\n'
-   '| [FASTA](sequences/non_partitioned.fasta) · [配对表](sequences/non_partitioned_pairs.csv) · [名称对照](sequences/primary_name_aliases.csv) | [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) | [方法](docs/METHODS.zh-CN.md) · [结果与局限](results/reviewer_revision/README.md) · [重现说明](docs/REPRODUCIBILITY.zh-CN.md) |\n\n'
-   '[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [补充方案目录](report.html) · [引用](CITATION.cff)\n\n')
+   '**主方案引物** · [FASTA](sequences/non_partitioned.fasta) · [配对表](sequences/non_partitioned_pairs.csv) · [名称对照](sequences/primary_name_aliases.csv)\n\n'
+   '**稿件** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)\n\n'
+   '**证据与方法** · [方法](docs/METHODS.zh-CN.md) · [结果与局限](results/reviewer_revision/README.md) · [重现说明](docs/REPRODUCIBILITY.zh-CN.md)\n\n'
+   '[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [补充方案目录](sequences/primer_pairs.csv) · [引用](CITATION.cff)\n\n')
  text=hero+notice+thermal+original+'\n## '+('Supplementary branch-specific optimization' if en else '补充：分支／分类群优化方案')+'\n\n'+('[Branch manuscript](publications/MiUrchin_preprint.pdf) · [Branch catalog](results/catalog.json)\n\n' if en else '[分支优化预印本](publications/MiUrchin_preprint.pdf) · [分支证据清单](results/catalog.json)\n\n')+'<details>\n<summary>'+('Expand the 76 supplementary branch assays and methods' if en else '展开 76 对补充分支引物及方法说明')+'</summary>\n\n'+branch+'\n</details>\n'
  if lang=='tw':
   for a,b in [('原来的','原來的'),('对','對'),('分类','分類'),('优先','優先'),('补充','補充'),('序列及原始评价结果均保持不变','序列及原始評價結果均保持不變'),('引物','引子'),('记录','紀錄'),('验证','驗證'),('实验','實驗'),('预印本','預印本'),('方案优先展示','方案優先展示'),('优化','優化'),('证据','證據'),('清单','清單'),('展开','展開'),('与','與'),('筛选','篩選')]:text=text.replace(a,b)

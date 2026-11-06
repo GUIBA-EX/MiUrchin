@@ -18,13 +18,15 @@
 
 ## 快速入口
 
-| 主方案引子 | 稿件 | 證據與方法 |
-| :--- | :--- | :--- |
-| [FASTA](sequences/non_partitioned.fasta) · [配對表](sequences/non_partitioned_pairs.csv) · [名稱對照](sequences/primary_name_aliases.csv) | [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) | [方法](docs/METHODS.zh-CN.md) · [結果與局限](results/reviewer_revision/README.md) · [重現說明](docs/REPRODUCIBILITY.zh-CN.md) |
+**主方案引子** · [FASTA](sequences/non_partitioned.fasta) · [配對表](sequences/non_partitioned_pairs.csv) · [名稱對照](sequences/primary_name_aliases.csv)
 
-[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [補充方案目錄](report.html) · [引用](CITATION.cff)
+**稿件** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)
 
-> **使用前須知：**結果均為計算預測，尚未進行濕實驗驗證。補充分支設計面板中位數為 5 條紀錄；32 組比較中有 26 組候選並集丟失至少一條原方案匹配紀錄。非目標庫和獨立評價仍有限；補充候選須分別 PCR。[證據與局限](results/reviewer_revision/README.md)。
+**證據與方法** · [方法](docs/METHODS.zh-CN.md) · [結果與局限](results/reviewer_revision/README.md) · [重現說明](docs/REPRODUCIBILITY.zh-CN.md)
+
+[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [補充方案目錄](sequences/primer_pairs.csv) · [引用](CITATION.cff)
+
+> **使用前須知：** 結果均為計算預測，尚未進行濕實驗驗證。補充分支設計面板中位數為 5 條紀錄；32 組比較中有 26 組候選並集丟失至少一條原方案匹配紀錄。非目標庫和獨立評價仍有限；補充候選須分別 PCR。[證據與局限](results/reviewer_revision/README.md)。
 
 主方案 32 對均通過基本結構計算門檻，但其中 5 對在至少一種濃度情景下的最小結構餘量不足 5 °C；16S SD 的餘量為負。計算結果不能證明 PCR 表現，選擇前請查看[逐對結果](results/reviewer_revision/primary_pair_structures.csv)。
 

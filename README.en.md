@@ -18,11 +18,13 @@
 
 ## Explore MiUrchin
 
-| Primary primer collection | Manuscript | Evidence & methods |
-| :--- | :--- | :--- |
-| [FASTA](sequences/non_partitioned.fasta) · [Pair table](sequences/non_partitioned_pairs.csv) · [Name aliases](sequences/primary_name_aliases.csv) | [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx) | [Methods](docs/METHODS.md) · [Results & limitations](results/reviewer_revision/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md) |
+**Primary primers** · [FASTA](sequences/non_partitioned.fasta) · [Pair table](sequences/non_partitioned_pairs.csv) · [Name aliases](sequences/primary_name_aliases.csv)
 
-[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [Supplementary catalog](report.html) · [Citation](CITATION.cff)
+**Manuscript** · [PDF](publications/manuscript_20261106/MiUrchin_manuscript.pdf) · [Word](publications/manuscript_20261106/MiUrchin_manuscript.docx)
+
+**Evidence** · [Methods](docs/METHODS.md) · [Results & limitations](results/reviewer_revision/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md)
+
+[16S](#16s) · [12S](#12s) · [COI](#coi) · [28S](#28s) · [Supplementary catalog](sequences/primer_pairs.csv) · [Citation](CITATION.cff)
 
 > **Before use:** Predictions are computational, not wet-lab validated. Supplementary design panels have a median of 5 records; candidate unions lost at least one original match in 26 of 32 comparisons. Background libraries and independent evaluation remain limited. Use supplementary candidates in separate PCRs. [Evidence and limitations](results/reviewer_revision/README.md).
 
