@@ -1,9 +1,9 @@
 {
   "date": "2026-11-06",
-  "source_commit": "a4f8b3e58c5649fe57666e3dc3b14a509ed40ef9",
+  "source_commit": "2e74bf41120aa2ac2df1c2ab475bcbe5ff072f78",
   "primary_pairs": 32,
   "supplementary_entries": 76,
-  "new_analysis": false,
+  "new_analysis": true,
   "sources": {
     "sequences/non_partitioned_pairs.csv": "e97ba8ac75110ac6e4e4ab887fac4fcc973d9f8543ac8047234160749455b0f1",
     "sequences/non_partitioned.fasta": "840bedb22c2fe384b13f77095e5151d52862d2b36f7db51b27163dd662d4be58",
@@ -15,7 +15,30 @@
     "legacy/v1.2/publications/MiUrchin_supplement.md": "e954aa359a569b822f3eedfa1f2ffb1c624ee180f705bfc6a52756cce6bc1545",
     "publications/MiUrchin_supplement.md": "6d6f3f1764fb3dcc71154f940de15b955b38b49e92e9047ea03c0b7e0404f5ca"
   },
-  "manuscript_words": 5747,
+  "manuscript_words": 7342,
   "figures": 6,
-  "editorial_revision": "2026-11-06: clarified primary/supplementary scope and terminal compatibility wording; no sequence or analytical changes"
+  "editorial_revision": "2026-11-06: added retrospective target-scope, structure, terminal, insert-identity and published COI benchmark analyses; original primer sequences preserved.",
+  "new_external_sequences": false,
+  "independent_biological_validation": false,
+  "manuscript_pages": 20,
+  "notes_pages": 2,
+  "target_pair_insert_verification_checks": 117,
+  "raw_target_records": {
+    "16S": 1401,
+    "12S": 69,
+    "COI": 314,
+    "28S": 122
+  },
+  "analysis_scripts": {
+    "scripts/check_reviewer_revision.py": "c197949230527cca0ddfb64ee799a8759674de6d398e5ba6d021c4795cff1fb8",
+    "scripts/reviewer_benchmark.py": "56f15510a81e1a3949acce9d7ec456682b7aeab98eee2473092a8b42ce201a14",
+    "scripts/reviewer_revision.py": "5e1a161b84e9d1f2eff817232ce8eb13bac94a0d84423e03ba218096424d2832",
+    "scripts/reviewer_terminal_audit.py": "b552e926b0a6fe21faddec4d634f580dcb845a414bb70a4e18dae6cb4e4f4f60"
+  },
+  "remaining_gaps": [
+    "Independent external sequence evaluation",
+    "Expanded close non-target libraries",
+    "Full-library and within-species resolution",
+    "Published-primer comparison for 16S, 12S and 28S"
+  ]
 }

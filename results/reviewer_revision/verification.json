@@ -1,0 +1,591 @@
+{
+  "status": "PASS",
+  "target_pair_and_insert_checks": [
+    {
+      "id": "16S_XS_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XSD_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_S_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_SD_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_M_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_MD_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_L_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_LD_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XL_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XLD_original",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_L_Arbacioida_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_LD_Aulodonta_terminal",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_LD_Cidaroidea_trim",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_LD_Arbacioida_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_M_Clypeasteroida_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_MD_Irregularia",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_MD_Aulodonta",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_S_Diadematoida_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_SD_Camarodonta_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_SD_Diadematoida_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_SD_Cidaroidea_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_SD_Echinothurioida_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XS_Holasteroida_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XSD_Diadematoida_local",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XL_Diadematoida_shift2",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XL_Cidaroidea_shift0",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XLD_Irregularia_shift6",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XLD_Diadematoida_shift0",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "16S_XLD_Cidaroidea_shift5",
+      "scope": "16S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XS_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XSD_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_S_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_SD_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_M_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_MD_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_L_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_LD_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XL_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XLD_original",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_LD_Holasteroida_local",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_LD_Clypeasteroida_local",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_LD_Cidaroidea",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_M_Diadematoida_local",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_M_Cidaroidea",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_MD_Diadematoida_local",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_MD_Cidaroidea",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_SD_Aulodonta_terminal",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_SD_Cidaroidea_terminal",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XL_Echinothurioida_local",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XLD_Echinothurioida_local",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XSD_Echinothurioida_local",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_L_Holasteroida_shift0",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_L_Cidaroidea_shift3",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_S_Irregularia_shift6",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_S_Temnopleuroida_shift1",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_S_Diadematoida_shift5",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_S_Cidaroidea_shift2",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_S_Echinothurioida_shift0",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XS_Holasteroida_shift0",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XS_Diadematoida_shift0",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "12S_XS_Echinothurioida_shift0",
+      "scope": "12S",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_XS_original",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_XSD_original",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_S_original",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_SD_original",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_M_original",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_MD_original",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_MD_Cidaroidea_local",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_SD_Cidaroidea",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_SD_Echinothurioida_local",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_XSD_Cidaroidea_local",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_XSD_Echinothurioida_local",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_M_Cidaroidea_shift0",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_XS_Echinothurioida_shift0",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_S_Holasteroida_shift5",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_S_genus_Lytechinus_shift0",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_S_genus_Echinometra_shift6",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_S_genus_Clypeaster_shift6",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_S_genus_Temnopleurus_shift1",
+      "scope": "COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_XS_original",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_XSD_original",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_S_original",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_SD_original",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_M_original",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "COI_MD_original",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "Leray_mlCOIintF_HCO2198",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "Leray_mlCOIintF_dgHCO2198",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "Uni_MinibarF1_R1",
+      "scope": "benchmark_COI",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_S_original",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_SD_original",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_M_original",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_MD_original",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_L_original",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_LD_original",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_L_Echinacea",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_L_Aulodonta",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_L_Clypeasteroida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_L_Cidaroidea",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_LD_Echinacea",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_LD_Aulodonta_terminal",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_LD_Clypeasteroida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_LD_Cidaroidea",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_M_Echinacea",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_M_Holasteroida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_M_Diadematoida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_M_Clypeasteroida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_MD_Cidaroidea_terminal",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_MD_Echinacea",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_MD_Holasteroida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_MD_Diadematoida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_MD_Clypeasteroida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_S_Irregularia",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_S_Echinacea",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_S_Diadematoida_local",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_SD_Irregularia_terminal",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_SD_Echinacea",
+      "scope": "28S",
+      "status": "PASS"
+    },
+    {
+      "id": "28S_SD_Aulodonta_local",
+      "scope": "28S",
+      "status": "PASS"
+    }
+  ],
+  "independent_biological_validation": false
+}

@@ -10,9 +10,9 @@ Background. Sea urchin environmental DNA metabarcoding requires primer compatibi
 
 Methods. We assembled MiUrchin as a primary collection of 32 non-partitioned ordinary and degenerate primer pairs across 16S, 12S, COI and 28S, with 76 supplementary branch- or taxon-limited candidates. Marker-specific panels contained 165, 69, 314 and 122 named species, respectively. Evaluation separated window completeness, paired matching, background hits, sequence inclusion and available reference-discrimination diagnostics. Supplementary optimization prioritized compatibility at the final three primer bases and screened expanded oligos under two concentration scenarios.
 
-Results. On a common 49-species 16S panel, XLD covered 45 species, whereas LD had the most exact paired matches (19). On their larger window-specific panels, MD missed all 37 evaluable Spatangoida, whereas LD covered 36 of 38. At 12S M, degeneracy increased coverage from 25 to 61 of 69 species. Fourteen of 16 ordinary/D comparisons were nested; two also involved fixed-base replacement. The 28S SD pair covered 99 of 101 species, but only eight of 99 recovered barcodes were identity-unique. Supplementary candidates comprised 67 distinct F/R combinations; 65 entries met the priority structural-margin criterion and 11 remained conditional.
+Results. On a common 49-species 16S panel, XLD covered 45 species, whereas LD had the most exact paired matches (19). On their larger window-specific panels, MD missed all 37 evaluable Spatangoida, whereas LD covered 36 of 38. At 12S M, degeneracy increased coverage from 25 to 61 of 69 species. Fourteen of 16 ordinary/D comparisons were nested; two also involved fixed-base replacement. The 28S SD pair covered 99 of 101 species, but only eight of 99 recovered barcodes were identity-unique. Supplementary candidates comprised 67 distinct F/R combinations; 65 entries met the priority structural-margin criterion and 11 remained conditional. A uniform reanalysis found that all 32 primary pairs passed the basic structural gates, but five lacked a 5 °C minimum margin. Supplementary design panels had a median of five records, and candidate unions lost some original matches in 26 of 32 parent comparisons on the full archived inputs.
 
-Conclusions. MiUrchin provides a reproducible computational resource for selecting sea urchin primer candidates by taxonomic coverage, terminal compatibility and available barcode information. Selected-panel success does not establish independent sensitivity. New branch candidates require independent sequence evaluation, renewed barcode-resolution analysis and experimental validation.
+Conclusions. MiUrchin provides a reproducible computational resource for selecting sea urchin primer candidates by taxonomic coverage, terminal compatibility and available barcode information. Selected-panel success does not establish independent sensitivity. Independent sequence evaluation and fuller barcode-resolution analysis remain necessary; experimental performance has not been established.
 
 Keywords: Echinoidea; environmental DNA; metabarcoding; degenerate primers; primer-template mismatch; taxonomic resolution
 
@@ -56,7 +56,7 @@ The 12S search emphasized exact matching, whereas COI screening emphasized regio
 
 D oligos encode at most eight concrete variants per end and confine ambiguity to the 3′ half. Terminal screening in the mitochondrial design rejected possible five-base homopolymers and homogeneous terminal triplets, required an assured G/C within the final three positions and constrained terminal GC content. Degenerate terminal bases were allowed when the other filters were satisfied. A matching variant represents only a fraction of the total oligo concentration.
 
-The archived mitochondrial pair checks used Primer3 (Untergasser et al., 2012), with 50 mM monovalent salt, 1.5 mM Mg²⁺ and 0.6 mM dNTP. Scenarios were 50 nM per concrete variant and 200 nM total per direction divided among variants. Screening required a modeled secondary-structure Tm below 55°C and a difference of no more than 5°C between forward and reverse variant-Tm midpoints. For the present property table, primer3-py 2.4.0 recalculated individual-oligo GC and Tm ranges under the same concentrations for all four markers. This descriptive calculation does not establish that the nuclear candidates passed every mitochondrial pair-screening gate. The second concentration scenario is supplied in Supplementary Data S4.
+The archived mitochondrial pair checks used Primer3 (Untergasser et al., 2012), with 50 mM monovalent salt, 1.5 mM Mg²⁺ and 0.6 mM dNTP. Scenarios were 50 nM per concrete variant and 200 nM total per direction divided among variants. Screening required a modeled secondary-structure Tm below 55°C and a difference of no more than 5°C between forward and reverse variant-Tm midpoints. For the present property table, primer3-py 2.4.0 recalculated individual-oligo GC and Tm ranges under the same concentrations for all four markers. These archived single-oligo properties are distinguished from the uniform pair-level reanalysis described below. The second concentration scenario is supplied in Supplementary Data S4.
 
 ### Matching models and background interpretation
 
@@ -70,13 +70,13 @@ Strict Watson–Crick (WC) and G–T-permissive (GT) models retain the two-misma
 
 We expanded IUPAC symbols conceptually as sets of bases and tested whether every ordinary base was included at the corresponding position of its D oligo. Both ends had to pass for a pair to be nested. Positions excluding an ordinary base were recorded in synthesis orientation. All ordinary/D reference endpoints were independently compared. This audit identifies whether a contrast combines additional variants with fixed-base replacement; it does not calculate the performance of untested factorial intermediate sequences.
 
-The common 16S coverage panel is the intersection of the five evaluable species sets and contains 49 species. Coverage, exact matching and the joint covered-and-unique count were recalculated on this denominator. Window-specific and common-panel outcomes are both retained because the intersection omits many species represented at M and L. Species contribute equally within a panel; the archived higher-group counts provide taxonomic detail. A comparable common-panel analysis was not performed for the other three markers in this release.
+The common 16S coverage panel is the intersection of the five evaluable species sets and contains 49 species. Coverage, exact matching and the joint covered-and-unique count were recalculated on this denominator. Window-specific and common-panel outcomes are both retained because the intersection omits many species represented at M and L. Species contribute equally within a panel; the archived higher-group counts provide taxonomic detail. The historical common-panel analysis was restricted to 16S; the added COI comparison is described below.
 
 ### Reference discrimination and genus-blocked reselection
 
 For 16S, primer-binding regions were removed from the homologous alignment interval and the remaining unambiguous inserts were compared by exact identity. Own-panel uniqueness was defined against every available unambiguous insert at that window. Common-panel query counts retain this same full-window uniqueness definition; they do not redefine uniqueness after discarding non-common species. A joint success requires both paired compatibility and an identity-unique insert. Global unit-cost edit distances provide nearest-neighbor diagnostics. Identical sequences bearing different species names are retained for source review.
 
-The archived 28S diagnostics count unambiguous internal barcodes recovered by the paired scan and their identity uniqueness within the corresponding assay-specific barcode collection. Their denominator is recovered barcodes, not the common 16S species set. This distinction is retained when describing 28S detection and discrimination. The release does not provide equivalent species-resolution analyses for 12S and COI.
+The archived 28S diagnostics count unambiguous internal barcodes recovered by the paired scan and their identity uniqueness within the corresponding assay-specific barcode collection. Their denominator is recovered barcodes, not the common 16S species set. This distinction is retained when describing 28S detection and discrimination. The archived release did not provide equivalent species-resolution analyses for 12S and COI; the recovered-insert extension below has a narrower scope.
 
 Five 16S folds were generated by linking genera that shared identical complete reference sequences, shuffling the resulting blocks with seed 20261030 and assigning them cyclically to folds. Within each training set, observed local motifs within five alignment columns of the frozen binding intervals supplied fixed-length seeds. Up to 24 frequent admissible seeds per end entered at most three ambiguity-expansion steps. Training coverage, exact matching and lower degeneracy determined paired selection. Withheld species were evaluated by raw paired scanning. Published primer sequences and global candidate pools were not used as training seeds.
 
@@ -107,6 +107,22 @@ Primer3-py 2.4.0 (Untergasser et al., 2012) expanded all variants and evaluated 
 ### Verification and scope
 
 The integrated validator recompiles the exhaustive C++ scanner and recalculates all candidate and baseline target/background quantities. A separate Python motif-extension implementation checks target pairing, and both thermodynamic scenarios are recomputed. The second-round evidence additionally checks intended shifted positions and product lengths. Cross-subprimer dimers and F-A/R-B products were evaluated separately. All proposed assays are designated for separate PCR. No independent holdout or wet-lab experiment was performed on the 76 supplementary candidates; historical holdout and barcode analyses are not transferred to these sequences.
+
+### Uniform frozen-reference evaluation
+
+We retained all released sequences and added a separate, uniform evaluation of the 32 primary pairs and 76 supplementary entries. Both DNA orientations were scanned for nonoverlapping primer sites and total products of 60–650 bp, allowing at most two mismatches per end and requiring WC compatibility at the final three bases. The archived input libraries contained 1,401, 69, 314 and 122 records for 16S, 12S, COI and 28S, respectively. The 16S input includes multiple and incompletely identified records, unlike its curated 165-species primary panel. These raw-record results therefore do not replace the original species-level denominators. Unmatched records may lack a complete binding region and are not interpreted as amplification failures. No new external sequences were obtained. Results outside a candidate's selected panel remain retrospective because the archived library was available during development.
+
+For each parent scheme, we computed the union of its supplementary candidates as separate reactions and reported gained, retained and lost raw-record matches relative to the parent. We also tabulated matches by archived order labels; unresolved taxonomy remained unresolved. These tables test the scope of the supplementary candidates, not monophyly or lineage exclusivity. All 32 primary pairs underwent the same expanded-variant structure calculations, concentration scenarios and basic gates used for supplementary screening. We report the additional 5 °C margin separately from basic gate passage. A fixed homologous-site audit independently counts terminal-one, terminal-three and terminal-five compatibility for each primary oligo and paired terminal-three compatibility, retaining exclusions for gaps, ambiguity or insertions.
+
+For all 108 entries, we extracted unambiguous internal sequences from each predicted paired product, excluding the primer-binding regions. Multiple distinct products per accession were retained and flagged. An accession with a single insert was called identity-unique among recovered records only when no recovered record bearing another archived species label shared that exact insert. This measure excludes references without predicted products, does not establish assignment accuracy, and is not the full-window 16S uniqueness metric used earlier. We report record counts and retain accession-level inserts for source inspection.
+
+### Published COI comparators and implementation verification
+
+We included three explicitly documented combinations: mlCOIintF/HCO2198 and mlCOIintF/dgHCO2198 from Leray et al. (2013), and Uni-MinibarF1/R1 from the original design of Meusnier et al. (2008). The latter uses forward TCCACTAATCACAARGATATTGGTAC and reverse GAAAATCATAATGAAGGCATGAGC; the source manifest records a conflicting sequence/direction presentation in the later Leray table. The inosine-containing jgHCO2198 combination was not evaluated because the scanner has no explicit inosine model. No substitution of N for inosine was made.
+
+The six primary COI pairs and three published combinations were evaluated on the same archived target and background inputs with the same matching rules. Original MiUrchin reference coordinates were retained. Published primer intervals were located as unique lowest-total-mismatch, geometrically admissible pairs on the fixed COI reference NC_001453.1, permitting up to eight mismatches per end for coordinate mapping only; this is distinct from the two-mismatch evaluation gate. Reference product lengths of 365 bp for the two mlCOIintF combinations and 177 bp for Uni-Minibar are consistent with their published primer-trimmed fragments of 313 and 130 bp. Site completeness required A/C/G/T at every projected binding-site column before evaluating matches. The intersection across all nine assays contained 56 records. This stricter common-panel definition is reported separately from the historical COI window panels. Comparator taxonomic scope, product length and degeneracy differ; non-echinoid matches are expected for broadly targeted metazoan primers and are not treated as evidence of inferior design.
+
+A separate Python terminal-motif and extension implementation verified every target match, exact match and recovered insert produced by the C++ scanner for all 108 entries and all nine COI comparison rows. This is implementation verification on shared inputs, not independent biological validation. New tables, input hashes, verified comparator sequences and reproduction commands are supplied in Supplementary Data S9.
 
 ## Results
 
@@ -158,7 +174,7 @@ On the common 49-species query panel, XLD yielded 45 covered-and-unique species,
 
 
 
-Nuclear 28S SD recovered 99 unambiguous reference barcodes, of which only eight were unique. MD had 59 unique barcodes among 106 recovered, and LD had 51 among 84. These assay-specific subsets cannot be ranked as a common-species experiment, but they demonstrate that high 28S compatibility and species-level separation are different properties. Equivalent insert-resolution evidence is not yet available for the 12S and COI candidates.
+Nuclear 28S SD recovered 99 unambiguous reference barcodes, of which only eight were unique. MD had 59 unique barcodes among 106 recovered, and LD had 51 among 84. These assay-specific subsets cannot be ranked as a common-species experiment, but they demonstrate that high 28S compatibility and species-level separation are different properties. The additional reanalysis below reports identity sharing among recovered 12S and COI inserts; full-library species-resolution evaluation remains unavailable.
 
 ### Supplementary candidates and their comparison scope
 
@@ -186,6 +202,34 @@ Comparisons use exactly the accession set listed for each new entry. Coverage is
 All 76 supplementary entries passed the screening gates under both concentration scenarios. Eleven entries have a margin below 5 °C and remain conditional; modeled structure constraints therefore remain a material selection distinction (Supplementary Figure S3). For the shifted COI S subprimer collection, unintended cross F/R combinations matched 26 strict-WC and 135 strict-GT background records. Passing individual-pair gates does not justify pooling. The supplementary catalog specifies separate PCRs.
 
 
+
+### Uniform structural and terminal checks of the primary collection
+
+All 32 primary pairs passed the basic structural gates under both concentration scenarios. Twenty-seven also retained a minimum primer-to-structure Tm margin of at least 5 °C in both scenarios. The exceptions were 16S XSD and SD, and 12S XSD, SD and XLD. The smallest margin was −4.11 °C for 16S SD under 200 nM total oligo per direction. Thus a structure Tm below the absolute 55 °C cutoff does not necessarily imply a favorable margin relative to primer Tm. These five pairs warrant additional assessment before experimental prioritization; their released sequences were retained.
+
+The homologous-site audit supplies separate terminal-one, terminal-three and terminal-five counts rather than inferring terminal quality from aggregate coverage. For 16S XS/XSD and S/SD, only one record per pair had two complete, insertion-free projected sites under this conservative audit. Their apparently complete compatibility in that subset cannot establish broad conservation. Raw paired scanning and the fixed-column audit address different questions when indels shift contiguous binding motifs.
+
+### Coverage scope and recovered insert identity
+
+Supplementary design panels contained 3–40 records, with a median of five; 41 of 76 entries had at most five records and 22 had only three. The 100% design-panel result is therefore a selection outcome rather than an independent sensitivity estimate. In the full archived-input reanalysis, unions of the relevant supplementary candidates lost at least one parent-matched record in 26 of 32 parent comparisons. For example, the two supplementary 12S MD candidates together matched 19 of the 69 archived records, compared with 61 matched by the original MD pair; 42 original matches were absent from their union. Such candidates cannot replace the parent across its entire original scope, even when their intended subsets are completely matched.
+
+The new recovered-insert analysis extends descriptive evidence to 12S, COI and shifted candidates. For primary 12S MD, 53 of 61 single-insert records were identity-unique among that assay's recovered records. For COI XSD and SD, the corresponding counts were 65/79 and 57/63. These are conditional reference-identity counts, not independently measured identification rates; matching failure removes some potential competing references from the comparison. Complete accession-level insert sequences, shared-label counts and flags for multiple products are retained in S9. Wider reference sampling and within-species variation remain necessary before barcode-gap or classification claims are possible.
+
+### COI comparison on a shared evaluable panel
+
+| Primer pair | Reference total product bp | Covered on common panel | Exact on common panel |
+| --- | --- | --- | --- |
+| MiUrchin COI XS | 152 | 17/56 | 0/56 |
+| MiUrchin COI XSD | 152 | 43/56 | 0/56 |
+| MiUrchin COI S | 209 | 14/56 | 0/56 |
+| MiUrchin COI SD | 209 | 36/56 | 0/56 |
+| MiUrchin COI M | 248 | 15/56 | 0/56 |
+| MiUrchin COI MD | 248 | 32/56 | 1/56 |
+| mlCOIintF/HCO2198 | 365 | 5/56 | 0/56 |
+| mlCOIintF/dgHCO2198 | 365 | 16/56 | 0/56 |
+| Uni-MinibarF1/R1 | 177 | 0/56 | 0/56 |
+
+MiUrchin XSD had the highest mismatch-tolerant count among these nine combinations on this shared subset, but no exact paired matches. Uni-Minibar had no covered records under the specified WC and terminal-triplet rules. These outcomes describe this echinoid reference set and model; they are not experimental failure rates. The comparison excludes the frequently used inosine-bearing jgHCO2198 combination and does not establish superiority over the published-primer literature. Strict WC/GT background counts and each assay's own site-complete panel are reported alongside the common-panel results in S9.
 
 ## Discussion
 
@@ -215,13 +259,19 @@ The reference-based comparisons do not measure amplification efficiency, environ
 
 Bae (2025) provides a useful model for showing how a change to a binding site affects predicted coverage while retaining explicit non-target checks. The MiUrchin shifted-window candidates address the same general design question, but the evidence differs: the present candidates have not undergone the laboratory validation reported for the ascidian assay. Their selection-panel gains support further testing, not a claim of improved environmental detection.
 
-The computational framework of Marquina, Andersson and Ronquist (2019) emphasizes that successful template matching and taxonomic resolution are separate outcomes. Our 16S common-panel joint counts address a related question using identity uniqueness against the available reference inserts. They are not a reproduction of that study's exclusive taxonomic resolution index. Neither identity uniqueness nor between-species separation alone establishes a barcode gap; within-species sampling is required. The present 12S and COI results therefore remain compatibility estimates without an equivalent resolution assessment.
+The computational framework of Marquina, Andersson and Ronquist (2019) emphasizes that successful template matching and taxonomic resolution are separate outcomes. Our 16S common-panel joint counts address a related question using identity uniqueness against the available reference inserts. They are not a reproduction of that study's exclusive taxonomic resolution index. Neither identity uniqueness nor between-species separation alone establishes a barcode gap; within-species sampling is required. The new 12S and COI insert diagnostics describe identity sharing only among recovered records. They do not provide an equivalent full-library resolution assessment or a multi-record barcode-gap analysis.
 
 Supplementary group restriction can improve in-sample matching while reducing the taxonomic scope of an assay. The 76 retained entries should not be ranked against the original 32 pairs using their respective percentages without controlling the tested accession set. Sequence replacement, moved endpoints, group restriction and increased degeneracy can occur together. A prospective comparison should isolate these changes and use fixed, independently selected test records. The current search does not establish that its terminal-first heuristic is superior to alternative optimization strategies.
 
 ### Limitations
 
-No wet-lab sensitivity, inhibition, amplification bias or field detection probability was measured. New branch candidates have no independent holdout test, and their barcode discrimination remains unassessed. The genus-blocked analysis concerns historical 16S sequence reselection around previously defined windows, not independent validation of the 76 supplementary candidates. Background libraries are incomplete and differ among markers; branch labels do not establish exclusivity against other echinoid groups. Thermodynamic calculations omit adapters and assume specified concentrations. All supplementary F/R pairings are intended for separate PCR, because cross-pair background products were found when subprimers were considered together.
+No wet-lab sensitivity, inhibition, amplification bias or field detection probability was measured. New branch candidates have no independent holdout test. Their recovered-insert identity diagnostics exclude undetected references and do not establish full-library barcode discrimination. The genus-blocked analysis concerns historical 16S sequence reselection around previously defined windows, not independent validation of the 76 supplementary candidates. Background libraries are incomplete and differ among markers; branch labels do not establish exclusivity against other echinoid groups. Thermodynamic calculations omit adapters and assume specified concentrations. All supplementary F/R pairings are intended for separate PCR, because cross-pair background products were found when subprimers were considered together.
+
+### Remaining validation requirements
+
+The current data support an auditable candidate resource and retrospective comparisons. They do not yet establish generalization to previously unseen species. A future external test must freeze the released sequences and matching rules before acquiring records absent from design and selection, and audit overlap by accession, sequence and species. New records of previously represented species should be reported separately from new species. Re-running development in genus-blocked training sets can assess the workflow, but must include candidate selection and all filtering gates within each fold; it cannot be described as an external test of the fixed released sequences.
+
+The additional background scans reuse existing libraries. They do not repair the sparse complete-site representation of close non-target groups, particularly Holothuroidea at 28S. Expanding those references and harmonizing taxonomy across markers remain priorities. Full-library barcode discrimination, multi-record within-species evaluation, and validated 16S, 12S and 28S published-primer comparisons remain incomplete. We therefore retain the original collection, keep the 76 entries as exploratory supplementary candidates, and avoid claims of universal coverage, lineage exclusivity or validated environmental detection.
 
 ## Conclusions
 
@@ -229,7 +279,7 @@ MiUrchin retains 32 non-partitioned primer pairs as a primary computational reso
 
 ## Data availability
 
-The project repository is https://github.com/GUIBA-EX/MiUrchin. The accompanying supplementary package preserves the primary sequence collection, original assay summaries, sequence-inclusion audit, oligo properties, the branch catalog and its recorded verification results. Accession-level inputs and source code remain in the repository. The manuscript assembly manifest identifies the source commit and file hashes. A permanent archival DOI and final submission-version identifier are to be supplied before submission.
+The project repository is https://github.com/GUIBA-EX/MiUrchin. The accompanying supplementary package preserves the primary sequence collection, original assay summaries, sequence-inclusion audit, oligo properties, the branch catalog and its recorded verification results. Accession-level inputs and source code remain in the repository. The manuscript manifest and S9 identify the source commit, new reanalysis inputs, output tables and file hashes. S9 provides separate commands for the primary-site audit, uniform pair and insert evaluation, published COI comparison and independent implementation checks. A permanent archival DOI and final submission-version identifier are to be supplied before submission.
 
 ## Declarations
 
@@ -243,17 +293,21 @@ Competing interests. [Author to supply the declaration.]
 
 Ethics. This study reports computational analyses of archived public sequence resources and no new animal collection, animal experiment or human-participant research. [Author to confirm any applicable institutional requirements.]
 
-AI assistance. OpenAI Codex assisted with manuscript assembly, language revision and consistency checks. [Authors must verify the final text, references and numerical claims, confirm the full scope of tool use and approve the journal-specific disclosure.]
+AI assistance. OpenAI Codex assisted with manuscript assembly, language revision, analysis-script development and consistency checks. [Authors must verify the final text, references and numerical claims, confirm the full scope of tool use and approve the journal-specific disclosure.]
 
 ## References
 
 Bae S. 2025. Validation of improved cytochrome c oxidase I (COI) primers for comprehensive biodiversity assessment of ascidians. PeerJ 13:e19671. https://doi.org/10.7717/peerj.19671
 
-Marquina D, Andersson AF, Ronquist F. 2019. New mitochondrial primers for metabarcoding of insects, designed and evaluated using in silico methods. Molecular Ecology Resources 19:90–104. https://doi.org/10.1111/1755-0998.12942
-
 Katoh K, Standley DM. 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution* 30:772–780. https://doi.org/10.1093/molbev/mst010
 
+Leray M, Yang JY, Meyer CP, Mills SC, Agudelo N, Ranwez V, Boehm JT, Machida RJ. 2013. A new versatile primer set targeting a short fragment of the mitochondrial COI region for metabarcoding metazoan diversity: application for characterizing coral reef fish gut contents. *Frontiers in Zoology* 10:34. https://doi.org/10.1186/1742-9994-10-34
+
+Marquina D, Andersson AF, Ronquist F. 2019. New mitochondrial primers for metabarcoding of insects, designed and evaluated using in silico methods. Molecular Ecology Resources 19:90–104. https://doi.org/10.1111/1755-0998.12942
+
 McCartin L et al. 2024. Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. *PeerJ* 12:e18607. https://doi.org/10.7717/peerj.18607
+
+Meusnier I, Singer GAC, Landry JF, Hickey DA, Hebert PDN, Hajibabaei M. 2008. A universal DNA mini-barcode for biodiversity analysis. *BMC Genomics* 9:214. https://doi.org/10.1186/1471-2164-9-214
 
 Miya M et al. 2015. MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. *Royal Society Open Science* 2:150088. https://doi.org/10.1098/rsos.150088
 
@@ -262,7 +316,6 @@ Mongiardino Koch N et al. 2022. Phylogenomic analyses of echinoid diversificatio
 Piñol J, Mir G, Gomez-Polo P, Agustí N. 2015. Universal and blocking primer mismatches limit the use of high-throughput DNA sequencing for the quantitative metabarcoding of arthropods. *Molecular Ecology Resources* 15:819–830. https://doi.org/10.1111/1755-0998.12355
 
 Untergasser A et al. 2012. Primer3—new capabilities and interfaces. *Nucleic Acids Research* 40:e115. https://doi.org/10.1093/nar/gks596
-
 
 ## Figure legends
 

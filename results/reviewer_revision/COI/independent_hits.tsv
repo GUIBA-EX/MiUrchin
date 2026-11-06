@@ -1,0 +1,1204 @@
+name	role	model	accession	exact	le2last3	le2	le3	le4	ambiguous	sizes
+COI_XS_original	target	WC	AY183198.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	AY183217.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	AY262904.1	0	0	1	1	1	1	
+COI_XS_original	target	WC	EU669853.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	JF772882.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	JF772919.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	JQ341145.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	JX139899.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	JX888466.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	KF204670.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	KF204742.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	KF204750.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	KF204786.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	KF204832.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	KF204837.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	LC863209.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	LC863220.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	MF616955.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	MF616960.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	MF616973.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	MH837530.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	NC_020771.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_023774.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_026200.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_032365.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_033523.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	NC_033528.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_033529.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	NC_033530.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	NC_034767.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_034768.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_034769.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_034770.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_050272.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_050273.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_050275.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	NC_050276.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_057116.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_061414.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	NC_067855.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	OP494354.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	OQ339141.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	OQ339147.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	OQ339149.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	OR066935.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	OR097777.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	PQ330103.1	0	0	1	1	1	0	
+COI_XS_original	target	WC	QB038038.1	0	1	1	1	1	0	152
+COI_XS_original	target	WC	QB038040.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	AF063313.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	AF063363.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	AY183158.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	AY183198.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	AY183217.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	AY262883.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	AY262904.1	0	0	1	1	1	1	
+COI_XSD_original	target	WC	EU669853.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	JF772882.1	1	1	1	1	1	0	152
+COI_XSD_original	target	WC	JF772919.1	1	1	1	1	1	0	152
+COI_XSD_original	target	WC	JQ048562.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	JQ341145.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	JX139899.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	JX888466.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	KF204670.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	KF204742.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	KF204750.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	KF204786.1	0	0	1	1	1	0	
+COI_XSD_original	target	WC	KF204832.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	KF204837.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	LC863209.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	LC863220.1	1	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF616941.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF616950.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF616955.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF616960.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF616973.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF617024.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF617030.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF617079.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MF617101.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MH837530.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	MN103227.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_001572.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_009941.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_020771.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_023773.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_023774.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_024177.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_026200.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_032365.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_033522.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_033523.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_033528.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_033529.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_033530.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_034767.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_034768.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_034769.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_034770.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_037785.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_050252.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_050272.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_050273.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_050274.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_050275.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_050276.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_057116.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_061414.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_065299.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_065300.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_065301.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_065302.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_067855.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_069158.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	NC_088491.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	ON197133.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	OP494354.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	OQ339141.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	OQ339146.1	0	0	1	1	1	0	
+COI_XSD_original	target	WC	OQ339147.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	OQ339149.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	OR066935.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	OR097777.1	0	0	1	1	1	0	
+COI_XSD_original	target	WC	OR098295.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	PP666882.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	PQ330103.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	PQ838327.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	QB038038.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	QB038039.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	QB038040.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	QB038041.1	0	1	1	1	1	0	152
+COI_XSD_original	target	WC	QB038042.1	0	1	1	1	1	0	152
+COI_S_original	target	WC	AY183198.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	AY183217.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_S_original	target	WC	EU669853.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	JF772882.1	0	0	1	1	1	0	
+COI_S_original	target	WC	JF772919.1	0	0	1	1	1	0	
+COI_S_original	target	WC	JX888466.1	0	0	1	1	1	0	
+COI_S_original	target	WC	KC898200.2	0	0	1	1	1	0	
+COI_S_original	target	WC	KF204742.1	0	0	1	1	1	0	
+COI_S_original	target	WC	KF204750.1	0	0	1	1	1	0	
+COI_S_original	target	WC	KF204786.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	LC863209.1	0	0	1	1	1	0	
+COI_S_original	target	WC	MF616945.1	1	1	1	1	1	0	209
+COI_S_original	target	WC	MF616950.1	0	0	1	1	1	0	
+COI_S_original	target	WC	MF616955.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	MF616960.1	1	1	1	1	1	0	209
+COI_S_original	target	WC	MF616973.1	1	1	1	1	1	0	209
+COI_S_original	target	WC	MF617024.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	MF617030.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	MF617079.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	MF617101.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	MH837530.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	MN103227.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	NC_026200.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	NC_033528.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	NC_033529.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	NC_034770.1	0	0	1	1	1	0	
+COI_S_original	target	WC	NC_037785.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	NC_050275.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	NC_067855.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	NC_088491.1	0	0	1	1	1	0	
+COI_S_original	target	WC	OQ339147.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	PQ330103.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	PQ838327.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	PV804729.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	QB038038.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	QB038039.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	QB038040.1	0	1	1	1	1	0	209
+COI_S_original	target	WC	QB038041.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	AF063313.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	AF063363.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	AY183198.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	AY183217.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_SD_original	target	WC	EU669853.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	JF772882.1	1	1	1	1	1	0	209
+COI_SD_original	target	WC	JF772919.1	1	1	1	1	1	0	209
+COI_SD_original	target	WC	JQ048562.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	JX139899.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	JX888466.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	KC898200.2	0	1	1	1	1	0	209
+COI_SD_original	target	WC	KF204742.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	KF204750.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	KF204786.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	KF204832.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	KF204837.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	LC863209.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	LC863220.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	MF616941.1	1	1	1	1	1	0	209
+COI_SD_original	target	WC	MF616945.1	1	1	1	1	1	0	209
+COI_SD_original	target	WC	MF616950.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MF616955.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MF616960.1	1	1	1	1	1	0	209
+COI_SD_original	target	WC	MF616973.1	1	1	1	1	1	0	209
+COI_SD_original	target	WC	MF617017.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MF617024.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MF617030.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MF617079.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MF617101.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MF617103.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MH837529.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	MH837530.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MN103227.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	MW147664.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	NC_001453.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_001572.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_009940.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_009941.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_013881.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_020771.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_023773.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_024177.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_026200.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_027063.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_033528.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_033529.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_033530.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	NC_034767.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_034768.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	NC_034770.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_037785.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_050252.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_050274.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_050275.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_057116.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_061414.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_065299.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_065300.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	NC_065301.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_065302.1	0	0	1	1	1	0	
+COI_SD_original	target	WC	NC_067855.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_069158.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_083273.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	NC_088491.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	OQ339147.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	OQ339149.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	OR097777.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	PQ330103.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	PQ838327.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	PV804729.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	QB038038.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	QB038039.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	QB038040.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	QB038041.1	0	1	1	1	1	0	209
+COI_SD_original	target	WC	X80396.1	0	1	1	1	1	0	209
+COI_M_original	target	WC	AF063313.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	AY183198.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	AY183217.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_M_original	target	WC	KC898200.2	0	1	1	1	1	0	248
+COI_M_original	target	WC	MF616945.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	MF616955.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_001572.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_009940.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_009941.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_020771.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_024177.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_034768.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_034769.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_037785.1	0	0	1	1	1	0	
+COI_M_original	target	WC	NC_050252.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_050272.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_050273.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_050276.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_065299.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	NC_083273.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	OQ339149.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	OR097777.1	0	1	1	1	1	0	248
+COI_M_original	target	WC	OR098295.1	0	0	1	1	1	0	
+COI_M_original	target	WC	QB038038.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	AF063313.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	AY183158.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	AY183198.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	AY183217.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_MD_original	target	WC	EU669853.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	JQ048562.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	JX888466.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	KC898200.2	0	1	1	1	1	0	248
+COI_MD_original	target	WC	KF204670.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	KF204742.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	KF204750.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	KF204786.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	KF204832.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	KF204837.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	LC863209.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MF616945.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MF616950.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MF616955.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MF616960.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MF617024.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MF617030.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MF617079.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MF617101.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	MN103227.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_001572.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_009940.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_009941.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_020771.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_023255.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_023772.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_023773.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_023774.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_024177.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_034767.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_034768.1	1	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_034769.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_034770.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_037785.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_050252.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_050272.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_050273.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_050275.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_050276.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_065299.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_065301.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_065302.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	NC_083273.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	ON197133.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	OQ339149.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	OR097777.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	OR098295.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	PP666882.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	PQ330103.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	PQ838327.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	PV804729.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	QB038038.1	0	1	1	1	1	0	248
+COI_MD_original	target	WC	QB038040.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	AF063313.1	1	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	AF063363.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	AY183198.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	AY183217.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	target	WC	EU669853.1	0	0	1	1	1	0	
+COI_MD_Cidaroidea_local	target	WC	JF772882.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	JF772919.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	JQ048562.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	JQ341145.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	JX139899.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	LC863220.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	MH837530.1	0	0	1	1	1	0	
+COI_MD_Cidaroidea_local	target	WC	MN103227.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	MW147664.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_001572.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_020771.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_023255.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_023774.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_026200.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_033528.1	0	0	1	1	1	0	
+COI_MD_Cidaroidea_local	target	WC	NC_034768.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_034769.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_037785.1	0	0	1	1	1	0	
+COI_MD_Cidaroidea_local	target	WC	NC_050252.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_050272.1	1	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_050273.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_050275.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_061414.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_065299.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	NC_083273.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	OQ339146.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	OQ339149.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	OR097777.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	PQ330103.1	0	0	1	1	1	0	
+COI_MD_Cidaroidea_local	target	WC	PQ838327.1	0	0	1	1	1	0	
+COI_MD_Cidaroidea_local	target	WC	PV804729.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	QB038040.1	0	1	1	1	1	0	248
+COI_MD_Cidaroidea_local	target	WC	QB038042.1	0	1	1	1	1	0	248
+COI_SD_Cidaroidea	target	WC	AF063313.1	1	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	AF063363.1	1	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	AY183198.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	AY183217.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	AY262883.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	AY262904.1	0	1	1	1	1	1	209
+COI_SD_Cidaroidea	target	WC	EU669853.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	JF772882.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	JF772919.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	JQ048562.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	JQ341145.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	JX139899.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	JX888466.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	KC898200.2	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	KF204670.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	KF204742.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	KF204750.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	KF204786.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	KF204832.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	KF204837.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	LC863220.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MF616945.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MF616950.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	MF616960.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MF616973.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MF617024.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MF617030.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MF617079.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MF617101.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MF617103.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MH837529.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MN103227.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	MW147664.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_001572.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_009940.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_009941.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_023255.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_023771.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_023772.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_026200.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_032365.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_033528.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_033529.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_034768.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_050252.1	1	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_050272.1	1	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_050273.1	1	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_050274.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	NC_050275.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_050276.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_061414.1	0	0	1	1	1	0	
+COI_SD_Cidaroidea	target	WC	NC_065300.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_065301.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_067855.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	NC_088491.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	OQ339141.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	OQ339146.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	OQ339147.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	OQ339148.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	OQ339149.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	OR066928.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	OR097777.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	OR098295.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	PQ330103.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	PV339712.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	PV804729.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	QB038038.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	QB038039.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	QB038040.1	0	1	1	1	1	0	209
+COI_SD_Cidaroidea	target	WC	QB038041.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	AY183158.1	0	0	1	1	1	0	
+COI_SD_Echinothurioida_local	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	target	WC	JF772882.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	JF772919.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	JQ341145.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	JX888466.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	KC898200.2	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	KF204670.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	KF204786.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	KF204832.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	KF204837.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	LC863209.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	LC863220.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF616945.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF616950.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF616955.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF616960.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF616973.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF616986.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF616992.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF617024.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF617030.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF617079.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF617101.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MF617103.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MH837529.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	MW147664.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_009940.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_009941.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_020771.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_023771.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_023773.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_023774.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_024177.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_027063.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_033529.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_034768.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_034769.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_034770.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_050274.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_057116.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_061414.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_065300.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_065301.1	1	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_065302.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_067855.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_069158.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	NC_088491.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	OQ339145.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	OQ339147.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	OQ339149.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	OR097777.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	PP666882.1	0	0	1	1	1	0	
+COI_SD_Echinothurioida_local	target	WC	PQ330103.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	PV339712.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	PV804729.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	QB038039.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	QB038041.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	QB038042.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	target	WC	X80396.1	0	1	1	1	1	0	209
+COI_XSD_Cidaroidea_local	target	WC	AF063313.1	1	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	AF063363.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	AY183198.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	AY183217.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	AY262883.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	AY262904.1	0	1	1	1	1	1	151
+COI_XSD_Cidaroidea_local	target	WC	EU669853.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	JF772882.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	JF772919.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	JQ048562.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	JQ341145.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	JX139899.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	JX888466.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	KF204670.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	KF204742.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	KF204750.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	KF204786.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	KF204832.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	KF204837.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	LC863220.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	MF616945.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	MF616950.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	MF616955.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	MF616960.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	MF616973.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	MH837530.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	MN103227.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	MW147664.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_001572.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_020771.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_023255.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_023774.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_026200.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_032365.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_033522.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_033523.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_033528.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_033529.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_034767.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_034768.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_034769.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_037785.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_050252.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_050272.1	1	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_050273.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_050275.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_050276.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_061414.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_065299.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_065300.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	NC_067855.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	ON197133.1	1	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	OP494354.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	OQ339141.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	OQ339146.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	OQ339147.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	OQ339149.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	OR066928.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	OR066935.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	OR097777.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	PQ330103.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	PQ838327.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	PV804729.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	QB038038.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	QB038039.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	QB038040.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	QB038041.1	0	1	1	1	1	0	151
+COI_XSD_Cidaroidea_local	target	WC	QB038042.1	0	1	1	1	1	0	151
+COI_XSD_Echinothurioida_local	target	WC	AF063313.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	target	WC	JQ341145.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	KF204670.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	KF204832.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	KF204837.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	MF616945.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	MF616950.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	MF617024.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	MF617030.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	MF617079.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	MF617101.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	NC_009941.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	NC_023255.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	NC_024177.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	NC_037785.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	NC_065301.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	NC_065302.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	NC_083273.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	OQ339147.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	OQ339149.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	PV339712.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	QB038039.1	0	1	1	1	1	0	152
+COI_XSD_Echinothurioida_local	target	WC	QB038041.1	0	1	1	1	1	0	152
+COI_M_Cidaroidea_shift0	target	WC	AF063313.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	AF063363.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	AY183198.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	AY183217.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	target	WC	EU669853.1	0	0	1	1	1	0	
+COI_M_Cidaroidea_shift0	target	WC	JX139899.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	MH837530.1	0	0	1	1	1	0	
+COI_M_Cidaroidea_shift0	target	WC	MN103227.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	MW147664.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	NC_001572.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	NC_023255.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	NC_026200.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	NC_034768.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	NC_050252.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	NC_050272.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	NC_050273.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	OQ339146.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	OQ339149.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	PQ838327.1	0	0	1	1	1	0	
+COI_M_Cidaroidea_shift0	target	WC	PV804729.1	0	1	1	1	1	0	251
+COI_M_Cidaroidea_shift0	target	WC	QB038042.1	0	1	1	1	1	0	251
+COI_XS_Echinothurioida_shift0	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	target	WC	KF204670.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	KF204837.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	MF616955.1	0	0	1	1	1	0	
+COI_XS_Echinothurioida_shift0	target	WC	MF616960.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	MF616973.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	NC_065300.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	NC_065301.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	NC_065302.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	OQ339149.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	PV339712.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	QB038039.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	QB038041.1	0	1	1	1	1	0	134
+COI_XS_Echinothurioida_shift0	target	WC	QB038042.1	0	0	1	1	1	0	
+COI_S_Holasteroida_shift5	target	WC	JQ341145.1	0	1	1	1	1	0	177
+COI_S_Holasteroida_shift5	target	WC	NC_033528.1	0	1	1	1	1	0	177
+COI_S_Holasteroida_shift5	target	WC	NC_083273.1	0	1	1	1	1	0	177
+COI_S_Holasteroida_shift5	target	WC	QB038038.1	1	1	1	1	1	0	177
+COI_S_Holasteroida_shift5	target	WC	QB038039.1	0	1	1	1	1	0	177
+COI_S_Holasteroida_shift5	target	WC	QB038040.1	0	1	1	1	1	0	177
+COI_S_Holasteroida_shift5	target	WC	QB038041.1	0	1	1	1	1	0	177
+COI_S_Holasteroida_shift5	target	WC	QB038042.1	1	1	1	1	1	0	177
+COI_S_genus_Lytechinus_shift0	target	WC	AY183158.1	1	1	1	1	1	0	262
+COI_S_genus_Lytechinus_shift0	target	WC	AY183198.1	1	1	1	1	1	0	262
+COI_S_genus_Lytechinus_shift0	target	WC	AY183217.1	1	1	1	1	1	0	262
+COI_S_genus_Lytechinus_shift0	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_S_genus_Lytechinus_shift0	target	WC	NC_024177.1	0	0	1	1	1	0	
+COI_S_genus_Lytechinus_shift0	target	WC	NC_037785.1	0	1	1	1	1	0	262
+COI_S_genus_Lytechinus_shift0	target	WC	PP666882.1	1	1	1	1	1	0	262
+COI_S_genus_Echinometra_shift6	target	WC	AY262883.1	0	1	1	1	1	0	254
+COI_S_genus_Echinometra_shift6	target	WC	AY262904.1	1	1	1	1	1	1	254
+COI_S_genus_Echinometra_shift6	target	WC	JQ048562.1	0	1	1	1	1	0	254
+COI_S_genus_Echinometra_shift6	target	WC	LC863220.1	0	1	1	1	1	0	254
+COI_S_genus_Echinometra_shift6	target	WC	NC_023774.1	0	0	1	1	1	0	
+COI_S_genus_Echinometra_shift6	target	WC	NC_034767.1	1	1	1	1	1	0	254
+COI_S_genus_Echinometra_shift6	target	WC	NC_065301.1	0	0	1	1	1	0	
+COI_S_genus_Echinometra_shift6	target	WC	OR097777.1	1	1	1	1	1	0	254
+COI_S_genus_Clypeaster_shift6	target	WC	AF063313.1	0	0	1	1	1	0	
+COI_S_genus_Clypeaster_shift6	target	WC	AY262883.1	0	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	EU669853.1	1	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	JQ341145.1	0	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	JX888466.1	0	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	MF616950.1	0	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	MH837530.1	0	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	NC_023774.1	0	0	1	1	1	0	
+COI_S_genus_Clypeaster_shift6	target	WC	NC_034768.1	0	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	NC_050276.1	0	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	OQ339141.1	0	1	1	1	1	0	170
+COI_S_genus_Clypeaster_shift6	target	WC	OQ339146.1	0	0	1	1	1	0	
+COI_S_genus_Clypeaster_shift6	target	WC	PQ838327.1	1	1	1	1	1	0	170
+COI_S_genus_Temnopleurus_shift1	target	WC	AY262904.1	0	0	0	0	0	1	
+COI_S_genus_Temnopleurus_shift1	target	WC	NC_023771.1	0	1	1	1	1	0	288
+COI_S_genus_Temnopleurus_shift1	target	WC	NC_026200.1	1	1	1	1	1	0	288
+COI_S_genus_Temnopleurus_shift1	target	WC	NC_033529.1	0	1	1	1	1	0	288
+COI_S_genus_Temnopleurus_shift1	target	WC	NC_033530.1	0	1	1	1	1	0	288
+COI_XS_original	background	WC	AF217379.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	AY370753.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	AY370757.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	DQ077927.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_XS_original	background	WC	FJ195695.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	FJ195725.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	FJ195727.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	MH507076.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	MK050109.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	MN793975.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	MT444497.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	NC_005929.1	0	0	0	1	1	0	
+COI_XS_original	background	WC	NC_039982.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	NC_051928.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	NC_051929.1	0	0	0	1	1	0	
+COI_XS_original	background	WC	NC_057437.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	NC_059759.1	0	0	0	1	1	0	
+COI_XS_original	background	WC	NC_065088.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	NC_087785.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	OQ564504.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	PV998923.1	0	0	0	1	1	0	
+COI_XS_original	background	WC	PZ343778.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	PZ510019.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	PZ522129.1	0	0	0	0	1	0	
+COI_XS_original	background	WC	QB030209.1	0	0	0	0	1	0	
+COI_XS_original	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_XS_original	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_XS_original	background	GT	NC_051929.1	0	1	1	1	1	0	152
+COI_XSD_original	background	WC	AF217379.1	0	0	0	0	0	1	
+COI_XSD_original	background	WC	AY370753.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	AY370757.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_XSD_original	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_XSD_original	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_XSD_original	background	WC	DQ077927.1	0	0	0	0	1	1	
+COI_XSD_original	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_XSD_original	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_XSD_original	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_XSD_original	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_XSD_original	background	WC	FJ195695.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	FJ195725.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	FJ195727.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	LC704718.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	LC913548.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	MH507076.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	MK050109.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	MK947912.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	MN793975.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	MT444497.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	MZ305458.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	NC_005929.1	0	0	0	1	1	0	
+COI_XSD_original	background	WC	NC_029699.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	NC_039982.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	NC_051928.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	NC_051929.1	0	0	0	1	1	0	
+COI_XSD_original	background	WC	NC_057437.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	NC_059759.1	0	0	0	1	1	0	
+COI_XSD_original	background	WC	NC_065088.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	NC_087784.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	NC_087785.1	0	0	0	1	1	0	
+COI_XSD_original	background	WC	ON341655.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	OQ564504.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	PP853087.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	PV998923.1	0	0	0	1	1	0	
+COI_XSD_original	background	WC	PZ343778.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	PZ510019.1	0	0	0	1	1	0	
+COI_XSD_original	background	WC	PZ522129.1	0	0	0	0	1	0	
+COI_XSD_original	background	WC	QB030209.1	0	0	0	0	1	0	
+COI_XSD_original	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_XSD_original	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_XSD_original	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_XSD_original	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_XSD_original	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_XSD_original	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_XSD_original	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_XSD_original	background	GT	DQ077934.1	0	0	0	0	0	1	
+COI_XSD_original	background	GT	NC_051929.1	0	1	1	1	1	0	152
+COI_S_original	background	WC	AF217386.1	0	0	0	0	1	0	
+COI_S_original	background	WC	AH009999.2	0	0	0	1	1	0	
+COI_S_original	background	WC	AY370757.1	0	0	0	1	1	0	
+COI_S_original	background	WC	AY370761.1	0	0	0	0	1	0	
+COI_S_original	background	WC	DQ077916.1	0	0	0	0	1	0	
+COI_S_original	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_S_original	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_S_original	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_S_original	background	WC	DQ077927.1	0	0	0	1	1	1	
+COI_S_original	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_S_original	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_S_original	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_S_original	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_S_original	background	WC	FJ195653.1	0	0	0	0	1	0	
+COI_S_original	background	WC	FJ195655.1	0	0	0	0	1	0	
+COI_S_original	background	WC	FJ195657.1	0	0	0	0	1	0	
+COI_S_original	background	WC	FJ195661.1	0	0	0	0	1	0	
+COI_S_original	background	WC	FJ195662.1	0	0	0	0	1	0	
+COI_S_original	background	WC	FJ195695.1	0	0	0	1	1	0	
+COI_S_original	background	WC	FJ195724.1	0	0	0	0	1	0	
+COI_S_original	background	WC	FJ195725.1	0	0	0	1	1	0	
+COI_S_original	background	WC	FJ195727.1	0	0	0	1	1	0	
+COI_S_original	background	WC	KU895452.1	0	0	0	0	0	1	
+COI_S_original	background	WC	LC505032.1	0	0	0	0	1	0	
+COI_S_original	background	WC	LC592775.1	0	0	0	0	1	0	
+COI_S_original	background	WC	MH507076.1	0	0	0	0	1	0	
+COI_S_original	background	WC	MK050109.1	0	0	0	0	1	0	
+COI_S_original	background	WC	MK947912.1	0	0	0	0	1	0	
+COI_S_original	background	WC	MN052674.1	0	0	0	0	1	0	
+COI_S_original	background	WC	MT079801.1	0	0	0	0	1	0	
+COI_S_original	background	WC	MT444497.1	0	0	0	1	1	0	
+COI_S_original	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_006666.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_029699.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_039982.1	0	0	0	1	1	0	
+COI_S_original	background	WC	NC_042741.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_051928.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_051929.1	0	0	0	1	1	0	
+COI_S_original	background	WC	NC_051967.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_054229.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_057437.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_058589.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_065088.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_087784.1	0	0	0	0	1	0	
+COI_S_original	background	WC	NC_087785.1	0	0	0	0	1	0	
+COI_S_original	background	WC	PQ424533.1	0	0	0	0	1	0	
+COI_S_original	background	WC	PV535852.1	0	0	0	0	1	0	
+COI_S_original	background	WC	PV998923.1	0	0	0	0	1	0	
+COI_S_original	background	WC	PX413461.1	0	0	0	0	1	0	
+COI_S_original	background	WC	PZ343778.1	0	0	0	1	1	0	
+COI_S_original	background	WC	PZ510019.1	0	0	0	0	1	0	
+COI_S_original	background	WC	PZ522129.1	0	0	0	0	1	0	
+COI_S_original	background	WC	QB030209.1	0	0	0	1	1	0	
+COI_S_original	background	WC	U50047.1	0	0	0	0	1	0	
+COI_S_original	background	WC	U50051.1	0	0	0	0	1	0	
+COI_S_original	background	WC	U50057.1	0	0	0	0	1	0	
+COI_S_original	background	WC	U50059.1	0	0	0	0	1	0	
+COI_S_original	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_S_original	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_S_original	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_S_original	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_S_original	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_S_original	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_S_original	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_SD_original	background	WC	AB758826.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	AF217379.1	0	0	0	0	0	1	
+COI_SD_original	background	WC	AF217386.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	AF217390.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	AH009981.2	0	0	0	0	1	0	
+COI_SD_original	background	WC	AH009999.2	0	0	0	1	1	0	
+COI_SD_original	background	WC	AY370749.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	AY370755.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	AY370757.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	AY370761.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	DQ077915.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	DQ077916.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_SD_original	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_SD_original	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_SD_original	background	WC	DQ077927.1	0	0	0	1	1	1	
+COI_SD_original	background	WC	DQ077928.1	0	0	0	0	1	1	
+COI_SD_original	background	WC	DQ077930.1	0	0	0	0	1	1	
+COI_SD_original	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_SD_original	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_SD_original	background	WC	FJ195653.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195655.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195657.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195661.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195662.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	FJ195680.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	FJ195685.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195689.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195695.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195699.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	FJ195716.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	FJ195718.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	FJ195721.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195722.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195723.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	FJ195724.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195725.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195727.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	FJ195735.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	KU895160.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	KU895452.1	0	0	0	0	0	1	
+COI_SD_original	background	WC	LC505032.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	LC592775.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	MH507076.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	MK050109.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	MK617312.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	MK947912.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	MN052674.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	MT079801.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	MT444497.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	MZ305458.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_006664.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_006666.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	NC_026727.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_029699.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	NC_039982.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	NC_042741.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_051928.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	NC_051929.1	0	1	1	1	1	0	209
+COI_SD_original	background	WC	NC_051967.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_054227.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	NC_054229.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_057223.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_057437.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_058589.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_063669.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_065088.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_071876.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	NC_087784.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	NC_087785.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	PQ424528.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	PQ424533.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	PV535852.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	PV804726.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	PV998923.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	PX413461.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	PZ343778.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	PZ510019.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	PZ522129.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	QB030209.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	U50045.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	U50047.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	U50051.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	U50057.1	0	0	0	1	1	0	
+COI_SD_original	background	WC	U50059.1	0	0	0	0	1	0	
+COI_SD_original	background	WC	U50060.1	0	0	0	0	1	0	
+COI_SD_original	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_SD_original	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_SD_original	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_SD_original	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_SD_original	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_SD_original	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_SD_original	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_SD_original	background	GT	DQ077934.1	0	0	0	0	0	1	
+COI_SD_original	background	GT	NC_051929.1	0	1	1	1	1	0	209
+COI_M_original	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_M_original	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_M_original	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_M_original	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_M_original	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_M_original	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_M_original	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_M_original	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_M_original	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_M_original	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	AF217379.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	AY370753.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	AY370757.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_MD_original	background	WC	FJ195695.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	FJ195725.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	MH507076.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	MK050109.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	MN793975.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	MT444497.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	MZ305458.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	NC_029699.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	NC_039982.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	NC_051928.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	NC_057437.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	NC_065088.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	NC_087785.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	OQ564504.1	0	0	0	0	1	0	
+COI_MD_original	background	WC	QB030209.1	0	0	0	0	1	0	
+COI_MD_original	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_MD_original	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	AY370746.1	0	0	0	0	1	0	
+COI_MD_Cidaroidea_local	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	DQ077927.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	WC	LC913548.1	0	0	0	0	1	0	
+COI_MD_Cidaroidea_local	background	WC	MN052674.1	0	0	0	0	1	0	
+COI_MD_Cidaroidea_local	background	WC	MZ305458.1	0	0	0	0	1	0	
+COI_MD_Cidaroidea_local	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_MD_Cidaroidea_local	background	WC	NC_007789.1	0	0	0	0	1	0	
+COI_MD_Cidaroidea_local	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_MD_Cidaroidea_local	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_MD_Cidaroidea_local	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	WC	AF217392.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	AH009999.2	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	AY370746.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	AY370757.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	DQ077916.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	WC	DQ077927.1	0	0	0	0	1	1	
+COI_SD_Cidaroidea	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	WC	DQ377828.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	FJ195695.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	FJ195699.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	FJ195725.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	FJ195727.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	KP638324.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	KP768175.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	KU895045.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	LC566216.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	LC913548.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	MK617317.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	MK947912.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	MN052674.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	MT444497.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	MZ305458.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	NC_001627.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	NC_007689.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	NC_007789.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	NC_010692.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	NC_039982.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	NC_051929.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	NC_068252.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	NC_068254.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	NC_068797.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	NC_083190.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	OR345518.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	PP853087.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	PQ424530.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	PQ424532.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	PV998923.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	PZ343778.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	PZ510019.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	QB030203.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	QB030209.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	QB030216.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	U50045.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	U50053.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	U50054.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	U50055.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	WC	U50056.1	0	0	0	0	1	0	
+COI_SD_Cidaroidea	background	WC	U50060.1	0	0	0	1	1	0	
+COI_SD_Cidaroidea	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_SD_Cidaroidea	background	GT	PP853087.1	0	1	1	1	1	0	209
+COI_SD_Echinothurioida_local	background	WC	AF217379.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	AF217391.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	AY370752.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	DQ077927.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	WC	KF770038.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	NC_051929.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	NC_051967.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	NC_054225.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	NC_054229.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	NC_054230.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	PZ510019.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	WC	U50059.1	0	0	0	0	1	0	
+COI_SD_Echinothurioida_local	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_SD_Echinothurioida_local	background	GT	DQ077934.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	AY370746.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	DQ077927.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	WC	LC913548.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	MN052674.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	MZ305458.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	NC_007789.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	NC_051929.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	PP853087.1	0	0	0	1	1	0	
+COI_XSD_Cidaroidea_local	background	WC	PV998923.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	WC	PZ510019.1	0	0	0	0	1	0	
+COI_XSD_Cidaroidea_local	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_XSD_Cidaroidea_local	background	GT	DQ077934.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	AF217379.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	AF217380.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	DQ077927.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	WC	LC704718.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	WC	NC_051929.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	WC	NC_051967.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	WC	PP853087.1	0	0	0	1	1	0	
+COI_XSD_Echinothurioida_local	background	WC	PV998923.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	WC	PZ510019.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	WC	U50059.1	0	0	0	0	1	0	
+COI_XSD_Echinothurioida_local	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_XSD_Echinothurioida_local	background	GT	DQ077934.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	AH009999.2	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	AY370746.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	DQ077927.1	0	0	0	0	1	1	
+COI_M_Cidaroidea_shift0	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	FJ195695.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	FJ195725.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	KU895452.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	WC	MN052674.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	MT444497.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	MZ305458.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	NC_007789.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	NC_039982.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	PZ343778.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	WC	QB030209.1	0	0	0	0	1	0	
+COI_M_Cidaroidea_shift0	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_M_Cidaroidea_shift0	background	GT	DQ077934.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	DQ077927.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	WC	GU327850.1	0	0	0	0	1	0	
+COI_XS_Echinothurioida_shift0	background	WC	GU327863.1	0	0	0	0	1	0	
+COI_XS_Echinothurioida_shift0	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_XS_Echinothurioida_shift0	background	WC	NC_054226.1	0	0	0	0	1	0	
+COI_XS_Echinothurioida_shift0	background	WC	PP853087.1	0	0	0	0	1	0	
+COI_XS_Echinothurioida_shift0	background	WC	PZ510019.1	0	0	0	0	1	0	
+COI_XS_Echinothurioida_shift0	background	WC	U50059.1	0	0	0	0	1	0	
+COI_XS_Echinothurioida_shift0	background	GT	DQ077917.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	GT	DQ077926.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	GT	DQ077930.1	0	0	0	0	0	1	
+COI_XS_Echinothurioida_shift0	background	GT	DQ077931.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	DQ077927.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_S_Holasteroida_shift5	background	WC	KP638324.1	0	0	0	0	1	0	
+COI_S_Holasteroida_shift5	background	WC	NC_051929.1	0	0	0	0	1	0	
+COI_S_Holasteroida_shift5	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_S_Holasteroida_shift5	background	WC	U50053.1	0	0	0	0	1	0	
+COI_S_genus_Lytechinus_shift0	background	WC	DQ077934.1	0	0	0	0	1	1	
+COI_S_genus_Clypeaster_shift6	background	WC	AY370746.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	WC	DQ077917.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	WC	DQ077927.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	WC	DQ077928.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	WC	DQ077930.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	WC	DQ077931.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	WC	DQ077934.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	WC	LC913548.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	WC	MN052674.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	WC	MZ305458.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	WC	NC_005929.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	WC	NC_007789.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	WC	NC_051929.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	WC	NC_059759.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	WC	PV998923.1	0	0	0	0	1	0	
+COI_S_genus_Clypeaster_shift6	background	GT	DQ077925.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	GT	DQ077927.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	GT	DQ077928.1	0	0	0	0	0	1	
+COI_S_genus_Clypeaster_shift6	background	GT	DQ077934.1	0	0	0	0	0	1	
+COI_S_genus_Temnopleurus_shift1	background	WC	DQ077925.1	0	0	0	0	0	1	
+COI_S_genus_Temnopleurus_shift1	background	WC	DQ077926.1	0	0	0	0	0	1	
+COI_S_genus_Temnopleurus_shift1	background	WC	DQ077928.1	0	0	0	0	0	1	

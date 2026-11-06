@@ -1,0 +1,82 @@
+{
+  "verification_date": "2026-11-06",
+  "benchmarks": [
+    {
+      "gene": "COI",
+      "source_doi": "10.1186/1742-9994-10-34",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/1742-9994-10-34.pdf",
+      "sequence_evidence": "Leray 2013 Table 1, PDF page 3, visually checked against rendered original PDF on 2026-11-06; tested combinations in Methods pages 3-4",
+      "taxonomic_scope": "Broad metazoan primer comparison, including marine invertebrates; not echinoid-specific",
+      "orientation": "5_to_3_synthesis",
+      "length_note": "Published marker fragment length; calculate actual total product and primer-trimmed insert separately in MiUrchin scans.",
+      "id": "Leray_mlCOIintF_HCO2198",
+      "F_name": "mlCOIintF",
+      "F": "GGWACWGGWTGAACWGTWTAYCCYCC",
+      "R_name": "HCO2198",
+      "R": "TAAACTTCAGGGTGACCAAAAAATCA",
+      "published_fragment_bp": 313,
+      "status": "verified_IUPAC_compatible",
+      "origin_note": "Forward designed by Leray et al.; reverse attributed to Folmer et al. 1994 or Meyer 2003 in Table 1"
+    },
+    {
+      "gene": "COI",
+      "source_doi": "10.1186/1742-9994-10-34",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/1742-9994-10-34.pdf",
+      "sequence_evidence": "Leray 2013 Table 1, PDF page 3, visually checked against rendered original PDF on 2026-11-06; tested combinations in Methods pages 3-4",
+      "taxonomic_scope": "Broad metazoan primer comparison, including marine invertebrates; not echinoid-specific",
+      "orientation": "5_to_3_synthesis",
+      "length_note": "Published marker fragment length; calculate actual total product and primer-trimmed insert separately in MiUrchin scans.",
+      "id": "Leray_mlCOIintF_dgHCO2198",
+      "F_name": "mlCOIintF",
+      "F": "GGWACWGGWTGAACWGTWTAYCCYCC",
+      "R_name": "dgHCO2198",
+      "R": "TAAACTTCAGGGTGACCAAARAAYCA",
+      "published_fragment_bp": 313,
+      "status": "verified_IUPAC_compatible",
+      "origin_note": "Forward designed by Leray et al.; reverse attributed to Folmer et al. 1994 or Meyer 2003 in Table 1"
+    },
+    {
+      "gene": "COI",
+      "source_doi": "10.1186/1471-2164-9-214",
+      "source_url": "https://link.springer.com/article/10.1186/1471-2164-9-214",
+      "sequence_evidence": "Meusnier et al. 2008 original Methods, Primer design strategy",
+      "taxonomic_scope": "Designed for broad eukaryotic COI; original experimental panel included vertebrates, insects, plants, fungi and macroalgae; no claim of echinoid-specific validation",
+      "orientation": "5_to_3_synthesis",
+      "length_note": "Published marker fragment length; calculate actual total product and primer-trimmed insert separately in MiUrchin scans.",
+      "id": "Uni_MinibarF1_R1",
+      "F_name": "Uni-MinibarF1",
+      "F": "TCCACTAATCACAARGATATTGGTAC",
+      "R_name": "Uni-MinibarR1",
+      "R": "GAAAATCATAATGAAGGCATGAGC",
+      "published_fragment_bp": 130,
+      "status": "verified_IUPAC_compatible",
+      "origin_note": "Original design sequences take precedence over Leray 2013 Table 1, which prints reversed F/R labels and C instead of G at the first base of the reverse primer."
+    },
+    {
+      "gene": "COI",
+      "source_doi": "10.1186/1742-9994-10-34",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/1742-9994-10-34.pdf",
+      "sequence_evidence": "Leray 2013 Table 1, PDF page 3, visually checked against rendered original PDF on 2026-11-06; tested combinations in Methods pages 3-4",
+      "taxonomic_scope": "Broad metazoan primer comparison, including marine invertebrates; not echinoid-specific",
+      "orientation": "5_to_3_synthesis",
+      "length_note": "Published marker fragment length; calculate actual total product and primer-trimmed insert separately in MiUrchin scans.",
+      "id": "Leray_mlCOIintF_jgHCO2198",
+      "F_name": "mlCOIintF",
+      "F": "GGWACWGGWTGAACWGTWTAYCCYCC",
+      "R_name": "jgHCO2198",
+      "R": "TAIACYTCIGGRTGICCRAARAAYCA",
+      "published_fragment_bp": 313,
+      "status": "verified_sequence_requires_explicit_inosine_model",
+      "origin_note": "Leray 2013 Table 1 attributes reverse to Geller et al.; do not silently convert I to N or treat it as ordinary DNA degeneracy"
+    }
+  ],
+  "comparison_constraints": [
+    "Use identical frozen target/background inputs and identical geometry/mismatch rules for comparison, report missing-site evaluability separately from matching failures.",
+    "Broad-metazoan primers intentionally amplify non-echinoids: background hits reflect scope differences, not by themselves failure of published primers.",
+    "The no-inosine HCO2198 and dgHCO2198 versions are legitimate published tested comparators but do not represent performance of the better-known jgHCO2198 combination.",
+    "No claim of MiUrchin superiority over the full published-primer literature is supported by this small benchmark.",
+    "The 130-bp and 313-bp fragments are not equal-length comparisons; report resolution and actual product-length trade-offs.",
+    "No 16S,12S,28S comparator is included without exact sequence verification."
+  ],
+  "correction_note": "Uni-Minibar entry corrected after detection of a discrepancy between Leray 2013 Table 1 and Meusnier 2008 original Methods. The original design source defines F1=TCCACTAATCACAARGATATTGGTAC and R1=GAAAATCATAATGAAGGCATGAGC. Leray Table 1 image itself contains the discrepancy; it is not an OCR artifact."
+}

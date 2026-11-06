@@ -1,0 +1,28 @@
+{
+  "primary_pairs": 32,
+  "supplementary_entries": 76,
+  "design_panel_median": 5.0,
+  "design_panels_le5": 41,
+  "design_panels_eq3": 22,
+  "primary_failures": [],
+  "new_external_data": false,
+  "independent_validation": false,
+  "geometry": "uniform 60-650 bp total, nonoverlapping primer sites, <=2 mismatches/end, final3 WC compatible; descriptive reanalysis not replacement of original denominators",
+  "primer3_version": "2.4.0",
+  "input_sha256": {
+    "results/catalog.json": "773534ee28858536d2e9af772ccf930b10275302ffe0dd1f9d460c78f4d1a185",
+    "scripts/scan.cpp": "9a80cf6d6561ad985986748be06a36528097fa8a1bdd81984867eff2898a0db1",
+    "data/12S/target.fasta": "2a2294714c42c28a9773074d1594386e92540f865fe9216830db5add351ce8bb",
+    "data/28S/target.fasta": "dad16f994ced3bceff12bee78bf2b093cc90dc87213c45f82ced6257e62e90b6",
+    "data/COI/target.fasta": "af63c55ab354bd5441975770a92c7157120c75c20775e27e69d25798c761d0cd",
+    "data/16S/target.fasta": "299b28526090ab90fa1aac9a8a7e900614b49867d1e455ad68399fcee49b12c8",
+    "data/12S/background.fasta": "0fbe4cd5d2340d4a69cb71913feb79664586680bbf2b47151684b9b34d790fca",
+    "data/28S/background.fasta": "7eada29744275fbc2c9d91e611adde21b11c61847cf370b39af453327a892a39",
+    "data/COI/background.fasta": "0506133fc3d0727407ab440317225c64589ef87d46426053d5185ff2d27bd58b",
+    "data/16S/background.fasta": "001049e9b953295d256ef66024e734d5f9c500f288fda6ff65a12a511db74dfa",
+    "legacy/v1.2/markers/12S_COI/12S/target_panel.csv": "e970c3666c99a71db9edfc628493d41c934950aa1e1f222faf4a666d5367d89d",
+    "legacy/v1.2/markers/12S_COI/COI/target_panel.csv": "5161c6dcf72a3042b308762f1363a4c54dae139af4dae638334fbeda5944a5d3",
+    "legacy/v1.2/analysis/target_taxonomy.tsv": "bc1af406419830d4b7539124c8041a2ccf9d470a201c29e88e80bad1f453d490",
+    "legacy/v1.2/markers/28S/target.fasta": "dad16f994ced3bceff12bee78bf2b093cc90dc87213c45f82ced6257e62e90b6"
+  }
+}

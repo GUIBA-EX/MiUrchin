@@ -1,0 +1,21 @@
+{
+  "legacy/v1.2/results/current_primers/comparison.csv": "671465cd56def3d2f5c9c06d79637948b251b106193615cc434364c18a9b3ea9",
+  "legacy/v1.2/results/current_primers/XS/XS_base_matching.csv": "4de465cc57d05a58a6c3096e0b3a17690fd08b9bebd48a06179c51edfc1659b4",
+  "legacy/v1.2/results/current_primers/XS/XSD_base_matching.csv": "2b5338a3e77e3446f57f9234fa8859770a484820929b0cc45e4228ccd7d5121f",
+  "legacy/v1.2/results/current_primers/S/S_base_matching.csv": "a1b93ac1a2e1d6cd65b68c0c3a1e115ffbeeb23adf1615a041591632d87df7d3",
+  "legacy/v1.2/results/current_primers/S/SD_base_matching.csv": "d72a2cbaf74f577e2977699b5ca6d7e47ced7280411d2840ca7081cf94e58e08",
+  "legacy/v1.2/results/current_primers/M/M_base_matching.csv": "aa6bde14545f63405c9f92e71fd0656fb21d89d2f6f99cfad2eeaeb19f75eabc",
+  "legacy/v1.2/results/current_primers/M/MD_base_matching.csv": "bb37d881a37434427057a3424afb79f3525f03c3d5c0ef8fca9500b7678a82ac",
+  "legacy/v1.2/results/current_primers/L/L_base_matching.csv": "8293a880e47a30a89b783de10c0841aee89bd3b0a5fdbb6c608be8163389e847",
+  "legacy/v1.2/results/current_primers/L/LD_base_matching.csv": "7186ea09fba1ac1d7142608d36817a282e482ae5e9e98aa06444392dad80f289",
+  "legacy/v1.2/results/current_primers/XL/XL_base_matching.csv": "d0f737dddf42ea13334ab49d5ab9f0ec2e0f6124d3955abed22bd4243146df5c",
+  "legacy/v1.2/results/current_primers/XL/XLD_base_matching.csv": "5fb40a2c66cd19efbb57667c55d11b5ba039f55c63bca0c5a2e36c2e054630d1",
+  "legacy/v1.2/markers/12S_COI/12S/aligned.fasta": "d3dd9b487ac0becc0859f612ae11859109e60be6a44dc5b6263f3724f7aea5bf",
+  "legacy/v1.2/markers/12S_COI/12S/target_panel.csv": "e970c3666c99a71db9edfc628493d41c934950aa1e1f222faf4a666d5367d89d",
+  "legacy/v1.2/markers/12S_COI/12S/pairs.csv": "6c08fb6806c4301352996cd7c90e21f661c65e638f19d1468baf4954c43dd4f5",
+  "legacy/v1.2/markers/12S_COI/COI/aligned.fasta": "529381ea2fed905082d12c3b88f0fbe7ae51c14aaccf13f79846bb8ff6b4e510",
+  "legacy/v1.2/markers/12S_COI/COI/target_panel.csv": "5161c6dcf72a3042b308762f1363a4c54dae139af4dae638334fbeda5944a5d3",
+  "legacy/v1.2/markers/12S_COI/COI/pairs.csv": "084aa5d5ba590ad53c42843a817c59d4d22124a346aa986fe7cf696b2361e5c3",
+  "legacy/v1.2/markers/28S/aligned.fa.out": "27391948040785cb43c722902612f30075040a8bb2691c10a9f368bd35ed8ded",
+  "legacy/v1.2/markers/28S/selected.csv": "750a2dd1eb241d6323d1ba994603124b65a4e3bd2f33d4b7ae4ba5dee71cad2a"
+}
